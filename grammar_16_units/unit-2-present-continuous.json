@@ -1,0 +1,165 @@
+{
+  "id": "unit-1-present-continuous",
+  "chapter": 1,
+  "title": "Present Continuous",
+  "subtitle": "Thì hiện tại tiếp diễn",
+  "bandMin": 4.0,
+  "bandTarget": 5.0,
+  "meta": {
+    "topic": "Education",
+    "speakingPart": "Part 1",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-1-simple-present",
+    "prevUnitConnection": "Unit trước bạn đã học Simple Present cho thói quen. Giờ học Present Continuous — thì này dùng cho hành động đang diễn ra hoặc thay đổi hiện tại.",
+    "nextUnitId": "unit-1-simple-past",
+    "nextUnitTitle": "Simple Past"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Present Continuous để mô tả điều đang xảy ra trong cuộc sống học tập ngay lúc này — nghe tự nhiên, phân biệt được với Simple Present.",
+      "writing": "Dùng Present Continuous để viết về xu hướng đang thay đổi trong giáo dục — cấu trúc phù hợp với Task 2 phong cách học thuật."
+    },
+    "coreRule": "Present Continuous = am/is/are + V-ing. Dùng khi: (1) hành động đang xảy ra ngay lúc nói (now, at the moment); (2) hành động tạm thời đang diễn ra trong giai đoạn này (this week, these days); (3) xu hướng đang thay đổi (getting, rising, falling); (4) kế hoạch tương lai gần đã sắp xếp. KHÔNG dùng với: think, know, want, understand, believe, love, hate.",
+    "grammarForSpeaking": {
+      "wrong": "More and more students apply for universities these days.",
+      "correct": "More and more students are applying for universities these days.",
+      "tipVi": "Khi nói về xu hướng đang thay đổi trong giai đoạn này ('these days', 'nowadays'), dùng Present Continuous chứ không dùng Simple Present. Đây là lỗi rất phổ biến trong Task 2.",
+      "bandImpact": "Phân biệt đúng Simple Present vs Present Continuous khi nói về xu hướng giúp bạn đạt Grammatical Range & Accuracy band 6.0+."
+    },
+    "quickExamples": [
+      { "en": "Many universities are updating their curricula to include AI skills.", "vi": "Nhiều trường đại học đang cập nhật chương trình học để bao gồm kỹ năng AI." },
+      { "en": "I am currently preparing for my IELTS exam next month.", "vi": "Hiện tôi đang chuẩn bị cho kỳ thi IELTS vào tháng tới." },
+      { "en": "The number of international students is rising every year.", "vi": "Số lượng sinh viên quốc tế đang tăng lên mỗi năm." }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "I am wanting to study abroad next year.",
+        "correct": "I want to study abroad next year.",
+        "explanationVi": "'Want' là động từ chỉ trạng thái tâm lý, không dùng dạng -ing. Các động từ tương tự: know, think, believe, understand, love, hate."
+      },
+      {
+        "incorrect": "She is study for her final exams this week.",
+        "correct": "She is studying for her final exams this week.",
+        "explanationVi": "Cấu trúc Present Continuous bắt buộc là: be + V-ing. Thiếu -ing là lỗi cấu trúc cơ bản nhất."
+      },
+      {
+        "incorrect": "The education system improve a lot these days.",
+        "correct": "The education system is improving a lot these days.",
+        "explanationVi": "'These days' là tín hiệu của xu hướng đang thay đổi → cần Present Continuous 'is improving', không phải Simple Present."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-pc-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu nào đúng khi nói về điều đang xảy ra ngay lúc này trong lớp học?",
+        "options": [
+          "The teacher explains the grammar rule right now.",
+          "The teacher is explaining the grammar rule right now.",
+          "The teacher explaining the grammar rule right now.",
+          "The teacher is explain the grammar rule right now."
+        ],
+        "correctAnswer": "The teacher is explaining the grammar rule right now.",
+        "feedbackCorrect": "Đúng! 'Right now' báo hiệu hành động đang xảy ra ngay lúc này → Present Continuous: is + explaining.",
+        "feedbackWrong": "'Right now' = đang xảy ra → cần is/am/are + V-ing. 'Explaining' không thể đứng một mình, cần có 'is' trước.",
+        "ieltsTip": "Từ tín hiệu Present Continuous: now, right now, at the moment, currently, at present, these days, nowadays.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-pc-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Chọn câu ĐÚNG để hoàn thành đoạn Task 2: 'Online education _____ increasingly popular as technology advances.'",
+        "options": [
+          "is becoming",
+          "becomes",
+          "becoming",
+          "are becoming"
+        ],
+        "correctAnswer": "is becoming",
+        "feedbackCorrect": "Chính xác! 'Online education' là số ít, xu hướng đang thay đổi → 'is becoming'. Đây là cấu trúc Task 2 rất hay!",
+        "feedbackWrong": "'Online education' là chủ ngữ số ít + xu hướng đang thay đổi → 'is becoming' (không phải 'are becoming' hay chỉ 'becomes').",
+        "ieltsTip": "Task 2 hay dùng: 'is becoming', 'is growing', 'is rising', 'is declining' để mô tả xu hướng — đây là dấu hiệu của văn phong học thuật.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-pc-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Tìm và sửa lỗi: 'Nowadays, more parents are choosing homeschooling because they are think the traditional school system is not flexible enough.'",
+        "options": [
+          "are thinking → think (không dùng -ing với 'think')",
+          "are choosing → choose (không dùng -ing với 'choose')",
+          "is not → are not (chia số nhiều)",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "are thinking → think (không dùng -ing với 'think')",
+        "feedbackCorrect": "Chính xác! 'Think' là stative verb (động từ chỉ trạng thái nhận thức) → không dùng dạng -ing. Phải dùng 'they think'. Nhưng 'are choosing' thì đúng vì 'choose' là action verb.",
+        "feedbackWrong": "'Think' thuộc nhóm động từ KHÔNG dùng -ing: think, know, believe, understand, want, need, love, hate, seem, appear.",
+        "ieltsTip": "Lỗi 'I am thinking that...' vs 'I think that...' — giám khảo Speaking nhận ra ngay. 'I think' là cố định, không đổi.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-pc-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng dạng động từ: 'According to recent data, the gap between rich and poor students _____ (widen), while the government _____ (invest) more in public schools to address this issue.'",
+        "options": [
+          "is widening / is investing",
+          "widens / invests",
+          "is widening / invests",
+          "widens / is investing"
+        ],
+        "correctAnswer": "is widening / is investing",
+        "feedbackCorrect": "Xuất sắc! Cả hai đều là xu hướng đang diễn ra hiện tại → cả hai dùng Present Continuous. Câu này đạt chuẩn Task 2 band 6.0.",
+        "feedbackWrong": "Cả hai hành động đều mô tả xu hướng đang thay đổi trong giai đoạn hiện tại → cả hai cần is/are + V-ing.",
+        "ieltsTip": "Trong Task 2, cặp câu 'The problem is growing... while the government is trying...' cho thấy bạn nắm tốt ngữ pháp thì hiện tại.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-pc-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Ghép các từ thành câu Task 2 hoàn chỉnh, tự nhiên: [traditional / are / universities / rethinking / many / their / teaching / approach]",
+        "options": [
+          "Many traditional universities are rethinking their teaching approach.",
+          "Many universities traditional are their teaching approach rethinking.",
+          "Traditional many universities are rethinking approach their teaching.",
+          "Are many traditional universities rethinking their teaching approach."
+        ],
+        "correctAnswer": "Many traditional universities are rethinking their teaching approach.",
+        "feedbackCorrect": "Tuyệt vời! Cấu trúc hoàn hảo: Many + adj + noun [chủ ngữ] + are rethinking [Present Continuous] + their teaching approach [tân ngữ]. Đây là câu Task 2 band 6.5!",
+        "feedbackWrong": "Trật tự chuẩn tiếng Anh: Many traditional universities [chủ ngữ] + are rethinking [động từ Present Continuous] + their teaching approach [tân ngữ].",
+        "ieltsTip": "Cấu trúc 'Many + noun + are + V-ing' rất phổ biến trong mở bài Task 2. Học thuộc: 'Many schools are moving toward...', 'Many countries are investing in...'",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 về một xu hướng đang thay đổi trong giáo dục Việt Nam hiện nay. Bắt buộc dùng Present Continuous.",
+      "placeholder": "Ví dụ: The number of students learning English online is growing rapidly because...",
+      "grammarMustUse": "present continuous",
+      "wordLimit": 30,
+      "modelAnswer": "The number of Vietnamese students learning English online is growing rapidly, as digital platforms are making quality education more accessible.",
+      "modelBand": 5.0
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 1 — Examiner hỏi: 'What are you doing to improve your English right now?' Trả lời 2-3 câu. Dùng Present Continuous.",
+      "timeLimit": 30,
+      "grammarTargets": ["present continuous", "stative verbs"],
+      "modelAnswer": "Right now, I am focusing on improving my vocabulary and listening skills. I am taking an online IELTS preparation course and watching English videos every day. I think it is helping me build confidence gradually.",
+      "modelBand": 5.0
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-1-simple-past",
+    "nextUnitTitle": "Simple Past",
+    "nextUnitConnection": "Bạn đã nắm hai thì hiện tại. Unit tiếp theo — Simple Past — sẽ giúp bạn kể về trải nghiệm học tập trong quá khứ, rất cần cho Speaking Part 2 (kể chuyện)."
+  }
+}

@@ -1,0 +1,288 @@
+[
+  {
+    "code": "ART-001",
+    "title": "Zero article with uncountable and plural nouns",
+    "description": "Do not use 'a/an' or 'the' before general uncountable nouns or plural nouns when referring to the concept in general.",
+    "examples": {
+      "wrong": ["a information", "the informations", "a advice", "the violence is increasing"],
+      "correct": ["information", "advice", "violence is increasing"]
+    },
+    "errorType": "ARTICLE",
+    "unitIndex": 1
+  },
+  {
+    "code": "ART-002",
+    "title": "Definite article with specific reference",
+    "description": "Use 'the' when both writer and reader know which specific thing is being referred to — typically on second mention, or when there is only one of the thing.",
+    "examples": {
+      "wrong": ["A government should invest in education. A government also..."],
+      "correct": ["A government should invest in education. The government also..."]
+    },
+    "errorType": "ARTICLE",
+    "unitIndex": 1
+  },
+  {
+    "code": "ART-003",
+    "title": "No article before proper nouns and most country names",
+    "description": "Do not use 'the' before most country names, continents, cities, or people's names. Exceptions: the USA, the UK, the Philippines.",
+    "examples": {
+      "wrong": ["the Vietnam exports rice", "the Asia is growing"],
+      "correct": ["Vietnam exports rice", "Asia is growing", "The UK imports gas"]
+    },
+    "errorType": "ARTICLE",
+    "unitIndex": 1
+  },
+  {
+    "code": "TENSE-001",
+    "title": "Simple past for completed events in IELTS Task 1",
+    "description": "When describing data at a fixed point in the past, use the simple past tense, not the present or present perfect.",
+    "examples": {
+      "wrong": ["The figure reaches a peak in 2010", "Sales have peaked in 2015"],
+      "correct": ["The figure reached a peak in 2010", "Sales peaked in 2015"]
+    },
+    "errorType": "TENSE",
+    "unitIndex": 2
+  },
+  {
+    "code": "TENSE-002",
+    "title": "Present simple for timeless facts and opinions",
+    "description": "Use the present simple to state general truths, ongoing situations without a time anchor, or the writer's opinion.",
+    "examples": {
+      "wrong": ["Education played a crucial role in development", "Governments had a duty to protect citizens"],
+      "correct": ["Education plays a crucial role in development", "Governments have a duty to protect citizens"]
+    },
+    "errorType": "TENSE",
+    "unitIndex": 2
+  },
+  {
+    "code": "TENSE-003",
+    "title": "Future forms for predictions and trends",
+    "description": "Use 'will + verb', 'is likely to', or 'is expected to' for predictions. Avoid the present simple for future reference without a time adverb.",
+    "examples": {
+      "wrong": ["The population increases to 10 billion by 2050"],
+      "correct": ["The population will increase to 10 billion by 2050", "The population is expected to reach 10 billion by 2050"]
+    },
+    "errorType": "TENSE",
+    "unitIndex": 3
+  },
+  {
+    "code": "SVA-001",
+    "title": "Singular verb after 'the number of'",
+    "description": "'The number of + plural noun' takes a singular verb. Compare with 'a number of + plural noun', which takes a plural verb.",
+    "examples": {
+      "wrong": ["The number of students are increasing", "The number of cars have risen"],
+      "correct": ["The number of students is increasing", "A number of cars have been recalled"]
+    },
+    "errorType": "SVA",
+    "unitIndex": 4
+  },
+  {
+    "code": "SVA-002",
+    "title": "Verb agreement with collective and abstract nouns",
+    "description": "Abstract nouns (government, society, data, research) and collective nouns are usually singular in IELTS academic writing.",
+    "examples": {
+      "wrong": ["The government have decided", "The data show that crime are rising"],
+      "correct": ["The government has decided", "The data show that crime is rising"]
+    },
+    "errorType": "SVA",
+    "unitIndex": 4
+  },
+  {
+    "code": "PREP-001",
+    "title": "Adjective + preposition fixed collocations",
+    "description": "Many adjectives require a fixed preposition. Memorise the most common: interested IN, responsible FOR, dependent ON, associated WITH, concerned ABOUT, related TO.",
+    "examples": {
+      "wrong": ["interested on", "responsible of", "dependent of", "associated to"],
+      "correct": ["interested in technology", "responsible for the outcome", "dependent on imports", "associated with crime"]
+    },
+    "errorType": "PREPOSITION",
+    "unitIndex": 5
+  },
+  {
+    "code": "PREP-002",
+    "title": "Verb + preposition fixed collocations",
+    "description": "Common verb-preposition pairs to memorise: contribute TO, invest IN, depend ON, focus ON, lead TO, result IN, consist OF, differ FROM.",
+    "examples": {
+      "wrong": ["contribute in the economy", "result to higher crime", "consist in three parts"],
+      "correct": ["contribute to the economy", "result in higher crime", "consist of three parts"]
+    },
+    "errorType": "PREPOSITION",
+    "unitIndex": 5
+  },
+  {
+    "code": "WF-001",
+    "title": "Noun vs. verb form after modal and auxiliary verbs",
+    "description": "After modal verbs (can, should, must, will) and after 'to', always use the base verb form — not a noun or adjective.",
+    "examples": {
+      "wrong": ["governments should the economy growth", "policies can a reduction of crime", "we need to the improvement of"],
+      "correct": ["governments should grow the economy", "policies can reduce crime", "we need to improve"]
+    },
+    "errorType": "WORD_FORM",
+    "unitIndex": 6
+  },
+  {
+    "code": "WF-002",
+    "title": "Correct derivational form (noun/verb/adjective/adverb)",
+    "description": "Each word family has distinct suffixes. Using the wrong form is a common lexical error: economy (n) / economic (adj) / economically (adv) / economise (v).",
+    "examples": {
+      "wrong": ["the economy grow of China", "a significance increase", "children learn more effective"],
+      "correct": ["the economic growth of China", "a significant increase", "children learn more effectively"]
+    },
+    "errorType": "WORD_FORM",
+    "unitIndex": 6
+  },
+  {
+    "code": "SS-001",
+    "title": "Avoiding the 'Although…, but…' double connector error",
+    "description": "A clause beginning with 'although', 'while', 'even though' is subordinate — it cannot also use 'but', 'however', or 'yet' as a second connector in the same sentence.",
+    "examples": {
+      "wrong": ["Although the economy grew, but unemployment remained high", "While wages rose, however living costs also increased"],
+      "correct": ["Although the economy grew, unemployment remained high", "While wages rose, living costs also increased"]
+    },
+    "errorType": "SENTENCE_STRUCTURE",
+    "unitIndex": 7
+  },
+  {
+    "code": "SS-002",
+    "title": "Avoiding run-on sentences and comma splices",
+    "description": "Two independent clauses cannot be joined by a comma alone. Use a full stop, a semicolon, or a coordinating conjunction (and, but, so, yet).",
+    "examples": {
+      "wrong": ["Crime increased sharply, the government introduced new laws", "The graph shows a rise, it then falls in 2015"],
+      "correct": ["Crime increased sharply, so the government introduced new laws", "The graph shows a rise; it then falls in 2015"]
+    },
+    "errorType": "SENTENCE_STRUCTURE",
+    "unitIndex": 7
+  },
+  {
+    "code": "PUNCT-001",
+    "title": "Comma after sentence-initial adverbials",
+    "description": "When a sentence begins with a conjunctive adverb (However, Therefore, Furthermore, In addition, As a result, Nevertheless), it must be followed by a comma.",
+    "examples": {
+      "wrong": ["However the rate declined", "Therefore governments should act", "Furthermore education is important"],
+      "correct": ["However, the rate declined", "Therefore, governments should act", "Furthermore, education is important"]
+    },
+    "errorType": "PUNCTUATION",
+    "unitIndex": 8
+  },
+  {
+    "code": "SP-001",
+    "title": "Uncountable nouns that cannot be pluralised",
+    "description": "These common IELTS nouns have no plural form: information, advice, research, evidence, knowledge, furniture, equipment, money, traffic, homework, news, progress.",
+    "examples": {
+      "wrong": ["many informations", "several researches show", "the evidences suggest", "these advices"],
+      "correct": ["much information", "several studies show", "the evidence suggests", "this advice"]
+    },
+    "errorType": "SINGULAR_PLURAL",
+    "unitIndex": 9
+  },
+  {
+    "code": "SP-002",
+    "title": "Irregular plurals and always-plural nouns",
+    "description": "Some nouns have irregular plurals (criterion/criteria, phenomenon/phenomena, medium/media). Some are always plural (police, people, cattle).",
+    "examples": {
+      "wrong": ["the criterias for success", "the phenomenons of globalisation", "the medias"],
+      "correct": ["the criteria for success", "the phenomena of globalisation", "the media"]
+    },
+    "errorType": "SINGULAR_PLURAL",
+    "unitIndex": 9
+  },
+  {
+    "code": "COL-001",
+    "title": "Verb-noun collocations: 'make' vs 'do' vs 'take'",
+    "description": "Common verb-noun collocations are fixed. Mistakes with make/do/take/have are frequent in IELTS essays.",
+    "examples": {
+      "wrong": ["do a decision", "make a research", "take a progress", "do an effort"],
+      "correct": ["make a decision", "do research / conduct research", "make progress", "make an effort"]
+    },
+    "errorType": "COLLOCATION",
+    "unitIndex": 10
+  },
+  {
+    "code": "COL-002",
+    "title": "Adjective-noun collocations: strong vs heavy vs high",
+    "description": "Many adjective-noun pairings are fixed in English. 'Strong', 'heavy', and 'high' are commonly confused.",
+    "examples": {
+      "wrong": ["strong rain", "high effort", "heavy smoker impact", "strong traffic"],
+      "correct": ["heavy rain", "great effort / considerable effort", "heavy smoker", "heavy traffic"]
+    },
+    "errorType": "COLLOCATION",
+    "unitIndex": 10
+  },
+  {
+    "code": "PRO-001",
+    "title": "Pronoun-antecedent agreement and reference clarity",
+    "description": "A pronoun must clearly refer to one specific noun and agree with it in number and gender. Avoid vague 'they' or 'it' when the referent is unclear.",
+    "examples": {
+      "wrong": ["The government said they would reduce taxes", "Society must do their part", "When a student fails, they are blamed by teachers, who they rarely acknowledge"],
+      "correct": ["The government said it would reduce taxes", "Society must do its part"]
+    },
+    "errorType": "PRONOUN",
+    "unitIndex": 11
+  },
+  {
+    "code": "MOD-001",
+    "title": "Avoiding dangling and misplaced modifiers",
+    "description": "A participial phrase at the start of a sentence must describe the subject of the main clause. If it does not, the result is a dangling modifier.",
+    "examples": {
+      "wrong": ["Being a developing country, the economy faces many challenges", "Having studied the graph, a clear trend can be seen"],
+      "correct": ["Being a developing country, Vietnam faces many economic challenges", "Having studied the graph, we can see a clear trend"]
+    },
+    "errorType": "MODIFIER",
+    "unitIndex": 12
+  },
+  {
+    "code": "COMP-001",
+    "title": "Double comparatives and superlatives",
+    "description": "Never combine 'more/most' with an '-er/-est' adjective. Use one or the other.",
+    "examples": {
+      "wrong": ["more higher", "more better", "the most cheapest", "more easier to understand"],
+      "correct": ["higher", "better", "the cheapest", "easier to understand"]
+    },
+    "errorType": "COMPARATIVE",
+    "unitIndex": 13
+  },
+  {
+    "code": "COMP-002",
+    "title": "Parallel structure in comparisons",
+    "description": "When comparing two things with 'as…as' or 'than', both sides must be grammatically parallel. Also avoid 'as…than' and 'more…as'.",
+    "examples": {
+      "wrong": ["as fast than", "more effective as", "the rate in 2020 is higher than 2015", "China's rate compared to it rose faster than India"],
+      "correct": ["as fast as", "more effective than", "the rate in 2020 is higher than that in 2015"]
+    },
+    "errorType": "COMPARATIVE",
+    "unitIndex": 13
+  },
+  {
+    "code": "SS-003",
+    "title": "Relative clause punctuation: defining vs non-defining",
+    "description": "A defining relative clause (no commas) identifies which one. A non-defining relative clause (with commas) adds extra information about an already-identified noun.",
+    "examples": {
+      "wrong": ["The country, that has the highest rate, should act", "Students who they study abroad gain more skills"],
+      "correct": ["The country that has the highest rate should act", "The country, which has the highest rate, should act (non-defining)", "Students who study abroad gain more skills"]
+    },
+    "errorType": "SENTENCE_STRUCTURE",
+    "unitIndex": 14
+  },
+  {
+    "code": "TENSE-004",
+    "title": "Past perfect for events before another past event",
+    "description": "Use the past perfect (had + past participle) when describing an event that occurred before another event in the past. Do not use simple past for both.",
+    "examples": {
+      "wrong": ["By 2015, the rate already peaked", "Before the policy changed, crime increased significantly"],
+      "correct": ["By 2015, the rate had already peaked", "Before the policy changed, crime had increased significantly"]
+    },
+    "errorType": "TENSE",
+    "unitIndex": 15
+  },
+  {
+    "code": "PREP-003",
+    "title": "Time and place prepositions: at / in / on",
+    "description": "Use AT for specific times and places (at 5pm, at school). Use IN for months, years, seasons, countries, cities. Use ON for days and dates.",
+    "examples": {
+      "wrong": ["in Monday", "on 2020", "at the 20th century", "in the graph", "in figure 1"],
+      "correct": ["on Monday", "in 2020", "in the 20th century", "in the graph", "in Figure 1"]
+    },
+    "errorType": "PREPOSITION",
+    "unitIndex": 5
+  }
+]

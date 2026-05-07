@@ -1,0 +1,177 @@
+{
+  "id": "unit-6-cleft",
+  "chapter": 5,
+  "title": "Cleft Sentences",
+  "subtitle": "Câu chẻ — Cấu trúc nhấn mạnh",
+  "bandMin": 6.5,
+  "bandTarget": 7.0,
+  "meta": {
+    "topic": "Global Issues",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-6-reported",
+    "prevUnitConnection": "Reported Speech thuật lại quan điểm. Cleft Sentences là đỉnh cao — cách nhấn mạnh một yếu tố trong câu. Kỹ thuật nâng cao nhất trong khóa học.",
+    "nextUnitId": null,
+    "nextUnitTitle": null
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Cleft Sentences trong Part 3 để nhấn mạnh điểm quan trọng nhất của lập luận — thể hiện khả năng cấu trúc nâng cao tự nhiên.",
+      "writing": "Dùng Cleft Sentences trong Task 2 để nhấn mạnh giải pháp hoặc nguyên nhân — câu văn ấn tượng, đặc trưng band 7.0."
+    },
+    "coreRule": "Hai loại: (1) IT-cleft: It is/was + [nhấn mạnh] + that/who + [phần còn lại]. VD: 'It is education that holds the key to reducing poverty.' (2) WH-cleft: What + [mệnh đề] + is/was + [nhấn mạnh]. VD: 'What the world needs most is greater international cooperation.' Dùng để nhấn mạnh CHỦ THỂ, HÀNH ĐỘNG, THỜI GIAN, NGUYÊN NHÂN.",
+    "grammarForSpeaking": {
+      "wrong": "It is education that it reduces poverty most effectively.",
+      "correct": "It is education that reduces poverty most effectively.",
+      "tipVi": "Sau 'that' trong IT-cleft, KHÔNG lặp lại chủ ngữ. 'That IT reduces' sai vì 'that' đã là đại từ quan hệ làm chủ ngữ.",
+      "bandImpact": "Dùng đúng một Cleft Sentence trong Task 2 ngay lập tức tạo ấn tượng tốt — hiếm gặp dưới band 7.0."
+    },
+    "quickExamples": [
+      {
+        "en": "It is international cooperation, not unilateral action, that offers the most hope for solving global problems.",
+        "vi": "Chính là hợp tác quốc tế, không phải hành động đơn phương, mang lại hy vọng lớn nhất."
+      },
+      {
+        "en": "What governments urgently need to do is invest more in green infrastructure and public transport.",
+        "vi": "Điều mà các chính phủ cần gấp làm là đầu tư nhiều hơn vào cơ sở hạ tầng xanh."
+      },
+      {
+        "en": "It was the lack of political will, not the absence of solutions, that allowed poverty to persist.",
+        "vi": "Chính là sự thiếu ý chí chính trị, không phải thiếu giải pháp, đã khiến nghèo đói kéo dài."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "It is the government that it must take responsibility for inequality.",
+        "correct": "It is the government that must take responsibility for inequality.",
+        "explanationVi": "Sau 'that' trong IT-cleft không lặp lại chủ ngữ. 'That must take' đúng; 'that IT must take' sai."
+      },
+      {
+        "incorrect": "What we need it is more investment in education.",
+        "correct": "What we need is more investment in education.",
+        "explanationVi": "WH-cleft: What + [mệnh đề] + is + [danh từ]. 'What we need IT is' thừa 'it'."
+      },
+      {
+        "incorrect": "It was in 2015 when the Paris Agreement was signed.",
+        "correct": "It was in 2015 that the Paris Agreement was signed.",
+        "explanationVi": "IT-cleft nhấn mạnh thời gian dùng 'that', không phải 'when'."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-cl-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu IT-cleft nào đúng để nhấn mạnh giải pháp?",
+        "options": [
+          "It is education which breaks the cycle of poverty.",
+          "It is education that breaks the cycle of poverty.",
+          "It is education that it breaks the cycle of poverty.",
+          "It was education which breaks the cycle of poverty."
+        ],
+        "correctAnswer": "It is education that breaks the cycle of poverty.",
+        "feedbackCorrect": "Đúng! IT-cleft: It is + [education] + that + [breaks...]. Dùng 'that' (không 'which'). Không lặp 'it' sau 'that'.",
+        "feedbackWrong": "IT-cleft chuẩn: It is/was + [nhấn mạnh] + THAT (không which) + [phần còn lại]. Không lặp chủ ngữ sau 'that'.",
+        "ieltsTip": "IT-cleft dùng 'that' (không 'which' hay 'who') ngay cả khi nhấn mạnh người: 'It is the government that must act.'",
+        "skill": "both"
+      },
+      {
+        "id": "ex-cl-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "WH-cleft nào đúng và học thuật nhất cho kết bài Task 2?",
+        "options": [
+          "What the world needs it is immediate action on climate change.",
+          "What the world needs is immediate and coordinated action on climate change.",
+          "Which the world needs is immediate action on climate change.",
+          "What the world needs are immediate action on climate change."
+        ],
+        "correctAnswer": "What the world needs is immediate and coordinated action on climate change.",
+        "feedbackCorrect": "'What + clause + is + noun'. 'Action' không đếm được → 'is'. Không có 'it' sau 'needs'. Câu kết Task 2 band 7.0!",
+        "feedbackWrong": "WH-cleft: What + [clause] + is + [noun phrase]. Không có 'it'. 'Action' không đếm được → 'is'. Không dùng 'Which' mở đầu.",
+        "ieltsTip": "Kết luận Task 2: 'What society truly needs is...' / 'What must be done is...' / 'What this suggests is...'",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-cl-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'It was the industrial revolution which it transformed global economies. What governments they need to do now is learn from history and act more sustainably.'",
+        "options": [
+          "which it → that; they need → need",
+          "which it → that only",
+          "which → that; it transformed → transformed",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "which it → that; they need → need",
+        "feedbackCorrect": "Hai lỗi: (1) IT-cleft dùng 'that', không 'which'. Không lặp 'it'. (2) WH-cleft: 'What governments need' — không lặp 'they' sau 'governments'.",
+        "feedbackWrong": "(1) IT-cleft: 'that' (không 'which'). Không lặp 'it'. (2) WH-cleft: 'governments need' — 'governments' là một phần mệnh đề, không cần 'they'.",
+        "ieltsTip": "Hai lỗi điển hình cleft: lặp đại từ trong IT-cleft (that it) và WH-cleft (governments they). Luôn kiểm tra không có đại từ thừa.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-cl-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng: 'It _____ the combined effort of governments and citizens _____ will ultimately determine whether we build a more equitable world. What _____ most urgently is greater political commitment.'",
+        "options": [
+          "is / that / is needed",
+          "is / which / needed",
+          "was / that / is needed",
+          "is / that / needs"
+        ],
+        "correctAnswer": "is / that / is needed",
+        "feedbackCorrect": "IT-cleft: It + IS + [combined effort] + THAT + [will determine]. WH-cleft: What + is needed (Passive). Kết hợp hai loại cleft — band 7.0!",
+        "feedbackWrong": "IT-cleft: It is...that (hiện tại). WH-cleft: 'What is needed' = Passive (được cần đến) — không phải 'What needs'.",
+        "ieltsTip": "WH-cleft + Passive: 'What is needed/required is...' rất hay dùng trong đề xuất giải pháp Task 2.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-cl-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Task 2 nhấn mạnh: [international / cooperation / is / it / will / that / solve / global / challenges / not / individual / action / most / effectively]",
+        "options": [
+          "It is international cooperation, not individual action, that will solve global challenges most effectively.",
+          "It is international cooperation, not individual action, which will solve global challenges most effectively.",
+          "It is international cooperation, not individual action, that it will solve global challenges most effectively.",
+          "International cooperation, not individual action, that will solve global challenges most effectively."
+        ],
+        "correctAnswer": "It is international cooperation, not individual action, that will solve global challenges most effectively.",
+        "feedbackCorrect": "Câu kết Task 2 đỉnh cao! IT-cleft với đối lập 'not individual action'. 'That will solve' (không which, không that it). Band 7.0!",
+        "feedbackWrong": "IT-cleft: It is + [A, not B] + that + [verb phrase]. Dùng 'that' (không 'which'). Không lặp đại từ. Cần 'It is' ở đầu câu.",
+        "ieltsTip": "Cleft với đối lập: 'It is X, NOT Y, that...' — cấu trúc phản biện cực ấn tượng để kết luận Task 2. Dùng một lần trong bài thi!",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu kết Task 2 dùng IT-cleft hoặc WH-cleft nhấn mạnh giải pháp cho vấn đề toàn cầu.",
+      "placeholder": "Ví dụ: It is collective global action, not isolated national policies, that will...",
+      "grammarMustUse": "cleft sentences",
+      "wordLimit": 30,
+      "modelAnswer": "It is collective global action, not isolated national policies, that will ultimately determine whether humanity can address the pressing challenges of poverty, inequality, and climate change.",
+      "modelBand": 7.0
+    },
+    "speakingDrill": {
+      "prompt": "Part 3: 'What is the most important thing the world needs to solve global problems?' Dùng IT-cleft hoặc WH-cleft.",
+      "timeLimit": 30,
+      "grammarTargets": [
+        "cleft sentences (it-cleft/wh-cleft)",
+        "emphasis and focus"
+      ],
+      "modelAnswer": "What the world most urgently needs is a fundamental shift in political priorities, away from short-term gains and towards long-term sustainability. It is the lack of genuine political will, not the absence of solutions, that has allowed problems like poverty and climate change to persist. What gives me hope is the growing global movement of young people demanding meaningful action.",
+      "modelBand": 7.0
+    }
+  },
+  "completion": {
+    "xpReward": 100,
+    "nextUnitId": null,
+    "nextUnitTitle": null,
+    "nextUnitConnection": "🎉 Chúc mừng! Bạn đã hoàn thành toàn bộ 16 units của khóa học Grammar for IELTS. Từ Simple Present band 4.0 đến Cleft Sentences band 7.0 — đây là hành trình ngữ pháp đầy đủ nhất để chinh phục IELTS Speaking và Writing. Bước tiếp theo: luyện đề thi thực tế!"
+  }
+}

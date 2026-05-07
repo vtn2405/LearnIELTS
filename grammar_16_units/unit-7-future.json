@@ -1,0 +1,165 @@
+{
+  "id": "unit-2-past-future",
+  "chapter": 2,
+  "title": "Future (will / going to)",
+  "subtitle": "Thì tương lai — will và be going to",
+  "bandMin": 4.5,
+  "bandTarget": 5.5,
+  "meta": {
+    "topic": "Work & Technology",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-2-past-perfect",
+    "prevUnitConnection": "Bạn đã nắm các thì quá khứ và hiện tại. Tương lai là Unit quan trọng cho Part 3 — nơi examiner hỏi về dự đoán xã hội và công nghệ.",
+    "nextUnitId": "unit-3-modal-ability",
+    "nextUnitTitle": "Modal — Ability (can/could)"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Phân biệt 'will' (dự đoán, quyết định tức thì) và 'going to' (kế hoạch đã có, dự đoán dựa trên bằng chứng) để trả lời Part 3 tự nhiên và chính xác.",
+      "writing": "Dùng 'will' để đưa ra dự đoán học thuật trong Task 2 — kết hợp với trạng từ: probably, likely, certainly để điều tiết mức độ chắc chắn."
+    },
+    "coreRule": "WILL: (1) dự đoán dựa trên quan điểm/kinh nghiệm; (2) quyết định ngay lúc nói; (3) lời hứa, đề nghị, yêu cầu. GOING TO: (1) kế hoạch đã được sắp xếp từ trước; (2) dự đoán dựa trên bằng chứng hiện tại. Trong câu điều kiện và mệnh đề thời gian: KHÔNG dùng will sau when/if/before/after → dùng Simple Present.",
+    "grammarForSpeaking": {
+      "wrong": "I think robots will to replace most factory workers in 20 years.",
+      "correct": "I think robots will replace most factory workers in the next 20 years.",
+      "tipVi": "Sau 'will' luôn dùng động từ nguyên mẫu không 'to'. 'Will to replace' là lỗi rất phổ biến — có thể vì nhầm với 'be going to + V'.",
+      "bandImpact": "'Will + V (không to)' là cấu trúc cơ bản. Sai ở đây trong Part 3 sẽ bị trừ điểm Grammatical Accuracy ngay lập tức."
+    },
+    "quickExamples": [
+      { "en": "Automation will likely eliminate repetitive jobs but create new roles in AI management.", "vi": "Tự động hóa có thể sẽ xóa bỏ các công việc lặp lại nhưng tạo ra các vai trò mới trong quản lý AI." },
+      { "en": "I'm going to apply for a software engineering position next month — I've already updated my CV.", "vi": "Tháng tới tôi sẽ nộp đơn vào vị trí kỹ sư phần mềm — tôi đã cập nhật CV rồi." },
+      { "en": "Look at those dark clouds — it's going to rain, so we should move the outdoor tech event inside.", "vi": "Nhìn những đám mây đen kia — trời sắp mưa, chúng ta nên chuyển sự kiện công nghệ ngoài trời vào trong." }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "When technology will advance, many jobs will disappear.",
+        "correct": "When technology advances, many jobs will disappear.",
+        "explanationVi": "Trong mệnh đề thời gian bắt đầu bằng 'when/if/before/after', KHÔNG dùng 'will' — dùng Simple Present thay thế. Lỗi này rất phổ biến trong Task 2."
+      },
+      {
+        "incorrect": "I will to start my own tech business next year.",
+        "correct": "I'm going to start my own tech business next year.",
+        "explanationVi": "Kế hoạch đã có sẵn → 'going to'. Thêm vào đó, 'will to start' sai — sau will không dùng 'to'. Đúng là: will start hoặc am going to start."
+      },
+      {
+        "incorrect": "The company is going to probably expand globally.",
+        "correct": "The company will probably expand globally.",
+        "explanationVi": "'Probably' thường đi với 'will', không phải 'going to'. Và 'probably' đứng GIỮA will và động từ chính: will probably + V."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-fut-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Examiner hỏi Part 3: 'Do you think AI will replace human workers?' — Câu trả lời nào đúng ngữ pháp?",
+        "options": [
+          "I think AI will to replace some workers, but not all.",
+          "I think AI will replace some workers, but not all.",
+          "I think AI is going to to replace some workers, but not all.",
+          "I think AI replaces some workers, but not all."
+        ],
+        "correctAnswer": "I think AI will replace some workers, but not all.",
+        "feedbackCorrect": "Đúng! Dự đoán dựa trên quan điểm → 'will + V nguyên mẫu (không to)'. Không bao giờ 'will to + V'.",
+        "feedbackWrong": "Sau 'will' → luôn dùng V nguyên mẫu không 'to': will replace (đúng), will to replace (sai). Đây là lỗi cực phổ biến.",
+        "ieltsTip": "Công thức trả lời Part 3 dự đoán: 'I think/believe + subject + will + probably + V...' — tự nhiên và đúng ngữ pháp.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-fut-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu Task 2 nào đúng: 'If governments _____ to regulate AI, society _____ serious consequences.'",
+        "options": [
+          "will fail / will face",
+          "fail / will face",
+          "will fail / faces",
+          "fail / faces"
+        ],
+        "correctAnswer": "fail / will face",
+        "feedbackCorrect": "Đúng! Mệnh đề 'if' → Simple Present (fail), không dùng will. Mệnh đề chính → will face (kết quả tương lai).",
+        "feedbackWrong": "Quy tắc câu điều kiện loại 1: If + Simple Present → will + V. KHÔNG dùng will trong mệnh đề if.",
+        "ieltsTip": "Câu điều kiện loại 1 trong Task 2: 'If + Simple Present, will + V' — cấu trúc lập luận rất hiệu quả.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-fut-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'As technology will continue to evolve, more workers will to need to reskill themselves. Companies are going to probably invest more in employee training programs.'",
+        "options": [
+          "will continue → continues; will to need → will need; going to probably → will probably",
+          "will continue → will continues; will to need → will need",
+          "will to need → will need only (câu đầu đúng, câu sau đúng)",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "will continue → continues; will to need → will need; going to probably → will probably",
+        "feedbackCorrect": "Ba lỗi! (1) 'As + will continue' → 'as continues' (mệnh đề thời gian). (2) 'will to need' → 'will need' (không có 'to' sau will). (3) 'going to probably' → 'will probably' ('probably' đi tự nhiên hơn với 'will').",
+        "feedbackWrong": "Kiểm tra: (1) Mệnh đề bắt đầu bằng 'as/when' → không dùng will. (2) Will + V nguyên mẫu, không có 'to'. (3) 'Probably' thường đi với 'will', không phải 'going to'.",
+        "ieltsTip": "Ba lỗi phổ biến nhất về tương lai trong Task 2 — tránh được cả ba thì bạn đã đạt chuẩn grammar band 6.0.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-fut-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng (chọn will hoặc going to + dạng đúng của động từ): 'I _____ (attend) a digital marketing conference next week — I registered last month. I think it _____ (be) very useful for my career development.'",
+        "options": [
+          "am going to attend / will be",
+          "will attend / am going to be",
+          "will attend / will be",
+          "am going to attend / am going to be"
+        ],
+        "correctAnswer": "am going to attend / will be",
+        "feedbackCorrect": "'Am going to attend' = kế hoạch đã đăng ký từ trước. 'Will be' = dự đoán/quan điểm cá nhân. Đây chính xác là sự khác biệt giữa will và going to!",
+        "feedbackWrong": "Câu 1: đã đăng ký trước → going to. Câu 2: đưa ra dự đoán/quan điểm → will. Đây là sự khác biệt quan trọng nhất giữa will và going to.",
+        "ieltsTip": "Trong Part 1: 'What are your plans for the future?' → 'I'm going to...' (kế hoạch). 'What do you think will happen?' → 'I think it will...' (dự đoán).",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-fut-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Task 2 dự đoán học thuật: [artificial / likely / will / intelligence / reshape / the / job / market / significantly / next / over / the / decade]",
+        "options": [
+          "Artificial intelligence will likely reshape the job market significantly over the next decade.",
+          "Artificial intelligence likely will reshape significantly the job market over the next decade.",
+          "Artificial intelligence will reshape likely the job market significantly over the next decade.",
+          "Over the next decade, artificial intelligence the job market will likely reshape significantly."
+        ],
+        "correctAnswer": "Artificial intelligence will likely reshape the job market significantly over the next decade.",
+        "feedbackCorrect": "Câu Task 2 chuẩn mực! Trật tự trạng từ: will + likely (trạng từ tình thái) + V + tân ngữ + trạng từ cách thức + cụm thời gian. Band 6.5+!",
+        "feedbackWrong": "Trật tự chuẩn: Subject + will + likely + V + object + significantly (cách thức) + over the next decade (thời gian).",
+        "ieltsTip": "Vị trí 'likely/probably' trong câu tương lai: will + likely/probably + V (giữa will và động từ chính). Không đặt ở đầu câu.",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 dự đoán về tương lai của thị trường lao động kỹ thuật số. Dùng will + probably/likely.",
+      "placeholder": "Ví dụ: Remote work will likely become the norm in the technology sector...",
+      "grammarMustUse": "will / going to",
+      "wordLimit": 30,
+      "modelAnswer": "Remote work will likely become the standard in the technology sector, as companies increasingly recognize that productivity does not require physical presence.",
+      "modelBand": 5.5
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 3 — Examiner hỏi: 'How do you think technology will change the workplace in the next 20 years?' Trả lời 2-3 câu. Dùng will ít nhất hai lần.",
+      "timeLimit": 30,
+      "grammarTargets": ["will", "going to", "probably/likely"],
+      "modelAnswer": "I think technology will fundamentally change how and where we work. Many routine tasks will probably be automated, which means workers will need to focus more on creativity and problem-solving. Companies will likely invest heavily in employee retraining programs to help their workforce adapt.",
+      "modelBand": 5.5
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-3-modal-ability",
+    "nextUnitTitle": "Modal — Ability (can/could)",
+    "nextUnitConnection": "Bạn đã nắm các thì cơ bản. Unit 8 bắt đầu chương Modal Verbs — những động từ khuyết thiếu như can, could, may, might, should. Đây là nhóm ngữ pháp xuất hiện nhiều nhất trong IELTS Speaking Part 3."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "unit-2-present-perfect",
+  "chapter": 1,
+  "title": "Present Perfect",
+  "subtitle": "Thì hiện tại hoàn thành",
+  "bandMin": 5.0,
+  "bandTarget": 6.0,
+  "meta": {
+    "topic": "Work & Technology",
+    "speakingPart": "Part 1",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-1-past-continuous",
+    "prevUnitConnection": "Bạn đã kể chuyện quá khứ. Present Perfect kết nối quá khứ với hiện tại — nói về trải nghiệm không rõ thời điểm, hoặc hành động vừa xảy ra và còn liên quan đến bây giờ.",
+    "nextUnitId": "unit-2-past-perfect",
+    "nextUnitTitle": "Past Perfect"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Present Perfect để nói về kinh nghiệm làm việc và công nghệ trong Part 1 — phân biệt 'I have used' vs 'I used' một cách tự nhiên.",
+      "writing": "Dùng Present Perfect trong Task 2 để nói về xu hướng từ quá khứ đến hiện tại — đặc biệt trong mở bài và kết bài."
+    },
+    "coreRule": "Present Perfect = have/has + V3 (past participle). Dùng khi: (1) kinh nghiệm trong cuộc đời (chưa rõ khi nào): ever, never, before; (2) hành động vừa xảy ra, còn ảnh hưởng hiện tại: just, already, yet; (3) hành động bắt đầu quá khứ, kéo dài đến nay: since, for; (4) xu hướng gần đây: recently, lately, over the past few years. KHÔNG dùng khi đã nêu thời điểm cụ thể (yesterday, in 2020 → dùng Simple Past).",
+    "grammarForSpeaking": {
+      "wrong": "I used many different apps to learn English since 2020.",
+      "correct": "I have used many different apps to learn English since 2020.",
+      "tipVi": "'Since 2020' = từ quá khứ đến bây giờ → cần Present Perfect, không phải Simple Past. Đây là lỗi số 1 của người Việt với Present Perfect vì tiếng Việt không có thì này.",
+      "bandImpact": "Dùng đúng Present Perfect với 'since/for' trong Part 1 là dấu hiệu rõ ràng nhất của band 6.0+."
+    },
+    "quickExamples": [
+      { "en": "Technology has transformed the way people work over the past decade.", "vi": "Công nghệ đã thay đổi cách mọi người làm việc trong thập kỷ qua." },
+      { "en": "I have never worked remotely, but I would like to try it.", "vi": "Tôi chưa bao giờ làm việc từ xa, nhưng tôi muốn thử." },
+      { "en": "Many companies have recently adopted AI tools to increase productivity.", "vi": "Nhiều công ty gần đây đã áp dụng các công cụ AI để tăng năng suất." }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "She has worked at that tech company since three years.",
+        "correct": "She has worked at that tech company for three years.",
+        "explanationVi": "'Since' đi với mốc thời gian cụ thể (since 2020, since Monday). 'For' đi với khoảng thời gian (for three years, for a long time)."
+      },
+      {
+        "incorrect": "I have finished my project yesterday.",
+        "correct": "I finished my project yesterday.",
+        "explanationVi": "'Yesterday' là thời điểm cụ thể trong quá khứ → dùng Simple Past, không phải Present Perfect. Present Perfect không đi kèm thời điểm cụ thể đã qua."
+      },
+      {
+        "incorrect": "Have you ever went to a tech conference?",
+        "correct": "Have you ever been to a tech conference?",
+        "explanationVi": "Trong câu hỏi về kinh nghiệm với 'go to a place', dùng 'been to', không phải 'gone to'. 'Gone to' có nghĩa là đã đi và chưa về."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-pp-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Examiner hỏi: 'Do you use technology for work?' — Câu trả lời nào đúng ngữ pháp nhất?",
+        "options": [
+          "Yes, I used many digital tools since I started my job.",
+          "Yes, I have used many digital tools since I started my job.",
+          "Yes, I am using many digital tools since I started my job.",
+          "Yes, I was using many digital tools since I started my job."
+        ],
+        "correctAnswer": "Yes, I have used many digital tools since I started my job.",
+        "feedbackCorrect": "Đúng! 'Since I started my job' = từ khi bắt đầu đến nay → Present Perfect 'have used'. Trải nghiệm kéo dài đến hiện tại.",
+        "feedbackWrong": "'Since' kết nối quá khứ với hiện tại → Present Perfect (have/has + V3). Không dùng Simple Past hay các thì tiếp diễn với 'since' theo nghĩa này.",
+        "ieltsTip": "Part 1 hay hỏi: 'Have you ever...?', 'How long have you...?' → chuẩn bị sẵn câu trả lời với Present Perfect.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-pp-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Chọn câu đúng cho mở bài Task 2: 'In recent years, artificial intelligence _____ the nature of work in almost every industry.'",
+        "options": [
+          "transformed",
+          "has transformed",
+          "is transforming",
+          "transforms"
+        ],
+        "correctAnswer": "has transformed",
+        "feedbackCorrect": "'In recent years' = xu hướng từ quá khứ đến nay → Present Perfect 'has transformed'. Đây là cấu trúc mở bài Task 2 chuyên nghiệp.",
+        "feedbackWrong": "'In recent years' là dấu hiệu của Present Perfect, không phải Simple Past hay Present Simple. Xu hướng từ quá khứ đến hiện tại = have/has + V3.",
+        "ieltsTip": "Cụm từ kéo Present Perfect: 'in recent years', 'over the past decade', 'in the last few years' — học thuộc để mở bài Task 2 ấn tượng.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-pp-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'Remote working has became increasingly common since the pandemic started in 2020, and many employees have discovered that they are more productive at home.'",
+        "options": [
+          "has became → has become",
+          "has became → had become",
+          "have discovered → discovered",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "has became → has become",
+        "feedbackCorrect": "'Become' là động từ bất quy tắc: become → became → become (V3). Không phải 'became' sau 'has'. V3 của become = become (giống nguyên mẫu).",
+        "feedbackWrong": "Present Perfect = have/has + V3 (past participle). 'Become' bất quy tắc: V1=become, V2=became, V3=become. Vậy 'has become' là đúng, không phải 'has became'.",
+        "ieltsTip": "Động từ bất quy tắc V3 hay nhầm: become→become, come→come, run→run, cut→cut (V3 giống V1). Vs. go→gone, do→done, see→seen (V3 khác).",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-pp-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng: 'I _____ (work) in the tech industry for five years, and during that time the field _____ (change) dramatically. I _____ (just / update) my skills by completing an AI certification course.'",
+        "options": [
+          "have worked / has changed / have just updated",
+          "worked / changed / just updated",
+          "have worked / changed / have just updated",
+          "worked / has changed / just updated"
+        ],
+        "correctAnswer": "have worked / has changed / have just updated",
+        "feedbackCorrect": "Hoàn hảo! 'For five years' → Present Perfect 'have worked'. 'Dramatically' + xu hướng → 'has changed'. 'Just' → 'have just updated'. Ba cách dùng Present Perfect khác nhau trong một đoạn!",
+        "feedbackWrong": "'For five years' (đến nay) → have worked. Xu hướng thay đổi → has changed. 'Just' = vừa mới xảy ra → have just updated.",
+        "ieltsTip": "Trong Part 1, kết hợp cả ba: 'I have worked... for... / the field has changed... / I have just...' tạo câu trả lời phong phú và tự nhiên.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-pp-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Task 2 học thuật: [has / number / the / dramatically / remote / of / risen / workers / past / over / the / decade]",
+        "options": [
+          "The number of remote workers has risen dramatically over the past decade.",
+          "The number of remote workers dramatically has risen over the past decade.",
+          "Over the past decade has the number of remote workers risen dramatically.",
+          "The number has risen dramatically of remote workers over the past decade."
+        ],
+        "correctAnswer": "The number of remote workers has risen dramatically over the past decade.",
+        "feedbackCorrect": "Câu Task 2 hoàn hảo! Cấu trúc: The number of [noun] + has risen [Present Perfect] + dramatically [trạng từ] + over the past decade [thời gian]. Band 6.5+!",
+        "feedbackWrong": "Trật tự: The number of remote workers [chủ ngữ] + has risen [động từ Present Perfect] + dramatically [trạng từ bổ nghĩa] + over the past decade [cụm thời gian].",
+        "ieltsTip": "Cấu trúc vàng Task 2: 'The number of... has risen/fallen/grown + dramatically/significantly + over the past decade.' Học thuộc!",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 về tác động của công nghệ lên thị trường lao động. Dùng Present Perfect và ít nhất một trong: recently, over the past decade, since, for.",
+      "placeholder": "Ví dụ: Technology has created thousands of new job opportunities since...",
+      "grammarMustUse": "present perfect",
+      "wordLimit": 30,
+      "modelAnswer": "Technology has created thousands of new job opportunities over the past decade, although it has also displaced many workers in traditional industries.",
+      "modelBand": 6.0
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 1 — Examiner hỏi: 'Have you ever used technology to help you at work or study?' Trả lời 2-3 câu. Dùng Present Perfect ít nhất một lần.",
+      "timeLimit": 30,
+      "grammarTargets": ["present perfect", "for/since", "just/already/yet"],
+      "modelAnswer": "Yes, I have used technology extensively for both work and study. For instance, I have been using online tools like Zoom and Google Docs for the past two years, and they have made collaboration much easier. I have also recently discovered AI writing assistants, which have saved me a lot of time.",
+      "modelBand": 6.0
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-2-past-perfect",
+    "nextUnitTitle": "Past Perfect",
+    "nextUnitConnection": "Present Perfect kết nối quá khứ với hiện tại. Past Perfect trong Unit 6 kết nối hai mốc trong quá khứ — diễn tả điều đã xảy ra TRƯỚC một điều khác trong quá khứ. Rất cần cho kể chuyện phức tạp."
+  }
+}

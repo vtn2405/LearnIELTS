@@ -1,0 +1,165 @@
+{
+  "id": "unit-1-simple-past",
+  "chapter": 1,
+  "title": "Simple Past",
+  "subtitle": "Thì quá khứ đơn",
+  "bandMin": 4.5,
+  "bandTarget": 5.5,
+  "meta": {
+    "topic": "Education",
+    "speakingPart": "Part 2",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-1-present-continuous",
+    "prevUnitConnection": "Bạn đã nắm hai thì hiện tại. Giờ học Simple Past — thì quan trọng nhất trong Speaking Part 2 khi phải kể về trải nghiệm quá khứ.",
+    "nextUnitId": "unit-1-past-continuous",
+    "nextUnitTitle": "Past Continuous"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Simple Past để kể câu chuyện trong Speaking Part 2 (cue card) — kể mạch lạc, đúng thì, tự nhiên như người bản ngữ.",
+      "writing": "Dùng Simple Past để đưa ra ví dụ lịch sử hoặc trải nghiệm cá nhân trong Task 2 — làm lập luận thuyết phục hơn."
+    },
+    "coreRule": "Simple Past diễn tả: (1) hành động đã bắt đầu và kết thúc tại một thời điểm cụ thể trong quá khứ; (2) chuỗi hành động xảy ra kế tiếp nhau trong quá khứ. Công thức: S + V-ed (động từ có quy tắc) hoặc S + V2 (động từ bất quy tắc). Từ tín hiệu: yesterday, last week/month/year, ago, in 2020, when I was a child.",
+    "grammarForSpeaking": {
+      "wrong": "When I was in high school, I study very hard for the university entrance exam.",
+      "correct": "When I was in high school, I studied very hard for the university entrance exam.",
+      "tipVi": "Người Việt hay quên chia động từ ở quá khứ vì tiếng Việt không chia thì. Mỗi khi thấy 'when I was...', 'last year', 'ago' → tự nhắc bản thân: PHẢI dùng V-ed hoặc V2.",
+      "bandImpact": "Kể chuyện trong Part 2 mà dùng Simple Present thay Simple Past sẽ bị trừ điểm nặng về Grammatical Range — khó đạt band 6.0."
+    },
+    "quickExamples": [
+      { "en": "I attended a private school for six years before I moved to the city.", "vi": "Tôi đã học trường tư trong sáu năm trước khi chuyển lên thành phố." },
+      { "en": "My teacher encouraged me to take the IELTS exam last year.", "vi": "Giáo viên của tôi đã khuyến khích tôi thi IELTS năm ngoái." },
+      { "en": "The school introduced a new curriculum in 2018 and students responded positively.", "vi": "Trường đã giới thiệu chương trình học mới vào năm 2018 và học sinh phản hồi tích cực." }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "She goed to university in 2019.",
+        "correct": "She went to university in 2019.",
+        "explanationVi": "'Go' là động từ bất quy tắc: go → went. Không bao giờ thêm -ed cho động từ bất quy tắc. Cần học thuộc danh sách V2."
+      },
+      {
+        "incorrect": "I didn't studied enough before the IELTS exam.",
+        "correct": "I didn't study enough before the IELTS exam.",
+        "explanationVi": "Sau 'didn't', động từ luôn ở dạng nguyên mẫu (bare infinitive). 'Didn't studied' là lỗi cực phổ biến của người Việt."
+      },
+      {
+        "incorrect": "When did you finished your degree?",
+        "correct": "When did you finish your degree?",
+        "explanationVi": "Trong câu hỏi với 'did', động từ chính luôn ở dạng nguyên mẫu. 'Did you finished' là sai — chỉ được 'Did you finish'."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-spt-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu nào đúng khi kể về trải nghiệm học tập trong quá khứ?",
+        "options": [
+          "I go to an English center three times a week when I was in grade 10.",
+          "I went to an English center three times a week when I was in grade 10.",
+          "I was go to an English center three times a week when I was in grade 10.",
+          "I goed to an English center three times a week when I was in grade 10."
+        ],
+        "correctAnswer": "I went to an English center three times a week when I was in grade 10.",
+        "feedbackCorrect": "Đúng! 'When I was in grade 10' = quá khứ → Simple Past. 'Go' là động từ bất quy tắc → 'went', không phải 'goed'.",
+        "feedbackWrong": "'When I was...' báo hiệu quá khứ → cần V2. 'Go' → went (bất quy tắc, không thêm -ed). 'Was go' sai vì không thể kết hợp was + nguyên mẫu.",
+        "ieltsTip": "Trong Speaking Part 2, hầu hết câu chuyện kể ở Simple Past. Học thuộc 30 động từ bất quy tắc thông dụng nhất.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-spt-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Chọn câu đúng để viết ví dụ trong Task 2: 'Finland _____ its education system in the 1970s and _____ one of the best systems in the world.'",
+        "options": [
+          "reformed / became",
+          "reforms / becomes",
+          "reformed / becomes",
+          "reform / became"
+        ],
+        "correctAnswer": "reformed / became",
+        "feedbackCorrect": "'In the 1970s' = thời điểm cụ thể trong quá khứ → cả hai động từ đều ở Simple Past: reformed, became.",
+        "feedbackWrong": "'In the 1970s' là từ tín hiệu quá khứ rõ ràng → cả hai động từ phải ở dạng quá khứ. 'Reform' → reformed; 'become' → became (bất quy tắc).",
+        "ieltsTip": "Task 2 thường dùng ví dụ lịch sử: 'In the past / In [year], [country] + Simple Past...' — cách lập luận có bằng chứng đạt điểm cao.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-spt-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi trong câu Part 2: 'Last year, I decided to take an online course because I didn't had enough money to attend a language center, so I teach myself using YouTube videos.'",
+        "options": [
+          "didn't had → didn't have; teach → taught",
+          "decided → decide; didn't had → didn't have",
+          "didn't had → hadn't; teach → taught",
+          "teach → was teaching; decided → was deciding"
+        ],
+        "correctAnswer": "didn't had → didn't have; teach → taught",
+        "feedbackCorrect": "Chính xác! Hai lỗi: (1) 'didn't had' → 'didn't have' (sau didn't luôn dùng nguyên mẫu); (2) 'teach' → 'taught' (câu kể quá khứ, teach là động từ bất quy tắc: teach→taught).",
+        "feedbackWrong": "Kiểm tra hai điểm: (1) Sau 'didn't' → luôn dùng nguyên mẫu (have, not had); (2) 'teach' khi kể quá khứ → 'taught' (bất quy tắc).",
+        "ieltsTip": "Động từ bất quy tắc thường gặp trong Speaking Part 2: teach→taught, buy→bought, think→thought, bring→brought, catch→caught.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-spt-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng: 'When I _____ (be) a child, my parents _____ (send) me to a bilingual school, which _____ (give) me a strong foundation in English.'",
+        "options": [
+          "was / sent / gave",
+          "was / sended / gave",
+          "were / sent / gived",
+          "was / sent / given"
+        ],
+        "correctAnswer": "was / sent / gave",
+        "feedbackCorrect": "Hoàn hảo! 'was' (be→was/were), 'sent' (send→sent, bất quy tắc), 'gave' (give→gave, bất quy tắc). Ba động từ bất quy tắc phổ biến!",
+        "feedbackWrong": "Ba động từ đều bất quy tắc: be→was, send→sent (không phải sended), give→gave (không phải gived).",
+        "ieltsTip": "Câu 'When I was a child...' rất hay dùng trong Part 2. Luyện nói: 'When I was in primary school, I...' + Simple Past.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-spt-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Xây dựng câu kể chuyện Part 2 hoàn chỉnh: [the / inspired / my / teacher / high school / English / me / pursue / to / career / an / international]",
+        "options": [
+          "My high school English teacher inspired me to pursue an international career.",
+          "My English teacher high school inspired me to an international career pursue.",
+          "To pursue an international career, my high school English teacher inspired me.",
+          "My high school inspired me English teacher to pursue an international career."
+        ],
+        "correctAnswer": "My high school English teacher inspired me to pursue an international career.",
+        "feedbackCorrect": "Tuyệt! Cấu trúc: My + noun phrase [chủ ngữ] + inspired [Simple Past] + me [tân ngữ] + to pursue [động từ nguyên mẫu] + an international career [tân ngữ]. Câu kể chuyện Part 2 band 6.0!",
+        "feedbackWrong": "Trật tự: My high school English teacher [ai?] + inspired [làm gì, ở quá khứ] + me [ai bị ảnh hưởng] + to pursue an international career [kết quả].",
+        "ieltsTip": "Trong Part 2, câu kết mở rộng như thế này rất ấn tượng: '[Person] inspired/motivated/encouraged me to + V...'",
+        "skill": "speaking"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 nêu ví dụ lịch sử về cải cách giáo dục. Bắt buộc dùng Simple Past và một mốc thời gian cụ thể.",
+      "placeholder": "Ví dụ: In the 1990s, the Vietnamese government invested heavily in...",
+      "grammarMustUse": "simple past",
+      "wordLimit": 30,
+      "modelAnswer": "In the 1990s, the Vietnamese government invested heavily in building rural schools, which significantly increased literacy rates across the country.",
+      "modelBand": 5.5
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 2 — Cue card: 'Describe a teacher who had a positive impact on you.' Kể 2-3 câu dùng Simple Past.",
+      "timeLimit": 30,
+      "grammarTargets": ["simple past", "irregular verbs"],
+      "modelAnswer": "My most memorable teacher was Mrs. Lan, who taught me English in grade 10. She made every lesson fun and interesting, and she always encouraged me to speak without fear. Her teaching style completely changed my attitude toward learning English.",
+      "modelBand": 5.5
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-1-past-continuous",
+    "nextUnitTitle": "Past Continuous",
+    "nextUnitConnection": "Simple Past kể hành động đã xảy ra. Past Continuous trong Unit 4 sẽ dạy bạn mô tả bối cảnh — hành động đang diễn ra khi một hành động khác xen vào. Rất cần cho cue card Part 2!"
+  }
+}

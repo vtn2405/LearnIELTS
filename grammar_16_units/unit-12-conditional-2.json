@@ -1,0 +1,177 @@
+{
+  "id": "unit-4-conditional-2",
+  "chapter": 4,
+  "title": "Conditional Type 2",
+  "subtitle": "Câu điều kiện loại 2 — Không có thật ở hiện tại",
+  "bandMin": 5.5,
+  "bandTarget": 6.5,
+  "meta": {
+    "topic": "Global Issues",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-4-conditional-1",
+    "prevUnitConnection": "Type 1 nói về tình huống có thể xảy ra. Type 2 nói về tình huống KHÔNG CÓ THẬT.",
+    "nextUnitId": "unit-4-conditional-3",
+    "nextUnitTitle": "Conditional Type 3"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Type 2 trong Part 3 để đưa ra ý kiến giả thuyết — thể hiện tư duy phân tích cao.",
+      "writing": "Dùng Type 2 trong Task 2 để lập luận về tình huống lý tưởng hoặc phản biện."
+    },
+    "coreRule": "Conditional Type 2: IF + Past Simple, would + V nguyên mẫu. Tình huống KHÔNG CÓ THẬT ở hiện tại/tương lai. Đặc biệt: If I/he/she/it were... (văn trang trọng dùng were). KHÔNG dùng would trong mệnh đề if.",
+    "grammarForSpeaking": {
+      "wrong": "If every country would reduce emissions by 50%, climate change would slow.",
+      "correct": "If every country reduced emissions by 50%, climate change would slow significantly.",
+      "tipVi": "KHÔNG dùng 'would' trong mệnh đề 'if' của Type 2. Mệnh đề if dùng Past Simple.",
+      "bandImpact": "Phân biệt đúng Type 1 (if + present) và Type 2 (if + past) là điều kiện để đạt Grammatical Range band 6.5."
+    },
+    "quickExamples": [
+      {
+        "en": "If world leaders were more united, global problems would be easier to solve.",
+        "vi": "Nếu các nhà lãnh đạo đoàn kết hơn, các vấn đề toàn cầu sẽ dễ giải quyết hơn."
+      },
+      {
+        "en": "If I were the prime minister, I would prioritize investment in renewable energy.",
+        "vi": "Nếu tôi là thủ tướng, tôi sẽ ưu tiên đầu tư vào năng lượng tái tạo."
+      },
+      {
+        "en": "Developing nations could catch up economically if they received more equitable trade opportunities.",
+        "vi": "Các nước đang phát triển có thể bắt kịp nếu nhận được cơ hội thương mại công bằng hơn."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "If I was the president, I will change immigration policies.",
+        "correct": "If I were the president, I would change immigration policies.",
+        "explanationVi": "Type 2: if-clause dùng were (văn trang trọng). Mệnh đề chính: would (not will)."
+      },
+      {
+        "incorrect": "If countries would cooperate more, poverty would decrease.",
+        "correct": "If countries cooperated more, poverty would decrease.",
+        "explanationVi": "KHÔNG dùng would trong mệnh đề if — lỗi cực phổ biến. Dùng Past Simple."
+      },
+      {
+        "incorrect": "The world would be safer if tensions between nations will reduce.",
+        "correct": "The world would be safer if tensions between nations reduced.",
+        "explanationVi": "Dù if-clause đứng sau mệnh đề chính — vẫn phải dùng Past Simple (reduced)."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-c2-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu Conditional Type 2 nào đúng?",
+        "options": [
+          "If more people would use public transport, air pollution would decrease.",
+          "If more people used public transport, air pollution would decrease.",
+          "If more people use public transport, air pollution would decrease.",
+          "If more people used public transport, air pollution will decrease."
+        ],
+        "correctAnswer": "If more people used public transport, air pollution would decrease.",
+        "feedbackCorrect": "Đúng! Type 2: If + Past Simple (used) + would + V nguyên mẫu (decrease). Giả thuyết — hiện tại không đủ người dùng phương tiện công cộng.",
+        "feedbackWrong": "Type 2: If + Past Simple (used — không would, không use) + would + V. Không dùng will trong câu chính của Type 2.",
+        "ieltsTip": "Nhận biết Type 2: câu nói về tình huống NGƯỢC LẠI thực tế. 'If I were richer' = nhưng thực ra tôi không giàu.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-c2-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Part 3 — 'If you could change one thing about global economic policy, what would it be?' Câu trả lời nào đúng?",
+        "options": [
+          "If I can change one thing, I will reduce trade barriers.",
+          "If I could change one thing, I would reduce trade barriers between developing nations.",
+          "If I would change one thing, I would reduce trade barriers.",
+          "If I changed one thing, I will reduce trade barriers."
+        ],
+        "correctAnswer": "If I could change one thing, I would reduce trade barriers between developing nations.",
+        "feedbackCorrect": "'If I could' = giả thuyết (could = Past Simple của can). 'I would reduce' = mệnh đề chính. Câu trả lời Part 3 band 6.0!",
+        "feedbackWrong": "Type 2: If + Past Simple/could (giả thuyết) + would + V. 'If I could' là dạng giả thuyết lịch sự.",
+        "ieltsTip": "Part 3 hay hỏi 'If you could..., what would you...?' Học thuộc: 'If I could + V, I would + V because...'",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-c2-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'If wealthy nations would share their medical technology, developing countries would overcome health crises more effectively. If there was more international solidarity, fewer people will die.'",
+        "options": [
+          "would share → shared; will die → would die; was → were",
+          "would share → shared only",
+          "will die → would die only",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "would share → shared; will die → would die; was → were",
+        "feedbackCorrect": "Ba điểm: (1) would share → shared (if-clause dùng Past Simple). (2) will die → would die (mệnh đề chính Type 2). (3) was → were (văn trang trọng).",
+        "feedbackWrong": "Type 2 toàn câu: if-clause = Past Simple (not would), main clause = would (not will). 'If there were' dùng were thay was trong văn học thuật.",
+        "ieltsTip": "'If there were more...' (not was) là chuẩn trong Task 2 học thuật — dùng 'were' cho mọi chủ ngữ trong văn viết trang trọng.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-c2-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng: 'If the international community _____ (adopt) a unified approach to cybersecurity, global digital infrastructure _____ (be) far more secure.'",
+        "options": [
+          "adopted / would be",
+          "would adopt / would be",
+          "adopts / would be",
+          "adopted / will be"
+        ],
+        "correctAnswer": "adopted / would be",
+        "feedbackCorrect": "'Adopted' = Past Simple trong if-clause (Type 2). 'Would be' = kết quả giả thuyết. Câu Task 2 học thuật!",
+        "feedbackWrong": "Type 2: if + Past Simple (adopted — không would adopt) + would + V (would be — không will be).",
+        "ieltsTip": "Type 2 trong Task 2 phù hợp để nói về tình huống lý tưởng: 'If [ideal condition existed], [positive outcome] would follow.'",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-c2-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Part 3: [were / nations / all / if / committed / equality / gender / to / be / disparities / global / would / reduce]",
+        "options": [
+          "If all nations were committed to gender equality, global disparities would reduce.",
+          "If all nations would be committed to gender equality, global disparities would reduce.",
+          "If all nations were committed to gender equality, global disparities will reduce.",
+          "All nations if were committed to gender equality, global disparities would reduce."
+        ],
+        "correctAnswer": "If all nations were committed to gender equality, global disparities would reduce.",
+        "feedbackCorrect": "Hoàn hảo! 'Were committed' = Past Simple Passive trong if-clause (Type 2). 'Would reduce' = mệnh đề chính. Band 6.5+!",
+        "feedbackWrong": "Type 2: if + were committed (Past Simple Passive — không would be) + would + V (reduce — không will).",
+        "ieltsTip": "Kết hợp Type 2 + Passive: 'If + were/were + V3 + ..., would + V' — ngữ pháp rất phức tạp và ấn tượng.",
+        "skill": "speaking"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 dùng Type 2 về tình huống lý tưởng trong quan hệ quốc tế.",
+      "placeholder": "Ví dụ: If richer nations reduced their carbon footprints, developing countries would...",
+      "grammarMustUse": "conditional type 2",
+      "wordLimit": 30,
+      "modelAnswer": "If richer nations reduced their carbon footprints drastically, developing countries would have more room to grow their economies without bearing the full burden of climate responsibility.",
+      "modelBand": 6.5
+    },
+    "speakingDrill": {
+      "prompt": "Part 3: 'If you were a world leader, what global problem would you prioritize?' Dùng Type 2.",
+      "timeLimit": 30,
+      "grammarTargets": [
+        "conditional type 2",
+        "if + past simple + would"
+      ],
+      "modelAnswer": "If I were a world leader, I would make climate change my top priority. I would push for a binding international agreement requiring all major economies to transition to renewable energy within 20 years. If such a commitment existed, I believe we would have a genuinely sustainable future.",
+      "modelBand": 6.5
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-4-conditional-3",
+    "nextUnitTitle": "Conditional Type 3",
+    "nextUnitConnection": "Type 2 = không có thật hiện tại. Type 3 = không có thật trong QUÁ KHỨ — nói về điều đã không xảy ra. Đây là cấu trúc phức tạp nhất."
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "unit-3-modal-ability",
+  "chapter": 3,
+  "title": "Modal — Ability (can / could)",
+  "subtitle": "Động từ khuyết thiếu — Khả năng",
+  "bandMin": 5.0,
+  "bandTarget": 6.0,
+  "meta": {
+    "topic": "Work & Technology",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-2-past-future",
+    "prevUnitConnection": "Bạn đã nắm các thì. Modal verbs là lớp ngữ pháp mới — không chia theo thì, dùng để diễn đạt khả năng, xác suất, nghĩa vụ. 'Can/could' là modal đơn giản nhất.",
+    "nextUnitId": "unit-3-modal-possibility",
+    "nextUnitTitle": "Modal — Possibility (may/might)"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng can/could linh hoạt trong Part 3 để nói về khả năng của con người và công nghệ — tránh câu trả lời đơn điệu chỉ dùng 'can'.",
+      "writing": "Dùng can/could trong Task 2 để đưa ra đề xuất giải pháp — câu văn học thuật, tránh dùng 'can' quá nhiều."
+    },
+    "coreRule": "CAN: khả năng hiện tại / khả năng chung chung. COULD: (1) khả năng trong quá khứ; (2) khả năng lý thuyết / đề xuất lịch sự hơn can; (3) trong câu điều kiện. Sau modal: luôn dùng V nguyên mẫu (không to, không -s, không -ed). Phủ định: cannot/can't, couldn't.",
+    "grammarForSpeaking": {
+      "wrong": "Technology can to solve many problems in the workplace.",
+      "correct": "Technology can solve many problems in the workplace.",
+      "tipVi": "Sau modal verbs (can, could, will, would, may, might, should, must) KHÔNG BAO GIỜ dùng 'to'. Đây là quy tắc tuyệt đối. 'Can to solve' là lỗi rất phổ biến.",
+      "bandImpact": "Lỗi 'can to + V' là lỗi cơ bản nhất với modal verbs. Giám khảo gặp lỗi này ngay câu đầu sẽ ảnh hưởng đến ấn tượng toàn bài."
+    },
+    "quickExamples": [
+      { "en": "Remote workers can collaborate effectively using digital tools like Zoom and Slack.", "vi": "Nhân viên làm việc từ xa có thể cộng tác hiệu quả bằng các công cụ kỹ thuật số như Zoom và Slack." },
+      { "en": "Ten years ago, most people couldn't imagine working from home full-time.", "vi": "Mười năm trước, hầu hết mọi người không thể tưởng tượng làm việc tại nhà toàn thời gian." },
+      { "en": "Governments could invest more in digital literacy programs to help older workers adapt.", "vi": "Chính phủ có thể đầu tư thêm vào các chương trình đọc viết kỹ thuật số để giúp người lao động lớn tuổi thích nghi." }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "She can speaks three programming languages fluently.",
+        "correct": "She can speak three programming languages fluently.",
+        "explanationVi": "Sau modal verbs (can, could, will, would...) luôn dùng V nguyên mẫu không thêm -s, -ed, -ing. 'Can speaks' là sai — phải là 'can speak'."
+      },
+      {
+        "incorrect": "When I was a student, I can access the internet easily.",
+        "correct": "When I was a student, I could access the internet easily.",
+        "explanationVi": "Nói về khả năng trong quá khứ → dùng 'could', không phải 'can'. 'Can' chỉ dùng cho hiện tại."
+      },
+      {
+        "incorrect": "This technology could to improve productivity significantly.",
+        "correct": "This technology could improve productivity significantly.",
+        "explanationVi": "Quy tắc tuyệt đối: modal + V nguyên mẫu (không 'to'). 'Could to improve' = sai. 'Could improve' = đúng."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-mod-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu nào đúng khi nói về khả năng của công nghệ hiện đại?",
+        "options": [
+          "AI can to process data much faster than humans.",
+          "AI can processed data much faster than humans.",
+          "AI can process data much faster than humans.",
+          "AI cans process data much faster than humans."
+        ],
+        "correctAnswer": "AI can process data much faster than humans.",
+        "feedbackCorrect": "Đúng! Modal + V nguyên mẫu: 'can process'. Modal không chia theo ngôi (không thêm -s) và không theo sau bởi 'to'.",
+        "feedbackWrong": "Modal verbs (can, could, will...) + V nguyên mẫu (không to, không -s, không -ed). 'Can process' = chuẩn.",
+        "ieltsTip": "Quy tắc vàng: Modal + V (bare infinitive). Không bao giờ: modal + to + V, modal + V-s, modal + V-ed.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-mod-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Chọn câu Task 2 đúng về đề xuất giải pháp: 'Companies _____ offer flexible working hours to attract and retain talented employees.'",
+        "options": [
+          "can to",
+          "could",
+          "could to",
+          "cans"
+        ],
+        "correctAnswer": "could",
+        "feedbackCorrect": "'Could' diễn đạt đề xuất lịch sự, khả năng lý thuyết — phù hợp hơn 'can' trong văn phong học thuật Task 2. Và không có 'to' sau could.",
+        "feedbackWrong": "'Could + V' (không to) là cách đề xuất giải pháp lịch sự và học thuật trong Task 2. 'Can' nghe quá chắc chắn; 'could' nghe thuyết phục hơn.",
+        "ieltsTip": "Trong Task 2, khi đề xuất giải pháp: dùng 'could' thay 'can' để nghe học thuật hơn: 'Governments could implement...', 'Schools could introduce...'",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-mod-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'Before smartphones existed, people couldn't accessed information instantly. Now, anyone can to look up any fact within seconds.'",
+        "options": [
+          "couldn't accessed → couldn't access; can to look up → can look up",
+          "couldn't accessed → couldn't accessed; can to look up → can look up",
+          "couldn't accessed → could accessed; can to look up → can to look up",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "couldn't accessed → couldn't access; can to look up → can look up",
+        "feedbackCorrect": "Hai lỗi cùng một kiểu: sau modal (couldn't, can) → luôn dùng V nguyên mẫu. 'Couldn't access' (không -ed). 'Can look up' (không 'to').",
+        "feedbackWrong": "Cùng một quy tắc: modal + V nguyên mẫu. 'Couldn't accessed' sai → 'couldn't access'. 'Can to look up' sai → 'can look up'.",
+        "ieltsTip": "Nhớ: modal + V (nguyên mẫu). Không thêm bất kỳ thứ gì vào sau modal trước khi đến động từ chính (trừ 'not' trong câu phủ định).",
+        "skill": "both"
+      },
+      {
+        "id": "ex-mod-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền can hoặc could + dạng đúng: 'When my father started his career in the 1990s, he _____ (not / use) a computer at all. Today, even young children _____ (navigate) complex digital platforms with ease.'",
+        "options": [
+          "couldn't use / can navigate",
+          "can't use / could navigate",
+          "couldn't use / could navigate",
+          "can't use / can navigate"
+        ],
+        "correctAnswer": "couldn't use / can navigate",
+        "feedbackCorrect": "Đúng! Quá khứ → 'couldn't use'. Hiện tại → 'can navigate'. Và cả hai đều là modal + V nguyên mẫu (không to, không -s).",
+        "feedbackWrong": "1990s = quá khứ → couldn't (not can't). Today = hiện tại → can (not could). Cả hai: modal + V nguyên mẫu.",
+        "ieltsTip": "Sự đối lập 'couldn't... (past) / can... (now)' là cấu trúc hay trong Task 2 và Part 3 khi so sánh quá khứ và hiện tại.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-mod-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Task 2 đề xuất giải pháp: [literacy / programs / digital / provide / governments / could / to / workers / free / all]",
+        "options": [
+          "Governments could provide free digital literacy programs to all workers.",
+          "Governments could to provide free digital literacy programs to all workers.",
+          "Governments could provide digital literacy free programs to all workers.",
+          "Free digital literacy programs could governments provide to all workers."
+        ],
+        "correctAnswer": "Governments could provide free digital literacy programs to all workers.",
+        "feedbackCorrect": "Câu Task 2 đề xuất hoàn hảo! Governments [chủ ngữ] + could [modal] + provide [V nguyên mẫu] + free digital literacy programs [tân ngữ] + to all workers [giới từ]. Band 6.0+!",
+        "feedbackWrong": "Trật tự: Governments + could + provide (không 'to') + free digital literacy programs + to all workers.",
+        "ieltsTip": "Cấu trúc đề xuất Task 2: 'Governments/Schools/Companies + could + provide/implement/introduce + [giải pháp] + to + [đối tượng]'.",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 đề xuất giải pháp cho vấn đề khoảng cách kỹ năng số. Dùng 'could' để đề xuất.",
+      "placeholder": "Ví dụ: Companies could partner with universities to provide...",
+      "grammarMustUse": "could (modal)",
+      "wordLimit": 30,
+      "modelAnswer": "Companies could partner with local universities to provide free coding bootcamps, which would help bridge the growing digital skills gap in the workforce.",
+      "modelBand": 6.0
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 3 — Examiner hỏi: 'What can individuals do to keep up with rapid technological change?' Trả lời 2-3 câu. Dùng can và could.",
+      "timeLimit": 30,
+      "grammarTargets": ["can/could", "modal + bare infinitive"],
+      "modelAnswer": "I think individuals can take several steps to keep pace with technology. First, they could enroll in short online courses to regularly update their skills. They can also join professional communities where they can exchange knowledge with others in their field. With commitment, anyone can adapt to new technologies regardless of their age or background.",
+      "modelBand": 6.0
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-3-modal-possibility",
+    "nextUnitTitle": "Modal — Possibility (may/might)",
+    "nextUnitConnection": "Can/could diễn đạt khả năng. Unit 9 — may/might — diễn đạt xác suất, sự không chắc chắn. Đây là nhóm rất quan trọng trong Part 3 khi bạn cần đưa ra ý kiến thận trọng."
+  }
+}

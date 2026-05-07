@@ -1,0 +1,47 @@
+{
+  "title": "Thì Hiện tại đơn (Present Simple)",
+  "theoryMd": "# Thì Hiện tại đơn (Present Simple)\n\n## 1. Bản chất và Ý nghĩa\nThì Hiện tại đơn (Present Simple) là thì nền tảng nhất trong tiếng Anh, dùng để diễn đạt những gì mang tính khuôn mẫu, ổn định, không thay đổi theo thời gian. Nó giống như việc chụp một bức ảnh tĩnh: đúng ở quá khứ, hiện tại và có khả năng vẫn đúng trong cả tương lai.\n\n## 2. Cấu trúc (Structure)\n- **Khẳng định:** S + V(s/es) + O\n- **Phủ định:** S + do/does + not + V + O\n- **Nghi vấn:** Do/Does + S + V + O?\n\n## 3. Cách dùng cốt lõi (Core Usages)\n1. **Sự thật hiển nhiên, chân lý (General truths/Facts):** Những quy luật tự nhiên, khoa học hoặc thực tế xã hội không thể phủ nhận.\n2. **Thói quen, hành động lặp đi lặp lại (Habits/Routines):** Các nền nếp sinh hoạt hằng ngày, đi kèm các trạng từ chỉ tần suất (always, usually, occasionally...).\n3. **Lịch trình, thời gian biểu cố định (Timetables/Schedules):** Dù hành động xảy ra trong tương lai nhưng nếu đã được cố định trên hệ thống (tàu xe, chuyến bay, rạp chiếu phim), ta vẫn dùng hiện tại đơn.\n4. **Trạng thái, cảm xúc, nhận thức (States/Feelings):** Đi chung với các động từ chỉ tri giác, trạng thái không chia tiếp diễn (know, believe, understand, love, hate, belong).",
+  "commonMistakes": "- **Lỗi chia thì với chủ ngữ ngôi thứ 3 số ít:** Quên thêm 's' hoặc 'es' (Ví dụ viết 'He work hard' thay vì 'He works hard').\n- **Nhầm lẫn giữa động từ to-be và động từ thường:** Rất nhiều học viên ghép 'be' với 'V-nguyên thể' do tư duy dịch word-by-word (Ví dụ 'I am agree' thay vì 'I agree').\n- **Thiếu trợ động từ trong câu hỏi/phủ định:** Viết 'She not know' thay vì 'She doesn't know'.\n- **Quên biến đổi y thành ies:** Với các động từ tận cùng bằng âm phụ + y (như study -> studies, fly -> flies).",
+  "usageNoteTask2": "Thì Hiện tại đơn là thì tạo khung xương cho toàn bộ bài Writing Task 2 (chiếm tới 70-80% tổng ngữ pháp). Bạn bắt buộc phải dùng thì này khi đưa ra luận điểm chung ('Many people believe that...'), nhận định xu hướng xã hội ('The rapid development of technology changes the way we communicate'), hoặc kết luận vấn đề. Đây là thì khẳng định sự thật khách quan, nên khi tranh luận mang tính học thuật, việc dùng thì hiện tại đơn tạo cảm giác lập luận của bạn là một sự thật vô cơ vững chắc.",
+  "usageNoteSpoken": "Trong Speaking Part 1, Hiện tại đơn xuất hiện trong 90% câu trả lời mô tả bản thân (công việc, sở thích, nếp sống). Trong Part 3, khi bạn phân tích những khái niệm trừu tượng và thói quen của 'hầu hết mọi người (people in general)', bạn sẽ lại phải dùng Hiện tại đơn làm công cụ chính.",
+  "exampleAcademic": "Research consistently demonstrates that early intervention in education significantly improves a child's cognitive development and leads to better career prospects.",
+  "exampleSpoken": "To be honest, I am quite a night owl. More often than not, I stay up exceptionally late to binge-watch my favorite series and then struggle to drag myself out of bed the next morning.",
+  "speakingStructures": [
+    "I have a tendency to + V (Thay vì dùng I often + V, cấu trúc này nghe khách quan và học thuật hơn)",
+    "More often than not, I + V... (Thường xuyên hơn là không = Hầu như luôn luôn)",
+    "As a rule, I + V... (Gốc rễ là 'như một quy luật' -> Như một thói quen cố định)",
+    "I am inclined to + V... (Tôi có xu hướng/ thiên về việc làm điều gì đó)"
+  ],
+  "collocations": [
+    "lead a sedentary/healthy lifestyle (có một lối sống ít vận động/lành mạnh)",
+    "form a daily routine (hình thành thói quen hàng ngày)",
+    "break a bad habit (từ bỏ một thói quen xấu)",
+    "take something for granted (coi điều gì đó là hiển nhiên)",
+    "have an adverse impact on (có tác động tiêu cực lên...)"
+  ],
+  "exercises": [
+    {
+      "type": "REGISTER_SHIFT",
+      "instruction": "Viết lại câu nói (informal) sau đây thành văn phong học thuật Writing Task 2 (formal) mà vẫn giữ nguyên thông điệp ở Thì Hiện tại đơn.",
+      "input": "Lots of kids nowadays eat too much junk food, so they get super fat.",
+      "expectedOutput": "Nowadays, an increasing number of children consume excessive amounts of fast food, which directly contributes to higher obesity rates."
+    },
+    {
+      "type": "SENTENCE_COMBINING",
+      "instruction": "Sử dụng Thì Hiện tại đơn và các từ nối quan hệ nhân-quả, ghép 3 thông tin dưới đây thành một câu phức hoàn chỉnh mang tính học thuật.",
+      "statements": [
+        "Deforestation reduces the number of trees.",
+        "It destroys animal habitats.",
+        "It causes global warming."
+      ],
+      "expectedOutput": "Deforestation not only reduces the number of trees and destroys animal habitats, but it also causes global temperature to rise."
+    },
+    {
+      "type": "SPEAKING_DRILL",
+      "instruction": "Trả lời câu hỏi Speaking Part 1 dưới đây bằng cách áp dụng cấu trúc: 'More often than not, I...'.",
+      "prompt": "What do you do to relax after a long day at work?",
+      "hint": "Cấu trúc: More often than not + hoạt động thư giãn (nghe nhạc nhẹ, đi dạo).",
+      "expectedOutput": "More often than not, I put on some soothing music and grab a good book to unwind before hitting the couch."
+    }
+  ]
+}

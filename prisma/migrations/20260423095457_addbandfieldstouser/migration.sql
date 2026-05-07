@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "User" ADD COLUMN     "currentBand" DOUBLE PRECISION,
+ADD COLUMN     "targetBand" DOUBLE PRECISION NOT NULL DEFAULT 7.0;

@@ -1,0 +1,165 @@
+{
+  "id": "unit-1-simple-present",
+  "chapter": 1,
+  "title": "Simple Present",
+  "subtitle": "Thì hiện tại đơn",
+  "bandMin": 4.0,
+  "bandTarget": 5.0,
+  "meta": {
+    "topic": "Education",
+    "speakingPart": "Part 1",
+    "writingTask": "Task 2",
+    "prevUnitId": null,
+    "prevUnitConnection": null,
+    "nextUnitId": "unit-1-present-continuous",
+    "nextUnitTitle": "Present Continuous"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Simple Present để trả lời câu hỏi Part 1 về thói quen học tập — nghe tự nhiên, không bị lẫn với thì tiếp diễn.",
+      "writing": "Dùng Simple Present để viết luận Task 2 về các sự thật giáo dục, xu hướng chung — câu văn mạch lạc, đúng cấu trúc."
+    },
+    "coreRule": "Simple Present diễn tả: (1) thói quen / hành động lặp lại → dùng với always, usually, often, sometimes, never, every day; (2) sự thật hiển nhiên, quy luật; (3) trạng thái hiện tại (cảm xúc, nhận thức). Công thức: S + V (nguyên mẫu) — riêng ngôi 3 số ít (he/she/it) thêm -s hoặc -es.",
+    "grammarForSpeaking": {
+      "wrong": "I am study English every morning.",
+      "correct": "I study English every morning before school.",
+      "tipVi": "Người Việt hay dùng 'am/is/are' cho mọi thì vì trong tiếng Việt không chia động từ. Nhớ: thói quen hàng ngày → KHÔNG dùng 'be + V-ing', chỉ dùng động từ thường.",
+      "bandImpact": "Lỗi dùng nhầm 'am study' thay vì 'study' bị giám khảo trừ điểm Grammatical Range — khó vượt band 5.0 nếu mắc lỗi cơ bản này."
+    },
+    "quickExamples": [
+      { "en": "Most students in Vietnam take extra classes after school.", "vi": "Hầu hết học sinh Việt Nam học thêm sau giờ học." },
+      { "en": "She usually reviews her notes before an IELTS exam.", "vi": "Cô ấy thường ôn lại ghi chú trước kỳ thi IELTS." },
+      { "en": "Universities require students to submit assignments on time.", "vi": "Các trường đại học yêu cầu sinh viên nộp bài đúng hạn." }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "She study very hard for her university entrance exam.",
+        "correct": "She studies very hard for her university entrance exam.",
+        "explanationVi": "Chủ ngữ 'she' là ngôi 3 số ít → động từ phải thêm -s: study → studies."
+      },
+      {
+        "incorrect": "I am go to school by bus every day.",
+        "correct": "I go to school by bus every day.",
+        "explanationVi": "Thói quen hàng ngày dùng Simple Present, không dùng 'am + go'. 'Am going' chỉ dùng cho kế hoạch tương lai gần."
+      },
+      {
+        "incorrect": "Education play an important role in society.",
+        "correct": "Education plays an important role in society.",
+        "explanationVi": "'Education' là danh từ không đếm được, coi như ngôi 3 số ít → plays (thêm -s)."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-sp-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu nào đúng khi nói về thói quen học tập hàng ngày?",
+        "options": [
+          "She is reviews her vocabulary list every night.",
+          "She reviews her vocabulary list every night.",
+          "She reviewing her vocabulary list every night.",
+          "She review her vocabulary list every night."
+        ],
+        "correctAnswer": "She reviews her vocabulary list every night.",
+        "feedbackCorrect": "Chính xác! 'She' là ngôi 3 số ít → 'reviews' (thêm -s). Đây là thói quen hàng đêm nên dùng Simple Present.",
+        "feedbackWrong": "Nhớ hai điều: (1) thói quen hàng ngày → Simple Present, không dùng 'is + V-ing'; (2) chủ ngữ 'she' → động từ thêm -s.",
+        "ieltsTip": "Trong IELTS Speaking Part 1, giám khảo hỏi 'Do you...?' — câu trả lời dùng Simple Present để nói thói quen.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-sp-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Chọn câu đúng để hoàn thành ý kiến IELTS Task 2: 'Many educators believe that homework _____ students develop discipline.'",
+        "options": [
+          "is help",
+          "helping",
+          "helps",
+          "help"
+        ],
+        "correctAnswer": "helps",
+        "feedbackCorrect": "Đúng! 'Homework' là danh từ không đếm được, đóng vai ngôi 3 số ít → 'helps'. Câu này diễn tả sự thật chung.",
+        "feedbackWrong": "'Homework' tuy trông như số nhiều nhưng là danh từ không đếm được → cần 'helps' (thêm -s), không phải 'help'.",
+        "ieltsTip": "Task 2 thường dùng Simple Present để trình bày ý kiến và sự thật: 'Evidence suggests that...', 'Research shows that...'",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-sp-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi sai trong câu này (lỗi thật của học viên Việt Nam): 'In Vietnam, most parents wants their children to attend university because they believe education bring better job opportunities.'",
+        "options": [
+          "most parents want ... education brings",
+          "most parents wants ... education bring",
+          "most parents want ... education bring",
+          "most parents wants ... education brings"
+        ],
+        "correctAnswer": "most parents want ... education brings",
+        "feedbackCorrect": "Giỏi lắm! 'Parents' là số nhiều → 'want' (không thêm -s). 'Education' là số ít → 'brings' (thêm -s). Hai chủ ngữ, hai quy tắc khác nhau!",
+        "feedbackWrong": "Phân tích từng chủ ngữ: 'parents' = số nhiều → want (không -s). 'Education' = danh từ không đếm được, ngôi 3 số ít → brings (thêm -s).",
+        "ieltsTip": "Lỗi subject-verb agreement rất phổ biến trong Writing Task 2. Giám khảo chú ý đặc biệt khi câu dài có nhiều mệnh đề.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-sp-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền dạng đúng của động từ trong ngoặc: 'An IELTS candidate usually _____ (spend) at least 3 months preparing, and the exam _____ (test) four skills: Listening, Reading, Writing and Speaking.'",
+        "options": [
+          "spends / tests",
+          "spend / test",
+          "spends / test",
+          "spend / tests"
+        ],
+        "correctAnswer": "spends / tests",
+        "feedbackCorrect": "Hoàn hảo! 'A candidate' = ngôi 3 số ít → 'spends'. 'The exam' = ngôi 3 số ít → 'tests'. Luôn kiểm tra chủ ngữ trước khi chia động từ.",
+        "feedbackWrong": "Cả hai chủ ngữ đều là ngôi 3 số ít: 'A candidate' và 'the exam' → cả hai động từ đều thêm -s.",
+        "ieltsTip": "Tip Speaking Part 1: Khi nói về bản thân (I), KHÔNG thêm -s. Khi nói về người khác (he/she/the teacher/the school) → thêm -s.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-sp-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Xây dựng câu hoàn chỉnh từ các từ sau để tạo câu Task 2 tự nhiên (sắp xếp đúng thứ tự): [argue / educators / that / many / pressure / excessive / harm / academic / students]",
+        "options": [
+          "Many educators argue that excessive academic pressure harms students.",
+          "Many educators argue that students harm excessive academic pressure.",
+          "Educators many argue that academic excessive harms pressure students.",
+          "That many educators argue excessive academic pressure harms students."
+        ],
+        "correctAnswer": "Many educators argue that excessive academic pressure harms students.",
+        "feedbackCorrect": "Xuất sắc! Cấu trúc: Many + danh từ số nhiều + argue (không -s vì 'educators' là số nhiều) + that + mệnh đề (pressure → harms, thêm -s vì ngôi 3 số ít). Đây là câu Task 2 band 6.0+!",
+        "feedbackWrong": "Trật tự chuẩn: Many educators [chủ ngữ] argue [động từ chính] that [liên từ] excessive academic pressure [chủ ngữ mệnh đề phụ] harms [động từ, thêm -s] students [tân ngữ].",
+        "ieltsTip": "Cấu trúc 'Many + noun + argue/suggest/claim that...' rất phổ biến trong Task 2. Học thuộc để dùng ngay khi thi!",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 về tầm quan trọng của giáo dục. Dùng Simple Present và ít nhất một trong các từ: education, students, schools, teachers, universities.",
+      "placeholder": "Ví dụ: Education plays a vital role in...",
+      "grammarMustUse": "simple present",
+      "wordLimit": 30,
+      "modelAnswer": "Education plays a vital role in shaping a country's future, as it equips students with the knowledge and skills they need.",
+      "modelBand": 5.0
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 1 — Examiner hỏi: 'Do you think the education system in your country is good?' Trả lời 2-3 câu. Dùng Simple Present để diễn tả ý kiến và thực tế.",
+      "timeLimit": 30,
+      "grammarTargets": ["simple present", "subject-verb agreement"],
+      "modelAnswer": "I think the education system in Vietnam has both strengths and weaknesses. Students generally work very hard and value academic achievement. However, the system focuses too much on exams and does not always encourage creativity.",
+      "modelBand": 5.0
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-1-present-continuous",
+    "nextUnitTitle": "Present Continuous",
+    "nextUnitConnection": "Bạn đã nắm Simple Present cho thói quen. Unit tiếp theo — Present Continuous — sẽ dạy bạn nói về điều đang xảy ra ngay lúc này, và cách dùng nó cho kế hoạch tương lai gần."
+  }
+}

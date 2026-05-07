@@ -1,0 +1,2968 @@
+[
+  {
+    "id": "unit-1-simple-present",
+    "chapter": 1,
+    "title": "Simple Present",
+    "subtitle": "Thì hiện tại đơn",
+    "bandMin": 4,
+    "bandTarget": 5,
+    "meta": {
+      "topic": "Education",
+      "speakingPart": "Part 1",
+      "writingTask": "Task 2",
+      "prevUnitId": null,
+      "prevUnitConnection": null,
+      "nextUnitId": "unit-1-present-continuous",
+      "nextUnitTitle": "Present Continuous"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + V (base form) | S + V-s/es (he/she/it)",
+        "negative": "S + do/does not + V (base form)",
+        "question": "Do/Does + S + V (base form)?"
+      },
+      "coreRule": "Simple Present diễn tả: (1) thói quen / hành động lặp lại → dùng với always, usually, often, sometimes, never, every day; (2) sự thật hiển nhiên, quy luật; (3) trạng thái hiện tại (cảm xúc, nhận thức). Công thức: S + V (nguyên mẫu) — riêng ngôi 3 số ít (he/she/it) thêm -s hoặc -es.",
+      "quickExamples": [
+        {
+          "en": "Most students in Vietnam take extra classes after school.",
+          "vi": "Hầu hết học sinh Việt Nam học thêm sau giờ học."
+        },
+        {
+          "en": "She usually reviews her notes before an IELTS exam.",
+          "vi": "Cô ấy thường ôn lại ghi chú trước kỳ thi IELTS."
+        },
+        {
+          "en": "Universities require students to submit assignments on time.",
+          "vi": "Các trường đại học yêu cầu sinh viên nộp bài đúng hạn."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Simple Present để trả lời câu hỏi Part 1 về thói quen học tập — nghe tự nhiên, không bị lẫn với thì tiếp diễn.",
+        "Dùng Simple Present để viết luận Task 2 về các sự thật giáo dục, xu hướng chung — câu văn mạch lạc, đúng cấu trúc."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "I am study English every morning.",
+          "correct": "I study English every morning before school.",
+          "tipVi": "Người Việt hay dùng 'am/is/are' cho mọi thì vì trong tiếng Việt không chia động từ. Nhớ: thói quen hàng ngày → KHÔNG dùng 'be + V-ing', chỉ dùng động từ thường.",
+          "bandImpact": "Lỗi dùng nhầm 'am study' thay vì 'study' bị giám khảo trừ điểm Grammatical Range — khó vượt band 5.0 nếu mắc lỗi cơ bản này."
+        },
+        {
+          "wrong": "She study very hard for her university entrance exam.",
+          "correct": "She studies very hard for her university entrance exam.",
+          "tipVi": "Chủ ngữ 'she' là ngôi 3 số ít → động từ phải thêm -s: study → studies.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "I am go to school by bus every day.",
+          "correct": "I go to school by bus every day.",
+          "tipVi": "Thói quen hàng ngày dùng Simple Present, không dùng 'am + go'. 'Am going' chỉ dùng cho kế hoạch tương lai gần.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "Education play an important role in society.",
+          "correct": "Education plays an important role in society.",
+          "tipVi": "'Education' là danh từ không đếm được, coi như ngôi 3 số ít → plays (thêm -s).",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-sp-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu nào đúng khi nói về thói quen học tập hàng ngày?",
+          "options": [
+            "She is reviews her vocabulary list every night.",
+            "She reviews her vocabulary list every night.",
+            "She reviewing her vocabulary list every night.",
+            "She review her vocabulary list every night."
+          ],
+          "correctAnswer": "She reviews her vocabulary list every night.",
+          "feedbackCorrect": "Chính xác! 'She' là ngôi 3 số ít → 'reviews' (thêm -s). Đây là thói quen hàng đêm nên dùng Simple Present.",
+          "feedbackWrong": "Nhớ hai điều: (1) thói quen hàng ngày → Simple Present, không dùng 'is + V-ing'; (2) chủ ngữ 'she' → động từ thêm -s.",
+          "ieltsTip": "Trong IELTS Speaking Part 1, giám khảo hỏi 'Do you...?' — câu trả lời dùng Simple Present để nói thói quen.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-sp-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Chọn câu đúng để hoàn thành ý kiến IELTS Task 2: 'Many educators believe that homework _____ students develop discipline.'",
+          "options": [
+            "is help",
+            "helping",
+            "helps",
+            "help"
+          ],
+          "correctAnswer": "helps",
+          "feedbackCorrect": "Đúng! 'Homework' là danh từ không đếm được, đóng vai ngôi 3 số ít → 'helps'. Câu này diễn tả sự thật chung.",
+          "feedbackWrong": "'Homework' tuy trông như số nhiều nhưng là danh từ không đếm được → cần 'helps' (thêm -s), không phải 'help'.",
+          "ieltsTip": "Task 2 thường dùng Simple Present để trình bày ý kiến và sự thật: 'Evidence suggests that...', 'Research shows that...'",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-sp-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi sai trong câu này (lỗi thật của học viên Việt Nam): 'In Vietnam, most parents wants their children to attend university because they believe education bring better job opportunities.'",
+          "options": [
+            "most parents want ... education brings",
+            "most parents wants ... education bring",
+            "most parents want ... education bring",
+            "most parents wants ... education brings"
+          ],
+          "correctAnswer": "most parents want ... education brings",
+          "feedbackCorrect": "Giỏi lắm! 'Parents' là số nhiều → 'want' (không thêm -s). 'Education' là số ít → 'brings' (thêm -s). Hai chủ ngữ, hai quy tắc khác nhau!",
+          "feedbackWrong": "Phân tích từng chủ ngữ: 'parents' = số nhiều → want (không -s). 'Education' = danh từ không đếm được, ngôi 3 số ít → brings (thêm -s).",
+          "ieltsTip": "Lỗi subject-verb agreement rất phổ biến trong Writing Task 2. Giám khảo chú ý đặc biệt khi câu dài có nhiều mệnh đề.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-sp-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền dạng đúng của động từ trong ngoặc: 'An IELTS candidate usually _____ (spend) at least 3 months preparing, and the exam _____ (test) four skills: Listening, Reading, Writing and Speaking.'",
+          "options": [
+            "spends / tests",
+            "spend / test",
+            "spends / test",
+            "spend / tests"
+          ],
+          "correctAnswer": "spends / tests",
+          "feedbackCorrect": "Hoàn hảo! 'A candidate' = ngôi 3 số ít → 'spends'. 'The exam' = ngôi 3 số ít → 'tests'. Luôn kiểm tra chủ ngữ trước khi chia động từ.",
+          "feedbackWrong": "Cả hai chủ ngữ đều là ngôi 3 số ít: 'A candidate' và 'the exam' → cả hai động từ đều thêm -s.",
+          "ieltsTip": "Tip Speaking Part 1: Khi nói về bản thân (I), KHÔNG thêm -s. Khi nói về người khác (he/she/the teacher/the school) → thêm -s.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-sp-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Xây dựng câu hoàn chỉnh từ các từ sau để tạo câu Task 2 tự nhiên (sắp xếp đúng thứ tự): [argue / educators / that / many / pressure / excessive / harm / academic / students]",
+          "options": [
+            "Many educators argue that excessive academic pressure harms students.",
+            "Many educators argue that students harm excessive academic pressure.",
+            "Educators many argue that academic excessive harms pressure students.",
+            "That many educators argue excessive academic pressure harms students."
+          ],
+          "correctAnswer": "Many educators argue that excessive academic pressure harms students.",
+          "feedbackCorrect": "Xuất sắc! Cấu trúc: Many + danh từ số nhiều + argue (không -s vì 'educators' là số nhiều) + that + mệnh đề (pressure → harms, thêm -s vì ngôi 3 số ít). Đây là câu Task 2 band 6.0+!",
+          "feedbackWrong": "Trật tự chuẩn: Many educators [chủ ngữ] argue [động từ chính] that [liên từ] excessive academic pressure [chủ ngữ mệnh đề phụ] harms [động từ, thêm -s] students [tân ngữ].",
+          "ieltsTip": "Cấu trúc 'Many + noun + argue/suggest/claim that...' rất phổ biến trong Task 2. Học thuộc để dùng ngay khi thi!",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 về tầm quan trọng của giáo dục. Dùng Simple Present và ít nhất một trong các từ: education, students, schools, teachers, universities.",
+        "placeholder": "Ví dụ: Education plays a vital role in...",
+        "grammarMustUse": "simple present",
+        "wordLimit": 30,
+        "modelAnswer": "Education plays a vital role in shaping a country's future, as it equips students with the knowledge and skills they need.",
+        "modelBand": 5
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 1 — Examiner hỏi: 'Do you think the education system in your country is good?' Trả lời 2-3 câu. Dùng Simple Present để diễn tả ý kiến và thực tế.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "simple present",
+          "subject-verb agreement"
+        ],
+        "modelAnswer": "I think the education system in Vietnam has both strengths and weaknesses. Students generally work very hard and value academic achievement. However, the system focuses too much on exams and does not always encourage creativity.",
+        "modelBand": 5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-1-present-continuous",
+      "nextUnitTitle": "Present Continuous",
+      "nextUnitConnection": "Bạn đã nắm Simple Present cho thói quen. Unit tiếp theo — Present Continuous — sẽ dạy bạn nói về điều đang xảy ra ngay lúc này, và cách dùng nó cho kế hoạch tương lai gần."
+    }
+  },
+  {
+    "id": "unit-1-present-continuous",
+    "chapter": 1,
+    "title": "Present Continuous",
+    "subtitle": "Thì hiện tại tiếp diễn",
+    "bandMin": 4,
+    "bandTarget": 5,
+    "meta": {
+      "topic": "Education",
+      "speakingPart": "Part 1",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-1-simple-present",
+      "prevUnitConnection": "Unit trước bạn đã học Simple Present cho thói quen. Giờ học Present Continuous — thì này dùng cho hành động đang diễn ra hoặc thay đổi hiện tại.",
+      "nextUnitId": "unit-1-simple-past",
+      "nextUnitTitle": "Simple Past"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + am/is/are + V-ing",
+        "negative": "S + am/is/are + not + V-ing",
+        "question": "Am/Is/Are + S + V-ing?"
+      },
+      "coreRule": "Present Continuous = am/is/are + V-ing. Dùng khi: (1) hành động đang xảy ra ngay lúc nói (now, at the moment); (2) hành động tạm thời đang diễn ra trong giai đoạn này (this week, these days); (3) xu hướng đang thay đổi (getting, rising, falling); (4) kế hoạch tương lai gần đã sắp xếp. KHÔNG dùng với: think, know, want, understand, believe, love, hate.",
+      "quickExamples": [
+        {
+          "en": "Many universities are updating their curricula to include AI skills.",
+          "vi": "Nhiều trường đại học đang cập nhật chương trình học để bao gồm kỹ năng AI."
+        },
+        {
+          "en": "I am currently preparing for my IELTS exam next month.",
+          "vi": "Hiện tôi đang chuẩn bị cho kỳ thi IELTS vào tháng tới."
+        },
+        {
+          "en": "The number of international students is rising every year.",
+          "vi": "Số lượng sinh viên quốc tế đang tăng lên mỗi năm."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Present Continuous để mô tả điều đang xảy ra trong cuộc sống học tập ngay lúc này — nghe tự nhiên, phân biệt được với Simple Present.",
+        "Dùng Present Continuous để viết về xu hướng đang thay đổi trong giáo dục — cấu trúc phù hợp với Task 2 phong cách học thuật."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "More and more students apply for universities these days.",
+          "correct": "More and more students are applying for universities these days.",
+          "tipVi": "Khi nói về xu hướng đang thay đổi trong giai đoạn này ('these days', 'nowadays'), dùng Present Continuous chứ không dùng Simple Present. Đây là lỗi rất phổ biến trong Task 2.",
+          "bandImpact": "Phân biệt đúng Simple Present vs Present Continuous khi nói về xu hướng giúp bạn đạt Grammatical Range & Accuracy band 6.0+."
+        },
+        {
+          "wrong": "I am wanting to study abroad next year.",
+          "correct": "I want to study abroad next year.",
+          "tipVi": "'Want' là động từ chỉ trạng thái tâm lý, không dùng dạng -ing. Các động từ tương tự: know, think, believe, understand, love, hate.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "She is study for her final exams this week.",
+          "correct": "She is studying for her final exams this week.",
+          "tipVi": "Cấu trúc Present Continuous bắt buộc là: be + V-ing. Thiếu -ing là lỗi cấu trúc cơ bản nhất.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "The education system improve a lot these days.",
+          "correct": "The education system is improving a lot these days.",
+          "tipVi": "'These days' là tín hiệu của xu hướng đang thay đổi → cần Present Continuous 'is improving', không phải Simple Present.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-pc-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu nào đúng khi nói về điều đang xảy ra ngay lúc này trong lớp học?",
+          "options": [
+            "The teacher explains the grammar rule right now.",
+            "The teacher is explaining the grammar rule right now.",
+            "The teacher explaining the grammar rule right now.",
+            "The teacher is explain the grammar rule right now."
+          ],
+          "correctAnswer": "The teacher is explaining the grammar rule right now.",
+          "feedbackCorrect": "Đúng! 'Right now' báo hiệu hành động đang xảy ra ngay lúc này → Present Continuous: is + explaining.",
+          "feedbackWrong": "'Right now' = đang xảy ra → cần is/am/are + V-ing. 'Explaining' không thể đứng một mình, cần có 'is' trước.",
+          "ieltsTip": "Từ tín hiệu Present Continuous: now, right now, at the moment, currently, at present, these days, nowadays.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-pc-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Chọn câu ĐÚNG để hoàn thành đoạn Task 2: 'Online education _____ increasingly popular as technology advances.'",
+          "options": [
+            "is becoming",
+            "becomes",
+            "becoming",
+            "are becoming"
+          ],
+          "correctAnswer": "is becoming",
+          "feedbackCorrect": "Chính xác! 'Online education' là số ít, xu hướng đang thay đổi → 'is becoming'. Đây là cấu trúc Task 2 rất hay!",
+          "feedbackWrong": "'Online education' là chủ ngữ số ít + xu hướng đang thay đổi → 'is becoming' (không phải 'are becoming' hay chỉ 'becomes').",
+          "ieltsTip": "Task 2 hay dùng: 'is becoming', 'is growing', 'is rising', 'is declining' để mô tả xu hướng — đây là dấu hiệu của văn phong học thuật.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-pc-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Tìm và sửa lỗi: 'Nowadays, more parents are choosing homeschooling because they are think the traditional school system is not flexible enough.'",
+          "options": [
+            "are thinking → think (không dùng -ing với 'think')",
+            "are choosing → choose (không dùng -ing với 'choose')",
+            "is not → are not (chia số nhiều)",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "are thinking → think (không dùng -ing với 'think')",
+          "feedbackCorrect": "Chính xác! 'Think' là stative verb (động từ chỉ trạng thái nhận thức) → không dùng dạng -ing. Phải dùng 'they think'. Nhưng 'are choosing' thì đúng vì 'choose' là action verb.",
+          "feedbackWrong": "'Think' thuộc nhóm động từ KHÔNG dùng -ing: think, know, believe, understand, want, need, love, hate, seem, appear.",
+          "ieltsTip": "Lỗi 'I am thinking that...' vs 'I think that...' — giám khảo Speaking nhận ra ngay. 'I think' là cố định, không đổi.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-pc-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng dạng động từ: 'According to recent data, the gap between rich and poor students _____ (widen), while the government _____ (invest) more in public schools to address this issue.'",
+          "options": [
+            "is widening / is investing",
+            "widens / invests",
+            "is widening / invests",
+            "widens / is investing"
+          ],
+          "correctAnswer": "is widening / is investing",
+          "feedbackCorrect": "Xuất sắc! Cả hai đều là xu hướng đang diễn ra hiện tại → cả hai dùng Present Continuous. Câu này đạt chuẩn Task 2 band 6.0.",
+          "feedbackWrong": "Cả hai hành động đều mô tả xu hướng đang thay đổi trong giai đoạn hiện tại → cả hai cần is/are + V-ing.",
+          "ieltsTip": "Trong Task 2, cặp câu 'The problem is growing... while the government is trying...' cho thấy bạn nắm tốt ngữ pháp thì hiện tại.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-pc-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Ghép các từ thành câu Task 2 hoàn chỉnh, tự nhiên: [traditional / are / universities / rethinking / many / their / teaching / approach]",
+          "options": [
+            "Many traditional universities are rethinking their teaching approach.",
+            "Many universities traditional are their teaching approach rethinking.",
+            "Traditional many universities are rethinking approach their teaching.",
+            "Are many traditional universities rethinking their teaching approach."
+          ],
+          "correctAnswer": "Many traditional universities are rethinking their teaching approach.",
+          "feedbackCorrect": "Tuyệt vời! Cấu trúc hoàn hảo: Many + adj + noun [chủ ngữ] + are rethinking [Present Continuous] + their teaching approach [tân ngữ]. Đây là câu Task 2 band 6.5!",
+          "feedbackWrong": "Trật tự chuẩn tiếng Anh: Many traditional universities [chủ ngữ] + are rethinking [động từ Present Continuous] + their teaching approach [tân ngữ].",
+          "ieltsTip": "Cấu trúc 'Many + noun + are + V-ing' rất phổ biến trong mở bài Task 2. Học thuộc: 'Many schools are moving toward...', 'Many countries are investing in...'",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 về một xu hướng đang thay đổi trong giáo dục Việt Nam hiện nay. Bắt buộc dùng Present Continuous.",
+        "placeholder": "Ví dụ: The number of students learning English online is growing rapidly because...",
+        "grammarMustUse": "present continuous",
+        "wordLimit": 30,
+        "modelAnswer": "The number of Vietnamese students learning English online is growing rapidly, as digital platforms are making quality education more accessible.",
+        "modelBand": 5
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 1 — Examiner hỏi: 'What are you doing to improve your English right now?' Trả lời 2-3 câu. Dùng Present Continuous.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "present continuous",
+          "stative verbs"
+        ],
+        "modelAnswer": "Right now, I am focusing on improving my vocabulary and listening skills. I am taking an online IELTS preparation course and watching English videos every day. I think it is helping me build confidence gradually.",
+        "modelBand": 5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-1-simple-past",
+      "nextUnitTitle": "Simple Past",
+      "nextUnitConnection": "Bạn đã nắm hai thì hiện tại. Unit tiếp theo — Simple Past — sẽ giúp bạn kể về trải nghiệm học tập trong quá khứ, rất cần cho Speaking Part 2 (kể chuyện)."
+    }
+  },
+  {
+    "id": "unit-1-simple-past",
+    "chapter": 1,
+    "title": "Simple Past",
+    "subtitle": "Thì quá khứ đơn",
+    "bandMin": 4.5,
+    "bandTarget": 5.5,
+    "meta": {
+      "topic": "Education",
+      "speakingPart": "Part 2",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-1-present-continuous",
+      "prevUnitConnection": "Bạn đã nắm hai thì hiện tại. Giờ học Simple Past — thì quan trọng nhất trong Speaking Part 2 khi phải kể về trải nghiệm quá khứ.",
+      "nextUnitId": "unit-1-past-continuous",
+      "nextUnitTitle": "Past Continuous"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + V-ed | S + V2 (irregular)",
+        "negative": "S + did not + V (base form)",
+        "question": "Did + S + V (base form)?"
+      },
+      "coreRule": "Simple Past diễn tả: (1) hành động đã bắt đầu và kết thúc tại một thời điểm cụ thể trong quá khứ; (2) chuỗi hành động xảy ra kế tiếp nhau trong quá khứ. Công thức: S + V-ed (động từ có quy tắc) hoặc S + V2 (động từ bất quy tắc). Từ tín hiệu: yesterday, last week/month/year, ago, in 2020, when I was a child.",
+      "quickExamples": [
+        {
+          "en": "I attended a private school for six years before I moved to the city.",
+          "vi": "Tôi đã học trường tư trong sáu năm trước khi chuyển lên thành phố."
+        },
+        {
+          "en": "My teacher encouraged me to take the IELTS exam last year.",
+          "vi": "Giáo viên của tôi đã khuyến khích tôi thi IELTS năm ngoái."
+        },
+        {
+          "en": "The school introduced a new curriculum in 2018 and students responded positively.",
+          "vi": "Trường đã giới thiệu chương trình học mới vào năm 2018 và học sinh phản hồi tích cực."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Simple Past để kể câu chuyện trong Speaking Part 2 (cue card) — kể mạch lạc, đúng thì, tự nhiên như người bản ngữ.",
+        "Dùng Simple Past để đưa ra ví dụ lịch sử hoặc trải nghiệm cá nhân trong Task 2 — làm lập luận thuyết phục hơn."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "When I was in high school, I study very hard for the university entrance exam.",
+          "correct": "When I was in high school, I studied very hard for the university entrance exam.",
+          "tipVi": "Người Việt hay quên chia động từ ở quá khứ vì tiếng Việt không chia thì. Mỗi khi thấy 'when I was...', 'last year', 'ago' → tự nhắc bản thân: PHẢI dùng V-ed hoặc V2.",
+          "bandImpact": "Kể chuyện trong Part 2 mà dùng Simple Present thay Simple Past sẽ bị trừ điểm nặng về Grammatical Range — khó đạt band 6.0."
+        },
+        {
+          "wrong": "She goed to university in 2019.",
+          "correct": "She went to university in 2019.",
+          "tipVi": "'Go' là động từ bất quy tắc: go → went. Không bao giờ thêm -ed cho động từ bất quy tắc. Cần học thuộc danh sách V2.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "I didn't studied enough before the IELTS exam.",
+          "correct": "I didn't study enough before the IELTS exam.",
+          "tipVi": "Sau 'didn't', động từ luôn ở dạng nguyên mẫu (bare infinitive). 'Didn't studied' là lỗi cực phổ biến của người Việt.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "When did you finished your degree?",
+          "correct": "When did you finish your degree?",
+          "tipVi": "Trong câu hỏi với 'did', động từ chính luôn ở dạng nguyên mẫu. 'Did you finished' là sai — chỉ được 'Did you finish'.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-spt-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu nào đúng khi kể về trải nghiệm học tập trong quá khứ?",
+          "options": [
+            "I go to an English center three times a week when I was in grade 10.",
+            "I went to an English center three times a week when I was in grade 10.",
+            "I was go to an English center three times a week when I was in grade 10.",
+            "I goed to an English center three times a week when I was in grade 10."
+          ],
+          "correctAnswer": "I went to an English center three times a week when I was in grade 10.",
+          "feedbackCorrect": "Đúng! 'When I was in grade 10' = quá khứ → Simple Past. 'Go' là động từ bất quy tắc → 'went', không phải 'goed'.",
+          "feedbackWrong": "'When I was...' báo hiệu quá khứ → cần V2. 'Go' → went (bất quy tắc, không thêm -ed). 'Was go' sai vì không thể kết hợp was + nguyên mẫu.",
+          "ieltsTip": "Trong Speaking Part 2, hầu hết câu chuyện kể ở Simple Past. Học thuộc 30 động từ bất quy tắc thông dụng nhất.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-spt-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Chọn câu đúng để viết ví dụ trong Task 2: 'Finland _____ its education system in the 1970s and _____ one of the best systems in the world.'",
+          "options": [
+            "reformed / became",
+            "reforms / becomes",
+            "reformed / becomes",
+            "reform / became"
+          ],
+          "correctAnswer": "reformed / became",
+          "feedbackCorrect": "'In the 1970s' = thời điểm cụ thể trong quá khứ → cả hai động từ đều ở Simple Past: reformed, became.",
+          "feedbackWrong": "'In the 1970s' là từ tín hiệu quá khứ rõ ràng → cả hai động từ phải ở dạng quá khứ. 'Reform' → reformed; 'become' → became (bất quy tắc).",
+          "ieltsTip": "Task 2 thường dùng ví dụ lịch sử: 'In the past / In [year], [country] + Simple Past...' — cách lập luận có bằng chứng đạt điểm cao.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-spt-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi trong câu Part 2: 'Last year, I decided to take an online course because I didn't had enough money to attend a language center, so I teach myself using YouTube videos.'",
+          "options": [
+            "didn't had → didn't have; teach → taught",
+            "decided → decide; didn't had → didn't have",
+            "didn't had → hadn't; teach → taught",
+            "teach → was teaching; decided → was deciding"
+          ],
+          "correctAnswer": "didn't had → didn't have; teach → taught",
+          "feedbackCorrect": "Chính xác! Hai lỗi: (1) 'didn't had' → 'didn't have' (sau didn't luôn dùng nguyên mẫu); (2) 'teach' → 'taught' (câu kể quá khứ, teach là động từ bất quy tắc: teach→taught).",
+          "feedbackWrong": "Kiểm tra hai điểm: (1) Sau 'didn't' → luôn dùng nguyên mẫu (have, not had); (2) 'teach' khi kể quá khứ → 'taught' (bất quy tắc).",
+          "ieltsTip": "Động từ bất quy tắc thường gặp trong Speaking Part 2: teach→taught, buy→bought, think→thought, bring→brought, catch→caught.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-spt-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng: 'When I _____ (be) a child, my parents _____ (send) me to a bilingual school, which _____ (give) me a strong foundation in English.'",
+          "options": [
+            "was / sent / gave",
+            "was / sended / gave",
+            "were / sent / gived",
+            "was / sent / given"
+          ],
+          "correctAnswer": "was / sent / gave",
+          "feedbackCorrect": "Hoàn hảo! 'was' (be→was/were), 'sent' (send→sent, bất quy tắc), 'gave' (give→gave, bất quy tắc). Ba động từ bất quy tắc phổ biến!",
+          "feedbackWrong": "Ba động từ đều bất quy tắc: be→was, send→sent (không phải sended), give→gave (không phải gived).",
+          "ieltsTip": "Câu 'When I was a child...' rất hay dùng trong Part 2. Luyện nói: 'When I was in primary school, I...' + Simple Past.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-spt-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Xây dựng câu kể chuyện Part 2 hoàn chỉnh: [the / inspired / my / teacher / high school / English / me / pursue / to / career / an / international]",
+          "options": [
+            "My high school English teacher inspired me to pursue an international career.",
+            "My English teacher high school inspired me to an international career pursue.",
+            "To pursue an international career, my high school English teacher inspired me.",
+            "My high school inspired me English teacher to pursue an international career."
+          ],
+          "correctAnswer": "My high school English teacher inspired me to pursue an international career.",
+          "feedbackCorrect": "Tuyệt! Cấu trúc: My + noun phrase [chủ ngữ] + inspired [Simple Past] + me [tân ngữ] + to pursue [động từ nguyên mẫu] + an international career [tân ngữ]. Câu kể chuyện Part 2 band 6.0!",
+          "feedbackWrong": "Trật tự: My high school English teacher [ai?] + inspired [làm gì, ở quá khứ] + me [ai bị ảnh hưởng] + to pursue an international career [kết quả].",
+          "ieltsTip": "Trong Part 2, câu kết mở rộng như thế này rất ấn tượng: '[Person] inspired/motivated/encouraged me to + V...'",
+          "skill": "speaking"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 nêu ví dụ lịch sử về cải cách giáo dục. Bắt buộc dùng Simple Past và một mốc thời gian cụ thể.",
+        "placeholder": "Ví dụ: In the 1990s, the Vietnamese government invested heavily in...",
+        "grammarMustUse": "simple past",
+        "wordLimit": 30,
+        "modelAnswer": "In the 1990s, the Vietnamese government invested heavily in building rural schools, which significantly increased literacy rates across the country.",
+        "modelBand": 5.5
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 2 — Cue card: 'Describe a teacher who had a positive impact on you.' Kể 2-3 câu dùng Simple Past.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "simple past",
+          "irregular verbs"
+        ],
+        "modelAnswer": "My most memorable teacher was Mrs. Lan, who taught me English in grade 10. She made every lesson fun and interesting, and she always encouraged me to speak without fear. Her teaching style completely changed my attitude toward learning English.",
+        "modelBand": 5.5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-1-past-continuous",
+      "nextUnitTitle": "Past Continuous",
+      "nextUnitConnection": "Simple Past kể hành động đã xảy ra. Past Continuous trong Unit 4 sẽ dạy bạn mô tả bối cảnh — hành động đang diễn ra khi một hành động khác xen vào. Rất cần cho cue card Part 2!"
+    }
+  },
+  {
+    "id": "unit-1-past-continuous",
+    "chapter": 1,
+    "title": "Past Continuous",
+    "subtitle": "Thì quá khứ tiếp diễn",
+    "bandMin": 4.5,
+    "bandTarget": 5.5,
+    "meta": {
+      "topic": "Education",
+      "speakingPart": "Part 2",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-1-simple-past",
+      "prevUnitConnection": "Simple Past kể sự kiện đã xảy ra. Past Continuous mô tả bối cảnh — hành động đang diễn ra thì bị gián đoạn. Dùng hai thì này cùng nhau giúp câu chuyện Part 2 sinh động hơn hẳn.",
+      "nextUnitId": "unit-2-present-perfect",
+      "nextUnitTitle": "Present Perfect"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + was/were + V-ing",
+        "negative": "S + was/were + not + V-ing",
+        "question": "Was/Were + S + V-ing?"
+      },
+      "coreRule": "Past Continuous = was/were + V-ing. Dùng khi: (1) hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ; (2) hành động đang diễn ra (dài hơn) thì bị gián đoạn bởi hành động khác (ngắn hơn) → dùng WHILE/WHEN: [Past Continuous] when/while [Simple Past]. Lưu ý: Past Continuous = hành động nền dài; Simple Past = hành động ngắn xen vào.",
+      "quickExamples": [
+        {
+          "en": "I was taking my final exam when the power went out.",
+          "vi": "Tôi đang làm bài thi cuối kỳ thì điện bị cúp."
+        },
+        {
+          "en": "While the students were waiting for results, the school announced a new scholarship program.",
+          "vi": "Trong khi học sinh đang chờ kết quả, nhà trường thông báo một chương trình học bổng mới."
+        },
+        {
+          "en": "She was preparing her university application when she realized she had missed the deadline.",
+          "vi": "Cô ấy đang chuẩn bị hồ sơ đại học thì nhận ra đã bỏ lỡ hạn chót."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Past Continuous kết hợp Simple Past để kể câu chuyện Part 2 có bối cảnh sinh động — phân biệt hành động nền và hành động chính.",
+        "Dùng Past Continuous trong Task 2 để tạo câu phức hợp mô tả tình huống quá khứ có chiều sâu."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "I studied for my exam when the teacher called to give me good news.",
+          "correct": "I was studying for my exam when my teacher called to give me good news.",
+          "tipVi": "Hành động đang tiếp diễn (studying) bị gián đoạn bởi hành động khác (called) → Past Continuous + when + Simple Past. Người Việt thường dùng Simple Past cho cả hai.",
+          "bandImpact": "Biết dùng 'was/were + V-ing' đúng lúc giúp câu chuyện Part 2 nghe tự nhiên và đạt Grammatical Range band 6.0."
+        },
+        {
+          "wrong": "While I was studying, my friend was called me.",
+          "correct": "While I was studying, my friend called me.",
+          "tipVi": "Hành động gián đoạn (friend called) dùng Simple Past, không phải Past Continuous. 'Was called' = bị động, mang nghĩa khác hoàn toàn.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "I were reviewing my notes when the exam result came out.",
+          "correct": "I was reviewing my notes when the exam result came out.",
+          "tipVi": "Với 'I', luôn dùng 'was' (không bao giờ 'were' trong câu khẳng định). Were chỉ dùng cho you/we/they.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "She was knowing the answer but she was too nervous to speak.",
+          "correct": "She knew the answer but she was too nervous to speak.",
+          "tipVi": "'Know' là stative verb — không dùng dạng -ing. Dùng 'knew' (Simple Past) thay vì 'was knowing'.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-ptc-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu nào mô tả đúng bối cảnh câu chuyện học tập?",
+          "options": [
+            "The students took their English exam when the fire alarm rang.",
+            "The students were taking their English exam when the fire alarm rang.",
+            "The students were taking their English exam when the fire alarm was ringing.",
+            "The students took their English exam when the fire alarm was ringing."
+          ],
+          "correctAnswer": "The students were taking their English exam when the fire alarm rang.",
+          "feedbackCorrect": "Đúng! 'Were taking' = hành động đang diễn ra (dài hơn). 'Rang' = hành động xen vào (ngắn hơn). Đây là cấu trúc WHILE/WHEN chuẩn.",
+          "feedbackWrong": "Quy tắc: Hành động đang diễn ra (dài) → Past Continuous (were taking). Hành động xen vào (ngắn) → Simple Past (rang). Không dùng Past Continuous cho cả hai.",
+          "ieltsTip": "Cấu trúc 'was/were + V-ing... when + Simple Past' giúp Part 2 nghe như người bản ngữ kể chuyện.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-ptc-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu nào đúng: 'While _____ for the scholarship interview, she _____ that she had forgotten her documents at home.'",
+          "options": [
+            "she was waiting / realized",
+            "she waited / was realizing",
+            "she was waiting / was realizing",
+            "she waited / realized"
+          ],
+          "correctAnswer": "she was waiting / realized",
+          "feedbackCorrect": "Chính xác! 'While she was waiting' = hành động nền đang tiếp diễn. 'Realized' = khoảnh khắc nhận ra (ngắn) → Simple Past.",
+          "feedbackWrong": "'Realize' là stative verb → không dùng -ing. 'While' thường đi với Past Continuous cho hành động nền dài hơn.",
+          "ieltsTip": "Sau 'while', hầu như luôn dùng Past Continuous. Sau 'when', thường dùng Simple Past cho hành động ngắn xen vào.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-ptc-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'While the teacher was explained the grammar rule, some students were texted on their phones, which annoyed her greatly.'",
+          "options": [
+            "was explained → was explaining; were texted → were texting",
+            "was explained → explained; were texted → were texting",
+            "was explained → was explaining; were texted → texted",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "was explained → was explaining; were texted → were texting",
+          "feedbackCorrect": "Chính xác! 'Was explained' = bị động (passive), không phải Past Continuous. Phải là 'was explaining' (chủ động). Tương tự 'were texted' → 'were texting' (học sinh chủ động nhắn tin).",
+          "feedbackWrong": "Past Continuous chủ động: was/were + V-ing. 'Was explained' là thể bị động (passive voice). Ở đây thầy/cô đang chủ động giảng bài → 'was explaining'.",
+          "ieltsTip": "Phân biệt: 'was explaining' (chủ động đang giảng) vs 'was explained' (bị người khác giảng cho) — hai nghĩa hoàn toàn khác nhau!",
+          "skill": "both"
+        },
+        {
+          "id": "ex-ptc-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng: 'At this time last year, I _____ (prepare) for my university entrance exam. I _____ (study) 10 hours a day, so when my friend _____ (invite) me to a party, I had to decline.'",
+          "options": [
+            "was preparing / was studying / invited",
+            "prepared / studied / was inviting",
+            "was preparing / studied / was inviting",
+            "prepared / was studying / invited"
+          ],
+          "correctAnswer": "was preparing / was studying / invited",
+          "feedbackCorrect": "Hoàn hảo! 'At this time last year' = thời điểm cụ thể → 'was preparing'. 'Was studying' = hành động kéo dài. 'Invited' = hành động xen vào ngắn → Simple Past.",
+          "feedbackWrong": "'At this time last year' → Past Continuous cho hành động đang diễn ra. 'Invited' là hành động xen vào một lần → Simple Past.",
+          "ieltsTip": "'At this time last year/week/month, I was + V-ing' là cấu trúc hay dùng trong Part 2 để đặt bối cảnh câu chuyện.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-ptc-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu kể chuyện Part 2 hoàn chỉnh: [revision / my / I / final / doing / was / when / called / scholarship / the / committee / to / inform / me / I / won / had]",
+          "options": [
+            "I was doing my final revision when the scholarship committee called to inform me I had won.",
+            "I doing was my final revision when called the scholarship committee to inform me I had won.",
+            "When I was doing my final revision, called the scholarship committee to inform me I had won.",
+            "The scholarship committee called when I was doing my final revision to inform me I won."
+          ],
+          "correctAnswer": "I was doing my final revision when the scholarship committee called to inform me I had won.",
+          "feedbackCorrect": "Xuất sắc! Câu kể chuyện hoàn hảo: Past Continuous (was doing) + when + Simple Past (called) + Past Perfect (had won) trong mệnh đề bổ sung. Đây là câu Part 2 band 6.5+!",
+          "feedbackWrong": "Cấu trúc: [I was doing my final revision] + when + [the committee called] + to inform me + [I had won]. Chú ý: 'had won' dùng Past Perfect vì xảy ra trước thời điểm trong quá khứ.",
+          "ieltsTip": "Kết hợp Past Continuous + Simple Past + Past Perfect trong một câu cho thấy bạn kiểm soát ngữ pháp tốt — đây là dấu hiệu band 6.5+.",
+          "skill": "speaking"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 mô tả tình huống giáo dục trong quá khứ dùng Past Continuous + Simple Past. Chủ đề: áp lực thi cử.",
+        "placeholder": "Ví dụ: While students were spending countless hours memorizing facts, educators were beginning to question...",
+        "grammarMustUse": "past continuous",
+        "wordLimit": 30,
+        "modelAnswer": "While students were spending countless hours memorizing content, educators began to question whether rote learning was truly preparing young people for the real world.",
+        "modelBand": 5.5
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 2 — Kể về một kỷ niệm đáng nhớ trong quá trình học tập. Dùng Past Continuous + Simple Past để tạo bối cảnh sinh động. Nói 2-3 câu.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "past continuous",
+          "simple past",
+          "while/when"
+        ],
+        "modelAnswer": "I remember one memorable moment from my school days. I was preparing for my final English exam late at night when I suddenly understood a grammar rule that had confused me for months. While I was reading a simple example in my textbook, everything clicked into place and I felt a great sense of achievement.",
+        "modelBand": 5.5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-2-present-perfect",
+      "nextUnitTitle": "Present Perfect",
+      "nextUnitConnection": "Bạn đã nắm 4 thì cơ bản. Unit 5 — Present Perfect — là thì khó nhất đối với người Việt vì không có tương đương trong tiếng Việt. Đây cũng là thì xuất hiện nhiều nhất trong IELTS Speaking Part 1 và 2."
+    }
+  },
+  {
+    "id": "unit-2-present-perfect",
+    "chapter": 1,
+    "title": "Present Perfect",
+    "subtitle": "Thì hiện tại hoàn thành",
+    "bandMin": 5,
+    "bandTarget": 6,
+    "meta": {
+      "topic": "Work & Technology",
+      "speakingPart": "Part 1",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-1-past-continuous",
+      "prevUnitConnection": "Bạn đã kể chuyện quá khứ. Present Perfect kết nối quá khứ với hiện tại — nói về trải nghiệm không rõ thời điểm, hoặc hành động vừa xảy ra và còn liên quan đến bây giờ.",
+      "nextUnitId": "unit-2-past-perfect",
+      "nextUnitTitle": "Past Perfect"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + have/has + V3 (past participle)",
+        "negative": "S + have/has + not + V3",
+        "question": "Have/Has + S + V3?"
+      },
+      "coreRule": "Present Perfect = have/has + V3 (past participle). Dùng khi: (1) kinh nghiệm trong cuộc đời (chưa rõ khi nào): ever, never, before; (2) hành động vừa xảy ra, còn ảnh hưởng hiện tại: just, already, yet; (3) hành động bắt đầu quá khứ, kéo dài đến nay: since, for; (4) xu hướng gần đây: recently, lately, over the past few years. KHÔNG dùng khi đã nêu thời điểm cụ thể (yesterday, in 2020 → dùng Simple Past).",
+      "quickExamples": [
+        {
+          "en": "Technology has transformed the way people work over the past decade.",
+          "vi": "Công nghệ đã thay đổi cách mọi người làm việc trong thập kỷ qua."
+        },
+        {
+          "en": "I have never worked remotely, but I would like to try it.",
+          "vi": "Tôi chưa bao giờ làm việc từ xa, nhưng tôi muốn thử."
+        },
+        {
+          "en": "Many companies have recently adopted AI tools to increase productivity.",
+          "vi": "Nhiều công ty gần đây đã áp dụng các công cụ AI để tăng năng suất."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Present Perfect để nói về kinh nghiệm làm việc và công nghệ trong Part 1 — phân biệt 'I have used' vs 'I used' một cách tự nhiên.",
+        "Dùng Present Perfect trong Task 2 để nói về xu hướng từ quá khứ đến hiện tại — đặc biệt trong mở bài và kết bài."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "I used many different apps to learn English since 2020.",
+          "correct": "I have used many different apps to learn English since 2020.",
+          "tipVi": "'Since 2020' = từ quá khứ đến bây giờ → cần Present Perfect, không phải Simple Past. Đây là lỗi số 1 của người Việt với Present Perfect vì tiếng Việt không có thì này.",
+          "bandImpact": "Dùng đúng Present Perfect với 'since/for' trong Part 1 là dấu hiệu rõ ràng nhất của band 6.0+."
+        },
+        {
+          "wrong": "She has worked at that tech company since three years.",
+          "correct": "She has worked at that tech company for three years.",
+          "tipVi": "'Since' đi với mốc thời gian cụ thể (since 2020, since Monday). 'For' đi với khoảng thời gian (for three years, for a long time).",
+          "bandImpact": null
+        },
+        {
+          "wrong": "I have finished my project yesterday.",
+          "correct": "I finished my project yesterday.",
+          "tipVi": "'Yesterday' là thời điểm cụ thể trong quá khứ → dùng Simple Past, không phải Present Perfect. Present Perfect không đi kèm thời điểm cụ thể đã qua.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "Have you ever went to a tech conference?",
+          "correct": "Have you ever been to a tech conference?",
+          "tipVi": "Trong câu hỏi về kinh nghiệm với 'go to a place', dùng 'been to', không phải 'gone to'. 'Gone to' có nghĩa là đã đi và chưa về.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-pp-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Examiner hỏi: 'Do you use technology for work?' — Câu trả lời nào đúng ngữ pháp nhất?",
+          "options": [
+            "Yes, I used many digital tools since I started my job.",
+            "Yes, I have used many digital tools since I started my job.",
+            "Yes, I am using many digital tools since I started my job.",
+            "Yes, I was using many digital tools since I started my job."
+          ],
+          "correctAnswer": "Yes, I have used many digital tools since I started my job.",
+          "feedbackCorrect": "Đúng! 'Since I started my job' = từ khi bắt đầu đến nay → Present Perfect 'have used'. Trải nghiệm kéo dài đến hiện tại.",
+          "feedbackWrong": "'Since' kết nối quá khứ với hiện tại → Present Perfect (have/has + V3). Không dùng Simple Past hay các thì tiếp diễn với 'since' theo nghĩa này.",
+          "ieltsTip": "Part 1 hay hỏi: 'Have you ever...?', 'How long have you...?' → chuẩn bị sẵn câu trả lời với Present Perfect.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-pp-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Chọn câu đúng cho mở bài Task 2: 'In recent years, artificial intelligence _____ the nature of work in almost every industry.'",
+          "options": [
+            "transformed",
+            "has transformed",
+            "is transforming",
+            "transforms"
+          ],
+          "correctAnswer": "has transformed",
+          "feedbackCorrect": "'In recent years' = xu hướng từ quá khứ đến nay → Present Perfect 'has transformed'. Đây là cấu trúc mở bài Task 2 chuyên nghiệp.",
+          "feedbackWrong": "'In recent years' là dấu hiệu của Present Perfect, không phải Simple Past hay Present Simple. Xu hướng từ quá khứ đến hiện tại = have/has + V3.",
+          "ieltsTip": "Cụm từ kéo Present Perfect: 'in recent years', 'over the past decade', 'in the last few years' — học thuộc để mở bài Task 2 ấn tượng.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-pp-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'Remote working has became increasingly common since the pandemic started in 2020, and many employees have discovered that they are more productive at home.'",
+          "options": [
+            "has became → has become",
+            "has became → had become",
+            "have discovered → discovered",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "has became → has become",
+          "feedbackCorrect": "'Become' là động từ bất quy tắc: become → became → become (V3). Không phải 'became' sau 'has'. V3 của become = become (giống nguyên mẫu).",
+          "feedbackWrong": "Present Perfect = have/has + V3 (past participle). 'Become' bất quy tắc: V1=become, V2=became, V3=become. Vậy 'has become' là đúng, không phải 'has became'.",
+          "ieltsTip": "Động từ bất quy tắc V3 hay nhầm: become→become, come→come, run→run, cut→cut (V3 giống V1). Vs. go→gone, do→done, see→seen (V3 khác).",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-pp-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng: 'I _____ (work) in the tech industry for five years, and during that time the field _____ (change) dramatically. I _____ (just / update) my skills by completing an AI certification course.'",
+          "options": [
+            "have worked / has changed / have just updated",
+            "worked / changed / just updated",
+            "have worked / changed / have just updated",
+            "worked / has changed / just updated"
+          ],
+          "correctAnswer": "have worked / has changed / have just updated",
+          "feedbackCorrect": "Hoàn hảo! 'For five years' → Present Perfect 'have worked'. 'Dramatically' + xu hướng → 'has changed'. 'Just' → 'have just updated'. Ba cách dùng Present Perfect khác nhau trong một đoạn!",
+          "feedbackWrong": "'For five years' (đến nay) → have worked. Xu hướng thay đổi → has changed. 'Just' = vừa mới xảy ra → have just updated.",
+          "ieltsTip": "Trong Part 1, kết hợp cả ba: 'I have worked... for... / the field has changed... / I have just...' tạo câu trả lời phong phú và tự nhiên.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-pp-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Task 2 học thuật: [has / number / the / dramatically / remote / of / risen / workers / past / over / the / decade]",
+          "options": [
+            "The number of remote workers has risen dramatically over the past decade.",
+            "The number of remote workers dramatically has risen over the past decade.",
+            "Over the past decade has the number of remote workers risen dramatically.",
+            "The number has risen dramatically of remote workers over the past decade."
+          ],
+          "correctAnswer": "The number of remote workers has risen dramatically over the past decade.",
+          "feedbackCorrect": "Câu Task 2 hoàn hảo! Cấu trúc: The number of [noun] + has risen [Present Perfect] + dramatically [trạng từ] + over the past decade [thời gian]. Band 6.5+!",
+          "feedbackWrong": "Trật tự: The number of remote workers [chủ ngữ] + has risen [động từ Present Perfect] + dramatically [trạng từ bổ nghĩa] + over the past decade [cụm thời gian].",
+          "ieltsTip": "Cấu trúc vàng Task 2: 'The number of... has risen/fallen/grown + dramatically/significantly + over the past decade.' Học thuộc!",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 về tác động của công nghệ lên thị trường lao động. Dùng Present Perfect và ít nhất một trong: recently, over the past decade, since, for.",
+        "placeholder": "Ví dụ: Technology has created thousands of new job opportunities since...",
+        "grammarMustUse": "present perfect",
+        "wordLimit": 30,
+        "modelAnswer": "Technology has created thousands of new job opportunities over the past decade, although it has also displaced many workers in traditional industries.",
+        "modelBand": 6
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 1 — Examiner hỏi: 'Have you ever used technology to help you at work or study?' Trả lời 2-3 câu. Dùng Present Perfect ít nhất một lần.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "present perfect",
+          "for/since",
+          "just/already/yet"
+        ],
+        "modelAnswer": "Yes, I have used technology extensively for both work and study. For instance, I have been using online tools like Zoom and Google Docs for the past two years, and they have made collaboration much easier. I have also recently discovered AI writing assistants, which have saved me a lot of time.",
+        "modelBand": 6
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-2-past-perfect",
+      "nextUnitTitle": "Past Perfect",
+      "nextUnitConnection": "Present Perfect kết nối quá khứ với hiện tại. Past Perfect trong Unit 6 kết nối hai mốc trong quá khứ — diễn tả điều đã xảy ra TRƯỚC một điều khác trong quá khứ. Rất cần cho kể chuyện phức tạp."
+    }
+  },
+  {
+    "id": "unit-2-past-perfect",
+    "chapter": 2,
+    "title": "Past Perfect",
+    "subtitle": "Thì quá khứ hoàn thành",
+    "bandMin": 5.5,
+    "bandTarget": 6,
+    "meta": {
+      "topic": "Work & Technology",
+      "speakingPart": "Part 2",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-2-present-perfect",
+      "prevUnitConnection": "Present Perfect nối quá khứ với hiện tại. Past Perfect nối hai mốc trong quá khứ — khi nói 'Khi tôi đến, họ đã ra về rồi', hành động ra về xảy ra TRƯỚC khi tôi đến.",
+      "nextUnitId": "unit-2-past-future",
+      "nextUnitTitle": "Future (will/going to)"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + had + V3 (past participle)",
+        "negative": "S + had + not + V3",
+        "question": "Had + S + V3?"
+      },
+      "coreRule": "Past Perfect = had + V3. Dùng khi diễn tả hành động xảy ra và kết thúc TRƯỚC một thời điểm hoặc hành động khác trong quá khứ. Thường đi với: before, after, when, by the time, already, just, never. Công thức kể chuyện: [Past Perfect] + before/when + [Simple Past] HOẶC [Simple Past] + because + [Past Perfect].",
+      "quickExamples": [
+        {
+          "en": "By the time the company adopted cloud technology, its competitors had already moved ahead.",
+          "vi": "Khi công ty áp dụng công nghệ đám mây, các đối thủ đã tiến xa rồi."
+        },
+        {
+          "en": "She got the promotion because she had worked exceptionally hard for two years.",
+          "vi": "Cô ấy được thăng chức vì đã làm việc xuất sắc trong hai năm."
+        },
+        {
+          "en": "I had never used a coding language before I joined the software company.",
+          "vi": "Tôi chưa bao giờ dùng ngôn ngữ lập trình trước khi vào công ty phần mềm."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Past Perfect để kể chuyện Part 2 có chiều sâu thời gian — nêu được trình tự 'cái gì xảy ra trước, cái gì sau' một cách rõ ràng.",
+        "Dùng Past Perfect trong Task 2 để lập luận về nguyên nhân-kết quả trong quá khứ — câu văn phức tạp và học thuật hơn."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "When I arrived at the job interview, I realized I forgot to bring my CV.",
+          "correct": "When I arrived at the job interview, I realized I had forgotten to bring my CV.",
+          "tipVi": "Hành động quên (forget) xảy ra TRƯỚC khi nhận ra (realize) → Past Perfect 'had forgotten'. Người Việt hay dùng Simple Past cho cả hai vì tiếng Việt không phân biệt thứ tự thì.",
+          "bandImpact": "Dùng đúng Past Perfect trong chuỗi sự kiện là dấu hiệu grammar band 6.5+ trong Speaking Part 2."
+        },
+        {
+          "wrong": "After she has finished the project, she went home.",
+          "correct": "After she had finished the project, she went home.",
+          "tipVi": "Cả hai hành động đều trong quá khứ. 'Had finished' xảy ra trước 'went home' → dùng Past Perfect, không phải Present Perfect.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "He didn't get the job because he hadn't practiced for the interview.",
+          "correct": "He didn't get the job because he hadn't practiced for the interview.",
+          "tipVi": "Câu này thực ra đúng rồi! 'Hadn't practiced' (Past Perfect phủ định) chỉ việc anh ta ĐÃ KHÔNG chuẩn bị — xảy ra trước 'didn't get'.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "By the time I learned about the job opening, someone had already took it.",
+          "correct": "By the time I learned about the job opening, someone had already taken it.",
+          "tipVi": "'Take' là động từ bất quy tắc: take → took → taken (V3). Sau 'had' phải dùng V3 = taken, không phải V2 = took.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-ppf-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu nào đúng khi kể thứ tự sự kiện: 'By the time the manager called a meeting, the tech team _____ the problem.'",
+          "options": [
+            "already solved",
+            "had already solved",
+            "has already solved",
+            "was already solving"
+          ],
+          "correctAnswer": "had already solved",
+          "feedbackCorrect": "'By the time' + Simple Past (called) → hành động xảy ra trước đó dùng Past Perfect: 'had already solved'.",
+          "feedbackWrong": "'By the time + Simple Past' → hành động xảy ra trước đó cần Past Perfect: had + V3. 'Already' thường đi với Past Perfect trong ngữ cảnh này.",
+          "ieltsTip": "Cặp 'By the time + Simple Past, subject + Past Perfect' rất phổ biến trong kể chuyện Part 2.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-ppf-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Task 2 — Câu nào diễn đạt đúng: Nhiều công ty thất bại vì không kịp thích nghi với công nghệ?",
+          "options": [
+            "Many companies failed because they didn't adapt to new technology.",
+            "Many companies failed because they hadn't adapted to new technology.",
+            "Many companies had failed because they didn't adapt to new technology.",
+            "Many companies were failing because they hadn't adapted to new technology."
+          ],
+          "correctAnswer": "Many companies failed because they hadn't adapted to new technology.",
+          "feedbackCorrect": "Đúng! 'Failed' là kết quả (Simple Past). 'Hadn't adapted' là nguyên nhân xảy ra TRƯỚC → Past Perfect. Nhấn mạnh: vì đã không thích nghi từ trước nên mới thất bại.",
+          "feedbackWrong": "Nguyên nhân (không thích nghi) xảy ra TRƯỚC kết quả (thất bại) → nguyên nhân dùng Past Perfect: hadn't adapted.",
+          "ieltsTip": "'Failed because + Past Perfect' tạo câu Task 2 phân tích nguyên nhân-kết quả rất học thuật và thuyết phục.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-ppf-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'When the startup finally received funding, the founders already spent most of their savings on product development, so they were relieved.'",
+          "options": [
+            "already spent → had already spent",
+            "received → had received",
+            "were relieved → had been relieved",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "already spent → had already spent",
+          "feedbackCorrect": "Đúng! 'Spending savings' xảy ra TRƯỚC 'received funding' → cần Past Perfect 'had already spent'. 'Received' là Simple Past cho sự kiện chính.",
+          "feedbackWrong": "Hai hành động trong quá khứ, một xảy ra trước: 'spent savings' (trước) → Past Perfect: had spent. 'Received funding' (sau) → Simple Past.",
+          "ieltsTip": "'Already' thường là tín hiệu cần Past Perfect khi đang kể chuỗi sự kiện quá khứ.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-ppf-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng dạng động từ: 'She got the promotion because she _____ (exceed) her targets for three consecutive years and _____ (complete) a leadership training program before the position became available.'",
+          "options": [
+            "had exceeded / had completed",
+            "exceeded / completed",
+            "had exceeded / completed",
+            "exceeded / had completed"
+          ],
+          "correctAnswer": "had exceeded / had completed",
+          "feedbackCorrect": "Hoàn hảo! Cả hai nguyên nhân đều xảy ra TRƯỚC khi cô ấy được thăng chức → cả hai dùng Past Perfect.",
+          "feedbackWrong": "Cả hai hành động (vượt chỉ tiêu và hoàn thành khóa học) đều xảy ra TRƯỚC khi được thăng chức (Simple Past) → cả hai cần Past Perfect.",
+          "ieltsTip": "Khi có nhiều nguyên nhân dẫn đến một kết quả trong quá khứ, tất cả nguyên nhân dùng Past Perfect.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-ppf-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Part 2 phức tạp: [had / the / I / applied / job / when / already / company / filled / position / the / I / realized]",
+          "options": [
+            "When I applied for the job, I realized the company had already filled the position.",
+            "I had applied for the job when I realized the company already filled the position.",
+            "When I realized the company had already filled the position, I applied for the job.",
+            "The company had filled the position when I applied and realized already."
+          ],
+          "correctAnswer": "When I applied for the job, I realized the company had already filled the position.",
+          "feedbackCorrect": "Xuất sắc! 'Applied' và 'realized' = Simple Past (hai hành động gần như đồng thời). 'Had already filled' = Past Perfect (xảy ra trước cả hai). Ba thì trong một câu — band 6.5!",
+          "feedbackWrong": "Trật tự thời gian: 1. Company filled position (Past Perfect: had filled). 2. I applied + realized (Simple Past: applied, realized). Hành động 1 xảy ra trước → Past Perfect.",
+          "ieltsTip": "Câu kể chuyện Part 2 kết hợp When + Simple Past + Past Perfect cho thấy bạn kiểm soát ngữ pháp thì rất tốt.",
+          "skill": "speaking"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 phân tích nguyên nhân thất bại của một công ty công nghệ. Dùng Past Perfect để chỉ nguyên nhân xảy ra trước.",
+        "placeholder": "Ví dụ: The company collapsed because it had failed to...",
+        "grammarMustUse": "past perfect",
+        "wordLimit": 30,
+        "modelAnswer": "Many tech startups collapsed because they had failed to develop a sustainable business model before spending all their initial investment on marketing.",
+        "modelBand": 6
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 2 — Kể về một lần bạn bỏ lỡ cơ hội vì chưa chuẩn bị đủ. Dùng Past Perfect ít nhất một lần.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "past perfect",
+          "simple past",
+          "by the time / when"
+        ],
+        "modelAnswer": "I remember missing a great job opportunity at a tech company. By the time I found out about the position, they had already shortlisted their candidates. I hadn't updated my CV for months, and I hadn't built up my portfolio either. It was a valuable lesson — I learned to always keep my professional profile ready.",
+        "modelBand": 6
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-2-past-future",
+      "nextUnitTitle": "Future (will/going to)",
+      "nextUnitConnection": "Bạn đã nắm vững 6 thì quan trọng nhất. Unit 7 — Future — sẽ dạy cách nói về kế hoạch và dự đoán: sự khác nhau giữa 'will' và 'going to' thường gây nhầm lẫn ngay cả học viên band 6.0."
+    }
+  },
+  {
+    "id": "unit-2-past-future",
+    "chapter": 2,
+    "title": "Future (will / going to)",
+    "subtitle": "Thì tương lai — will và be going to",
+    "bandMin": 4.5,
+    "bandTarget": 5.5,
+    "meta": {
+      "topic": "Work & Technology",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-2-past-perfect",
+      "prevUnitConnection": "Bạn đã nắm các thì quá khứ và hiện tại. Tương lai là Unit quan trọng cho Part 3 — nơi examiner hỏi về dự đoán xã hội và công nghệ.",
+      "nextUnitId": "unit-3-modal-ability",
+      "nextUnitTitle": "Modal — Ability (can/could)"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + will + V (base) | S + am/is/are + going to + V",
+        "negative": "S + will not (won't) + V | S + am/is/are + not + going to + V",
+        "question": "Will + S + V? | Am/Is/Are + S + going to + V?"
+      },
+      "coreRule": "WILL: (1) dự đoán dựa trên quan điểm/kinh nghiệm; (2) quyết định ngay lúc nói; (3) lời hứa, đề nghị, yêu cầu. GOING TO: (1) kế hoạch đã được sắp xếp từ trước; (2) dự đoán dựa trên bằng chứng hiện tại. Trong câu điều kiện và mệnh đề thời gian: KHÔNG dùng will sau when/if/before/after → dùng Simple Present.",
+      "quickExamples": [
+        {
+          "en": "Automation will likely eliminate repetitive jobs but create new roles in AI management.",
+          "vi": "Tự động hóa có thể sẽ xóa bỏ các công việc lặp lại nhưng tạo ra các vai trò mới trong quản lý AI."
+        },
+        {
+          "en": "I'm going to apply for a software engineering position next month — I've already updated my CV.",
+          "vi": "Tháng tới tôi sẽ nộp đơn vào vị trí kỹ sư phần mềm — tôi đã cập nhật CV rồi."
+        },
+        {
+          "en": "Look at those dark clouds — it's going to rain, so we should move the outdoor tech event inside.",
+          "vi": "Nhìn những đám mây đen kia — trời sắp mưa, chúng ta nên chuyển sự kiện công nghệ ngoài trời vào trong."
+        }
+      ],
+      "keyPoints": [
+        "Phân biệt 'will' (dự đoán, quyết định tức thì) và 'going to' (kế hoạch đã có, dự đoán dựa trên bằng chứng) để trả lời Part 3 tự nhiên và chính xác.",
+        "Dùng 'will' để đưa ra dự đoán học thuật trong Task 2 — kết hợp với trạng từ: probably, likely, certainly để điều tiết mức độ chắc chắn."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "I think robots will to replace most factory workers in 20 years.",
+          "correct": "I think robots will replace most factory workers in the next 20 years.",
+          "tipVi": "Sau 'will' luôn dùng động từ nguyên mẫu không 'to'. 'Will to replace' là lỗi rất phổ biến — có thể vì nhầm với 'be going to + V'.",
+          "bandImpact": "'Will + V (không to)' là cấu trúc cơ bản. Sai ở đây trong Part 3 sẽ bị trừ điểm Grammatical Accuracy ngay lập tức."
+        },
+        {
+          "wrong": "When technology will advance, many jobs will disappear.",
+          "correct": "When technology advances, many jobs will disappear.",
+          "tipVi": "Trong mệnh đề thời gian bắt đầu bằng 'when/if/before/after', KHÔNG dùng 'will' — dùng Simple Present thay thế. Lỗi này rất phổ biến trong Task 2.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "I will to start my own tech business next year.",
+          "correct": "I'm going to start my own tech business next year.",
+          "tipVi": "Kế hoạch đã có sẵn → 'going to'. Thêm vào đó, 'will to start' sai — sau will không dùng 'to'. Đúng là: will start hoặc am going to start.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "The company is going to probably expand globally.",
+          "correct": "The company will probably expand globally.",
+          "tipVi": "'Probably' thường đi với 'will', không phải 'going to'. Và 'probably' đứng GIỮA will và động từ chính: will probably + V.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-fut-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Examiner hỏi Part 3: 'Do you think AI will replace human workers?' — Câu trả lời nào đúng ngữ pháp?",
+          "options": [
+            "I think AI will to replace some workers, but not all.",
+            "I think AI will replace some workers, but not all.",
+            "I think AI is going to to replace some workers, but not all.",
+            "I think AI replaces some workers, but not all."
+          ],
+          "correctAnswer": "I think AI will replace some workers, but not all.",
+          "feedbackCorrect": "Đúng! Dự đoán dựa trên quan điểm → 'will + V nguyên mẫu (không to)'. Không bao giờ 'will to + V'.",
+          "feedbackWrong": "Sau 'will' → luôn dùng V nguyên mẫu không 'to': will replace (đúng), will to replace (sai). Đây là lỗi cực phổ biến.",
+          "ieltsTip": "Công thức trả lời Part 3 dự đoán: 'I think/believe + subject + will + probably + V...' — tự nhiên và đúng ngữ pháp.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-fut-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu Task 2 nào đúng: 'If governments _____ to regulate AI, society _____ serious consequences.'",
+          "options": [
+            "will fail / will face",
+            "fail / will face",
+            "will fail / faces",
+            "fail / faces"
+          ],
+          "correctAnswer": "fail / will face",
+          "feedbackCorrect": "Đúng! Mệnh đề 'if' → Simple Present (fail), không dùng will. Mệnh đề chính → will face (kết quả tương lai).",
+          "feedbackWrong": "Quy tắc câu điều kiện loại 1: If + Simple Present → will + V. KHÔNG dùng will trong mệnh đề if.",
+          "ieltsTip": "Câu điều kiện loại 1 trong Task 2: 'If + Simple Present, will + V' — cấu trúc lập luận rất hiệu quả.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-fut-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'As technology will continue to evolve, more workers will to need to reskill themselves. Companies are going to probably invest more in employee training programs.'",
+          "options": [
+            "will continue → continues; will to need → will need; going to probably → will probably",
+            "will continue → will continues; will to need → will need",
+            "will to need → will need only (câu đầu đúng, câu sau đúng)",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "will continue → continues; will to need → will need; going to probably → will probably",
+          "feedbackCorrect": "Ba lỗi! (1) 'As + will continue' → 'as continues' (mệnh đề thời gian). (2) 'will to need' → 'will need' (không có 'to' sau will). (3) 'going to probably' → 'will probably' ('probably' đi tự nhiên hơn với 'will').",
+          "feedbackWrong": "Kiểm tra: (1) Mệnh đề bắt đầu bằng 'as/when' → không dùng will. (2) Will + V nguyên mẫu, không có 'to'. (3) 'Probably' thường đi với 'will', không phải 'going to'.",
+          "ieltsTip": "Ba lỗi phổ biến nhất về tương lai trong Task 2 — tránh được cả ba thì bạn đã đạt chuẩn grammar band 6.0.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-fut-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng (chọn will hoặc going to + dạng đúng của động từ): 'I _____ (attend) a digital marketing conference next week — I registered last month. I think it _____ (be) very useful for my career development.'",
+          "options": [
+            "am going to attend / will be",
+            "will attend / am going to be",
+            "will attend / will be",
+            "am going to attend / am going to be"
+          ],
+          "correctAnswer": "am going to attend / will be",
+          "feedbackCorrect": "'Am going to attend' = kế hoạch đã đăng ký từ trước. 'Will be' = dự đoán/quan điểm cá nhân. Đây chính xác là sự khác biệt giữa will và going to!",
+          "feedbackWrong": "Câu 1: đã đăng ký trước → going to. Câu 2: đưa ra dự đoán/quan điểm → will. Đây là sự khác biệt quan trọng nhất giữa will và going to.",
+          "ieltsTip": "Trong Part 1: 'What are your plans for the future?' → 'I'm going to...' (kế hoạch). 'What do you think will happen?' → 'I think it will...' (dự đoán).",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-fut-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Task 2 dự đoán học thuật: [artificial / likely / will / intelligence / reshape / the / job / market / significantly / next / over / the / decade]",
+          "options": [
+            "Artificial intelligence will likely reshape the job market significantly over the next decade.",
+            "Artificial intelligence likely will reshape significantly the job market over the next decade.",
+            "Artificial intelligence will reshape likely the job market significantly over the next decade.",
+            "Over the next decade, artificial intelligence the job market will likely reshape significantly."
+          ],
+          "correctAnswer": "Artificial intelligence will likely reshape the job market significantly over the next decade.",
+          "feedbackCorrect": "Câu Task 2 chuẩn mực! Trật tự trạng từ: will + likely (trạng từ tình thái) + V + tân ngữ + trạng từ cách thức + cụm thời gian. Band 6.5+!",
+          "feedbackWrong": "Trật tự chuẩn: Subject + will + likely + V + object + significantly (cách thức) + over the next decade (thời gian).",
+          "ieltsTip": "Vị trí 'likely/probably' trong câu tương lai: will + likely/probably + V (giữa will và động từ chính). Không đặt ở đầu câu.",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 dự đoán về tương lai của thị trường lao động kỹ thuật số. Dùng will + probably/likely.",
+        "placeholder": "Ví dụ: Remote work will likely become the norm in the technology sector...",
+        "grammarMustUse": "will / going to",
+        "wordLimit": 30,
+        "modelAnswer": "Remote work will likely become the standard in the technology sector, as companies increasingly recognize that productivity does not require physical presence.",
+        "modelBand": 5.5
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 3 — Examiner hỏi: 'How do you think technology will change the workplace in the next 20 years?' Trả lời 2-3 câu. Dùng will ít nhất hai lần.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "will",
+          "going to",
+          "probably/likely"
+        ],
+        "modelAnswer": "I think technology will fundamentally change how and where we work. Many routine tasks will probably be automated, which means workers will need to focus more on creativity and problem-solving. Companies will likely invest heavily in employee retraining programs to help their workforce adapt.",
+        "modelBand": 5.5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-3-modal-ability",
+      "nextUnitTitle": "Modal — Ability (can/could)",
+      "nextUnitConnection": "Bạn đã nắm các thì cơ bản. Unit 8 bắt đầu chương Modal Verbs — những động từ khuyết thiếu như can, could, may, might, should. Đây là nhóm ngữ pháp xuất hiện nhiều nhất trong IELTS Speaking Part 3."
+    }
+  },
+  {
+    "id": "unit-3-modal-ability",
+    "chapter": 3,
+    "title": "Modal — Ability (can / could)",
+    "subtitle": "Động từ khuyết thiếu — Khả năng",
+    "bandMin": 5,
+    "bandTarget": 6,
+    "meta": {
+      "topic": "Work & Technology",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-2-past-future",
+      "prevUnitConnection": "Bạn đã nắm các thì. Modal verbs là lớp ngữ pháp mới — không chia theo thì, dùng để diễn đạt khả năng, xác suất, nghĩa vụ. 'Can/could' là modal đơn giản nhất.",
+      "nextUnitId": "unit-3-modal-possibility",
+      "nextUnitTitle": "Modal — Possibility (may/might)"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + can/could + V (base form)",
+        "negative": "S + cannot (can't) / could not (couldn't) + V",
+        "question": "Can/Could + S + V (base form)?"
+      },
+      "coreRule": "CAN: khả năng hiện tại / khả năng chung chung. COULD: (1) khả năng trong quá khứ; (2) khả năng lý thuyết / đề xuất lịch sự hơn can; (3) trong câu điều kiện. Sau modal: luôn dùng V nguyên mẫu (không to, không -s, không -ed). Phủ định: cannot/can't, couldn't.",
+      "quickExamples": [
+        {
+          "en": "Remote workers can collaborate effectively using digital tools like Zoom and Slack.",
+          "vi": "Nhân viên làm việc từ xa có thể cộng tác hiệu quả bằng các công cụ kỹ thuật số như Zoom và Slack."
+        },
+        {
+          "en": "Ten years ago, most people couldn't imagine working from home full-time.",
+          "vi": "Mười năm trước, hầu hết mọi người không thể tưởng tượng làm việc tại nhà toàn thời gian."
+        },
+        {
+          "en": "Governments could invest more in digital literacy programs to help older workers adapt.",
+          "vi": "Chính phủ có thể đầu tư thêm vào các chương trình đọc viết kỹ thuật số để giúp người lao động lớn tuổi thích nghi."
+        }
+      ],
+      "keyPoints": [
+        "Dùng can/could linh hoạt trong Part 3 để nói về khả năng của con người và công nghệ — tránh câu trả lời đơn điệu chỉ dùng 'can'.",
+        "Dùng can/could trong Task 2 để đưa ra đề xuất giải pháp — câu văn học thuật, tránh dùng 'can' quá nhiều."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "Technology can to solve many problems in the workplace.",
+          "correct": "Technology can solve many problems in the workplace.",
+          "tipVi": "Sau modal verbs (can, could, will, would, may, might, should, must) KHÔNG BAO GIỜ dùng 'to'. Đây là quy tắc tuyệt đối. 'Can to solve' là lỗi rất phổ biến.",
+          "bandImpact": "Lỗi 'can to + V' là lỗi cơ bản nhất với modal verbs. Giám khảo gặp lỗi này ngay câu đầu sẽ ảnh hưởng đến ấn tượng toàn bài."
+        },
+        {
+          "wrong": "She can speaks three programming languages fluently.",
+          "correct": "She can speak three programming languages fluently.",
+          "tipVi": "Sau modal verbs (can, could, will, would...) luôn dùng V nguyên mẫu không thêm -s, -ed, -ing. 'Can speaks' là sai — phải là 'can speak'.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "When I was a student, I can access the internet easily.",
+          "correct": "When I was a student, I could access the internet easily.",
+          "tipVi": "Nói về khả năng trong quá khứ → dùng 'could', không phải 'can'. 'Can' chỉ dùng cho hiện tại.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "This technology could to improve productivity significantly.",
+          "correct": "This technology could improve productivity significantly.",
+          "tipVi": "Quy tắc tuyệt đối: modal + V nguyên mẫu (không 'to'). 'Could to improve' = sai. 'Could improve' = đúng.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-mod-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu nào đúng khi nói về khả năng của công nghệ hiện đại?",
+          "options": [
+            "AI can to process data much faster than humans.",
+            "AI can processed data much faster than humans.",
+            "AI can process data much faster than humans.",
+            "AI cans process data much faster than humans."
+          ],
+          "correctAnswer": "AI can process data much faster than humans.",
+          "feedbackCorrect": "Đúng! Modal + V nguyên mẫu: 'can process'. Modal không chia theo ngôi (không thêm -s) và không theo sau bởi 'to'.",
+          "feedbackWrong": "Modal verbs (can, could, will...) + V nguyên mẫu (không to, không -s, không -ed). 'Can process' = chuẩn.",
+          "ieltsTip": "Quy tắc vàng: Modal + V (bare infinitive). Không bao giờ: modal + to + V, modal + V-s, modal + V-ed.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-mod-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Chọn câu Task 2 đúng về đề xuất giải pháp: 'Companies _____ offer flexible working hours to attract and retain talented employees.'",
+          "options": [
+            "can to",
+            "could",
+            "could to",
+            "cans"
+          ],
+          "correctAnswer": "could",
+          "feedbackCorrect": "'Could' diễn đạt đề xuất lịch sự, khả năng lý thuyết — phù hợp hơn 'can' trong văn phong học thuật Task 2. Và không có 'to' sau could.",
+          "feedbackWrong": "'Could + V' (không to) là cách đề xuất giải pháp lịch sự và học thuật trong Task 2. 'Can' nghe quá chắc chắn; 'could' nghe thuyết phục hơn.",
+          "ieltsTip": "Trong Task 2, khi đề xuất giải pháp: dùng 'could' thay 'can' để nghe học thuật hơn: 'Governments could implement...', 'Schools could introduce...'",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-mod-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'Before smartphones existed, people couldn't accessed information instantly. Now, anyone can to look up any fact within seconds.'",
+          "options": [
+            "couldn't accessed → couldn't access; can to look up → can look up",
+            "couldn't accessed → couldn't accessed; can to look up → can look up",
+            "couldn't accessed → could accessed; can to look up → can to look up",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "couldn't accessed → couldn't access; can to look up → can look up",
+          "feedbackCorrect": "Hai lỗi cùng một kiểu: sau modal (couldn't, can) → luôn dùng V nguyên mẫu. 'Couldn't access' (không -ed). 'Can look up' (không 'to').",
+          "feedbackWrong": "Cùng một quy tắc: modal + V nguyên mẫu. 'Couldn't accessed' sai → 'couldn't access'. 'Can to look up' sai → 'can look up'.",
+          "ieltsTip": "Nhớ: modal + V (nguyên mẫu). Không thêm bất kỳ thứ gì vào sau modal trước khi đến động từ chính (trừ 'not' trong câu phủ định).",
+          "skill": "both"
+        },
+        {
+          "id": "ex-mod-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền can hoặc could + dạng đúng: 'When my father started his career in the 1990s, he _____ (not / use) a computer at all. Today, even young children _____ (navigate) complex digital platforms with ease.'",
+          "options": [
+            "couldn't use / can navigate",
+            "can't use / could navigate",
+            "couldn't use / could navigate",
+            "can't use / can navigate"
+          ],
+          "correctAnswer": "couldn't use / can navigate",
+          "feedbackCorrect": "Đúng! Quá khứ → 'couldn't use'. Hiện tại → 'can navigate'. Và cả hai đều là modal + V nguyên mẫu (không to, không -s).",
+          "feedbackWrong": "1990s = quá khứ → couldn't (not can't). Today = hiện tại → can (not could). Cả hai: modal + V nguyên mẫu.",
+          "ieltsTip": "Sự đối lập 'couldn't... (past) / can... (now)' là cấu trúc hay trong Task 2 và Part 3 khi so sánh quá khứ và hiện tại.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-mod-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Task 2 đề xuất giải pháp: [literacy / programs / digital / provide / governments / could / to / workers / free / all]",
+          "options": [
+            "Governments could provide free digital literacy programs to all workers.",
+            "Governments could to provide free digital literacy programs to all workers.",
+            "Governments could provide digital literacy free programs to all workers.",
+            "Free digital literacy programs could governments provide to all workers."
+          ],
+          "correctAnswer": "Governments could provide free digital literacy programs to all workers.",
+          "feedbackCorrect": "Câu Task 2 đề xuất hoàn hảo! Governments [chủ ngữ] + could [modal] + provide [V nguyên mẫu] + free digital literacy programs [tân ngữ] + to all workers [giới từ]. Band 6.0+!",
+          "feedbackWrong": "Trật tự: Governments + could + provide (không 'to') + free digital literacy programs + to all workers.",
+          "ieltsTip": "Cấu trúc đề xuất Task 2: 'Governments/Schools/Companies + could + provide/implement/introduce + [giải pháp] + to + [đối tượng]'.",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 đề xuất giải pháp cho vấn đề khoảng cách kỹ năng số. Dùng 'could' để đề xuất.",
+        "placeholder": "Ví dụ: Companies could partner with universities to provide...",
+        "grammarMustUse": "could (modal)",
+        "wordLimit": 30,
+        "modelAnswer": "Companies could partner with local universities to provide free coding bootcamps, which would help bridge the growing digital skills gap in the workforce.",
+        "modelBand": 6
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 3 — Examiner hỏi: 'What can individuals do to keep up with rapid technological change?' Trả lời 2-3 câu. Dùng can và could.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "can/could",
+          "modal + bare infinitive"
+        ],
+        "modelAnswer": "I think individuals can take several steps to keep pace with technology. First, they could enroll in short online courses to regularly update their skills. They can also join professional communities where they can exchange knowledge with others in their field. With commitment, anyone can adapt to new technologies regardless of their age or background.",
+        "modelBand": 6
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-3-modal-possibility",
+      "nextUnitTitle": "Modal — Possibility (may/might)",
+      "nextUnitConnection": "Can/could diễn đạt khả năng. Unit 9 — may/might — diễn đạt xác suất, sự không chắc chắn. Đây là nhóm rất quan trọng trong Part 3 khi bạn cần đưa ra ý kiến thận trọng."
+    }
+  },
+  {
+    "id": "unit-3-modal-possibility",
+    "chapter": 3,
+    "title": "Modal — Possibility (may / might)",
+    "subtitle": "Động từ khuyết thiếu — Khả năng xảy ra",
+    "bandMin": 5.5,
+    "bandTarget": 6,
+    "meta": {
+      "topic": "Environment & Society",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-3-modal-ability",
+      "prevUnitConnection": "Can/could = khả năng. May/might = xác suất, không chắc chắn. Sự khác biệt nhỏ nhưng quan trọng trong IELTS — may/might nghe học thuật và thận trọng hơn.",
+      "nextUnitId": "unit-3-passive",
+      "nextUnitTitle": "Passive Voice"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + may/might + V (base form)",
+        "negative": "S + may not / might not + V",
+        "question": "May/Might + S + V? (rare — 'Is it possible that...?' preferred)"
+      },
+      "coreRule": "MAY: xác suất khoảng 50% (có thể xảy ra). MIGHT: xác suất thấp hơn, ít chắc chắn hơn may. Cả hai: modal + V nguyên mẫu. Phủ định: may not / might not (KHÔNG dùng mayn't). Quá khứ: may/might + have + V3. Lưu ý: Trong văn nói không trang trọng, may và might thường dùng thay nhau.",
+      "quickExamples": [
+        {
+          "en": "Rising sea levels may displace millions of coastal residents by 2050.",
+          "vi": "Mực nước biển dâng có thể khiến hàng triệu cư dân ven biển phải di dời vào năm 2050."
+        },
+        {
+          "en": "Some scientists believe renewable energy might completely replace fossil fuels within 30 years.",
+          "vi": "Một số nhà khoa học tin rằng năng lượng tái tạo có thể thay thế hoàn toàn nhiên liệu hóa thạch trong vòng 30 năm."
+        },
+        {
+          "en": "Stricter environmental regulations might discourage foreign investment in developing countries.",
+          "vi": "Các quy định môi trường nghiêm ngặt hơn có thể làm nản lòng đầu tư nước ngoài vào các nước đang phát triển."
+        }
+      ],
+      "keyPoints": [
+        "Dùng may/might để đưa ra ý kiến thận trọng trong Part 3 về các vấn đề môi trường và xã hội — tránh nghe quá tự tin hoặc thiếu căn cứ.",
+        "Dùng may/might trong Task 2 để điều tiết mức độ chắc chắn của lập luận — thể hiện tư duy phê phán học thuật."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "Climate change might causes more frequent natural disasters in the future.",
+          "correct": "Climate change might cause more frequent natural disasters in the future.",
+          "tipVi": "Sau may/might → V nguyên mẫu (không thêm -s). 'Might causes' là lỗi phổ biến vì người Việt nhớ quy tắc thêm -s cho ngôi 3 nhưng quên rằng sau modal không áp dụng.",
+          "bandImpact": "Dùng may/might đúng trong Part 3 cho thấy bạn có khả năng diễn đạt quan điểm một cách thận trọng — dấu hiệu Coherence band 6.5+."
+        },
+        {
+          "wrong": "She may not goes to the environmental summit.",
+          "correct": "She may not go to the environmental summit.",
+          "tipVi": "Sau may/might not → V nguyên mẫu (không -s, không -ed). 'May not goes' sai. 'May not go' đúng.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "The new policy mightn't work as expected.",
+          "correct": "The new policy might not work as expected.",
+          "tipVi": "Không có dạng rút gọn 'mightn't' trong tiếng Anh chuẩn. Phải viết đầy đủ 'might not'. Khác với 'can't', 'won't', 'shouldn't'.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "This approach may solves the pollution problem.",
+          "correct": "This approach may solve the pollution problem.",
+          "tipVi": "Modal + V nguyên mẫu. 'May solves' sai vì thêm -s sau modal. 'May solve' đúng.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-mmp-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu nào đúng khi đưa ra dự đoán thận trọng về môi trường trong Part 3?",
+          "options": [
+            "Deforestation might leads to species extinction.",
+            "Deforestation might lead to species extinction.",
+            "Deforestation might to lead to species extinction.",
+            "Deforestation mights lead to species extinction."
+          ],
+          "correctAnswer": "Deforestation might lead to species extinction.",
+          "feedbackCorrect": "Đúng! might + V nguyên mẫu (không to, không -s): 'might lead'. Dùng 'might' (không chắc chắn) phù hợp cho dự đoán môi trường.",
+          "feedbackWrong": "Modal + V nguyên mẫu. 'Might leads' sai (không -s). 'Might to lead' sai (không to). 'Mights' không tồn tại.",
+          "ieltsTip": "Part 3 hay hỏi về môi trường. Câu trả lời dùng 'might' nghe balanced và thuyết phục hơn 'will'.",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-mmp-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Task 2 — Câu nào học thuật nhất khi nói về hậu quả của ô nhiễm?",
+          "options": [
+            "Air pollution will definitely destroy public health.",
+            "Air pollution may have serious consequences for public health.",
+            "Air pollution might to seriously affect public health.",
+            "Air pollution might seriously affects public health."
+          ],
+          "correctAnswer": "Air pollution may have serious consequences for public health.",
+          "feedbackCorrect": "Đúng! 'May have' = khả năng xảy ra, thận trọng. 'Have serious consequences for' = colocation học thuật đẹp. Câu này band 6.5.",
+          "feedbackWrong": "'Will definitely' quá chắc chắn cho Task 2. 'Might to affect' và 'might affects' đều sai cấu trúc. 'May have' + danh từ là cách nói học thuật nhất.",
+          "ieltsTip": "'May/might have + noun' rất học thuật: 'may have consequences/implications/effects on...' — học thuộc các cụm này.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-mmp-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'Some environmentalists argue that plastic pollution mightn't be solved without a global ban on single-use plastics, while others believe technology may offers alternative solutions.'",
+          "options": [
+            "mightn't → might not; may offers → may offer",
+            "mightn't → might not; may offers → may offered",
+            "mightn't → mustn't; may offers → may offer",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "mightn't → might not; may offers → may offer",
+          "feedbackCorrect": "Hai lỗi: (1) 'mightn't' không tồn tại → 'might not'. (2) 'may offers' sai → 'may offer' (modal + V nguyên mẫu, không -s).",
+          "feedbackWrong": "'Mightn't' không phải dạng rút gọn chuẩn → dùng 'might not'. 'May offers' sai → 'may offer' (không -s sau modal).",
+          "ieltsTip": "Chỉ một số modal mới có dạng rút gọn phổ biến: can't, won't, shouldn't, couldn't, wouldn't. 'Mightn't' và 'mayn't' thì không dùng.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-mmp-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền may hoặc might + dạng đúng: 'Renewable energy _____ (become) cheaper than fossil fuels within a decade, which _____ (encourage) more governments to invest in green infrastructure.'",
+          "options": [
+            "may become / might encourage",
+            "may becomes / might encourages",
+            "might became / may encourage",
+            "may become / might encourages"
+          ],
+          "correctAnswer": "may become / might encourage",
+          "feedbackCorrect": "Hoàn hảo! Cả hai là dự đoán không chắc chắn → may/might + V nguyên mẫu (không -s, không -ed). Dùng cả may và might trong một đoạn tạo sự đa dạng ngữ pháp.",
+          "feedbackWrong": "Modal + V nguyên mẫu trong cả hai trường hợp: may become (không becomes), might encourage (không encourages).",
+          "ieltsTip": "Dùng cả may và might xen kẽ trong một đoạn Task 2 cho thấy bạn kiểm soát từ vựng ngữ pháp tốt.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-mmp-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Task 2 thận trọng: [carbon / governments / might / taxes / imposing / face / public / by / significant / resistance]",
+          "options": [
+            "Governments might face significant public resistance by imposing carbon taxes.",
+            "Governments might to face significant public resistance by imposing carbon taxes.",
+            "Governments might faced significant public resistance by imposing carbon taxes.",
+            "By imposing carbon taxes governments might facing significant public resistance."
+          ],
+          "correctAnswer": "Governments might face significant public resistance by imposing carbon taxes.",
+          "feedbackCorrect": "Câu Task 2 học thuật cao! Governments [chủ ngữ] + might [modal] + face [V nguyên mẫu] + significant public resistance [tân ngữ] + by imposing carbon taxes [cụm giới từ chỉ cách thức]. Band 6.5+!",
+          "feedbackWrong": "might + face (không to face, không faced). 'By + V-ing' diễn đạt phương tiện/cách thức → 'by imposing'.",
+          "ieltsTip": "Cấu trúc 'might face resistance/challenges/criticism by + V-ing' rất hay trong Task 2 khi phân tích hạn chế của một giải pháp.",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 về hậu quả có thể xảy ra của biến đổi khí hậu. Dùng may HOẶC might.",
+        "placeholder": "Ví dụ: Rising temperatures may threaten food security in...",
+        "grammarMustUse": "may/might",
+        "wordLimit": 30,
+        "modelAnswer": "Rising global temperatures might threaten food security in tropical regions, as changing rainfall patterns could disrupt agricultural production for millions of people.",
+        "modelBand": 6
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 3 — Examiner hỏi: 'What might happen if governments don't take action on climate change?' Trả lời 2-3 câu dùng may/might.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "may/might",
+          "modal + bare infinitive"
+        ],
+        "modelAnswer": "If governments fail to act, the consequences might be severe and widespread. Sea levels may rise significantly, which could displace coastal communities around the world. Additionally, extreme weather events might become more frequent, placing enormous pressure on healthcare systems and public infrastructure.",
+        "modelBand": 6
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-3-passive",
+      "nextUnitTitle": "Passive Voice",
+      "nextUnitConnection": "Bạn đã nắm modal verbs. Unit 10 — Passive Voice — là cấu trúc cực quan trọng trong Task 2 Writing. Passive giúp câu văn học thuật hơn và tránh lặp chủ ngữ."
+    }
+  },
+  {
+    "id": "unit-3-passive",
+    "chapter": 3,
+    "title": "Passive Voice",
+    "subtitle": "Câu bị động",
+    "bandMin": 5.5,
+    "bandTarget": 6.5,
+    "meta": {
+      "topic": "Environment & Society",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 1",
+      "prevUnitId": "unit-3-modal-possibility",
+      "prevUnitConnection": "Bạn đã nắm modal verbs. Passive Voice Unit 10 là bước ngoặt — cấu trúc này xuất hiện liên tục trong Task 1 và Task 2 Writing. Nắm tốt Passive là chìa khóa lên band 6.5.",
+      "nextUnitId": "unit-4-conditional-1",
+      "nextUnitTitle": "Conditional Type 1"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + be (am/is/are/was/were/will be/has been) + V3",
+        "negative": "S + be + not + V3",
+        "question": "Be + S + V3? | Have/Has + S + been + V3?"
+      },
+      "coreRule": "Passive = be + V3 (past participle). Chia 'be' theo thì: is/are (hiện tại), was/were (quá khứ), will be (tương lai), has/have been (hoàn thành), is/are being (tiếp diễn). 'By + agent' khi cần nêu người/vật thực hiện hành động. Dùng Passive khi: (1) không biết ai thực hiện; (2) không cần nêu ai thực hiện; (3) muốn nhấn mạnh đối tượng bị tác động.",
+      "quickExamples": [
+        {
+          "en": "Thousands of tonnes of plastic waste are dumped into the ocean every year.",
+          "vi": "Hàng ngàn tấn rác thải nhựa bị đổ xuống đại dương mỗi năm."
+        },
+        {
+          "en": "New environmental laws have been introduced in many countries over the past decade.",
+          "vi": "Các luật môi trường mới đã được ban hành ở nhiều quốc gia trong thập kỷ qua."
+        },
+        {
+          "en": "A new recycling facility is being built in the city center to reduce landfill waste.",
+          "vi": "Một cơ sở tái chế mới đang được xây dựng ở trung tâm thành phố để giảm rác thải chôn lấp."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Passive Voice trong Part 3 để nói về các vấn đề xã hội mà không cần chỉ đích danh ai — nghe khách quan và học thuật hơn.",
+        "Dùng Passive trong Task 1 khi mô tả quy trình, và Task 2 khi cần văn phong học thuật — tránh lặp 'people/governments do...' quá nhiều."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "The environment is being damaged by human activities, and many species are being affected.",
+          "correct": "The environment is being damaged by human activities, and many species are being affected — câu này thực ra ĐÚNG!",
+          "tipVi": "Passive tiếp diễn = is/are + being + V3. Đây là dạng khó nhất. Ví dụ lỗi thực tế: 'The report was wrote by the team' → 'was written'. V3 của 'write' = written, không phải wrote.",
+          "bandImpact": "Passive Voice đa dạng (simple, continuous, perfect) trong Task 2 là dấu hiệu rõ nhất của Grammatical Range band 6.5+."
+        },
+        {
+          "wrong": "The report was wrote by the research team last month.",
+          "correct": "The report was written by the research team last month.",
+          "tipVi": "'Write' bất quy tắc: write → wrote → written (V3). Passive dùng V3, không phải V2. 'Was wrote' sai → 'was written' đúng.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "Many trees are cutting down to build new factories.",
+          "correct": "Many trees are being cut down to build new factories.",
+          "tipVi": "Passive tiếp diễn hiện tại: is/are + being + V3. 'Are cutting' là chủ động. 'Are being cut down' = đang bị chặt (bị động tiếp diễn).",
+          "bandImpact": null
+        },
+        {
+          "wrong": "The new environmental policy will introduced next year.",
+          "correct": "The new environmental policy will be introduced next year.",
+          "tipVi": "Passive tương lai: will + BE + V3. Không được bỏ 'be'. 'Will introduced' thiếu 'be' — lỗi rất phổ biến.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-pv-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu bị động nào đúng: 'The environmental report _____ by scientists at the UN last week.'",
+          "options": [
+            "was published",
+            "is published",
+            "published",
+            "was publish"
+          ],
+          "correctAnswer": "was published",
+          "feedbackCorrect": "'Last week' = quá khứ. Passive quá khứ: was/were + V3. 'Publish' → V3 = published. 'Was published' = đúng.",
+          "feedbackWrong": "'Last week' = quá khứ → passive quá khứ: was + V3. 'Publish' → V3 = 'published' (thêm -ed, động từ có quy tắc).",
+          "ieltsTip": "Task 1 Writing (quy trình) thường dùng Passive Present Simple: 'is + V3'. Task 2 thường dùng Passive Past: 'was/were + V3'.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-pv-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu bị động học thuật nào phù hợp nhất cho Task 2: 'Millions of tonnes of carbon _____ into the atmosphere each year.'",
+          "options": [
+            "releases",
+            "are released",
+            "is released",
+            "are releasing"
+          ],
+          "correctAnswer": "are released",
+          "feedbackCorrect": "'Millions of tonnes' = số nhiều → 'are'. Chủ ngữ là vật bị tác động → Passive: are + V3 (released). Đây là câu Task 2 học thuật chuẩn.",
+          "feedbackWrong": "Chủ ngữ số nhiều 'millions of tonnes' → are (không is). Không ai nêu → Passive không có 'by': are released.",
+          "ieltsTip": "Passive không có 'by agent' rất phổ biến trong Task 2 khi không cần/không biết ai thực hiện hành động.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-pv-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'A new international climate agreement will signed at the summit next month. Several key proposals have already been submit for review.'",
+          "options": [
+            "will signed → will be signed; been submit → been submitted",
+            "will signed → was signed; been submit → been submitted",
+            "will signed → will be signed; been submit → been submit",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "will signed → will be signed; been submit → been submitted",
+          "feedbackCorrect": "Hai lỗi: (1) 'will signed' thiếu 'be' → 'will be signed' (Passive tương lai: will + be + V3). (2) 'been submit' → 'been submitted' (V3 của submit = submitted, thêm -ted).",
+          "feedbackWrong": "Passive tương lai: will + BE + V3. Không bao giờ bỏ 'be'. Present Perfect Passive: have/has + been + V3.",
+          "ieltsTip": "Bốn dạng Passive quan trọng: (1) is/are + V3, (2) was/were + V3, (3) will be + V3, (4) has/have been + V3.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-pv-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng dạng Passive: 'According to the report, 1 billion trees _____ (plant) globally since 2010. Currently, a new reforestation project _____ (develop) in Southeast Asia.'",
+          "options": [
+            "have been planted / is being developed",
+            "have been planted / is being developing",
+            "were planted / is developed",
+            "have planted / are being developed"
+          ],
+          "correctAnswer": "have been planted / is being developed",
+          "feedbackCorrect": "Hoàn hảo! 'Since 2010' → Present Perfect Passive: have been planted. 'Currently' → Present Continuous Passive: is being developed. Hai dạng Passive phức trong một câu!",
+          "feedbackWrong": "'Since 2010' → Present Perfect Passive: have been + V3. 'Currently' → Continuous Passive: is/are being + V3.",
+          "ieltsTip": "Trong Task 1 quy trình: 'The material is heated → is being processed → is then packaged' — chuỗi Passive liên tiếp là chuẩn.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-pv-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Task 2 học thuật dùng Passive: [measures / urgent / must / to / taken / protect / be / biodiversity / global]",
+          "options": [
+            "Urgent measures must be taken to protect global biodiversity.",
+            "Urgent measures must taken to be protect global biodiversity.",
+            "Urgent measures must be take to protect global biodiversity.",
+            "Urgent measures be must taken to protect global biodiversity."
+          ],
+          "correctAnswer": "Urgent measures must be taken to protect global biodiversity.",
+          "feedbackCorrect": "Câu Task 2 kết luận hoàn hảo! Modal Passive: must + be + V3 (taken). 'Urgent measures' làm chủ ngữ nhấn mạnh sự cấp bách. Band 6.5+!",
+          "feedbackWrong": "Modal Passive: must + be + V3. Không phải 'must taken' hay 'must be take'. 'Take' → V3 = taken.",
+          "ieltsTip": "Câu kết Task 2 cực mạnh: 'Urgent/Immediate measures must be taken to + V...' — học thuộc cụm này!",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 về vấn đề ô nhiễm nhựa dùng Passive Voice. Không dùng 'people' làm chủ ngữ.",
+        "placeholder": "Ví dụ: Millions of tonnes of plastic waste are discarded every year...",
+        "grammarMustUse": "passive voice",
+        "wordLimit": 30,
+        "modelAnswer": "Millions of tonnes of plastic waste are discarded into oceans every year, and marine ecosystems have been severely damaged as a result.",
+        "modelBand": 6.5
+      },
+      "speakingDrill": {
+        "prompt": "IELTS Speaking Part 3 — 'What actions have been taken by governments to address environmental issues?' Trả lời 2-3 câu dùng Passive Voice.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "passive voice",
+          "present perfect passive",
+          "modal passive"
+        ],
+        "modelAnswer": "Various measures have been taken by governments worldwide to tackle environmental problems. For example, carbon taxes have been introduced in several European countries, and international agreements like the Paris Accord have been signed by over 190 nations. However, critics argue that more decisive action must be taken if meaningful progress is to be made.",
+        "modelBand": 6.5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-4-conditional-1",
+      "nextUnitTitle": "Conditional Type 1",
+      "nextUnitConnection": "Bạn đã nắm Passive — cấu trúc quan trọng nhất của Writing. Unit 11 bắt đầu chương Câu Điều Kiện — ba loại conditional là thử thách lớn nhất với học viên muốn lên band 6.5+."
+    }
+  },
+  {
+    "id": "unit-4-conditional-1",
+    "chapter": 4,
+    "title": "Conditional Type 1",
+    "subtitle": "Câu điều kiện loại 1 — Có thật ở hiện tại/tương lai",
+    "bandMin": 5,
+    "bandTarget": 6,
+    "meta": {
+      "topic": "Global Issues",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-3-passive",
+      "prevUnitConnection": "Bạn đã nắm Passive Voice. Conditional Type 1 là cấu trúc lập luận nhân-quả then chốt trong Task 2.",
+      "nextUnitId": "unit-4-conditional-2",
+      "nextUnitTitle": "Conditional Type 2"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "If + Simple Present, will/can/may + V (base form)",
+        "negative": "If + S + do/does not + V, S + will not + V",
+        "question": "What will happen if + S + V (Simple Present)?"
+      },
+      "coreRule": "Conditional Type 1: IF + Simple Present, will + V nguyên mẫu. Tình huống CÓ THỂ xảy ra. Biến thể: If + Present, can/may/might + V. KHÔNG dùng will trong mệnh đề if.",
+      "quickExamples": [
+        {
+          "en": "If world leaders fail to reach a climate agreement, global temperatures will continue to rise.",
+          "vi": "Nếu các nhà lãnh đạo không đạt được thỏa thuận, nhiệt độ toàn cầu sẽ tiếp tục tăng."
+        },
+        {
+          "en": "Economic inequality will worsen if governments do not increase investment in education.",
+          "vi": "Bất bình đẳng sẽ tồi tệ hơn nếu chính phủ không tăng đầu tư giáo dục."
+        },
+        {
+          "en": "If countries cooperate on trade policies, both economies may benefit significantly.",
+          "vi": "Nếu các quốc gia hợp tác về thương mại, cả hai nền kinh tế có thể hưởng lợi."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Conditional Type 1 trong Part 3 để lập luận nhân quả về các vấn đề toàn cầu.",
+        "Dùng Conditional Type 1 trong Task 2 để đề xuất giải pháp và dự đoán kết quả — đặc trưng band 6.0+."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "If governments will invest in renewable energy, carbon emissions will decrease.",
+          "correct": "If governments invest in renewable energy, carbon emissions will decrease significantly.",
+          "tipVi": "KHÔNG BAO GIỜ dùng 'will' trong mệnh đề 'if'. Mệnh đề if dùng Simple Present dù nói về tương lai.",
+          "bandImpact": "Lỗi 'if + will' trong Task 2 là lỗi cơ bản — giám khảo sẽ không cho quá band 5.5 về Grammatical Accuracy."
+        },
+        {
+          "wrong": "If the pollution level will rise, marine life will be threatened.",
+          "correct": "If the pollution level rises, marine life will be threatened.",
+          "tipVi": "Mệnh đề if dùng Simple Present (rises), không dùng will.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "Countries will suffer if they won't reduce carbon emissions.",
+          "correct": "Countries will suffer if they do not reduce carbon emissions.",
+          "tipVi": "Phủ định trong mệnh đề if: do not/does not, không dùng won't.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "If we takes action now, the situation might improve.",
+          "correct": "If we take action now, the situation might improve.",
+          "tipVi": "We = số nhiều → take (không thêm -s).",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-c1-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu Conditional Type 1 nào đúng?",
+          "options": [
+            "If the government will act quickly, the crisis will be avoided.",
+            "If the government acts quickly, the crisis will be avoided.",
+            "If the government acts quickly, the crisis would be avoided.",
+            "If the government act quickly, the crisis will be avoided."
+          ],
+          "correctAnswer": "If the government acts quickly, the crisis will be avoided.",
+          "feedbackCorrect": "Đúng! If + Simple Present (acts — ngôi 3 số ít thêm -s) + will + V nguyên mẫu. Không có will trong mệnh đề if.",
+          "feedbackWrong": "Type 1: If + Simple Present (không will, không would) + will + V. Government ngôi 3 số ít → acts.",
+          "ieltsTip": "Conditional Type 1 Part 3: If + action → consequence will follow. Luôn nhớ: NO WILL in the if-clause.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-c1-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Hoàn thành câu Task 2: 'Economic growth _____ if developing nations _____ access to advanced technology.'",
+          "options": [
+            "will accelerate / gain",
+            "will accelerate / will gain",
+            "would accelerate / gain",
+            "accelerates / gain"
+          ],
+          "correctAnswer": "will accelerate / gain",
+          "feedbackCorrect": "'Will accelerate' ở mệnh đề chính. 'Gain' (Simple Present) ở mệnh đề if. Type 1 hoàn chỉnh.",
+          "feedbackWrong": "Mệnh đề chính: will + V. Mệnh đề if: Simple Present (không will, không would).",
+          "ieltsTip": "Lập luận Task 2: '[Result] will happen if [condition] [Simple Present].'",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-c1-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'If countries will not reduce plastic waste, the ocean will become uninhabitable for marine species.'",
+          "options": [
+            "will not reduce → do not reduce",
+            "will not reduce → would not reduce",
+            "will become → would become",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "will not reduce → do not reduce",
+          "feedbackCorrect": "'Will not reduce' trong mệnh đề if sai → 'do not reduce' (Simple Present phủ định).",
+          "feedbackWrong": "Phủ định trong mệnh đề if: do not/does not — không dùng won't/will not.",
+          "ieltsTip": "If + don't/doesn't + V (không won't). Mệnh đề chính mới dùng will/won't.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-c1-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng: 'If more nations _____ (sign) the trade agreement, global poverty _____ (likely / reduce) significantly.'",
+          "options": [
+            "sign / will likely be reduced",
+            "will sign / will likely be reduced",
+            "sign / is likely reduced",
+            "signs / will likely reduce"
+          ],
+          "correctAnswer": "sign / will likely be reduced",
+          "feedbackCorrect": "'Sign' (Simple Present, số nhiều — không -s) trong if. 'Will likely be reduced' = Passive tương lai + likely. Kết hợp Conditional + Passive + likely = band 6.5!",
+          "feedbackWrong": "If-clause: Simple Present sign (nations số nhiều, không -s). Main clause: will + likely + be reduced (Passive).",
+          "ieltsTip": "Kết hợp Type 1 + Passive: 'If... [Simple Present], [result] will be + V3' — rất học thuật.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-c1-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Task 2: [education / if / invest / governments / quality / will / in / narrow / the / wealth / gap / more]",
+          "options": [
+            "If governments invest more in quality education, the wealth gap will narrow.",
+            "If governments will invest more in quality education, the wealth gap will narrow.",
+            "If governments invest more in quality education, the wealth gap narrows.",
+            "The wealth gap will narrow if governments will invest more in quality education."
+          ],
+          "correctAnswer": "If governments invest more in quality education, the wealth gap will narrow.",
+          "feedbackCorrect": "Câu Task 2 lập luận hoàn hảo! If + invest (Simple Present, không will) → will + narrow. Band 6.0+!",
+          "feedbackWrong": "Type 1: If + Simple Present (invest — không will) → will + V nguyên mẫu (narrow).",
+          "ieltsTip": "Bắt đầu đoạn kết Task 2: 'If [solution is implemented], [positive result] will [occur].' — cấu trúc kết bài band 6.0+.",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 dùng Conditional Type 1 đề xuất giải pháp cho vấn đề toàn cầu.",
+        "placeholder": "Ví dụ: If wealthier nations increase foreign aid, developing countries will...",
+        "grammarMustUse": "conditional type 1",
+        "wordLimit": 30,
+        "modelAnswer": "If wealthier nations increase foreign aid and share technological expertise, developing countries will be able to build stronger economies and reduce poverty rates.",
+        "modelBand": 6
+      },
+      "speakingDrill": {
+        "prompt": "Part 3: 'What will happen if countries don't cooperate on global issues?' Dùng Conditional Type 1.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "conditional type 1",
+          "if + simple present + will"
+        ],
+        "modelAnswer": "If countries fail to cooperate on global poverty, inequality will increase and social unrest may spread across many regions. However, if wealthier nations commit to fairer trade policies, the situation can improve significantly within a generation.",
+        "modelBand": 6
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-4-conditional-2",
+      "nextUnitTitle": "Conditional Type 2",
+      "nextUnitConnection": "Type 1 = có thể xảy ra. Type 2 = KHÔNG CÓ THẬT ở hiện tại — dùng để lập luận giả thuyết trong Task 2."
+    }
+  },
+  {
+    "id": "unit-4-conditional-2",
+    "chapter": 4,
+    "title": "Conditional Type 2",
+    "subtitle": "Câu điều kiện loại 2 — Không có thật ở hiện tại",
+    "bandMin": 5.5,
+    "bandTarget": 6.5,
+    "meta": {
+      "topic": "Global Issues",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-4-conditional-1",
+      "prevUnitConnection": "Type 1 nói về tình huống có thể xảy ra. Type 2 nói về tình huống KHÔNG CÓ THẬT.",
+      "nextUnitId": "unit-4-conditional-3",
+      "nextUnitTitle": "Conditional Type 3"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "If + Past Simple, would/could/might + V (base form)",
+        "negative": "If + S + did not + V, S + would not + V",
+        "question": "What would happen if + S + Past Simple?"
+      },
+      "coreRule": "Conditional Type 2: IF + Past Simple, would + V nguyên mẫu. Tình huống KHÔNG CÓ THẬT ở hiện tại/tương lai. Đặc biệt: If I/he/she/it were... (văn trang trọng dùng were). KHÔNG dùng would trong mệnh đề if.",
+      "quickExamples": [
+        {
+          "en": "If world leaders were more united, global problems would be easier to solve.",
+          "vi": "Nếu các nhà lãnh đạo đoàn kết hơn, các vấn đề toàn cầu sẽ dễ giải quyết hơn."
+        },
+        {
+          "en": "If I were the prime minister, I would prioritize investment in renewable energy.",
+          "vi": "Nếu tôi là thủ tướng, tôi sẽ ưu tiên đầu tư vào năng lượng tái tạo."
+        },
+        {
+          "en": "Developing nations could catch up economically if they received more equitable trade opportunities.",
+          "vi": "Các nước đang phát triển có thể bắt kịp nếu nhận được cơ hội thương mại công bằng hơn."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Type 2 trong Part 3 để đưa ra ý kiến giả thuyết — thể hiện tư duy phân tích cao.",
+        "Dùng Type 2 trong Task 2 để lập luận về tình huống lý tưởng hoặc phản biện."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "If every country would reduce emissions by 50%, climate change would slow.",
+          "correct": "If every country reduced emissions by 50%, climate change would slow significantly.",
+          "tipVi": "KHÔNG dùng 'would' trong mệnh đề 'if' của Type 2. Mệnh đề if dùng Past Simple.",
+          "bandImpact": "Phân biệt đúng Type 1 (if + present) và Type 2 (if + past) là điều kiện để đạt Grammatical Range band 6.5."
+        },
+        {
+          "wrong": "If I was the president, I will change immigration policies.",
+          "correct": "If I were the president, I would change immigration policies.",
+          "tipVi": "Type 2: if-clause dùng were (văn trang trọng). Mệnh đề chính: would (not will).",
+          "bandImpact": null
+        },
+        {
+          "wrong": "If countries would cooperate more, poverty would decrease.",
+          "correct": "If countries cooperated more, poverty would decrease.",
+          "tipVi": "KHÔNG dùng would trong mệnh đề if — lỗi cực phổ biến. Dùng Past Simple.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "The world would be safer if tensions between nations will reduce.",
+          "correct": "The world would be safer if tensions between nations reduced.",
+          "tipVi": "Dù if-clause đứng sau mệnh đề chính — vẫn phải dùng Past Simple (reduced).",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-c2-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu Conditional Type 2 nào đúng?",
+          "options": [
+            "If more people would use public transport, air pollution would decrease.",
+            "If more people used public transport, air pollution would decrease.",
+            "If more people use public transport, air pollution would decrease.",
+            "If more people used public transport, air pollution will decrease."
+          ],
+          "correctAnswer": "If more people used public transport, air pollution would decrease.",
+          "feedbackCorrect": "Đúng! Type 2: If + Past Simple (used) + would + V nguyên mẫu (decrease). Giả thuyết — hiện tại không đủ người dùng phương tiện công cộng.",
+          "feedbackWrong": "Type 2: If + Past Simple (used — không would, không use) + would + V. Không dùng will trong câu chính của Type 2.",
+          "ieltsTip": "Nhận biết Type 2: câu nói về tình huống NGƯỢC LẠI thực tế. 'If I were richer' = nhưng thực ra tôi không giàu.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-c2-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Part 3 — 'If you could change one thing about global economic policy, what would it be?' Câu trả lời nào đúng?",
+          "options": [
+            "If I can change one thing, I will reduce trade barriers.",
+            "If I could change one thing, I would reduce trade barriers between developing nations.",
+            "If I would change one thing, I would reduce trade barriers.",
+            "If I changed one thing, I will reduce trade barriers."
+          ],
+          "correctAnswer": "If I could change one thing, I would reduce trade barriers between developing nations.",
+          "feedbackCorrect": "'If I could' = giả thuyết (could = Past Simple của can). 'I would reduce' = mệnh đề chính. Câu trả lời Part 3 band 6.0!",
+          "feedbackWrong": "Type 2: If + Past Simple/could (giả thuyết) + would + V. 'If I could' là dạng giả thuyết lịch sự.",
+          "ieltsTip": "Part 3 hay hỏi 'If you could..., what would you...?' Học thuộc: 'If I could + V, I would + V because...'",
+          "skill": "speaking"
+        },
+        {
+          "id": "ex-c2-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'If wealthy nations would share their medical technology, developing countries would overcome health crises more effectively. If there was more international solidarity, fewer people will die.'",
+          "options": [
+            "would share → shared; will die → would die; was → were",
+            "would share → shared only",
+            "will die → would die only",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "would share → shared; will die → would die; was → were",
+          "feedbackCorrect": "Ba điểm: (1) would share → shared (if-clause dùng Past Simple). (2) will die → would die (mệnh đề chính Type 2). (3) was → were (văn trang trọng).",
+          "feedbackWrong": "Type 2 toàn câu: if-clause = Past Simple (not would), main clause = would (not will). 'If there were' dùng were thay was trong văn học thuật.",
+          "ieltsTip": "'If there were more...' (not was) là chuẩn trong Task 2 học thuật — dùng 'were' cho mọi chủ ngữ trong văn viết trang trọng.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-c2-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng: 'If the international community _____ (adopt) a unified approach to cybersecurity, global digital infrastructure _____ (be) far more secure.'",
+          "options": [
+            "adopted / would be",
+            "would adopt / would be",
+            "adopts / would be",
+            "adopted / will be"
+          ],
+          "correctAnswer": "adopted / would be",
+          "feedbackCorrect": "'Adopted' = Past Simple trong if-clause (Type 2). 'Would be' = kết quả giả thuyết. Câu Task 2 học thuật!",
+          "feedbackWrong": "Type 2: if + Past Simple (adopted — không would adopt) + would + V (would be — không will be).",
+          "ieltsTip": "Type 2 trong Task 2 phù hợp để nói về tình huống lý tưởng: 'If [ideal condition existed], [positive outcome] would follow.'",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-c2-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Part 3: [were / nations / all / if / committed / equality / gender / to / be / disparities / global / would / reduce]",
+          "options": [
+            "If all nations were committed to gender equality, global disparities would reduce.",
+            "If all nations would be committed to gender equality, global disparities would reduce.",
+            "If all nations were committed to gender equality, global disparities will reduce.",
+            "All nations if were committed to gender equality, global disparities would reduce."
+          ],
+          "correctAnswer": "If all nations were committed to gender equality, global disparities would reduce.",
+          "feedbackCorrect": "Hoàn hảo! 'Were committed' = Past Simple Passive trong if-clause (Type 2). 'Would reduce' = mệnh đề chính. Band 6.5+!",
+          "feedbackWrong": "Type 2: if + were committed (Past Simple Passive — không would be) + would + V (reduce — không will).",
+          "ieltsTip": "Kết hợp Type 2 + Passive: 'If + were/were + V3 + ..., would + V' — ngữ pháp rất phức tạp và ấn tượng.",
+          "skill": "speaking"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 dùng Type 2 về tình huống lý tưởng trong quan hệ quốc tế.",
+        "placeholder": "Ví dụ: If richer nations reduced their carbon footprints, developing countries would...",
+        "grammarMustUse": "conditional type 2",
+        "wordLimit": 30,
+        "modelAnswer": "If richer nations reduced their carbon footprints drastically, developing countries would have more room to grow their economies without bearing the full burden of climate responsibility.",
+        "modelBand": 6.5
+      },
+      "speakingDrill": {
+        "prompt": "Part 3: 'If you were a world leader, what global problem would you prioritize?' Dùng Type 2.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "conditional type 2",
+          "if + past simple + would"
+        ],
+        "modelAnswer": "If I were a world leader, I would make climate change my top priority. I would push for a binding international agreement requiring all major economies to transition to renewable energy within 20 years. If such a commitment existed, I believe we would have a genuinely sustainable future.",
+        "modelBand": 6.5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-4-conditional-3",
+      "nextUnitTitle": "Conditional Type 3",
+      "nextUnitConnection": "Type 2 = không có thật hiện tại. Type 3 = không có thật trong QUÁ KHỨ — nói về điều đã không xảy ra. Đây là cấu trúc phức tạp nhất."
+    }
+  },
+  {
+    "id": "unit-4-conditional-3",
+    "chapter": 4,
+    "title": "Conditional Type 3",
+    "subtitle": "Câu điều kiện loại 3 — Không có thật trong quá khứ",
+    "bandMin": 6,
+    "bandTarget": 6.5,
+    "meta": {
+      "topic": "Global Issues",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-4-conditional-2",
+      "prevUnitConnection": "Type 2 = giả thuyết hiện tại. Type 3 = hối tiếc về quá khứ.",
+      "nextUnitId": "unit-5-relative",
+      "nextUnitTitle": "Relative Clauses"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "If + Past Perfect (had + V3), would/could/might + have + V3",
+        "negative": "If + S + had not + V3, S + would not + have + V3",
+        "question": "What would have happened if + S + had + V3?"
+      },
+      "coreRule": "Conditional Type 3: IF + Past Perfect (had + V3), would/could/might + have + V3. Diễn đạt tình huống KHÔNG CÓ THẬT trong QUÁ KHỨ. Biến thể mệnh đề chính: could have + V3, might have + V3.",
+      "quickExamples": [
+        {
+          "en": "If earlier generations had prioritized environmental protection, we would not have faced such severe climate crises.",
+          "vi": "Nếu các thế hệ trước đã ưu tiên bảo vệ môi trường, chúng ta đã không phải đối mặt với khủng hoảng khí hậu nghiêm trọng."
+        },
+        {
+          "en": "The 2008 financial crisis could have been avoided if regulators had imposed stricter controls.",
+          "vi": "Cuộc khủng hoảng 2008 đã có thể tránh được nếu cơ quan quản lý áp đặt kiểm soát chặt chẽ hơn."
+        },
+        {
+          "en": "Millions of lives might have been saved if international aid had reached affected regions sooner.",
+          "vi": "Hàng triệu sinh mạng đã có thể được cứu nếu viện trợ quốc tế đến sớm hơn."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Type 3 trong Part 3 để phân tích sai lầm lịch sử — thể hiện tư duy phân tích sâu, band 6.5+.",
+        "Dùng Type 3 trong Task 2 để lập luận nguyên nhân-kết quả trong quá khứ — cấu trúc phức tạp nhất."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "If countries had acted earlier on climate change, the situation would be much better now.",
+          "correct": "If countries had acted earlier on climate change, the situation would have been much better.",
+          "tipVi": "Type 3 phải nhất quán: if-clause dùng Past Perfect (had acted) → mệnh đề chính dùng would HAVE + V3. 'Would be' là Type 2 — trộn hai loại là lỗi phổ biến.",
+          "bandImpact": "Dùng đúng Type 3 hoàn chỉnh là dấu hiệu Grammatical Range band 6.5–7.0."
+        },
+        {
+          "wrong": "If they had prepared better, they would avoid the crisis.",
+          "correct": "If they had prepared better, they would have avoided the crisis.",
+          "tipVi": "Type 3 phải nhất quán: if + had + V3, would + HAVE + V3. Không dùng 'would avoid' (Type 2).",
+          "bandImpact": null
+        },
+        {
+          "wrong": "If the treaty would have been signed earlier, more countries could participate.",
+          "correct": "If the treaty had been signed earlier, more countries could have participated.",
+          "tipVi": "If-clause Type 3: 'had been signed' (không 'would have been'). Mệnh đề chính: could have participated.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "The disaster might avoided if the government has warned citizens earlier.",
+          "correct": "The disaster might have been avoided if the government had warned citizens earlier.",
+          "tipVi": "Mệnh đề chính: might + have + been + V3. If-clause: had + V3. Hai vế phải nhất quán.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-c3-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu Conditional Type 3 nào đúng?",
+          "options": [
+            "If the UN had intervened sooner, the conflict would be prevented.",
+            "If the UN had intervened sooner, the conflict would have been prevented.",
+            "If the UN would have intervened sooner, the conflict would be prevented.",
+            "If the UN intervened sooner, the conflict would have been prevented."
+          ],
+          "correctAnswer": "If the UN had intervened sooner, the conflict would have been prevented.",
+          "feedbackCorrect": "Đúng! Type 3: if + had intervened (Past Perfect) + would have been prevented (Passive would + have + V3).",
+          "feedbackWrong": "Type 3: if + Past Perfect (had + V3) + would have + V3. Cả hai vế phải dùng 'have'. Không dùng 'would have' trong mệnh đề if.",
+          "ieltsTip": "Dấu hiệu nhận biết Type 3: 'had + V3' trong mệnh đề if, 'would/could/might + have + V3' trong mệnh đề chính.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-c3-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu Task 2 nào phân tích đúng nguyên nhân khủng hoảng 2008?",
+          "options": [
+            "The 2008 crisis could be avoided if banks would have been regulated more strictly.",
+            "The 2008 crisis could have been avoided if banks had been regulated more strictly.",
+            "The 2008 crisis could have been avoided if banks were regulated more strictly.",
+            "The 2008 crisis would avoid if banks had been regulated more strictly."
+          ],
+          "correctAnswer": "The 2008 crisis could have been avoided if banks had been regulated more strictly.",
+          "feedbackCorrect": "'Could have been avoided' = Passive Type 3. 'Had been regulated' = Past Perfect Passive trong if-clause. Câu Task 2 phân tích lịch sử band 6.5!",
+          "feedbackWrong": "Type 3 + Passive: mệnh đề chính = could/would + have + been + V3. If-clause = had + been + V3. Không dùng 'would have' trong if-clause.",
+          "ieltsTip": "Type 3 + Passive: 'could have been [prevented/avoided] if [subject] had [done something]' — phổ biến trong Task 2 phân tích lịch sử.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-c3-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'If colonial powers had not exploited developing nations, those countries might have develop stronger economies. Many global inequalities would not existed today.'",
+          "options": [
+            "might have develop → might have developed; would not existed → would not have existed",
+            "might have develop → might developed; would not existed đúng",
+            "Chỉ might have develop → might have developed",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "might have develop → might have developed; would not existed → would not have existed",
+          "feedbackCorrect": "Hai lỗi: (1) 'might have develop' → 'might have developed' (modal + have + V3). (2) 'would not existed' → 'would not have existed' (thiếu 'have').",
+          "feedbackWrong": "Type 3 mệnh đề chính: modal + have + V3. 'Might have develop' thiếu -d. 'Would not existed' thiếu 'have'.",
+          "ieltsTip": "Lỗi phổ biến Type 3: quên 'have' sau modal: 'would existed' → 'would have existed'. Luôn kiểm tra: modal + HAVE + V3.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-c3-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng: 'If global leaders _____ (take) decisive action on inequality in the 1990s, the wealth gap we see today _____ (might / not / become) so extreme.'",
+          "options": [
+            "had taken / might not have become",
+            "had taken / might not become",
+            "would have taken / might not have become",
+            "had taken / might not became"
+          ],
+          "correctAnswer": "had taken / might not have become",
+          "feedbackCorrect": "'Had taken' = Past Perfect trong if-clause. 'Might not have become' = modal + not + have + V3. Type 3 hoàn chỉnh!",
+          "feedbackWrong": "If-clause: had + V3 (had taken — không 'would have taken'). Main clause: might + not + have + V3 (become — V3 của become = become).",
+          "ieltsTip": "V3 của 'become' = 'become' (giống V1). Nên 'might have become' đúng, không phải 'might have became'.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-c3-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Task 2: [invested / developed / nations / had / clean / in / energy / earlier / carbon / emissions / would / significantly / have / fallen]",
+          "options": [
+            "If developed nations had invested in clean energy earlier, carbon emissions would have fallen significantly.",
+            "If developed nations would have invested in clean energy earlier, carbon emissions would have fallen significantly.",
+            "If developed nations had invested in clean energy earlier, carbon emissions would fallen significantly.",
+            "Developed nations had invested in clean energy earlier, carbon emissions would have fallen significantly."
+          ],
+          "correctAnswer": "If developed nations had invested in clean energy earlier, carbon emissions would have fallen significantly.",
+          "feedbackCorrect": "Type 3 hoàn hảo! If + had invested (Past Perfect — không 'would have invested') + would have fallen (would + have + V3, V3 của fall = fallen). Band 7.0!",
+          "feedbackWrong": "If-clause: had invested (không 'would have invested'). Main clause: would + have + fallen (V3 của fall = fallen).",
+          "ieltsTip": "Type 3 Task 2: 'If [subject] had [V3], [result] would have [V3].' Dùng trong kết bài phân tích nguyên nhân lịch sử.",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 dùng Type 3 phân tích sai lầm lịch sử. Chủ đề: môi trường hoặc kinh tế.",
+        "placeholder": "Ví dụ: If world governments had signed a binding climate agreement in the 1990s...",
+        "grammarMustUse": "conditional type 3",
+        "wordLimit": 30,
+        "modelAnswer": "If world governments had signed a binding climate agreement in the 1990s, global temperatures would not have risen as dramatically, and the costs of climate adaptation would have been far lower.",
+        "modelBand": 6.5
+      },
+      "speakingDrill": {
+        "prompt": "Part 3: 'What could the international community have done differently to prevent current global problems?' Dùng Type 3.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "conditional type 3",
+          "had + V3 + would/could/might + have + V3"
+        ],
+        "modelAnswer": "If earlier generations had taken climate change more seriously, we would not have faced the environmental crises we see today. Governments could have invested in renewable energy decades ago, creating a much cleaner economy. Had international cooperation been stronger, many of today's conflicts might have been avoided entirely.",
+        "modelBand": 6.5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-5-relative",
+      "nextUnitTitle": "Relative Clauses",
+      "nextUnitConnection": "Bạn đã nắm cả 3 loại Conditional! Unit 14 — Relative Clauses — dạy mở rộng câu bằng who/which/that — chìa khóa viết câu dài, học thuật."
+    }
+  },
+  {
+    "id": "unit-5-relative",
+    "chapter": 5,
+    "title": "Relative Clauses",
+    "subtitle": "Mệnh đề quan hệ",
+    "bandMin": 5.5,
+    "bandTarget": 6.5,
+    "meta": {
+      "topic": "Global Issues",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-4-conditional-3",
+      "prevUnitConnection": "Bạn đã nắm Conditional. Relative Clauses là cách MỞ RỘNG câu — kết hợp hai kỹ năng này tạo câu Task 2 rất ấn tượng.",
+      "nextUnitId": "unit-6-reported",
+      "nextUnitTitle": "Reported Speech"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "[Main clause] + who/which/that/whose/where + [relative clause]",
+        "negative": "[Main clause] + who/which + does/did not + V",
+        "question": "[Question word] + [clause] + who/which/that + [relative clause]?"
+      },
+      "coreRule": "Relative Clauses dùng: WHO (người — chủ ngữ/tân ngữ), WHICH (vật/sự việc), THAT (người hoặc vật trong defining clauses), WHOSE (sở hữu), WHERE (nơi chốn). Defining (không dấu phẩy, dùng that): 'The policy that was introduced...' Non-defining (có dấu phẩy, không dùng that): 'Climate change, which affects all nations, requires...'",
+      "quickExamples": [
+        {
+          "en": "Developing nations, which often lack resources to adapt, are most vulnerable to climate change.",
+          "vi": "Các quốc gia đang phát triển, thường thiếu nguồn lực, dễ bị tổn thương nhất bởi biến đổi khí hậu."
+        },
+        {
+          "en": "The Paris Agreement, which was signed by 196 parties, represents a milestone in global cooperation.",
+          "vi": "Hiệp định Paris, được ký bởi 196 bên, là cột mốc quan trọng trong hợp tác toàn cầu."
+        },
+        {
+          "en": "Communities where economic opportunities are limited tend to have higher emigration rates.",
+          "vi": "Các cộng đồng thiếu cơ hội kinh tế có xu hướng có tỷ lệ di cư cao hơn."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Relative Clauses để mô tả chi tiết trong Part 3 — gộp hai câu ngắn thành một câu phức hợp tự nhiên.",
+        "Dùng Relative Clauses trong Task 2 để viết câu phức tạp, tránh lặp từ — đặc trưng band 6.5+."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "Countries which they are developing need more international support.",
+          "correct": "Countries that are developing need more international support.",
+          "tipVi": "Sau đại từ quan hệ (who/which/that), KHÔNG lặp lại đại từ chủ ngữ. 'Countries which they are...' thừa 'they' — lỗi đặc trưng người Việt.",
+          "bandImpact": "Lỗi lặp đại từ trong mệnh đề quan hệ ('which it is', 'who he is') là lỗi điển hình dưới band 6.0."
+        },
+        {
+          "wrong": "The agreement which it was signed in 2015 has been widely praised.",
+          "correct": "The agreement which was signed in 2015 has been widely praised.",
+          "tipVi": "Sau 'which' không cần 'it'. 'Which' ĐÃ là chủ ngữ — thêm 'it' là thừa và sai.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "The scientists that they discovered the vaccine received a Nobel Prize.",
+          "correct": "The scientists who discovered the vaccine received a Nobel Prize.",
+          "tipVi": "Người → dùng 'who', không phải 'that they'. Không lặp 'they' sau 'who'.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "This is the country where I have visited it many times.",
+          "correct": "This is the country that I have visited many times.",
+          "tipVi": "'Visit' cần tân ngữ trực tiếp → dùng 'that/which', không phải 'where'. Và không lặp 'it'.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-rc-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu nào dùng đúng mệnh đề quan hệ?",
+          "options": [
+            "Refugees which they flee war deserve international protection.",
+            "Refugees who flee war deserve international protection.",
+            "Refugees who they flee war deserve international protection.",
+            "Refugees that they flee war deserve international protection."
+          ],
+          "correctAnswer": "Refugees who flee war deserve international protection.",
+          "feedbackCorrect": "Người → 'who'. Sau 'who' không lặp 'they'. 'Who flee' = mệnh đề xác định.",
+          "feedbackWrong": "Người → 'who' (không 'which'). Không lặp 'they' sau 'who'.",
+          "ieltsTip": "NGƯỜI → who/whom/whose. VẬT/SỰ VIỆC → which/that. Không bao giờ lặp đại từ sau đại từ quan hệ.",
+          "skill": "both"
+        },
+        {
+          "id": "ex-rc-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu Task 2 nào dùng mệnh đề quan hệ học thuật nhất?",
+          "options": [
+            "Globalization has benefits and it has created economic opportunities for millions.",
+            "Globalization, which has created economic opportunities for millions, also has significant drawbacks.",
+            "Globalization that has created economic opportunities for millions, also has significant drawbacks.",
+            "Globalization, which it has created economic opportunities for millions, also has drawbacks."
+          ],
+          "correctAnswer": "Globalization, which has created economic opportunities for millions, also has significant drawbacks.",
+          "feedbackCorrect": "Non-defining clause: dấu phẩy + which (không 'that') + mệnh đề bổ sung. Gộp hai ý vào một câu — band 6.5.",
+          "feedbackWrong": "Non-defining (bổ sung): dấu phẩy + which (không that). Không lặp 'it' sau 'which'.",
+          "ieltsTip": "Non-defining (có dấu phẩy): luôn dùng which, không that. Thêm thông tin bổ sung không thiết yếu.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-rc-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'Nations that they have strong social safety nets tend to have lower poverty rates. This is an approach which it has been proven effective in Scandinavian countries.'",
+          "options": [
+            "that they have → that have; which it has → which has",
+            "that they have → which they have; which it has → which has",
+            "Chỉ which it has → which has",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "that they have → that have; which it has → which has",
+          "feedbackCorrect": "Hai lỗi cùng kiểu: lặp đại từ sau đại từ quan hệ. 'That have', 'which has' — không thêm 'they/it'.",
+          "feedbackWrong": "Cùng một lỗi lặp lại: [that/which] + [they/it] là sai. Đại từ quan hệ ĐÃ là chủ ngữ.",
+          "ieltsTip": "Lỗi cực phổ biến của người Việt: 'which it is' / 'that they have' — kiểm tra kỹ mỗi khi dùng mệnh đề quan hệ.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-rc-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng đại từ quan hệ: 'The communities _____ are most affected by poverty are often located in regions _____ investment is severely lacking, and _____ residents have limited access to education.'",
+          "options": [
+            "that / where / whose",
+            "which / where / who",
+            "who / which / whose",
+            "that / which / whose"
+          ],
+          "correctAnswer": "that / where / whose",
+          "feedbackCorrect": "'That' (defining, chủ ngữ). 'Where' (nơi chốn). 'Whose' (sở hữu — residents of communities). Ba đại từ quan hệ trong một câu — band 7.0!",
+          "feedbackWrong": "'That' = defining cho communities. 'Where' = nơi thiếu investment. 'Whose' = sở hữu (residents OF communities).",
+          "ieltsTip": "Bộ ba nâng cao: that (xác định), where (nơi chốn), whose (sở hữu) — học thuộc để đạt band 6.5+.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-rc-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Gộp hai câu: [International aid organizations have worked in conflict zones for decades] + [they often operate under dangerous conditions]",
+          "options": [
+            "International aid organizations, which have been working in conflict zones for decades, often operate under dangerous conditions.",
+            "International aid organizations, that have been working in conflict zones for decades, often operate under dangerous conditions.",
+            "International aid organizations which they have been working in conflict zones for decades often operate under dangerous conditions.",
+            "International aid organizations, which have been working in conflict zones for decades, which often operate under dangerous conditions."
+          ],
+          "correctAnswer": "International aid organizations, which have been working in conflict zones for decades, often operate under dangerous conditions.",
+          "feedbackCorrect": "Non-defining clause (bổ sung → dấu phẩy + which). Không lặp 'they' sau 'which'. Mệnh đề quan hệ + Present Perfect = band 7.0!",
+          "feedbackWrong": "Non-defining: dấu phẩy + which (không that). Không lặp 'they'. Chủ mệnh đề (operate) tiếp tục sau mệnh đề quan hệ.",
+          "ieltsTip": "Mệnh đề non-defining: [Subject], which [extra info], [main verb]. Dấu phẩy thứ hai đóng mệnh đề.",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 về di cư toàn cầu dùng mệnh đề quan hệ. Gộp hai ý vào một câu.",
+        "placeholder": "Ví dụ: Many migrants, who leave their home countries in search of better opportunities, face...",
+        "grammarMustUse": "relative clauses",
+        "wordLimit": 30,
+        "modelAnswer": "Many migrants, who leave their home countries in search of better economic opportunities, face significant cultural barriers in their destination countries, which often lack adequate integration programs.",
+        "modelBand": 6.5
+      },
+      "speakingDrill": {
+        "prompt": "Part 3: 'What challenges do international migrants face?' Dùng ít nhất một mệnh đề quan hệ.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "relative clauses (who/which/where)",
+          "no pronoun repetition"
+        ],
+        "modelAnswer": "Migrants face numerous challenges, which vary by destination country. Language barriers are obstacles that prevent newcomers from fully integrating. Many migrants come from cultures where family ties are very strong, which makes it difficult to adapt to a more individualistic way of life.",
+        "modelBand": 6.5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-6-reported",
+      "nextUnitTitle": "Reported Speech",
+      "nextUnitConnection": "Unit 15 — Reported Speech — dạy thuật lại quan điểm của người khác. Quan trọng trong Task 2 khi trích dẫn và trong Speaking khi kể chuyện."
+    }
+  },
+  {
+    "id": "unit-6-reported",
+    "chapter": 5,
+    "title": "Reported Speech",
+    "subtitle": "Câu tường thuật",
+    "bandMin": 6,
+    "bandTarget": 6.5,
+    "meta": {
+      "topic": "Global Issues",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-5-relative",
+      "prevUnitConnection": "Relative Clauses mở rộng câu. Reported Speech là cách thuật lại quan điểm của người khác — thiết yếu trong Task 2 dạng 'Some people argue that...'",
+      "nextUnitId": "unit-6-cleft",
+      "nextUnitTitle": "Cleft Sentences"
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "S + said/told + (that) + [backshifted clause]",
+        "negative": "S + said/told + (that) + S + did not / could not + V",
+        "question": "S + asked + (if/whether/wh-word) + [backshifted clause]"
+      },
+      "coreRule": "Reported Speech: thay đổi (1) đại từ; (2) thì (backshift): Present→Past, Past→Past Perfect, will→would, can→could, may→might; (3) trạng từ: now→then, today→that day, here→there. Động từ tường thuật: say (that), tell sb (that), argue (that), claim (that), suggest (that), warn (that).",
+      "quickExamples": [
+        {
+          "en": "The UN Secretary-General argued that immediate action on poverty was essential for global stability.",
+          "vi": "Tổng thư ký LHQ lập luận rằng hành động ngay lập tức về nghèo đói là thiết yếu."
+        },
+        {
+          "en": "Researchers warned that if deforestation continued, entire ecosystems would collapse within decades.",
+          "vi": "Các nhà nghiên cứu cảnh báo rằng nếu phá rừng tiếp tục, toàn bộ hệ sinh thái sẽ sụp đổ."
+        },
+        {
+          "en": "Some economists claimed that free trade had created more inequality than prosperity.",
+          "vi": "Một số nhà kinh tế tuyên bố rằng thương mại tự do đã tạo ra bất bình đẳng nhiều hơn thịnh vượng."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Reported Speech trong Part 3 để thuật lại quan điểm từ nghiên cứu — nghe thuyết phục và học thuật.",
+        "Dùng Reported Speech trong Task 2 để giới thiệu và phản biện quan điểm — đặc trưng bài luận band 6.5+."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "The researcher said that global inequality is getting worse every year.",
+          "correct": "The researcher said that global inequality was getting worse every year.",
+          "tipVi": "Khi động từ tường thuật ở quá khứ (said), thì trong mệnh đề phụ phải lùi một thì: 'is getting' → 'was getting'. Người Việt thường quên backshift.",
+          "bandImpact": "Backshift đúng trong Reported Speech — dấu hiệu ngữ pháp phức tạp giúp tăng điểm từ 6.0 lên 6.5."
+        },
+        {
+          "wrong": "The expert told that education was the key to reducing poverty.",
+          "correct": "The expert said that education was the key to reducing poverty.",
+          "tipVi": "'Tell' phải có tân ngữ (tell somebody). 'Say' không cần tân ngữ. 'Told that' sai — phải là 'told us that' hoặc 'said that'.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "She said me that the policy had failed.",
+          "correct": "She told me that the policy had failed.",
+          "tipVi": "'Said' không theo sau bởi tân ngữ người. 'Told me' = đúng. 'Said me' = sai.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "The report claimed that poverty is increasing in rural areas.",
+          "correct": "The report claimed that poverty was increasing in rural areas.",
+          "tipVi": "Khi 'claimed' ở quá khứ → backshift: 'is increasing' → 'was increasing'.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-rs-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Chuyển sang Reported Speech: 'Global inequality is a serious threat to world peace.' (Expert said...)",
+          "options": [
+            "The expert said global inequality is a serious threat to world peace.",
+            "The expert said that global inequality was a serious threat to world peace.",
+            "The expert told that global inequality was a serious threat to world peace.",
+            "The expert said that global inequality is was a threat to world peace."
+          ],
+          "correctAnswer": "The expert said that global inequality was a serious threat to world peace.",
+          "feedbackCorrect": "'Said' (quá khứ) → backshift: 'is' → 'was'. 'Said that' (không 'told that').",
+          "feedbackWrong": "'Said' quá khứ → 'is' phải lùi thành 'was' (backshift). Dùng 'said that', không 'told that'.",
+          "ieltsTip": "Task 2: 'Experts argue/claim/suggest that...' (present = không backshift). Backshift khi dùng quá khứ: 'argued/claimed that...'",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-rs-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu Task 2 nào đúng khi giới thiệu quan điểm đối lập?",
+          "options": [
+            "However, others argued that free trade can to harm developing economies.",
+            "However, others argued that free trade could harm developing economies.",
+            "However, others argued that free trade could harmed developing economies.",
+            "However, others told that free trade could harm developing economies."
+          ],
+          "correctAnswer": "However, others argued that free trade could harm developing economies.",
+          "feedbackCorrect": "'Argued' (quá khứ) → backshift: 'can' → 'could'. 'Could harm' = modal + V nguyên mẫu. Câu phản biện Task 2 chuẩn!",
+          "feedbackWrong": "Backshift: argued (past) → can → could. Modal + V nguyên mẫu: could harm. 'Argued that' (không 'told that').",
+          "ieltsTip": "Cặp đối lập Task 2: 'Some people argue that... However, others contend that...' — dùng argue/contend/maintain.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-rs-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'The UN report warned that millions of people will face food insecurity if climate action is not taken. It also claimed that developing nations are the most vulnerable.'",
+          "options": [
+            "will face → would face; is not taken → was not taken (are có thể giữ — sự thật chung)",
+            "will face → would face; is not taken → was not taken; are → were",
+            "will face → would face only",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "will face → would face; is not taken → was not taken (are có thể giữ — sự thật chung)",
+          "feedbackCorrect": "Backshift: warned → will → would, is not → was not. NHƯNG: 'are vulnerable' có thể giữ nguyên nếu là sự thật chung hiện hữu — đây là ngoại lệ backshift.",
+          "feedbackWrong": "Backshift bắt buộc: will → would, is → was. Ngoại lệ: sự thật chung vẫn đúng ở hiện tại có thể không backshift.",
+          "ieltsTip": "Ngoại lệ backshift: sự thật hiển nhiên/vẫn đúng hiện tại có thể không đổi: 'Scientists said the earth is round' (không 'was round').",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-rs-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng: 'Economists _____ (argue) that globalization _____ (create) both winners and losers, and _____ (warn) that without proper policies, inequality _____ (continue) to rise.'",
+          "options": [
+            "argued / had created / warned / would continue",
+            "argued / created / warned / would continue",
+            "argue / has created / warn / will continue",
+            "argued / creates / warned / continued"
+          ],
+          "correctAnswer": "argued / had created / warned / would continue",
+          "feedbackCorrect": "'Argued/warned' = quá khứ. 'Had created' = backshift từ Present Perfect. 'Would continue' = backshift từ will. Reported Speech phức tạp nhất — band 7.0!",
+          "feedbackWrong": "Backshift: argued/warned (past) → create → had created; will continue → would continue.",
+          "ieltsTip": "Bảng backshift: will→would, can→could, may→might, is→was, has→had, is doing→was doing.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-rs-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Task 2: [researchers / suggested / that / urban / poverty / was / increasing / rapidly / and / that / governments / should / act / immediately]",
+          "options": [
+            "Researchers suggested that urban poverty was increasing rapidly and that governments should act immediately.",
+            "Researchers suggested that urban poverty is increasing rapidly and that governments should act immediately.",
+            "Researchers suggested urban poverty was increasing rapidly and governments should to act immediately.",
+            "Researchers told that urban poverty was increasing rapidly and governments should act immediately."
+          ],
+          "correctAnswer": "Researchers suggested that urban poverty was increasing rapidly and that governments should act immediately.",
+          "feedbackCorrect": "'Suggested that' (không 'told that'). 'Was increasing' = backshift. 'Should' giữ nguyên. 'That' lặp trước mệnh đề thứ hai — chuẩn học thuật!",
+          "feedbackWrong": "'Suggested that' (không 'told that'). 'Is increasing' → 'was increasing' (backshift). 'Should act' = modal + V nguyên mẫu (không 'to act').",
+          "ieltsTip": "Thuật lại hai mệnh đề: '[Verb] that [clause 1] and that [clause 2]' — lặp 'that' ở mệnh đề thứ hai là chuẩn học thuật.",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu Task 2 thuật lại quan điểm về di cư toàn cầu. Dùng: argued/suggested/claimed + that.",
+        "placeholder": "Ví dụ: Some economists argued that controlled migration was beneficial because...",
+        "grammarMustUse": "reported speech",
+        "wordLimit": 30,
+        "modelAnswer": "Some economists argued that controlled migration was economically beneficial, as it helped fill labour shortages in ageing societies and contributed to higher tax revenues.",
+        "modelBand": 6.5
+      },
+      "speakingDrill": {
+        "prompt": "Part 3: 'What do experts say about the causes of global inequality?' Thuật lại quan điểm dùng Reported Speech.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "reported speech",
+          "backshift",
+          "say that/tell sb that"
+        ],
+        "modelAnswer": "Many economists have argued that global inequality stems from historical exploitation and current trade imbalances. A recent UN report suggested that the wealth gap was widening faster than at any point in the past century. Researchers also warned that without significant intervention, the richest one percent would control over half of the world's wealth within a generation.",
+        "modelBand": 6.5
+      }
+    },
+    "completion": {
+      "xpReward": 50,
+      "nextUnitId": "unit-6-cleft",
+      "nextUnitTitle": "Cleft Sentences",
+      "nextUnitConnection": "Đây là unit cuối! Cleft Sentences — 'It is education THAT changes lives.' Dùng đúng trong Task 2 là dấu hiệu rõ ràng nhất của band 7.0."
+    }
+  },
+  {
+    "id": "unit-6-cleft",
+    "chapter": 5,
+    "title": "Cleft Sentences",
+    "subtitle": "Câu chẻ — Cấu trúc nhấn mạnh",
+    "bandMin": 6.5,
+    "bandTarget": 7,
+    "meta": {
+      "topic": "Global Issues",
+      "speakingPart": "Part 3",
+      "writingTask": "Task 2",
+      "prevUnitId": "unit-6-reported",
+      "prevUnitConnection": "Reported Speech thuật lại quan điểm. Cleft Sentences là đỉnh cao — cách nhấn mạnh một yếu tố trong câu. Kỹ thuật nâng cao nhất trong khóa học.",
+      "nextUnitId": null,
+      "nextUnitTitle": null
+    },
+    "theory": {
+      "formation": {
+        "affirmative": "It is/was + [emphasis] + that/who + [rest] | What + [clause] + is + [emphasis]",
+        "negative": "It is not + [emphasis] + that... | What ... is not...",
+        "question": "Is it + [emphasis] + that...? | What is it that...?"
+      },
+      "coreRule": "Hai loại: (1) IT-cleft: It is/was + [nhấn mạnh] + that/who + [phần còn lại]. VD: 'It is education that holds the key to reducing poverty.' (2) WH-cleft: What + [mệnh đề] + is/was + [nhấn mạnh]. VD: 'What the world needs most is greater international cooperation.' Dùng để nhấn mạnh CHỦ THỂ, HÀNH ĐỘNG, THỜI GIAN, NGUYÊN NHÂN.",
+      "quickExamples": [
+        {
+          "en": "It is international cooperation, not unilateral action, that offers the most hope for solving global problems.",
+          "vi": "Chính là hợp tác quốc tế, không phải hành động đơn phương, mang lại hy vọng lớn nhất."
+        },
+        {
+          "en": "What governments urgently need to do is invest more in green infrastructure and public transport.",
+          "vi": "Điều mà các chính phủ cần gấp làm là đầu tư nhiều hơn vào cơ sở hạ tầng xanh."
+        },
+        {
+          "en": "It was the lack of political will, not the absence of solutions, that allowed poverty to persist.",
+          "vi": "Chính là sự thiếu ý chí chính trị, không phải thiếu giải pháp, đã khiến nghèo đói kéo dài."
+        }
+      ],
+      "keyPoints": [
+        "Dùng Cleft Sentences trong Part 3 để nhấn mạnh điểm quan trọng nhất của lập luận — thể hiện khả năng cấu trúc nâng cao tự nhiên.",
+        "Dùng Cleft Sentences trong Task 2 để nhấn mạnh giải pháp hoặc nguyên nhân — câu văn ấn tượng, đặc trưng band 7.0."
+      ],
+      "contrastExamples": [
+        {
+          "wrong": "It is education that it reduces poverty most effectively.",
+          "correct": "It is education that reduces poverty most effectively.",
+          "tipVi": "Sau 'that' trong IT-cleft, KHÔNG lặp lại chủ ngữ. 'That IT reduces' sai vì 'that' đã là đại từ quan hệ làm chủ ngữ.",
+          "bandImpact": "Dùng đúng một Cleft Sentence trong Task 2 ngay lập tức tạo ấn tượng tốt — hiếm gặp dưới band 7.0."
+        },
+        {
+          "wrong": "It is the government that it must take responsibility for inequality.",
+          "correct": "It is the government that must take responsibility for inequality.",
+          "tipVi": "Sau 'that' trong IT-cleft không lặp lại chủ ngữ. 'That must take' đúng; 'that IT must take' sai.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "What we need it is more investment in education.",
+          "correct": "What we need is more investment in education.",
+          "tipVi": "WH-cleft: What + [mệnh đề] + is + [danh từ]. 'What we need IT is' thừa 'it'.",
+          "bandImpact": null
+        },
+        {
+          "wrong": "It was in 2015 when the Paris Agreement was signed.",
+          "correct": "It was in 2015 that the Paris Agreement was signed.",
+          "tipVi": "IT-cleft nhấn mạnh thời gian dùng 'that', không phải 'when'.",
+          "bandImpact": null
+        }
+      ]
+    },
+    "exercises": {
+      "xpPerCorrect": 10,
+      "items": [
+        {
+          "id": "ex-cl-1",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "Câu IT-cleft nào đúng để nhấn mạnh giải pháp?",
+          "options": [
+            "It is education which breaks the cycle of poverty.",
+            "It is education that breaks the cycle of poverty.",
+            "It is education that it breaks the cycle of poverty.",
+            "It was education which breaks the cycle of poverty."
+          ],
+          "correctAnswer": "It is education that breaks the cycle of poverty.",
+          "feedbackCorrect": "Đúng! IT-cleft: It is + [education] + that + [breaks...]. Dùng 'that' (không 'which'). Không lặp 'it' sau 'that'.",
+          "feedbackWrong": "IT-cleft chuẩn: It is/was + [nhấn mạnh] + THAT (không which) + [phần còn lại]. Không lặp chủ ngữ sau 'that'.",
+          "ieltsTip": "IT-cleft dùng 'that' (không 'which' hay 'who') ngay cả khi nhấn mạnh người: 'It is the government that must act.'",
+          "skill": "both"
+        },
+        {
+          "id": "ex-cl-2",
+          "level": 1,
+          "type": "multiple_choice",
+          "question": "WH-cleft nào đúng và học thuật nhất cho kết bài Task 2?",
+          "options": [
+            "What the world needs it is immediate action on climate change.",
+            "What the world needs is immediate and coordinated action on climate change.",
+            "Which the world needs is immediate action on climate change.",
+            "What the world needs are immediate action on climate change."
+          ],
+          "correctAnswer": "What the world needs is immediate and coordinated action on climate change.",
+          "feedbackCorrect": "'What + clause + is + noun'. 'Action' không đếm được → 'is'. Không có 'it' sau 'needs'. Câu kết Task 2 band 7.0!",
+          "feedbackWrong": "WH-cleft: What + [clause] + is + [noun phrase]. Không có 'it'. 'Action' không đếm được → 'is'. Không dùng 'Which' mở đầu.",
+          "ieltsTip": "Kết luận Task 2: 'What society truly needs is...' / 'What must be done is...' / 'What this suggests is...'",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-cl-3",
+          "level": 2,
+          "type": "error_correction",
+          "question": "Sửa lỗi: 'It was the industrial revolution which it transformed global economies. What governments they need to do now is learn from history and act more sustainably.'",
+          "options": [
+            "which it → that; they need → need",
+            "which it → that only",
+            "which → that; it transformed → transformed",
+            "Câu đúng, không cần sửa."
+          ],
+          "correctAnswer": "which it → that; they need → need",
+          "feedbackCorrect": "Hai lỗi: (1) IT-cleft dùng 'that', không 'which'. Không lặp 'it'. (2) WH-cleft: 'What governments need' — không lặp 'they' sau 'governments'.",
+          "feedbackWrong": "(1) IT-cleft: 'that' (không 'which'). Không lặp 'it'. (2) WH-cleft: 'governments need' — 'governments' là một phần mệnh đề, không cần 'they'.",
+          "ieltsTip": "Hai lỗi điển hình cleft: lặp đại từ trong IT-cleft (that it) và WH-cleft (governments they). Luôn kiểm tra không có đại từ thừa.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-cl-4",
+          "level": 2,
+          "type": "fill_in_blank",
+          "question": "Điền đúng: 'It _____ the combined effort of governments and citizens _____ will ultimately determine whether we build a more equitable world. What _____ most urgently is greater political commitment.'",
+          "options": [
+            "is / that / is needed",
+            "is / which / needed",
+            "was / that / is needed",
+            "is / that / needs"
+          ],
+          "correctAnswer": "is / that / is needed",
+          "feedbackCorrect": "IT-cleft: It + IS + [combined effort] + THAT + [will determine]. WH-cleft: What + is needed (Passive). Kết hợp hai loại cleft — band 7.0!",
+          "feedbackWrong": "IT-cleft: It is...that (hiện tại). WH-cleft: 'What is needed' = Passive (được cần đến) — không phải 'What needs'.",
+          "ieltsTip": "WH-cleft + Passive: 'What is needed/required is...' rất hay dùng trong đề xuất giải pháp Task 2.",
+          "skill": "writing"
+        },
+        {
+          "id": "ex-cl-5",
+          "level": 3,
+          "type": "sentence_build",
+          "question": "Tạo câu Task 2 nhấn mạnh: [international / cooperation / is / it / will / that / solve / global / challenges / not / individual / action / most / effectively]",
+          "options": [
+            "It is international cooperation, not individual action, that will solve global challenges most effectively.",
+            "It is international cooperation, not individual action, which will solve global challenges most effectively.",
+            "It is international cooperation, not individual action, that it will solve global challenges most effectively.",
+            "International cooperation, not individual action, that will solve global challenges most effectively."
+          ],
+          "correctAnswer": "It is international cooperation, not individual action, that will solve global challenges most effectively.",
+          "feedbackCorrect": "Câu kết Task 2 đỉnh cao! IT-cleft với đối lập 'not individual action'. 'That will solve' (không which, không that it). Band 7.0!",
+          "feedbackWrong": "IT-cleft: It is + [A, not B] + that + [verb phrase]. Dùng 'that' (không 'which'). Không lặp đại từ. Cần 'It is' ở đầu câu.",
+          "ieltsTip": "Cleft với đối lập: 'It is X, NOT Y, that...' — cấu trúc phản biện cực ấn tượng để kết luận Task 2. Dùng một lần trong bài thi!",
+          "skill": "writing"
+        }
+      ]
+    },
+    "apply": {
+      "writingMini": {
+        "prompt": "Viết 1-2 câu kết Task 2 dùng IT-cleft hoặc WH-cleft nhấn mạnh giải pháp cho vấn đề toàn cầu.",
+        "placeholder": "Ví dụ: It is collective global action, not isolated national policies, that will...",
+        "grammarMustUse": "cleft sentences",
+        "wordLimit": 30,
+        "modelAnswer": "It is collective global action, not isolated national policies, that will ultimately determine whether humanity can address the pressing challenges of poverty, inequality, and climate change.",
+        "modelBand": 7
+      },
+      "speakingDrill": {
+        "prompt": "Part 3: 'What is the most important thing the world needs to solve global problems?' Dùng IT-cleft hoặc WH-cleft.",
+        "timeLimit": 30,
+        "grammarTargets": [
+          "cleft sentences (it-cleft/wh-cleft)",
+          "emphasis and focus"
+        ],
+        "modelAnswer": "What the world most urgently needs is a fundamental shift in political priorities, away from short-term gains and towards long-term sustainability. It is the lack of genuine political will, not the absence of solutions, that has allowed problems like poverty and climate change to persist. What gives me hope is the growing global movement of young people demanding meaningful action.",
+        "modelBand": 7
+      }
+    },
+    "completion": {
+      "xpReward": 100,
+      "nextUnitId": null,
+      "nextUnitTitle": null,
+      "nextUnitConnection": "🎉 Chúc mừng! Bạn đã hoàn thành toàn bộ 16 units của khóa học Grammar for IELTS. Từ Simple Present band 4.0 đến Cleft Sentences band 7.0 — đây là hành trình ngữ pháp đầy đủ nhất để chinh phục IELTS Speaking và Writing. Bước tiếp theo: luyện đề thi thực tế!"
+    }
+  }
+]

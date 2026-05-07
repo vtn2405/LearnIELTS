@@ -1,0 +1,36 @@
+// ─── Add these models to your schema.prisma ──────────────────────────────────
+// (Replace any existing GrammarRule / IeltsTip blocks you may have)
+
+model GrammarRule {
+  id          String   @id @default(cuid())
+  code        String   @unique          // e.g. "ART-001", "TENSE-002"
+  title       String
+  description String   @db.Text
+  examples    Json                      // { wrong: string[], correct: string[] }
+  errorType   String                    // matches ErrorHunterError.errorType
+  unitIndex   Int                       // which unit this rule belongs to (1-16)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  errors      ErrorHunterError[]
+
+  @@index([errorType])
+  @@index([unitIndex])
+}
+
+model IeltsTip {
+  id          String   @id @default(cuid())
+  errorType   String                    // e.g. "ARTICLE", "TENSE"
+  title       String
+  body        String   @db.Text
+  targetBand  Float    @default(6.0)   // which band level this tip helps most
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  errors      ErrorHunterError[]
+
+  @@unique([errorType, title])          // used as upsert key in seed script
+  @@index([errorType])
+}

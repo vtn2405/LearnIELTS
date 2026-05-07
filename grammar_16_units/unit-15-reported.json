@@ -1,0 +1,178 @@
+{
+  "id": "unit-6-reported",
+  "chapter": 5,
+  "title": "Reported Speech",
+  "subtitle": "Câu tường thuật",
+  "bandMin": 6.0,
+  "bandTarget": 6.5,
+  "meta": {
+    "topic": "Global Issues",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-5-relative",
+    "prevUnitConnection": "Relative Clauses mở rộng câu. Reported Speech là cách thuật lại quan điểm của người khác — thiết yếu trong Task 2 dạng 'Some people argue that...'",
+    "nextUnitId": "unit-6-cleft",
+    "nextUnitTitle": "Cleft Sentences"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Reported Speech trong Part 3 để thuật lại quan điểm từ nghiên cứu — nghe thuyết phục và học thuật.",
+      "writing": "Dùng Reported Speech trong Task 2 để giới thiệu và phản biện quan điểm — đặc trưng bài luận band 6.5+."
+    },
+    "coreRule": "Reported Speech: thay đổi (1) đại từ; (2) thì (backshift): Present→Past, Past→Past Perfect, will→would, can→could, may→might; (3) trạng từ: now→then, today→that day, here→there. Động từ tường thuật: say (that), tell sb (that), argue (that), claim (that), suggest (that), warn (that).",
+    "grammarForSpeaking": {
+      "wrong": "The researcher said that global inequality is getting worse every year.",
+      "correct": "The researcher said that global inequality was getting worse every year.",
+      "tipVi": "Khi động từ tường thuật ở quá khứ (said), thì trong mệnh đề phụ phải lùi một thì: 'is getting' → 'was getting'. Người Việt thường quên backshift.",
+      "bandImpact": "Backshift đúng trong Reported Speech — dấu hiệu ngữ pháp phức tạp giúp tăng điểm từ 6.0 lên 6.5."
+    },
+    "quickExamples": [
+      {
+        "en": "The UN Secretary-General argued that immediate action on poverty was essential for global stability.",
+        "vi": "Tổng thư ký LHQ lập luận rằng hành động ngay lập tức về nghèo đói là thiết yếu."
+      },
+      {
+        "en": "Researchers warned that if deforestation continued, entire ecosystems would collapse within decades.",
+        "vi": "Các nhà nghiên cứu cảnh báo rằng nếu phá rừng tiếp tục, toàn bộ hệ sinh thái sẽ sụp đổ."
+      },
+      {
+        "en": "Some economists claimed that free trade had created more inequality than prosperity.",
+        "vi": "Một số nhà kinh tế tuyên bố rằng thương mại tự do đã tạo ra bất bình đẳng nhiều hơn thịnh vượng."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "The expert told that education was the key to reducing poverty.",
+        "correct": "The expert said that education was the key to reducing poverty.",
+        "explanationVi": "'Tell' phải có tân ngữ (tell somebody). 'Say' không cần tân ngữ. 'Told that' sai — phải là 'told us that' hoặc 'said that'."
+      },
+      {
+        "incorrect": "She said me that the policy had failed.",
+        "correct": "She told me that the policy had failed.",
+        "explanationVi": "'Said' không theo sau bởi tân ngữ người. 'Told me' = đúng. 'Said me' = sai."
+      },
+      {
+        "incorrect": "The report claimed that poverty is increasing in rural areas.",
+        "correct": "The report claimed that poverty was increasing in rural areas.",
+        "explanationVi": "Khi 'claimed' ở quá khứ → backshift: 'is increasing' → 'was increasing'."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-rs-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Chuyển sang Reported Speech: 'Global inequality is a serious threat to world peace.' (Expert said...)",
+        "options": [
+          "The expert said global inequality is a serious threat to world peace.",
+          "The expert said that global inequality was a serious threat to world peace.",
+          "The expert told that global inequality was a serious threat to world peace.",
+          "The expert said that global inequality is was a threat to world peace."
+        ],
+        "correctAnswer": "The expert said that global inequality was a serious threat to world peace.",
+        "feedbackCorrect": "'Said' (quá khứ) → backshift: 'is' → 'was'. 'Said that' (không 'told that').",
+        "feedbackWrong": "'Said' quá khứ → 'is' phải lùi thành 'was' (backshift). Dùng 'said that', không 'told that'.",
+        "ieltsTip": "Task 2: 'Experts argue/claim/suggest that...' (present = không backshift). Backshift khi dùng quá khứ: 'argued/claimed that...'",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-rs-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu Task 2 nào đúng khi giới thiệu quan điểm đối lập?",
+        "options": [
+          "However, others argued that free trade can to harm developing economies.",
+          "However, others argued that free trade could harm developing economies.",
+          "However, others argued that free trade could harmed developing economies.",
+          "However, others told that free trade could harm developing economies."
+        ],
+        "correctAnswer": "However, others argued that free trade could harm developing economies.",
+        "feedbackCorrect": "'Argued' (quá khứ) → backshift: 'can' → 'could'. 'Could harm' = modal + V nguyên mẫu. Câu phản biện Task 2 chuẩn!",
+        "feedbackWrong": "Backshift: argued (past) → can → could. Modal + V nguyên mẫu: could harm. 'Argued that' (không 'told that').",
+        "ieltsTip": "Cặp đối lập Task 2: 'Some people argue that... However, others contend that...' — dùng argue/contend/maintain.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-rs-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'The UN report warned that millions of people will face food insecurity if climate action is not taken. It also claimed that developing nations are the most vulnerable.'",
+        "options": [
+          "will face → would face; is not taken → was not taken (are có thể giữ — sự thật chung)",
+          "will face → would face; is not taken → was not taken; are → were",
+          "will face → would face only",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "will face → would face; is not taken → was not taken (are có thể giữ — sự thật chung)",
+        "feedbackCorrect": "Backshift: warned → will → would, is not → was not. NHƯNG: 'are vulnerable' có thể giữ nguyên nếu là sự thật chung hiện hữu — đây là ngoại lệ backshift.",
+        "feedbackWrong": "Backshift bắt buộc: will → would, is → was. Ngoại lệ: sự thật chung vẫn đúng ở hiện tại có thể không backshift.",
+        "ieltsTip": "Ngoại lệ backshift: sự thật hiển nhiên/vẫn đúng hiện tại có thể không đổi: 'Scientists said the earth is round' (không 'was round').",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-rs-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng: 'Economists _____ (argue) that globalization _____ (create) both winners and losers, and _____ (warn) that without proper policies, inequality _____ (continue) to rise.'",
+        "options": [
+          "argued / had created / warned / would continue",
+          "argued / created / warned / would continue",
+          "argue / has created / warn / will continue",
+          "argued / creates / warned / continued"
+        ],
+        "correctAnswer": "argued / had created / warned / would continue",
+        "feedbackCorrect": "'Argued/warned' = quá khứ. 'Had created' = backshift từ Present Perfect. 'Would continue' = backshift từ will. Reported Speech phức tạp nhất — band 7.0!",
+        "feedbackWrong": "Backshift: argued/warned (past) → create → had created; will continue → would continue.",
+        "ieltsTip": "Bảng backshift: will→would, can→could, may→might, is→was, has→had, is doing→was doing.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-rs-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Task 2: [researchers / suggested / that / urban / poverty / was / increasing / rapidly / and / that / governments / should / act / immediately]",
+        "options": [
+          "Researchers suggested that urban poverty was increasing rapidly and that governments should act immediately.",
+          "Researchers suggested that urban poverty is increasing rapidly and that governments should act immediately.",
+          "Researchers suggested urban poverty was increasing rapidly and governments should to act immediately.",
+          "Researchers told that urban poverty was increasing rapidly and governments should act immediately."
+        ],
+        "correctAnswer": "Researchers suggested that urban poverty was increasing rapidly and that governments should act immediately.",
+        "feedbackCorrect": "'Suggested that' (không 'told that'). 'Was increasing' = backshift. 'Should' giữ nguyên. 'That' lặp trước mệnh đề thứ hai — chuẩn học thuật!",
+        "feedbackWrong": "'Suggested that' (không 'told that'). 'Is increasing' → 'was increasing' (backshift). 'Should act' = modal + V nguyên mẫu (không 'to act').",
+        "ieltsTip": "Thuật lại hai mệnh đề: '[Verb] that [clause 1] and that [clause 2]' — lặp 'that' ở mệnh đề thứ hai là chuẩn học thuật.",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 thuật lại quan điểm về di cư toàn cầu. Dùng: argued/suggested/claimed + that.",
+      "placeholder": "Ví dụ: Some economists argued that controlled migration was beneficial because...",
+      "grammarMustUse": "reported speech",
+      "wordLimit": 30,
+      "modelAnswer": "Some economists argued that controlled migration was economically beneficial, as it helped fill labour shortages in ageing societies and contributed to higher tax revenues.",
+      "modelBand": 6.5
+    },
+    "speakingDrill": {
+      "prompt": "Part 3: 'What do experts say about the causes of global inequality?' Thuật lại quan điểm dùng Reported Speech.",
+      "timeLimit": 30,
+      "grammarTargets": [
+        "reported speech",
+        "backshift",
+        "say that/tell sb that"
+      ],
+      "modelAnswer": "Many economists have argued that global inequality stems from historical exploitation and current trade imbalances. A recent UN report suggested that the wealth gap was widening faster than at any point in the past century. Researchers also warned that without significant intervention, the richest one percent would control over half of the world's wealth within a generation.",
+      "modelBand": 6.5
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-6-cleft",
+    "nextUnitTitle": "Cleft Sentences",
+    "nextUnitConnection": "Đây là unit cuối! Cleft Sentences — 'It is education THAT changes lives.' Dùng đúng trong Task 2 là dấu hiệu rõ ràng nhất của band 7.0."
+  }
+}

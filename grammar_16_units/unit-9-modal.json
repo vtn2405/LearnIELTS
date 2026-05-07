@@ -1,0 +1,177 @@
+{
+  "id": "unit-3-modal-possibility",
+  "chapter": 3,
+  "title": "Modal — Possibility (may / might)",
+  "subtitle": "Động từ khuyết thiếu — Khả năng xảy ra",
+  "bandMin": 5.5,
+  "bandTarget": 6.0,
+  "meta": {
+    "topic": "Environment & Society",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-3-modal-ability",
+    "prevUnitConnection": "Can/could = khả năng. May/might = xác suất, không chắc chắn. Sự khác biệt nhỏ nhưng quan trọng trong IELTS — may/might nghe học thuật và thận trọng hơn.",
+    "nextUnitId": "unit-3-passive",
+    "nextUnitTitle": "Passive Voice"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng may/might để đưa ra ý kiến thận trọng trong Part 3 về các vấn đề môi trường và xã hội — tránh nghe quá tự tin hoặc thiếu căn cứ.",
+      "writing": "Dùng may/might trong Task 2 để điều tiết mức độ chắc chắn của lập luận — thể hiện tư duy phê phán học thuật."
+    },
+    "coreRule": "MAY: xác suất khoảng 50% (có thể xảy ra). MIGHT: xác suất thấp hơn, ít chắc chắn hơn may. Cả hai: modal + V nguyên mẫu. Phủ định: may not / might not (KHÔNG dùng mayn't). Quá khứ: may/might + have + V3. Lưu ý: Trong văn nói không trang trọng, may và might thường dùng thay nhau.",
+    "grammarForSpeaking": {
+      "wrong": "Climate change might causes more frequent natural disasters in the future.",
+      "correct": "Climate change might cause more frequent natural disasters in the future.",
+      "tipVi": "Sau may/might → V nguyên mẫu (không thêm -s). 'Might causes' là lỗi phổ biến vì người Việt nhớ quy tắc thêm -s cho ngôi 3 nhưng quên rằng sau modal không áp dụng.",
+      "bandImpact": "Dùng may/might đúng trong Part 3 cho thấy bạn có khả năng diễn đạt quan điểm một cách thận trọng — dấu hiệu Coherence band 6.5+."
+    },
+    "quickExamples": [
+      {
+        "en": "Rising sea levels may displace millions of coastal residents by 2050.",
+        "vi": "Mực nước biển dâng có thể khiến hàng triệu cư dân ven biển phải di dời vào năm 2050."
+      },
+      {
+        "en": "Some scientists believe renewable energy might completely replace fossil fuels within 30 years.",
+        "vi": "Một số nhà khoa học tin rằng năng lượng tái tạo có thể thay thế hoàn toàn nhiên liệu hóa thạch trong vòng 30 năm."
+      },
+      {
+        "en": "Stricter environmental regulations might discourage foreign investment in developing countries.",
+        "vi": "Các quy định môi trường nghiêm ngặt hơn có thể làm nản lòng đầu tư nước ngoài vào các nước đang phát triển."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "She may not goes to the environmental summit.",
+        "correct": "She may not go to the environmental summit.",
+        "explanationVi": "Sau may/might not → V nguyên mẫu (không -s, không -ed). 'May not goes' sai. 'May not go' đúng."
+      },
+      {
+        "incorrect": "The new policy mightn't work as expected.",
+        "correct": "The new policy might not work as expected.",
+        "explanationVi": "Không có dạng rút gọn 'mightn't' trong tiếng Anh chuẩn. Phải viết đầy đủ 'might not'. Khác với 'can't', 'won't', 'shouldn't'."
+      },
+      {
+        "incorrect": "This approach may solves the pollution problem.",
+        "correct": "This approach may solve the pollution problem.",
+        "explanationVi": "Modal + V nguyên mẫu. 'May solves' sai vì thêm -s sau modal. 'May solve' đúng."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-mmp-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu nào đúng khi đưa ra dự đoán thận trọng về môi trường trong Part 3?",
+        "options": [
+          "Deforestation might leads to species extinction.",
+          "Deforestation might lead to species extinction.",
+          "Deforestation might to lead to species extinction.",
+          "Deforestation mights lead to species extinction."
+        ],
+        "correctAnswer": "Deforestation might lead to species extinction.",
+        "feedbackCorrect": "Đúng! might + V nguyên mẫu (không to, không -s): 'might lead'. Dùng 'might' (không chắc chắn) phù hợp cho dự đoán môi trường.",
+        "feedbackWrong": "Modal + V nguyên mẫu. 'Might leads' sai (không -s). 'Might to lead' sai (không to). 'Mights' không tồn tại.",
+        "ieltsTip": "Part 3 hay hỏi về môi trường. Câu trả lời dùng 'might' nghe balanced và thuyết phục hơn 'will'.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-mmp-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Task 2 — Câu nào học thuật nhất khi nói về hậu quả của ô nhiễm?",
+        "options": [
+          "Air pollution will definitely destroy public health.",
+          "Air pollution may have serious consequences for public health.",
+          "Air pollution might to seriously affect public health.",
+          "Air pollution might seriously affects public health."
+        ],
+        "correctAnswer": "Air pollution may have serious consequences for public health.",
+        "feedbackCorrect": "Đúng! 'May have' = khả năng xảy ra, thận trọng. 'Have serious consequences for' = colocation học thuật đẹp. Câu này band 6.5.",
+        "feedbackWrong": "'Will definitely' quá chắc chắn cho Task 2. 'Might to affect' và 'might affects' đều sai cấu trúc. 'May have' + danh từ là cách nói học thuật nhất.",
+        "ieltsTip": "'May/might have + noun' rất học thuật: 'may have consequences/implications/effects on...' — học thuộc các cụm này.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-mmp-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'Some environmentalists argue that plastic pollution mightn't be solved without a global ban on single-use plastics, while others believe technology may offers alternative solutions.'",
+        "options": [
+          "mightn't → might not; may offers → may offer",
+          "mightn't → might not; may offers → may offered",
+          "mightn't → mustn't; may offers → may offer",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "mightn't → might not; may offers → may offer",
+        "feedbackCorrect": "Hai lỗi: (1) 'mightn't' không tồn tại → 'might not'. (2) 'may offers' sai → 'may offer' (modal + V nguyên mẫu, không -s).",
+        "feedbackWrong": "'Mightn't' không phải dạng rút gọn chuẩn → dùng 'might not'. 'May offers' sai → 'may offer' (không -s sau modal).",
+        "ieltsTip": "Chỉ một số modal mới có dạng rút gọn phổ biến: can't, won't, shouldn't, couldn't, wouldn't. 'Mightn't' và 'mayn't' thì không dùng.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-mmp-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền may hoặc might + dạng đúng: 'Renewable energy _____ (become) cheaper than fossil fuels within a decade, which _____ (encourage) more governments to invest in green infrastructure.'",
+        "options": [
+          "may become / might encourage",
+          "may becomes / might encourages",
+          "might became / may encourage",
+          "may become / might encourages"
+        ],
+        "correctAnswer": "may become / might encourage",
+        "feedbackCorrect": "Hoàn hảo! Cả hai là dự đoán không chắc chắn → may/might + V nguyên mẫu (không -s, không -ed). Dùng cả may và might trong một đoạn tạo sự đa dạng ngữ pháp.",
+        "feedbackWrong": "Modal + V nguyên mẫu trong cả hai trường hợp: may become (không becomes), might encourage (không encourages).",
+        "ieltsTip": "Dùng cả may và might xen kẽ trong một đoạn Task 2 cho thấy bạn kiểm soát từ vựng ngữ pháp tốt.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-mmp-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Task 2 thận trọng: [carbon / governments / might / taxes / imposing / face / public / by / significant / resistance]",
+        "options": [
+          "Governments might face significant public resistance by imposing carbon taxes.",
+          "Governments might to face significant public resistance by imposing carbon taxes.",
+          "Governments might faced significant public resistance by imposing carbon taxes.",
+          "By imposing carbon taxes governments might facing significant public resistance."
+        ],
+        "correctAnswer": "Governments might face significant public resistance by imposing carbon taxes.",
+        "feedbackCorrect": "Câu Task 2 học thuật cao! Governments [chủ ngữ] + might [modal] + face [V nguyên mẫu] + significant public resistance [tân ngữ] + by imposing carbon taxes [cụm giới từ chỉ cách thức]. Band 6.5+!",
+        "feedbackWrong": "might + face (không to face, không faced). 'By + V-ing' diễn đạt phương tiện/cách thức → 'by imposing'.",
+        "ieltsTip": "Cấu trúc 'might face resistance/challenges/criticism by + V-ing' rất hay trong Task 2 khi phân tích hạn chế của một giải pháp.",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 về hậu quả có thể xảy ra của biến đổi khí hậu. Dùng may HOẶC might.",
+      "placeholder": "Ví dụ: Rising temperatures may threaten food security in...",
+      "grammarMustUse": "may/might",
+      "wordLimit": 30,
+      "modelAnswer": "Rising global temperatures might threaten food security in tropical regions, as changing rainfall patterns could disrupt agricultural production for millions of people.",
+      "modelBand": 6.0
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 3 — Examiner hỏi: 'What might happen if governments don't take action on climate change?' Trả lời 2-3 câu dùng may/might.",
+      "timeLimit": 30,
+      "grammarTargets": [
+        "may/might",
+        "modal + bare infinitive"
+      ],
+      "modelAnswer": "If governments fail to act, the consequences might be severe and widespread. Sea levels may rise significantly, which could displace coastal communities around the world. Additionally, extreme weather events might become more frequent, placing enormous pressure on healthcare systems and public infrastructure.",
+      "modelBand": 6.0
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-3-passive",
+    "nextUnitTitle": "Passive Voice",
+    "nextUnitConnection": "Bạn đã nắm modal verbs. Unit 10 — Passive Voice — là cấu trúc cực quan trọng trong Task 2 Writing. Passive giúp câu văn học thuật hơn và tránh lặp chủ ngữ."
+  }
+}

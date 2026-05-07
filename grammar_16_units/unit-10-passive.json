@@ -1,0 +1,178 @@
+{
+  "id": "unit-3-passive",
+  "chapter": 3,
+  "title": "Passive Voice",
+  "subtitle": "Câu bị động",
+  "bandMin": 5.5,
+  "bandTarget": 6.5,
+  "meta": {
+    "topic": "Environment & Society",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 1",
+    "prevUnitId": "unit-3-modal-possibility",
+    "prevUnitConnection": "Bạn đã nắm modal verbs. Passive Voice Unit 10 là bước ngoặt — cấu trúc này xuất hiện liên tục trong Task 1 và Task 2 Writing. Nắm tốt Passive là chìa khóa lên band 6.5.",
+    "nextUnitId": "unit-4-conditional-1",
+    "nextUnitTitle": "Conditional Type 1"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Passive Voice trong Part 3 để nói về các vấn đề xã hội mà không cần chỉ đích danh ai — nghe khách quan và học thuật hơn.",
+      "writing": "Dùng Passive trong Task 1 khi mô tả quy trình, và Task 2 khi cần văn phong học thuật — tránh lặp 'people/governments do...' quá nhiều."
+    },
+    "coreRule": "Passive = be + V3 (past participle). Chia 'be' theo thì: is/are (hiện tại), was/were (quá khứ), will be (tương lai), has/have been (hoàn thành), is/are being (tiếp diễn). 'By + agent' khi cần nêu người/vật thực hiện hành động. Dùng Passive khi: (1) không biết ai thực hiện; (2) không cần nêu ai thực hiện; (3) muốn nhấn mạnh đối tượng bị tác động.",
+    "grammarForSpeaking": {
+      "wrong": "The environment is being damaged by human activities, and many species are being affected.",
+      "correct": "The environment is being damaged by human activities, and many species are being affected — câu này thực ra ĐÚNG!",
+      "tipVi": "Passive tiếp diễn = is/are + being + V3. Đây là dạng khó nhất. Ví dụ lỗi thực tế: 'The report was wrote by the team' → 'was written'. V3 của 'write' = written, không phải wrote.",
+      "bandImpact": "Passive Voice đa dạng (simple, continuous, perfect) trong Task 2 là dấu hiệu rõ nhất của Grammatical Range band 6.5+."
+    },
+    "quickExamples": [
+      {
+        "en": "Thousands of tonnes of plastic waste are dumped into the ocean every year.",
+        "vi": "Hàng ngàn tấn rác thải nhựa bị đổ xuống đại dương mỗi năm."
+      },
+      {
+        "en": "New environmental laws have been introduced in many countries over the past decade.",
+        "vi": "Các luật môi trường mới đã được ban hành ở nhiều quốc gia trong thập kỷ qua."
+      },
+      {
+        "en": "A new recycling facility is being built in the city center to reduce landfill waste.",
+        "vi": "Một cơ sở tái chế mới đang được xây dựng ở trung tâm thành phố để giảm rác thải chôn lấp."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "The report was wrote by the research team last month.",
+        "correct": "The report was written by the research team last month.",
+        "explanationVi": "'Write' bất quy tắc: write → wrote → written (V3). Passive dùng V3, không phải V2. 'Was wrote' sai → 'was written' đúng."
+      },
+      {
+        "incorrect": "Many trees are cutting down to build new factories.",
+        "correct": "Many trees are being cut down to build new factories.",
+        "explanationVi": "Passive tiếp diễn hiện tại: is/are + being + V3. 'Are cutting' là chủ động. 'Are being cut down' = đang bị chặt (bị động tiếp diễn)."
+      },
+      {
+        "incorrect": "The new environmental policy will introduced next year.",
+        "correct": "The new environmental policy will be introduced next year.",
+        "explanationVi": "Passive tương lai: will + BE + V3. Không được bỏ 'be'. 'Will introduced' thiếu 'be' — lỗi rất phổ biến."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-pv-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu bị động nào đúng: 'The environmental report _____ by scientists at the UN last week.'",
+        "options": [
+          "was published",
+          "is published",
+          "published",
+          "was publish"
+        ],
+        "correctAnswer": "was published",
+        "feedbackCorrect": "'Last week' = quá khứ. Passive quá khứ: was/were + V3. 'Publish' → V3 = published. 'Was published' = đúng.",
+        "feedbackWrong": "'Last week' = quá khứ → passive quá khứ: was + V3. 'Publish' → V3 = 'published' (thêm -ed, động từ có quy tắc).",
+        "ieltsTip": "Task 1 Writing (quy trình) thường dùng Passive Present Simple: 'is + V3'. Task 2 thường dùng Passive Past: 'was/were + V3'.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-pv-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu bị động học thuật nào phù hợp nhất cho Task 2: 'Millions of tonnes of carbon _____ into the atmosphere each year.'",
+        "options": [
+          "releases",
+          "are released",
+          "is released",
+          "are releasing"
+        ],
+        "correctAnswer": "are released",
+        "feedbackCorrect": "'Millions of tonnes' = số nhiều → 'are'. Chủ ngữ là vật bị tác động → Passive: are + V3 (released). Đây là câu Task 2 học thuật chuẩn.",
+        "feedbackWrong": "Chủ ngữ số nhiều 'millions of tonnes' → are (không is). Không ai nêu → Passive không có 'by': are released.",
+        "ieltsTip": "Passive không có 'by agent' rất phổ biến trong Task 2 khi không cần/không biết ai thực hiện hành động.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-pv-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'A new international climate agreement will signed at the summit next month. Several key proposals have already been submit for review.'",
+        "options": [
+          "will signed → will be signed; been submit → been submitted",
+          "will signed → was signed; been submit → been submitted",
+          "will signed → will be signed; been submit → been submit",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "will signed → will be signed; been submit → been submitted",
+        "feedbackCorrect": "Hai lỗi: (1) 'will signed' thiếu 'be' → 'will be signed' (Passive tương lai: will + be + V3). (2) 'been submit' → 'been submitted' (V3 của submit = submitted, thêm -ted).",
+        "feedbackWrong": "Passive tương lai: will + BE + V3. Không bao giờ bỏ 'be'. Present Perfect Passive: have/has + been + V3.",
+        "ieltsTip": "Bốn dạng Passive quan trọng: (1) is/are + V3, (2) was/were + V3, (3) will be + V3, (4) has/have been + V3.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-pv-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng dạng Passive: 'According to the report, 1 billion trees _____ (plant) globally since 2010. Currently, a new reforestation project _____ (develop) in Southeast Asia.'",
+        "options": [
+          "have been planted / is being developed",
+          "have been planted / is being developing",
+          "were planted / is developed",
+          "have planted / are being developed"
+        ],
+        "correctAnswer": "have been planted / is being developed",
+        "feedbackCorrect": "Hoàn hảo! 'Since 2010' → Present Perfect Passive: have been planted. 'Currently' → Present Continuous Passive: is being developed. Hai dạng Passive phức trong một câu!",
+        "feedbackWrong": "'Since 2010' → Present Perfect Passive: have been + V3. 'Currently' → Continuous Passive: is/are being + V3.",
+        "ieltsTip": "Trong Task 1 quy trình: 'The material is heated → is being processed → is then packaged' — chuỗi Passive liên tiếp là chuẩn.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-pv-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Task 2 học thuật dùng Passive: [measures / urgent / must / to / taken / protect / be / biodiversity / global]",
+        "options": [
+          "Urgent measures must be taken to protect global biodiversity.",
+          "Urgent measures must taken to be protect global biodiversity.",
+          "Urgent measures must be take to protect global biodiversity.",
+          "Urgent measures be must taken to protect global biodiversity."
+        ],
+        "correctAnswer": "Urgent measures must be taken to protect global biodiversity.",
+        "feedbackCorrect": "Câu Task 2 kết luận hoàn hảo! Modal Passive: must + be + V3 (taken). 'Urgent measures' làm chủ ngữ nhấn mạnh sự cấp bách. Band 6.5+!",
+        "feedbackWrong": "Modal Passive: must + be + V3. Không phải 'must taken' hay 'must be take'. 'Take' → V3 = taken.",
+        "ieltsTip": "Câu kết Task 2 cực mạnh: 'Urgent/Immediate measures must be taken to + V...' — học thuộc cụm này!",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 về vấn đề ô nhiễm nhựa dùng Passive Voice. Không dùng 'people' làm chủ ngữ.",
+      "placeholder": "Ví dụ: Millions of tonnes of plastic waste are discarded every year...",
+      "grammarMustUse": "passive voice",
+      "wordLimit": 30,
+      "modelAnswer": "Millions of tonnes of plastic waste are discarded into oceans every year, and marine ecosystems have been severely damaged as a result.",
+      "modelBand": 6.5
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 3 — 'What actions have been taken by governments to address environmental issues?' Trả lời 2-3 câu dùng Passive Voice.",
+      "timeLimit": 30,
+      "grammarTargets": [
+        "passive voice",
+        "present perfect passive",
+        "modal passive"
+      ],
+      "modelAnswer": "Various measures have been taken by governments worldwide to tackle environmental problems. For example, carbon taxes have been introduced in several European countries, and international agreements like the Paris Accord have been signed by over 190 nations. However, critics argue that more decisive action must be taken if meaningful progress is to be made.",
+      "modelBand": 6.5
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-4-conditional-1",
+    "nextUnitTitle": "Conditional Type 1",
+    "nextUnitConnection": "Bạn đã nắm Passive — cấu trúc quan trọng nhất của Writing. Unit 11 bắt đầu chương Câu Điều Kiện — ba loại conditional là thử thách lớn nhất với học viên muốn lên band 6.5+."
+  }
+}

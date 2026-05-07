@@ -1,0 +1,177 @@
+{
+  "id": "unit-4-conditional-3",
+  "chapter": 4,
+  "title": "Conditional Type 3",
+  "subtitle": "Câu điều kiện loại 3 — Không có thật trong quá khứ",
+  "bandMin": 6.0,
+  "bandTarget": 6.5,
+  "meta": {
+    "topic": "Global Issues",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-4-conditional-2",
+    "prevUnitConnection": "Type 2 = giả thuyết hiện tại. Type 3 = hối tiếc về quá khứ.",
+    "nextUnitId": "unit-5-relative",
+    "nextUnitTitle": "Relative Clauses"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Type 3 trong Part 3 để phân tích sai lầm lịch sử — thể hiện tư duy phân tích sâu, band 6.5+.",
+      "writing": "Dùng Type 3 trong Task 2 để lập luận nguyên nhân-kết quả trong quá khứ — cấu trúc phức tạp nhất."
+    },
+    "coreRule": "Conditional Type 3: IF + Past Perfect (had + V3), would/could/might + have + V3. Diễn đạt tình huống KHÔNG CÓ THẬT trong QUÁ KHỨ. Biến thể mệnh đề chính: could have + V3, might have + V3.",
+    "grammarForSpeaking": {
+      "wrong": "If countries had acted earlier on climate change, the situation would be much better now.",
+      "correct": "If countries had acted earlier on climate change, the situation would have been much better.",
+      "tipVi": "Type 3 phải nhất quán: if-clause dùng Past Perfect (had acted) → mệnh đề chính dùng would HAVE + V3. 'Would be' là Type 2 — trộn hai loại là lỗi phổ biến.",
+      "bandImpact": "Dùng đúng Type 3 hoàn chỉnh là dấu hiệu Grammatical Range band 6.5–7.0."
+    },
+    "quickExamples": [
+      {
+        "en": "If earlier generations had prioritized environmental protection, we would not have faced such severe climate crises.",
+        "vi": "Nếu các thế hệ trước đã ưu tiên bảo vệ môi trường, chúng ta đã không phải đối mặt với khủng hoảng khí hậu nghiêm trọng."
+      },
+      {
+        "en": "The 2008 financial crisis could have been avoided if regulators had imposed stricter controls.",
+        "vi": "Cuộc khủng hoảng 2008 đã có thể tránh được nếu cơ quan quản lý áp đặt kiểm soát chặt chẽ hơn."
+      },
+      {
+        "en": "Millions of lives might have been saved if international aid had reached affected regions sooner.",
+        "vi": "Hàng triệu sinh mạng đã có thể được cứu nếu viện trợ quốc tế đến sớm hơn."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "If they had prepared better, they would avoid the crisis.",
+        "correct": "If they had prepared better, they would have avoided the crisis.",
+        "explanationVi": "Type 3 phải nhất quán: if + had + V3, would + HAVE + V3. Không dùng 'would avoid' (Type 2)."
+      },
+      {
+        "incorrect": "If the treaty would have been signed earlier, more countries could participate.",
+        "correct": "If the treaty had been signed earlier, more countries could have participated.",
+        "explanationVi": "If-clause Type 3: 'had been signed' (không 'would have been'). Mệnh đề chính: could have participated."
+      },
+      {
+        "incorrect": "The disaster might avoided if the government has warned citizens earlier.",
+        "correct": "The disaster might have been avoided if the government had warned citizens earlier.",
+        "explanationVi": "Mệnh đề chính: might + have + been + V3. If-clause: had + V3. Hai vế phải nhất quán."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-c3-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu Conditional Type 3 nào đúng?",
+        "options": [
+          "If the UN had intervened sooner, the conflict would be prevented.",
+          "If the UN had intervened sooner, the conflict would have been prevented.",
+          "If the UN would have intervened sooner, the conflict would be prevented.",
+          "If the UN intervened sooner, the conflict would have been prevented."
+        ],
+        "correctAnswer": "If the UN had intervened sooner, the conflict would have been prevented.",
+        "feedbackCorrect": "Đúng! Type 3: if + had intervened (Past Perfect) + would have been prevented (Passive would + have + V3).",
+        "feedbackWrong": "Type 3: if + Past Perfect (had + V3) + would have + V3. Cả hai vế phải dùng 'have'. Không dùng 'would have' trong mệnh đề if.",
+        "ieltsTip": "Dấu hiệu nhận biết Type 3: 'had + V3' trong mệnh đề if, 'would/could/might + have + V3' trong mệnh đề chính.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-c3-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu Task 2 nào phân tích đúng nguyên nhân khủng hoảng 2008?",
+        "options": [
+          "The 2008 crisis could be avoided if banks would have been regulated more strictly.",
+          "The 2008 crisis could have been avoided if banks had been regulated more strictly.",
+          "The 2008 crisis could have been avoided if banks were regulated more strictly.",
+          "The 2008 crisis would avoid if banks had been regulated more strictly."
+        ],
+        "correctAnswer": "The 2008 crisis could have been avoided if banks had been regulated more strictly.",
+        "feedbackCorrect": "'Could have been avoided' = Passive Type 3. 'Had been regulated' = Past Perfect Passive trong if-clause. Câu Task 2 phân tích lịch sử band 6.5!",
+        "feedbackWrong": "Type 3 + Passive: mệnh đề chính = could/would + have + been + V3. If-clause = had + been + V3. Không dùng 'would have' trong if-clause.",
+        "ieltsTip": "Type 3 + Passive: 'could have been [prevented/avoided] if [subject] had [done something]' — phổ biến trong Task 2 phân tích lịch sử.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-c3-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'If colonial powers had not exploited developing nations, those countries might have develop stronger economies. Many global inequalities would not existed today.'",
+        "options": [
+          "might have develop → might have developed; would not existed → would not have existed",
+          "might have develop → might developed; would not existed đúng",
+          "Chỉ might have develop → might have developed",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "might have develop → might have developed; would not existed → would not have existed",
+        "feedbackCorrect": "Hai lỗi: (1) 'might have develop' → 'might have developed' (modal + have + V3). (2) 'would not existed' → 'would not have existed' (thiếu 'have').",
+        "feedbackWrong": "Type 3 mệnh đề chính: modal + have + V3. 'Might have develop' thiếu -d. 'Would not existed' thiếu 'have'.",
+        "ieltsTip": "Lỗi phổ biến Type 3: quên 'have' sau modal: 'would existed' → 'would have existed'. Luôn kiểm tra: modal + HAVE + V3.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-c3-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng: 'If global leaders _____ (take) decisive action on inequality in the 1990s, the wealth gap we see today _____ (might / not / become) so extreme.'",
+        "options": [
+          "had taken / might not have become",
+          "had taken / might not become",
+          "would have taken / might not have become",
+          "had taken / might not became"
+        ],
+        "correctAnswer": "had taken / might not have become",
+        "feedbackCorrect": "'Had taken' = Past Perfect trong if-clause. 'Might not have become' = modal + not + have + V3. Type 3 hoàn chỉnh!",
+        "feedbackWrong": "If-clause: had + V3 (had taken — không 'would have taken'). Main clause: might + not + have + V3 (become — V3 của become = become).",
+        "ieltsTip": "V3 của 'become' = 'become' (giống V1). Nên 'might have become' đúng, không phải 'might have became'.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-c3-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Task 2: [invested / developed / nations / had / clean / in / energy / earlier / carbon / emissions / would / significantly / have / fallen]",
+        "options": [
+          "If developed nations had invested in clean energy earlier, carbon emissions would have fallen significantly.",
+          "If developed nations would have invested in clean energy earlier, carbon emissions would have fallen significantly.",
+          "If developed nations had invested in clean energy earlier, carbon emissions would fallen significantly.",
+          "Developed nations had invested in clean energy earlier, carbon emissions would have fallen significantly."
+        ],
+        "correctAnswer": "If developed nations had invested in clean energy earlier, carbon emissions would have fallen significantly.",
+        "feedbackCorrect": "Type 3 hoàn hảo! If + had invested (Past Perfect — không 'would have invested') + would have fallen (would + have + V3, V3 của fall = fallen). Band 7.0!",
+        "feedbackWrong": "If-clause: had invested (không 'would have invested'). Main clause: would + have + fallen (V3 của fall = fallen).",
+        "ieltsTip": "Type 3 Task 2: 'If [subject] had [V3], [result] would have [V3].' Dùng trong kết bài phân tích nguyên nhân lịch sử.",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 dùng Type 3 phân tích sai lầm lịch sử. Chủ đề: môi trường hoặc kinh tế.",
+      "placeholder": "Ví dụ: If world governments had signed a binding climate agreement in the 1990s...",
+      "grammarMustUse": "conditional type 3",
+      "wordLimit": 30,
+      "modelAnswer": "If world governments had signed a binding climate agreement in the 1990s, global temperatures would not have risen as dramatically, and the costs of climate adaptation would have been far lower.",
+      "modelBand": 6.5
+    },
+    "speakingDrill": {
+      "prompt": "Part 3: 'What could the international community have done differently to prevent current global problems?' Dùng Type 3.",
+      "timeLimit": 30,
+      "grammarTargets": [
+        "conditional type 3",
+        "had + V3 + would/could/might + have + V3"
+      ],
+      "modelAnswer": "If earlier generations had taken climate change more seriously, we would not have faced the environmental crises we see today. Governments could have invested in renewable energy decades ago, creating a much cleaner economy. Had international cooperation been stronger, many of today's conflicts might have been avoided entirely.",
+      "modelBand": 6.5
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-5-relative",
+    "nextUnitTitle": "Relative Clauses",
+    "nextUnitConnection": "Bạn đã nắm cả 3 loại Conditional! Unit 14 — Relative Clauses — dạy mở rộng câu bằng who/which/that — chìa khóa viết câu dài, học thuật."
+  }
+}

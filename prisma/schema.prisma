@@ -1,0 +1,403 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  STUDENT
+  TEACHER
+}
+
+enum Module {
+  GRAMMAR
+  WRITING
+  SPEAKING
+}
+
+enum ExerciseType {
+  MULTIPLE_CHOICE
+  FILL_IN_BLANK
+  REWRITE_SENTENCE
+  ERROR_CORRECTION
+  REGISTER_SHIFT
+  SENTENCE_COMBINING
+  SPEAKING_DRILL
+}
+
+enum WritingTaskType {
+  TASK1_ACADEMIC
+  TASK1_GENERAL
+  TASK2_OPINION
+  TASK2_DISCUSSION
+  TASK2_PROBLEM_SOLUTION
+}
+
+enum SpeakingPart {
+  PART1
+  PART2
+  PART3
+}
+
+model User {
+  id                  String                   @id @default(uuid())
+  clerkId             String                   @unique
+  email               String                   @unique
+  name                String?
+  role                Role                     @default(STUDENT)
+  totalXp             Int                      @default(0)
+  targetBand          Float                    @default(7.0)
+  currentBand         Float?
+  createdAt           DateTime                 @default(now())
+  moduleProgress      ModuleProgress[]
+  exerciseResults     GrammarExerciseResult[]  @relation("userGrammarResults")
+  mistakeLogs         MistakeLog[]
+  writingSubmissions  WritingSubmission[]
+  speakingSubmissions SpeakingSubmission[]
+  progressRecords     UserProgress[]
+}
+
+model ModuleProgress {
+  id        String   @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  module    Module
+  progress  Int      @default(0)
+  updatedAt DateTime @updatedAt
+}
+
+model GrammarChapter {
+  id                 String         @id @default(uuid())
+  slug               String         @unique
+  title              String
+  description        String?
+  ieltsPurpose       String?
+  communicativeGoals String[]
+  order              Int            @default(0)
+  lessons            GrammarLesson[]
+  createdAt          DateTime       @default(now())
+  updatedAt          DateTime       @updatedAt
+}
+
+model GrammarLesson {
+  id                String            @id @default(uuid())
+  chapter           GrammarChapter    @relation(fields: [chapterId], references: [id])
+  chapterId         String
+  title             String
+  summary           String?
+  content           String
+  theoryMd          String?           @db.Text
+  commonMistakes    String?           @db.Text
+  usageNoteTask2    String?           @db.Text
+  usageNoteSpoken   String?           @db.Text
+  exampleAcademic   String?           @db.Text
+  exampleSpoken     String?           @db.Text
+  speakingStructures String[]         @default([])
+  collocations      String[]          @default([])
+  ieltsWritingTags  String[]
+  ieltsSpeakingTags String[]
+  isPublished       Boolean           @default(false)
+  order             Int               @default(0)
+  exercises         GrammarExercise[]
+  mistakeLogs       MistakeLog[]
+  progressRecords   UserProgress[]
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+}
+
+model GrammarExercise {
+  id         String                   @id @default(uuid())
+  lesson     GrammarLesson            @relation(fields: [lessonId], references: [id])
+  lessonId   String
+  type       ExerciseType
+  prompt     String
+  options    Json?
+  answer     String?
+  solution   String?
+  useAiGrading Boolean                @default(false)
+  createdAt  DateTime                 @default(now())
+  updatedAt  DateTime                 @updatedAt
+  results    GrammarExerciseResult[]
+}
+
+model GrammarExerciseResult {
+  id           String          @id @default(uuid())
+  user         User            @relation(fields: [userId], references: [id], name: "userGrammarResults")
+  userId       String
+  exercise     GrammarExercise @relation(fields: [exerciseId], references: [id])
+  exerciseId   String
+  isCorrect    Boolean?
+  score        Int?
+  feedback     Json?
+  nextReviewAt DateTime?
+  reviewCount  Int             @default(0)
+  easeFactor   Float           @default(2.5)
+  practicedAt  DateTime        @default(now())
+  createdAt    DateTime        @default(now())
+  updatedAt    DateTime        @updatedAt
+}
+
+model MistakeLog {
+  id          String         @id @default(uuid())
+  user        User           @relation(fields: [userId], references: [id])
+  userId      String
+  lesson      GrammarLesson? @relation(fields: [lessonId], references: [id])
+  lessonId    String?
+  grammarTag  String
+  prompt      String?
+  wrongAnswer String?
+  correction  String?
+  occurrences Int            @default(1)
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+}
+
+model WritingPrompt {
+  id           String             @id @default(uuid())
+  title        String
+  description  String?
+  promptText   String
+  taskType     WritingTaskType
+  sampleAnswer String?
+  submissions  WritingSubmission[]
+  createdAt    DateTime           @default(now())
+  updatedAt    DateTime           @updatedAt
+}
+
+model WritingSubmission {
+  id           String         @id @default(uuid())
+  user         User           @relation(fields: [userId], references: [id])
+  userId       String
+  prompt       WritingPrompt  @relation(fields: [promptId], references: [id])
+  promptId     String
+  responseText String
+  score        Int?
+  feedback     Json?
+  isFromAi     Boolean        @default(false)
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+}
+
+model SpeakingPrompt {
+  id           String              @id @default(uuid())
+  part         SpeakingPart
+  title        String
+  promptText   String
+  sampleAnswer String?
+  submissions  SpeakingSubmission[]
+  createdAt    DateTime            @default(now())
+  updatedAt    DateTime            @updatedAt
+}
+
+model SpeakingSubmission {
+  id            String          @id @default(uuid())
+  user          User            @relation(fields: [userId], references: [id])
+  userId        String
+  prompt        SpeakingPrompt  @relation(fields: [promptId], references: [id])
+  promptId      String
+  transcript    String
+  audioUrl      String?
+  fluencyScore  Int?
+  vocabularyTags String[]
+  feedback      Json?
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+}
+
+model UserProgress {
+  id              String          @id @default(uuid())
+  user            User            @relation(fields: [userId], references: [id])
+  userId          String
+  module          Module
+  currentLesson   GrammarLesson?  @relation(fields: [currentLessonId], references: [id])
+  currentLessonId String?
+  progress        Int             @default(0)
+  xpEarned        Int             @default(0)
+  streak          Int             @default(0)
+  lastActiveAt    DateTime?
+  updatedAt       DateTime        @updatedAt
+}
+
+// Phase 5 Models — Unit-based Learning System
+
+// Kết quả bài tập
+model ExerciseResult {
+  id              String   @id @default(cuid())
+  clerkId         String
+  unitId          String
+  exerciseType    String   // 'identify' | 'transform' | 'produce'
+  skill           String   // 'writing' | 'speaking' | 'both'
+  bandEstimate    Float?
+  accuracyPercent Int?
+  rawInput        String?
+  aiFeedback      Json?
+  createdAt       DateTime @default(now())
+
+  @@index([clerkId, unitId])
+  @@index([clerkId, createdAt(sort: Desc)])
+}
+
+// Phiên luyện speaking
+model SpeakingSession {
+  id              String   @id @default(cuid())
+  clerkId         String
+  unitId          String
+  prompt          String
+  transcript      String?
+  audioPath       String?
+  bandEstimate    Float?
+  aiFeedback      Json?
+  durationSeconds Int?
+  createdAt       DateTime @default(now())
+}
+
+// Streak người dùng
+model UserStreak {
+  clerkId        String   @id
+  currentStreak  Int      @default(0)
+  longestStreak  Int      @default(0)
+  lastActiveDate DateTime?
+}
+
+// Progress theo từng unit
+model UnitProgress {
+  id              String    @id @default(cuid())
+  clerkId         String
+  unitId          String
+  bestBand        Float?
+  attemptCount    Int       @default(0)
+  lastAttemptedAt DateTime?
+  completedAt     DateTime?
+  xpEarned        Int       @default(0)
+
+  @@unique([clerkId, unitId])
+}
+
+// ─── Exercise Hub: Error Hunter ───────────────────────────────────────────────
+
+/// Reusable grammar rule — keyed by short code (e.g. "ART-001", "SVA-002")
+model GrammarRule {
+  id          String             @id @default(cuid())
+  code        String             @unique  // e.g. "ART-001", "TENSE-002"
+  title       String
+  description String             @db.Text
+  examples    Json               // { wrong: string[], correct: string[] }
+  errorType   String             // matches ErrorHunterError.errorType
+  unitIndex   Int                // which unit this rule belongs to (1–16)
+  isActive    Boolean            @default(true)
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  errors      ErrorHunterError[]
+
+  @@index([errorType])
+  @@index([unitIndex])
+}
+
+/// Reusable IELTS coaching tip — multiple per error type, keyed by errorType+title
+model IeltsTip {
+  id          String             @id @default(cuid())
+  errorType   String             // e.g. "ARTICLE", "TENSE", "SVA"
+  title       String
+  titleVi     String?            // Vietnamese translation of title
+  body        String             @db.Text
+  bodyVi      String?            @db.Text  // Vietnamese translation of body
+  targetBand  Float              @default(6.0)
+  isActive    Boolean            @default(true)
+  createdAt   DateTime           @default(now())
+  updatedAt   DateTime           @updatedAt
+
+  errors      ErrorHunterError[]
+
+  @@unique([errorType, title])   // upsert key in seed script
+  @@index([errorType])
+}
+
+
+enum EhDifficulty {
+  STARTER
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum EhTaskType {
+  WRITING_TASK2
+  SPEAKING_PART1
+  SPEAKING_PART2
+  SPEAKING_PART3
+}
+
+enum EhErrorSeverity {
+  MINOR
+  MAJOR
+  CRITICAL
+}
+
+/// A mini IELTS-like passage with deliberate grammar errors embedded
+model ErrorHunterPassage {
+  id              String       @id @default(cuid())
+  slug            String       @unique  // e.g. "edu-sva-starter-001" — stable admin key
+  topic           String       // "Education" | "Environment" | "Work" | "Technology" | "Health"
+  taskType        EhTaskType
+  bandTarget      Float
+  minUnitIndex    Int          // 1 = first unit
+  maxUnitIndex    Int          // 16 = last unit
+  grammarFocus    String[]     // ["SVA", "PAST_SIMPLE"]
+  difficulty      EhDifficulty
+  packId          String       // "pack-units-1-2" | "pack-units-3-4" | "pack-units-5"
+  questionPrompt  String
+  passageText     String       @db.Text
+  totalErrors     Int
+  /// Optional JSON array of FalseAlarmZone objects for smart false-alarm hints
+  falseAlarmZones Json?        // FalseAlarmZone[]
+  isActive        Boolean      @default(true)
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  errors          ErrorHunterError[]
+  attempts        ErrorHunterAttempt[]
+
+  @@index([packId, isActive])
+  @@index([minUnitIndex, maxUnitIndex])
+}
+
+/// Ground-truth error — char-index based, server-side only (correctText hidden from client)
+model ErrorHunterError {
+  id            String             @id @default(cuid())
+  passage       ErrorHunterPassage @relation(fields: [passageId], references: [id], onDelete: Cascade)
+  passageId     String
+  startIndex    Int
+  endIndex      Int
+  errorText     String
+  correctText   String
+  errorType     String             // "SVA" | "TENSE" | "ARTICLE" | "PREPOSITION" …
+  severity      EhErrorSeverity    @default(MAJOR)
+  explanation   String             @db.Text
+  grammarRule   GrammarRule?       @relation(fields: [grammarRuleId], references: [id])
+  grammarRuleId String?
+  ieltsTip      IeltsTip?          @relation(fields: [ieltsTipId], references: [id])
+  ieltsTipId    String?
+
+  @@index([passageId])
+}
+
+/// One user attempt at a passage
+model ErrorHunterAttempt {
+  id             String             @id @default(cuid())
+  clerkId        String
+  passage        ErrorHunterPassage @relation(fields: [passageId], references: [id])
+  passageId      String
+  scorePercent   Int
+  foundCorrect   Int
+  missed         Int
+  falseAlarms    Int
+  fixAccuracy    Int
+  userSelections Json
+  createdAt      DateTime           @default(now())
+
+  @@index([clerkId, createdAt(sort: Desc)])
+  @@index([clerkId, passageId])
+}

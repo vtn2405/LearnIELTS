@@ -1,0 +1,177 @@
+{
+  "id": "unit-5-relative",
+  "chapter": 5,
+  "title": "Relative Clauses",
+  "subtitle": "Mệnh đề quan hệ",
+  "bandMin": 5.5,
+  "bandTarget": 6.5,
+  "meta": {
+    "topic": "Global Issues",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-4-conditional-3",
+    "prevUnitConnection": "Bạn đã nắm Conditional. Relative Clauses là cách MỞ RỘNG câu — kết hợp hai kỹ năng này tạo câu Task 2 rất ấn tượng.",
+    "nextUnitId": "unit-6-reported",
+    "nextUnitTitle": "Reported Speech"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Relative Clauses để mô tả chi tiết trong Part 3 — gộp hai câu ngắn thành một câu phức hợp tự nhiên.",
+      "writing": "Dùng Relative Clauses trong Task 2 để viết câu phức tạp, tránh lặp từ — đặc trưng band 6.5+."
+    },
+    "coreRule": "Relative Clauses dùng: WHO (người — chủ ngữ/tân ngữ), WHICH (vật/sự việc), THAT (người hoặc vật trong defining clauses), WHOSE (sở hữu), WHERE (nơi chốn). Defining (không dấu phẩy, dùng that): 'The policy that was introduced...' Non-defining (có dấu phẩy, không dùng that): 'Climate change, which affects all nations, requires...'",
+    "grammarForSpeaking": {
+      "wrong": "Countries which they are developing need more international support.",
+      "correct": "Countries that are developing need more international support.",
+      "tipVi": "Sau đại từ quan hệ (who/which/that), KHÔNG lặp lại đại từ chủ ngữ. 'Countries which they are...' thừa 'they' — lỗi đặc trưng người Việt.",
+      "bandImpact": "Lỗi lặp đại từ trong mệnh đề quan hệ ('which it is', 'who he is') là lỗi điển hình dưới band 6.0."
+    },
+    "quickExamples": [
+      {
+        "en": "Developing nations, which often lack resources to adapt, are most vulnerable to climate change.",
+        "vi": "Các quốc gia đang phát triển, thường thiếu nguồn lực, dễ bị tổn thương nhất bởi biến đổi khí hậu."
+      },
+      {
+        "en": "The Paris Agreement, which was signed by 196 parties, represents a milestone in global cooperation.",
+        "vi": "Hiệp định Paris, được ký bởi 196 bên, là cột mốc quan trọng trong hợp tác toàn cầu."
+      },
+      {
+        "en": "Communities where economic opportunities are limited tend to have higher emigration rates.",
+        "vi": "Các cộng đồng thiếu cơ hội kinh tế có xu hướng có tỷ lệ di cư cao hơn."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "The agreement which it was signed in 2015 has been widely praised.",
+        "correct": "The agreement which was signed in 2015 has been widely praised.",
+        "explanationVi": "Sau 'which' không cần 'it'. 'Which' ĐÃ là chủ ngữ — thêm 'it' là thừa và sai."
+      },
+      {
+        "incorrect": "The scientists that they discovered the vaccine received a Nobel Prize.",
+        "correct": "The scientists who discovered the vaccine received a Nobel Prize.",
+        "explanationVi": "Người → dùng 'who', không phải 'that they'. Không lặp 'they' sau 'who'."
+      },
+      {
+        "incorrect": "This is the country where I have visited it many times.",
+        "correct": "This is the country that I have visited many times.",
+        "explanationVi": "'Visit' cần tân ngữ trực tiếp → dùng 'that/which', không phải 'where'. Và không lặp 'it'."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-rc-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu nào dùng đúng mệnh đề quan hệ?",
+        "options": [
+          "Refugees which they flee war deserve international protection.",
+          "Refugees who flee war deserve international protection.",
+          "Refugees who they flee war deserve international protection.",
+          "Refugees that they flee war deserve international protection."
+        ],
+        "correctAnswer": "Refugees who flee war deserve international protection.",
+        "feedbackCorrect": "Người → 'who'. Sau 'who' không lặp 'they'. 'Who flee' = mệnh đề xác định.",
+        "feedbackWrong": "Người → 'who' (không 'which'). Không lặp 'they' sau 'who'.",
+        "ieltsTip": "NGƯỜI → who/whom/whose. VẬT/SỰ VIỆC → which/that. Không bao giờ lặp đại từ sau đại từ quan hệ.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-rc-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu Task 2 nào dùng mệnh đề quan hệ học thuật nhất?",
+        "options": [
+          "Globalization has benefits and it has created economic opportunities for millions.",
+          "Globalization, which has created economic opportunities for millions, also has significant drawbacks.",
+          "Globalization that has created economic opportunities for millions, also has significant drawbacks.",
+          "Globalization, which it has created economic opportunities for millions, also has drawbacks."
+        ],
+        "correctAnswer": "Globalization, which has created economic opportunities for millions, also has significant drawbacks.",
+        "feedbackCorrect": "Non-defining clause: dấu phẩy + which (không 'that') + mệnh đề bổ sung. Gộp hai ý vào một câu — band 6.5.",
+        "feedbackWrong": "Non-defining (bổ sung): dấu phẩy + which (không that). Không lặp 'it' sau 'which'.",
+        "ieltsTip": "Non-defining (có dấu phẩy): luôn dùng which, không that. Thêm thông tin bổ sung không thiết yếu.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-rc-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'Nations that they have strong social safety nets tend to have lower poverty rates. This is an approach which it has been proven effective in Scandinavian countries.'",
+        "options": [
+          "that they have → that have; which it has → which has",
+          "that they have → which they have; which it has → which has",
+          "Chỉ which it has → which has",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "that they have → that have; which it has → which has",
+        "feedbackCorrect": "Hai lỗi cùng kiểu: lặp đại từ sau đại từ quan hệ. 'That have', 'which has' — không thêm 'they/it'.",
+        "feedbackWrong": "Cùng một lỗi lặp lại: [that/which] + [they/it] là sai. Đại từ quan hệ ĐÃ là chủ ngữ.",
+        "ieltsTip": "Lỗi cực phổ biến của người Việt: 'which it is' / 'that they have' — kiểm tra kỹ mỗi khi dùng mệnh đề quan hệ.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-rc-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng đại từ quan hệ: 'The communities _____ are most affected by poverty are often located in regions _____ investment is severely lacking, and _____ residents have limited access to education.'",
+        "options": [
+          "that / where / whose",
+          "which / where / who",
+          "who / which / whose",
+          "that / which / whose"
+        ],
+        "correctAnswer": "that / where / whose",
+        "feedbackCorrect": "'That' (defining, chủ ngữ). 'Where' (nơi chốn). 'Whose' (sở hữu — residents of communities). Ba đại từ quan hệ trong một câu — band 7.0!",
+        "feedbackWrong": "'That' = defining cho communities. 'Where' = nơi thiếu investment. 'Whose' = sở hữu (residents OF communities).",
+        "ieltsTip": "Bộ ba nâng cao: that (xác định), where (nơi chốn), whose (sở hữu) — học thuộc để đạt band 6.5+.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-rc-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Gộp hai câu: [International aid organizations have worked in conflict zones for decades] + [they often operate under dangerous conditions]",
+        "options": [
+          "International aid organizations, which have been working in conflict zones for decades, often operate under dangerous conditions.",
+          "International aid organizations, that have been working in conflict zones for decades, often operate under dangerous conditions.",
+          "International aid organizations which they have been working in conflict zones for decades often operate under dangerous conditions.",
+          "International aid organizations, which have been working in conflict zones for decades, which often operate under dangerous conditions."
+        ],
+        "correctAnswer": "International aid organizations, which have been working in conflict zones for decades, often operate under dangerous conditions.",
+        "feedbackCorrect": "Non-defining clause (bổ sung → dấu phẩy + which). Không lặp 'they' sau 'which'. Mệnh đề quan hệ + Present Perfect = band 7.0!",
+        "feedbackWrong": "Non-defining: dấu phẩy + which (không that). Không lặp 'they'. Chủ mệnh đề (operate) tiếp tục sau mệnh đề quan hệ.",
+        "ieltsTip": "Mệnh đề non-defining: [Subject], which [extra info], [main verb]. Dấu phẩy thứ hai đóng mệnh đề.",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 về di cư toàn cầu dùng mệnh đề quan hệ. Gộp hai ý vào một câu.",
+      "placeholder": "Ví dụ: Many migrants, who leave their home countries in search of better opportunities, face...",
+      "grammarMustUse": "relative clauses",
+      "wordLimit": 30,
+      "modelAnswer": "Many migrants, who leave their home countries in search of better economic opportunities, face significant cultural barriers in their destination countries, which often lack adequate integration programs.",
+      "modelBand": 6.5
+    },
+    "speakingDrill": {
+      "prompt": "Part 3: 'What challenges do international migrants face?' Dùng ít nhất một mệnh đề quan hệ.",
+      "timeLimit": 30,
+      "grammarTargets": [
+        "relative clauses (who/which/where)",
+        "no pronoun repetition"
+      ],
+      "modelAnswer": "Migrants face numerous challenges, which vary by destination country. Language barriers are obstacles that prevent newcomers from fully integrating. Many migrants come from cultures where family ties are very strong, which makes it difficult to adapt to a more individualistic way of life.",
+      "modelBand": 6.5
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-6-reported",
+    "nextUnitTitle": "Reported Speech",
+    "nextUnitConnection": "Unit 15 — Reported Speech — dạy thuật lại quan điểm của người khác. Quan trọng trong Task 2 khi trích dẫn và trong Speaking khi kể chuyện."
+  }
+}

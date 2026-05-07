@@ -1,0 +1,177 @@
+{
+  "id": "unit-4-conditional-1",
+  "chapter": 4,
+  "title": "Conditional Type 1",
+  "subtitle": "Câu điều kiện loại 1 — Có thật ở hiện tại/tương lai",
+  "bandMin": 5.0,
+  "bandTarget": 6.0,
+  "meta": {
+    "topic": "Global Issues",
+    "speakingPart": "Part 3",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-3-passive",
+    "prevUnitConnection": "Bạn đã nắm Passive Voice. Conditional Type 1 là cấu trúc lập luận nhân-quả then chốt trong Task 2.",
+    "nextUnitId": "unit-4-conditional-2",
+    "nextUnitTitle": "Conditional Type 2"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Conditional Type 1 trong Part 3 để lập luận nhân quả về các vấn đề toàn cầu.",
+      "writing": "Dùng Conditional Type 1 trong Task 2 để đề xuất giải pháp và dự đoán kết quả — đặc trưng band 6.0+."
+    },
+    "coreRule": "Conditional Type 1: IF + Simple Present, will + V nguyên mẫu. Tình huống CÓ THỂ xảy ra. Biến thể: If + Present, can/may/might + V. KHÔNG dùng will trong mệnh đề if.",
+    "grammarForSpeaking": {
+      "wrong": "If governments will invest in renewable energy, carbon emissions will decrease.",
+      "correct": "If governments invest in renewable energy, carbon emissions will decrease significantly.",
+      "tipVi": "KHÔNG BAO GIỜ dùng 'will' trong mệnh đề 'if'. Mệnh đề if dùng Simple Present dù nói về tương lai.",
+      "bandImpact": "Lỗi 'if + will' trong Task 2 là lỗi cơ bản — giám khảo sẽ không cho quá band 5.5 về Grammatical Accuracy."
+    },
+    "quickExamples": [
+      {
+        "en": "If world leaders fail to reach a climate agreement, global temperatures will continue to rise.",
+        "vi": "Nếu các nhà lãnh đạo không đạt được thỏa thuận, nhiệt độ toàn cầu sẽ tiếp tục tăng."
+      },
+      {
+        "en": "Economic inequality will worsen if governments do not increase investment in education.",
+        "vi": "Bất bình đẳng sẽ tồi tệ hơn nếu chính phủ không tăng đầu tư giáo dục."
+      },
+      {
+        "en": "If countries cooperate on trade policies, both economies may benefit significantly.",
+        "vi": "Nếu các quốc gia hợp tác về thương mại, cả hai nền kinh tế có thể hưởng lợi."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "If the pollution level will rise, marine life will be threatened.",
+        "correct": "If the pollution level rises, marine life will be threatened.",
+        "explanationVi": "Mệnh đề if dùng Simple Present (rises), không dùng will."
+      },
+      {
+        "incorrect": "Countries will suffer if they won't reduce carbon emissions.",
+        "correct": "Countries will suffer if they do not reduce carbon emissions.",
+        "explanationVi": "Phủ định trong mệnh đề if: do not/does not, không dùng won't."
+      },
+      {
+        "incorrect": "If we takes action now, the situation might improve.",
+        "correct": "If we take action now, the situation might improve.",
+        "explanationVi": "We = số nhiều → take (không thêm -s)."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-c1-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu Conditional Type 1 nào đúng?",
+        "options": [
+          "If the government will act quickly, the crisis will be avoided.",
+          "If the government acts quickly, the crisis will be avoided.",
+          "If the government acts quickly, the crisis would be avoided.",
+          "If the government act quickly, the crisis will be avoided."
+        ],
+        "correctAnswer": "If the government acts quickly, the crisis will be avoided.",
+        "feedbackCorrect": "Đúng! If + Simple Present (acts — ngôi 3 số ít thêm -s) + will + V nguyên mẫu. Không có will trong mệnh đề if.",
+        "feedbackWrong": "Type 1: If + Simple Present (không will, không would) + will + V. Government ngôi 3 số ít → acts.",
+        "ieltsTip": "Conditional Type 1 Part 3: If + action → consequence will follow. Luôn nhớ: NO WILL in the if-clause.",
+        "skill": "both"
+      },
+      {
+        "id": "ex-c1-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Hoàn thành câu Task 2: 'Economic growth _____ if developing nations _____ access to advanced technology.'",
+        "options": [
+          "will accelerate / gain",
+          "will accelerate / will gain",
+          "would accelerate / gain",
+          "accelerates / gain"
+        ],
+        "correctAnswer": "will accelerate / gain",
+        "feedbackCorrect": "'Will accelerate' ở mệnh đề chính. 'Gain' (Simple Present) ở mệnh đề if. Type 1 hoàn chỉnh.",
+        "feedbackWrong": "Mệnh đề chính: will + V. Mệnh đề if: Simple Present (không will, không would).",
+        "ieltsTip": "Lập luận Task 2: '[Result] will happen if [condition] [Simple Present].'",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-c1-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'If countries will not reduce plastic waste, the ocean will become uninhabitable for marine species.'",
+        "options": [
+          "will not reduce → do not reduce",
+          "will not reduce → would not reduce",
+          "will become → would become",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "will not reduce → do not reduce",
+        "feedbackCorrect": "'Will not reduce' trong mệnh đề if sai → 'do not reduce' (Simple Present phủ định).",
+        "feedbackWrong": "Phủ định trong mệnh đề if: do not/does not — không dùng won't/will not.",
+        "ieltsTip": "If + don't/doesn't + V (không won't). Mệnh đề chính mới dùng will/won't.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-c1-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng: 'If more nations _____ (sign) the trade agreement, global poverty _____ (likely / reduce) significantly.'",
+        "options": [
+          "sign / will likely be reduced",
+          "will sign / will likely be reduced",
+          "sign / is likely reduced",
+          "signs / will likely reduce"
+        ],
+        "correctAnswer": "sign / will likely be reduced",
+        "feedbackCorrect": "'Sign' (Simple Present, số nhiều — không -s) trong if. 'Will likely be reduced' = Passive tương lai + likely. Kết hợp Conditional + Passive + likely = band 6.5!",
+        "feedbackWrong": "If-clause: Simple Present sign (nations số nhiều, không -s). Main clause: will + likely + be reduced (Passive).",
+        "ieltsTip": "Kết hợp Type 1 + Passive: 'If... [Simple Present], [result] will be + V3' — rất học thuật.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-c1-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Task 2: [education / if / invest / governments / quality / will / in / narrow / the / wealth / gap / more]",
+        "options": [
+          "If governments invest more in quality education, the wealth gap will narrow.",
+          "If governments will invest more in quality education, the wealth gap will narrow.",
+          "If governments invest more in quality education, the wealth gap narrows.",
+          "The wealth gap will narrow if governments will invest more in quality education."
+        ],
+        "correctAnswer": "If governments invest more in quality education, the wealth gap will narrow.",
+        "feedbackCorrect": "Câu Task 2 lập luận hoàn hảo! If + invest (Simple Present, không will) → will + narrow. Band 6.0+!",
+        "feedbackWrong": "Type 1: If + Simple Present (invest — không will) → will + V nguyên mẫu (narrow).",
+        "ieltsTip": "Bắt đầu đoạn kết Task 2: 'If [solution is implemented], [positive result] will [occur].' — cấu trúc kết bài band 6.0+.",
+        "skill": "writing"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 dùng Conditional Type 1 đề xuất giải pháp cho vấn đề toàn cầu.",
+      "placeholder": "Ví dụ: If wealthier nations increase foreign aid, developing countries will...",
+      "grammarMustUse": "conditional type 1",
+      "wordLimit": 30,
+      "modelAnswer": "If wealthier nations increase foreign aid and share technological expertise, developing countries will be able to build stronger economies and reduce poverty rates.",
+      "modelBand": 6.0
+    },
+    "speakingDrill": {
+      "prompt": "Part 3: 'What will happen if countries don't cooperate on global issues?' Dùng Conditional Type 1.",
+      "timeLimit": 30,
+      "grammarTargets": [
+        "conditional type 1",
+        "if + simple present + will"
+      ],
+      "modelAnswer": "If countries fail to cooperate on global poverty, inequality will increase and social unrest may spread across many regions. However, if wealthier nations commit to fairer trade policies, the situation can improve significantly within a generation.",
+      "modelBand": 6.0
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-4-conditional-2",
+    "nextUnitTitle": "Conditional Type 2",
+    "nextUnitConnection": "Type 1 = có thể xảy ra. Type 2 = KHÔNG CÓ THẬT ở hiện tại — dùng để lập luận giả thuyết trong Task 2."
+  }
+}

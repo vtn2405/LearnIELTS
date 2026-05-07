@@ -1,0 +1,165 @@
+{
+  "id": "unit-2-past-perfect",
+  "chapter": 2,
+  "title": "Past Perfect",
+  "subtitle": "Thì quá khứ hoàn thành",
+  "bandMin": 5.5,
+  "bandTarget": 6.0,
+  "meta": {
+    "topic": "Work & Technology",
+    "speakingPart": "Part 2",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-2-present-perfect",
+    "prevUnitConnection": "Present Perfect nối quá khứ với hiện tại. Past Perfect nối hai mốc trong quá khứ — khi nói 'Khi tôi đến, họ đã ra về rồi', hành động ra về xảy ra TRƯỚC khi tôi đến.",
+    "nextUnitId": "unit-2-past-future",
+    "nextUnitTitle": "Future (will/going to)"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Past Perfect để kể chuyện Part 2 có chiều sâu thời gian — nêu được trình tự 'cái gì xảy ra trước, cái gì sau' một cách rõ ràng.",
+      "writing": "Dùng Past Perfect trong Task 2 để lập luận về nguyên nhân-kết quả trong quá khứ — câu văn phức tạp và học thuật hơn."
+    },
+    "coreRule": "Past Perfect = had + V3. Dùng khi diễn tả hành động xảy ra và kết thúc TRƯỚC một thời điểm hoặc hành động khác trong quá khứ. Thường đi với: before, after, when, by the time, already, just, never. Công thức kể chuyện: [Past Perfect] + before/when + [Simple Past] HOẶC [Simple Past] + because + [Past Perfect].",
+    "grammarForSpeaking": {
+      "wrong": "When I arrived at the job interview, I realized I forgot to bring my CV.",
+      "correct": "When I arrived at the job interview, I realized I had forgotten to bring my CV.",
+      "tipVi": "Hành động quên (forget) xảy ra TRƯỚC khi nhận ra (realize) → Past Perfect 'had forgotten'. Người Việt hay dùng Simple Past cho cả hai vì tiếng Việt không phân biệt thứ tự thì.",
+      "bandImpact": "Dùng đúng Past Perfect trong chuỗi sự kiện là dấu hiệu grammar band 6.5+ trong Speaking Part 2."
+    },
+    "quickExamples": [
+      { "en": "By the time the company adopted cloud technology, its competitors had already moved ahead.", "vi": "Khi công ty áp dụng công nghệ đám mây, các đối thủ đã tiến xa rồi." },
+      { "en": "She got the promotion because she had worked exceptionally hard for two years.", "vi": "Cô ấy được thăng chức vì đã làm việc xuất sắc trong hai năm." },
+      { "en": "I had never used a coding language before I joined the software company.", "vi": "Tôi chưa bao giờ dùng ngôn ngữ lập trình trước khi vào công ty phần mềm." }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "After she has finished the project, she went home.",
+        "correct": "After she had finished the project, she went home.",
+        "explanationVi": "Cả hai hành động đều trong quá khứ. 'Had finished' xảy ra trước 'went home' → dùng Past Perfect, không phải Present Perfect."
+      },
+      {
+        "incorrect": "He didn't get the job because he hadn't practiced for the interview.",
+        "correct": "He didn't get the job because he hadn't practiced for the interview.",
+        "explanationVi": "Câu này thực ra đúng rồi! 'Hadn't practiced' (Past Perfect phủ định) chỉ việc anh ta ĐÃ KHÔNG chuẩn bị — xảy ra trước 'didn't get'."
+      },
+      {
+        "incorrect": "By the time I learned about the job opening, someone had already took it.",
+        "correct": "By the time I learned about the job opening, someone had already taken it.",
+        "explanationVi": "'Take' là động từ bất quy tắc: take → took → taken (V3). Sau 'had' phải dùng V3 = taken, không phải V2 = took."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-ppf-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu nào đúng khi kể thứ tự sự kiện: 'By the time the manager called a meeting, the tech team _____ the problem.'",
+        "options": [
+          "already solved",
+          "had already solved",
+          "has already solved",
+          "was already solving"
+        ],
+        "correctAnswer": "had already solved",
+        "feedbackCorrect": "'By the time' + Simple Past (called) → hành động xảy ra trước đó dùng Past Perfect: 'had already solved'.",
+        "feedbackWrong": "'By the time + Simple Past' → hành động xảy ra trước đó cần Past Perfect: had + V3. 'Already' thường đi với Past Perfect trong ngữ cảnh này.",
+        "ieltsTip": "Cặp 'By the time + Simple Past, subject + Past Perfect' rất phổ biến trong kể chuyện Part 2.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-ppf-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Task 2 — Câu nào diễn đạt đúng: Nhiều công ty thất bại vì không kịp thích nghi với công nghệ?",
+        "options": [
+          "Many companies failed because they didn't adapt to new technology.",
+          "Many companies failed because they hadn't adapted to new technology.",
+          "Many companies had failed because they didn't adapt to new technology.",
+          "Many companies were failing because they hadn't adapted to new technology."
+        ],
+        "correctAnswer": "Many companies failed because they hadn't adapted to new technology.",
+        "feedbackCorrect": "Đúng! 'Failed' là kết quả (Simple Past). 'Hadn't adapted' là nguyên nhân xảy ra TRƯỚC → Past Perfect. Nhấn mạnh: vì đã không thích nghi từ trước nên mới thất bại.",
+        "feedbackWrong": "Nguyên nhân (không thích nghi) xảy ra TRƯỚC kết quả (thất bại) → nguyên nhân dùng Past Perfect: hadn't adapted.",
+        "ieltsTip": "'Failed because + Past Perfect' tạo câu Task 2 phân tích nguyên nhân-kết quả rất học thuật và thuyết phục.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-ppf-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'When the startup finally received funding, the founders already spent most of their savings on product development, so they were relieved.'",
+        "options": [
+          "already spent → had already spent",
+          "received → had received",
+          "were relieved → had been relieved",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "already spent → had already spent",
+        "feedbackCorrect": "Đúng! 'Spending savings' xảy ra TRƯỚC 'received funding' → cần Past Perfect 'had already spent'. 'Received' là Simple Past cho sự kiện chính.",
+        "feedbackWrong": "Hai hành động trong quá khứ, một xảy ra trước: 'spent savings' (trước) → Past Perfect: had spent. 'Received funding' (sau) → Simple Past.",
+        "ieltsTip": "'Already' thường là tín hiệu cần Past Perfect khi đang kể chuỗi sự kiện quá khứ.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-ppf-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng dạng động từ: 'She got the promotion because she _____ (exceed) her targets for three consecutive years and _____ (complete) a leadership training program before the position became available.'",
+        "options": [
+          "had exceeded / had completed",
+          "exceeded / completed",
+          "had exceeded / completed",
+          "exceeded / had completed"
+        ],
+        "correctAnswer": "had exceeded / had completed",
+        "feedbackCorrect": "Hoàn hảo! Cả hai nguyên nhân đều xảy ra TRƯỚC khi cô ấy được thăng chức → cả hai dùng Past Perfect.",
+        "feedbackWrong": "Cả hai hành động (vượt chỉ tiêu và hoàn thành khóa học) đều xảy ra TRƯỚC khi được thăng chức (Simple Past) → cả hai cần Past Perfect.",
+        "ieltsTip": "Khi có nhiều nguyên nhân dẫn đến một kết quả trong quá khứ, tất cả nguyên nhân dùng Past Perfect.",
+        "skill": "writing"
+      },
+      {
+        "id": "ex-ppf-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu Part 2 phức tạp: [had / the / I / applied / job / when / already / company / filled / position / the / I / realized]",
+        "options": [
+          "When I applied for the job, I realized the company had already filled the position.",
+          "I had applied for the job when I realized the company already filled the position.",
+          "When I realized the company had already filled the position, I applied for the job.",
+          "The company had filled the position when I applied and realized already."
+        ],
+        "correctAnswer": "When I applied for the job, I realized the company had already filled the position.",
+        "feedbackCorrect": "Xuất sắc! 'Applied' và 'realized' = Simple Past (hai hành động gần như đồng thời). 'Had already filled' = Past Perfect (xảy ra trước cả hai). Ba thì trong một câu — band 6.5!",
+        "feedbackWrong": "Trật tự thời gian: 1. Company filled position (Past Perfect: had filled). 2. I applied + realized (Simple Past: applied, realized). Hành động 1 xảy ra trước → Past Perfect.",
+        "ieltsTip": "Câu kể chuyện Part 2 kết hợp When + Simple Past + Past Perfect cho thấy bạn kiểm soát ngữ pháp thì rất tốt.",
+        "skill": "speaking"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 phân tích nguyên nhân thất bại của một công ty công nghệ. Dùng Past Perfect để chỉ nguyên nhân xảy ra trước.",
+      "placeholder": "Ví dụ: The company collapsed because it had failed to...",
+      "grammarMustUse": "past perfect",
+      "wordLimit": 30,
+      "modelAnswer": "Many tech startups collapsed because they had failed to develop a sustainable business model before spending all their initial investment on marketing.",
+      "modelBand": 6.0
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 2 — Kể về một lần bạn bỏ lỡ cơ hội vì chưa chuẩn bị đủ. Dùng Past Perfect ít nhất một lần.",
+      "timeLimit": 30,
+      "grammarTargets": ["past perfect", "simple past", "by the time / when"],
+      "modelAnswer": "I remember missing a great job opportunity at a tech company. By the time I found out about the position, they had already shortlisted their candidates. I hadn't updated my CV for months, and I hadn't built up my portfolio either. It was a valuable lesson — I learned to always keep my professional profile ready.",
+      "modelBand": 6.0
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-2-past-future",
+    "nextUnitTitle": "Future (will/going to)",
+    "nextUnitConnection": "Bạn đã nắm vững 6 thì quan trọng nhất. Unit 7 — Future — sẽ dạy cách nói về kế hoạch và dự đoán: sự khác nhau giữa 'will' và 'going to' thường gây nhầm lẫn ngay cả học viên band 6.0."
+  }
+}

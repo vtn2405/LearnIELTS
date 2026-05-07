@@ -1,0 +1,165 @@
+{
+  "id": "unit-1-past-continuous",
+  "chapter": 1,
+  "title": "Past Continuous",
+  "subtitle": "Thì quá khứ tiếp diễn",
+  "bandMin": 4.5,
+  "bandTarget": 5.5,
+  "meta": {
+    "topic": "Education",
+    "speakingPart": "Part 2",
+    "writingTask": "Task 2",
+    "prevUnitId": "unit-1-simple-past",
+    "prevUnitConnection": "Simple Past kể sự kiện đã xảy ra. Past Continuous mô tả bối cảnh — hành động đang diễn ra thì bị gián đoạn. Dùng hai thì này cùng nhau giúp câu chuyện Part 2 sinh động hơn hẳn.",
+    "nextUnitId": "unit-2-present-perfect",
+    "nextUnitTitle": "Present Perfect"
+  },
+  "theory": {
+    "goalBlock": {
+      "speaking": "Dùng Past Continuous kết hợp Simple Past để kể câu chuyện Part 2 có bối cảnh sinh động — phân biệt hành động nền và hành động chính.",
+      "writing": "Dùng Past Continuous trong Task 2 để tạo câu phức hợp mô tả tình huống quá khứ có chiều sâu."
+    },
+    "coreRule": "Past Continuous = was/were + V-ing. Dùng khi: (1) hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ; (2) hành động đang diễn ra (dài hơn) thì bị gián đoạn bởi hành động khác (ngắn hơn) → dùng WHILE/WHEN: [Past Continuous] when/while [Simple Past]. Lưu ý: Past Continuous = hành động nền dài; Simple Past = hành động ngắn xen vào.",
+    "grammarForSpeaking": {
+      "wrong": "I studied for my exam when the teacher called to give me good news.",
+      "correct": "I was studying for my exam when my teacher called to give me good news.",
+      "tipVi": "Hành động đang tiếp diễn (studying) bị gián đoạn bởi hành động khác (called) → Past Continuous + when + Simple Past. Người Việt thường dùng Simple Past cho cả hai.",
+      "bandImpact": "Biết dùng 'was/were + V-ing' đúng lúc giúp câu chuyện Part 2 nghe tự nhiên và đạt Grammatical Range band 6.0."
+    },
+    "quickExamples": [
+      { "en": "I was taking my final exam when the power went out.", "vi": "Tôi đang làm bài thi cuối kỳ thì điện bị cúp." },
+      { "en": "While the students were waiting for results, the school announced a new scholarship program.", "vi": "Trong khi học sinh đang chờ kết quả, nhà trường thông báo một chương trình học bổng mới." },
+      { "en": "She was preparing her university application when she realized she had missed the deadline.", "vi": "Cô ấy đang chuẩn bị hồ sơ đại học thì nhận ra đã bỏ lỡ hạn chót." }
+    ],
+    "commonMistakes": [
+      {
+        "incorrect": "While I was studying, my friend was called me.",
+        "correct": "While I was studying, my friend called me.",
+        "explanationVi": "Hành động gián đoạn (friend called) dùng Simple Past, không phải Past Continuous. 'Was called' = bị động, mang nghĩa khác hoàn toàn."
+      },
+      {
+        "incorrect": "I were reviewing my notes when the exam result came out.",
+        "correct": "I was reviewing my notes when the exam result came out.",
+        "explanationVi": "Với 'I', luôn dùng 'was' (không bao giờ 'were' trong câu khẳng định). Were chỉ dùng cho you/we/they."
+      },
+      {
+        "incorrect": "She was knowing the answer but she was too nervous to speak.",
+        "correct": "She knew the answer but she was too nervous to speak.",
+        "explanationVi": "'Know' là stative verb — không dùng dạng -ing. Dùng 'knew' (Simple Past) thay vì 'was knowing'."
+      }
+    ]
+  },
+  "exercises": {
+    "xpPerCorrect": 10,
+    "items": [
+      {
+        "id": "ex-ptc-1",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu nào mô tả đúng bối cảnh câu chuyện học tập?",
+        "options": [
+          "The students took their English exam when the fire alarm rang.",
+          "The students were taking their English exam when the fire alarm rang.",
+          "The students were taking their English exam when the fire alarm was ringing.",
+          "The students took their English exam when the fire alarm was ringing."
+        ],
+        "correctAnswer": "The students were taking their English exam when the fire alarm rang.",
+        "feedbackCorrect": "Đúng! 'Were taking' = hành động đang diễn ra (dài hơn). 'Rang' = hành động xen vào (ngắn hơn). Đây là cấu trúc WHILE/WHEN chuẩn.",
+        "feedbackWrong": "Quy tắc: Hành động đang diễn ra (dài) → Past Continuous (were taking). Hành động xen vào (ngắn) → Simple Past (rang). Không dùng Past Continuous cho cả hai.",
+        "ieltsTip": "Cấu trúc 'was/were + V-ing... when + Simple Past' giúp Part 2 nghe như người bản ngữ kể chuyện.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-ptc-2",
+        "level": 1,
+        "type": "multiple_choice",
+        "question": "Câu nào đúng: 'While _____ for the scholarship interview, she _____ that she had forgotten her documents at home.'",
+        "options": [
+          "she was waiting / realized",
+          "she waited / was realizing",
+          "she was waiting / was realizing",
+          "she waited / realized"
+        ],
+        "correctAnswer": "she was waiting / realized",
+        "feedbackCorrect": "Chính xác! 'While she was waiting' = hành động nền đang tiếp diễn. 'Realized' = khoảnh khắc nhận ra (ngắn) → Simple Past.",
+        "feedbackWrong": "'Realize' là stative verb → không dùng -ing. 'While' thường đi với Past Continuous cho hành động nền dài hơn.",
+        "ieltsTip": "Sau 'while', hầu như luôn dùng Past Continuous. Sau 'when', thường dùng Simple Past cho hành động ngắn xen vào.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-ptc-3",
+        "level": 2,
+        "type": "error_correction",
+        "question": "Sửa lỗi: 'While the teacher was explained the grammar rule, some students were texted on their phones, which annoyed her greatly.'",
+        "options": [
+          "was explained → was explaining; were texted → were texting",
+          "was explained → explained; were texted → were texting",
+          "was explained → was explaining; were texted → texted",
+          "Câu đúng, không cần sửa."
+        ],
+        "correctAnswer": "was explained → was explaining; were texted → were texting",
+        "feedbackCorrect": "Chính xác! 'Was explained' = bị động (passive), không phải Past Continuous. Phải là 'was explaining' (chủ động). Tương tự 'were texted' → 'were texting' (học sinh chủ động nhắn tin).",
+        "feedbackWrong": "Past Continuous chủ động: was/were + V-ing. 'Was explained' là thể bị động (passive voice). Ở đây thầy/cô đang chủ động giảng bài → 'was explaining'.",
+        "ieltsTip": "Phân biệt: 'was explaining' (chủ động đang giảng) vs 'was explained' (bị người khác giảng cho) — hai nghĩa hoàn toàn khác nhau!",
+        "skill": "both"
+      },
+      {
+        "id": "ex-ptc-4",
+        "level": 2,
+        "type": "fill_in_blank",
+        "question": "Điền đúng: 'At this time last year, I _____ (prepare) for my university entrance exam. I _____ (study) 10 hours a day, so when my friend _____ (invite) me to a party, I had to decline.'",
+        "options": [
+          "was preparing / was studying / invited",
+          "prepared / studied / was inviting",
+          "was preparing / studied / was inviting",
+          "prepared / was studying / invited"
+        ],
+        "correctAnswer": "was preparing / was studying / invited",
+        "feedbackCorrect": "Hoàn hảo! 'At this time last year' = thời điểm cụ thể → 'was preparing'. 'Was studying' = hành động kéo dài. 'Invited' = hành động xen vào ngắn → Simple Past.",
+        "feedbackWrong": "'At this time last year' → Past Continuous cho hành động đang diễn ra. 'Invited' là hành động xen vào một lần → Simple Past.",
+        "ieltsTip": "'At this time last year/week/month, I was + V-ing' là cấu trúc hay dùng trong Part 2 để đặt bối cảnh câu chuyện.",
+        "skill": "speaking"
+      },
+      {
+        "id": "ex-ptc-5",
+        "level": 3,
+        "type": "sentence_build",
+        "question": "Tạo câu kể chuyện Part 2 hoàn chỉnh: [revision / my / I / final / doing / was / when / called / scholarship / the / committee / to / inform / me / I / won / had]",
+        "options": [
+          "I was doing my final revision when the scholarship committee called to inform me I had won.",
+          "I doing was my final revision when called the scholarship committee to inform me I had won.",
+          "When I was doing my final revision, called the scholarship committee to inform me I had won.",
+          "The scholarship committee called when I was doing my final revision to inform me I won."
+        ],
+        "correctAnswer": "I was doing my final revision when the scholarship committee called to inform me I had won.",
+        "feedbackCorrect": "Xuất sắc! Câu kể chuyện hoàn hảo: Past Continuous (was doing) + when + Simple Past (called) + Past Perfect (had won) trong mệnh đề bổ sung. Đây là câu Part 2 band 6.5+!",
+        "feedbackWrong": "Cấu trúc: [I was doing my final revision] + when + [the committee called] + to inform me + [I had won]. Chú ý: 'had won' dùng Past Perfect vì xảy ra trước thời điểm trong quá khứ.",
+        "ieltsTip": "Kết hợp Past Continuous + Simple Past + Past Perfect trong một câu cho thấy bạn kiểm soát ngữ pháp tốt — đây là dấu hiệu band 6.5+.",
+        "skill": "speaking"
+      }
+    ]
+  },
+  "apply": {
+    "writingMini": {
+      "prompt": "Viết 1-2 câu Task 2 mô tả tình huống giáo dục trong quá khứ dùng Past Continuous + Simple Past. Chủ đề: áp lực thi cử.",
+      "placeholder": "Ví dụ: While students were spending countless hours memorizing facts, educators were beginning to question...",
+      "grammarMustUse": "past continuous",
+      "wordLimit": 30,
+      "modelAnswer": "While students were spending countless hours memorizing content, educators began to question whether rote learning was truly preparing young people for the real world.",
+      "modelBand": 5.5
+    },
+    "speakingDrill": {
+      "prompt": "IELTS Speaking Part 2 — Kể về một kỷ niệm đáng nhớ trong quá trình học tập. Dùng Past Continuous + Simple Past để tạo bối cảnh sinh động. Nói 2-3 câu.",
+      "timeLimit": 30,
+      "grammarTargets": ["past continuous", "simple past", "while/when"],
+      "modelAnswer": "I remember one memorable moment from my school days. I was preparing for my final English exam late at night when I suddenly understood a grammar rule that had confused me for months. While I was reading a simple example in my textbook, everything clicked into place and I felt a great sense of achievement.",
+      "modelBand": 5.5
+    }
+  },
+  "completion": {
+    "xpReward": 50,
+    "nextUnitId": "unit-2-present-perfect",
+    "nextUnitTitle": "Present Perfect",
+    "nextUnitConnection": "Bạn đã nắm 4 thì cơ bản. Unit 5 — Present Perfect — là thì khó nhất đối với người Việt vì không có tương đương trong tiếng Việt. Đây cũng là thì xuất hiện nhiều nhất trong IELTS Speaking Part 1 và 2."
+  }
+}

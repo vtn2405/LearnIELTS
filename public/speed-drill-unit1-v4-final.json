@@ -1,0 +1,2510 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "principle": "Static content separated from runtime state. Blueprint is source of truth.",
+    "unit_id": "unit-1-simple-present",
+    "total_questions_in_pool": 30,
+    "sessions": 3,
+    "challenge_rewrite": "v4 — 2-3 grammar layers, near-correct distractors, locate_error format"
+  },
+  "metadata": {
+    "unit_id": "unit-1-simple-present",
+    "version": "4.0",
+    "grammar_point": "Simple Present",
+    "subtitle_vi": "Thì hiện tại đơn",
+    "topic_vocabulary": "Education",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 2: The Present Simple Tense",
+      "pdf_line_range": "13187–13750",
+      "unit_json_ref": "unit-1-simple-present.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "third_person_singular_s",
+      "do_does_negation",
+      "do_does_question",
+      "adverb_frequency_position",
+      "simple_vs_continuous",
+      "stative_verbs",
+      "general_truth",
+      "uncountable_noun_singular"
+    ],
+    "common_vietnamese_errors": [
+      "third_person_s_missing",
+      "doesnt_plus_s_double_error",
+      "habit_with_continuous",
+      "always_position_wrong",
+      "stative_verb_with_ing",
+      "uncountable_treated_as_plural"
+    ],
+    "ielts_band_target": {
+      "min": 4,
+      "max": 6.5
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-1-simple-present",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "4.0–4.5",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "4.5–5.5",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 5.5 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "5.5–6.5",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ. Tìm vị trí lỗi, không chỉ chọn đáp án.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ, không liên quan đến field khác",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.0 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "third_person_singular_s",
+          "error_tag": "third_person_s_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "My sister ___ at a university in Hanoi.",
+          "options": [
+            "study",
+            "studies",
+            "studying",
+            "studied"
+          ],
+          "correct_answer": "studies",
+          "correct_index": 1,
+          "explanation_short": "sister = ngôi 3 số ít → study + ies = studies.",
+          "explanation_long": "study kết thúc bằng phụ âm (d) + y → đổi y → i + es: studies. Lỗi hay gặp: dùng 'study' vì quên chia ngôi 3.",
+          "feedback_correct": "⚡ Đúng! sister = ngôi 3 số ít → studies",
+          "feedback_wrong": "sister = she → chia ngôi 3: study → studies",
+          "ielts_tip": "Xác định chủ ngữ trước: sister = she → thêm -ies.",
+          "distractor_note": "obvious: study (quên), studying (continuous), studied (past)",
+          "wrong_answer_feedbacks": {
+            "study": "'study' là dạng nguyên mẫu, dùng cho I/You/We/They. 'My sister' = she (ngôi 3 số ít) → phải đổi y→i+es: studies.",
+            "studying": "'studying' là Present Continuous, chỉ hành động đang xảy ra lúc nói. Câu nói về thói quen thường xuyên → Simple Present: studies.",
+            "studied": "'studied' là Past Simple, diễn tả hành động đã xảy ra trong quá khứ. Câu nói về thói quen hiện tại → Simple Present: studies."
+          }
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "do_does_negation",
+          "error_tag": "doesnt_plus_s_double_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "He ___ homework after school.",
+          "options": [
+            "don't do",
+            "doesn't do",
+            "doesn't does",
+            "isn't do"
+          ],
+          "correct_answer": "doesn't do",
+          "correct_index": 1,
+          "explanation_short": "He → doesn't + V nguyên mẫu (không thêm -s sau doesn't).",
+          "explanation_long": "Phủ định ngôi 3 số ít: doesn't + V bare infinitive. 'Doesn't does' sai vì thêm -s hai lần. 'Don't' chỉ dùng cho I/You/We/They.",
+          "feedback_correct": "🔥 He → doesn't do (không phải doesn't does)",
+          "feedback_wrong": "He → doesn't. Sau doesn't: V nguyên mẫu, không thêm -s!",
+          "ielts_tip": "Sau doesn't → V nguyên mẫu. Không bao giờ 'doesn't does/goes/studies'.",
+          "distractor_note": "obvious: don't do, doesn't does (double-s), isn't do",
+          "wrong_answer_feedbacks": {
+            "don't do": "'don't' dùng cho I/You/We/They. Chủ ngữ là 'He' (ngôi 3 số ít) → phải dùng 'doesn't do'.",
+            "doesn't does": "Lỗi double-s: sau 'doesn't' phải dùng V nguyên mẫu, không thêm -s. Đúng là 'doesn't do', không phải 'doesn't does'.",
+            "isn't do": "'isn't' là phủ định của 'be', không dùng để phủ định V thường. Với V thường, dùng 'doesn't + V nguyên mẫu'."
+          }
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "general_truth",
+          "error_tag": "simple_vs_continuous_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The sun ___ in the east.",
+          "options": [
+            "rising",
+            "is rising",
+            "rises",
+            "rose"
+          ],
+          "correct_answer": "rises",
+          "correct_index": 2,
+          "explanation_short": "Sự thật tự nhiên → Simple Present: rises.",
+          "explanation_long": "Quy luật tự nhiên dùng Simple Present. 'Is rising' diễn tả đang xảy ra lúc nói. 'Rose' là quá khứ.",
+          "feedback_correct": "⚡ Sự thật tự nhiên → Simple Present",
+          "feedback_wrong": "Quy luật tự nhiên → Simple Present: rises (không is rising)",
+          "ielts_tip": "Task 2: 'Research shows that...', 'Evidence suggests that...' → Simple Present.",
+          "distractor_note": "obvious: rising (missing is), is rising, rose (past)",
+          "wrong_answer_feedbacks": {
+            "rising": "Thiếu trợ động từ 'is'. Nhưng quan trọng hơn, đây là quy luật tự nhiên vĩnh cửu → Simple Present: rises.",
+            "is rising": "'is rising' (Present Continuous) chỉ sự kiện đang xảy ra lúc nói. Quy luật tự nhiên không thay đổi → Simple Present: rises.",
+            "rose": "'rose' là Past Simple, dùng khi sự việc đã xảy ra và kết thúc. Quy luật tự nhiên là sự thật vĩnh cửu → Simple Present: rises."
+          }
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "adverb_frequency_position",
+          "error_tag": "always_position_wrong",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Students ___ review notes before exams.",
+          "options": [
+            "usually they",
+            "they usually",
+            "usually",
+            "are usually"
+          ],
+          "correct_answer": "usually",
+          "correct_index": 2,
+          "explanation_short": "usually đứng trước động từ thường: Students usually review.",
+          "explanation_long": "Trạng từ tần suất đứng TRƯỚC động từ thường. Câu đầy đủ: Students usually review notes.",
+          "feedback_correct": "🎯 usually đứng trước động từ thường",
+          "feedback_wrong": "usually đứng TRƯỚC động từ thường: Students usually review.",
+          "ielts_tip": "S + usually/always/often + V thường. Không đặt cuối câu.",
+          "distractor_note": "obvious: usually they (word order), they usually (repeat subject), are usually",
+          "wrong_answer_feedbacks": {
+            "usually they": "Lặp lại chủ ngữ (câu đã có 'Students') và sai vị trí. 'Usually' phải đứng TRƯỚC V thường: Students usually review.",
+            "they usually": "Lặp lại chủ ngữ trong câu — 'Students' đã là chủ ngữ rồi, không thêm 'they'. Điền 'usually' để thành 'Students usually review'.",
+            "are usually": "'are usually' dùng với tính từ/danh từ (e.g., 'They are usually late'). Với V thường 'review', dùng 'usually' không có 'be'."
+          }
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "do_does_question",
+          "error_tag": "do_does_question_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ your school start at 7am every day?",
+          "options": [
+            "Do",
+            "Does",
+            "Is",
+            "Are"
+          ],
+          "correct_answer": "Does",
+          "correct_index": 1,
+          "explanation_short": "school = ngôi 3 số ít → Does.",
+          "explanation_long": "Câu hỏi Simple Present ngôi 3 số ít: Does + S + V nguyên mẫu? 'School' = it → Does.",
+          "feedback_correct": "⚡ school = it → Does",
+          "feedback_wrong": "school = it (ngôi 3) → Does, không phải Do hay Is",
+          "ielts_tip": "Does + school/teacher/university? → luôn Does vì là ngôi 3.",
+          "distractor_note": "obvious: Do (wrong person), Is (wrong auxiliary), Are",
+          "wrong_answer_feedbacks": {
+            "Do": "'Do' dùng cho I/You/We/They. 'Your school' = it (ngôi 3 số ít) → phải dùng 'Does'.",
+            "Is": "'Is' là trợ động từ của 'be', dùng hỏi trạng thái ('Is it open?'). Với V thường 'start', câu hỏi phải là 'Does ... start?'.",
+            "Are": "'Are' dùng cho You/We/They hoặc danh từ số nhiều. 'Your school' = it (số ít) → dùng 'Does'."
+          }
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_vs_continuous",
+          "error_tag": "habit_with_continuous",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "I ___ English every morning before school.",
+          "options": [
+            "am studying",
+            "study",
+            "studied",
+            "studies"
+          ],
+          "correct_answer": "study",
+          "correct_index": 1,
+          "explanation_short": "Thói quen hằng ngày → Simple Present: study.",
+          "explanation_long": "'Every morning' = dấu hiệu thói quen → Simple Present. 'Am studying' diễn tả đang học lúc nói.",
+          "feedback_correct": "🎯 every morning = thói quen → I study",
+          "feedback_wrong": "every morning = thói quen → Simple Present: I study (không am studying)",
+          "ielts_tip": "every day/morning/week + I → Simple Present. Không dùng am/is/are + V-ing.",
+          "distractor_note": "obvious: am studying, studied (past), studies (wrong person for I)",
+          "wrong_answer_feedbacks": {
+            "am studying": "'am studying' (Present Continuous) chỉ hành động đang xảy ra tại thời điểm nói. 'Every morning' là dấu hiệu thói quen → Simple Present: study.",
+            "studied": "'studied' là Past Simple, diễn tả hành động đã xảy ra và kết thúc. 'Every morning' = thói quen hiện tại → Simple Present: study.",
+            "studies": "'studies' thêm -s/-es dành cho ngôi 3 số ít (he/she/it). Chủ ngữ là 'I' → dạng nguyên mẫu: study."
+          }
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "stative_verbs",
+          "error_tag": "stative_verb_with_ing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "I ___ that practice makes perfect.",
+          "options": [
+            "am believing",
+            "am believe",
+            "believe",
+            "believes"
+          ],
+          "correct_answer": "believe",
+          "correct_index": 2,
+          "explanation_short": "believe = stative verb → Simple Present: believe.",
+          "explanation_long": "believe là stative verb → không dùng -ing. I → believe (không thêm -s).",
+          "feedback_correct": "⚡ believe = stative verb → không dùng -ing",
+          "feedback_wrong": "believe là stative verb → I believe (không am believing)",
+          "ielts_tip": "believe/think/know/understand/want → Simple Present khi nêu quan điểm.",
+          "distractor_note": "obvious: am believing, am believe, believes (wrong person)",
+          "wrong_answer_feedbacks": {
+            "am believing": "'believe' là stative verb (động từ trạng thái) → không bao giờ dùng dạng -ing. Simple Present: I believe.",
+            "am believe": "Sai cấu trúc: 'am + V nguyên mẫu' không tồn tại trong tiếng Anh. 'Believe' là stative verb → Simple Present: I believe.",
+            "believes": "'believes' thêm -s dành cho ngôi 3 số ít (he/she/it). Chủ ngữ là 'I' → dạng nguyên mẫu: believe."
+          }
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "third_person_singular_s",
+          "error_tag": "third_person_s_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The school ___ students with scholarships every year.",
+          "options": [
+            "provide",
+            "provides",
+            "is providing",
+            "provided"
+          ],
+          "correct_answer": "provides",
+          "correct_index": 1,
+          "explanation_short": "The school = ngôi 3 số ít + every year = habit → provides.",
+          "explanation_long": "'Every year' = thói quen → Simple Present. 'The school' = it → provides.",
+          "feedback_correct": "🔥 The school + every year → provides",
+          "feedback_wrong": "The school = it → ngôi 3 + every year → provides",
+          "ielts_tip": "Task 2: 'The government provides...', 'The system supports...' → thêm -s.",
+          "distractor_note": "obvious: provide (quên -s), is providing, provided (past)",
+          "wrong_answer_feedbacks": {
+            "provide": "'provide' là dạng nguyên mẫu, dùng cho I/You/We/They. 'The school' = it (ngôi 3 số ít) + 'every year' → Simple Present: provides.",
+            "is providing": "'is providing' (Present Continuous) chỉ hành động đang xảy ra lúc nói. 'Every year' là dấu hiệu lặp lại → Simple Present: provides.",
+            "provided": "'provided' là Past Simple, chỉ hành động đã xảy ra trong quá khứ. 'Every year' chỉ thói quen hiện tại → provides."
+          }
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "do_does_negation",
+          "error_tag": "dont_doesnt_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Most students ___ enjoy long lectures.",
+          "options": [
+            "doesn't",
+            "don't",
+            "aren't",
+            "isn't"
+          ],
+          "correct_answer": "don't",
+          "correct_index": 1,
+          "explanation_short": "Most students = số nhiều → don't.",
+          "explanation_long": "'Most students' = They = số nhiều → don't. 'Doesn't' chỉ dùng cho he/she/it.",
+          "feedback_correct": "🎯 Most students = số nhiều → don't",
+          "feedback_wrong": "Most students = số nhiều → don't, không phải doesn't",
+          "ielts_tip": "Số ít → doesn't. Số nhiều (students/people/they) → don't.",
+          "distractor_note": "obvious: doesn't (wrong number), aren't, isn't",
+          "wrong_answer_feedbacks": {
+            "doesn't": "'doesn't' dùng cho ngôi 3 số ít (he/she/it). 'Most students' = số nhiều → phải dùng 'don't'.",
+            "aren't": "'aren't' là phủ định của 'be'. Với V thường 'enjoy', phủ định bằng 'don't/doesn't', không dùng 'aren't'.",
+            "isn't": "'isn't' là phủ định của 'be' ở ngôi 3 số ít. Với V thường 'enjoy' và chủ ngữ số nhiều 'most students', dùng 'don't enjoy'."
+          }
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "uncountable_noun_singular",
+          "error_tag": "uncountable_treated_as_plural",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Education ___ people with knowledge and skills.",
+          "options": [
+            "provide",
+            "provides",
+            "are providing",
+            "provided"
+          ],
+          "correct_answer": "provides",
+          "correct_index": 1,
+          "explanation_short": "Education = danh từ không đếm được → ngôi 3 số ít → provides.",
+          "explanation_long": "Education không có -s nhưng là số ít không đếm được → provides.",
+          "feedback_correct": "⚡ Education = số ít → provides",
+          "feedback_wrong": "Education tuy không có -s nhưng là số ít → provides",
+          "ielts_tip": "Education/technology/society + provides/affects/needs → luôn thêm -s.",
+          "distractor_note": "obvious: provide, are providing, provided",
+          "wrong_answer_feedbacks": {
+            "provide": "'provide' là dạng nguyên mẫu, dùng cho I/You/We/They. 'Education' là danh từ không đếm được → được coi là số ít → provides.",
+            "are providing": "'Education' tuy không có -s nhưng là danh từ không đếm được (uncountable) → số ít → không dùng 'are'. Dùng Simple Present: provides.",
+            "provided": "'provided' là Past Simple. Câu nêu sự thật chung, không phải quá khứ → Simple Present: provides."
+          }
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_vs_continuous",
+          "error_tag": "habit_with_continuous",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The university ___ its curriculum every five years to keep up with industry changes.",
+          "options": [
+            "is updating",
+            "updates",
+            "update",
+            "has updated"
+          ],
+          "correct_answer": "updates",
+          "correct_index": 1,
+          "explanation_short": "every five years = thói quen định kỳ → Simple Present: updates.",
+          "explanation_long": "'Every five years' = chu kỳ định kỳ → Simple Present. 'Is updating' ngụ ý đang xảy ra ngay lúc nói.",
+          "feedback_correct": "🔥 every five years = thói quen → updates",
+          "feedback_wrong": "every five years = chu kỳ → Simple Present: updates (không is updating)",
+          "ielts_tip": "every + time period → Simple Present. Khác với 'currently/now' → Continuous.",
+          "distractor_note": "plausible: is updating nghe có vẻ đúng vì đang thay đổi"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "stative_verbs",
+          "error_tag": "stative_verb_with_ing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Many researchers ___ that rote learning prevents students from developing critical thinking.",
+          "options": [
+            "are arguing",
+            "argue",
+            "argues",
+            "have argued"
+          ],
+          "correct_answer": "argue",
+          "correct_index": 1,
+          "explanation_short": "Many researchers = số nhiều + quan điểm → argue.",
+          "explanation_long": "'Many researchers' số nhiều → argue (không argues). Quan điểm học thuật → Simple Present.",
+          "feedback_correct": "⚡ Many researchers = số nhiều + quan điểm → argue",
+          "feedback_wrong": "Many researchers = số nhiều → argue. Quan điểm → Simple Present.",
+          "ielts_tip": "Task 2: 'Many experts argue/suggest/claim/believe that...' → số nhiều.",
+          "distractor_note": "plausible: are arguing nghe natural; have argued gần đúng"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "third_person_singular_s",
+          "error_tag": "uncountable_treated_as_plural",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Access to quality education ___ the gap between social classes in many developing countries.",
+          "options": [
+            "narrow",
+            "narrows",
+            "is narrowing",
+            "have narrowed"
+          ],
+          "correct_answer": "narrows",
+          "correct_index": 1,
+          "explanation_short": "Access = danh từ số ít → narrows.",
+          "explanation_long": "'Access to quality education' là chủ ngữ số ít → narrows. 'Is narrowing' dùng khi nói xu hướng đang diễn ra, nhưng 'narrows' chuẩn hơn khi nêu sự thật chung trong Task 2.",
+          "feedback_correct": "🎯 Access = số ít + sự thật chung → narrows",
+          "feedback_wrong": "Access = số ít (như 'it') → narrows. Sự thật chung → Simple Present.",
+          "ielts_tip": "Task 2 body: 'Access to X narrows/reduces/improves...' → thêm -s.",
+          "distractor_note": "plausible: narrow (chủ ngữ dài dễ nhầm số nhiều), is narrowing"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "adverb_frequency_position",
+          "error_tag": "always_position_wrong",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Motivated students submit always their assignments on time.'",
+          "options": [
+            "always → đặt sau submit: submit always (đúng rồi)",
+            "always → đặt trước submit: always submit",
+            "always → đặt cuối câu",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "always → đặt trước submit: always submit",
+          "correct_index": 1,
+          "explanation_short": "always đứng TRƯỚC động từ thường: always submit.",
+          "explanation_long": "'Submit always' sai. Câu đúng: 'Motivated students always submit their assignments on time.'",
+          "feedback_correct": "⚡ always phải đứng TRƯỚC submit",
+          "feedback_wrong": "Trạng từ tần suất: S + always + V thường. 'Submit always' sai vị trí.",
+          "ielts_tip": "always/usually/often đứng TRƯỚC V thường trong Writing.",
+          "distractor_note": "plausible: cuối câu nghe tự nhiên với người Việt"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "do_does_negation",
+          "error_tag": "doesnt_plus_s_double_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The current education system doesn't prepares students for real-world challenges.'",
+          "options": [
+            "doesn't → don't (system là số nhiều)",
+            "prepares → prepare (sau doesn't dùng V nguyên mẫu)",
+            "doesn't prepares → isn't prepare",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "prepares → prepare (sau doesn't dùng V nguyên mẫu)",
+          "correct_index": 1,
+          "explanation_short": "Sau doesn't → V nguyên mẫu: doesn't prepare.",
+          "explanation_long": "'System' = số ít → doesn't đúng. Nhưng sau doesn't: V nguyên mẫu (prepare, không prepares).",
+          "feedback_correct": "🔥 doesn't + prepare (bare infinitive, không thêm -s)",
+          "feedback_wrong": "doesn't đúng (system = số ít). Nhưng sau doesn't → V nguyên mẫu: prepare.",
+          "ielts_tip": "Sau doesn't/don't → V nguyên mẫu. Không bao giờ 'doesn't prepares'.",
+          "distractor_note": "plausible: nghĩ system = số nhiều → chọn don't"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_vs_continuous",
+          "error_tag": "habit_with_continuous",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 1: 'How do you usually spend your free time?' → Câu trả lời nào tự nhiên nhất?",
+          "options": [
+            "I am usually reading books or watching documentaries.",
+            "I usually read books or watch documentaries.",
+            "I usually reading books or watching documentaries.",
+            "I am usually read books or watch documentaries."
+          ],
+          "correct_answer": "I usually read books or watch documentaries.",
+          "correct_index": 1,
+          "explanation_short": "usually + thói quen → Simple Present: I usually read.",
+          "explanation_long": "'Am reading' sai vì đây là thói quen, không phải đang đọc lúc nói.",
+          "feedback_correct": "🎯 usually + thói quen → Simple Present: I usually read",
+          "feedback_wrong": "usually + thói quen → Simple Present. 'Am reading' chỉ khi đang đọc lúc nói.",
+          "ielts_tip": "Part 1: 'I usually/often/sometimes + V nguyên mẫu...' — không am/is + V-ing cho thói quen.",
+          "distractor_note": "plausible: am usually reading nghe tự nhiên với người học"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "stative_verbs",
+          "error_tag": "stative_verb_with_ing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'I am knowing that consistent practice is the key to improving grammar.'",
+          "options": [
+            "am knowing → know (stative verb không dùng -ing)",
+            "is → are",
+            "improving → to improve",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "am knowing → know (stative verb không dùng -ing)",
+          "correct_index": 0,
+          "explanation_short": "know = stative verb → không dùng -ing: I know.",
+          "explanation_long": "'Know' là stative verb → không bao giờ 'am knowing'. 'Key to improving' đúng (key to + V-ing).",
+          "feedback_correct": "⚡ know là stative verb → I know (không am knowing)",
+          "feedback_wrong": "know = stative verb → Simple Present: I know.",
+          "ielts_tip": "Stative verbs: know, understand, believe, think (ý kiến), want, need.",
+          "distractor_note": "bẫy: 'key to improving' nghe có vẻ sai nhưng thực ra đúng"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "do_does_question",
+          "error_tag": "do_does_question_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 1: '___ the pressure of exams affect your daily routine?'",
+          "options": [
+            "Do",
+            "Does",
+            "Is",
+            "Has"
+          ],
+          "correct_answer": "Does",
+          "correct_index": 1,
+          "explanation_short": "pressure = ngôi 3 số ít → Does.",
+          "explanation_long": "'The pressure of exams' = chủ ngữ là 'pressure' (số ít) → Does. Dù có 'of exams' phía sau, chia theo chủ ngữ chính.",
+          "feedback_correct": "🔥 pressure = it → Does",
+          "feedback_wrong": "Chủ ngữ chính là 'pressure' (số ít) → Does.",
+          "ielts_tip": "Khi chủ ngữ có 'of + noun' phía sau: chia theo chủ ngữ gốc, không phải noun sau of.",
+          "distractor_note": "bẫy: 'exams' cuối cụm nghe như số nhiều → Do"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "general_truth",
+          "error_tag": "simple_vs_continuous_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi trong câu Task 2: 'Research is consistently showing that bilingual students perform better academically.'",
+          "options": [
+            "is consistently showing → consistently shows (sự thật chung → Simple Present)",
+            "perform → performs",
+            "better → more better",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "is consistently showing → consistently shows (sự thật chung → Simple Present)",
+          "correct_index": 0,
+          "explanation_short": "Research shows = kết quả nghiên cứu như sự thật → Simple Present.",
+          "explanation_long": "'Research shows' chuẩn hơn 'is showing' khi nêu kết quả nghiên cứu trong Task 2 academic.",
+          "feedback_correct": "⚡ Research shows = sự thật → Simple Present",
+          "feedback_wrong": "'Research shows' chuẩn hơn 'is showing' trong Task 2.",
+          "ielts_tip": "Task 2: 'Research shows/suggests/indicates/demonstrates that...' → Simple Present.",
+          "distractor_note": "bẫy: is showing nghe có vẻ đúng; more better bẫy phổ biến"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "third_person_singular_s",
+          "error_tag": "third_person_s_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Tìm câu ĐÚNG hoàn toàn cho IELTS Task 2:",
+          "options": [
+            "The number of students who choose vocational training are increasing each year.",
+            "The number of students who choose vocational training increases each year.",
+            "The number of students who chooses vocational training increase each year.",
+            "The numbers of students who choose vocational training increases each year."
+          ],
+          "correct_answer": "The number of students who choose vocational training increases each year.",
+          "correct_index": 1,
+          "explanation_short": "The number of = số ít → increases. who = students → choose.",
+          "explanation_long": "(1) 'The number of + noun' = số ít → increases. (2) 'who' thay 'students' (số nhiều) → choose (không chooses).",
+          "feedback_correct": "🏆 The number of = số ít → increases | who = students → choose",
+          "feedback_wrong": "The number of = số ít → increases. Who = students → choose (không chooses).",
+          "ielts_tip": "'The number of + noun + increases/decreases' — số ít. Khác: 'A number of + noun + are'.",
+          "distractor_note": "bẫy: 'of students' → nghĩ are increasing; who → nghĩ chooses"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "third_person_singular_s",
+          "error_tag": "each_of_singular_agreement",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "each_of + plural noun = singular",
+            "relative clause verb agreement"
+          ],
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Each of the students who attend the advanced grammar class study independently every evening.'",
+          "options": [
+            "Each of the students",
+            "who attend the advanced grammar class",
+            "study independently",
+            "every evening"
+          ],
+          "correct_answer": "study independently",
+          "correct_index": 2,
+          "explanation_short": "Each of = số ít → studies. WHO + students (số nhiều) → attend đúng.",
+          "explanation_long": "Lớp 1: 'Each of the students' = chủ ngữ số ít → động từ chính phải là 'studies' (không phải 'study'). Lớp 2: 'who attend' đúng vì 'who' thay cho 'students' (số nhiều). Bẫy: 'attend' nghe sai nhưng lại đúng; 'study' nghe đúng nhưng lại sai.",
+          "feedback_correct": "🏆 Each of = số ít → studies. who + students → attend đúng!",
+          "feedback_wrong": "Each of the students = số ít → động từ chính phải là 'studies'. 'who attend' đúng vì who = students (số nhiều).",
+          "ielts_tip": "Each/Every/Neither/Either of + plural noun → động từ chính số ít. Nhưng relative clause chia theo antecedent của 'who/which'.",
+          "distractor_note": "near-correct: 'who attend' trông sai vì students là số nhiều nhưng thực ra đúng — đây là bẫy chính. User phải phân biệt được hai lớp agreement độc lập."
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "do_does_negation",
+          "error_tag": "neither_nor_agreement",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "neither...nor + proximity rule",
+            "doesn't + bare infinitive"
+          ],
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Neither the principal nor the teachers understands why the new policy doesn't addresses the root cause.'",
+          "options": [
+            "Neither the principal nor the teachers",
+            "understands why",
+            "doesn't addresses",
+            "the root cause"
+          ],
+          "correct_answer": "doesn't addresses",
+          "correct_index": 2,
+          "explanation_short": "Lớp 1: neither...nor + teachers (số nhiều) → understand đúng hay sai? Lớp 2: doesn't + addresses → sai (bare infinitive).",
+          "explanation_long": "Lớp 1: 'Neither A nor B' chia theo B gần nhất: 'teachers' (số nhiều) → 'understand' (không 'understands'). Lớp 2: sau 'doesn't' → V nguyên mẫu: 'address' (không 'addresses'). Câu có 2 lỗi nhưng option hỏi từng phrase — 'doesn't addresses' rõ ràng hơn là 1 phrase chứa lỗi hoàn toàn, trong khi 'understands why' chứa lỗi tinh tế hơn (phụ thuộc vào đọc kỹ neither...nor). Lỗi D = doesn't addresses (sai cả quy tắc).",
+          "feedback_correct": "⚡ doesn't + address (bare infinitive). Bonus: understands cũng sai vì neither...nor + teachers → understand!",
+          "feedback_wrong": "Sau doesn't → V nguyên mẫu: address (không addresses). Và neither...nor + teachers → understand (không understands).",
+          "ielts_tip": "Neither...nor / Either...or: chia theo chủ ngữ GẦN NHẤT với động từ. Sau doesn't → V bare infinitive tuyệt đối.",
+          "distractor_note": "near-correct: 'understands why' cũng có lỗi (neither...nor rule) nhưng tinh tế hơn; option A trông như lỗi nhưng không phải phrase chứa lỗi ngữ pháp."
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "uncountable_noun_singular",
+          "error_tag": "multiple_subject_verb_agreement",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "information = uncountable = singular",
+            "which = antecedent agreement",
+            "relative clause subject tracking"
+          ],
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The information that teachers provide often contain outdated content, which mean students must seek other sources.'",
+          "options": [
+            "The information that teachers provide",
+            "often contain outdated content",
+            "which mean students",
+            "must seek other sources"
+          ],
+          "correct_answer": "often contain outdated content",
+          "correct_index": 1,
+          "explanation_short": "information = số ít → contains. which = content (số ít) → means (cũng sai nhưng option B sai trước).",
+          "explanation_long": "Lớp 1: 'The information' = danh từ không đếm được = số ít → 'contains' (không 'contain'). Lớp 2: 'which' thay cho 'content' (số ít) → 'means' (không 'mean'). Câu có 2 lỗi: option B ('often contain') và option C ('which mean') đều sai. Option B được ưu tiên hơn vì đây là động từ chính của mệnh đề độc lập — lỗi nặng hơn.",
+          "feedback_correct": "🔥 information = số ít → contains. Và: which = content → means cũng sai!",
+          "feedback_wrong": "information = không đếm được = số ít → contains. 'which mean' cũng sai (which = content = số ít → means).",
+          "ielts_tip": "Khi câu dài, xác định chủ ngữ gốc mỗi mệnh đề. information/content/knowledge → số ít → -s.",
+          "distractor_note": "near-correct: option C cũng chứa lỗi ('which mean') — đây là bẫy chính. User cần nhận ra cả hai lỗi và chọn lỗi nặng hơn (động từ chính)."
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_vs_continuous",
+          "error_tag": "general_truth_vs_trend",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "general truth vs ongoing trend",
+            "stative context for 'matter'",
+            "academic register for conclusion"
+          ],
+          "stem": "Câu kết bài Task 2 nào CHUẨN NHẤT về ngữ pháp VÀ học thuật?",
+          "options": [
+            "In conclusion, quality education matters most because it is shaping the future of every nation.",
+            "In conclusion, quality education matters most because it shapes the future of every nation.",
+            "In conclusion, quality education is mattering most because it shapes the future of every nation.",
+            "In conclusion, quality education matters most because it shaped the future of every nation."
+          ],
+          "correct_answer": "In conclusion, quality education matters most because it shapes the future of every nation.",
+          "correct_index": 1,
+          "explanation_short": "matters (stative-like) + shapes (sự thật bất biến) = cả hai Simple Present.",
+          "explanation_long": "Lớp 1: 'matter' khi có nghĩa 'quan trọng' hoạt động như stative → Simple Present 'matters' đúng. Lớp 2: 'shapes the future' = sự thật bất biến → Simple Present 'shapes' chuẩn hơn 'is shaping' trong câu kết luận mang tính khẳng định. Lớp 3: option A gần đúng nhất trong 3 distractors — 'is shaping' không sai hoàn toàn nhưng kém academic trong kết bài.",
+          "feedback_correct": "🏆 matters (stative) + shapes (sự thật) = câu kết bài Task 2 hoàn hảo!",
+          "feedback_wrong": "matter = stative → không dùng is mattering. shapes (sự thật bất biến) chuẩn hơn is shaping trong câu kết.",
+          "ielts_tip": "Câu kết Task 2: Simple Present cho cả hai vế tạo sự khẳng định mạnh. Tránh Continuous trong kết bài.",
+          "distractor_note": "near-correct: option A chỉ khác shapes/is shaping — bẫy tinh tế nhất. Option C bẫy với 'is mattering' (matter không dùng -ing khi nghĩa là 'quan trọng')."
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "stative_verbs",
+          "error_tag": "stative_verb_with_ing_academic",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "think = stative for opinion",
+            "prevents = general truth vs trend",
+            "academic register distinction"
+          ],
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN cho IELTS Speaking Part 3?\n'I ___ [A] that standardised testing ___ [B] students from thinking creatively.'",
+          "options": [
+            "[A] am thinking / [B] is preventing",
+            "[A] think / [B] is preventing",
+            "[A] am thinking / [B] prevents",
+            "[A] think / [B] prevents"
+          ],
+          "correct_answer": "[A] think / [B] prevents",
+          "correct_index": 3,
+          "explanation_short": "think (ý kiến) = stative → I think. prevents = quy luật hệ thống → Simple Present.",
+          "explanation_long": "Lớp 1: 'think' khi nêu ý kiến = stative verb → Simple Present 'I think' (không 'am thinking'). Lớp 2: 'prevents' vs 'is preventing' — khi nói về hậu quả mang tính quy luật/hệ thống trong lập luận Part 3 → Simple Present 'prevents' chuẩn hơn, academic hơn. 'Is preventing' không sai hoàn toàn nhưng 'prevents' cho thấy đây là sự thật hệ thống, không chỉ xu hướng tạm thời.",
+          "feedback_correct": "🏆 think (stative/ý kiến) + prevents (quy luật hệ thống) = Part 3 band 6.5!",
+          "feedback_wrong": "think (ý kiến) → stative → Simple Present: I think. prevents (quy luật) → Simple Present: prevents.",
+          "ielts_tip": "Part 3 phân tích hệ thống: 'I think/feel that + Simple Present' khi nêu quy luật → nghe academic hơn Continuous.",
+          "distractor_note": "near-correct: option B ([A] think / [B] is preventing) rất gần — chỉ khác prevents/is preventing. Đây là bẫy chính test độ tinh tế giữa quy luật và xu hướng."
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "adverb_frequency_position",
+          "error_tag": "adverb_between_auxiliary_and_main_verb",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "adverb placement with auxiliary do/does",
+            "sentence-level grammar in academic writing",
+            "distractor: end position vs mid position"
+          ],
+          "stem": "Câu Task 2 sau có lỗi ở phrase nào?\n'High-achieving students do not neglect consistently their revision schedule even during holiday periods.'",
+          "options": [
+            "High-achieving students do not",
+            "neglect consistently",
+            "their revision schedule",
+            "even during holiday periods"
+          ],
+          "correct_answer": "neglect consistently",
+          "correct_index": 1,
+          "explanation_short": "consistently phải đứng giữa 'do not' và 'neglect': do not consistently neglect.",
+          "explanation_long": "Lớp 1: Với cấu trúc phủ định 'do not + V', trạng từ cách thức/tần suất đứng GIỮA 'do not' và động từ chính: 'do not consistently neglect'. Lớp 2: Đặt 'consistently' sau 'neglect' → sai vì tách rời trạng từ khỏi động từ nó bổ nghĩa. Câu đúng: 'High-achieving students do not consistently neglect their revision schedule.'",
+          "feedback_correct": "⚡ Trạng từ phải nằm giữa do not và động từ chính: do not consistently neglect!",
+          "feedback_wrong": "Cấu trúc: do not + [adverb] + V. 'Consistently' phải đứng giữa 'do not' và 'neglect'.",
+          "ielts_tip": "Task 2 phủ định: 'do not consistently/regularly/effectively + V' — trạng từ nằm giữa auxiliary và main verb.",
+          "distractor_note": "near-correct: 'neglect consistently' nghe tự nhiên trong tiếng Việt (không bao giờ bỏ bê đều đặn). Option A trông như lỗi nhưng 'do not' hoàn toàn đúng."
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "general_truth",
+          "error_tag": "data_as_plural_academic",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "data = plural in academic English",
+            "suggest = reporting verb agreement",
+            "relative clause with 'which' agreeing with antecedent"
+          ],
+          "stem": "Câu Task 2 nào ĐÚNG HOÀN TOÀN về mặt academic English?",
+          "options": [
+            "The data collected by the research team clearly suggests that private tutoring, which improve exam scores, is widespread.",
+            "The data collected by the research team clearly suggest that private tutoring, which improves exam scores, is widespread.",
+            "The data collected by the research team clearly suggest that private tutoring, which improve exam scores, are widespread.",
+            "The data collected by the research team clearly suggests that private tutoring, which improves exam scores, are widespread."
+          ],
+          "correct_answer": "The data collected by the research team clearly suggest that private tutoring, which improves exam scores, is widespread.",
+          "correct_index": 1,
+          "explanation_short": "data (academic plural) → suggest. which = tutoring (singular) → improves. tutoring → is.",
+          "explanation_long": "Lớp 1: 'data' trong học thuật = số nhiều → 'suggest' (không 'suggests'). Lớp 2: 'which' thay cho 'private tutoring' (số ít) → 'improves' (không 'improve'). Lớp 3: 'private tutoring' = số ít → 'is widespread' (không 'are widespread'). Ba quyết định grammar độc lập trong 1 câu.",
+          "feedback_correct": "🏆 data → suggest | which = tutoring → improves | tutoring → is. Ba lớp đều đúng!",
+          "feedback_wrong": "data (academic) = plural → suggest. which = tutoring (singular) → improves. tutoring → is widespread.",
+          "ielts_tip": "Academic English: data/criteria/phenomena = plural → suggest/are/have. Khác với informal: data is.",
+          "distractor_note": "near-correct: option A sai ở 'suggests' và 'improve' — hai lỗi. Option C sai ở 'improve' và 'are'. Option D sai ở 'suggests' và 'are'. Mỗi distractor sai ở combo khác nhau — buộc user phải check cả 3 lớp."
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "third_person_singular_s",
+          "error_tag": "long_subject_agreement_trap",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "long noun phrase as subject",
+            "of-phrase does not change subject number",
+            "simple present agreement in academic sentence"
+          ],
+          "stem": "Câu Task 2 sau có lỗi ở phrase nào?\n'The quality of educational opportunities available to students in rural and remote areas often fall short of national standards.'",
+          "options": [
+            "The quality of educational opportunities",
+            "available to students in rural and remote areas",
+            "often fall short",
+            "of national standards"
+          ],
+          "correct_answer": "often fall short",
+          "correct_index": 2,
+          "explanation_short": "Chủ ngữ thật là 'The quality' (số ít) → falls short (không fall short).",
+          "explanation_long": "Lớp 1: Chủ ngữ chính là 'The quality' (số ít), không phải 'opportunities' hay 'students' hay 'areas'. Cụm 'of educational opportunities available to students in rural and remote areas' chỉ bổ nghĩa cho 'quality'. Lớp 2: 'Quality' = số ít → 'falls short' (không 'fall short'). Bẫy: cụm chủ ngữ dài 13 từ khiến user quên mất chủ ngữ gốc là 'quality'.",
+          "feedback_correct": "⚡ Chủ ngữ thật = 'The quality' (số ít) → falls short!",
+          "feedback_wrong": "Cụm 'of...areas' chỉ là bổ ngữ. Chủ ngữ gốc = 'The quality' (số ít) → falls short.",
+          "ielts_tip": "Khi chủ ngữ có cụm bổ nghĩa dài: luôn xác định HEAD NOUN (từ chính) để chia động từ đúng.",
+          "distractor_note": "near-correct: option A ('The quality of educational opportunities') trông như lỗi vì 'opportunities' là số nhiều. Option B ('available to students in rural and remote areas') trông phức tạp. Bẫy nằm ở độ dài của cụm danh từ."
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_vs_continuous",
+          "error_tag": "trend_vs_fact_academic_distinction",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "ongoing trend vs established fact",
+            "academic register for body paragraph",
+            "is + V-ing vs simple present in Task 2 argument"
+          ],
+          "stem": "Câu body paragraph Task 2 nào phân biệt ĐÚNG giữa sự thật đã được xác lập và xu hướng đang diễn ra?",
+          "options": [
+            "Online platforms provide access to education globally, and the number of learners using them grows rapidly.",
+            "Online platforms are providing access to education globally, and the number of learners using them is growing rapidly.",
+            "Online platforms provide access to education globally, and the number of learners using them is growing rapidly.",
+            "Online platforms are providing access to education globally, and the number of learners using them grows rapidly."
+          ],
+          "correct_answer": "Online platforms provide access to education globally, and the number of learners using them is growing rapidly.",
+          "correct_index": 2,
+          "explanation_short": "provide = sự thật đã xác lập → Simple Present. is growing = xu hướng đang diễn ra → Continuous.",
+          "explanation_long": "Lớp 1: 'Online platforms provide access' = sự thật đã được xác lập (established fact) → Simple Present 'provide'. Lớp 2: 'the number of learners is growing' = xu hướng đang diễn ra và thay đổi → Present Continuous 'is growing'. Lớp 3: Hai mệnh đề trong cùng câu dùng hai thì khác nhau vì ngữ nghĩa khác nhau — đây chính là dấu hiệu của Grammatical Range band 6.5+.",
+          "feedback_correct": "🏆 provide (sự thật xác lập) + is growing (xu hướng) = Grammatical Range band 6.5!",
+          "feedback_wrong": "provide = established fact → Simple Present. is growing = ongoing trend → Continuous. Hai thì khác nhau trong 1 câu là đúng khi ngữ nghĩa khác nhau.",
+          "ielts_tip": "Task 2 nâng cao: kết hợp Simple Present (sự thật) + Continuous (xu hướng) trong cùng câu → thể hiện Grammatical Range rõ ràng nhất.",
+          "distractor_note": "near-correct: option A dùng cả Simple (grows) cho xu hướng → kém chính xác. Option B dùng cả Continuous → kém cho established fact. Option D là mirror của C nhưng đổi ngược hai thì."
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "full_review_challenge",
+          "error_tag": "multiple_errors_academic_paragraph",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "the number of = singular",
+            "which referring to noun clause = singular",
+            "doesn't + bare infinitive"
+          ],
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'The number of rural students who gain access to higher education [A] are rising, which [B] mean that traditional barriers [C] doesn't no longer define their future.'",
+          "options": [
+            "Chỉ [A] và [C] có lỗi — [B] đúng",
+            "Chỉ [B] và [C] có lỗi — [A] đúng",
+            "Cả [A], [B] và [C] đều có lỗi",
+            "Chỉ [A] có lỗi — [B] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A], [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] are rising → is rising. [B] mean → means. [C] doesn't no longer → no longer defines.",
+          "explanation_long": "Lớp 1: [A] 'The number of...are rising' → 'The number of' = số ít → 'is rising'. Lớp 2: [B] 'which mean' → 'which' thay cho toàn bộ mệnh đề trước (the fact that...) = số ít → 'means'. Lớp 3: [C] 'doesn't no longer define' → double negative (doesn't + no longer) = sai hoàn toàn → 'no longer defines' (barriers = số nhiều → define, không defines. Hoặc: no longer define nếu giữ barriers). Ba lỗi độc lập trong 1 câu học thuật — đây là BOSS ROUND.",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] is rising | [B] means | [C] no longer define. Ba lớp hoàn chỉnh!",
+          "feedback_wrong": "Ba lỗi: [A] The number of = số ít → is rising. [B] which = the fact → means. [C] double negative → no longer define.",
+          "ielts_tip": "Khi review Task 2: check (1) The number of = singular, (2) which thay gì, (3) double negative. Ba điểm này gây lỗi nhiều nhất ở band 5.5→6.5.",
+          "distractor_note": "near-correct: option A ([A] và [C]) bẫy mạnh nhất vì [B] 'which mean' trông đúng (which thay barriers = số nhiều). Option B bẫy người phát hiện ra [B] và [C] nhưng bỏ sót [A]. Cần phát hiện đủ cả 3 để chọn C."
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "37b7b61d-102b-492e-b43d-073423037525",
+      "generated_at": "2026-04-25T14:36:03.209963+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-1-simple-present",
+      "metadata_ref": "unit-1-simple-present.metadata",
+      "generation_profile_ref": "gp_unit1_simple_present",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "4.0–4.5",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "My sister ___ at a university in Hanoi.",
+          "options": [
+            "study",
+            "studies",
+            "studying",
+            "studied"
+          ],
+          "correct_answer": "studies",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Đúng! sister = ngôi 3 số ít → studies",
+          "feedback_wrong": "sister = she → chia ngôi 3: study → studies",
+          "explanation_short": "sister = ngôi 3 số ít → study + ies = studies.",
+          "ielts_tip": "Xác định chủ ngữ trước: sister = she → thêm -ies.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "He ___ homework after school.",
+          "options": [
+            "don't do",
+            "doesn't do",
+            "doesn't does",
+            "isn't do"
+          ],
+          "correct_answer": "doesn't do",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 He → doesn't do (không phải doesn't does)",
+          "feedback_wrong": "He → doesn't. Sau doesn't: V nguyên mẫu, không thêm -s!",
+          "explanation_short": "He → doesn't + V nguyên mẫu (không thêm -s sau doesn't).",
+          "ielts_tip": "Sau doesn't → V nguyên mẫu. Không bao giờ 'doesn't does/goes/studies'.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "The sun ___ in the east.",
+          "options": [
+            "rising",
+            "is rising",
+            "rises",
+            "rose"
+          ],
+          "correct_answer": "rises",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Sự thật tự nhiên → Simple Present",
+          "feedback_wrong": "Quy luật tự nhiên → Simple Present: rises (không is rising)",
+          "explanation_short": "Sự thật tự nhiên → Simple Present: rises.",
+          "ielts_tip": "Task 2: 'Research shows that...', 'Evidence suggests that...' → Simple Present.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "Students ___ review notes before exams.",
+          "options": [
+            "usually they",
+            "they usually",
+            "usually",
+            "are usually"
+          ],
+          "correct_answer": "usually",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 usually đứng trước động từ thường",
+          "feedback_wrong": "usually đứng TRƯỚC động từ thường: Students usually review.",
+          "explanation_short": "usually đứng trước động từ thường: Students usually review.",
+          "ielts_tip": "S + usually/always/often + V thường. Không đặt cuối câu.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "___ your school start at 7am every day?",
+          "options": [
+            "Do",
+            "Does",
+            "Is",
+            "Are"
+          ],
+          "correct_answer": "Does",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ school = it → Does",
+          "feedback_wrong": "school = it (ngôi 3) → Does, không phải Do hay Is",
+          "explanation_short": "school = ngôi 3 số ít → Does.",
+          "ielts_tip": "Does + school/teacher/university? → luôn Does vì là ngôi 3.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "I ___ English every morning before school.",
+          "options": [
+            "am studying",
+            "study",
+            "studied",
+            "studies"
+          ],
+          "correct_answer": "study",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 every morning = thói quen → I study",
+          "feedback_wrong": "every morning = thói quen → Simple Present: I study (không am studying)",
+          "explanation_short": "Thói quen hằng ngày → Simple Present: study.",
+          "ielts_tip": "every day/morning/week + I → Simple Present. Không dùng am/is/are + V-ing.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "I ___ that practice makes perfect.",
+          "options": [
+            "am believing",
+            "am believe",
+            "believe",
+            "believes"
+          ],
+          "correct_answer": "believe",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ believe = stative verb → không dùng -ing",
+          "feedback_wrong": "believe là stative verb → I believe (không am believing)",
+          "explanation_short": "believe = stative verb → Simple Present: believe.",
+          "ielts_tip": "believe/think/know/understand/want → Simple Present khi nêu quan điểm.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "The school ___ students with scholarships every year.",
+          "options": [
+            "provide",
+            "provides",
+            "is providing",
+            "provided"
+          ],
+          "correct_answer": "provides",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 The school + every year → provides",
+          "feedback_wrong": "The school = it → ngôi 3 + every year → provides",
+          "explanation_short": "The school = ngôi 3 số ít + every year = habit → provides.",
+          "ielts_tip": "Task 2: 'The government provides...', 'The system supports...' → thêm -s.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Most students ___ enjoy long lectures.",
+          "options": [
+            "doesn't",
+            "don't",
+            "aren't",
+            "isn't"
+          ],
+          "correct_answer": "don't",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Most students = số nhiều → don't",
+          "feedback_wrong": "Most students = số nhiều → don't, không phải doesn't",
+          "explanation_short": "Most students = số nhiều → don't.",
+          "ielts_tip": "Số ít → doesn't. Số nhiều (students/people/they) → don't.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "Education ___ people with knowledge and skills.",
+          "options": [
+            "provide",
+            "provides",
+            "are providing",
+            "provided"
+          ],
+          "correct_answer": "provides",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Education = số ít → provides",
+          "feedback_wrong": "Education tuy không có -s nhưng là số ít → provides",
+          "explanation_short": "Education = danh từ không đếm được → ngôi 3 số ít → provides.",
+          "ielts_tip": "Education/technology/society + provides/affects/needs → luôn thêm -s.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "a7606c0a-b5bc-4456-8f8d-3cf5287dd09c",
+      "generated_at": "2026-04-25T14:36:03.210062+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-1-simple-present",
+      "metadata_ref": "unit-1-simple-present.metadata",
+      "generation_profile_ref": "gp_unit1_simple_present",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "4.5–5.5",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "The university ___ its curriculum every five years to keep up with industry changes.",
+          "options": [
+            "is updating",
+            "updates",
+            "update",
+            "has updated"
+          ],
+          "correct_answer": "updates",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 every five years = thói quen → updates",
+          "feedback_wrong": "every five years = chu kỳ → Simple Present: updates (không is updating)",
+          "explanation_short": "every five years = thói quen định kỳ → Simple Present: updates.",
+          "ielts_tip": "every + time period → Simple Present. Khác với 'currently/now' → Continuous.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "Many researchers ___ that rote learning prevents students from developing critical thinking.",
+          "options": [
+            "are arguing",
+            "argue",
+            "argues",
+            "have argued"
+          ],
+          "correct_answer": "argue",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Many researchers = số nhiều + quan điểm → argue",
+          "feedback_wrong": "Many researchers = số nhiều → argue. Quan điểm → Simple Present.",
+          "explanation_short": "Many researchers = số nhiều + quan điểm → argue.",
+          "ielts_tip": "Task 2: 'Many experts argue/suggest/claim/believe that...' → số nhiều.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "Access to quality education ___ the gap between social classes in many developing countries.",
+          "options": [
+            "narrow",
+            "narrows",
+            "is narrowing",
+            "have narrowed"
+          ],
+          "correct_answer": "narrows",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Access = số ít + sự thật chung → narrows",
+          "feedback_wrong": "Access = số ít (như 'it') → narrows. Sự thật chung → Simple Present.",
+          "explanation_short": "Access = danh từ số ít → narrows.",
+          "ielts_tip": "Task 2 body: 'Access to X narrows/reduces/improves...' → thêm -s.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'Motivated students submit always their assignments on time.'",
+          "options": [
+            "always → đặt sau submit: submit always (đúng rồi)",
+            "always → đặt trước submit: always submit",
+            "always → đặt cuối câu",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "always → đặt trước submit: always submit",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ always phải đứng TRƯỚC submit",
+          "feedback_wrong": "Trạng từ tần suất: S + always + V thường. 'Submit always' sai vị trí.",
+          "explanation_short": "always đứng TRƯỚC động từ thường: always submit.",
+          "ielts_tip": "always/usually/often đứng TRƯỚC V thường trong Writing.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "Phát hiện lỗi: 'The current education system doesn't prepares students for real-world challenges.'",
+          "options": [
+            "doesn't → don't (system là số nhiều)",
+            "prepares → prepare (sau doesn't dùng V nguyên mẫu)",
+            "doesn't prepares → isn't prepare",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "prepares → prepare (sau doesn't dùng V nguyên mẫu)",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 doesn't + prepare (bare infinitive, không thêm -s)",
+          "feedback_wrong": "doesn't đúng (system = số ít). Nhưng sau doesn't → V nguyên mẫu: prepare.",
+          "explanation_short": "Sau doesn't → V nguyên mẫu: doesn't prepare.",
+          "ielts_tip": "Sau doesn't/don't → V nguyên mẫu. Không bao giờ 'doesn't prepares'.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Speaking Part 1: 'How do you usually spend your free time?' → Câu trả lời nào tự nhiên nhất?",
+          "options": [
+            "I am usually reading books or watching documentaries.",
+            "I usually read books or watch documentaries.",
+            "I usually reading books or watching documentaries.",
+            "I am usually read books or watch documentaries."
+          ],
+          "correct_answer": "I usually read books or watch documentaries.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 usually + thói quen → Simple Present: I usually read",
+          "feedback_wrong": "usually + thói quen → Simple Present. 'Am reading' chỉ khi đang đọc lúc nói.",
+          "explanation_short": "usually + thói quen → Simple Present: I usually read.",
+          "ielts_tip": "Part 1: 'I usually/often/sometimes + V nguyên mẫu...' — không am/is + V-ing cho thói quen.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "Phát hiện lỗi: 'I am knowing that consistent practice is the key to improving grammar.'",
+          "options": [
+            "am knowing → know (stative verb không dùng -ing)",
+            "is → are",
+            "improving → to improve",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "am knowing → know (stative verb không dùng -ing)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ know là stative verb → I know (không am knowing)",
+          "feedback_wrong": "know = stative verb → Simple Present: I know.",
+          "explanation_short": "know = stative verb → không dùng -ing: I know.",
+          "ielts_tip": "Stative verbs: know, understand, believe, think (ý kiến), want, need.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Speaking Part 1: '___ the pressure of exams affect your daily routine?'",
+          "options": [
+            "Do",
+            "Does",
+            "Is",
+            "Has"
+          ],
+          "correct_answer": "Does",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 pressure = it → Does",
+          "feedback_wrong": "Chủ ngữ chính là 'pressure' (số ít) → Does.",
+          "explanation_short": "pressure = ngôi 3 số ít → Does.",
+          "ielts_tip": "Khi chủ ngữ có 'of + noun' phía sau: chia theo chủ ngữ gốc, không phải noun sau of.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi trong câu Task 2: 'Research is consistently showing that bilingual students perform better academically.'",
+          "options": [
+            "is consistently showing → consistently shows (sự thật chung → Simple Present)",
+            "perform → performs",
+            "better → more better",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "is consistently showing → consistently shows (sự thật chung → Simple Present)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Research shows = sự thật → Simple Present",
+          "feedback_wrong": "'Research shows' chuẩn hơn 'is showing' trong Task 2.",
+          "explanation_short": "Research shows = kết quả nghiên cứu như sự thật → Simple Present.",
+          "ielts_tip": "Task 2: 'Research shows/suggests/indicates/demonstrates that...' → Simple Present.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "Tìm câu ĐÚNG hoàn toàn cho IELTS Task 2:",
+          "options": [
+            "The number of students who choose vocational training are increasing each year.",
+            "The number of students who choose vocational training increases each year.",
+            "The number of students who chooses vocational training increase each year.",
+            "The numbers of students who choose vocational training increases each year."
+          ],
+          "correct_answer": "The number of students who choose vocational training increases each year.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 The number of = số ít → increases | who = students → choose",
+          "feedback_wrong": "The number of = số ít → increases. Who = students → choose (không chooses).",
+          "explanation_short": "The number of = số ít → increases. who = students → choose.",
+          "ielts_tip": "'The number of + noun + increases/decreases' — số ít. Khác: 'A number of + noun + are'.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "6aebf34a-7136-43c3-b13c-6d3c6f886fee",
+      "generated_at": "2026-04-25T14:36:03.210127+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-1-simple-present",
+      "metadata_ref": "unit-1-simple-present.metadata",
+      "generation_profile_ref": "gp_unit1_simple_present",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "5.5–6.5",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ. Tìm vị trí lỗi, không chỉ chọn đáp án.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Each of the students who attend the advanced grammar class study independently every evening.'",
+          "options": [
+            "Each of the students",
+            "who attend the advanced grammar class",
+            "study independently",
+            "every evening"
+          ],
+          "correct_answer": "study independently",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 Each of = số ít → studies. who + students → attend đúng!",
+          "feedback_wrong": "Each of the students = số ít → động từ chính phải là 'studies'. 'who attend' đúng vì who = students (số nhiều).",
+          "explanation_short": "Each of = số ít → studies. WHO + students (số nhiều) → attend đúng.",
+          "ielts_tip": "Each/Every/Neither/Either of + plural noun → động từ chính số ít. Nhưng relative clause chia theo antecedent của 'who/which'.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Neither the principal nor the teachers understands why the new policy doesn't addresses the root cause.'",
+          "options": [
+            "Neither the principal nor the teachers",
+            "understands why",
+            "doesn't addresses",
+            "the root cause"
+          ],
+          "correct_answer": "doesn't addresses",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "⚡ doesn't + address (bare infinitive). Bonus: understands cũng sai vì neither...nor + teachers → understand!",
+          "feedback_wrong": "Sau doesn't → V nguyên mẫu: address (không addresses). Và neither...nor + teachers → understand (không understands).",
+          "explanation_short": "Lớp 1: neither...nor + teachers (số nhiều) → understand đúng hay sai? Lớp 2: doesn't + addresses → sai (bare infinitive).",
+          "ielts_tip": "Neither...nor / Either...or: chia theo chủ ngữ GẦN NHẤT với động từ. Sau doesn't → V bare infinitive tuyệt đối.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The information that teachers provide often contain outdated content, which mean students must seek other sources.'",
+          "options": [
+            "The information that teachers provide",
+            "often contain outdated content",
+            "which mean students",
+            "must seek other sources"
+          ],
+          "correct_answer": "often contain outdated content",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 information = số ít → contains. Và: which = content → means cũng sai!",
+          "feedback_wrong": "information = không đếm được = số ít → contains. 'which mean' cũng sai (which = content = số ít → means).",
+          "explanation_short": "information = số ít → contains. which = content (số ít) → means (cũng sai nhưng option B sai trước).",
+          "ielts_tip": "Khi câu dài, xác định chủ ngữ gốc mỗi mệnh đề. information/content/knowledge → số ít → -s.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Câu kết bài Task 2 nào CHUẨN NHẤT về ngữ pháp VÀ học thuật?",
+          "options": [
+            "In conclusion, quality education matters most because it is shaping the future of every nation.",
+            "In conclusion, quality education matters most because it shapes the future of every nation.",
+            "In conclusion, quality education is mattering most because it shapes the future of every nation.",
+            "In conclusion, quality education matters most because it shaped the future of every nation."
+          ],
+          "correct_answer": "In conclusion, quality education matters most because it shapes the future of every nation.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 matters (stative) + shapes (sự thật) = câu kết bài Task 2 hoàn hảo!",
+          "feedback_wrong": "matter = stative → không dùng is mattering. shapes (sự thật bất biến) chuẩn hơn is shaping trong câu kết.",
+          "explanation_short": "matters (stative-like) + shapes (sự thật bất biến) = cả hai Simple Present.",
+          "ielts_tip": "Câu kết Task 2: Simple Present cho cả hai vế tạo sự khẳng định mạnh. Tránh Continuous trong kết bài.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN cho IELTS Speaking Part 3?\n'I ___ [A] that standardised testing ___ [B] students from thinking creatively.'",
+          "options": [
+            "[A] am thinking / [B] is preventing",
+            "[A] think / [B] is preventing",
+            "[A] am thinking / [B] prevents",
+            "[A] think / [B] prevents"
+          ],
+          "correct_answer": "[A] think / [B] prevents",
+          "correct_index": 3,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 think (stative/ý kiến) + prevents (quy luật hệ thống) = Part 3 band 6.5!",
+          "feedback_wrong": "think (ý kiến) → stative → Simple Present: I think. prevents (quy luật) → Simple Present: prevents.",
+          "explanation_short": "think (ý kiến) = stative → I think. prevents = quy luật hệ thống → Simple Present.",
+          "ielts_tip": "Part 3 phân tích hệ thống: 'I think/feel that + Simple Present' khi nêu quy luật → nghe academic hơn Continuous.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu Task 2 sau có lỗi ở phrase nào?\n'High-achieving students do not neglect consistently their revision schedule even during holiday periods.'",
+          "options": [
+            "High-achieving students do not",
+            "neglect consistently",
+            "their revision schedule",
+            "even during holiday periods"
+          ],
+          "correct_answer": "neglect consistently",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "⚡ Trạng từ phải nằm giữa do not và động từ chính: do not consistently neglect!",
+          "feedback_wrong": "Cấu trúc: do not + [adverb] + V. 'Consistently' phải đứng giữa 'do not' và 'neglect'.",
+          "explanation_short": "consistently phải đứng giữa 'do not' và 'neglect': do not consistently neglect.",
+          "ielts_tip": "Task 2 phủ định: 'do not consistently/regularly/effectively + V' — trạng từ nằm giữa auxiliary và main verb.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Câu Task 2 nào ĐÚNG HOÀN TOÀN về mặt academic English?",
+          "options": [
+            "The data collected by the research team clearly suggests that private tutoring, which improve exam scores, is widespread.",
+            "The data collected by the research team clearly suggest that private tutoring, which improves exam scores, is widespread.",
+            "The data collected by the research team clearly suggest that private tutoring, which improve exam scores, are widespread.",
+            "The data collected by the research team clearly suggests that private tutoring, which improves exam scores, are widespread."
+          ],
+          "correct_answer": "The data collected by the research team clearly suggest that private tutoring, which improves exam scores, is widespread.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 data → suggest | which = tutoring → improves | tutoring → is. Ba lớp đều đúng!",
+          "feedback_wrong": "data (academic) = plural → suggest. which = tutoring (singular) → improves. tutoring → is widespread.",
+          "explanation_short": "data (academic plural) → suggest. which = tutoring (singular) → improves. tutoring → is.",
+          "ielts_tip": "Academic English: data/criteria/phenomena = plural → suggest/are/have. Khác với informal: data is.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu Task 2 sau có lỗi ở phrase nào?\n'The quality of educational opportunities available to students in rural and remote areas often fall short of national standards.'",
+          "options": [
+            "The quality of educational opportunities",
+            "available to students in rural and remote areas",
+            "often fall short",
+            "of national standards"
+          ],
+          "correct_answer": "often fall short",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "⚡ Chủ ngữ thật = 'The quality' (số ít) → falls short!",
+          "feedback_wrong": "Cụm 'of...areas' chỉ là bổ ngữ. Chủ ngữ gốc = 'The quality' (số ít) → falls short.",
+          "explanation_short": "Chủ ngữ thật là 'The quality' (số ít) → falls short (không fall short).",
+          "ielts_tip": "Khi chủ ngữ có cụm bổ nghĩa dài: luôn xác định HEAD NOUN (từ chính) để chia động từ đúng.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Câu body paragraph Task 2 nào phân biệt ĐÚNG giữa sự thật đã được xác lập và xu hướng đang diễn ra?",
+          "options": [
+            "Online platforms provide access to education globally, and the number of learners using them grows rapidly.",
+            "Online platforms are providing access to education globally, and the number of learners using them is growing rapidly.",
+            "Online platforms provide access to education globally, and the number of learners using them is growing rapidly.",
+            "Online platforms are providing access to education globally, and the number of learners using them grows rapidly."
+          ],
+          "correct_answer": "Online platforms provide access to education globally, and the number of learners using them is growing rapidly.",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 provide (sự thật xác lập) + is growing (xu hướng) = Grammatical Range band 6.5!",
+          "feedback_wrong": "provide = established fact → Simple Present. is growing = ongoing trend → Continuous. Hai thì khác nhau trong 1 câu là đúng khi ngữ nghĩa khác nhau.",
+          "explanation_short": "provide = sự thật đã xác lập → Simple Present. is growing = xu hướng đang diễn ra → Continuous.",
+          "ielts_tip": "Task 2 nâng cao: kết hợp Simple Present (sự thật) + Continuous (xu hướng) trong cùng câu → thể hiện Grammatical Range rõ ràng nhất.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'The number of rural students who gain access to higher education [A] are rising, which [B] mean that traditional barriers [C] doesn't no longer define their future.'",
+          "options": [
+            "Chỉ [A] và [C] có lỗi — [B] đúng",
+            "Chỉ [B] và [C] có lỗi — [A] đúng",
+            "Cả [A], [B] và [C] đều có lỗi",
+            "Chỉ [A] có lỗi — [B] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A], [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] is rising | [B] means | [C] no longer define. Ba lớp hoàn chỉnh!",
+          "feedback_wrong": "Ba lỗi: [A] The number of = số ít → is rising. [B] which = the fact → means. [C] double negative → no longer define.",
+          "explanation_short": "[A] are rising → is rising. [B] mean → means. [C] doesn't no longer → no longer defines.",
+          "ielts_tip": "Khi review Task 2: check (1) The number of = singular, (2) which thay gì, (3) double negative. Ba điểm này gây lỗi nhiều nhất ở band 5.5→6.5.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}
