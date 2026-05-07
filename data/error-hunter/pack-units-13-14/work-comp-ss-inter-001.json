@@ -67,5 +67,8 @@
       "ieltsTipErrorType": "COMPARATIVE"
     }
   ],
-  "totalErrors": 4
+  "totalErrors": 4,
+  "title": "IELTS Writing Task 2: Work — COMPARATIVE & SENTENCE_STRUCTURE",
+  "titleVi": "IELTS Writing Task 2: Công việc — So sánh & Cấu trúc câu",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

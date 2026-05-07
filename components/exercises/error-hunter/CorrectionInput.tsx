@@ -25,7 +25,7 @@ export default function CorrectionInput({
         margin: 0, fontSize: 11, fontWeight: 700,
         letterSpacing: "0.08em", color: "#92400e", textTransform: "uppercase",
       }}>
-        Your selections
+        Các lỗi bạn chọn
       </p>
       {selections.map((sel) => (
         <SelectionRow
@@ -76,7 +76,7 @@ function SelectionRow({
         onChange={(e) => onUpdate(e.target.value)}
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
-        placeholder="Type correction (optional)"
+        placeholder="Gõ bản sửa (để trống nếu không chắc)"
         style={{
           flex: 1, fontSize: 13, padding: "3px 8px",
           border: `1px solid ${focused ? "#f59e0b" : "#e2e8f0"}`,
@@ -91,7 +91,7 @@ function SelectionRow({
       {!locked && (
         <button
           onClick={onRemove}
-          title="Remove selection"
+          title="Xóa lựa chọn"
           style={{
             border: "none", background: "transparent",
             cursor: "pointer", color: "#94a3b8",

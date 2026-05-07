@@ -71,5 +71,8 @@
       "ieltsTipErrorType": "PUNCTUATION"
     }
   ],
-  "totalErrors": 5
+  "totalErrors": 5,
+  "title": "IELTS Writing Task 2: Technology — SENTENCE_STRUCTURE & PUNCTUATION",
+  "titleVi": "IELTS Writing Task 2: Công nghệ — Cấu trúc câu & Dấu câu",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

@@ -59,5 +59,8 @@
       "ieltsTipErrorType": "COMPARATIVE"
     }
   ],
-  "totalErrors": 4
+  "totalErrors": 4,
+  "title": "IELTS Speaking Part 3: Lifestyle — COMPARATIVE",
+  "titleVi": "IELTS Speaking Part 3: Lối sống — So sánh",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

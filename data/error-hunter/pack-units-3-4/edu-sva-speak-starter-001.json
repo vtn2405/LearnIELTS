@@ -70,5 +70,8 @@
       "ieltsTipErrorType": "SVA"
     }
   ],
-  "totalErrors": 5
+  "totalErrors": 5,
+  "title": "IELTS Speaking Part 3: Education — SVA",
+  "titleVi": "IELTS Speaking Part 3: Giáo dục — Hòa hợp chủ-vị",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

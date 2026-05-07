@@ -16,6 +16,7 @@ export async function GET(req: NextRequest) {
 
   const { searchParams } = req.nextUrl;
   const packId = searchParams.get("packId") ?? undefined;
+  const difficulty = searchParams.get("difficulty") ?? undefined;
 
   // 1. Determine allowed unit range from the user's highest completed unit
   const completedUnits = await prisma.unitProgress.findMany({
@@ -45,6 +46,7 @@ export async function GET(req: NextRequest) {
       isActive: true,
       minUnitIndex: { lte: allowedMaxUnit },
       ...(packId ? { packId } : {}),
+      ...(difficulty ? { difficulty: difficulty as any } : {}),
       ...(excludeIds.length > 0 ? { id: { notIn: excludeIds } } : {}),
     },
     include: {
@@ -70,15 +72,18 @@ export async function GET(req: NextRequest) {
 
   const response: EhNextResponse = {
     passage: {
-      id:             passage.id,
-      topic:          passage.topic,
-      taskType:       passage.taskType as any,
-      bandTarget:     passage.bandTarget,
-      grammarFocus:   passage.grammarFocus,
-      difficulty:     passage.difficulty as any,
-      questionPrompt: passage.questionPrompt,
-      passageText:    passage.passageText,
-      totalErrors:    passage.totalErrors,
+      id:               passage.id,
+      title:            passage.title,
+      titleVi:          passage.titleVi,
+      topic:            passage.topic,
+      taskType:         passage.taskType as any,
+      bandTarget:       passage.bandTarget,
+      grammarFocus:     passage.grammarFocus,
+      difficulty:       passage.difficulty as any,
+      questionPrompt:   passage.questionPrompt,
+      questionPromptVi: passage.questionPromptVi,
+      passageText:      passage.passageText,
+      totalErrors:      passage.totalErrors,
     },
     errorsMeta: passage.errors.map((e: { id: string; errorType: string; severity: string }) => ({
       id:       e.id,

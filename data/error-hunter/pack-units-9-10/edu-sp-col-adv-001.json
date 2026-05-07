@@ -100,5 +100,8 @@
       "ieltsTipErrorType": "COLLOCATION"
     }
   ],
-  "totalErrors": 7
+  "totalErrors": 7,
+  "title": "IELTS Writing Task 2: Education — SINGULAR_PLURAL & COLLOCATION",
+  "titleVi": "IELTS Writing Task 2: Giáo dục — Số ít/số nhiều & Kết hợp từ",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

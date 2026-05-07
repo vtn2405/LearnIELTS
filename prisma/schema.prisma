@@ -340,6 +340,8 @@ enum EhErrorSeverity {
 model ErrorHunterPassage {
   id              String       @id @default(cuid())
   slug            String       @unique  // e.g. "edu-sva-starter-001" — stable admin key
+  title           String?      // e.g. "IELTS Writing Task 2: Education — ARTICLE & TENSE"
+  titleVi         String?      // Vietnamese title
   topic           String       // "Education" | "Environment" | "Work" | "Technology" | "Health"
   taskType        EhTaskType
   bandTarget      Float
@@ -349,6 +351,7 @@ model ErrorHunterPassage {
   difficulty      EhDifficulty
   packId          String       // "pack-units-1-2" | "pack-units-3-4" | "pack-units-5"
   questionPrompt  String
+  questionPromptVi String?     // Vietnamese question prompt
   passageText     String       @db.Text
   totalErrors     Int
   /// Optional JSON array of FalseAlarmZone objects for smart false-alarm hints

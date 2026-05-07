@@ -89,5 +89,8 @@
       "ieltsTipErrorType": "TENSE"
     }
   ],
-  "totalErrors": 6
+  "totalErrors": 6,
+  "title": "IELTS Writing Task 2: Education — ARTICLE & TENSE",
+  "titleVi": "IELTS Writing Task 2: Giáo dục — Mạo từ & Thì",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }
