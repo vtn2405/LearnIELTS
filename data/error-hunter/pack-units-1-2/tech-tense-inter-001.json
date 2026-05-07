@@ -1,0 +1,70 @@
+{
+  "slug": "tech-tense-inter-001",
+  "topic": "Technology",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6,
+  "minUnitIndex": 1,
+  "maxUnitIndex": 2,
+  "grammarFocus": [
+    "TENSE"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-1-2",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "In 2020, global internet usage has increased dramatically. Before the pandemic, many companies already adopt remote working policies. By next year, the number of online learners will grew significantly. Currently, education is underwent a major transformation.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 203,
+      "endIndex": 212,
+      "text": "Currently",
+      "hint": "'Currently' is a correct time adverb and does not need to be changed."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 31,
+      "endIndex": 44,
+      "errorText": "has increased",
+      "correctText": "increased",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'In 2020' specifies a completed past time. Use simple past 'increased', not present perfect.",
+      "grammarRuleCode": "TENSE-001",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 95,
+      "endIndex": 108,
+      "errorText": "already adopt",
+      "correctText": "had already adopted",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "An event before another past event requires past perfect: 'had already adopted'.",
+      "grammarRuleCode": "TENSE-001",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 178,
+      "endIndex": 187,
+      "errorText": "will grew",
+      "correctText": "will grow",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "After 'will', use the base form of the verb: 'grow', not 'grew'.",
+      "grammarRuleCode": "TENSE-003",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 224,
+      "endIndex": 236,
+      "errorText": "is underwent",
+      "correctText": "is undergoing",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'Currently' signals an ongoing action. Use present continuous: 'is undergoing'.",
+      "grammarRuleCode": "TENSE-002",
+      "ieltsTipErrorType": "TENSE"
+    }
+  ],
+  "totalErrors": 4
+}

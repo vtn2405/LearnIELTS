@@ -4,17 +4,23 @@
     "tips": [
       {
         "title": "The 3-question article test",
+        "titleVi": "Bai kiem tra 3 cau hoi ve mao tu",
         "body": "Before any noun, ask: (1) Is it countable? (2) Is it specific/identified? (3) Am I referring to it in general? Uncountable + general = zero article. Countable + first mention = a/an. Identified/specific = the.",
+        "bodyVi": "Truoc moi danh tu, hay tu hoi: (1) Dem duoc khong? (2) Da xac dinh cu the chua? (3) Dang noi chung chung? Khong dem duoc + noi chung = khong dung mao tu. Dem duoc + lan dau nhac = a/an. Da xac dinh = the.",
         "targetBand": 6.0
       },
       {
         "title": "Beware of 'the + abstract noun'",
-        "body": "In IELTS essays, writers overuse 'the' before abstract concepts: ✗ 'The education is important' → ✓ 'Education is important'. Only use 'the' if you mean a specific instance: 'The education system in Vietnam needs reform.'",
+        "titleVi": "Can than voi 'the + danh tu truu tuong'",
+        "body": "In IELTS essays, writers overuse 'the' before abstract concepts: 'The education is important' should be 'Education is important'. Only use 'the' if you mean a specific instance: 'The education system in Vietnam needs reform.'",
+        "bodyVi": "Trong bai IELTS, thi sinh hay lam dung 'the' truoc danh tu truu tuong: 'The education is important' phai la 'Education is important'. Chi dung 'the' khi noi den mot truong hop cu the: 'The education system in Vietnam needs reform.'",
         "targetBand": 6.5
       },
       {
         "title": "Second-mention rule in Task 1",
+        "titleVi": "Quy tac nhac lan hai trong Task 1",
         "body": "In graph descriptions, introduce a data point with 'a' (or no article for uncountable), then switch to 'the' on the next reference. Example: 'There was a sharp rise in 2010. The rise was followed by a plateau.' This signals you're tracking the same data point.",
+        "bodyVi": "Khi mo ta bieu do, lan dau nhac dung 'a' (hoac khong mao tu cho danh tu khong dem duoc), sau do chuyen sang 'the'. Vi du: 'There was a sharp rise in 2010. The rise was followed by a plateau.' Dieu nay cho thay ban dang theo doi cung mot du lieu.",
         "targetBand": 7.0
       }
     ]
@@ -24,17 +30,23 @@
     "tips": [
       {
         "title": "Task 1: anchor your tense to the graph's time frame",
-        "body": "Check whether the data is historical, current, or projected. Historical (2000–2020) → simple past. Current trend (ongoing) → present perfect or present. Future projection (2030, 'is forecast to') → will / is expected to. Mix tenses only when the graph itself spans multiple time zones.",
+        "titleVi": "Task 1: neo thi dong tu theo khung thoi gian cua bieu do",
+        "body": "Check whether the data is historical, current, or projected. Historical (2000-2020) = simple past. Current trend (ongoing) = present perfect or present. Future projection (2030, 'is forecast to') = will / is expected to. Mix tenses only when the graph itself spans multiple time zones.",
+        "bodyVi": "Kiem tra du lieu thuoc qua khu, hien tai hay du bao. Qua khu (2000-2020) = thi qua khu don. Xu huong hien tai = hien tai hoan thanh hoac hien tai. Du bao tuong lai (2030) = will / is expected to. Chi tron thi khi bieu do trai qua nhieu giai doan.",
         "targetBand": 6.0
       },
       {
         "title": "Task 2: use present simple for your argument, past only for evidence",
-        "body": "Your main claims and opinions use present simple: 'Globalisation increases inequality.' Only switch to past when citing historical evidence: 'The 2008 financial crisis showed that…'. A paragraph that shifts between past and present without reason signals poor tense control to examiners.",
+        "titleVi": "Task 2: dung hien tai don cho lap luan, qua khu chi cho dan chung",
+        "body": "Your main claims and opinions use present simple: 'Globalisation increases inequality.' Only switch to past when citing historical evidence: 'The 2008 financial crisis showed that...' A paragraph that shifts between past and present without reason signals poor tense control to examiners.",
+        "bodyVi": "Y kien va lap luan chinh dung hien tai don: 'Globalisation increases inequality.' Chi chuyen sang qua khu khi trich dan: 'The 2008 financial crisis showed that...' Doan van chuyen thi lung tung cho thay kha nang kiem soat thi kem.",
         "targetBand": 6.5
       },
       {
         "title": "Perfect aspect vs simple past: it depends on relevance now",
-        "body": "Use present perfect ('has increased') when the past event still has present relevance. Use simple past ('increased') when it's complete with no current connection. In Task 2 body paragraphs, simple past is usually safer — perfect is for introductions and overviews.",
+        "titleVi": "Hoan thanh vs qua khu don: phu thuoc vao su lien quan hien tai",
+        "body": "Use present perfect ('has increased') when the past event still has present relevance. Use simple past ('increased') when it's complete with no current connection. In Task 2 body paragraphs, simple past is usually safer - perfect is for introductions and overviews.",
+        "bodyVi": "Dung hien tai hoan thanh ('has increased') khi su kien qua khu van lien quan den hien tai. Dung qua khu don ('increased') khi da hoan tat. Trong than bai Task 2, qua khu don thuong an toan hon - hoan thanh phu hop cho mo bai va tong quan.",
         "targetBand": 7.0
       }
     ]
@@ -44,17 +56,23 @@
     "tips": [
       {
         "title": "Identify the true subject, not the nearest noun",
-        "body": "Long noun phrases bury the real subject: 'The number of people who live in urban areas [is/are]?' — the subject is 'number', so it's 'is'. Strip out the prepositional phrase and relative clause to find the head noun, then match the verb.",
+        "titleVi": "Xac dinh chu ngu that su, khong phai danh tu gan nhat",
+        "body": "Long noun phrases bury the real subject: 'The number of people who live in urban areas [is/are]?' - the subject is 'number', so it's 'is'. Strip out the prepositional phrase and relative clause to find the head noun, then match the verb.",
+        "bodyVi": "Cum danh tu dai che giau chu ngu that: 'The number of people who live in urban areas [is/are]?' - chu ngu la 'number' nen dung 'is'. Bo qua cum gioi tu va menh de quan he de tim danh tu chinh, roi chia dong tu.",
         "targetBand": 6.0
       },
       {
-        "title": "'The number of' vs 'a number of' — they take opposite verbs",
-        "body": "'The number of + plural noun' = singular verb: 'The number of accidents is rising.' 'A number of + plural noun' = plural verb: 'A number of accidents have been reported.' Memorise this pair — it appears in almost every IELTS mock test.",
+        "title": "'The number of' vs 'a number of' - they take opposite verbs",
+        "titleVi": "'The number of' vs 'a number of' - chia dong tu nguoc nhau",
+        "body": "'The number of + plural noun' = singular verb: 'The number of accidents is rising.' 'A number of + plural noun' = plural verb: 'A number of accidents have been reported.' Memorise this pair - it appears in almost every IELTS mock test.",
+        "bodyVi": "'The number of + danh tu so nhieu' = dong tu so it: 'The number of accidents is rising.' 'A number of + danh tu so nhieu' = dong tu so nhieu: 'A number of accidents have been reported.' Hay thuoc cap nay - no xuat hien trong hau het de thi IELTS.",
         "targetBand": 6.5
       },
       {
         "title": "Collective nouns in academic writing: default to singular",
+        "titleVi": "Danh tu tap hop trong van hoc thuat: mac dinh so it",
         "body": "In academic IELTS writing, treat collective nouns as singular: the government HAS, the team IS, the committee HAS DECIDED. British English allows plural (the government ARE), but singular is safer for IELTS and avoids mixed-number errors within the same paragraph.",
+        "bodyVi": "Trong bai viet IELTS hoc thuat, coi danh tu tap hop la so it: the government HAS, the team IS, the committee HAS DECIDED. Tieng Anh Anh cho phep so nhieu nhung so it an toan hon cho IELTS va tranh loi khong nhat quan trong cung doan.",
         "targetBand": 7.0
       }
     ]
@@ -64,17 +82,23 @@
     "tips": [
       {
         "title": "Learn prepositions by chunk, not by rule",
-        "body": "English prepositions follow convention more than logic. Build a personal list of 20 high-frequency academic chunks: 'responsible FOR', 'result IN', 'contribute TO', 'depend ON', 'associated WITH'. Read them aloud until they sound right — ear memory beats rule memory for prepositions.",
+        "titleVi": "Hoc gioi tu theo cum, khong theo quy tac",
+        "body": "English prepositions follow convention more than logic. Build a personal list of 20 high-frequency academic chunks: 'responsible FOR', 'result IN', 'contribute TO', 'depend ON', 'associated WITH'. Read them aloud until they sound right - ear memory beats rule memory for prepositions.",
+        "bodyVi": "Gioi tu tieng Anh theo quy uoc hon la logic. Lap danh sach 20 cum hoc thuat pho bien: 'responsible FOR', 'result IN', 'contribute TO', 'depend ON', 'associated WITH'. Doc to cho den khi nghe quen - tri nho thinh giac hieu qua hon quy tac cho gioi tu.",
         "targetBand": 6.0
       },
       {
         "title": "Watch for verb-to-preposition chains",
-        "body": "When you nominalise a verb (turn it into a noun), its preposition sometimes changes: 'invest IN' (verb) → 'investment IN' (noun). But 'contribute TO' → 'contribution TO'. Check each noun-preposition pair separately; don't assume the verb's preposition transfers.",
+        "titleVi": "Chu y chuoi dong tu - gioi tu",
+        "body": "When you nominalise a verb (turn it into a noun), its preposition sometimes changes: 'invest IN' (verb) -> 'investment IN' (noun). But 'contribute TO' -> 'contribution TO'. Check each noun-preposition pair separately; don't assume the verb's preposition transfers.",
+        "bodyVi": "Khi danh tu hoa dong tu, gioi tu doi khi thay doi: 'invest IN' (dong tu) -> 'investment IN' (danh tu). Nhung 'contribute TO' -> 'contribution TO'. Kiem tra tung cap danh tu-gioi tu rieng biet; dung nghi gioi tu cua dong tu se tu chuyen sang.",
         "targetBand": 6.5
       },
       {
         "title": "Spot-check your prepositions in the final minute",
-        "body": "In the last 60 seconds of IELTS Writing, scan your essay for the five highest-error prepositions in academic texts: in/on/at (time + place), for/of (relationship), with/by (agent/manner). Don't reread for content — just hunt these words specifically.",
+        "titleVi": "Kiem tra nhanh gioi tu trong phut cuoi",
+        "body": "In the last 60 seconds of IELTS Writing, scan your essay for the five highest-error prepositions in academic texts: in/on/at (time + place), for/of (relationship), with/by (agent/manner). Don't reread for content - just hunt these words specifically.",
+        "bodyVi": "Trong 60 giay cuoi cua bai Writing IELTS, quet bai tim 5 gioi tu hay sai nhat: in/on/at (thoi gian + noi chon), for/of (quan he), with/by (tac nhan/cach thuc). Dung doc lai noi dung - chi san nhung tu nay.",
         "targetBand": 7.0
       }
     ]
@@ -84,17 +108,23 @@
     "tips": [
       {
         "title": "Map the four forms for your key vocabulary",
-        "body": "For every important word you plan to use in an essay, know all four forms before the exam: noun / verb / adjective / adverb. Example: pollution / pollute / polluted, polluting / — . Write a 10-word vocabulary table for each topic you prepare (environment, technology, health).",
+        "titleVi": "Nam 4 dang tu cho tu vung trong tam",
+        "body": "For every important word you plan to use in an essay, know all four forms before the exam: noun / verb / adjective / adverb. Example: pollution / pollute / polluted, polluting / -. Write a 10-word vocabulary table for each topic you prepare (environment, technology, health).",
+        "bodyVi": "Moi tu quan trong ban du dinh dung trong bai, hay biet ca 4 dang truoc khi thi: danh tu / dong tu / tinh tu / trang tu. Vi du: pollution / pollute / polluted, polluting / -. Lap bang 10 tu cho moi chu de ban chuan bi.",
         "targetBand": 6.0
       },
       {
         "title": "Suffix signals the word class",
+        "titleVi": "Hau to cho biet loai tu",
         "body": "Use suffixes as a quick check: -tion/-sion/-ment/-ance = noun; -ify/-ise/-ate = verb; -ive/-al/-ic/-ous = adjective; -ly = adverb (usually). If your sentence needs a verb but you've written a -tion word, flag it for correction.",
+        "bodyVi": "Dung hau to de kiem tra nhanh: -tion/-sion/-ment/-ance = danh tu; -ify/-ise/-ate = dong tu; -ive/-al/-ic/-ous = tinh tu; -ly = trang tu. Neu cau can dong tu ma ban viet tu duoi -tion, hay sua ngay.",
         "targetBand": 6.5
       },
       {
-        "title": "Avoid stacking nouns — convert to adjective + noun",
-        "body": "A very common word-form error in IELTS essays: 'the economy development' (two nouns stacked). Convert to 'economic development' (adjective + noun). Scan your essay for any sequence of [noun] + [noun] — one of them likely needs to be in adjective form.",
+        "title": "Avoid stacking nouns - convert to adjective + noun",
+        "titleVi": "Tranh chong danh tu - chuyen thanh tinh tu + danh tu",
+        "body": "A very common word-form error in IELTS essays: 'the economy development' (two nouns stacked). Convert to 'economic development' (adjective + noun). Scan your essay for any sequence of [noun] + [noun] - one of them likely needs to be in adjective form.",
+        "bodyVi": "Loi dang tu rat pho bien trong bai IELTS: 'the economy development' (hai danh tu chong nhau). Chuyen thanh 'economic development' (tinh tu + danh tu). Quet bai tim chuoi [danh tu] + [danh tu] - mot trong hai co le can o dang tinh tu.",
         "targetBand": 7.0
       }
     ]
@@ -104,17 +134,23 @@
     "tips": [
       {
         "title": "One connector per clause boundary",
-        "body": "The most common sentence structure error in IELTS is the 'although…, but…' double connector. A clause can only have one subordinator or coordinator at its junction. Write it, then check: is there exactly one connector linking these two ideas? If you see two, delete one.",
+        "titleVi": "Mot lien tu cho moi ranh gioi menh de",
+        "body": "The most common sentence structure error in IELTS is the 'although..., but...' double connector. A clause can only have one subordinator or coordinator at its junction. Write it, then check: is there exactly one connector linking these two ideas? If you see two, delete one.",
+        "bodyVi": "Loi cau truc cau pho bien nhat trong IELTS la 'although..., but...' (hai lien tu). Mot menh de chi co mot lien tu phu thuoc hoac dang lap. Viet xong kiem tra: co dung mot lien tu noi hai y khong? Neu thay hai, xoa mot.",
         "targetBand": 6.0
       },
       {
         "title": "Vary sentence length intentionally, not by accident",
-        "body": "IELTS Band 7+ requires sentence variety. After writing a paragraph, check: are all sentences roughly the same length? If yes, deliberately break one long sentence into two shorter ones, or combine two short ones with a conjunction. Aim for a mix of 10–15 word and 20–30 word sentences.",
+        "titleVi": "Da dang do dai cau co chu dich, khong phai ngau nhien",
+        "body": "IELTS Band 7+ requires sentence variety. After writing a paragraph, check: are all sentences roughly the same length? If yes, deliberately break one long sentence into two shorter ones, or combine two short ones with a conjunction. Aim for a mix of 10-15 word and 20-30 word sentences.",
+        "bodyVi": "IELTS Band 7+ yeu cau da dang cau. Sau khi viet doan, kiem tra: tat ca cau co cung do dai khong? Neu co, co y tach cau dai thanh hai cau ngan, hoac ket hop hai cau ngan bang lien tu. Nham hon hop cau 10-15 tu va 20-30 tu.",
         "targetBand": 6.5
       },
       {
         "title": "Fronted adverbials are your safest complexity move",
-        "body": "Adding a subordinate clause at the front of a sentence is the simplest way to demonstrate complex sentence structure without risk. 'Although this view has merit, it overlooks…' / 'While governments play a role, individuals must also…'. These are formulaic but always grammatically safe.",
+        "titleVi": "Trang ngu dau cau la cach an toan nhat de tao cau phuc",
+        "body": "Adding a subordinate clause at the front of a sentence is the simplest way to demonstrate complex sentence structure without risk. 'Although this view has merit, it overlooks...' / 'While governments play a role, individuals must also...'. These are formulaic but always grammatically safe.",
+        "bodyVi": "Them menh de phu vao dau cau la cach don gian nhat de the hien cau truc cau phuc ma khong rui ro. 'Although this view has merit, it overlooks...' / 'While governments play a role, individuals must also...'. Cong thuc nhung luon dung ngu phap.",
         "targetBand": 7.0
       }
     ]
@@ -124,17 +160,23 @@
     "tips": [
       {
         "title": "Conjunctive adverbs always need a comma after them",
-        "body": "Words like However, Therefore, Furthermore, Nevertheless, In addition, As a result — when they start a sentence — must be followed by a comma. This is not optional. Examiners mark 'However the...' as a punctuation error that affects the Grammatical Range and Accuracy band.",
+        "titleVi": "Trang tu lien ket luon can dau phay phia sau",
+        "body": "Words like However, Therefore, Furthermore, Nevertheless, In addition, As a result - when they start a sentence - must be followed by a comma. This is not optional. Examiners mark 'However the...' as a punctuation error that affects the Grammatical Range and Accuracy band.",
+        "bodyVi": "Cac tu nhu However, Therefore, Furthermore, Nevertheless, In addition, As a result - khi dung dau cau - bat buoc phai co dau phay. Giam khao danh dau 'However the...' la loi cham cau anh huong den diem Grammatical Range and Accuracy.",
         "targetBand": 6.0
       },
       {
         "title": "Semicolons and colons: one safe use each",
+        "titleVi": "Cham phay va hai cham: moi loai mot cach dung an toan",
         "body": "Semicolon: join two independent clauses that are closely related. 'Obesity is rising; governments must respond.' Colon: introduce a list or explanation. 'There are two main causes: diet and exercise.' Using either of these correctly signals higher-band control to examiners.",
+        "bodyVi": "Cham phay: noi hai menh de doc lap lien quan chat che. 'Obesity is rising; governments must respond.' Hai cham: gioi thieu danh sach hoac giai thich. 'There are two main causes: diet and exercise.' Dung dung cho thay trinh do band cao.",
         "targetBand": 6.5
       },
       {
         "title": "Never use a comma before 'that', 'because', or 'since' (when causal)",
-        "body": "Subordinating conjunctions (that, because, since, when, if, although) do NOT require a comma before them when they follow the main clause: ✗ 'It is clear, that education matters' → ✓ 'It is clear that education matters'. Commas go before coordinating conjunctions (but, so, yet, for), not subordinators.",
+        "titleVi": "Khong bao gio dung dau phay truoc 'that', 'because', 'since' (khi chi nguyen nhan)",
+        "body": "Subordinating conjunctions (that, because, since, when, if, although) do NOT require a comma before them when they follow the main clause: 'It is clear, that education matters' is wrong - use 'It is clear that education matters'. Commas go before coordinating conjunctions (but, so, yet, for), not subordinators.",
+        "bodyVi": "Lien tu phu thuoc (that, because, since, when, if, although) KHONG can dau phay phia truoc khi dung sau menh de chinh: 'It is clear, that education matters' la sai - dung 'It is clear that education matters'. Dau phay dat truoc lien tu dang lap (but, so, yet, for), khong phai lien tu phu thuoc.",
         "targetBand": 7.0
       }
     ]
@@ -144,17 +186,23 @@
     "tips": [
       {
         "title": "The IELTS uncountable noun blacklist",
+        "titleVi": "Danh sach den danh tu khong dem duoc trong IELTS",
         "body": "Memorise these 12 words that can NEVER be pluralised in IELTS essays: information, advice, research, evidence, knowledge, furniture, equipment, money, traffic, news, progress, homework. If you write 'informations' or 'advices', it is an immediate error.",
+        "bodyVi": "Thuoc long 12 tu KHONG BAO GIO chia so nhieu trong bai IELTS: information, advice, research, evidence, knowledge, furniture, equipment, money, traffic, news, progress, homework. Neu viet 'informations' hoac 'advices', do la loi ngay lap tuc.",
         "targetBand": 6.0
       },
       {
         "title": "Quantifiers signal whether a noun should be singular or plural",
-        "body": "Count nouns (book, student, country) use: many, few, a few, several, a number of — with plural form. Uncount nouns use: much, little, a little, a great deal of, a lack of — with singular form. Getting these pairings right avoids a cluster of errors in one sentence.",
+        "titleVi": "Luong tu cho biet danh tu nen so it hay so nhieu",
+        "body": "Count nouns (book, student, country) use: many, few, a few, several, a number of - with plural form. Uncount nouns use: much, little, a little, a great deal of, a lack of - with singular form. Getting these pairings right avoids a cluster of errors in one sentence.",
+        "bodyVi": "Danh tu dem duoc (book, student, country) dung: many, few, a few, several, a number of - voi dang so nhieu. Danh tu khong dem duoc dung: much, little, a little, a great deal of, a lack of - voi dang so it. Ghep dung tranh ca cum loi trong mot cau.",
         "targetBand": 6.5
       },
       {
-        "title": "Criteria, phenomena, data — know your Latin plurals",
-        "body": "Academic writing frequently uses words with Latin/Greek plurals: criterion (sing.) / criteria (pl.); phenomenon / phenomena; medium / media; datum / data. In IELTS academic essays, 'data' is typically treated as plural: 'The data show…' though 'The data shows…' is increasingly accepted.",
+        "title": "Criteria, phenomena, data - know your Latin plurals",
+        "titleVi": "Criteria, phenomena, data - biet so nhieu goc Latin",
+        "body": "Academic writing frequently uses words with Latin/Greek plurals: criterion (sing.) / criteria (pl.); phenomenon / phenomena; medium / media; datum / data. In IELTS academic essays, 'data' is typically treated as plural: 'The data show...' though 'The data shows...' is increasingly accepted.",
+        "bodyVi": "Van hoc thuat hay dung tu co so nhieu Latin/Hy Lap: criterion (it) / criteria (nhieu); phenomenon / phenomena; medium / media; datum / data. Trong bai IELTS, 'data' thuong coi la so nhieu: 'The data show...' du 'The data shows...' ngay cang duoc chap nhan.",
         "targetBand": 7.0
       }
     ]
@@ -164,17 +212,23 @@
     "tips": [
       {
         "title": "When unsure, use a neutral verb + noun",
+        "titleVi": "Khi khong chac, dung dong tu trung tinh + danh tu",
         "body": "If you are not sure whether 'do', 'make', or 'take' collocates with a noun, use a more academic verb: instead of 'do a research', write 'conduct research / carry out research'. Instead of 'make a solution', write 'develop a solution / propose a solution'. Precise verbs also improve your lexical score.",
+        "bodyVi": "Neu khong chac 'do', 'make', hay 'take' ket hop voi danh tu nao, hay dung dong tu hoc thuat hon: thay vi 'do a research', viet 'conduct research / carry out research'. Thay vi 'make a solution', viet 'develop a solution / propose a solution'. Dong tu chinh xac cung cai thien diem tu vung.",
         "targetBand": 6.0
       },
       {
-        "title": "Strong/heavy/high/large — learn which adjective goes with which noun",
+        "title": "Strong/heavy/high/large - learn which adjective goes with which noun",
+        "titleVi": "Strong/heavy/high/large - hoc tinh tu nao di voi danh tu nao",
         "body": "These four adjectives are often confused: STRONG (argument, evidence, link, influence), HEAVY (rain, traffic, smoker, burden), HIGH (rate, level, demand, temperature), LARGE (number, proportion, scale, amount). When you use an intensifying adjective, pause and ask: have I seen this exact phrase in academic text?",
+        "bodyVi": "Bon tinh tu nay hay bi nham: STRONG (argument, evidence, link, influence), HEAVY (rain, traffic, smoker, burden), HIGH (rate, level, demand, temperature), LARGE (number, proportion, scale, amount). Khi dung tinh tu tang cuong, hay dung lai hoi: toi da thay cum nay trong van hoc thuat chua?",
         "targetBand": 6.5
       },
       {
         "title": "Read collocations in context, not in isolation",
+        "titleVi": "Doc ket hop tu trong ngu canh, khong rieng le",
         "body": "The best way to expand collocation accuracy for IELTS is to read the Cambridge English Corpus example sentences, not just dictionary definitions. For every new academic word you learn, find 2 collocations: the noun it commonly precedes, and the verb it commonly follows.",
+        "bodyVi": "Cach tot nhat de mo rong ket hop tu cho IELTS la doc cau vi du tu Cambridge English Corpus, khong chi dinh nghia tu dien. Moi tu hoc thuat moi, tim 2 ket hop tu: danh tu no thuong dung truoc va dong tu no thuong di sau.",
         "targetBand": 7.0
       }
     ]
@@ -184,17 +238,23 @@
     "tips": [
       {
         "title": "Government, society, committee = 'it', not 'they'",
+        "titleVi": "Government, society, committee = 'it', khong phai 'they'",
         "body": "In IELTS academic writing, singular collective nouns take singular pronouns: 'The government must increase its budget' (not 'their budget'). 'Society should reconsider its values.' Using 'they' for these nouns is accepted in informal English but marked as an error in IELTS academic writing.",
+        "bodyVi": "Trong bai viet IELTS hoc thuat, danh tu tap hop so it dung dai tu so it: 'The government must increase its budget' (khong phai 'their budget'). 'Society should reconsider its values.' Dung 'they' cho cac danh tu nay chap nhan trong van noi nhung bi tinh loi trong IELTS.",
         "targetBand": 6.0
       },
       {
         "title": "Repeat the noun rather than use an unclear pronoun",
-        "body": "When 'it' or 'they' could refer to more than one noun in the previous sentence, simply repeat the noun: ✗ 'The policy affected the economy. It was significant.' → ✓ 'The policy affected the economy. The impact was significant.' Clarity > elegance in IELTS.",
+        "titleVi": "Lap lai danh tu thay vi dung dai tu khong ro rang",
+        "body": "When 'it' or 'they' could refer to more than one noun in the previous sentence, simply repeat the noun: 'The policy affected the economy. It was significant.' is unclear - use 'The policy affected the economy. The impact was significant.' Clarity > elegance in IELTS.",
+        "bodyVi": "Khi 'it' hoac 'they' co the chi nhieu danh tu trong cau truoc, hay lap lai danh tu: 'The policy affected the economy. It was significant.' khong ro - dung 'The policy affected the economy. The impact was significant.' Ro rang > hoa my trong IELTS.",
         "targetBand": 6.5
       },
       {
         "title": "Avoid first-person and second-person pronouns in Task 2",
-        "body": "IELTS Task 2 is academic writing. Avoid 'you', 'we' (referring to the reader), and overuse of 'I'. 'I think' once in an opinion essay is acceptable; 'I believe, in my opinion, I feel, I personally think' in the same essay signals a lack of formal register. Use 'It is argued that…' or 'This suggests…' instead.",
+        "titleVi": "Tranh dai tu ngoi thu nhat va thu hai trong Task 2",
+        "body": "IELTS Task 2 is academic writing. Avoid 'you', 'we' (referring to the reader), and overuse of 'I'. 'I think' once in an opinion essay is acceptable; 'I believe, in my opinion, I feel, I personally think' in the same essay signals a lack of formal register. Use 'It is argued that...' or 'This suggests...' instead.",
+        "bodyVi": "IELTS Task 2 la bai viet hoc thuat. Tranh 'you', 'we' (chi nguoi doc) va lam dung 'I'. 'I think' mot lan trong bai opinion chap nhan duoc; 'I believe, in my opinion, I feel, I personally think' trong cung bai cho thay thieu phong cach trang trong. Dung 'It is argued that...' hoac 'This suggests...' thay the.",
         "targetBand": 7.0
       }
     ]
@@ -204,12 +264,16 @@
     "tips": [
       {
         "title": "The subject of the main clause must be the doer of the participle",
-        "body": "When a sentence starts with a participial phrase (Being…, Having studied…, Considering…), the very next noun after the comma must be the person/thing doing the action. ✗ 'Being a student, the exam was difficult.' → Who is a student? The exam? ✓ 'Being a student, I found the exam difficult.'",
+        "titleVi": "Chu ngu menh de chinh phai la nguoi thuc hien hanh dong trong phan tu",
+        "body": "When a sentence starts with a participial phrase (Being..., Having studied..., Considering...), the very next noun after the comma must be the person/thing doing the action. 'Being a student, the exam was difficult.' is wrong - use 'Being a student, I found the exam difficult.'",
+        "bodyVi": "Khi cau bat dau bang cum phan tu (Being..., Having studied..., Considering...), danh tu ngay sau dau phay phai la nguoi/vat thuc hien hanh dong. 'Being a student, the exam was difficult.' la sai - dung 'Being a student, I found the exam difficult.'",
         "targetBand": 6.5
       },
       {
         "title": "Move adverbs close to the word they modify",
+        "titleVi": "Dat trang tu gan tu no bo nghia",
         "body": "Misplaced adverbs create ambiguity: 'Only governments can solve the problem' (governments alone can solve it) vs 'Governments can only solve the problem' (the only thing they can do is solve it). In IELTS essays, place 'only', 'even', 'just', 'almost', 'nearly' directly before the word they qualify.",
+        "bodyVi": "Trang tu dat sai tao su mo ho: 'Only governments can solve the problem' (chi chinh phu moi giai quyet duoc) vs 'Governments can only solve the problem' (dieu duy nhat ho co the lam la giai quyet). Trong bai IELTS, dat 'only', 'even', 'just', 'almost', 'nearly' ngay truoc tu chung bo nghia.",
         "targetBand": 7.0
       }
     ]
@@ -219,17 +283,23 @@
     "tips": [
       {
         "title": "One comparative marker per comparison",
-        "body": "Never write 'more + -er' (more higher, more better) or 'most + -est' (most fastest). Short adjectives (1–2 syllables): add -er/-est. Long adjectives (3+ syllables): use more/most. Irregular: good/better/best, bad/worse/worst, far/further/furthest.",
+        "titleVi": "Mot dau hieu so sanh cho moi phep so sanh",
+        "body": "Never write 'more + -er' (more higher, more better) or 'most + -est' (most fastest). Short adjectives (1-2 syllables): add -er/-est. Long adjectives (3+ syllables): use more/most. Irregular: good/better/best, bad/worse/worst, far/further/furthest.",
+        "bodyVi": "Khong bao gio viet 'more + -er' (more higher, more better) hay 'most + -est' (most fastest). Tinh tu ngan (1-2 am tiet): them -er/-est. Tinh tu dai (3+ am tiet): dung more/most. Bat quy tac: good/better/best, bad/worse/worst, far/further/furthest.",
         "targetBand": 6.0
       },
       {
         "title": "Compare like with like using 'that of' / 'those of'",
+        "titleVi": "So sanh cung loai dung 'that of' / 'those of'",
         "body": "A very common IELTS Task 1 error: 'The rate in China was higher than Japan.' You are comparing a rate with a country. Fix: 'The rate in China was higher than that in Japan.' / 'The rates in China were higher than those in Japan.' This is a quick Band 7 accuracy fix.",
+        "bodyVi": "Loi rat pho bien trong IELTS Task 1: 'The rate in China was higher than Japan.' Ban dang so sanh ty le voi quoc gia. Sua: 'The rate in China was higher than that in Japan.' / 'The rates in China were higher than those in Japan.' Day la cach sua nhanh de dat Band 7.",
         "targetBand": 6.5
       },
       {
-        "title": "Use 'as…as' for equality comparisons, 'not as…as' for negative",
-        "body": "'As fast as' = equal speed. 'Not as fast as' = slower. Never mix: ✗ 'as fast than', ✗ 'more fast as'. For IELTS Task 1, the structure 'X was roughly the same as Y' or 'X was comparable to Y' is a safer alternative when exact equality is shown in the graph.",
+        "title": "Use 'as...as' for equality comparisons, 'not as...as' for negative",
+        "titleVi": "Dung 'as...as' cho so sanh bang, 'not as...as' cho phu dinh",
+        "body": "'As fast as' = equal speed. 'Not as fast as' = slower. Never mix: 'as fast than' or 'more fast as' are wrong. For IELTS Task 1, the structure 'X was roughly the same as Y' or 'X was comparable to Y' is a safer alternative when exact equality is shown in the graph.",
+        "bodyVi": "'As fast as' = toc do bang nhau. 'Not as fast as' = cham hon. Khong tron: 'as fast than' hay 'more fast as' la sai. Cho IELTS Task 1, cau truc 'X was roughly the same as Y' hoac 'X was comparable to Y' la lua chon an toan hon khi bieu do cho thay su bang nhau.",
         "targetBand": 7.0
       }
     ]

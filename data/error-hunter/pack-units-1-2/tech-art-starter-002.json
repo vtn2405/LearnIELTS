@@ -1,0 +1,59 @@
+{
+  "slug": "tech-art-starter-002",
+  "topic": "Technology",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5,
+  "minUnitIndex": 1,
+  "maxUnitIndex": 2,
+  "grammarFocus": [
+    "ARTICLE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-1-2",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "The technology has changed a way people communicate. In the modern society, many person rely on internet for informations. A government should invest in the digital infrastructure to help the citizens.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 157,
+      "endIndex": 179,
+      "text": "digital infrastructure",
+      "hint": "'The digital infrastructure' is correct here because it refers to a specific, identified concept."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 14,
+      "errorText": "The technology",
+      "correctText": "Technology",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "Do not use 'the' before abstract/general concepts. 'Technology' in general needs no article.",
+      "grammarRuleCode": "ART-001",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 27,
+      "endIndex": 32,
+      "errorText": "a way",
+      "correctText": "the way",
+      "errorType": "ARTICLE",
+      "severity": "MINOR",
+      "explanation": "'The way' is more appropriate here as it refers to the specific manner in which people communicate.",
+      "grammarRuleCode": "ART-002",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 56,
+      "endIndex": 74,
+      "errorText": "the modern society",
+      "correctText": "modern society",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "'Society' used in a general sense does not need 'the'. Remove the article.",
+      "grammarRuleCode": "ART-001",
+      "ieltsTipErrorType": "ARTICLE"
+    }
+  ],
+  "totalErrors": 3
+}

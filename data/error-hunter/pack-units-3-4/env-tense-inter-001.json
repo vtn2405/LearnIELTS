@@ -1,0 +1,82 @@
+{
+  "slug": "env-tense-inter-001",
+  "topic": "Environment",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6,
+  "minUnitIndex": 3,
+  "maxUnitIndex": 4,
+  "grammarFocus": [
+    "TENSE",
+    "SVA"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-3-4",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "By 2050, the world population is reaching 10 billion. Experts predict that climate change has affected millions of people in the coming decades. If governments does not act now, sea levels raised by more than one metre. The report suggests that renewable energy replaced fossil fuels by 2040.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 54,
+      "endIndex": 69,
+      "text": "Experts predict",
+      "hint": "'Experts predict' uses the present simple correctly for a current belief about the future."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 30,
+      "endIndex": 41,
+      "errorText": "is reaching",
+      "correctText": "will reach",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'By 2050' signals a future prediction. Use 'will reach' instead of present continuous.",
+      "grammarRuleCode": "TENSE-003",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 90,
+      "endIndex": 102,
+      "errorText": "has affected",
+      "correctText": "will affect",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'In the coming decades' refers to the future. Use 'will affect', not present perfect.",
+      "grammarRuleCode": "TENSE-003",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 160,
+      "endIndex": 168,
+      "errorText": "does not",
+      "correctText": "do not",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'Governments' is plural. Use 'do not', not 'does not'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 189,
+      "endIndex": 195,
+      "errorText": "raised",
+      "correctText": "will rise",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "This is a future conditional. Use 'will rise' for the predicted outcome.",
+      "grammarRuleCode": "TENSE-003",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 262,
+      "endIndex": 270,
+      "errorText": "replaced",
+      "correctText": "will replace",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'By 2040' indicates a future prediction. Use 'will replace'.",
+      "grammarRuleCode": "TENSE-003",
+      "ieltsTipErrorType": "TENSE"
+    }
+  ],
+  "totalErrors": 5
+}

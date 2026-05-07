@@ -46,7 +46,7 @@ export interface EhErrorFull {
   explanation: string;
   grammarRuleId?: string | null;
   ieltsTipId?: string | null;
-  ieltsTip?: { tipText: string } | null;
+  ieltsTip?: { title: string; body: string; bodyVi?: string | null } | null;
 }
 
 /** A zone in the passage text that commonly triggers false alarms */

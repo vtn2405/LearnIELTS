@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
     where: { id: passageId },
     include: {
       errors: {
-        include: { ieltsTip: { select: { tipText: true } } },
+        include: { ieltsTip: { select: { title: true, body: true, bodyVi: true } } },
       },
     },
   });
@@ -69,7 +69,7 @@ export async function POST(req: NextRequest) {
         userCorrection: match.userCorrection,
         fixCorrect,
         explanation:    err.explanation,
-        ieltsTip:       err.ieltsTip?.tipText ?? undefined,
+        ieltsTip:       err.ieltsTip?.body ?? undefined,
         severity:       err.severity as any,
       });
     } else {
@@ -82,7 +82,7 @@ export async function POST(req: NextRequest) {
         correctText: err.correctText,
         fixCorrect:  false,
         explanation: err.explanation,
-        ieltsTip:    err.ieltsTip?.tipText ?? undefined,
+        ieltsTip:    err.ieltsTip?.body ?? undefined,
         severity:    err.severity as any,
       });
     }
@@ -94,7 +94,7 @@ export async function POST(req: NextRequest) {
 
     // Check if this false alarm overlaps a known "tricky" zone
     const zone = falseAlarmZones.find(
-      (z) => !selectionOverlapsError(sel, z) === false // same overlap logic
+      (z) => selectionOverlapsError(sel, z)
     );
     const explanation =
       zone?.hint ??

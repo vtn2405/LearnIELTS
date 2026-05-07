@@ -1,0 +1,63 @@
+{
+  "slug": "edu-pro-starter-001",
+  "topic": "Education",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5,
+  "minUnitIndex": 11,
+  "maxUnitIndex": 12,
+  "grammarFocus": [
+    "PRONOUN"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-11-12",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "The government should increase their budget for education. When a student struggles with exams, they should seek help from his teachers. Society must reconsider their values if they want to reduce inequality.",
+  "falseAlarmZones": [],
+  "errors": [
+    {
+      "startIndex": 31,
+      "endIndex": 43,
+      "errorText": "their budget",
+      "correctText": "its budget",
+      "errorType": "PRONOUN",
+      "severity": "MAJOR",
+      "explanation": "'The government' is singular in academic writing. Use 'its', not 'their'.",
+      "grammarRuleCode": "PRO-001",
+      "ieltsTipErrorType": "PRONOUN"
+    },
+    {
+      "startIndex": 123,
+      "endIndex": 135,
+      "errorText": "his teachers",
+      "correctText": "their teachers",
+      "errorType": "PRONOUN",
+      "severity": "MAJOR",
+      "explanation": "Use 'their' to match the gender-neutral singular 'a student' (or the earlier 'they').",
+      "grammarRuleCode": "PRO-001",
+      "ieltsTipErrorType": "PRONOUN"
+    },
+    {
+      "startIndex": 161,
+      "endIndex": 173,
+      "errorText": "their values",
+      "correctText": "its values",
+      "errorType": "PRONOUN",
+      "severity": "MAJOR",
+      "explanation": "'Society' is singular in academic writing. Use 'its', not 'their'.",
+      "grammarRuleCode": "PRO-001",
+      "ieltsTipErrorType": "PRONOUN"
+    },
+    {
+      "startIndex": 177,
+      "endIndex": 186,
+      "errorText": "they want",
+      "correctText": "it wants",
+      "errorType": "PRONOUN",
+      "severity": "MAJOR",
+      "explanation": "'Society' is singular. Use 'it wants', not 'they want'.",
+      "grammarRuleCode": "PRO-001",
+      "ieltsTipErrorType": "PRONOUN"
+    }
+  ],
+  "totalErrors": 4
+}

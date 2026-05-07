@@ -1,0 +1,70 @@
+{
+  "slug": "health-wf-inter-001",
+  "topic": "Health",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6,
+  "minUnitIndex": 5,
+  "maxUnitIndex": 6,
+  "grammarFocus": [
+    "WORD_FORM"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-5-6",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "The economy development of a country depends on its education system. Governments should prioritise the improve of public health services. If policies are implement effective, they can lead to a significance reduction in poverty.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 115,
+      "endIndex": 137,
+      "text": "public health services",
+      "hint": "'Public health services' is a correctly formed compound noun phrase."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 4,
+      "endIndex": 23,
+      "errorText": "economy development",
+      "correctText": "economic development",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "'Economy' is a noun. Before another noun, use the adjective form: 'economic'.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 100,
+      "endIndex": 111,
+      "errorText": "the improve",
+      "correctText": "the improvement",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "After 'the', you need a noun. 'Improve' is a verb — use the noun form 'improvement'.",
+      "grammarRuleCode": "WF-001",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 155,
+      "endIndex": 174,
+      "errorText": "implement effective",
+      "correctText": "implemented effectively",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "'Implement' needs past participle 'implemented' in passive voice, and 'effective' should be the adverb 'effectively' to modify the verb.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 195,
+      "endIndex": 217,
+      "errorText": "significance reduction",
+      "correctText": "significant reduction",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "'Significance' is a noun. Before another noun, use the adjective form: 'significant'.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    }
+  ],
+  "totalErrors": 4
+}

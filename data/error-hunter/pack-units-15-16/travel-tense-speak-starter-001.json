@@ -1,0 +1,59 @@
+{
+  "slug": "travel-tense-speak-starter-001",
+  "topic": "Travel",
+  "taskType": "SPEAKING_PART2",
+  "bandTarget": 5,
+  "minUnitIndex": 15,
+  "maxUnitIndex": 16,
+  "grammarFocus": [
+    "TENSE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-15-16",
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "Last year I visited Hanoi for the first time. Before I went there, I already heard many great things about the city. By the time I arrived, my friend already booked a hotel for us. I was surprised because I never saw such a beautiful city before that trip.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 26,
+      "endIndex": 44,
+      "text": "for the first time",
+      "hint": "'For the first time' is correctly used here."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 69,
+      "endIndex": 82,
+      "errorText": "already heard",
+      "correctText": "had already heard",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "The hearing happened before the visit. Use past perfect: 'had already heard'.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 150,
+      "endIndex": 164,
+      "errorText": "already booked",
+      "correctText": "had already booked",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "The booking happened before the arrival. Use past perfect: 'had already booked'.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 207,
+      "endIndex": 216,
+      "errorText": "never saw",
+      "correctText": "had never seen",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "The experience of not seeing was before the trip. Use past perfect: 'had never seen'.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    }
+  ],
+  "totalErrors": 3
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "edu-prep-starter-001",
+  "topic": "Education",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5,
+  "minUnitIndex": 5,
+  "maxUnitIndex": 6,
+  "grammarFocus": [
+    "PREPOSITION"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-5-6",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "Many students are interested on learning English for their career. The success of a student depends of hard work and determination. Young people should focus in developing practical skills rather than relying at textbook knowledge.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 49,
+      "endIndex": 65,
+      "text": "for their career",
+      "hint": "'For their career' is the correct preposition here — 'for' indicates purpose."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 18,
+      "endIndex": 31,
+      "errorText": "interested on",
+      "correctText": "interested in",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "The correct collocation is 'interested in', not 'interested on'.",
+      "grammarRuleCode": "PREP-001",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 92,
+      "endIndex": 102,
+      "errorText": "depends of",
+      "correctText": "depends on",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "The correct collocation is 'depends on', not 'depends of'.",
+      "grammarRuleCode": "PREP-002",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 152,
+      "endIndex": 160,
+      "errorText": "focus in",
+      "correctText": "focus on",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "The correct collocation is 'focus on', not 'focus in'.",
+      "grammarRuleCode": "PREP-002",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 201,
+      "endIndex": 211,
+      "errorText": "relying at",
+      "correctText": "relying on",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "The correct collocation is 'relying on', not 'relying at'.",
+      "grammarRuleCode": "PREP-002",
+      "ieltsTipErrorType": "PREPOSITION"
+    }
+  ],
+  "totalErrors": 4
+}
