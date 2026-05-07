@@ -1,0 +1,63 @@
+{
+  "slug": "tech-ss-speak-starter-001",
+  "topic": "Technology",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5,
+  "minUnitIndex": 7,
+  "maxUnitIndex": 8,
+  "grammarFocus": [
+    "SENTENCE_STRUCTURE",
+    "PUNCTUATION"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-7-8",
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "Even though I agree with this idea, but I think there are some disadvantages. For example many young people spend too much time online, this affects their studies. Because technology is everywhere. It is difficult to avoid it completely.",
+  "falseAlarmZones": [],
+  "errors": [
+    {
+      "startIndex": 30,
+      "endIndex": 41,
+      "errorText": "idea, but I",
+      "correctText": "idea, I",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "'Even though' is already the conjunction. Remove 'but' to avoid a double connector.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 82,
+      "endIndex": 94,
+      "errorText": "example many",
+      "correctText": "example, many",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "'For example' at the start of a clause must be followed by a comma.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    },
+    {
+      "startIndex": 128,
+      "endIndex": 140,
+      "errorText": "online, this",
+      "correctText": "online; this",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Two independent clauses cannot be joined by just a comma. Use a semicolon.",
+      "grammarRuleCode": "SS-002",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 186,
+      "endIndex": 200,
+      "errorText": "everywhere. It",
+      "correctText": "everywhere, it",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "'Because...' is a subordinate clause that cannot stand alone. Join it to the main clause.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    }
+  ]
+}

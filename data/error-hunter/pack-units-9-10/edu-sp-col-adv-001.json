@@ -1,0 +1,103 @@
+{
+  "slug": "edu-sp-col-adv-001",
+  "topic": "Education",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 7,
+  "minUnitIndex": 9,
+  "maxUnitIndex": 10,
+  "grammarFocus": [
+    "SINGULAR_PLURAL",
+    "COLLOCATION"
+  ],
+  "difficulty": "ADVANCED",
+  "packId": "pack-units-9-10",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "The criterias for evaluating educational quality have changed significantly. Many phenomenons in modern society, such as heavy traffic and strong rain, are linked to urbanisation. According to the latest datas, a large amount of students are affected by mental health issues. Schools should take a decision to do more investments in counselling services.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 121,
+      "endIndex": 134,
+      "text": "heavy traffic",
+      "hint": "'Heavy traffic' is the correct collocation."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 4,
+      "endIndex": 13,
+      "errorText": "criterias",
+      "correctText": "criteria",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "'Criteria' is already the plural of 'criterion'. Do not add '-s'.",
+      "grammarRuleCode": "SP-002",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    },
+    {
+      "startIndex": 82,
+      "endIndex": 93,
+      "errorText": "phenomenons",
+      "correctText": "phenomena",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "The plural of 'phenomenon' is 'phenomena', not 'phenomenons'.",
+      "grammarRuleCode": "SP-002",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    },
+    {
+      "startIndex": 139,
+      "endIndex": 150,
+      "errorText": "strong rain",
+      "correctText": "heavy rain",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "The correct collocation is 'heavy rain', not 'strong rain'.",
+      "grammarRuleCode": "COL-002",
+      "ieltsTipErrorType": "COLLOCATION"
+    },
+    {
+      "startIndex": 204,
+      "endIndex": 209,
+      "errorText": "datas",
+      "correctText": "data",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "'Data' is already plural (from Latin 'datum'). Do not add '-s'.",
+      "grammarRuleCode": "SP-002",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    },
+    {
+      "startIndex": 211,
+      "endIndex": 237,
+      "errorText": "a large amount of students",
+      "correctText": "a large number of students",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "'Amount' is for uncountable nouns. For countable nouns like 'students', use 'number'.",
+      "grammarRuleCode": "COL-002",
+      "ieltsTipErrorType": "COLLOCATION"
+    },
+    {
+      "startIndex": 291,
+      "endIndex": 306,
+      "errorText": "take a decision",
+      "correctText": "make a decision",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "The correct collocation is 'make a decision', not 'take a decision'.",
+      "grammarRuleCode": "COL-001",
+      "ieltsTipErrorType": "COLLOCATION"
+    },
+    {
+      "startIndex": 310,
+      "endIndex": 329,
+      "errorText": "do more investments",
+      "correctText": "make more investments",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "The correct collocation is 'make investments', not 'do investments'.",
+      "grammarRuleCode": "COL-001",
+      "ieltsTipErrorType": "COLLOCATION"
+    }
+  ]
+}

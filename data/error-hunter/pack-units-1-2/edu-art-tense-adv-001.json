@@ -1,0 +1,92 @@
+{
+  "slug": "edu-art-tense-adv-001",
+  "topic": "Education",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 7,
+  "minUnitIndex": 1,
+  "maxUnitIndex": 2,
+  "grammarFocus": [
+    "ARTICLE",
+    "TENSE"
+  ],
+  "difficulty": "ADVANCED",
+  "packId": "pack-units-1-2",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "The education plays a vital role in the economic development. In 2019, the Vietnam invested heavily in a higher education sector. Since then, number of universities have been doubled. Experts believe that the situation has improved since the government launch its reform policy last year.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 40,
+      "endIndex": 60,
+      "text": "economic development",
+      "hint": "'Economic development' is correctly used here without a preceding article in a general sense."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 13,
+      "errorText": "The education",
+      "correctText": "Education",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "'Education' in a general sense does not need 'the'.",
+      "grammarRuleCode": "ART-001",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 71,
+      "endIndex": 82,
+      "errorText": "the Vietnam",
+      "correctText": "Vietnam",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "Do not use 'the' before most country names. 'Vietnam' takes no article.",
+      "grammarRuleCode": "ART-003",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 103,
+      "endIndex": 128,
+      "errorText": "a higher education sector",
+      "correctText": "the higher education sector",
+      "errorType": "ARTICLE",
+      "severity": "MINOR",
+      "explanation": "Use 'the' here because the higher education sector is a specific, identified entity.",
+      "grammarRuleCode": "ART-002",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 142,
+      "endIndex": 164,
+      "errorText": "number of universities",
+      "correctText": "the number of universities",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "'The number of' is a fixed expression requiring the definite article.",
+      "grammarRuleCode": "ART-002",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 165,
+      "endIndex": 182,
+      "errorText": "have been doubled",
+      "correctText": "has doubled",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'The number' is singular and takes 'has'. Also, 'double' is intransitive here — use active voice: 'has doubled'.",
+      "grammarRuleCode": "TENSE-002",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 253,
+      "endIndex": 259,
+      "errorText": "launch",
+      "correctText": "launched",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'Last year' indicates a completed past action. Use simple past: 'launched'.",
+      "grammarRuleCode": "TENSE-001",
+      "ieltsTipErrorType": "TENSE"
+    }
+  ]
+}

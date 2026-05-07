@@ -1,0 +1,92 @@
+{
+  "slug": "tech-prep-wf-adv-001",
+  "topic": "Technology",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 7,
+  "minUnitIndex": 5,
+  "maxUnitIndex": 6,
+  "grammarFocus": [
+    "PREPOSITION",
+    "WORD_FORM"
+  ],
+  "difficulty": "ADVANCED",
+  "packId": "pack-units-5-6",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "The contribution of technology in modern education cannot be underestimated. Students who are responsible of their own learning tend to perform better. However, an over-reliance at digital tools may result to a decline in critical think skills. It is essential that educators find ways to effective integrate technology into the classroom.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 320,
+      "endIndex": 338,
+      "text": "into the classroom",
+      "hint": "'Into the classroom' is the correct preposition for indicating movement or integration."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 20,
+      "endIndex": 40,
+      "errorText": "technology in modern",
+      "correctText": "technology to modern",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "'Contribution to' is the correct collocation, not 'contribution in'.",
+      "grammarRuleCode": "PREP-002",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 94,
+      "endIndex": 108,
+      "errorText": "responsible of",
+      "correctText": "responsible for",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "The correct collocation is 'responsible for', not 'responsible of'.",
+      "grammarRuleCode": "PREP-001",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 169,
+      "endIndex": 180,
+      "errorText": "reliance at",
+      "correctText": "reliance on",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "'Reliance on' is the correct collocation, not 'reliance at'.",
+      "grammarRuleCode": "PREP-001",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 199,
+      "endIndex": 208,
+      "errorText": "result to",
+      "correctText": "result in",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "'Result in' is the correct collocation, not 'result to'.",
+      "grammarRuleCode": "PREP-002",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 222,
+      "endIndex": 236,
+      "errorText": "critical think",
+      "correctText": "critical thinking",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "'Think' is a verb. Use the gerund/noun form 'thinking' after an adjective.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 286,
+      "endIndex": 308,
+      "errorText": "to effective integrate",
+      "correctText": "to effectively integrate",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "'Effective' is an adjective. Use the adverb form 'effectively' to modify the verb 'integrate'.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    }
+  ]
+}

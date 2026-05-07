@@ -1,0 +1,58 @@
+{
+  "slug": "work-tense-starter-001",
+  "topic": "Work",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5,
+  "minUnitIndex": 15,
+  "maxUnitIndex": 16,
+  "grammarFocus": [
+    "TENSE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-15-16",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "By 2015, the population of the city already reached five million. Before the government introduced new policies, many people already left the country. The company announced that it planned to expand since it already achieved its sales targets.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 99,
+      "endIndex": 111,
+      "text": "new policies",
+      "hint": "'New policies' is correctly used as a plural noun."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 36,
+      "endIndex": 51,
+      "errorText": "already reached",
+      "correctText": "had already reached",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'By 2015' indicates an event completed before a past point. Use past perfect: 'had already reached'.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 125,
+      "endIndex": 137,
+      "errorText": "already left",
+      "correctText": "had already left",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "The leaving happened before the government's action. Use past perfect: 'had already left'.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 208,
+      "endIndex": 224,
+      "errorText": "already achieved",
+      "correctText": "had already achieved",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "The achievement happened before the announcement. Use past perfect: 'had already achieved'.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    }
+  ]
+}

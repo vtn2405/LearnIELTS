@@ -1,0 +1,70 @@
+{
+  "slug": "work-comp-ss-inter-001",
+  "topic": "Work",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6,
+  "minUnitIndex": 13,
+  "maxUnitIndex": 14,
+  "grammarFocus": [
+    "COMPARATIVE",
+    "SENTENCE_STRUCTURE"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-13-14",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "The unemployment rate in Vietnam was higher than Japan in 2020. Although the economy has grown, but wages remain lower. The rate of urbanisation in Asia is as fast than in Europe. Living standards in developed countries are more superior to those in developing nations.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 241,
+      "endIndex": 268,
+      "text": "those in developing nations",
+      "hint": "'Those in developing nations' correctly uses 'those' to refer back to 'living standards'."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 37,
+      "endIndex": 54,
+      "errorText": "higher than Japan",
+      "correctText": "higher than that in Japan",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "You are comparing a rate with a country. Use 'that in Japan' to compare like with like.",
+      "grammarRuleCode": "COMP-002",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 85,
+      "endIndex": 105,
+      "errorText": "has grown, but wages",
+      "correctText": "has grown, wages",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "'Although' is already the conjunction. Remove 'but' to avoid a double connector.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 156,
+      "endIndex": 168,
+      "errorText": "as fast than",
+      "correctText": "as fast as",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "The correct structure is 'as...as' for equality comparisons, not 'as...than'.",
+      "grammarRuleCode": "COMP-002",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 224,
+      "endIndex": 237,
+      "errorText": "more superior",
+      "correctText": "superior",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "'Superior' is already comparative (from Latin). Do not add 'more'.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    }
+  ]
+}

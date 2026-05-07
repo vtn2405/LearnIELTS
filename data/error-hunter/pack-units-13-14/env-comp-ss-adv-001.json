@@ -1,0 +1,81 @@
+{
+  "slug": "env-comp-ss-adv-001",
+  "topic": "Environment",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 7,
+  "minUnitIndex": 13,
+  "maxUnitIndex": 14,
+  "grammarFocus": [
+    "COMPARATIVE",
+    "SENTENCE_STRUCTURE"
+  ],
+  "difficulty": "ADVANCED",
+  "packId": "pack-units-13-14",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "The country, that has the highest GDP, should lead climate action. Students who they study abroad gain more better opportunities than their peers. The rate of deforestation in Brazil is not as alarming than that in Indonesia. Compared to traditional methods, the new approach is more efficient and more simpler to implement.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 207,
+      "endIndex": 224,
+      "text": "that in Indonesia",
+      "hint": "'That in Indonesia' correctly uses 'that' to avoid repeating 'the rate of deforestation'."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 38,
+      "errorText": "The country, that has the highest GDP,",
+      "correctText": "The country that has the highest GDP",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "This is a defining relative clause (identifies which country). Do not use commas. Use 'that' without commas or 'which' with commas.",
+      "grammarRuleCode": "SS-003",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 76,
+      "endIndex": 90,
+      "errorText": "who they study",
+      "correctText": "who study",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "'Who' is the subject of the relative clause. Do not add 'they' — it creates a double subject.",
+      "grammarRuleCode": "SS-003",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 103,
+      "endIndex": 114,
+      "errorText": "more better",
+      "correctText": "better",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Double comparative: 'better' is already comparative. Remove 'more'.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 186,
+      "endIndex": 206,
+      "errorText": "not as alarming than",
+      "correctText": "not as alarming as",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "The correct structure is 'not as...as', not 'not as...than'.",
+      "grammarRuleCode": "COMP-002",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 298,
+      "endIndex": 310,
+      "errorText": "more simpler",
+      "correctText": "simpler",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Double comparative: 'simpler' is already comparative. Remove 'more'.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "tech-ss-punct-adv-001",
+  "topic": "Technology",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 7,
+  "minUnitIndex": 7,
+  "maxUnitIndex": 8,
+  "grammarFocus": [
+    "SENTENCE_STRUCTURE",
+    "PUNCTUATION"
+  ],
+  "difficulty": "ADVANCED",
+  "packId": "pack-units-7-8",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "Although many argue that technology improves lives, but others believe it causes more harm. Nevertheless it is important to consider both sides of the debate. While some studies suggest that screen time harms children, however other research shows moderate use is beneficial. Therefore governments should implement balanced policies, that protect citizens without limiting innovation.",
+  "falseAlarmZones": [],
+  "errors": [
+    {
+      "startIndex": 45,
+      "endIndex": 62,
+      "errorText": "lives, but others",
+      "correctText": "lives, others",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "'Although' is the subordinating conjunction. Remove 'but' to avoid a double connector.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 92,
+      "endIndex": 107,
+      "errorText": "Nevertheless it",
+      "correctText": "Nevertheless, it",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "'Nevertheless' at the start of a sentence must be followed by a comma.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    },
+    {
+      "startIndex": 209,
+      "endIndex": 232,
+      "errorText": "children, however other",
+      "correctText": "children, other",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "'While' already serves as the conjunction. Remove 'however' to avoid a double connector.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 276,
+      "endIndex": 297,
+      "errorText": "Therefore governments",
+      "correctText": "Therefore, governments",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "'Therefore' at the start of a sentence must be followed by a comma.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    },
+    {
+      "startIndex": 324,
+      "endIndex": 338,
+      "errorText": "policies, that",
+      "correctText": "policies that",
+      "errorType": "PUNCTUATION",
+      "severity": "MINOR",
+      "explanation": "This is a defining relative clause identifying which policies. Do not use a comma before 'that'.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    }
+  ]
+}

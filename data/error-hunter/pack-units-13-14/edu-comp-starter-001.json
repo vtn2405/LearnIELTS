@@ -1,0 +1,58 @@
+{
+  "slug": "edu-comp-starter-001",
+  "topic": "Education",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5,
+  "minUnitIndex": 13,
+  "maxUnitIndex": 14,
+  "grammarFocus": [
+    "COMPARATIVE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-13-14",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "Education in urban areas is more better than in rural areas. The cost of living in big cities is more higher than small towns. Some people think that online learning is more easier than traditional classroom learning.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 186,
+      "endIndex": 216,
+      "text": "traditional classroom learning",
+      "hint": "'Traditional classroom learning' is a correctly formed noun phrase."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 28,
+      "endIndex": 39,
+      "errorText": "more better",
+      "correctText": "better",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Double comparative: 'better' is already comparative. Remove 'more'.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 97,
+      "endIndex": 108,
+      "errorText": "more higher",
+      "correctText": "higher",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Double comparative: 'higher' is already comparative. Remove 'more'.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 169,
+      "endIndex": 180,
+      "errorText": "more easier",
+      "correctText": "easier",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Double comparative: 'easier' is already comparative. Remove 'more'.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    }
+  ]
+}

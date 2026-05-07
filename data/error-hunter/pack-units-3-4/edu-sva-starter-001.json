@@ -1,0 +1,69 @@
+{
+  "slug": "edu-sva-starter-001",
+  "topic": "Education",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5,
+  "minUnitIndex": 3,
+  "maxUnitIndex": 4,
+  "grammarFocus": [
+    "SVA"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-3-4",
+  "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "passageText": "The number of people who uses public transport are increasing every year. Each student need to submit their assignments on time. Neither the teacher nor the students was prepared for the exam.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 30,
+      "endIndex": 46,
+      "text": "public transport",
+      "hint": "'Public transport' is an uncountable noun used correctly here."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 25,
+      "endIndex": 29,
+      "errorText": "uses",
+      "correctText": "use",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "The relative pronoun 'who' refers to 'people' (plural). The verb must be 'use'.",
+      "grammarRuleCode": "SVA-001",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 47,
+      "endIndex": 61,
+      "errorText": "are increasing",
+      "correctText": "is increasing",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'The number of' takes a singular verb. Use 'is increasing'.",
+      "grammarRuleCode": "SVA-001",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 87,
+      "endIndex": 91,
+      "errorText": "need",
+      "correctText": "needs",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'Each student' is singular. The verb must be 'needs'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 166,
+      "endIndex": 178,
+      "errorText": "was prepared",
+      "correctText": "were prepared",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "With 'neither...nor', the verb agrees with the nearer subject 'the students' (plural) — use 'were'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    }
+  ]
+}
