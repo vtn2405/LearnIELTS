@@ -1,0 +1,81 @@
+{
+  "slug": "edu-wf-starter-001",
+  "topic": "Education",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5.5,
+  "minUnitIndex": 5,
+  "maxUnitIndex": 6,
+  "grammarFocus": [
+    "WORD_FORM"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-5-6",
+  "questionPrompt": "Do you think the quality of education affects a country's economic development? Why or why not?",
+  "passageText": "I strongly believe that the economy development of a country depends on its education system. Children who receive a good educate will be more success in life. The improve of teaching methods can significant enhance student performance.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 175,
+      "endIndex": 191,
+      "text": "teaching methods",
+      "hint": "'Teaching' as gerund modifier is correct."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 28,
+      "endIndex": 47,
+      "errorText": "economy development",
+      "correctText": "economic development",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "Use adjective 'economic' before noun.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 115,
+      "endIndex": 129,
+      "errorText": "a good educate",
+      "correctText": "a good education",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "Need noun 'education' after 'a good'.",
+      "grammarRuleCode": "WF-001",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 138,
+      "endIndex": 150,
+      "errorText": "more success",
+      "correctText": "more successful",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "Need adjective 'successful' after 'more'.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 160,
+      "endIndex": 174,
+      "errorText": "The improve of",
+      "correctText": "The improvement of",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "Need noun 'improvement' after 'The'.",
+      "grammarRuleCode": "WF-001",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 192,
+      "endIndex": 215,
+      "errorText": "can significant enhance",
+      "correctText": "can significantly enhance",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "Need adverb 'significantly' to modify verb.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    }
+  ],
+  "totalErrors": 5
+}

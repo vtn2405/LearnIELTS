@@ -1,0 +1,93 @@
+{
+  "slug": "health-mixed-inter-002",
+  "topic": "Health",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6.0,
+  "minUnitIndex": 9,
+  "maxUnitIndex": 10,
+  "grammarFocus": [
+    "SINGULAR_PLURAL",
+    "COLLOCATION"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-9-10",
+  "questionPrompt": "In many countries, healthcare is becoming increasingly expensive. What are the reasons for this, and what solutions can you suggest?",
+  "passageText": "There are several criterias that determine the quality of healthcare. Hospitals need modern equipments and well-trained staffs. The government should do more investment in public health. Heavy evidence suggests that preventive care can reduce the high burden on hospitals. The phenomenons of medical tourism has also grown.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 216,
+      "endIndex": 231,
+      "text": "preventive care",
+      "hint": "Correct compound noun."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 10,
+      "endIndex": 27,
+      "errorText": "several criterias",
+      "correctText": "several criteria",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "'Criteria' is already plural.",
+      "grammarRuleCode": "SP-002",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    },
+    {
+      "startIndex": 85,
+      "endIndex": 102,
+      "errorText": "modern equipments",
+      "correctText": "modern equipment",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "'Equipment' is uncountable.",
+      "grammarRuleCode": "SP-001",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    },
+    {
+      "startIndex": 107,
+      "endIndex": 126,
+      "errorText": "well-trained staffs",
+      "correctText": "well-trained staff",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MINOR",
+      "explanation": "'Staff' is uncountable (group).",
+      "grammarRuleCode": "SP-001",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    },
+    {
+      "startIndex": 150,
+      "endIndex": 168,
+      "errorText": "do more investment",
+      "correctText": "make more investment",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'make an investment'.",
+      "grammarRuleCode": "COL-001",
+      "ieltsTipErrorType": "COLLOCATION"
+    },
+    {
+      "startIndex": 187,
+      "endIndex": 201,
+      "errorText": "Heavy evidence",
+      "correctText": "Strong evidence",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'strong evidence'.",
+      "grammarRuleCode": "COL-002",
+      "ieltsTipErrorType": "COLLOCATION"
+    },
+    {
+      "startIndex": 273,
+      "endIndex": 288,
+      "errorText": "The phenomenons",
+      "correctText": "The phenomena",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "'Phenomena' is the plural.",
+      "grammarRuleCode": "SP-002",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    }
+  ],
+  "totalErrors": 6
+}

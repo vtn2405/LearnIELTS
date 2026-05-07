@@ -1,0 +1,70 @@
+{
+  "slug": "travel-tense-starter-001",
+  "topic": "Travel",
+  "taskType": "SPEAKING_PART2",
+  "bandTarget": 5.0,
+  "minUnitIndex": 1,
+  "maxUnitIndex": 2,
+  "grammarFocus": [
+    "TENSE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-1-2",
+  "questionPrompt": "Describe a memorable trip you have taken. You should say: where you went, who you went with, what you did, and explain why it was memorable.",
+  "passageText": "Last year, I go to Da Nang with my family for a holiday. We are staying at a beautiful hotel near the beach. Every morning, I have wake up early and walked along the shore. It was one of the best trips I ever take.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 149,
+      "endIndex": 171,
+      "text": "walked along the shore",
+      "hint": "Correctly in past simple, matching the narrative."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 11,
+      "endIndex": 18,
+      "errorText": "I go to",
+      "correctText": "I went to",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'Last year' requires past simple 'went'.",
+      "grammarRuleCode": "TENSE-001",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 57,
+      "endIndex": 71,
+      "errorText": "We are staying",
+      "correctText": "We stayed",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "Past event — use past simple 'stayed'.",
+      "grammarRuleCode": "TENSE-001",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 124,
+      "endIndex": 135,
+      "errorText": "I have wake",
+      "correctText": "I would wake",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "Repeated past habit — 'would wake' or 'woke'.",
+      "grammarRuleCode": "TENSE-002",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 202,
+      "endIndex": 213,
+      "errorText": "I ever take",
+      "correctText": "I had ever taken",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "Past experience comparison needs past perfect.",
+      "grammarRuleCode": "TENSE-001",
+      "ieltsTipErrorType": "TENSE"
+    }
+  ],
+  "totalErrors": 4
+}

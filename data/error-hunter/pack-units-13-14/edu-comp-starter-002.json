@@ -1,0 +1,63 @@
+{
+  "slug": "edu-comp-starter-002",
+  "topic": "Education",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5.5,
+  "minUnitIndex": 13,
+  "maxUnitIndex": 14,
+  "grammarFocus": [
+    "COMPARATIVE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-13-14",
+  "questionPrompt": "How does the education system in your country compare with education systems in other countries?",
+  "passageText": "The education system in Japan is more effective as the system in Vietnam. The rate of literacy in urban areas is higher than rural areas. Studying abroad is not as expensive than studying at home. Learning online is as convenient than attending classes in person.",
+  "falseAlarmZones": [],
+  "errors": [
+    {
+      "startIndex": 33,
+      "endIndex": 61,
+      "errorText": "more effective as the system",
+      "correctText": "more effective than the system",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Use 'than' with 'more + adj'.",
+      "grammarRuleCode": "COMP-002",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 110,
+      "endIndex": 136,
+      "errorText": "is higher than rural areas",
+      "correctText": "is higher than that in rural areas",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Compare like with like: rate vs rate.",
+      "grammarRuleCode": "COMP-002",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 157,
+      "endIndex": 178,
+      "errorText": "not as expensive than",
+      "correctText": "not as expensive as",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "'As...as' structure: use 'as'.",
+      "grammarRuleCode": "COMP-002",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 216,
+      "endIndex": 234,
+      "errorText": "as convenient than",
+      "correctText": "as convenient as",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "'As...as' structure: use 'as'.",
+      "grammarRuleCode": "COMP-002",
+      "ieltsTipErrorType": "COMPARATIVE"
+    }
+  ],
+  "totalErrors": 4
+}

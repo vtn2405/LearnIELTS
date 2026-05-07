@@ -6,7 +6,18 @@ import {
   UNIT_ORDER,
   MIN_ALLOWED_UNIT_INDEX,
 } from "@/lib/constants/unit-order";
-import type { EhNextResponse } from "@/lib/types/error-hunter";
+import type { EhNextResponse, EhDifficulty } from "@/lib/types/error-hunter";
+
+/** Weighted random pick: items with higher weight are more likely chosen. */
+function weightedPick<T>(items: T[], weights: number[]): T {
+  const total = weights.reduce((s, w) => s + w, 0);
+  let r = Math.random() * total;
+  for (let i = 0; i < items.length; i++) {
+    r -= weights[i];
+    if (r <= 0) return items[i];
+  }
+  return items[items.length - 1];
+}
 
 export async function GET(req: NextRequest) {
   const { userId } = await auth();
@@ -39,6 +50,17 @@ export async function GET(req: NextRequest) {
   });
   const excludeIds = recentAttempts.map((a: { passageId: string }) => a.passageId);
 
+  // 2b. Look up adaptive difficulty for this pack (if packId provided)
+  let preferredDifficulty: EhDifficulty | null = null;
+  if (packId) {
+    const progress = await prisma.errorHunterProgress.findUnique({
+      where: { clerkId_packId: { clerkId: userId, packId } },
+    });
+    if (progress) {
+      preferredDifficulty = progress.currentDifficulty as EhDifficulty;
+    }
+  }
+
   // 3. Fetch candidates within allowed range
   const candidates = await prisma.errorHunterPassage.findMany({
     where: {
@@ -50,7 +72,6 @@ export async function GET(req: NextRequest) {
     include: {
       errors: {
         select: { id: true, errorType: true, severity: true },
-        // correctText, startIndex, endIndex intentionally excluded
       },
     },
   });
@@ -62,8 +83,21 @@ export async function GET(req: NextRequest) {
     );
   }
 
-  // 4. Pick one at random
-  const passage = candidates[Math.floor(Math.random() * candidates.length)];
+  // 4. Weighted passage selection:
+  //    - Passage covering the latest completed unit → weight 3x
+  //    - Passage matching preferred adaptive difficulty → weight 2x
+  //    - Cumulative review (minUnit=1) → weight 1.5x
+  //    - Base weight → 1x
+  const weights = candidates.map((p) => {
+    let w = 1;
+    if (p.maxUnitIndex === allowedMaxUnit) w *= 3;
+    else if (p.maxUnitIndex >= allowedMaxUnit - 1) w *= 2;
+    if (p.minUnitIndex === 1) w *= 1.5;
+    if (preferredDifficulty && p.difficulty === preferredDifficulty) w *= 2;
+    return w;
+  });
+
+  const passage = weightedPick(candidates, weights);
 
   // 5. errorType is only revealed for ADVANCED difficulty
   const revealType = passage.difficulty === "ADVANCED";

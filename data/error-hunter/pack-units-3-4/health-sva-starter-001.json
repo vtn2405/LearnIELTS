@@ -1,0 +1,70 @@
+{
+  "slug": "health-sva-starter-001",
+  "topic": "Health",
+  "taskType": "SPEAKING_PART2",
+  "bandTarget": 5.5,
+  "minUnitIndex": 3,
+  "maxUnitIndex": 4,
+  "grammarFocus": [
+    "SVA"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-3-4",
+  "questionPrompt": "Describe a health problem that is common in your country. You should say: what the problem is, why it is common, what effects it has, and explain what can be done about it.",
+  "passageText": "I would like to talk about a health issue that concern many people today. The number of people who suffer from obesity are increasing every year. Each person have a responsibility to maintain a healthy lifestyle. Regular exercise, along with a balanced diet, help prevent many diseases.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 242,
+      "endIndex": 257,
+      "text": "a balanced diet",
+      "hint": "Correct — singular countable noun with article."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 42,
+      "endIndex": 59,
+      "errorText": "that concern many",
+      "correctText": "that concerns many",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'That' refers to 'a health issue' (singular) — 'concerns'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 95,
+      "endIndex": 133,
+      "errorText": "who suffer from obesity are increasing",
+      "correctText": "who suffer from obesity is increasing",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'The number of' takes singular: 'is increasing'.",
+      "grammarRuleCode": "SVA-001",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 146,
+      "endIndex": 162,
+      "errorText": "Each person have",
+      "correctText": "Each person has",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'Each' takes singular verb.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 253,
+      "endIndex": 271,
+      "errorText": "diet, help prevent",
+      "correctText": "diet, helps prevent",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "Subject is 'Regular exercise' (singular) — 'helps'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    }
+  ],
+  "totalErrors": 4
+}

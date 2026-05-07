@@ -1,0 +1,70 @@
+{
+  "slug": "edu-sp-starter-001",
+  "topic": "Education",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5.5,
+  "minUnitIndex": 9,
+  "maxUnitIndex": 10,
+  "grammarFocus": [
+    "SINGULAR_PLURAL"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-9-10",
+  "questionPrompt": "Education is the single most important factor in the development of a country. To what extent do you agree or disagree?",
+  "passageText": "Many researches have shown that the quality of education varies across countries. Governments need more informations to make good decisions. Students often seek advices from their teachers about career choices. The evidences suggest that early childhood education produces significant long-term benefits.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 195,
+      "endIndex": 209,
+      "text": "career choices",
+      "hint": "'Choices' is countable plural — correct."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 15,
+      "errorText": "Many researches",
+      "correctText": "Much research",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "'Research' is uncountable.",
+      "grammarRuleCode": "SP-001",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    },
+    {
+      "startIndex": 99,
+      "endIndex": 116,
+      "errorText": "more informations",
+      "correctText": "more information",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "'Information' is uncountable.",
+      "grammarRuleCode": "SP-001",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    },
+    {
+      "startIndex": 156,
+      "endIndex": 168,
+      "errorText": "seek advices",
+      "correctText": "seek advice",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "'Advice' is uncountable.",
+      "grammarRuleCode": "SP-001",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    },
+    {
+      "startIndex": 211,
+      "endIndex": 224,
+      "errorText": "The evidences",
+      "correctText": "The evidence",
+      "errorType": "SINGULAR_PLURAL",
+      "severity": "MAJOR",
+      "explanation": "'Evidence' is uncountable.",
+      "grammarRuleCode": "SP-001",
+      "ieltsTipErrorType": "SINGULAR_PLURAL"
+    }
+  ],
+  "totalErrors": 4
+}

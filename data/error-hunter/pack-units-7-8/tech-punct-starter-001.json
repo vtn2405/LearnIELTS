@@ -1,0 +1,82 @@
+{
+  "slug": "tech-punct-starter-001",
+  "topic": "Technology",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5.5,
+  "minUnitIndex": 7,
+  "maxUnitIndex": 8,
+  "grammarFocus": [
+    "PUNCTUATION",
+    "SENTENCE_STRUCTURE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-7-8",
+  "questionPrompt": "Do you think social media has more positive or negative effects on society? Why?",
+  "passageText": "However technology has many benefits it also creates problems. Therefore we should use it wisely. In addition children need guidance from their parents. Furthermore the government should regulate social media companies, that spread misinformation.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 196,
+      "endIndex": 218,
+      "text": "social media companies",
+      "hint": "Correct noun phrase."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 18,
+      "errorText": "However technology",
+      "correctText": "However, technology",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "'However' needs comma after.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    },
+    {
+      "startIndex": 63,
+      "endIndex": 75,
+      "errorText": "Therefore we",
+      "correctText": "Therefore, we",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "'Therefore' needs comma after.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    },
+    {
+      "startIndex": 98,
+      "endIndex": 118,
+      "errorText": "In addition children",
+      "correctText": "In addition, children",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "'In addition' needs comma after.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    },
+    {
+      "startIndex": 153,
+      "endIndex": 168,
+      "errorText": "Furthermore the",
+      "correctText": "Furthermore, the",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "'Furthermore' needs comma after.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    },
+    {
+      "startIndex": 209,
+      "endIndex": 231,
+      "errorText": "companies, that spread",
+      "correctText": "companies that spread",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "Defining clause — no comma before 'that'.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    }
+  ],
+  "totalErrors": 5
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "tech-prep-starter-001",
+  "topic": "Technology",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5.5,
+  "minUnitIndex": 5,
+  "maxUnitIndex": 6,
+  "grammarFocus": [
+    "PREPOSITION"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-5-6",
+  "questionPrompt": "Some people think that technology has made communication easier. Others believe it has reduced the quality of human interaction. Discuss both views.",
+  "passageText": "Many people are dependent of technology in their daily lives. Young people are particularly interested on social media. This has resulted to a decline in face-to-face communication. Governments should focus in educating citizens about responsible technology use.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 151,
+      "endIndex": 166,
+      "text": "in face-to-face",
+      "hint": "'In' is correct here, meaning 'in the area of'."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 16,
+      "endIndex": 28,
+      "errorText": "dependent of",
+      "correctText": "dependent on",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'dependent ON'.",
+      "grammarRuleCode": "PREP-001",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 92,
+      "endIndex": 105,
+      "errorText": "interested on",
+      "correctText": "interested in",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'interested IN'.",
+      "grammarRuleCode": "PREP-001",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 129,
+      "endIndex": 140,
+      "errorText": "resulted to",
+      "correctText": "resulted in",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'resulted IN'.",
+      "grammarRuleCode": "PREP-002",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 201,
+      "endIndex": 209,
+      "errorText": "focus in",
+      "correctText": "focus on",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'focus ON'.",
+      "grammarRuleCode": "PREP-002",
+      "ieltsTipErrorType": "PREPOSITION"
+    }
+  ],
+  "totalErrors": 4
+}

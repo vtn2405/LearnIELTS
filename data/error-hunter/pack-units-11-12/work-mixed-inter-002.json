@@ -1,0 +1,71 @@
+{
+  "slug": "work-mixed-inter-002",
+  "topic": "Work",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6.5,
+  "minUnitIndex": 11,
+  "maxUnitIndex": 12,
+  "grammarFocus": [
+    "PRONOUN",
+    "MODIFIER"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-11-12",
+  "questionPrompt": "In many countries, there is increasing competition for jobs. What are the causes of this, and what measures can be taken to address it?",
+  "passageText": "Being a competitive job market, candidates must improve their skills constantly. The committee announced that they would review their policy next month. When an employee makes a mistake, you should not punish them too harshly. Having analysed the data, the conclusion was clear: only investing in people leads to long-term growth.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 313,
+      "endIndex": 329,
+      "text": "long-term growth",
+      "hint": "Correct compound — no error."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 42,
+      "errorText": "Being a competitive job market, candidates",
+      "correctText": "In a competitive job market, candidates",
+      "errorType": "MODIFIER",
+      "severity": "MAJOR",
+      "explanation": "Dangling modifier: rephrase.",
+      "grammarRuleCode": "MOD-001",
+      "ieltsTipErrorType": "MODIFIER"
+    },
+    {
+      "startIndex": 105,
+      "endIndex": 133,
+      "errorText": "that they would review their",
+      "correctText": "that it would review its",
+      "errorType": "PRONOUN",
+      "severity": "MAJOR",
+      "explanation": "'Committee' is singular — 'it/its'.",
+      "grammarRuleCode": "PRO-001",
+      "ieltsTipErrorType": "PRONOUN"
+    },
+    {
+      "startIndex": 187,
+      "endIndex": 213,
+      "errorText": "you should not punish them",
+      "correctText": "employers should not punish them",
+      "errorType": "PRONOUN",
+      "severity": "MINOR",
+      "explanation": "Avoid 'you' in academic writing.",
+      "grammarRuleCode": "PRO-001",
+      "ieltsTipErrorType": "PRONOUN"
+    },
+    {
+      "startIndex": 227,
+      "endIndex": 277,
+      "errorText": "Having analysed the data, the conclusion was clear",
+      "correctText": "Having analysed the data, the researchers concluded",
+      "errorType": "MODIFIER",
+      "severity": "MAJOR",
+      "explanation": "Dangling modifier: must describe researchers.",
+      "grammarRuleCode": "MOD-001",
+      "ieltsTipErrorType": "MODIFIER"
+    }
+  ],
+  "totalErrors": 4
+}

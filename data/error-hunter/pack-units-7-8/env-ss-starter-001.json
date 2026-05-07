@@ -1,0 +1,59 @@
+{
+  "slug": "env-ss-starter-001",
+  "topic": "Environment",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5.5,
+  "minUnitIndex": 7,
+  "maxUnitIndex": 8,
+  "grammarFocus": [
+    "SENTENCE_STRUCTURE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-7-8",
+  "questionPrompt": "Some people think that environmental problems should be solved by governments, while others believe individuals should take responsibility. Discuss both views.",
+  "passageText": "Although climate change is a serious problem, but governments are slow to act. Many countries have signed agreements, they have not followed through on their promises. While renewable energy is becoming cheaper however fossil fuels remain dominant.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 174,
+      "endIndex": 190,
+      "text": "renewable energy",
+      "hint": "Correct compound — adjective modifying noun."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 49,
+      "errorText": "Although climate change is a serious problem, but",
+      "correctText": "Although climate change is a serious problem,",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Double connector: remove 'but' with 'although'.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 106,
+      "endIndex": 127,
+      "errorText": "agreements, they have",
+      "correctText": "agreements; they have",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Comma splice: use semicolon or conjunction.",
+      "grammarRuleCode": "SS-002",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 203,
+      "endIndex": 225,
+      "errorText": "cheaper however fossil",
+      "correctText": "cheaper, however, fossil",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "'However' needs commas around it.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    }
+  ],
+  "totalErrors": 3
+}

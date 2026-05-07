@@ -1,6 +1,7 @@
 // components/exercises/error-hunter/ResultPanel.tsx
 "use client";
 
+import { useState } from "react";
 import type { EhSubmitResponse, EhPerErrorFeedback, EhErrorStatus } from "@/lib/types/error-hunter";
 
 const STATUS_META: Record<EhErrorStatus, { label: string; color: string; bg: string }> = {
@@ -12,11 +13,13 @@ const STATUS_META: Record<EhErrorStatus, { label: string; color: string; bg: str
 
 interface Props {
   result: EhSubmitResponse;
+  passageText?: string;
   onNext: () => void;
 }
 
-export default function ResultPanel({ result, onNext }: Props) {
+export default function ResultPanel({ result, passageText, onNext }: Props) {
   const { score, summary, perErrorFeedback } = result;
+  const [showCorrected, setShowCorrected] = useState(false);
 
   const scoreColor =
     score.scorePercent >= 80 ? "#15803d"
@@ -53,6 +56,28 @@ export default function ResultPanel({ result, onNext }: Props) {
           <Chip label={`+${score.xpEarned} XP`} color="#d97706" />
         </div>
       </div>
+
+      {/* ── Corrected passage view ── */}
+      {passageText && (
+        <div>
+          <button
+            onClick={() => setShowCorrected((v) => !v)}
+            style={{
+              background: "none", border: "1px solid #cbd5e1", borderRadius: 8,
+              padding: "6px 14px", fontSize: 12, fontWeight: 600,
+              color: "#475569", cursor: "pointer", marginBottom: 8,
+            }}
+          >
+            {showCorrected ? "Hide" : "Show"} corrected passage
+          </button>
+          {showCorrected && (
+            <CorrectedPassage
+              passageText={passageText}
+              feedback={perErrorFeedback.filter((f) => f.status !== "FALSE_ALARM")}
+            />
+          )}
+        </div>
+      )}
 
       {/* ── Per-error feedback list ── */}
       <p style={{
@@ -137,6 +162,58 @@ function ErrorCard({ fb }: { fb: EhPerErrorFeedback }) {
           </p>
         </div>
       )}
+    </div>
+  );
+}
+
+/** Renders the passage text with corrections highlighted inline. */
+function CorrectedPassage({
+  passageText,
+  feedback,
+}: {
+  passageText: string;
+  feedback: EhPerErrorFeedback[];
+}) {
+  const sorted = [...feedback]
+    .filter((f) => f.startIndex != null)
+    .sort((a, b) => a.startIndex - b.startIndex);
+
+  const parts: React.ReactNode[] = [];
+  let cursor = 0;
+
+  for (const fb of sorted) {
+    if (fb.startIndex > cursor) {
+      parts.push(passageText.slice(cursor, fb.startIndex));
+    }
+    const statusColor =
+      fb.status === "FOUND_CORRECT" ? "#15803d"
+      : fb.status === "FOUND_WRONG_FIX" ? "#b45309"
+      : "#dc2626";
+    parts.push(
+      <span key={fb.errorId} style={{ fontWeight: 700, color: statusColor }}>
+        {fb.correctText}
+      </span>
+    );
+    cursor = fb.endIndex;
+  }
+
+  if (cursor < passageText.length) {
+    parts.push(passageText.slice(cursor));
+  }
+
+  return (
+    <div style={{
+      background: "#f0fdf4", borderRadius: 10, padding: "12px 16px",
+      border: "1px solid #bbf7d0", fontSize: 13.5, lineHeight: 1.7,
+      color: "#1e293b", whiteSpace: "pre-wrap", marginBottom: 6,
+    }}>
+      <p style={{
+        margin: "0 0 6px", fontSize: 10, fontWeight: 700,
+        letterSpacing: "0.08em", color: "#15803d", textTransform: "uppercase",
+      }}>
+        Corrected passage
+      </p>
+      {parts}
     </div>
   );
 }

@@ -156,8 +156,9 @@ async function seedPassage(
 async function main() {
   const args    = process.argv.slice(2);
   const dryRun  = args.includes("--dry-run");
+  const packIdx = args.indexOf("--pack");
   const packArg = args.find((a) => a.startsWith("--pack="))?.replace("--pack=", "")
-    ?? args[args.indexOf("--pack") + 1];
+    ?? (packIdx >= 0 ? args[packIdx + 1] : undefined);
 
   const dataDir = path.join(process.cwd(), "data", "error-hunter");
   const packs   = readdirSync(dataDir, { withFileTypes: true })

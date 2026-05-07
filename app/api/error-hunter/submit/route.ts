@@ -140,6 +140,102 @@ export async function POST(req: NextRequest) {
     },
   });
 
+  // ── Step 4b: Feed missed / wrong-fix errors into MistakeLog ─────────────
+  const dbUser = await prisma.user.findUnique({
+    where: { clerkId: userId },
+    select: { id: true },
+  });
+
+  if (dbUser) {
+    const mistakeErrors = perErrorFeedback.filter(
+      (f) => f.status === "MISSED" || f.status === "FOUND_WRONG_FIX"
+    );
+
+    for (const fb of mistakeErrors) {
+      const gtError = groundTruth.find((e) => e.id === fb.errorId);
+      if (!gtError) continue;
+
+      const existing = await prisma.mistakeLog.findFirst({
+        where: { userId: dbUser.id, grammarTag: gtError.errorType },
+      });
+
+      if (existing) {
+        await prisma.mistakeLog.update({
+          where: { id: existing.id },
+          data: {
+            occurrences: { increment: 1 },
+            prompt:      fb.errorText,
+            wrongAnswer: fb.userCorrection ?? fb.errorText,
+            correction:  fb.correctText,
+          },
+        });
+      } else {
+        await prisma.mistakeLog.create({
+          data: {
+            userId:     dbUser.id,
+            grammarTag: gtError.errorType,
+            prompt:     fb.errorText,
+            wrongAnswer: fb.userCorrection ?? fb.errorText,
+            correction: fb.correctText,
+          },
+        });
+      }
+    }
+  }
+
+  // ── Step 4c: Update adaptive difficulty (ErrorHunterProgress) ───────────
+  const existingProgress = await prisma.errorHunterProgress.findUnique({
+    where: { clerkId_packId: { clerkId: userId, packId: passage.packId } },
+  });
+
+  if (existingProgress) {
+    const newConsecHigh = scorePercent >= 80
+      ? existingProgress.consecutiveHigh + 1
+      : 0;
+    const newConsecLow = scorePercent < 40
+      ? existingProgress.consecutiveLow + 1
+      : 0;
+
+    let newDifficulty = existingProgress.currentDifficulty;
+    if (newConsecHigh >= 2 && newDifficulty === "STARTER") {
+      newDifficulty = "INTERMEDIATE";
+    } else if (newConsecHigh >= 2 && newDifficulty === "INTERMEDIATE") {
+      newDifficulty = "ADVANCED";
+    } else if (newConsecLow >= 2 && newDifficulty === "ADVANCED") {
+      newDifficulty = "INTERMEDIATE";
+    } else if (newConsecLow >= 2 && newDifficulty === "INTERMEDIATE") {
+      newDifficulty = "STARTER";
+    }
+
+    const newTotal = existingProgress.totalAttempts + 1;
+    const newAvg =
+      (existingProgress.avgScore * existingProgress.totalAttempts + scorePercent) /
+      newTotal;
+
+    await prisma.errorHunterProgress.update({
+      where: { clerkId_packId: { clerkId: userId, packId: passage.packId } },
+      data: {
+        currentDifficulty: newDifficulty as any,
+        consecutiveHigh:   newConsecHigh,
+        consecutiveLow:    newConsecLow,
+        totalAttempts:     newTotal,
+        avgScore:          newAvg,
+      },
+    });
+  } else {
+    await prisma.errorHunterProgress.create({
+      data: {
+        clerkId:           userId,
+        packId:            passage.packId,
+        currentDifficulty: "STARTER",
+        consecutiveHigh:   scorePercent >= 80 ? 1 : 0,
+        consecutiveLow:    scorePercent < 40 ? 1 : 0,
+        totalAttempts:     1,
+        avgScore:          scorePercent,
+      },
+    });
+  }
+
   // ── Step 5: Build summary message ─────────────────────────────────────────
   let summary: string;
   if (foundCorrect === total && falseAlarms === 0) {

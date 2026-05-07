@@ -1,0 +1,70 @@
+{
+  "slug": "econ-comp-starter-001",
+  "topic": "Economy",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5.5,
+  "minUnitIndex": 13,
+  "maxUnitIndex": 14,
+  "grammarFocus": [
+    "COMPARATIVE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-13-14",
+  "questionPrompt": "Economic inequality between countries continues to grow. What are the main causes of this, and what can be done to reduce it?",
+  "passageText": "The unemployment rate in China was more lower than India in 2020. Urban areas are more better developed than rural regions. The situation has become more worse over the past decade. Developed countries have the most highest standard of living.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 160,
+      "endIndex": 180,
+      "text": "over the past decade",
+      "hint": "Correct time expression."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 35,
+      "endIndex": 56,
+      "errorText": "more lower than India",
+      "correctText": "lower than that in India",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Double comparative + parallel structure.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 82,
+      "endIndex": 103,
+      "errorText": "more better developed",
+      "correctText": "better developed",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Double comparative: 'better' is already comparative.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 149,
+      "endIndex": 159,
+      "errorText": "more worse",
+      "correctText": "worse",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Double comparative: 'worse' is already comparative.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 207,
+      "endIndex": 223,
+      "errorText": "the most highest",
+      "correctText": "the highest",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Double superlative: remove 'most'.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    }
+  ],
+  "totalErrors": 4
+}

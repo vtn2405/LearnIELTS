@@ -1,0 +1,85 @@
+{
+  "slug": "health-mixed-adv-001",
+  "topic": "Health",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 7.0,
+  "minUnitIndex": 15,
+  "maxUnitIndex": 16,
+  "grammarFocus": [
+    "TENSE",
+    "SENTENCE_STRUCTURE",
+    "SVA",
+    "COMPARATIVE",
+    "COLLOCATION"
+  ],
+  "difficulty": "ADVANCED",
+  "packId": "pack-units-15-16",
+  "questionPrompt": "The COVID-19 pandemic exposed weaknesses in many countries' healthcare systems. What lessons should governments learn from this experience?",
+  "passageText": "Before the pandemic started, many countries did not invest enough in their healthcare systems. Although governments increased spending during the crisis, but the improvements were not sufficient. The number of hospital beds per capita in developing countries are much more lower than developed nations. By the time vaccines became available, millions of people already contracted the virus. Heavy research has shown that preventive measures are more effective as treating diseases after they occur.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 421,
+      "endIndex": 440,
+      "text": "preventive measures",
+      "hint": "Correct collocation."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 95,
+      "endIndex": 157,
+      "errorText": "Although governments increased spending during the crisis, but",
+      "correctText": "Although governments increased spending during the crisis,",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Double connector: remove 'but'.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 249,
+      "endIndex": 301,
+      "errorText": "countries are much more lower than developed nations",
+      "correctText": "countries is much lower than that in developed nations",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "SVA + double comparative + parallel structure.",
+      "grammarRuleCode": "COMP-001",
+      "ieltsTipErrorType": "COMPARATIVE"
+    },
+    {
+      "startIndex": 354,
+      "endIndex": 379,
+      "errorText": "people already contracted",
+      "correctText": "people had already contracted",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'By the time' needs past perfect.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 391,
+      "endIndex": 405,
+      "errorText": "Heavy research",
+      "correctText": "Extensive research",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'extensive research'.",
+      "grammarRuleCode": "COL-002",
+      "ieltsTipErrorType": "COLLOCATION"
+    },
+    {
+      "startIndex": 445,
+      "endIndex": 471,
+      "errorText": "more effective as treating",
+      "correctText": "more effective than treating",
+      "errorType": "COMPARATIVE",
+      "severity": "MAJOR",
+      "explanation": "Use 'than' with 'more + adj'.",
+      "grammarRuleCode": "COMP-002",
+      "ieltsTipErrorType": "COMPARATIVE"
+    }
+  ],
+  "totalErrors": 5
+}

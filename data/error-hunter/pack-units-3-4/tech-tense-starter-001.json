@@ -1,0 +1,71 @@
+{
+  "slug": "tech-tense-starter-001",
+  "topic": "Technology",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5.5,
+  "minUnitIndex": 3,
+  "maxUnitIndex": 4,
+  "grammarFocus": [
+    "TENSE",
+    "SVA"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-3-4",
+  "questionPrompt": "Some people think technology has made our lives easier, while others believe it has created new problems. Discuss both views.",
+  "passageText": "Technology has transform the way people communicate. In 2010, social media becomes popular worldwide. Since then, the number of users have grown rapidly. By 2030, experts predict that AI will has replaced many traditional jobs.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 163,
+      "endIndex": 178,
+      "text": "experts predict",
+      "hint": "Correctly in present simple — describes current belief."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 11,
+      "endIndex": 24,
+      "errorText": "has transform",
+      "correctText": "has transformed",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "Present perfect needs past participle: 'has transformed'.",
+      "grammarRuleCode": "TENSE-002",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 75,
+      "endIndex": 90,
+      "errorText": "becomes popular",
+      "correctText": "became popular",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'In 2010' is past — use 'became'.",
+      "grammarRuleCode": "TENSE-001",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 114,
+      "endIndex": 138,
+      "errorText": "the number of users have",
+      "correctText": "the number of users has",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'The number of' takes singular verb.",
+      "grammarRuleCode": "SVA-001",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 187,
+      "endIndex": 204,
+      "errorText": "will has replaced",
+      "correctText": "will have replaced",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "Future perfect: 'will have replaced'.",
+      "grammarRuleCode": "TENSE-003",
+      "ieltsTipErrorType": "TENSE"
+    }
+  ],
+  "totalErrors": 4
+}

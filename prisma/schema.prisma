@@ -401,3 +401,18 @@ model ErrorHunterAttempt {
   @@index([clerkId, createdAt(sort: Desc)])
   @@index([clerkId, passageId])
 }
+
+/// Tracks adaptive difficulty per user per pack
+model ErrorHunterProgress {
+  id                String       @id @default(cuid())
+  clerkId           String
+  packId            String
+  currentDifficulty EhDifficulty @default(STARTER)
+  consecutiveHigh   Int          @default(0)
+  consecutiveLow    Int          @default(0)
+  totalAttempts     Int          @default(0)
+  avgScore          Float        @default(0)
+  updatedAt         DateTime     @updatedAt
+
+  @@unique([clerkId, packId])
+}

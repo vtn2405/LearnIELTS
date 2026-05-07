@@ -1,0 +1,70 @@
+{
+  "slug": "work-col-starter-001",
+  "topic": "Work",
+  "taskType": "SPEAKING_PART2",
+  "bandTarget": 5.5,
+  "minUnitIndex": 9,
+  "maxUnitIndex": 10,
+  "grammarFocus": [
+    "COLLOCATION"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-9-10",
+  "questionPrompt": "Describe a job you would like to do in the future. You should say: what the job is, what skills are needed, why you would like to do it, and explain how you would prepare for it.",
+  "passageText": "In my opinion, people should do more effort to improve their skills. Companies need to make research before launching new products. Workers who take progress in their careers are often rewarded. It is important to do a decision about your future early in life.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 47,
+      "endIndex": 67,
+      "text": "improve their skills",
+      "hint": "Natural correct collocation."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 29,
+      "endIndex": 43,
+      "errorText": "do more effort",
+      "correctText": "make more effort",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'make an effort'.",
+      "grammarRuleCode": "COL-001",
+      "ieltsTipErrorType": "COLLOCATION"
+    },
+    {
+      "startIndex": 87,
+      "endIndex": 100,
+      "errorText": "make research",
+      "correctText": "conduct research",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'conduct/do research'.",
+      "grammarRuleCode": "COL-001",
+      "ieltsTipErrorType": "COLLOCATION"
+    },
+    {
+      "startIndex": 144,
+      "endIndex": 157,
+      "errorText": "take progress",
+      "correctText": "make progress",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'make progress'.",
+      "grammarRuleCode": "COL-001",
+      "ieltsTipErrorType": "COLLOCATION"
+    },
+    {
+      "startIndex": 214,
+      "endIndex": 227,
+      "errorText": "do a decision",
+      "correctText": "make a decision",
+      "errorType": "COLLOCATION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'make a decision'.",
+      "grammarRuleCode": "COL-001",
+      "ieltsTipErrorType": "COLLOCATION"
+    }
+  ],
+  "totalErrors": 4
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "edu-mod-starter-001",
+  "topic": "Education",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 6.0,
+  "minUnitIndex": 11,
+  "maxUnitIndex": 12,
+  "grammarFocus": [
+    "MODIFIER"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-11-12",
+  "questionPrompt": "What challenges does the education system in developing countries face, and how can they be addressed?",
+  "passageText": "Being a developing country, the education system faces many challenges. Having studied abroad for two years, better opportunities were available to me. Walking to school every day, the road was dangerous for young children. Considering the evidence, the policy should be reformed immediately.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 224,
+      "endIndex": 279,
+      "text": "Considering the evidence, the policy should be reformed",
+      "hint": "'Considering' is a quasi-preposition — acceptable here."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 48,
+      "errorText": "Being a developing country, the education system",
+      "correctText": "Being a developing country, Vietnam's education system",
+      "errorType": "MODIFIER",
+      "severity": "MAJOR",
+      "explanation": "Dangling modifier: must describe a country.",
+      "grammarRuleCode": "MOD-001",
+      "ieltsTipErrorType": "MODIFIER"
+    },
+    {
+      "startIndex": 72,
+      "endIndex": 144,
+      "errorText": "Having studied abroad for two years, better opportunities were available",
+      "correctText": "Having studied abroad for two years, I found better opportunities were available",
+      "errorType": "MODIFIER",
+      "severity": "MAJOR",
+      "explanation": "Dangling modifier: must describe a person.",
+      "grammarRuleCode": "MOD-001",
+      "ieltsTipErrorType": "MODIFIER"
+    },
+    {
+      "startIndex": 152,
+      "endIndex": 203,
+      "errorText": "Walking to school every day, the road was dangerous",
+      "correctText": "Walking to school every day, children faced a dangerous road",
+      "errorType": "MODIFIER",
+      "severity": "MAJOR",
+      "explanation": "Dangling modifier: 'Walking' describes children, not road.",
+      "grammarRuleCode": "MOD-001",
+      "ieltsTipErrorType": "MODIFIER"
+    }
+  ],
+  "totalErrors": 3
+}

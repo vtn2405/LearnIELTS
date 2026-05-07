@@ -1,0 +1,59 @@
+{
+  "slug": "env-tense-adv-001",
+  "topic": "Environment",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6.5,
+  "minUnitIndex": 15,
+  "maxUnitIndex": 16,
+  "grammarFocus": [
+    "TENSE"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-15-16",
+  "questionPrompt": "Some people think that government regulations are the most effective way to protect the environment. Others believe that individuals and businesses should take the lead. Discuss both views.",
+  "passageText": "By 2015, the government already introduced several environmental policies. Before the new regulations took effect, many factories polluted rivers for decades. The situation improved significantly after the policy was implemented, because the government already invested millions in clean technology.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 173,
+      "endIndex": 195,
+      "text": "improved significantly",
+      "hint": "Correctly in past simple."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 24,
+      "endIndex": 42,
+      "errorText": "already introduced",
+      "correctText": "had already introduced",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'By 2015' needs past perfect.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 115,
+      "endIndex": 138,
+      "errorText": "many factories polluted",
+      "correctText": "many factories had polluted",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "'Before' clause needs past perfect.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    },
+    {
+      "startIndex": 238,
+      "endIndex": 269,
+      "errorText": "the government already invested",
+      "correctText": "the government had already invested",
+      "errorType": "TENSE",
+      "severity": "MAJOR",
+      "explanation": "Investment before improvement — past perfect.",
+      "grammarRuleCode": "TENSE-004",
+      "ieltsTipErrorType": "TENSE"
+    }
+  ],
+  "totalErrors": 3
+}

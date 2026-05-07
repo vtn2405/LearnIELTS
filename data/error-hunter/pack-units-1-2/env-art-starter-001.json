@@ -1,0 +1,70 @@
+{
+  "slug": "env-art-starter-001",
+  "topic": "Environment",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5.0,
+  "minUnitIndex": 1,
+  "maxUnitIndex": 2,
+  "grammarFocus": [
+    "ARTICLE"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-1-2",
+  "questionPrompt": "Some people believe that environmental problems are too big for individuals to solve. To what extent do you agree or disagree?",
+  "passageText": "In recent years, the pollution has become a major issue in many countries. A environment is suffering because factories release harmful chemicals into a air. The government should take action to protect a nature before it is too late.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 128,
+      "endIndex": 145,
+      "text": "harmful chemicals",
+      "hint": "'Harmful chemicals' is correct — general plural noun, no article needed."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 17,
+      "endIndex": 30,
+      "errorText": "the pollution",
+      "correctText": "pollution",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "'Pollution' is uncountable and general — no 'the'.",
+      "grammarRuleCode": "ART-001",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 75,
+      "endIndex": 88,
+      "errorText": "A environment",
+      "correctText": "The environment",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "Use 'the' for 'the environment' (specific concept). Also 'an' not 'a' before vowel.",
+      "grammarRuleCode": "ART-002",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 151,
+      "endIndex": 156,
+      "errorText": "a air",
+      "correctText": "the air",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "'The air' is specific (atmosphere). Use 'the'. Also vowel sound.",
+      "grammarRuleCode": "ART-002",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 203,
+      "endIndex": 211,
+      "errorText": "a nature",
+      "correctText": "nature",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "'Nature' as abstract concept takes no article.",
+      "grammarRuleCode": "ART-001",
+      "ieltsTipErrorType": "ARTICLE"
+    }
+  ],
+  "totalErrors": 4
+}

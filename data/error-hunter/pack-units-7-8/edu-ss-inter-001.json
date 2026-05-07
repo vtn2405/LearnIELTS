@@ -1,0 +1,71 @@
+{
+  "slug": "edu-ss-inter-001",
+  "topic": "Education",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6.0,
+  "minUnitIndex": 7,
+  "maxUnitIndex": 8,
+  "grammarFocus": [
+    "SENTENCE_STRUCTURE",
+    "PUNCTUATION"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-7-8",
+  "questionPrompt": "Online learning has become increasingly popular. Do you think it will replace traditional classroom education in the future?",
+  "passageText": "Although many people support online learning, but traditional classrooms remain important. Online courses are flexible, students can study at their own pace. Nevertheless some students lack the discipline for self-study. Even though the internet provides access to information, however not all of it is reliable.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 139,
+      "endIndex": 156,
+      "text": "at their own pace",
+      "hint": "Correct prepositional phrase."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 49,
+      "errorText": "Although many people support online learning, but",
+      "correctText": "Although many people support online learning,",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Double connector: remove 'but'.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 110,
+      "endIndex": 128,
+      "errorText": "flexible, students",
+      "correctText": "flexible; students",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Comma splice — use semicolon.",
+      "grammarRuleCode": "SS-002",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 158,
+      "endIndex": 175,
+      "errorText": "Nevertheless some",
+      "correctText": "Nevertheless, some",
+      "errorType": "PUNCTUATION",
+      "severity": "MAJOR",
+      "explanation": "'Nevertheless' needs comma after.",
+      "grammarRuleCode": "PUNCT-001",
+      "ieltsTipErrorType": "PUNCTUATION"
+    },
+    {
+      "startIndex": 265,
+      "endIndex": 289,
+      "errorText": "information, however not",
+      "correctText": "information, not",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Double connector: 'even though' + 'however' — remove 'however'.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    }
+  ],
+  "totalErrors": 4
+}

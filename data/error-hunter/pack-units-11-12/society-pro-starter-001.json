@@ -1,0 +1,59 @@
+{
+  "slug": "society-pro-starter-001",
+  "topic": "Society",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 5.5,
+  "minUnitIndex": 11,
+  "maxUnitIndex": 12,
+  "grammarFocus": [
+    "PRONOUN"
+  ],
+  "difficulty": "STARTER",
+  "packId": "pack-units-11-12",
+  "questionPrompt": "Some people believe that governments are responsible for public health. Others think individuals should take care of their own health. Discuss both views and give your opinion.",
+  "passageText": "The government should increase their spending on healthcare. Society must take their responsibility for the well-being of citizens. When a student struggles, they often blame it on the teacher, but they should look at their own efforts first. You should always try to help others in your community.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 104,
+      "endIndex": 130,
+      "text": "the well-being of citizens",
+      "hint": "Correct — 'the' for specific abstract concept."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 22,
+      "endIndex": 45,
+      "errorText": "increase their spending",
+      "correctText": "increase its spending",
+      "errorType": "PRONOUN",
+      "severity": "MAJOR",
+      "explanation": "'Government' is singular — 'its'.",
+      "grammarRuleCode": "PRO-001",
+      "ieltsTipErrorType": "PRONOUN"
+    },
+    {
+      "startIndex": 61,
+      "endIndex": 84,
+      "errorText": "Society must take their",
+      "correctText": "Society must take its",
+      "errorType": "PRONOUN",
+      "severity": "MAJOR",
+      "explanation": "'Society' is singular — 'its'.",
+      "grammarRuleCode": "PRO-001",
+      "ieltsTipErrorType": "PRONOUN"
+    },
+    {
+      "startIndex": 243,
+      "endIndex": 260,
+      "errorText": "You should always",
+      "correctText": "Individuals should always",
+      "errorType": "PRONOUN",
+      "severity": "MINOR",
+      "explanation": "Avoid 'you' in IELTS Task 2 academic writing.",
+      "grammarRuleCode": "PRO-001",
+      "ieltsTipErrorType": "PRONOUN"
+    }
+  ],
+  "totalErrors": 3
+}

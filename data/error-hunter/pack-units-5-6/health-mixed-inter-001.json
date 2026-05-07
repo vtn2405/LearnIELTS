@@ -1,0 +1,93 @@
+{
+  "slug": "health-mixed-inter-001",
+  "topic": "Health",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6.0,
+  "minUnitIndex": 5,
+  "maxUnitIndex": 6,
+  "grammarFocus": [
+    "PREPOSITION",
+    "WORD_FORM"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-5-6",
+  "questionPrompt": "In many countries, the number of overweight people is increasing. What are the causes of this trend and what measures can be taken to address it?",
+  "passageText": "Many experts are concerned of the rising obesity rates among young people. The consume of fast food has increased dramatically. People should be more aware about the importance of a health diet. Research shows that physical active can contribute in preventing chronic diseases.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 90,
+      "endIndex": 99,
+      "text": "fast food",
+      "hint": "'Fast food' is a fixed compound noun — correct."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 17,
+      "endIndex": 29,
+      "errorText": "concerned of",
+      "correctText": "concerned about",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'concerned ABOUT'.",
+      "grammarRuleCode": "PREP-001",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 75,
+      "endIndex": 89,
+      "errorText": "The consume of",
+      "correctText": "The consumption of",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "Need noun 'consumption'.",
+      "grammarRuleCode": "WF-001",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 150,
+      "endIndex": 161,
+      "errorText": "aware about",
+      "correctText": "aware of",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'aware OF'.",
+      "grammarRuleCode": "PREP-001",
+      "ieltsTipErrorType": "PREPOSITION"
+    },
+    {
+      "startIndex": 180,
+      "endIndex": 193,
+      "errorText": "a health diet",
+      "correctText": "a healthy diet",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "Need adjective 'healthy'.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 215,
+      "endIndex": 230,
+      "errorText": "physical active",
+      "correctText": "physical activity",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "Need noun 'activity'.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    },
+    {
+      "startIndex": 235,
+      "endIndex": 259,
+      "errorText": "contribute in preventing",
+      "correctText": "contribute to preventing",
+      "errorType": "PREPOSITION",
+      "severity": "MAJOR",
+      "explanation": "Correct: 'contribute TO'.",
+      "grammarRuleCode": "PREP-002",
+      "ieltsTipErrorType": "PREPOSITION"
+    }
+  ],
+  "totalErrors": 6
+}

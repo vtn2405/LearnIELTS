@@ -1,0 +1,82 @@
+{
+  "slug": "work-sva-inter-001",
+  "topic": "Work",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6.0,
+  "minUnitIndex": 3,
+  "maxUnitIndex": 4,
+  "grammarFocus": [
+    "SVA",
+    "TENSE"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-3-4",
+  "questionPrompt": "Some people think that the changing nature of work will lead to more unemployment. Others believe new opportunities will emerge. Discuss both views and give your opinion.",
+  "passageText": "The world of work have changed dramatically since the year 2000. Many jobs that existed a decade ago has now disappeared. A number of new professions has emerged due to technological progress. Meanwhile, the rate of unemployment in developing countries are still high, and each government need to address this issue urgently.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 169,
+      "endIndex": 191,
+      "text": "technological progress",
+      "hint": "Uncountable noun, correctly used without article."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 13,
+      "endIndex": 30,
+      "errorText": "work have changed",
+      "correctText": "work has changed",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'The world' is singular — 'has'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 97,
+      "endIndex": 120,
+      "errorText": "ago has now disappeared",
+      "correctText": "ago have now disappeared",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'Many jobs' is plural — 'have'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 122,
+      "endIndex": 161,
+      "errorText": "A number of new professions has emerged",
+      "correctText": "A number of new professions have emerged",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'A number of + plural' takes plural verb.",
+      "grammarRuleCode": "SVA-001",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 243,
+      "endIndex": 262,
+      "errorText": "countries are still",
+      "correctText": "countries is still",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'The rate' is singular — 'is'.",
+      "grammarRuleCode": "SVA-001",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 273,
+      "endIndex": 293,
+      "errorText": "each government need",
+      "correctText": "each government needs",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'Each' requires singular: 'needs'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    }
+  ],
+  "totalErrors": 5
+}

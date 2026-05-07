@@ -1,0 +1,72 @@
+{
+  "slug": "edu-mixed-inter-001",
+  "topic": "Education",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6.0,
+  "minUnitIndex": 1,
+  "maxUnitIndex": 2,
+  "grammarFocus": [
+    "ARTICLE",
+    "TENSE",
+    "SVA"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-1-2",
+  "questionPrompt": "Some people think that the government should invest more in education. Others believe that the private sector should play a bigger role. Discuss both views and give your opinion.",
+  "passageText": "The education plays a vital role in the development of a country. Over the past decade, governments has invested heavily in schools. However, many students still do not have access to the quality education. If a country wants to progress, it must prioritise the education reform.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 36,
+      "endIndex": 51,
+      "text": "the development",
+      "hint": "'The development' is correct — specific concept tied to the country."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 19,
+      "errorText": "The education plays",
+      "correctText": "Education plays",
+      "errorType": "ARTICLE",
+      "severity": "MAJOR",
+      "explanation": "'Education' as general concept — no 'the'.",
+      "grammarRuleCode": "ART-001",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 88,
+      "endIndex": 112,
+      "errorText": "governments has invested",
+      "correctText": "governments have invested",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'Governments' is plural — use 'have'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 184,
+      "endIndex": 205,
+      "errorText": "the quality education",
+      "correctText": "quality education",
+      "errorType": "ARTICLE",
+      "severity": "MINOR",
+      "explanation": "'Quality education' is general — no article.",
+      "grammarRuleCode": "ART-001",
+      "ieltsTipErrorType": "ARTICLE"
+    },
+    {
+      "startIndex": 258,
+      "endIndex": 278,
+      "errorText": "the education reform",
+      "correctText": "education reform",
+      "errorType": "ARTICLE",
+      "severity": "MINOR",
+      "explanation": "'Education reform' as general concept — no 'the'.",
+      "grammarRuleCode": "ART-001",
+      "ieltsTipErrorType": "ARTICLE"
+    }
+  ],
+  "totalErrors": 4
+}

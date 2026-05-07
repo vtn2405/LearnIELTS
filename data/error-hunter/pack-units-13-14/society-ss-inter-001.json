@@ -1,0 +1,70 @@
+{
+  "slug": "society-ss-inter-001",
+  "topic": "Society",
+  "taskType": "WRITING_TASK2",
+  "bandTarget": 6.5,
+  "minUnitIndex": 13,
+  "maxUnitIndex": 14,
+  "grammarFocus": [
+    "SENTENCE_STRUCTURE"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-13-14",
+  "questionPrompt": "Some people think that academic qualifications are essential for success. Others believe practical skills are more important. Discuss both views.",
+  "passageText": "Students, that study hard, usually achieve better results. The country which it has the highest GDP is the United States. People who they work in technology earn more than those in education. The policy, that was introduced in 2020, has been effective in reducing crime.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 172,
+      "endIndex": 190,
+      "text": "those in education",
+      "hint": "'Those' correctly replaces 'people'."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 0,
+      "endIndex": 26,
+      "errorText": "Students, that study hard,",
+      "correctText": "Students who study hard",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Defining clause: no commas, use 'who'.",
+      "grammarRuleCode": "SS-003",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 71,
+      "endIndex": 83,
+      "errorText": "which it has",
+      "correctText": "which has",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Double subject: remove 'it'.",
+      "grammarRuleCode": "SS-003",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 129,
+      "endIndex": 142,
+      "errorText": "who they work",
+      "correctText": "who work",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Double subject: remove 'they'.",
+      "grammarRuleCode": "SS-003",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 192,
+      "endIndex": 232,
+      "errorText": "The policy, that was introduced in 2020,",
+      "correctText": "The policy that was introduced in 2020",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Defining clause with 'that': no commas.",
+      "grammarRuleCode": "SS-003",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    }
+  ],
+  "totalErrors": 4
+}

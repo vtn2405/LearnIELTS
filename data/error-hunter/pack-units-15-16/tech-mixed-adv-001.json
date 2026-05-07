@@ -1,0 +1,84 @@
+{
+  "slug": "tech-mixed-adv-001",
+  "topic": "Technology",
+  "taskType": "SPEAKING_PART2",
+  "bandTarget": 6.5,
+  "minUnitIndex": 15,
+  "maxUnitIndex": 16,
+  "grammarFocus": [
+    "SVA",
+    "SENTENCE_STRUCTURE",
+    "MODIFIER",
+    "WORD_FORM"
+  ],
+  "difficulty": "ADVANCED",
+  "packId": "pack-units-15-16",
+  "questionPrompt": "Describe a piece of technology that has changed the way people communicate. You should say: what it is, how it works, how people use it, and explain how it has changed communication.",
+  "passageText": "I would like to talk about a technology that have transformed our lives. Although smartphones are useful, but many people are addicted to them. The number of users have increased dramatically since 2010. Being a digital native, technology comes natural to my generation.",
+  "falseAlarmZones": [
+    {
+      "startIndex": 212,
+      "endIndex": 226,
+      "text": "digital native",
+      "hint": "Correct compound noun."
+    }
+  ],
+  "errors": [
+    {
+      "startIndex": 40,
+      "endIndex": 61,
+      "errorText": "that have transformed",
+      "correctText": "that has transformed",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'A technology' is singular — 'has'.",
+      "grammarRuleCode": "SVA-002",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 73,
+      "endIndex": 109,
+      "errorText": "Although smartphones are useful, but",
+      "correctText": "Although smartphones are useful,",
+      "errorType": "SENTENCE_STRUCTURE",
+      "severity": "MAJOR",
+      "explanation": "Double connector: remove 'but'.",
+      "grammarRuleCode": "SS-001",
+      "ieltsTipErrorType": "SENTENCE_STRUCTURE"
+    },
+    {
+      "startIndex": 144,
+      "endIndex": 168,
+      "errorText": "The number of users have",
+      "correctText": "The number of users has",
+      "errorType": "SVA",
+      "severity": "MAJOR",
+      "explanation": "'The number of' takes singular.",
+      "grammarRuleCode": "SVA-001",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 204,
+      "endIndex": 244,
+      "errorText": "Being a digital native, technology comes",
+      "correctText": "Being a digital native, I find technology comes",
+      "errorType": "MODIFIER",
+      "severity": "MAJOR",
+      "explanation": "Dangling modifier: must describe a person.",
+      "grammarRuleCode": "MOD-001",
+      "ieltsTipErrorType": "MODIFIER"
+    },
+    {
+      "startIndex": 239,
+      "endIndex": 252,
+      "errorText": "comes natural",
+      "correctText": "comes naturally",
+      "errorType": "WORD_FORM",
+      "severity": "MAJOR",
+      "explanation": "Need adverb 'naturally'.",
+      "grammarRuleCode": "WF-002",
+      "ieltsTipErrorType": "WORD_FORM"
+    }
+  ],
+  "totalErrors": 5
+}
