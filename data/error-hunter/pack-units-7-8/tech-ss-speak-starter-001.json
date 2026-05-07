@@ -60,5 +60,8 @@
       "ieltsTipErrorType": "SENTENCE_STRUCTURE"
     }
   ],
-  "totalErrors": 4
+  "totalErrors": 4,
+  "title": "IELTS Speaking Part 3: Technology — SENTENCE_STRUCTURE & PUNCTUATION",
+  "titleVi": "IELTS Speaking Part 3: Công nghệ — Cấu trúc câu & Dấu câu",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

@@ -4,10 +4,10 @@
 import type { EhSubmitResponse, EhPerErrorFeedback, EhErrorStatus } from "@/lib/types/error-hunter";
 
 const STATUS_META: Record<EhErrorStatus, { label: string; color: string; bg: string }> = {
-  FOUND_CORRECT:   { label: "✓ Found & Fixed",    color: "#15803d", bg: "#f0fdf4" },
-  FOUND_WRONG_FIX: { label: "◑ Found, wrong fix", color: "#b45309", bg: "#fffbeb" },
-  MISSED:          { label: "✗ Missed",            color: "#dc2626", bg: "#fff5f5" },
-  FALSE_ALARM:     { label: "⚠ False alarm",       color: "#7c3aed", bg: "#faf5ff" },
+  FOUND_CORRECT:   { label: "✓ Tìm đúng & sửa đúng", color: "#15803d", bg: "#f0fdf4" },
+  FOUND_WRONG_FIX: { label: "◑ Tìm đúng, sửa sai",  color: "#b45309", bg: "#fffbeb" },
+  MISSED:          { label: "✗ Bỏ sót",             color: "#dc2626", bg: "#fff5f5" },
+  FALSE_ALARM:     { label: "⚠ Báo nhầm",           color: "#7c3aed", bg: "#faf5ff" },
 };
 
 interface Props {
@@ -34,7 +34,7 @@ export default function ResultPanel({ result, onNext }: Props) {
           margin: "0 0 2px", fontSize: 10, fontWeight: 700,
           letterSpacing: "0.1em", color: "#64748b", textTransform: "uppercase",
         }}>
-          Your Score (F1)
+          Điểm số (F1)
         </p>
         <p style={{ margin: "0 0 6px", fontSize: 44, fontWeight: 900, color: scoreColor, lineHeight: 1 }}>
           {score.scorePercent}
@@ -44,11 +44,11 @@ export default function ResultPanel({ result, onNext }: Props) {
           {summary}
         </p>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-          <Chip label={`${score.foundCorrect} found`} color="#15803d" />
-          <Chip label={`${score.missed} missed`} color="#dc2626" />
-          <Chip label={`${score.falseAlarms} false alarms`} color="#7c3aed" />
+          <Chip label={`${score.foundCorrect} tìm đúng`} color="#15803d" />
+          <Chip label={`${score.missed} bỏ sót`} color="#dc2626" />
+          <Chip label={`${score.falseAlarms} báo nhầm`} color="#7c3aed" />
           {score.fixAccuracy > 0 && (
-            <Chip label={`${score.fixAccuracy}% fix accuracy`} color="#0369a1" />
+            <Chip label={`${score.fixAccuracy}% độ chính xác`} color="#0369a1" />
           )}
           <Chip label={`+${score.xpEarned} XP`} color="#d97706" />
         </div>
@@ -59,7 +59,7 @@ export default function ResultPanel({ result, onNext }: Props) {
         margin: 0, fontSize: 11, fontWeight: 700,
         letterSpacing: "0.08em", color: "#64748b", textTransform: "uppercase",
       }}>
-        Error breakdown
+        Chi tiết từng lỗi
       </p>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -79,7 +79,7 @@ export default function ResultPanel({ result, onNext }: Props) {
           marginTop: 4,
         }}
       >
-        Next Passage →
+        Đoạn tiếp theo →
       </button>
     </div>
   );
@@ -112,7 +112,7 @@ function ErrorCard({ fb }: { fb: EhPerErrorFeedback }) {
             <strong style={{ color: "#15803d" }}>{fb.correctText}</strong>
             {fb.userCorrection && fb.status === "FOUND_WRONG_FIX" && (
               <span style={{ color: "#b45309", marginLeft: 6, fontSize: 12 }}>
-                (you wrote: "{fb.userCorrection}")
+                (bạn viết: "{fb.userCorrection}")
               </span>
             )}
           </p>
@@ -133,7 +133,7 @@ function ErrorCard({ fb }: { fb: EhPerErrorFeedback }) {
           padding: "6px 10px", marginTop: 4,
         }}>
           <p style={{ margin: 0, fontSize: 11.5, color: "#0369a1", lineHeight: 1.5 }}>
-            💡 IELTS tip: {fb.ieltsTip}
+            💡 Mẹo IELTS: {fb.ieltsTip}
           </p>
         </div>
       )}

@@ -55,5 +55,8 @@
       "ieltsTipErrorType": "SENTENCE_STRUCTURE"
     }
   ],
-  "totalErrors": 3
+  "totalErrors": 3,
+  "title": "IELTS Writing Task 2: Technology — SENTENCE_STRUCTURE",
+  "titleVi": "IELTS Writing Task 2: Công nghệ — Cấu trúc câu",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

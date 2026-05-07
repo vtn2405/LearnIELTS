@@ -42,7 +42,7 @@ export default function ErrorHunterShell({
     return (
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center",
         minHeight: 300, color: "#94a3b8", fontSize: 15 }}>
-        Loading passage…
+        Đang tải đoạn văn…
       </div>
     );
   }
@@ -50,7 +50,7 @@ export default function ErrorHunterShell({
   if (!passage) {
     return (
       <div style={{ padding: 24, color: "#dc2626", fontSize: 14 }}>
-        {errorMsg ?? "Failed to load passage. Please try again."}
+        {errorMsg ?? "Không tải được đoạn văn. Vui lòng thử lại."}
       </div>
     );
   }
@@ -77,7 +77,7 @@ export default function ErrorHunterShell({
           <p style={{ margin: 0, fontSize: 14, color: "#374151",
             background: "#f8fafc", borderRadius: 8, padding: "10px 14px",
             border: "1px solid #e2e8f0", lineHeight: 1.6 }}>
-            {passage.questionPrompt}
+            {passage.questionPromptVi ?? passage.questionPrompt}
           </p>
         </div>
 
@@ -145,10 +145,10 @@ export default function ErrorHunterShell({
             display: "flex", gap: 14, marginTop: 12, flexWrap: "wrap",
           }}>
             {[
-              { color: "#16a34a", label: "Found & fixed" },
-              { color: "#d97706", label: "Found, wrong fix" },
-              { color: "#dc2626", label: "Missed" },
-              { color: "#7c3aed", label: "False alarm" },
+              { color: "#16a34a", label: "Tìm đúng & sửa đúng" },
+              { color: "#d97706", label: "Tìm đúng, sửa sai" },
+              { color: "#dc2626", label: "Bỏ sót" },
+              { color: "#7c3aed", label: "Báo nhầm" },
             ].map((item) => (
               <span key={item.label} style={{
                 display: "flex", alignItems: "center", gap: 5,

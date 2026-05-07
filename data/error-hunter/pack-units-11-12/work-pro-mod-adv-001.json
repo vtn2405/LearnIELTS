@@ -67,5 +67,8 @@
       "ieltsTipErrorType": "MODIFIER"
     }
   ],
-  "totalErrors": 4
+  "totalErrors": 4,
+  "title": "IELTS Writing Task 2: Work — PRONOUN & MODIFIER",
+  "titleVi": "IELTS Writing Task 2: Công việc — Đại từ & Bổ ngữ",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

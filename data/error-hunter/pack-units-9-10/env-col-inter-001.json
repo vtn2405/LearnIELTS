@@ -56,5 +56,8 @@
       "ieltsTipErrorType": "COLLOCATION"
     }
   ],
-  "totalErrors": 3
+  "totalErrors": 3,
+  "title": "IELTS Writing Task 2: Environment — COLLOCATION & SINGULAR_PLURAL",
+  "titleVi": "IELTS Writing Task 2: Môi trường — Kết hợp từ & Số ít/số nhiều",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

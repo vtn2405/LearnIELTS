@@ -59,5 +59,8 @@
       "ieltsTipErrorType": "PRONOUN"
     }
   ],
-  "totalErrors": 4
+  "totalErrors": 4,
+  "title": "IELTS Writing Task 2: Education — PRONOUN",
+  "titleVi": "IELTS Writing Task 2: Giáo dục — Đại từ",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra."
 }

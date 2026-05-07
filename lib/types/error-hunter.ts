@@ -19,6 +19,8 @@ export type EhErrorStatus =
 export interface EhPassageFull {
   id: string;
   slug: string;
+  title?: string | null;
+  titleVi?: string | null;
   topic: string;
   taskType: EhTaskType;
   bandTarget: number;
@@ -28,6 +30,7 @@ export interface EhPassageFull {
   difficulty: EhDifficulty;
   packId: string;
   questionPrompt: string;
+  questionPromptVi?: string | null;
   passageText: string;
   totalErrors: number;
   falseAlarmZones: FalseAlarmZone[] | null;
@@ -62,12 +65,15 @@ export interface FalseAlarmZone {
 /** Passage data sent to client — no correctText, no error positions */
 export interface EhPassageClient {
   id: string;
+  title?: string | null;
+  titleVi?: string | null;
   topic: string;
   taskType: EhTaskType;
   bandTarget: number;
   grammarFocus: string[];
   difficulty: EhDifficulty;
   questionPrompt: string;
+  questionPromptVi?: string | null;
   passageText: string;
   totalErrors: number;
 }

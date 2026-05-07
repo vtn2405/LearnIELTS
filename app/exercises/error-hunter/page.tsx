@@ -1,7 +1,7 @@
 // app/exercises/error-hunter/page.tsx
 "use client";
 
-import { useEffect, useReducer, useCallback } from "react";
+import { useEffect, useReducer, useCallback, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import ErrorHunterShell from "@/components/exercises/error-hunter/ErrorHunterShell";
 import type {
@@ -10,8 +10,81 @@ import type {
   UserSelection,
   EhSubmitResponse,
   EhNextResponse,
+  EhDifficulty,
 } from "@/lib/types/error-hunter";
-import { v4 as uuid } from "uuid";
+
+// ─── Difficulty level selector ───────────────────────────────────────────────
+
+type DifficultyKey = "STARTER" | "INTERMEDIATE" | "ADVANCED";
+
+const DIFFICULTY_META: Record<DifficultyKey, {
+  icon: string; gradient: string; borderColor: string; badgeColor: string;
+  label: string; labelVi: string; band: string; descVi: string; errorCount: string;
+}> = {
+  STARTER: {
+    icon: "\u{1F680}", gradient: "linear-gradient(135deg, #1d4ed8 0%, #6366f1 100%)",
+    borderColor: "#6366f1", badgeColor: "#1d4ed8",
+    label: "Starter", labelVi: "C\u01a1 b\u1ea3n", band: "Band 4.0\u20135.0",
+    descVi: "L\u1ed7i r\u00f5 r\u00e0ng \u2014 x\u00e2y n\u1ec1n t\u1ea3ng ph\u00e1t hi\u1ec7n l\u1ed7i",
+    errorCount: "3\u20134 l\u1ed7i/\u0111o\u1ea1n",
+  },
+  INTERMEDIATE: {
+    icon: "\u26A1", gradient: "linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)",
+    borderColor: "#a855f7", badgeColor: "#7c3aed",
+    label: "Intermediate", labelVi: "Trung c\u1ea5p", band: "Band 5.0\u20136.5",
+    descVi: "L\u1ed7i tinh t\u1ebf trong ng\u1eef c\u1ea3nh d\u00e0i \u2014 m\u00e0i s\u1eafc k\u1ef9 n\u0103ng",
+    errorCount: "4\u20135 l\u1ed7i/\u0111o\u1ea1n",
+  },
+  ADVANCED: {
+    icon: "\u{1F3C6}", gradient: "linear-gradient(135deg, #dc2626 0%, #f97316 100%)",
+    borderColor: "#f97316", badgeColor: "#dc2626",
+    label: "Advanced", labelVi: "N\u00e2ng cao", band: "Band 6.5\u20137.5",
+    descVi: "B\u1eaby ng\u1eef ph\u00e1p \u0111a t\u1ea7ng \u2014 k\u1ebft h\u1ee3p 2\u20133 lo\u1ea1i l\u1ed7i",
+    errorCount: "5\u20136 l\u1ed7i/\u0111o\u1ea1n",
+  },
+};
+
+function DifficultyCard({ meta, onClick }: {
+  meta: (typeof DIFFICULTY_META)[DifficultyKey]; onClick: () => void;
+}) {
+  const [hovered, setHovered] = useState(false);
+  return (
+    <button onClick={onClick}
+      onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}
+      style={{
+        background: hovered ? "#fefefe" : "#fff",
+        border: `1.5px solid ${hovered ? meta.borderColor : "#e2e8f0"}`,
+        borderRadius: 16, padding: "24px 22px", cursor: "pointer",
+        transition: "all 0.2s ease",
+        transform: hovered ? "translateY(-3px)" : "none",
+        boxShadow: hovered ? `0 8px 24px ${meta.borderColor}20` : "0 1px 4px rgba(0,0,0,0.06)",
+        textAlign: "left", width: "100%",
+        display: "flex", flexDirection: "column", alignItems: "stretch",
+      }}
+    >
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
+        <div style={{
+          width: 48, height: 48, borderRadius: 12, background: meta.gradient,
+          display: "flex", alignItems: "center", justifyContent: "center", fontSize: 24,
+          boxShadow: `0 3px 10px ${meta.borderColor}40`,
+        }}>{meta.icon}</div>
+        <span style={{
+          fontSize: 10, fontWeight: 800, letterSpacing: "0.08em", padding: "2px 10px",
+          borderRadius: 20, background: `${meta.badgeColor}15`, color: meta.borderColor,
+          border: `1px solid ${meta.borderColor}30`,
+        }}>{meta.band}</span>
+      </div>
+      <h3 style={{ margin: "0 0 4px", fontSize: 18, fontWeight: 700, color: "#1e3a5f" }}>
+        {meta.label}
+        <span style={{ fontSize: 13, fontWeight: 500, color: "#64748b", marginLeft: 8 }}>{meta.labelVi}</span>
+      </h3>
+      <p style={{ margin: "0 0 16px", fontSize: 13, color: "#64748b", lineHeight: 1.5 }}>{meta.descVi}</p>
+      <div style={{ display: "flex", gap: 14, fontSize: 12, color: "#94a3b8", fontWeight: 600, paddingTop: 12, borderTop: "1px solid #f1f5f9", marginTop: "auto" }}>
+        <span>{meta.errorCount}</span>
+      </div>
+    </button>
+  );
+}
 
 // ─── State machine ────────────────────────────────────────────────────────────
 
@@ -84,27 +157,33 @@ export default function ErrorHunterPage() {
   const router       = useRouter();
   const packId = searchParams.get("packId") ?? "pack-units-1-2";
 
+  const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyKey | null>(null);
   const [state, dispatch] = useReducer(reducer, INIT);
 
   const loadNext = useCallback(async () => {
+    if (!selectedDifficulty) return;
     dispatch({ type: "LOAD_START" });
     try {
-      const res = await fetch(`/api/error-hunter/next?packId=${packId}`);
+      const res = await fetch(
+        `/api/error-hunter/next?packId=${packId}&difficulty=${selectedDifficulty}`
+      );
       if (!res.ok) {
         const body = await res.json();
-        throw new Error(body.error ?? "Failed to load passage.");
+        throw new Error(body.error ?? "Kh\u00f4ng t\u1ea3i \u0111\u01b0\u1ee3c \u0111o\u1ea1n v\u0103n.");
       }
       const data: EhNextResponse = await res.json();
       dispatch({ type: "LOAD_OK", payload: data });
     } catch (e: unknown) {
       dispatch({
         type: "LOAD_FAIL",
-        message: e instanceof Error ? e.message : "Unknown error",
+        message: e instanceof Error ? e.message : "L\u1ed7i kh\u00f4ng x\u00e1c \u0111\u1ecbnh",
       });
     }
-  }, [packId]);
+  }, [packId, selectedDifficulty]);
 
-  useEffect(() => { loadNext(); }, [loadNext]);
+  useEffect(() => {
+    if (selectedDifficulty) loadNext();
+  }, [selectedDifficulty, loadNext]);
 
   const handleSubmit = async () => {
     if (!state.passage) return;
@@ -121,8 +200,13 @@ export default function ErrorHunterPage() {
       const result: EhSubmitResponse = await res.json();
       dispatch({ type: "SUBMIT_OK", result });
     } catch {
-      dispatch({ type: "LOAD_FAIL", message: "Submit failed. Please try again." });
+      dispatch({ type: "LOAD_FAIL", message: "G\u1eedi b\u00e0i th\u1ea5t b\u1ea1i. Vui l\u00f2ng th\u1eed l\u1ea1i." });
     }
+  };
+
+  const handleBackToLevels = () => {
+    setSelectedDifficulty(null);
+    dispatch({ type: "RESET" });
   };
 
   return (
@@ -131,9 +215,9 @@ export default function ErrorHunterPage() {
       fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
     }}>
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "28px 24px 60px" }}>
-        {/* ── Back nav ── */}
+        {/* Back nav */}
         <button
-          onClick={() => router.push("/exercises")}
+          onClick={() => selectedDifficulty ? handleBackToLevels() : router.push("/exercises")}
           style={{
             display: "flex", alignItems: "center", gap: 6,
             fontSize: 13, fontWeight: 600, color: "#64748b",
@@ -141,10 +225,10 @@ export default function ErrorHunterPage() {
             cursor: "pointer", marginBottom: 20, padding: 0,
           }}
         >
-          ← Exercise Hub
+          {selectedDifficulty ? "\u2190 Ch\u1ecdn c\u1ea5p \u0111\u1ed9" : "\u2190 Exercise Hub"}
         </button>
 
-        {/* ── Page header ── */}
+        {/* Page header */}
         <div style={{ marginBottom: 24 }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
             <span style={{ fontSize: 24 }}>🔍</span>
@@ -152,31 +236,68 @@ export default function ErrorHunterPage() {
               margin: 0, fontSize: 24, fontWeight: 800,
               color: "#1e3a5f", letterSpacing: "-0.02em",
             }}>
-              Error Hunter
+              Error Hunter{" "}
+              <span style={{ fontSize: 14, fontWeight: 500, color: "#64748b" }}>
+                S\u0103n l\u1ed7i ng\u1eef ph\u00e1p
+              </span>
             </h1>
           </div>
           <p style={{ margin: 0, fontSize: 13.5, color: "#64748b", maxWidth: 560 }}>
-            Read the passage and select any grammar errors you notice. 
-            You can optionally type a correction for each one.
+            {selectedDifficulty
+              ? "\u0110\u1ecdc \u0111o\u1ea1n v\u0103n v\u00e0 ch\u1ecdn c\u00e1c l\u1ed7i ng\u1eef ph\u00e1p b\u1ea1n ph\u00e1t hi\u1ec7n. B\u1ea1n c\u00f3 th\u1ec3 g\u00f5 b\u1ea3n s\u1eeda \u0111\u00fang cho m\u1ed7i l\u1ed7i."
+              : "Ch\u1ecdn c\u1ea5p \u0111\u1ed9 luy\u1ec7n t\u1eadp \u2014 t\u00ecm v\u00e0 s\u1eeda l\u1ed7i ng\u1eef ph\u00e1p trong \u0111o\u1ea1n v\u0103n IELTS."}
           </p>
         </div>
 
-        {/* ── Main shell ── */}
-        <ErrorHunterShell
-          phase={state.phase}
-          passage={state.passage}
-          errorsMeta={state.errorsMeta}
-          selections={state.selections}
-          result={state.result}
-          errorMsg={state.errorMsg}
-          onAddSelection={(sel) => dispatch({ type: "ADD_SEL", sel })}
-          onRemoveSelection={(id) => dispatch({ type: "REMOVE_SEL", id })}
-          onUpdateCorrection={(id, correction) =>
-            dispatch({ type: "UPDATE_CORRECTION", id, correction })
-          }
-          onSubmit={handleSubmit}
-          onNext={loadNext}
-        />
+        {/* Difficulty selector OR passage shell */}
+        {!selectedDifficulty ? (
+          <>
+            <p style={{
+              margin: "0 0 16px", fontSize: 12, fontWeight: 700,
+              letterSpacing: "0.08em", color: "#94a3b8", textTransform: "uppercase",
+            }}>
+              Ch\u1ecdn c\u1ea5p \u0111\u1ed9 luy\u1ec7n t\u1eadp
+            </p>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16 }}>
+              {(["STARTER", "INTERMEDIATE", "ADVANCED"] as DifficultyKey[]).map((key) => (
+                <DifficultyCard key={key} meta={DIFFICULTY_META[key]} onClick={() => setSelectedDifficulty(key)} />
+              ))}
+            </div>
+            <p style={{ textAlign: "center", color: "#94a3b8", fontSize: 12, marginTop: 24 }}>
+              M\u1ed7i \u0111o\u1ea1n v\u0103n \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf s\u00e1t \u0111\u1ec1 IELTS Writing Task 2 v\u00e0 Speaking Part 2/3
+            </p>
+          </>
+        ) : (
+          <>
+            {/* Passage title */}
+            {state.passage?.title && (
+              <div style={{
+                marginBottom: 16, padding: "10px 16px",
+                background: "#eff6ff", borderRadius: 10, border: "1px solid #bfdbfe",
+              }}>
+                <p style={{ margin: 0, fontSize: 14, fontWeight: 700, color: "#1e40af" }}>
+                  {state.passage.titleVi ?? state.passage.title}
+                </p>
+              </div>
+            )}
+
+            <ErrorHunterShell
+              phase={state.phase}
+              passage={state.passage}
+              errorsMeta={state.errorsMeta}
+              selections={state.selections}
+              result={state.result}
+              errorMsg={state.errorMsg}
+              onAddSelection={(sel) => dispatch({ type: "ADD_SEL", sel })}
+              onRemoveSelection={(id) => dispatch({ type: "REMOVE_SEL", id })}
+              onUpdateCorrection={(id, correction) =>
+                dispatch({ type: "UPDATE_CORRECTION", id, correction })
+              }
+              onSubmit={handleSubmit}
+              onNext={loadNext}
+            />
+          </>
+        )}
       </div>
     </div>
   );

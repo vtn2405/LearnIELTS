@@ -61,9 +61,9 @@ export default function Toolbar({
         <span style={{
           fontSize: 13, fontWeight: 600, color: "#374151",
         }}>
-          🔍 {selectionCount} selected
+          🔍 {selectionCount} đã chọn
           <span style={{ color: "#94a3b8", fontWeight: 400 }}>
-            {" "}/ {totalErrors} error{totalErrors !== 1 ? "s" : ""} in passage
+            {" "}/ {totalErrors} lỗi trong đoạn văn
           </span>
         </span>
       </div>
@@ -82,7 +82,7 @@ export default function Toolbar({
               cursor: "pointer",
             }}
           >
-            {hintsVisible ? "Hide hints" : `💡 Show hints (${hintCount})`}
+            {hintsVisible ? "Ẩn gợi ý" : `💡 Gợi ý (${hintCount})`}
           </button>
         )}
 
@@ -98,7 +98,7 @@ export default function Toolbar({
               cursor: "pointer",
             }}
           >
-            Clear all
+            Xóa tất cả
           </button>
         )}
 
@@ -116,7 +116,7 @@ export default function Toolbar({
               transition: "background 0.15s",
             }}
           >
-            {isSubmitting ? "Checking…" : "Submit →"}
+            {isSubmitting ? "Đang chấm…" : "Nộp bài →"}
           </button>
         )}
       </div>
