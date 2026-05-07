@@ -14,8 +14,8 @@
   "passageText": "In 2020, global internet usage has increased dramatically. Before the pandemic, many companies already adopt remote working policies. By next year, the number of online learners will grew significantly. Currently, education is underwent a major transformation.",
   "falseAlarmZones": [
     {
-      "startIndex": 209,
-      "endIndex": 218,
+      "startIndex": 203,
+      "endIndex": 212,
       "text": "Currently",
       "hint": "'Currently' is a correct time adverb and does not need to be changed."
     }
@@ -65,5 +65,6 @@
       "grammarRuleCode": "TENSE-002",
       "ieltsTipErrorType": "TENSE"
     }
-  ]
+  ],
+  "totalErrors": 4
 }

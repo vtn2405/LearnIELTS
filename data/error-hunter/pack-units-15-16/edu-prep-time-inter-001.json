@@ -76,5 +76,6 @@
       "grammarRuleCode": "PREP-003",
       "ieltsTipErrorType": "PREPOSITION"
     }
-  ]
+  ],
+  "totalErrors": 5
 }

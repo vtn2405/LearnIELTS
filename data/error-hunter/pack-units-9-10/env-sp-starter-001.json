@@ -76,5 +76,6 @@
       "grammarRuleCode": "SP-001",
       "ieltsTipErrorType": "SINGULAR_PLURAL"
     }
-  ]
+  ],
+  "totalErrors": 5
 }

@@ -54,5 +54,6 @@
       "grammarRuleCode": "SS-001",
       "ieltsTipErrorType": "SENTENCE_STRUCTURE"
     }
-  ]
+  ],
+  "totalErrors": 3
 }

@@ -59,5 +59,6 @@
       "grammarRuleCode": "PREP-001",
       "ieltsTipErrorType": "PREPOSITION"
     }
-  ]
+  ],
+  "totalErrors": 4
 }

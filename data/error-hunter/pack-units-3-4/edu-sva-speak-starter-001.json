@@ -69,5 +69,6 @@
       "grammarRuleCode": "SVA-002",
       "ieltsTipErrorType": "SVA"
     }
-  ]
+  ],
+  "totalErrors": 5
 }

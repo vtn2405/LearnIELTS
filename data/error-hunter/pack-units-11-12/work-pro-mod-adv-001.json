@@ -66,5 +66,6 @@
       "grammarRuleCode": "MOD-001",
       "ieltsTipErrorType": "MODIFIER"
     }
-  ]
+  ],
+  "totalErrors": 4
 }

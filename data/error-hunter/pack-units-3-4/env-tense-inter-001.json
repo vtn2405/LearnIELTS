@@ -77,5 +77,6 @@
       "grammarRuleCode": "TENSE-003",
       "ieltsTipErrorType": "TENSE"
     }
-  ]
+  ],
+  "totalErrors": 5
 }

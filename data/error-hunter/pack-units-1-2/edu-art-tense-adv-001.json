@@ -88,5 +88,6 @@
       "grammarRuleCode": "TENSE-001",
       "ieltsTipErrorType": "TENSE"
     }
-  ]
+  ],
+  "totalErrors": 6
 }

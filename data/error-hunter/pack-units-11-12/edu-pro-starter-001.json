@@ -58,5 +58,6 @@
       "grammarRuleCode": "PRO-001",
       "ieltsTipErrorType": "PRONOUN"
     }
-  ]
+  ],
+  "totalErrors": 4
 }

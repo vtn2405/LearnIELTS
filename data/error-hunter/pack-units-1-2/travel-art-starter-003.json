@@ -54,5 +54,6 @@
       "grammarRuleCode": "ART-003",
       "ieltsTipErrorType": "ARTICLE"
     }
-  ]
+  ],
+  "totalErrors": 3
 }

@@ -88,5 +88,6 @@
       "grammarRuleCode": "WF-002",
       "ieltsTipErrorType": "WORD_FORM"
     }
-  ]
+  ],
+  "totalErrors": 6
 }

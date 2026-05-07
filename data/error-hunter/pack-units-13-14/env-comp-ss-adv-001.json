@@ -77,5 +77,6 @@
       "grammarRuleCode": "COMP-001",
       "ieltsTipErrorType": "COMPARATIVE"
     }
-  ]
+  ],
+  "totalErrors": 5
 }

@@ -70,5 +70,6 @@
       "grammarRuleCode": "PUNCT-001",
       "ieltsTipErrorType": "PUNCTUATION"
     }
-  ]
+  ],
+  "totalErrors": 5
 }

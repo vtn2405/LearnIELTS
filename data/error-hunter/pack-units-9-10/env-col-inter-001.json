@@ -55,5 +55,6 @@
       "grammarRuleCode": "COL-001",
       "ieltsTipErrorType": "COLLOCATION"
     }
-  ]
+  ],
+  "totalErrors": 3
 }

@@ -54,5 +54,6 @@
       "grammarRuleCode": "TENSE-004",
       "ieltsTipErrorType": "TENSE"
     }
-  ]
+  ],
+  "totalErrors": 3
 }
