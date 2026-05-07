@@ -13,6 +13,7 @@
   "packId": "pack-units-1-2",
   "questionPrompt": "Read the passage below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
   "passageText": "Many student in Vietnam believes that higher education are the only path to success. The government also support this view, as it invest heavily in universities every year.",
+  "totalErrors": 5,
   "falseAlarmZones": [
     {
       "startIndex": 38,
