@@ -9,7 +9,12 @@ import type { ReactNode } from "react";
 
 const AUTH_ROUTES = ["/sign-in", "/sign-up", "/sso-callback"];
 // Routes where the sidebar should be hidden so users can focus on content
-const NO_SIDEBAR_ROUTES = ["/unit/", "/dashboard"];
+const NO_SIDEBAR_ROUTES = [
+  "/unit/",
+  "/dashboard",
+  "/exercises/error-hunter",
+  "/exercises/pattern-builder",
+];
 
 export function AppShell({
   children,

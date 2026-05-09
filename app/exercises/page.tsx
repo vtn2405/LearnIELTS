@@ -369,6 +369,8 @@ export default function ExercisesPage() {
                   ? () => setShowSpeedDrill(true)
                   : card.id === "error-hunter"
                   ? () => router.push("/exercises/error-hunter?packId=pack-units-1-2")
+                  : card.id === "pattern-builder"
+                  ? () => router.push("/exercises/pattern-builder")
                   : undefined
               }
             />
