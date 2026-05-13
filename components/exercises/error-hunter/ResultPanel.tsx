@@ -1,7 +1,7 @@
 // components/exercises/error-hunter/ResultPanel.tsx
 "use client";
 
-import type { EhSubmitResponse, EhPerErrorFeedback, EhErrorStatus } from "@/lib/types/error-hunter";
+import type { EhSubmitResponse, EhPerErrorFeedback, EhErrorStatus, CollocationItem, TipItem } from "@/lib/types/error-hunter";
 
 const STATUS_META: Record<EhErrorStatus, { label: string; color: string; bg: string }> = {
   FOUND_CORRECT:   { label: "✓ Tìm đúng & sửa đúng", color: "#15803d", bg: "#f0fdf4" },
@@ -16,7 +16,7 @@ interface Props {
 }
 
 export default function ResultPanel({ result, onNext }: Props) {
-  const { score, summary, perErrorFeedback } = result;
+  const { score, summary, perErrorFeedback, collocations, tips } = result;
 
   const scoreColor =
     score.scorePercent >= 80 ? "#15803d"
@@ -67,6 +67,42 @@ export default function ResultPanel({ result, onNext }: Props) {
           <ErrorCard key={fb.errorId} fb={fb} />
         ))}
       </div>
+
+      {/* ── Collocations ── */}
+      {collocations && collocations.length > 0 && (
+        <>
+          <p style={{
+            margin: 0, fontSize: 11, fontWeight: 700,
+            letterSpacing: "0.08em", color: "#64748b", textTransform: "uppercase",
+            marginTop: 6,
+          }}>
+            Collocations trong bài
+          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+            {collocations.map((col, i) => (
+              <CollocationCard key={i} col={col} />
+            ))}
+          </div>
+        </>
+      )}
+
+      {/* ── Tips ── */}
+      {tips && tips.length > 0 && (
+        <>
+          <p style={{
+            margin: 0, fontSize: 11, fontWeight: 700,
+            letterSpacing: "0.08em", color: "#64748b", textTransform: "uppercase",
+            marginTop: 6,
+          }}>
+            Mẹo viết & nói
+          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+            {tips.map((tip, i) => (
+              <TipCard key={i} tip={tip} />
+            ))}
+          </div>
+        </>
+      )}
 
       {/* ── Next passage ── */}
       <button
@@ -137,6 +173,69 @@ function ErrorCard({ fb }: { fb: EhPerErrorFeedback }) {
           </p>
         </div>
       )}
+    </div>
+  );
+}
+
+const CATEGORY_META: Record<string, { label: string; color: string }> = {
+  speaking: { label: "Speaking", color: "#7c3aed" },
+  grammar: { label: "Grammar", color: "#dc2626" },
+  vocabulary: { label: "Vocabulary", color: "#0369a1" },
+  writing: { label: "Writing", color: "#b45309" },
+};
+
+function CollocationCard({ col }: { col: CollocationItem }) {
+  return (
+    <div style={{
+      background: "#f0fdf4", borderRadius: 8,
+      padding: "10px 12px",
+      border: "1px solid #bbf7d0",
+    }}>
+      <p style={{ margin: "0 0 3px", fontSize: 13, fontWeight: 700, color: "#15803d" }}>
+        {col.phrase}
+      </p>
+      <p style={{ margin: "0 0 2px", fontSize: 12, color: "#475569", lineHeight: 1.5 }}>
+        <strong>Trong bài:</strong> {col.sourceInPassage}
+      </p>
+      <p style={{ margin: "0 0 2px", fontSize: 12, color: "#475569", lineHeight: 1.5 }}>
+        <strong>Nghĩa:</strong> {col.translation}
+      </p>
+      <p style={{ margin: "0 0 2px", fontSize: 12, color: "#475569", fontStyle: "italic", lineHeight: 1.5 }}>
+        {col.exampleSentence}
+      </p>
+      {col.grammarNote && (
+        <p style={{ margin: 0, fontSize: 11.5, color: "#64748b", lineHeight: 1.5 }}>
+          {col.grammarNote}
+        </p>
+      )}
+    </div>
+  );
+}
+
+function TipCard({ tip }: { tip: TipItem }) {
+  const cat = CATEGORY_META[tip.category] ?? { label: tip.category, color: "#64748b" };
+  return (
+    <div style={{
+      background: "#eff6ff", borderRadius: 8,
+      padding: "10px 12px",
+      border: "1px solid #bfdbfe",
+    }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 4 }}>
+        <span style={{
+          fontSize: 9, fontWeight: 700, color: cat.color,
+          background: `${cat.color}15`, border: `1px solid ${cat.color}30`,
+          borderRadius: 9999, padding: "1px 8px",
+          textTransform: "uppercase", letterSpacing: "0.06em",
+        }}>
+          {cat.label}
+        </span>
+        <span style={{ fontSize: 12.5, fontWeight: 700, color: "#1e293b" }}>
+          {tip.title}
+        </span>
+      </div>
+      <p style={{ margin: 0, fontSize: 12, color: "#475569", lineHeight: 1.6 }}>
+        {tip.body}
+      </p>
     </div>
   );
 }

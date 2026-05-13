@@ -14,6 +14,8 @@ import type {
   EhPerErrorFeedback,
   FalseAlarmZone,
   UserSelection,
+  CollocationItem,
+  TipItem,
 } from "@/lib/types/error-hunter";
 
 export async function POST(req: NextRequest) {
@@ -140,22 +142,28 @@ export async function POST(req: NextRequest) {
     },
   });
 
-  // ── Step 5: Build summary message ─────────────────────────────────────────
+  // ── Step 5: Extract collocations & tips ───────────────────────────────────
+  const collocations = (passage.collocations as CollocationItem[]) ?? undefined;
+  const tips = (passage.tips as TipItem[]) ?? undefined;
+
+  // ── Step 6: Build summary message ─────────────────────────────────────────
   let summary: string;
   if (foundCorrect === total && falseAlarms === 0) {
-    summary = `Perfect! You found all ${total} error${total !== 1 ? "s" : ""} with no false alarms. 🎉`;
+    summary = `Tìm được tất cả ${total} lỗi, không có báo nhầm. 🎉`;
   } else if (scorePercent >= 80) {
-    summary = `Great work! You caught ${foundCorrect}/${total} error${total !== 1 ? "s" : ""}.`;
+    summary = `Tốt lắm! Tìm được ${foundCorrect}/${total} lỗi.`;
   } else if (scorePercent >= 50) {
-    summary = `Good effort — ${foundCorrect}/${total} found. Review the missed errors below.`;
+    summary = `Khá tốt — tìm được ${foundCorrect}/${total} lỗi. Hãy xem kỹ phần phân tích bên dưới.`;
   } else {
-    summary = `${foundCorrect}/${total} found. Study the feedback carefully to sharpen your eye.`;
+    summary = `Tìm được ${foundCorrect}/${total} lỗi. Hãy xem kỹ phần phân tích để rèn mắt nhé.`;
   }
 
   const response: EhSubmitResponse = {
     score: { scorePercent, foundCorrect, missed, falseAlarms, fixAccuracy, xpEarned },
     summary,
     perErrorFeedback,
+    ...(collocations && collocations.length > 0 ? { collocations } : {}),
+    ...(tips && tips.length > 0 ? { tips } : {}),
   };
 
   return NextResponse.json(response);

@@ -47,6 +47,8 @@ interface PassageJson {
   passageText: string;
   falseAlarmZones?: FalseAlarmZoneJson[];
   errors: ErrorJson[];
+  collocations?: unknown[];
+  tips?: unknown[];
 }
 
 // ─── Validation ───────────────────────────────────────────────────────────────
@@ -98,6 +100,8 @@ async function seedPassage(
       questionPrompt:  json.questionPrompt,
       totalErrors:     json.errors.length,
       falseAlarmZones: (json.falseAlarmZones ?? []) as unknown as Prisma.InputJsonValue,
+      collocations:    (json.collocations ?? null) as unknown as Prisma.InputJsonValue,
+      tips:            (json.tips ?? null) as unknown as Prisma.InputJsonValue,
       isActive:        true,
       updatedAt:       new Date(),
     },
@@ -115,6 +119,8 @@ async function seedPassage(
       passageText:     json.passageText,
       totalErrors:     json.errors.length,
       falseAlarmZones: (json.falseAlarmZones ?? []) as unknown as Prisma.InputJsonValue,
+      collocations:    (json.collocations ?? null) as unknown as Prisma.InputJsonValue,
+      tips:            (json.tips ?? null) as unknown as Prisma.InputJsonValue,
       isActive:        true,
     },
   });

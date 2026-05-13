@@ -356,6 +356,10 @@ model ErrorHunterPassage {
   totalErrors     Int
   /// Optional JSON array of FalseAlarmZone objects for smart false-alarm hints
   falseAlarmZones Json?        // FalseAlarmZone[]
+  /// Optional JSON array of collocations from the passage (shown after submit)
+  collocations    Json?        // CollocationItem[]
+  /// Optional JSON array of writing/speaking tips related to the topic
+  tips            Json?        // TipItem[]
   isActive        Boolean      @default(true)
   createdAt       DateTime     @default(now())
   updatedAt       DateTime     @updatedAt
