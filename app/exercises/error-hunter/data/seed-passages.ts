@@ -5,7 +5,7 @@
 //   npx tsx app/exercises/error-hunter/data/seed-passages.ts
 //   npx tsx app/exercises/error-hunter/data/seed-passages.ts --dry-run
 
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient, Prisma } from "@prisma/client";
 import { readFileSync, readdirSync, existsSync } from "fs";
 import path from "path";
 
@@ -44,6 +44,8 @@ interface PassageJson {
     grammarRuleCode?: string;
     ieltsTipErrorType?: string;
   }[];
+  collocations?: unknown[];
+  tips?: unknown[];
 }
 
 async function seedPassages(dryRun: boolean): Promise<void> {
@@ -143,7 +145,9 @@ async function seedPassages(dryRun: boolean): Promise<void> {
             questionPromptVi: data.questionPromptVi ?? null,
             passageText: data.passageText,
             totalErrors: data.totalErrors,
-            falseAlarmZones: data.falseAlarmZones ?? null,
+            falseAlarmZones: (data.falseAlarmZones ?? Prisma.JsonNull) as Prisma.InputJsonValue,
+            collocations: (data.collocations ?? Prisma.JsonNull) as Prisma.InputJsonValue,
+            tips: (data.tips ?? Prisma.JsonNull) as Prisma.InputJsonValue,
             updatedAt: new Date(),
           },
           create: {
@@ -162,7 +166,9 @@ async function seedPassages(dryRun: boolean): Promise<void> {
             questionPromptVi: data.questionPromptVi ?? null,
             passageText: data.passageText,
             totalErrors: data.totalErrors,
-            falseAlarmZones: data.falseAlarmZones ?? null,
+            falseAlarmZones: (data.falseAlarmZones ?? Prisma.JsonNull) as Prisma.InputJsonValue,
+            collocations: (data.collocations ?? Prisma.JsonNull) as Prisma.InputJsonValue,
+            tips: (data.tips ?? Prisma.JsonNull) as Prisma.InputJsonValue,
           },
         });
 

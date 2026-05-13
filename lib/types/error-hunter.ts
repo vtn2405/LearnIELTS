@@ -60,6 +60,22 @@ export interface FalseAlarmZone {
   hint: string; // explanation of why this zone is actually correct
 }
 
+/** A collocation extracted from the passage, shown after submit */
+export interface CollocationItem {
+  phrase: string;
+  sourceInPassage: string;
+  translation: string;
+  exampleSentence: string;
+  grammarNote: string;
+}
+
+/** A writing/speaking tip related to the passage topic */
+export interface TipItem {
+  category: "speaking" | "grammar" | "vocabulary" | "writing";
+  title: string;
+  body: string;
+}
+
 // ─── Client-safe shapes ───────────────────────────────────────────────────────
 
 /** Passage data sent to client — no correctText, no error positions */
@@ -141,4 +157,6 @@ export interface EhSubmitResponse {
   score: EhScore;
   summary: string;
   perErrorFeedback: EhPerErrorFeedback[];
+  collocations?: CollocationItem[];
+  tips?: TipItem[];
 }

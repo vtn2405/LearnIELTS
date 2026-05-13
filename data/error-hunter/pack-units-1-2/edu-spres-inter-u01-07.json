@@ -1,0 +1,122 @@
+{
+  "slug": "edu-spres-inter-u01-07",
+  "topic": "Education",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5.0,
+  "minUnitIndex": 1,
+  "maxUnitIndex": 2,
+  "grammarFocus": [
+    "SIMPLE_PRESENT",
+    "SUBJECT_VERB_AGREEMENT"
+  ],
+  "difficulty": "INTERMEDIATE",
+  "packId": "pack-units-1-2",
+  "title": "IELTS Speaking Part 3: Education — Simple Present",
+  "titleVi": "IELTS Speaking Part 3: Giáo dục — Thì Hiện Tại Đơn",
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "Honestly, I believe homework play a really important role in education, because it helps students review what they learn in class. Let me explain what I mean: when a student goes home and practises the lesson again, the information stay in their memory much longer. Of course, I understand that too much homework can cause stress, and nobody want that. However, without any homework at all, I think most students would simply forget everything by the next morning. So in my opinion, a reasonable amount of homework is actually beneficial for everyone. That is why I always encourage my younger siblings to finish their assignments.",
+  "totalErrors": 3,
+  "errors": [
+    {
+      "startIndex": 29,
+      "endIndex": 33,
+      "errorText": "play",
+      "correctText": "plays",
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "severity": "MAJOR",
+      "explanation": "'Homework' là danh từ không đếm được số ít — động từ cần thêm -s: 'plays', không phải 'play'.",
+      "grammarRuleCode": "SVA",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 232,
+      "endIndex": 236,
+      "errorText": "stay",
+      "correctText": "stays",
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "severity": "MAJOR",
+      "explanation": "'The information' là danh từ không đếm được số ít — dùng 'stays', không phải 'stay'.",
+      "grammarRuleCode": "SVA",
+      "ieltsTipErrorType": "SVA"
+    },
+    {
+      "startIndex": 342,
+      "endIndex": 346,
+      "errorText": "want",
+      "correctText": "wants",
+      "errorType": "SUBJECT_VERB_AGREEMENT",
+      "severity": "MAJOR",
+      "explanation": "'Nobody' về ngữ pháp là số ít — dùng 'wants', không phải 'want'. Đại từ bất định như nobody, everybody, someone luôn đi với động từ số ít.",
+      "grammarRuleCode": "SVA",
+      "ieltsTipErrorType": "SVA"
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "startIndex": 164,
+      "endIndex": 197,
+      "text": "a student goes home and practises",
+      "hint": "'Goes' và 'practises' đều đúng — 'a student' là số ít nên cả hai động từ đều cần -s/-es."
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "play a … role in",
+      "sourceInPassage": "play a really important role in education",
+      "translation": "đóng vai trò … trong",
+      "exampleSentence": "Technology plays a crucial role in modern education.",
+      "grammarNote": "'Play a role in' — không dùng 'make a role' hay 'do a role'."
+    },
+    {
+      "phrase": "review what they learn",
+      "sourceInPassage": "review what they learn in class",
+      "translation": "ôn lại những gì học trên lớp",
+      "exampleSentence": "Good students always review what they learn in class before the exam.",
+      "grammarNote": "'Review' dùng như động từ — không dùng 'revise' nếu nói về xem lại nội dung (British dùng 'revise' cũng đúng)."
+    },
+    {
+      "phrase": "cause stress",
+      "sourceInPassage": "homework can cause stress",
+      "translation": "gây căng thẳng",
+      "exampleSentence": "Working long hours without breaks can cause stress and burnout.",
+      "grammarNote": "'Cause stress' — không dùng 'make stress' hay 'give stress'."
+    },
+    {
+      "phrase": "a reasonable amount of",
+      "sourceInPassage": "a reasonable amount of homework",
+      "translation": "một lượng hợp lý",
+      "exampleSentence": "A reasonable amount of exercise each day keeps the body and mind healthy.",
+      "grammarNote": "'A reasonable amount of + uncountable noun' — không dùng 'a reasonable number of' cho danh từ không đếm được."
+    },
+    {
+      "phrase": "beneficial for everyone",
+      "sourceInPassage": "actually beneficial for everyone",
+      "translation": "có lợi cho mọi người",
+      "exampleSentence": "A healthy school lunch programme is beneficial for everyone involved.",
+      "grammarNote": "'Beneficial for + người' — 'beneficial to' cũng đúng nhưng ít tự nhiên hơn."
+    }
+  ],
+  "tips": [
+    {
+      "category": "speaking",
+      "title": "Cách trả lời Speaking Part 3 về Education",
+      "body": "Khi trả lời câu hỏi Speaking Part 3 về giáo dục, hãy dùng cấu trúc: (1) Nêu ý kiến rõ ràng, (2) Giải thích lý do với ví dụ cụ thể, (3) Nhượng bộ (concede) một điểm ngược lại, (4) Kết luận. Ví dụ: 'I believe homework is important because… However, I also understand that… So in my opinion…'"
+    },
+    {
+      "category": "grammar",
+      "title": "Subject-Verb Agreement với danh từ không đếm được",
+      "body": "Danh từ không đếm được (homework, information, knowledge, research, evidence) luôn đi với động từ số ít. Lỗi này rất phổ biến trong IELTS Speaking/Writing. Mẹo: nếu không thể đặt 'a/an' hoặc số trước danh từ → nó là uncountable → dùng động từ số ít."
+    },
+    {
+      "category": "grammar",
+      "title": "Đại từ bất định + động từ số ít",
+      "body": "Các đại từ bất định: nobody, somebody, everybody, everyone, anyone, no one — luôn đi với động từ SỐ ÍT. Sai: 'Nobody want…' / 'Everyone have…'. Đúng: 'Nobody wants…' / 'Everyone has…'. Đây là lỗi mà examiner IELTS dễ nhận ra nhất."
+    },
+    {
+      "category": "vocabulary",
+      "title": "Collocations hữu ích về Education",
+      "body": "play a role in (đóng vai trò), gain knowledge (thu được kiến thức), pursue higher education (theo đuổi giáo dục đại học), broaden one's horizons (mở rộng tầm nhìn), a well-rounded education (nền giáo dục toàn diện), academic performance (kết quả học tập)."
+    }
+  ]
+}
