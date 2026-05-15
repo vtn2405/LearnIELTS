@@ -1,0 +1,151 @@
+{
+  "slug": "soc-spres-adv-u01-10",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Society",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5.5,
+  "difficulty": "ADVANCED",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 3: Society — Simple Present",
+  "titleVi": "IELTS Speaking Part 3: Xã hội — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "Do you think public libraries are still important in the digital age?",
+    "bulletPoints": [
+      "The role of libraries today",
+      "How digital technology has changed reading habits",
+      "Who benefits most from libraries",
+      "The future of libraries"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "I firmly believe that public libraries still serve a vital purpose in modern society, despite the rise of digital media. A library offer far more than just books — it provide a quiet space for study, free internet access, and community events that bring people together. Many elderly citizens, for example, depend on libraries because they does not have computers at home. Furthermore, the atmosphere of a library encourage deep concentration in a way that a noisy coffee shop simply cannot. Some critics argue that libraries waste public money, but the evidence clearly show that communities with well-funded libraries perform better in education. Rather than closing libraries, governments should invest in modernising them to serve even more people.",
+  "totalErrors": 3,
+  "errors": [
+    {
+      "errorText": "they does not have computers",
+      "correctText": "they do not have computers",
+      "acceptedAnswers": [
+        "they do not have computers",
+        "they don't have computers"
+      ],
+      "errorType": "DO_DOES_CONFUSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'They' is a plural pronoun — use 'do not', not 'does not'.",
+      "explanationVi": "'They' là đại từ số nhiều — dùng 'do not', không phải 'does not'.",
+      "grammarRuleCode": "SPRES-025",
+      "ieltsTipErrorType": "DO_DOES_CONFUSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 335,
+      "endIndex": 363
+    },
+    {
+      "errorText": "the atmosphere of a library encourage deep",
+      "correctText": "the atmosphere of a library encourages deep",
+      "acceptedAnswers": [
+        "the atmosphere of a library encourages deep"
+      ],
+      "errorType": "SUBJECT_VERB_AGREEMENT",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "The subject is 'the atmosphere' (singular), not 'a library'. The verb must agree with the head noun: 'encourages'.",
+      "explanationVi": "Chủ ngữ là 'the atmosphere' (số ít), không phải 'a library'. Động từ phải hòa hợp với danh từ chính: 'encourages'.",
+      "grammarRuleCode": "SPRES-026",
+      "ieltsTipErrorType": "SUBJECT_VERB_AGREEMENT",
+      "detectionDifficulty": 4,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 386,
+      "endIndex": 428
+    },
+    {
+      "errorText": "the evidence clearly show that",
+      "correctText": "the evidence clearly shows that",
+      "acceptedAnswers": [
+        "the evidence clearly shows that"
+      ],
+      "errorType": "SUBJECT_VERB_AGREEMENT",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Evidence' is uncountable singular — 'shows', not 'show'. Similar to 'research', many learners treat 'evidence' as plural.",
+      "explanationVi": "'Evidence' là danh từ không đếm được số ít — dùng 'shows', không phải 'show'. Tương tự 'research', nhiều học viên nhầm 'evidence' là số nhiều.",
+      "grammarRuleCode": "SPRES-027",
+      "ieltsTipErrorType": "SUBJECT_VERB_AGREEMENT",
+      "detectionDifficulty": 4,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 550,
+      "endIndex": 580
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "communities with well-funded libraries perform better",
+      "hint": "'Communities perform' is correct — 'communities' is plural, so 'perform' (base form) is correct.",
+      "startIndex": 581,
+      "endIndex": 634
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "serve a vital purpose",
+      "sourceInPassage": "still serve a vital purpose",
+      "translation": "phục vụ mục đích quan trọng",
+      "exampleSentence": "Museums serve a vital purpose in preserving cultural heritage for future generations.",
+      "grammarNote": "'Serve a purpose' — không dùng 'do a purpose' hay 'make a purpose'"
+    },
+    {
+      "phrase": "free internet access",
+      "sourceInPassage": "free internet access",
+      "translation": "truy cập internet miễn phí",
+      "exampleSentence": "Many public libraries now offer free internet access to local residents.",
+      "grammarNote": "'Internet access' không đếm được — không dùng 'internet accesses'"
+    },
+    {
+      "phrase": "bring people together",
+      "sourceInPassage": "bring people together",
+      "translation": "gắn kết mọi người",
+      "exampleSentence": "Local festivals bring people together and strengthen community bonds.",
+      "grammarNote": "'Bring together' (phrasal verb) — không dùng 'bring people to together'"
+    },
+    {
+      "phrase": "deep concentration",
+      "sourceInPassage": "encourage deep concentration",
+      "translation": "sự tập trung sâu",
+      "exampleSentence": "Reading a physical book requires deep concentration that screens do not demand.",
+      "grammarNote": "'Deep concentration' — không dùng 'strong concentration' hay 'big concentration'"
+    },
+    {
+      "phrase": "well-funded libraries",
+      "sourceInPassage": "communities with well-funded libraries",
+      "translation": "thư viện được đầu tư tốt",
+      "exampleSentence": "Well-funded libraries can offer more programmes and attract more visitors.",
+      "grammarNote": "'Well-funded' có gạch nối khi dùng trước danh từ — 'a well-funded library'"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "DO_DOES_CONFUSION",
+      "SUBJECT_VERB_AGREEMENT"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 150,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "Public Libraries in Digital Age",
+      "discourseSituation": "A learner analytically discussing the relevance of public libraries with balanced arguments",
+      "discourseMood": "balanced_discussion",
+      "learnerVoice": "analytical",
+      "errorStrategy": "subtle",
+      "cognitiveLoad": "high"
+    }
+  }
+}

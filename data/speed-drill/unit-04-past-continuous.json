@@ -1,0 +1,2409 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-4-past-continuous",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-4-past-continuous",
+    "version": "4.0",
+    "grammar_point": "Past Continuous",
+    "subtitle_vi": "Thì quá khứ tiếp diễn",
+    "topic_vocabulary": "Education",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 5: The Past Continuous Tense",
+      "unit_json_ref": "unit-4-past-continuous.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "past_continuous_form",
+      "past_continuous_interrupted",
+      "past_continuous_parallel",
+      "past_continuous_stative",
+      "past_continuous_vs_simple_past"
+    ],
+    "common_vietnamese_errors": [
+      "missing_was_were",
+      "continuous_for_point_event",
+      "stative_in_past_continuous",
+      "was_were_number_error",
+      "while_when_confusion"
+    ],
+    "ielts_band_target": {
+      "min": 4.5,
+      "max": 5.5
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-4-past-continuous",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items x 100 base + 500 streak = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "4.0–4.5",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "4.5–5.5",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế, options gần nhau.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 5.5 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "5.5–6.5",
+        "description_vi": "2–3 lớp ngữ pháp. Distractor gần đúng. Tìm vị trí lỗi.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.0 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd4_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_form",
+          "error_tag": "missing_was_were",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "At 8pm yesterday, she ___ for her IELTS exam.",
+          "options": [
+            "study",
+            "studied",
+            "was studying",
+            "is studying"
+          ],
+          "correct_answer": "was studying",
+          "correct_index": 2,
+          "explanation_short": "At 8pm yesterday = specific past moment → was studying.",
+          "explanation_long": "'At 8pm yesterday'=thời điểm cụ thể trong quá khứ→Past Continuous: was+V-ing.",
+          "feedback_correct": "⚡ At 8pm yesterday → was studying",
+          "feedback_wrong": "At specific past moment → Past Continuous: was+V-ing",
+          "ielts_tip": "Từ tín hiệu Past Continuous: at [time] yesterday, at this time last week.",
+          "distractor_note": "obvious: study(Simple Present), studied(Simple Past), is studying(Present Continuous)"
+        },
+        {
+          "item_id": "sd4_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_interrupted",
+          "error_tag": "when_clause",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "I ___ my notes when the teacher ___ the class.",
+          "options": [
+            "reviewed / entered",
+            "was reviewing / entered",
+            "reviewed / was entering",
+            "was reviewing / was entering"
+          ],
+          "correct_answer": "was reviewing / entered",
+          "correct_index": 1,
+          "explanation_short": "was reviewing(dài, bị gián đoạn) + entered(ngắn, xen vào).",
+          "explanation_long": "Past Continuous(dài)=was reviewing. Simple Past(ngắn xen vào)=entered. Cấu trúc: was V-ing WHEN V2.",
+          "feedback_correct": "🔥 was reviewing(nền) + entered(xen vào)",
+          "feedback_wrong": "was V-ing(dài) WHEN Simple Past(ngắn). Đây là cấu trúc cơ bản nhất!",
+          "ielts_tip": "WHEN: hành động ngắn Simple Past xen vào hành động dài Past Continuous.",
+          "distractor_note": "obvious: reviewed/entered(cả 2 Simple Past—mất bối cảnh)"
+        },
+        {
+          "item_id": "sd4_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_while",
+          "error_tag": "while_clause",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "While students ___ the exam, the fire alarm ___.",
+          "options": [
+            "took / rang",
+            "were taking / rang",
+            "took / was ringing",
+            "were taking / was ringing"
+          ],
+          "correct_answer": "were taking / rang",
+          "correct_index": 1,
+          "explanation_short": "while+were taking(nền dài) + rang(sự kiện ngắn).",
+          "explanation_long": "WHILE đi với Past Continuous(nền): were taking. Sự kiện ngắn xen vào=Simple Past: rang.",
+          "feedback_correct": "⚡ while+were taking + rang(sự kiện)",
+          "feedback_wrong": "WHILE+Past Continuous | sự kiện ngắn=Simple Past",
+          "ielts_tip": "WHILE→Past Continuous cho hành động nền. Sự kiện ngắn xen vào→Simple Past.",
+          "distractor_note": "plausible: were taking/was ringing(cả 2 Continuous—rang là sự kiện điểm, không dùng Continuous)"
+        },
+        {
+          "item_id": "sd4_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_was_were",
+          "error_tag": "number_agreement",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The students ___ when the principal walked in.",
+          "options": [
+            "was talking",
+            "were talking",
+            "is talking",
+            "are talking"
+          ],
+          "correct_answer": "were talking",
+          "correct_index": 1,
+          "explanation_short": "students=plural→were talking.",
+          "explanation_long": "students=số nhiều→were(không was). Past Continuous=were+V-ing.",
+          "feedback_correct": "🎯 students=plural→were talking",
+          "feedback_wrong": "students=plural→were(không was)+talking",
+          "ielts_tip": "Chia be trong Past: I/he/she/it→was. you/we/they/plural→were.",
+          "distractor_note": "obvious: was talking(wrong number), is/are talking(Present)"
+        },
+        {
+          "item_id": "sd4_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_form",
+          "error_tag": "ing_spelling",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "At this time last year, I ___ for my university entrance exam.",
+          "options": [
+            "prepare",
+            "was prepare",
+            "was preparing",
+            "prepared"
+          ],
+          "correct_answer": "was preparing",
+          "correct_index": 2,
+          "explanation_short": "At this time last year=specific past moment → was preparing.",
+          "explanation_long": "'At this time last year'=quá khứ tiếp diễn→was+preparing(-ing form).",
+          "feedback_correct": "⚡ At this time last year → was preparing",
+          "feedback_wrong": "At this time last year → Past Continuous: was+preparing",
+          "ielts_tip": "'At this time last year/month' → Past Continuous. Khác với 'last year' (Simple Past).",
+          "distractor_note": "obvious: prepare(no was), was prepare(no -ing), prepared(Simple Past)"
+        },
+        {
+          "item_id": "sd4_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_negation",
+          "error_tag": "wasnt_werent",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "She ___ attention in class when the teacher explained the grammar rule.",
+          "options": [
+            "didn't pay",
+            "wasn't paying",
+            "wasn't pay",
+            "not was paying"
+          ],
+          "correct_answer": "wasn't paying",
+          "correct_index": 1,
+          "explanation_short": "Phủ định Past Continuous: wasn't+V-ing.",
+          "explanation_long": "Phủ định Past Continuous: was/were+not+V-ing. 'Wasn't paying'=đúng.",
+          "feedback_correct": "🔥 Phủ định Past Continuous: wasn't+paying",
+          "feedback_wrong": "wasn't+V-ing. Không phải didn't+pay trong ngữ cảnh này.",
+          "ielts_tip": "Phủ định: Simple Past→didn't+V. Past Continuous→wasn't/weren't+V-ing.",
+          "distractor_note": "obvious: wasn't pay(no -ing), not was paying(word order)"
+        },
+        {
+          "item_id": "sd4_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_vs_simple_past",
+          "error_tag": "background_vs_event",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "When I ___ to school this morning, I ___ my old English teacher.",
+          "options": [
+            "walked / met",
+            "was walking / met",
+            "walked / was meeting",
+            "was walking / was meeting"
+          ],
+          "correct_answer": "was walking / met",
+          "correct_index": 1,
+          "explanation_short": "was walking(bối cảnh dài) + met(sự kiện ngắn).",
+          "explanation_long": "was walking=hành động nền đang tiếp diễn. met=sự kiện bất ngờ xảy ra trong lúc đó.",
+          "feedback_correct": "⚡ was walking(bối cảnh) + met(sự kiện bất ngờ)",
+          "feedback_wrong": "was walking(nền) WHEN met(sự kiện). Cấu trúc kể chuyện!",
+          "ielts_tip": "Kể chuyện: was V-ing(bối cảnh)...when Simple Past(sự kiện). Rất hay dùng trong Part 2.",
+          "distractor_note": "plausible: walked/met(cả 2 Simple Past—mất bối cảnh sinh động)"
+        },
+        {
+          "item_id": "sd4_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_form",
+          "error_tag": "spelling_double",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The class was ___ very hard when the power went out.",
+          "options": [
+            "studing",
+            "studying",
+            "studied",
+            "study"
+          ],
+          "correct_answer": "studying",
+          "correct_index": 1,
+          "explanation_short": "study→studying(không double-y, chỉ thêm -ing).",
+          "explanation_long": "study kết thúc bằng y→chỉ thêm -ing: studying(không studing hay studding).",
+          "feedback_correct": "🎯 study→studying(thêm -ing)",
+          "feedback_wrong": "study→studying. Không nhân đôi y và không bỏ y.",
+          "ielts_tip": "CVC rule: run→running, sit→sitting. Kết thúc -y: study→studying, try→trying.",
+          "distractor_note": "obvious: studing(sai spelling), studied(Simple Past), study(V nguyên mẫu)"
+        },
+        {
+          "item_id": "sd4_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_question",
+          "error_tag": "question_form",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ you ___ English when the earthquake happened?",
+          "options": [
+            "Did / study",
+            "Were / studying",
+            "Was / studying",
+            "Do / study"
+          ],
+          "correct_answer": "Were / studying",
+          "correct_index": 1,
+          "explanation_short": "Câu hỏi Past Continuous: Were+S+V-ing?",
+          "explanation_long": "Câu hỏi Past Continuous: Was/Were+S+V-ing? You→Were studying.",
+          "feedback_correct": "⚡ Câu hỏi Past Continuous: Were you studying?",
+          "feedback_wrong": "Câu hỏi Past Continuous: Was/Were+S+V-ing?",
+          "ielts_tip": "Hỏi về past ongoing action: Were you V-ing? Was he/she V-ing?",
+          "distractor_note": "obvious: Did/study(Simple Past question), Was/studying(wrong be), Do/study(Present)"
+        },
+        {
+          "item_id": "sd4_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_context",
+          "error_tag": "part2_context",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "While I ___ for my exam, my phone ___ and it was my teacher calling.",
+          "options": [
+            "studied / rang",
+            "was studying / rang",
+            "studied / was ringing",
+            "was studying / was ringing"
+          ],
+          "correct_answer": "was studying / rang",
+          "correct_index": 1,
+          "explanation_short": "was studying(nền dài) + rang(sự kiện điểm ngắn).",
+          "explanation_long": "was studying=hành động đang diễn ra(dài). rang=sự kiện bất ngờ(ngắn). 'Ring'→rang(bất quy tắc).",
+          "feedback_correct": "🔥 was studying(nền) + rang(sự kiện). ring→rang bất quy tắc!",
+          "feedback_wrong": "was studying(dài)+rang(ngắn xen vào). ring→rang bất quy tắc.",
+          "ielts_tip": "ring→rang(bất quy tắc). Kết hợp Past Continuous+Simple Past = cấu trúc kể chuyện cơ bản.",
+          "distractor_note": "plausible: was studying/was ringing(rang là sự kiện điểm, không dùng Continuous)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd4_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_scene_setting",
+          "error_tag": "narrative_scene",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 2: Kể về một kỷ niệm học tập đáng nhớ — câu nào đặt bối cảnh tốt nhất?",
+          "options": [
+            "It was a rainy afternoon. I studied in the library when suddenly the lights went out.",
+            "It was a rainy afternoon. I was studying in the library when suddenly the lights went out.",
+            "It was a rainy afternoon. I had studied in the library when suddenly the lights went out.",
+            "It was a rainy afternoon. I was studying in the library while the lights went out."
+          ],
+          "correct_answer": "It was a rainy afternoon. I was studying in the library when suddenly the lights went out.",
+          "correct_index": 1,
+          "explanation_short": "was studying(bối cảnh nền) + went out(sự kiện bất ngờ khi+Simple Past).",
+          "explanation_long": "Lớp 1: was studying=hành động nền đang tiếp diễn. Lớp 2: went out=sự kiện bất ngờ→Simple Past. Lớp 3: WHEN+Simple Past cho sự kiện bất ngờ(không WHILE).",
+          "feedback_correct": "⚡ was studying(nền)+WHEN+went out(bất ngờ). Part 2 bối cảnh hoàn hảo!",
+          "feedback_wrong": "Past Continuous(nền)WHEN Simple Past(sự kiện). WHILE dùng cho 2 hành động song song.",
+          "ielts_tip": "Kể chuyện Part 2: đặt bối cảnh bằng Past Continuous, sự kiện bằng Simple Past.",
+          "distractor_note": "plausible: while the lights went out(while+Simple Past thường dùng với Continuous)"
+        },
+        {
+          "item_id": "sd4_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_parallel",
+          "error_tag": "while_parallel",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào mô tả đúng hai hành động song song trong quá khứ?",
+          "options": [
+            "While the teacher was explaining the grammar rule, students were taking notes carefully.",
+            "While the teacher explained the grammar rule, students were taking notes carefully.",
+            "While the teacher was explaining the grammar rule, students took notes carefully.",
+            "While the teacher was explaining, students was taking notes carefully."
+          ],
+          "correct_answer": "While the teacher was explaining the grammar rule, students were taking notes carefully.",
+          "correct_index": 0,
+          "explanation_short": "WHILE+hai Past Continuous song song: was explaining + were taking.",
+          "explanation_long": "WHILE diễn tả 2 hành động dài đang xảy ra đồng thời→cả 2 Past Continuous. 'Students was' sai(plural→were).",
+          "feedback_correct": "🎯 WHILE+2 Past Continuous song song: was explaining+were taking",
+          "feedback_wrong": "WHILE+hai hành động dài→cả 2 Past Continuous.",
+          "ielts_tip": "WHILE→hai hành động song song→cả 2 Past Continuous. Khác với WHEN(1 ngắn+1 dài).",
+          "distractor_note": "plausible: explained+were taking(Simple Past+Continuous—mất tính song song)"
+        },
+        {
+          "item_id": "sd4_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_interrupted",
+          "error_tag": "when_while_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'While I was preparing my IELTS application, my computer suddenly crashed and lost all my work.'",
+          "options": [
+            "was preparing → prepared(Simple Past phù hợp hơn)",
+            "crashed → was crashing(cần Continuous)",
+            "lost → was losing(cần Continuous)",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "Câu đúng, không cần sửa",
+          "correct_index": 3,
+          "explanation_short": "While+was preparing(nền) + crashed+lost(sự kiện ngắn)=đúng.",
+          "explanation_long": "'While I was preparing'=nền đúng. 'crashed'+'lost'=sự kiện ngắn bất ngờ→Simple Past đúng. Câu hoàn toàn đúng ngữ pháp.",
+          "feedback_correct": "🏆 Câu đúng hoàn toàn! while+was preparing+crashed+lost = chuẩn mực!",
+          "feedback_wrong": "Câu đúng: while+Past Continuous(nền)+Simple Past(sự kiện).",
+          "ielts_tip": "Bẫy quan trọng: không phải mọi động từ trong câu đều cần Continuous. Sự kiện ngắn→Simple Past.",
+          "distractor_note": "bẫy: crashed/lost trông như cần Continuous vì 'while'—nhưng đây là sự kiện ngắn"
+        },
+        {
+          "item_id": "sd4_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_stative",
+          "error_tag": "stative_no_continuous",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG về trải nghiệm trong phòng thi IELTS?",
+          "options": [
+            "While I was taking the exam, I was knowing all the answers but I was wanting more time.",
+            "While I was taking the exam, I knew all the answers but I wanted more time.",
+            "While I took the exam, I knew all the answers but I wanted more time.",
+            "While I was taking the exam, I was knowing all answers but wanted more time."
+          ],
+          "correct_answer": "While I was taking the exam, I knew all the answers but I wanted more time.",
+          "correct_index": 1,
+          "explanation_short": "was taking(hành động đang diễn ra) + knew+wanted(stative→Simple Past).",
+          "explanation_long": "Lớp 1: was taking=hành động đang diễn ra→Past Continuous đúng. Lớp 2: know+want=stative→không dùng -ing→knew, wanted.",
+          "feedback_correct": "⚡ was taking(action) + knew+wanted(stative→Simple Past). Hai quy tắc trong 1 câu!",
+          "feedback_wrong": "was taking(action). know+want=stative→knew, wanted(Simple Past).",
+          "ielts_tip": "Stative trong past context: know→knew, want→wanted, believe→believed(Simple Past, không Continuous).",
+          "distractor_note": "plausible: was knowing/was wanting nghe tự nhiên với người Việt"
+        },
+        {
+          "item_id": "sd4_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_was_were",
+          "error_tag": "agreement_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The group of students was studying in the library while their teacher were preparing the next lesson.'",
+          "options": [
+            "was → were(group=plural)",
+            "were → was(teacher=singular)",
+            "was → were | were → was(cả hai sai)",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "were → was(teacher=singular)",
+          "correct_index": 1,
+          "explanation_short": "'teacher'=singular→was preparing. 'group' British English→was đúng.",
+          "explanation_long": "'The group'=collective noun→British English singular→was studying đúng. 'their teacher'=singular→was preparing(không were). Lỗi nằm ở 'their teacher were'.",
+          "feedback_correct": "🎯 teacher=singular→was preparing. 'group'=collective→was studying đúng!",
+          "feedback_wrong": "teacher=singular→was(không were). group collective→was đúng.",
+          "ielts_tip": "group/team/class: British English→plural(were). Nhưng teacher=individual→was.",
+          "distractor_note": "near-correct: 'was→were' bẫy mạnh vì group thường dùng plural"
+        },
+        {
+          "item_id": "sd4_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_context",
+          "error_tag": "task2_background",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Task 2 — Câu nào mô tả bối cảnh xã hội trong quá khứ chuẩn nhất?",
+          "options": [
+            "In the 1990s, many students studied in overcrowded classrooms while their teachers struggled with limited resources.",
+            "In the 1990s, many students were studying in overcrowded classrooms while their teachers were struggling with limited resources.",
+            "In the 1990s, many students were studying in overcrowded classrooms while their teachers struggled with limited resources.",
+            "In the 1990s, many students studied in overcrowded classrooms while their teachers were struggling with limited resources."
+          ],
+          "correct_answer": "In the 1990s, many students were studying in overcrowded classrooms while their teachers were struggling with limited resources.",
+          "correct_index": 1,
+          "explanation_short": "WHILE+hai hành động song song→cả 2 Past Continuous.",
+          "explanation_long": "WHILE diễn tả 2 hành động dài đồng thời→cả 2 Past Continuous: were studying+were struggling.",
+          "feedback_correct": "🔥 WHILE+hai hành động dài đồng thời→cả 2 Past Continuous",
+          "feedback_wrong": "WHILE+hai hành động song song→cả 2 Past Continuous.",
+          "ielts_tip": "Task 2 mô tả bối cảnh quá khứ: 'In [decade], people were doing X while Y was happening'→Past Continuous.",
+          "distractor_note": "plausible: Simple Past nghe academic trong Task 2"
+        },
+        {
+          "item_id": "sd4_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_interrupted",
+          "error_tag": "event_order",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'My professor was explaining the concept when I suddenly was understanding it.'",
+          "options": [
+            "was explaining → explained(Simple Past phù hợp hơn)",
+            "was understanding → understood(stative verb)",
+            "was explaining → explained | was understanding → understood",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "was understanding → understood(stative verb)",
+          "correct_index": 1,
+          "explanation_short": "understand=stative→không dùng -ing trong past. understand→understood.",
+          "explanation_long": "'Was explaining'=đúng(hành động nền). 'Was understanding'=sai vì understand=stative→understood(Simple Past).",
+          "feedback_correct": "⚡ understand=stative→understood. was explaining=đúng!",
+          "feedback_wrong": "understand=stative→không Continuous→understood.",
+          "ielts_tip": "Trong past context: understand→understood, know→knew, realize→realized(stative→Simple Past).",
+          "distractor_note": "bẫy: was explaining trông cần sửa nhưng đúng. was understanding trông đúng nhưng sai"
+        },
+        {
+          "item_id": "sd4_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_vs_simple_past",
+          "error_tag": "narrative_choice",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 2 — Kể về lần đầu thi IELTS. Câu nào tự nhiên và đúng nhất?",
+          "options": [
+            "When I arrived at the test center, all the candidates sat in silence.",
+            "When I arrived at the test center, all the candidates were sitting in silence.",
+            "When I was arriving at the test center, all the candidates were sitting in silence.",
+            "When I was arriving at the test center, all candidates sat in silence."
+          ],
+          "correct_answer": "When I arrived at the test center, all the candidates were sitting in silence.",
+          "correct_index": 1,
+          "explanation_short": "arrived(sự kiện ngắn) + were sitting(bối cảnh đang diễn ra).",
+          "explanation_long": "arrived=sự kiện điểm→Simple Past. were sitting=hành động đang diễn ra khi tôi đến→Past Continuous.",
+          "feedback_correct": "⚡ arrived(sự kiện)+were sitting(bối cảnh). Kể chuyện Part 2 chuẩn!",
+          "feedback_wrong": "arrived(điểm)+were sitting(nền đang diễn ra). WHEN+Simple Past=sự kiện.",
+          "ielts_tip": "WHEN+Simple Past(sự kiện) → bối cảnh đang diễn ra = Past Continuous. Tự nhiên và sinh động.",
+          "distractor_note": "plausible: sat+were sitting nghe đúng nhưng ngược chiều"
+        },
+        {
+          "item_id": "sd4_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_form",
+          "error_tag": "spelling_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'While students were siting the exam, the teacher was walking around the room.'",
+          "options": [
+            "siting → sitting(double t before -ing)",
+            "was walking → walked(Simple Past phù hợp)",
+            "were siting → was sitting(singular phù hợp hơn)",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "siting → sitting(double t before -ing)",
+          "correct_index": 0,
+          "explanation_short": "sit kết thúc CVC→double t: sitting(không siting).",
+          "explanation_long": "sit: CVC(consonant-vowel-consonant)→nhân đôi phụ âm cuối+ing: sitting. 'Siting'=sai spelling.",
+          "feedback_correct": "🎯 sit→sitting(double t). CVC rule!",
+          "feedback_wrong": "sit+ing=sitting(nhân đôi t). 'Siting' không tồn tại.",
+          "ielts_tip": "CVC+ing: sit→sitting, run→running, get→getting, swim→swimming, begin→beginning.",
+          "distractor_note": "plausible: was walking→walked trông cần sửa"
+        },
+        {
+          "item_id": "sd4_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_full",
+          "error_tag": "best_narrative",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Tìm câu KỂ CHUYỆN hoàn chỉnh nhất cho IELTS Speaking Part 2:",
+          "options": [
+            "I remember the day I got my IELTS results. I walked to the school gate, and my heart beat fast.",
+            "I remember the day I got my IELTS results. I was walking to the school gate, and my heart was beating fast.",
+            "I remember the day I got my IELTS results. I was walking to the school gate when suddenly my heart beat faster.",
+            "I remember the day I got my IELTS results. I walked to the school gate while my heart was beating fast."
+          ],
+          "correct_answer": "I remember the day I got my IELTS results. I was walking to the school gate when suddenly my heart beat faster.",
+          "correct_index": 2,
+          "explanation_short": "was walking(bối cảnh) + beat faster(sự kiện bất ngờ với 'suddenly').",
+          "explanation_long": "Lớp 1: was walking=bối cảnh đang diễn ra. Lớp 2: 'suddenly'+beat faster=sự kiện bất ngờ→Simple Past. Lớp 3: 'suddenly' là tín hiệu sự kiện ngắn→Simple Past.",
+          "feedback_correct": "🏆 was walking(bối cảnh)+suddenly+beat(sự kiện). Kể chuyện band 6.0+!",
+          "feedback_wrong": "was walking(nền)+WHEN+suddenly+beat(sự kiện bất ngờ). Rất sinh động!",
+          "ielts_tip": "Từ 'suddenly' → sự kiện ngắn bất ngờ → Simple Past(beat, not was beating). Rất hay trong Part 2.",
+          "distractor_note": "plausible: option B(2 Continuous) nghe đúng nhưng thiếu sự kiện bất ngờ"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd4_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_continuous_stative",
+          "error_tag": "complex_stative_narrative",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While my classmates were celebrating their results, I was feeling devastated because I was believing I had prepared well.'",
+          "options": [
+            "were celebrating their results",
+            "I was feeling devastated",
+            "I was believing I had prepared well",
+            "because I was believing"
+          ],
+          "correct_answer": "I was believing I had prepared well",
+          "correct_index": 2,
+          "explanation_short": "believe=stative→Simple Past: believed. was feeling có thể tranh luận.",
+          "explanation_long": "Lớp 1: 'was believing'→believe=stative khi diễn tả niềm tin→'believed'. Lớp 2: 'was feeling devastated'→feel có thể dynamic(đang cảm thấy)→có thể giữ. Lớp 3: were celebrating+had prepared đúng.",
+          "feedback_correct": "⚡ believe=stative→believed. was feeling có thể chấp nhận(feel=dynamic emotion)!",
+          "feedback_wrong": "believe=stative→believed. feel(emotion)=có thể Continuous trong một số ngữ cảnh.",
+          "ielts_tip": "believe/think/know=stative→Simple Past. feel(emotion)=dynamic→có thể Continuous. Phân biệt tinh tế!",
+          "distractor_note": "near-correct: was feeling trông sai nhưng có thể chấp nhận—was believing là lỗi rõ hơn.",
+          "layers": [
+            "believe_stative",
+            "feel_dynamic_vs_stative",
+            "past_perfect_in_narrative"
+          ]
+        },
+        {
+          "item_id": "sd4_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_continuous_interrupted",
+          "error_tag": "complex_when_while",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While the examination board was reviewing all submitted portfolios, several candidates were discovered to have plagiarised, which caused a major scandal.'",
+          "options": [
+            "was reviewing all submitted portfolios",
+            "were discovered to have plagiarised",
+            "which caused a major scandal",
+            "Không có lỗi"
+          ],
+          "correct_answer": "Không có lỗi",
+          "correct_index": 3,
+          "explanation_short": "Câu đúng hoàn toàn: was reviewing(nền)+were discovered(Passive Past, không Continuous).",
+          "explanation_long": "Lớp 1: 'was reviewing'=Past Continuous cho hành động nền đúng. Lớp 2: 'were discovered'=Passive Simple Past(không Continuous) đúng vì đây là sự kiện phát hiện. Lớp 3: 'which caused'=Simple Past đúng.",
+          "feedback_correct": "🏆 Câu đúng hoàn toàn! was reviewing(nền)+were discovered(Passive)+caused=chuẩn mực!",
+          "feedback_wrong": "Câu đúng: Past Continuous(nền)+Passive Simple Past(sự kiện)+Simple Past(hệ quả).",
+          "ielts_tip": "Passive Past: was/were+V3. Không nhầm với Past Continuous: was/were+V-ing.",
+          "distractor_note": "near-correct: were discovered trông như Passive Continuous nhưng thực ra là Passive Simple Past"
+        },
+        {
+          "item_id": "sd4_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_scene",
+          "error_tag": "narrative_sophistication",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Đoạn Part 2 nào thể hiện Grammatical Range CAO NHẤT?",
+          "options": [
+            "I was sitting in the exam room when I suddenly realised I had forgotten my calculator. While other students were working on their math questions, I was desperately trying to solve them mentally.",
+            "I sat in the exam room when I suddenly realised I forgot my calculator. While other students worked on their math questions, I desperately tried to solve them mentally.",
+            "I was sitting in the exam room when I suddenly realised I had forgotten my calculator. While other students worked on their math questions, I desperately tried to solve them mentally.",
+            "I sat in the exam room when I suddenly realised I had forgotten my calculator. While other students were working on their math questions, I desperately tried to solve them mentally."
+          ],
+          "correct_answer": "I was sitting in the exam room when I suddenly realised I had forgotten my calculator. While other students were working on their math questions, I was desperately trying to solve them mentally.",
+          "correct_index": 0,
+          "explanation_short": "was sitting(bối cảnh)+realised(sự kiện)+had forgotten(Perfect trước đó)+were working(song song)+was trying(song song).",
+          "explanation_long": "Lớp 1: was sitting(bối cảnh)WHEN realised(sự kiện)=đúng. Lớp 2: had forgotten=Past Perfect(xảy ra trước realised)=đúng. Lớp 3: WHILE were working+was trying=2 hành động song song=đúng. Ba thì khác nhau trong 2 câu=Grammatical Range band 6.5+.",
+          "feedback_correct": "🏆 Past Continuous+Simple Past+Past Perfect+WHILE+2 Continuous=Grammatical Range band 6.5+!",
+          "feedback_wrong": "4 thì khác nhau có chủ đích: was sitting, realised, had forgotten, were working, was trying.",
+          "ielts_tip": "Part 2 band 6.5+: kết hợp 3-4 thì khác nhau có chủ đích trong cùng một đoạn.",
+          "distractor_note": "near-correct: option C gần nhất—chỉ khác ở while clause dùng Simple Past thay Continuous."
+        },
+        {
+          "item_id": "sd4_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_continuous_was_were",
+          "error_tag": "complex_agreement",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The committee, together with several observers, were reviewing the examination papers while candidates was waiting anxiously outside.'",
+          "options": [
+            "The committee, together with several observers, were reviewing",
+            "while candidates was waiting",
+            "anxiously outside",
+            "Không có lỗi"
+          ],
+          "correct_answer": "while candidates was waiting",
+          "correct_index": 1,
+          "explanation_short": "candidates=plural→were waiting(không was waiting).",
+          "explanation_long": "Lớp 1: 'committee, together with observers'→'together with' không thay đổi số→committee=singular→was reviewing đúng(mặc dù nghe có vẻ sai). Lớp 2: candidates=plural→were waiting. Lỗi nằm ở 'candidates was'.",
+          "feedback_correct": "⚡ candidates=plural→were waiting. 'Together with' không thay đổi chủ ngữ!",
+          "feedback_wrong": "candidates=plural→were. 'Together with' không thay đổi chủ ngữ committee=singular.",
+          "ielts_tip": "'A, together with B' → chia theo A. 'A and B' → plural. Đây là bẫy cực phổ biến!",
+          "distractor_note": "near-correct: were reviewing trông sai vì 'together with observers' khiến nghĩ plural"
+        },
+        {
+          "item_id": "sd4_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_continuous_parallel",
+          "error_tag": "while_agreement_complex",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While the professor was delivering his lecture, students in the front row were taking notes while those at the back was browsing social media.'",
+          "options": [
+            "the professor was delivering his lecture",
+            "students in the front row were taking notes",
+            "those at the back was browsing social media",
+            "while those at the back"
+          ],
+          "correct_answer": "those at the back was browsing social media",
+          "correct_index": 2,
+          "explanation_short": "those=plural→were browsing(không was browsing).",
+          "explanation_long": "Lớp 1: was delivering đúng(professor=singular). Lớp 2: were taking đúng(students=plural). Lớp 3: 'those at the back'→those=plural→were browsing(không was).",
+          "feedback_correct": "🔥 those=plural→were browsing. was+plural=lỗi thường gặp trong câu dài!",
+          "feedback_wrong": "those=plural→were browsing. Không phải was browsing.",
+          "ielts_tip": "Trong câu dài: luôn track chủ ngữ của từng mệnh đề. 'Those'=plural→were.",
+          "distractor_note": "near-correct: câu dài 3 mệnh đề—lỗi nằm ở mệnh đề cuối, dễ bỏ sót"
+        },
+        {
+          "item_id": "sd4_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_task2",
+          "error_tag": "academic_background",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Task 2 — Câu nào mô tả bối cảnh lịch sử CHUẨN NHẤT về mặt học thuật?",
+          "options": [
+            "In the decades following World War II, many countries were rebuilding their education systems while simultaneously trying to address widespread poverty.",
+            "In the decades following World War II, many countries rebuilt their education systems while simultaneously addressing widespread poverty.",
+            "In the decades following World War II, many countries were rebuilding their education systems while simultaneously addressed widespread poverty.",
+            "In the decades following World War II, many countries were rebuilding their education systems while simultaneously they were trying to address widespread poverty."
+          ],
+          "correct_answer": "In the decades following World War II, many countries were rebuilding their education systems while simultaneously trying to address widespread poverty.",
+          "correct_index": 0,
+          "explanation_short": "were rebuilding(nền dài)+while+trying(parallel action=gerund trong cụm trạng từ).",
+          "explanation_long": "Lớp 1: were rebuilding=hành động đang diễn ra trong giai đoạn dài→Past Continuous đúng. Lớp 2: 'while simultaneously trying'=cụm trạng từ song song→gerund đúng(không cần subject). Lớp 3: Option D thêm 'they were'→lặp chủ ngữ không cần thiết.",
+          "feedback_correct": "🏆 were rebuilding(nền)+while+trying(parallel gerund). Academic nhất!",
+          "feedback_wrong": "were rebuilding(giai đoạn dài)+while trying(parallel action)=academic Task 2 chuẩn.",
+          "ielts_tip": "Task 2 academic: Past Continuous cho giai đoạn dài trong quá khứ. 'while+gerund'=không cần subject.",
+          "distractor_note": "near-correct: option B(cả 2 Simple Past) academic nhưng thiếu bối cảnh diễn ra liên tục"
+        },
+        {
+          "item_id": "sd4_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_continuous_stative",
+          "error_tag": "academic_stative",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Researchers were observing that students who were preferring visual learning methods were performing significantly better than those who were relying solely on text.'",
+          "options": [
+            "Researchers were observing that",
+            "students who were preferring visual learning",
+            "were performing significantly better",
+            "those who were relying solely on text"
+          ],
+          "correct_answer": "Researchers were observing that",
+          "correct_index": 0,
+          "explanation_short": "observe(that)=stative reporting verb→Simple Past: observed that.",
+          "explanation_long": "Lớp 1: 'observe that'=reporting verb cho quan sát/nhận thấy=stative-like→observed that. Lớp 2: 'were preferring'→prefer=stative→preferred. Lớp 3: were performing+were relying=dynamic actions→có thể Continuous. Lỗi [A] rõ nhất: observe that=stative.",
+          "feedback_correct": "⚡ observe(that)=reporting stative→observed that. prefer=stative→preferred cũng sai!",
+          "feedback_wrong": "observe(that)=stative→observed. prefer=stative→preferred. performing+relying=dynamic=OK.",
+          "ielts_tip": "Reporting verbs như stative: observe(that)/note(that)/find(that) khi nêu kết quả→Simple Past.",
+          "distractor_note": "near-correct: were preferring cũng sai(prefer=stative) nhưng observe that là lỗi đầu tiên"
+        },
+        {
+          "item_id": "sd4_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_continuous_complex",
+          "error_tag": "three_clause_tracking",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu Task 2 sau có BAO NHIÊU lỗi về thì?\n'[A]While educators was discussing curriculum reform, [B]students were experiencing increasing pressure, and [C]policymakers were not yet realising the full extent of the problem.'",
+          "options": [
+            "1 lỗi: [A] only (was→were)",
+            "2 lỗi: [A]+[C] (was→were, realising→realised)",
+            "1 lỗi: [C] only (realising→realised)",
+            "Không có lỗi trong cả 3 mệnh đề"
+          ],
+          "correct_answer": "1 lỗi: [A] only (was→were)",
+          "correct_index": 0,
+          "explanation_short": "[A]educators=plural→were discussing. [B]were experiencing=đúng. [C]were not yet realising=có thể chấp nhận.",
+          "explanation_long": "Lớp 1: [A]'educators was'→educators=plural→were discussing. Lớp 2: [B]were experiencing=đúng(dynamic action). Lớp 3: [C]'were not yet realising'→realise có thể dynamic(đang dần nhận ra)→Past Continuous có thể chấp nhận trong ngữ cảnh này.",
+          "feedback_correct": "🎯 1 lỗi: educators=plural→were discussing. realising trong ngữ cảnh này có thể chấp nhận!",
+          "feedback_wrong": "educators=plural→were(không was). realising(đang dần nhận ra)=dynamic→có thể Continuous.",
+          "ielts_tip": "realise=thường stative nhưng 'gradually realising'=dynamic(đang dần nhận ra)→có thể Continuous. Context matters!",
+          "distractor_note": "near-correct: option B(2 lỗi) bẫy vì realising trông sai"
+        },
+        {
+          "item_id": "sd4_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_continuous_register",
+          "error_tag": "academic_vs_narrative",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu Task 2 nào kết hợp ĐÚNG Past Continuous và Simple Past để phân tích xã hội?",
+          "options": [
+            "In the 1980s, the economy was struggling, many workers lost their jobs, and the government was introducing new policies to address the crisis.",
+            "In the 1980s, the economy struggled, many workers were losing their jobs, and the government introduced new policies to address the crisis.",
+            "In the 1980s, while the economy was struggling and many workers were losing their jobs, the government introduced sweeping new policies to address the crisis.",
+            "In the 1980s, the economy was struggling, many workers were losing their jobs, and the government was introducing new policies to address the crisis."
+          ],
+          "correct_answer": "In the 1980s, while the economy was struggling and many workers were losing their jobs, the government introduced sweeping new policies to address the crisis.",
+          "correct_index": 2,
+          "explanation_short": "was struggling+were losing(bối cảnh nền)→WHILE+introduced(hành động đáp lại=điểm).",
+          "explanation_long": "Lớp 1: was struggling+were losing=hành động nền đang diễn ra. Lớp 2: introduced=hành động điểm đáp lại bối cảnh→Simple Past. Lớp 3: Cấu trúc WHILE+Past Continuous[bối cảnh], Simple Past[hành động]=Grammatical Range cao nhất.",
+          "feedback_correct": "🏆 WHILE+was struggling+were losing(bối cảnh)→introduced(hành động đáp lại). Band 6.5+!",
+          "feedback_wrong": "WHILE+Past Continuous(bối cảnh)+Simple Past(hành động đáp lại)=cấu trúc Task 2 tinh tế nhất.",
+          "ielts_tip": "Task 2 analysis: WHILE+Past Continuous(context)+Simple Past(government response)=structure most graders reward.",
+          "distractor_note": "near-correct: option D(3 Continuous)đúng ngữ pháp nhưng thiếu contrast giữa bối cảnh và hành động"
+        },
+        {
+          "item_id": "sd4_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_continuous_boss",
+          "error_tag": "boss_round_mixed",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn sau có BAO NHIÊU lỗi?\n'While [A]professors was delivering their lectures via Zoom, students [B]were experiencing technical difficulties and [C]was feeling increasingly frustrated, which [D]were causing significant disruption to the learning process.'",
+          "options": [
+            "1 lỗi: [A]only",
+            "2 lỗi: [A]+[C]",
+            "3 lỗi: [A]+[C]+[D]",
+            "4 lỗi: [A]+[B]+[C]+[D]"
+          ],
+          "correct_answer": "3 lỗi: [A]+[C]+[D]",
+          "correct_index": 2,
+          "explanation_short": "[A]professors=plural→were. [B]were experiencing=đúng. [C]was feeling→students=plural→were. [D]which were causing→which=singular clause→was causing.",
+          "explanation_long": "[A]professors=plural→were delivering. [B]were experiencing=đúng(students plural+dynamic). [C]'was feeling'→students=plural→were feeling. [D]'which were causing'→which thay cho toàn mệnh đề(singular)→was causing. Ba lỗi.",
+          "feedback_correct": "🏆 BOSS CLEARED! 3 lỗi: [A]were|[C]were feeling|[D]was causing. [B]đúng!",
+          "feedback_wrong": "[A]professors→were.[C]students→were feeling.[D]which(clause)→was causing.[B]were experiencing=đúng.",
+          "ielts_tip": "Review: (1)plural subjects→were, (2)which thay clause=singular→was, (3)stative trong past context.",
+          "distractor_note": "near-correct: option D(4 lỗi) bẫy mạnh—[B] trông sai nhưng đúng.",
+          "layers": [
+            "plural_subject_were",
+            "which_clause_singular",
+            "stative_in_context",
+            "progressive_agreement"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "60ce9936-c1dc-4731-8e3a-0d968be9289a",
+      "generated_at": "2026-04-26T07:59:39.907203+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-4-past-continuous",
+      "metadata_ref": "unit-4-past-continuous.metadata",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "4.0–4.5",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd4_s_001",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_001",
+          "round_number": 1,
+          "stem": "At 8pm yesterday, she ___ for her IELTS exam.",
+          "options": [
+            "study",
+            "studied",
+            "was studying",
+            "is studying"
+          ],
+          "correct_answer": "was studying",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ At 8pm yesterday → was studying",
+          "feedback_wrong": "At specific past moment → Past Continuous: was+V-ing",
+          "explanation_short": "At 8pm yesterday = specific past moment → was studying.",
+          "ielts_tip": "Từ tín hiệu Past Continuous: at [time] yesterday, at this time last week.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_s_002",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_002",
+          "round_number": 2,
+          "stem": "I ___ my notes when the teacher ___ the class.",
+          "options": [
+            "reviewed / entered",
+            "was reviewing / entered",
+            "reviewed / was entering",
+            "was reviewing / was entering"
+          ],
+          "correct_answer": "was reviewing / entered",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 was reviewing(nền) + entered(xen vào)",
+          "feedback_wrong": "was V-ing(dài) WHEN Simple Past(ngắn). Đây là cấu trúc cơ bản nhất!",
+          "explanation_short": "was reviewing(dài, bị gián đoạn) + entered(ngắn, xen vào).",
+          "ielts_tip": "WHEN: hành động ngắn Simple Past xen vào hành động dài Past Continuous.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_s_003",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_003",
+          "round_number": 3,
+          "stem": "While students ___ the exam, the fire alarm ___.",
+          "options": [
+            "took / rang",
+            "were taking / rang",
+            "took / was ringing",
+            "were taking / was ringing"
+          ],
+          "correct_answer": "were taking / rang",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ while+were taking + rang(sự kiện)",
+          "feedback_wrong": "WHILE+Past Continuous | sự kiện ngắn=Simple Past",
+          "explanation_short": "while+were taking(nền dài) + rang(sự kiện ngắn).",
+          "ielts_tip": "WHILE→Past Continuous cho hành động nền. Sự kiện ngắn xen vào→Simple Past.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_s_004",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_004",
+          "round_number": 4,
+          "stem": "The students ___ when the principal walked in.",
+          "options": [
+            "was talking",
+            "were talking",
+            "is talking",
+            "are talking"
+          ],
+          "correct_answer": "were talking",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 students=plural→were talking",
+          "feedback_wrong": "students=plural→were(không was)+talking",
+          "explanation_short": "students=plural→were talking.",
+          "ielts_tip": "Chia be trong Past: I/he/she/it→was. you/we/they/plural→were.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_s_005",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_005",
+          "round_number": 5,
+          "stem": "At this time last year, I ___ for my university entrance exam.",
+          "options": [
+            "prepare",
+            "was prepare",
+            "was preparing",
+            "prepared"
+          ],
+          "correct_answer": "was preparing",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ At this time last year → was preparing",
+          "feedback_wrong": "At this time last year → Past Continuous: was+preparing",
+          "explanation_short": "At this time last year=specific past moment → was preparing.",
+          "ielts_tip": "'At this time last year/month' → Past Continuous. Khác với 'last year' (Simple Past).",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_s_006",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_006",
+          "round_number": 6,
+          "stem": "She ___ attention in class when the teacher explained the grammar rule.",
+          "options": [
+            "didn't pay",
+            "wasn't paying",
+            "wasn't pay",
+            "not was paying"
+          ],
+          "correct_answer": "wasn't paying",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Phủ định Past Continuous: wasn't+paying",
+          "feedback_wrong": "wasn't+V-ing. Không phải didn't+pay trong ngữ cảnh này.",
+          "explanation_short": "Phủ định Past Continuous: wasn't+V-ing.",
+          "ielts_tip": "Phủ định: Simple Past→didn't+V. Past Continuous→wasn't/weren't+V-ing.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_s_007",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_007",
+          "round_number": 7,
+          "stem": "When I ___ to school this morning, I ___ my old English teacher.",
+          "options": [
+            "walked / met",
+            "was walking / met",
+            "walked / was meeting",
+            "was walking / was meeting"
+          ],
+          "correct_answer": "was walking / met",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ was walking(bối cảnh) + met(sự kiện bất ngờ)",
+          "feedback_wrong": "was walking(nền) WHEN met(sự kiện). Cấu trúc kể chuyện!",
+          "explanation_short": "was walking(bối cảnh dài) + met(sự kiện ngắn).",
+          "ielts_tip": "Kể chuyện: was V-ing(bối cảnh)...when Simple Past(sự kiện). Rất hay dùng trong Part 2.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_s_008",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_008",
+          "round_number": 8,
+          "stem": "The class was ___ very hard when the power went out.",
+          "options": [
+            "studing",
+            "studying",
+            "studied",
+            "study"
+          ],
+          "correct_answer": "studying",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 study→studying(thêm -ing)",
+          "feedback_wrong": "study→studying. Không nhân đôi y và không bỏ y.",
+          "explanation_short": "study→studying(không double-y, chỉ thêm -ing).",
+          "ielts_tip": "CVC rule: run→running, sit→sitting. Kết thúc -y: study→studying, try→trying.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_s_009",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_009",
+          "round_number": 9,
+          "stem": "___ you ___ English when the earthquake happened?",
+          "options": [
+            "Did / study",
+            "Were / studying",
+            "Was / studying",
+            "Do / study"
+          ],
+          "correct_answer": "Were / studying",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Câu hỏi Past Continuous: Were you studying?",
+          "feedback_wrong": "Câu hỏi Past Continuous: Was/Were+S+V-ing?",
+          "explanation_short": "Câu hỏi Past Continuous: Were+S+V-ing?",
+          "ielts_tip": "Hỏi về past ongoing action: Were you V-ing? Was he/she V-ing?",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_s_010",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd4_s_010",
+          "round_number": 10,
+          "stem": "While I ___ for my exam, my phone ___ and it was my teacher calling.",
+          "options": [
+            "studied / rang",
+            "was studying / rang",
+            "studied / was ringing",
+            "was studying / was ringing"
+          ],
+          "correct_answer": "was studying / rang",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 was studying(nền) + rang(sự kiện). ring→rang bất quy tắc!",
+          "feedback_wrong": "was studying(dài)+rang(ngắn xen vào). ring→rang bất quy tắc.",
+          "explanation_short": "was studying(nền dài) + rang(sự kiện điểm ngắn).",
+          "ielts_tip": "ring→rang(bất quy tắc). Kết hợp Past Continuous+Simple Past = cấu trúc kể chuyện cơ bản.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "399a95c9-4319-4910-b6a9-89e5eff06db5",
+      "generated_at": "2026-04-26T07:59:39.907309+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-4-past-continuous",
+      "metadata_ref": "unit-4-past-continuous.metadata",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "4.5–5.5",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế, options gần nhau.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd4_b_001",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_001",
+          "round_number": 1,
+          "stem": "Speaking Part 2: Kể về một kỷ niệm học tập đáng nhớ — câu nào đặt bối cảnh tốt nhất?",
+          "options": [
+            "It was a rainy afternoon. I studied in the library when suddenly the lights went out.",
+            "It was a rainy afternoon. I was studying in the library when suddenly the lights went out.",
+            "It was a rainy afternoon. I had studied in the library when suddenly the lights went out.",
+            "It was a rainy afternoon. I was studying in the library while the lights went out."
+          ],
+          "correct_answer": "It was a rainy afternoon. I was studying in the library when suddenly the lights went out.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ was studying(nền)+WHEN+went out(bất ngờ). Part 2 bối cảnh hoàn hảo!",
+          "feedback_wrong": "Past Continuous(nền)WHEN Simple Past(sự kiện). WHILE dùng cho 2 hành động song song.",
+          "explanation_short": "was studying(bối cảnh nền) + went out(sự kiện bất ngờ khi+Simple Past).",
+          "ielts_tip": "Kể chuyện Part 2: đặt bối cảnh bằng Past Continuous, sự kiện bằng Simple Past.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_b_002",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_002",
+          "round_number": 2,
+          "stem": "Câu nào mô tả đúng hai hành động song song trong quá khứ?",
+          "options": [
+            "While the teacher was explaining the grammar rule, students were taking notes carefully.",
+            "While the teacher explained the grammar rule, students were taking notes carefully.",
+            "While the teacher was explaining the grammar rule, students took notes carefully.",
+            "While the teacher was explaining, students was taking notes carefully."
+          ],
+          "correct_answer": "While the teacher was explaining the grammar rule, students were taking notes carefully.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 WHILE+2 Past Continuous song song: was explaining+were taking",
+          "feedback_wrong": "WHILE+hai hành động dài→cả 2 Past Continuous.",
+          "explanation_short": "WHILE+hai Past Continuous song song: was explaining + were taking.",
+          "ielts_tip": "WHILE→hai hành động song song→cả 2 Past Continuous. Khác với WHEN(1 ngắn+1 dài).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_b_003",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_003",
+          "round_number": 3,
+          "stem": "Phát hiện lỗi: 'While I was preparing my IELTS application, my computer suddenly crashed and lost all my work.'",
+          "options": [
+            "was preparing → prepared(Simple Past phù hợp hơn)",
+            "crashed → was crashing(cần Continuous)",
+            "lost → was losing(cần Continuous)",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "Câu đúng, không cần sửa",
+          "correct_index": 3,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Câu đúng hoàn toàn! while+was preparing+crashed+lost = chuẩn mực!",
+          "feedback_wrong": "Câu đúng: while+Past Continuous(nền)+Simple Past(sự kiện).",
+          "explanation_short": "While+was preparing(nền) + crashed+lost(sự kiện ngắn)=đúng.",
+          "ielts_tip": "Bẫy quan trọng: không phải mọi động từ trong câu đều cần Continuous. Sự kiện ngắn→Simple Past.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_b_004",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_004",
+          "round_number": 4,
+          "stem": "Câu nào ĐÚNG về trải nghiệm trong phòng thi IELTS?",
+          "options": [
+            "While I was taking the exam, I was knowing all the answers but I was wanting more time.",
+            "While I was taking the exam, I knew all the answers but I wanted more time.",
+            "While I took the exam, I knew all the answers but I wanted more time.",
+            "While I was taking the exam, I was knowing all answers but wanted more time."
+          ],
+          "correct_answer": "While I was taking the exam, I knew all the answers but I wanted more time.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ was taking(action) + knew+wanted(stative→Simple Past). Hai quy tắc trong 1 câu!",
+          "feedback_wrong": "was taking(action). know+want=stative→knew, wanted(Simple Past).",
+          "explanation_short": "was taking(hành động đang diễn ra) + knew+wanted(stative→Simple Past).",
+          "ielts_tip": "Stative trong past context: know→knew, want→wanted, believe→believed(Simple Past, không Continuous).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_b_005",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_005",
+          "round_number": 5,
+          "stem": "Phát hiện lỗi: 'The group of students was studying in the library while their teacher were preparing the next lesson.'",
+          "options": [
+            "was → were(group=plural)",
+            "were → was(teacher=singular)",
+            "was → were | were → was(cả hai sai)",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "were → was(teacher=singular)",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 teacher=singular→was preparing. 'group'=collective→was studying đúng!",
+          "feedback_wrong": "teacher=singular→was(không were). group collective→was đúng.",
+          "explanation_short": "'teacher'=singular→was preparing. 'group' British English→was đúng.",
+          "ielts_tip": "group/team/class: British English→plural(were). Nhưng teacher=individual→was.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_b_006",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_006",
+          "round_number": 6,
+          "stem": "Task 2 — Câu nào mô tả bối cảnh xã hội trong quá khứ chuẩn nhất?",
+          "options": [
+            "In the 1990s, many students studied in overcrowded classrooms while their teachers struggled with limited resources.",
+            "In the 1990s, many students were studying in overcrowded classrooms while their teachers were struggling with limited resources.",
+            "In the 1990s, many students were studying in overcrowded classrooms while their teachers struggled with limited resources.",
+            "In the 1990s, many students studied in overcrowded classrooms while their teachers were struggling with limited resources."
+          ],
+          "correct_answer": "In the 1990s, many students were studying in overcrowded classrooms while their teachers were struggling with limited resources.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 WHILE+hai hành động dài đồng thời→cả 2 Past Continuous",
+          "feedback_wrong": "WHILE+hai hành động song song→cả 2 Past Continuous.",
+          "explanation_short": "WHILE+hai hành động song song→cả 2 Past Continuous.",
+          "ielts_tip": "Task 2 mô tả bối cảnh quá khứ: 'In [decade], people were doing X while Y was happening'→Past Continuous.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_b_007",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_007",
+          "round_number": 7,
+          "stem": "Phát hiện lỗi: 'My professor was explaining the concept when I suddenly was understanding it.'",
+          "options": [
+            "was explaining → explained(Simple Past phù hợp hơn)",
+            "was understanding → understood(stative verb)",
+            "was explaining → explained | was understanding → understood",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "was understanding → understood(stative verb)",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ understand=stative→understood. was explaining=đúng!",
+          "feedback_wrong": "understand=stative→không Continuous→understood.",
+          "explanation_short": "understand=stative→không dùng -ing trong past. understand→understood.",
+          "ielts_tip": "Trong past context: understand→understood, know→knew, realize→realized(stative→Simple Past).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_b_008",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_008",
+          "round_number": 8,
+          "stem": "Speaking Part 2 — Kể về lần đầu thi IELTS. Câu nào tự nhiên và đúng nhất?",
+          "options": [
+            "When I arrived at the test center, all the candidates sat in silence.",
+            "When I arrived at the test center, all the candidates were sitting in silence.",
+            "When I was arriving at the test center, all the candidates were sitting in silence.",
+            "When I was arriving at the test center, all candidates sat in silence."
+          ],
+          "correct_answer": "When I arrived at the test center, all the candidates were sitting in silence.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ arrived(sự kiện)+were sitting(bối cảnh). Kể chuyện Part 2 chuẩn!",
+          "feedback_wrong": "arrived(điểm)+were sitting(nền đang diễn ra). WHEN+Simple Past=sự kiện.",
+          "explanation_short": "arrived(sự kiện ngắn) + were sitting(bối cảnh đang diễn ra).",
+          "ielts_tip": "WHEN+Simple Past(sự kiện) → bối cảnh đang diễn ra = Past Continuous. Tự nhiên và sinh động.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_b_009",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'While students were siting the exam, the teacher was walking around the room.'",
+          "options": [
+            "siting → sitting(double t before -ing)",
+            "was walking → walked(Simple Past phù hợp)",
+            "were siting → was sitting(singular phù hợp hơn)",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "siting → sitting(double t before -ing)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 sit→sitting(double t). CVC rule!",
+          "feedback_wrong": "sit+ing=sitting(nhân đôi t). 'Siting' không tồn tại.",
+          "explanation_short": "sit kết thúc CVC→double t: sitting(không siting).",
+          "ielts_tip": "CVC+ing: sit→sitting, run→running, get→getting, swim→swimming, begin→beginning.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_b_010",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd4_b_010",
+          "round_number": 10,
+          "stem": "Tìm câu KỂ CHUYỆN hoàn chỉnh nhất cho IELTS Speaking Part 2:",
+          "options": [
+            "I remember the day I got my IELTS results. I walked to the school gate, and my heart beat fast.",
+            "I remember the day I got my IELTS results. I was walking to the school gate, and my heart was beating fast.",
+            "I remember the day I got my IELTS results. I was walking to the school gate when suddenly my heart beat faster.",
+            "I remember the day I got my IELTS results. I walked to the school gate while my heart was beating fast."
+          ],
+          "correct_answer": "I remember the day I got my IELTS results. I was walking to the school gate when suddenly my heart beat faster.",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 was walking(bối cảnh)+suddenly+beat(sự kiện). Kể chuyện band 6.0+!",
+          "feedback_wrong": "was walking(nền)+WHEN+suddenly+beat(sự kiện bất ngờ). Rất sinh động!",
+          "explanation_short": "was walking(bối cảnh) + beat faster(sự kiện bất ngờ với 'suddenly').",
+          "ielts_tip": "Từ 'suddenly' → sự kiện ngắn bất ngờ → Simple Past(beat, not was beating). Rất hay trong Part 2.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "e0d60208-7825-422a-8511-b3c1be04fd3e",
+      "generated_at": "2026-04-26T07:59:39.907366+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-4-past-continuous",
+      "metadata_ref": "unit-4-past-continuous.metadata",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "5.5–6.5",
+        "description": "2–3 lớp ngữ pháp. Distractor gần đúng. Tìm vị trí lỗi.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd4_c_001",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While my classmates were celebrating their results, I was feeling devastated because I was believing I had prepared well.'",
+          "options": [
+            "were celebrating their results",
+            "I was feeling devastated",
+            "I was believing I had prepared well",
+            "because I was believing"
+          ],
+          "correct_answer": "I was believing I had prepared well",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "⚡ believe=stative→believed. was feeling có thể chấp nhận(feel=dynamic emotion)!",
+          "feedback_wrong": "believe=stative→believed. feel(emotion)=có thể Continuous trong một số ngữ cảnh.",
+          "explanation_short": "believe=stative→Simple Past: believed. was feeling có thể tranh luận.",
+          "ielts_tip": "believe/think/know=stative→Simple Past. feel(emotion)=dynamic→có thể Continuous. Phân biệt tinh tế!",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_c_002",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_002",
+          "round_number": 2,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While the examination board was reviewing all submitted portfolios, several candidates were discovered to have plagiarised, which caused a major scandal.'",
+          "options": [
+            "was reviewing all submitted portfolios",
+            "were discovered to have plagiarised",
+            "which caused a major scandal",
+            "Không có lỗi"
+          ],
+          "correct_answer": "Không có lỗi",
+          "correct_index": 3,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 Câu đúng hoàn toàn! was reviewing(nền)+were discovered(Passive)+caused=chuẩn mực!",
+          "feedback_wrong": "Câu đúng: Past Continuous(nền)+Passive Simple Past(sự kiện)+Simple Past(hệ quả).",
+          "explanation_short": "Câu đúng hoàn toàn: was reviewing(nền)+were discovered(Passive Past, không Continuous).",
+          "ielts_tip": "Passive Past: was/were+V3. Không nhầm với Past Continuous: was/were+V-ing.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_c_003",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_003",
+          "round_number": 3,
+          "stem": "Đoạn Part 2 nào thể hiện Grammatical Range CAO NHẤT?",
+          "options": [
+            "I was sitting in the exam room when I suddenly realised I had forgotten my calculator. While other students were working on their math questions, I was desperately trying to solve them mentally.",
+            "I sat in the exam room when I suddenly realised I forgot my calculator. While other students worked on their math questions, I desperately tried to solve them mentally.",
+            "I was sitting in the exam room when I suddenly realised I had forgotten my calculator. While other students worked on their math questions, I desperately tried to solve them mentally.",
+            "I sat in the exam room when I suddenly realised I had forgotten my calculator. While other students were working on their math questions, I desperately tried to solve them mentally."
+          ],
+          "correct_answer": "I was sitting in the exam room when I suddenly realised I had forgotten my calculator. While other students were working on their math questions, I was desperately trying to solve them mentally.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Past Continuous+Simple Past+Past Perfect+WHILE+2 Continuous=Grammatical Range band 6.5+!",
+          "feedback_wrong": "4 thì khác nhau có chủ đích: was sitting, realised, had forgotten, were working, was trying.",
+          "explanation_short": "was sitting(bối cảnh)+realised(sự kiện)+had forgotten(Perfect trước đó)+were working(song song)+was trying(song song).",
+          "ielts_tip": "Part 2 band 6.5+: kết hợp 3-4 thì khác nhau có chủ đích trong cùng một đoạn.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_c_004",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_004",
+          "round_number": 4,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The committee, together with several observers, were reviewing the examination papers while candidates was waiting anxiously outside.'",
+          "options": [
+            "The committee, together with several observers, were reviewing",
+            "while candidates was waiting",
+            "anxiously outside",
+            "Không có lỗi"
+          ],
+          "correct_answer": "while candidates was waiting",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "⚡ candidates=plural→were waiting. 'Together with' không thay đổi chủ ngữ!",
+          "feedback_wrong": "candidates=plural→were. 'Together with' không thay đổi chủ ngữ committee=singular.",
+          "explanation_short": "candidates=plural→were waiting(không was waiting).",
+          "ielts_tip": "'A, together with B' → chia theo A. 'A and B' → plural. Đây là bẫy cực phổ biến!",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_c_005",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_005",
+          "round_number": 5,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While the professor was delivering his lecture, students in the front row were taking notes while those at the back was browsing social media.'",
+          "options": [
+            "the professor was delivering his lecture",
+            "students in the front row were taking notes",
+            "those at the back was browsing social media",
+            "while those at the back"
+          ],
+          "correct_answer": "those at the back was browsing social media",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 those=plural→were browsing. was+plural=lỗi thường gặp trong câu dài!",
+          "feedback_wrong": "those=plural→were browsing. Không phải was browsing.",
+          "explanation_short": "those=plural→were browsing(không was browsing).",
+          "ielts_tip": "Trong câu dài: luôn track chủ ngữ của từng mệnh đề. 'Those'=plural→were.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_c_006",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_006",
+          "round_number": 6,
+          "stem": "Task 2 — Câu nào mô tả bối cảnh lịch sử CHUẨN NHẤT về mặt học thuật?",
+          "options": [
+            "In the decades following World War II, many countries were rebuilding their education systems while simultaneously trying to address widespread poverty.",
+            "In the decades following World War II, many countries rebuilt their education systems while simultaneously addressing widespread poverty.",
+            "In the decades following World War II, many countries were rebuilding their education systems while simultaneously addressed widespread poverty.",
+            "In the decades following World War II, many countries were rebuilding their education systems while simultaneously they were trying to address widespread poverty."
+          ],
+          "correct_answer": "In the decades following World War II, many countries were rebuilding their education systems while simultaneously trying to address widespread poverty.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 were rebuilding(nền)+while+trying(parallel gerund). Academic nhất!",
+          "feedback_wrong": "were rebuilding(giai đoạn dài)+while trying(parallel action)=academic Task 2 chuẩn.",
+          "explanation_short": "were rebuilding(nền dài)+while+trying(parallel action=gerund trong cụm trạng từ).",
+          "ielts_tip": "Task 2 academic: Past Continuous cho giai đoạn dài trong quá khứ. 'while+gerund'=không cần subject.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_c_007",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_007",
+          "round_number": 7,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Researchers were observing that students who were preferring visual learning methods were performing significantly better than those who were relying solely on text.'",
+          "options": [
+            "Researchers were observing that",
+            "students who were preferring visual learning",
+            "were performing significantly better",
+            "those who were relying solely on text"
+          ],
+          "correct_answer": "Researchers were observing that",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "⚡ observe(that)=reporting stative→observed that. prefer=stative→preferred cũng sai!",
+          "feedback_wrong": "observe(that)=stative→observed. prefer=stative→preferred. performing+relying=dynamic=OK.",
+          "explanation_short": "observe(that)=stative reporting verb→Simple Past: observed that.",
+          "ielts_tip": "Reporting verbs như stative: observe(that)/note(that)/find(that) khi nêu kết quả→Simple Past.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_c_008",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_008",
+          "round_number": 8,
+          "stem": "Câu Task 2 sau có BAO NHIÊU lỗi về thì?\n'[A]While educators was discussing curriculum reform, [B]students were experiencing increasing pressure, and [C]policymakers were not yet realising the full extent of the problem.'",
+          "options": [
+            "1 lỗi: [A] only (was→were)",
+            "2 lỗi: [A]+[C] (was→were, realising→realised)",
+            "1 lỗi: [C] only (realising→realised)",
+            "Không có lỗi trong cả 3 mệnh đề"
+          ],
+          "correct_answer": "1 lỗi: [A] only (was→were)",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🎯 1 lỗi: educators=plural→were discussing. realising trong ngữ cảnh này có thể chấp nhận!",
+          "feedback_wrong": "educators=plural→were(không was). realising(đang dần nhận ra)=dynamic→có thể Continuous.",
+          "explanation_short": "[A]educators=plural→were discussing. [B]were experiencing=đúng. [C]were not yet realising=có thể chấp nhận.",
+          "ielts_tip": "realise=thường stative nhưng 'gradually realising'=dynamic(đang dần nhận ra)→có thể Continuous. Context matters!",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_c_009",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_009",
+          "round_number": 9,
+          "stem": "Câu Task 2 nào kết hợp ĐÚNG Past Continuous và Simple Past để phân tích xã hội?",
+          "options": [
+            "In the 1980s, the economy was struggling, many workers lost their jobs, and the government was introducing new policies to address the crisis.",
+            "In the 1980s, the economy struggled, many workers were losing their jobs, and the government introduced new policies to address the crisis.",
+            "In the 1980s, while the economy was struggling and many workers were losing their jobs, the government introduced sweeping new policies to address the crisis.",
+            "In the 1980s, the economy was struggling, many workers were losing their jobs, and the government was introducing new policies to address the crisis."
+          ],
+          "correct_answer": "In the 1980s, while the economy was struggling and many workers were losing their jobs, the government introduced sweeping new policies to address the crisis.",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 WHILE+was struggling+were losing(bối cảnh)→introduced(hành động đáp lại). Band 6.5+!",
+          "feedback_wrong": "WHILE+Past Continuous(bối cảnh)+Simple Past(hành động đáp lại)=cấu trúc Task 2 tinh tế nhất.",
+          "explanation_short": "was struggling+were losing(bối cảnh nền)→WHILE+introduced(hành động đáp lại=điểm).",
+          "ielts_tip": "Task 2 analysis: WHILE+Past Continuous(context)+Simple Past(government response)=structure most graders reward.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd4_c_010",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd4_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn sau có BAO NHIÊU lỗi?\n'While [A]professors was delivering their lectures via Zoom, students [B]were experiencing technical difficulties and [C]was feeling increasingly frustrated, which [D]were causing significant disruption to the learning process.'",
+          "options": [
+            "1 lỗi: [A]only",
+            "2 lỗi: [A]+[C]",
+            "3 lỗi: [A]+[C]+[D]",
+            "4 lỗi: [A]+[B]+[C]+[D]"
+          ],
+          "correct_answer": "3 lỗi: [A]+[C]+[D]",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! 3 lỗi: [A]were|[C]were feeling|[D]was causing. [B]đúng!",
+          "feedback_wrong": "[A]professors→were.[C]students→were feeling.[D]which(clause)→was causing.[B]were experiencing=đúng.",
+          "explanation_short": "[A]professors=plural→were. [B]were experiencing=đúng. [C]was feeling→students=plural→were. [D]which were causing→which=singular clause→was causing.",
+          "ielts_tip": "Review: (1)plural subjects→were, (2)which thay clause=singular→was, (3)stative trong past context.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Unit tiếp theo →",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "unit-5-present-perfect"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

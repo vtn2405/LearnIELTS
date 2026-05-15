@@ -1,0 +1,124 @@
+{
+  "slug": "health-spres-starter-u01-01",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Health",
+  "taskType": "SPEAKING_PART1",
+  "bandTarget": 4.0,
+  "difficulty": "STARTER",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 1: Health — Simple Present",
+  "titleVi": "IELTS Speaking Part 1: Sức khỏe — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "Do you do anything to stay healthy?",
+    "bulletPoints": [
+      "What you do for your health",
+      "How often you exercise",
+      "What kind of food you eat",
+      "Why health is important to you"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "Um, I try to stay healthy, but honestly it is not easy for me. Every morning, my mother cook breakfast with vegetables and rice, which I think is quite good for my body. I also walk to school instead of taking the bus because I enjoy the fresh air. Overall, I think health matter a lot, especially when you are young.",
+  "totalErrors": 2,
+  "errors": [
+    {
+      "errorText": "my mother cook breakfast",
+      "correctText": "my mother cooks breakfast",
+      "acceptedAnswers": [
+        "my mother cooks breakfast"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'My mother' is third-person singular, so the verb needs an -s ending: 'cooks', not 'cook'.",
+      "explanationVi": "'My mother' là ngôi thứ ba số ít, nên động từ cần thêm -s: 'cooks', không phải 'cook'.",
+      "grammarRuleCode": "SPRES-001",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 1,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 78,
+      "endIndex": 102
+    },
+    {
+      "errorText": "health matter a lot",
+      "correctText": "health matters a lot",
+      "acceptedAnswers": [
+        "health matters a lot"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Health' is an uncountable singular noun, so the verb needs -s: 'matters', not 'matter'.",
+      "explanationVi": "'Health' là danh từ không đếm được số ít, nên động từ cần -s: 'matters', không phải 'matter'.",
+      "grammarRuleCode": "SPRES-002",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 266,
+      "endIndex": 285
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "I try to stay healthy",
+      "hint": "'I try' is correct — first person singular uses the base form of the verb in simple present.",
+      "startIndex": 4,
+      "endIndex": 25
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "stay healthy",
+      "sourceInPassage": "try to stay healthy",
+      "translation": "giữ gìn sức khỏe",
+      "exampleSentence": "Doctors always recommend that people stay healthy by eating well and exercising.",
+      "grammarNote": "'Stay + adjective' — không dùng 'stay healthily' (trạng từ) ở đây"
+    },
+    {
+      "phrase": "good for my body",
+      "sourceInPassage": "quite good for my body",
+      "translation": "tốt cho cơ thể",
+      "exampleSentence": "Eating fresh fruit every day is really good for your body.",
+      "grammarNote": "'Good for + danh từ' — không dùng 'good to my body'"
+    },
+    {
+      "phrase": "fresh air",
+      "sourceInPassage": "I enjoy the fresh air",
+      "translation": "không khí trong lành",
+      "exampleSentence": "Living near a park means I can enjoy the fresh air every morning.",
+      "grammarNote": "'Fresh air' — không dùng 'clean air' khi nói về không khí tự nhiên ngoài trời"
+    },
+    {
+      "phrase": "walk to school",
+      "sourceInPassage": "walk to school instead of",
+      "translation": "đi bộ đến trường",
+      "exampleSentence": "I walk to school every day because it only takes fifteen minutes.",
+      "grammarNote": "'Walk to + nơi' — không dùng 'walk to the school' trừ khi chỉ một trường cụ thể"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "THIRD_PERSON_S_OMISSION"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 75,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "Daily Health Habits",
+      "discourseSituation": "A student talking about their simple daily health routine in a Part 1 interview",
+      "discourseMood": "narrative",
+      "learnerVoice": "hesitant",
+      "errorStrategy": "obvious",
+      "cognitiveLoad": "low"
+    }
+  }
+}

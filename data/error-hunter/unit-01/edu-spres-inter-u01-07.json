@@ -1,0 +1,143 @@
+{
+  "slug": "edu-spres-inter-u01-07",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Education",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5.0,
+  "difficulty": "INTERMEDIATE",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 3: Education — Simple Present",
+  "titleVi": "IELTS Speaking Part 3: Giáo dục — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "Do you think homework is important for students?",
+    "bulletPoints": [
+      "Whether homework helps learning",
+      "How much homework is appropriate",
+      "The effect on student well-being",
+      "Alternatives to traditional homework"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "Honestly, I believe homework play a really important role in education, because it helps students review what they learn in class. Let me explain what I mean: when a student goes home and practises the lesson again, the information stay in their memory much longer. Of course, I understand that too much homework can cause stress, and nobody want that. However, without any homework at all, I think most students would simply forget everything by the next morning. So in my opinion, a reasonable amount of homework is actually beneficial for everyone. That is why I always encourage my younger siblings to finish their assignments.",
+  "totalErrors": 3,
+  "errors": [
+    {
+      "errorText": "homework play a really important",
+      "correctText": "homework plays a really important",
+      "acceptedAnswers": [
+        "homework plays a really important"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Homework' is an uncountable singular noun — the verb requires -s: 'plays'.",
+      "explanationVi": "'Homework' là danh từ không đếm được số ít — động từ cần -s: 'plays'.",
+      "grammarRuleCode": "SPRES-016",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 20,
+      "endIndex": 52
+    },
+    {
+      "errorText": "the information stay in their memory",
+      "correctText": "the information stays in their memory",
+      "acceptedAnswers": [
+        "the information stays in their memory"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'The information' is uncountable singular — use 'stays', not 'stay'.",
+      "explanationVi": "'The information' là danh từ không đếm được số ít — dùng 'stays', không phải 'stay'.",
+      "grammarRuleCode": "SPRES-017",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 3,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 216,
+      "endIndex": 252
+    },
+    {
+      "errorText": "nobody want that",
+      "correctText": "nobody wants that",
+      "acceptedAnswers": [
+        "nobody wants that"
+      ],
+      "errorType": "SUBJECT_VERB_AGREEMENT",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Nobody' is grammatically singular — it takes 'wants', not 'want'. Indefinite pronouns like nobody, everybody, someone always take singular verbs.",
+      "explanationVi": "'Nobody' về ngữ pháp là số ít — dùng 'wants', không phải 'want'. Đại từ bất định như nobody, everybody, someone luôn đi với động từ số ít.",
+      "grammarRuleCode": "SPRES-018",
+      "ieltsTipErrorType": "SUBJECT_VERB_AGREEMENT",
+      "detectionDifficulty": 3,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 335,
+      "endIndex": 351
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "a student goes home and practises",
+      "hint": "'Goes' and 'practises' are both correct — 'a student' is singular, so both verbs correctly take -s/-es.",
+      "startIndex": 164,
+      "endIndex": 197
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "review what they learn",
+      "sourceInPassage": "review what they learn in class",
+      "translation": "ôn lại những gì học trên lớp",
+      "exampleSentence": "Good students always review what they learn in class before the exam.",
+      "grammarNote": "'Review' dùng như động từ — không dùng 'revise' nếu nói về xem lại nội dung (British dùng 'revise' cũng đúng)"
+    },
+    {
+      "phrase": "cause stress",
+      "sourceInPassage": "homework can cause stress",
+      "translation": "gây căng thẳng",
+      "exampleSentence": "Working long hours without breaks can cause stress and burnout.",
+      "grammarNote": "'Cause stress' — không dùng 'make stress' hay 'give stress'"
+    },
+    {
+      "phrase": "a reasonable amount",
+      "sourceInPassage": "a reasonable amount of homework",
+      "translation": "một lượng hợp lý",
+      "exampleSentence": "A reasonable amount of exercise each day keeps the body and mind healthy.",
+      "grammarNote": "'A reasonable amount of + uncountable noun' — không dùng 'a reasonable number of' cho danh từ không đếm được"
+    },
+    {
+      "phrase": "beneficial for everyone",
+      "sourceInPassage": "actually beneficial for everyone",
+      "translation": "có lợi cho mọi người",
+      "exampleSentence": "A healthy school lunch programme is beneficial for everyone involved.",
+      "grammarNote": "'Beneficial for + người' — không dùng 'beneficial to everyone' (cũng đúng nhưng ít tự nhiên)"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "THIRD_PERSON_S_OMISSION",
+      "SUBJECT_VERB_AGREEMENT"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 120,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "Homework and Student Wellbeing",
+      "discourseSituation": "A learner over-explaining their views on why homework matters",
+      "discourseMood": "personal_observation",
+      "learnerVoice": "over_explaining",
+      "errorStrategy": "subtle",
+      "cognitiveLoad": "high"
+    }
+  }
+}

@@ -1,0 +1,2460 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-15-reported-speech",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-15-reported-speech",
+    "version": "4.0",
+    "grammar_point": "Reported Speech",
+    "subtitle_vi": "Câu tường thuật",
+    "topic_vocabulary": "Global Issues",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 16: Reported Speech",
+      "unit_json_ref": "unit-15-reported-speech.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "reported_tense_shift",
+      "reported_pronoun",
+      "reported_question",
+      "reported_imperative",
+      "reported_told_said"
+    ],
+    "common_vietnamese_errors": [
+      "tense_shift_missing",
+      "pronoun_shift_error",
+      "reported_question_error",
+      "reported_imperative_error",
+      "told_said_confusion"
+    ],
+    "ielts_band_target": {
+      "min": 6.0,
+      "max": 6.5
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-15-reported-speech",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "6.0–6.5",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "6.5–6.5",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 7.0 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.5 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "She said that she ___ tired of inequality.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "am"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "explanation_short": "said → lùi thì: is → was.",
+          "explanation_long": "Reported speech: said + lùi 1 bậc. is → was.",
+          "feedback_correct": "⚡ said → lùi thì: was",
+          "feedback_wrong": "said → is → was.",
+          "ielts_tip": "Reported: said + lùi thì.",
+          "distractor_note": "obvious: is (direct speech), am (sai ngôi)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "He told me that he ___ help the community project.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "does"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "told → lùi thì: will → would.",
+          "explanation_long": "Reported: told + lùi thì. will → would.",
+          "feedback_correct": "🔥 told → will → would",
+          "feedback_wrong": "told → will → would.",
+          "ielts_tip": "Reported: will → would.",
+          "distractor_note": "obvious: will (direct), can (sai)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "They said they ___ already donated to the charity.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "did"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "explanation_short": "said → lùi thì: have → had.",
+          "explanation_long": "Reported: said + lùi. have donated → had donated.",
+          "feedback_correct": "⚡ said → have → had",
+          "feedback_wrong": "said → have → had.",
+          "ielts_tip": "Reported: Present Perfect → Past Perfect.",
+          "distractor_note": "obvious: have (direct speech)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_pronoun",
+          "error_tag": "pronoun_shift_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Direct: 'I will fight for justice.' → She said she ___ fight for justice.",
+          "options": [
+            "would",
+            "will",
+            "could",
+            "can"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "said → will → would. I → she.",
+          "explanation_long": "Reported: pronoun I → she. will → would.",
+          "feedback_correct": "🔥 I → she, will → would",
+          "feedback_wrong": "Reported: pronoun + tense shift.",
+          "ielts_tip": "Pronoun: I→he/she. Tense: will→would.",
+          "distractor_note": "obvious: will (direct speech)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The report stated that poverty ___ increasing worldwide.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "are"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "explanation_short": "stated → lùi thì: is → was.",
+          "explanation_long": "Reported: stated (past) → is increasing → was increasing.",
+          "feedback_correct": "⚡ stated → is → was",
+          "feedback_wrong": "Reported verb in past → lùi thì.",
+          "ielts_tip": "stated/reported/claimed + was/were.",
+          "distractor_note": "obvious: is (direct speech)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "'We need more funding.' → They said they ___ more funding.",
+          "options": [
+            "needed",
+            "need",
+            "needs",
+            "needing"
+          ],
+          "correct_answer": "needed",
+          "correct_index": 0,
+          "explanation_short": "said → lùi thì: need → needed.",
+          "explanation_long": "Reported: said → need → needed. We → they.",
+          "feedback_correct": "🔥 said → need → needed",
+          "feedback_wrong": "said → V1 → V2.",
+          "ielts_tip": "Reported: Present Simple → Past Simple.",
+          "distractor_note": "obvious: need (direct speech)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "'The situation is getting worse.' → He said the situation ___ getting worse.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "be"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "explanation_short": "said → is → was.",
+          "explanation_long": "Reported: is getting → was getting.",
+          "feedback_correct": "⚡ said → is → was",
+          "feedback_wrong": "said → is → was.",
+          "ielts_tip": "Reported: Present Continuous → Past Continuous.",
+          "distractor_note": "obvious: is (direct speech)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_told_said",
+          "error_tag": "told_said_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "She ___ me that the project had been cancelled.",
+          "options": [
+            "told",
+            "said",
+            "tells",
+            "saying"
+          ],
+          "correct_answer": "told",
+          "correct_index": 0,
+          "explanation_short": "told + me (có tân ngữ). said không có tân ngữ.",
+          "explanation_long": "told + object (me/him/her). said + that (không object).",
+          "feedback_correct": "🔥 told + me. said + that.",
+          "feedback_wrong": "told + object. said + that.",
+          "ielts_tip": "told someone. said that.",
+          "distractor_note": "obvious: said (cần 'said to me' hoặc 'said that')"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'He said that he will attend the global summit next month.'",
+          "options": [
+            "Sai: will → would (reported speech lùi thì)",
+            "Câu đúng không có lỗi",
+            "Sai: attend → attending",
+            "Sai: global → globally"
+          ],
+          "correct_answer": "Sai: will → would (reported speech lùi thì)",
+          "correct_index": 0,
+          "explanation_short": "said → lùi thì: will → would.",
+          "explanation_long": "Reported: said + will → would.",
+          "feedback_correct": "🎯 Reported: will → would",
+          "feedback_wrong": "said → will → would.",
+          "ielts_tip": "Reported speech: lùi thì.",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The leader said that the crisis ___ urgent attention.",
+          "options": [
+            "required",
+            "requires",
+            "requiring",
+            "require"
+          ],
+          "correct_answer": "required",
+          "correct_index": 0,
+          "explanation_short": "said → lùi thì: requires → required.",
+          "explanation_long": "Reported: said → requires → required.",
+          "feedback_correct": "⚡ said → requires → required",
+          "feedback_wrong": "Reported: Present → Past.",
+          "ielts_tip": "said/stated/claimed → lùi thì.",
+          "distractor_note": "obvious: requires (direct speech)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The spokesperson announced that the organization ___ launching a new initiative.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "has"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "explanation_short": "announced → lùi thì: is → was.",
+          "explanation_long": "Reported: announced (past) → is launching → was launching.",
+          "feedback_correct": "🔥 announced → is → was",
+          "feedback_wrong": "announced → lùi thì.",
+          "ielts_tip": "Reported: Present Continuous → Past Continuous.",
+          "distractor_note": "plausible: is (direct speech)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "She claimed that the government ___ enough to address climate change.",
+          "options": [
+            "had not done",
+            "has not done",
+            "does not do",
+            "did not do"
+          ],
+          "correct_answer": "had not done",
+          "correct_index": 0,
+          "explanation_short": "claimed → lùi thì: has not done → had not done.",
+          "explanation_long": "Reported: claimed → Present Perfect → Past Perfect.",
+          "feedback_correct": "⚡ claimed → has not → had not done",
+          "feedback_wrong": "Reported: Present Perfect → Past Perfect.",
+          "ielts_tip": "claimed/stated → lùi thì.",
+          "distractor_note": "plausible: did not do (lùi từ does)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_question",
+          "error_tag": "reported_question_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "He asked me where the refugee camp ___.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "be"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "explanation_short": "asked → lùi thì: is → was. Câu hỏi gián tiếp.",
+          "explanation_long": "Reported question: asked + where + S + V (không đảo). is → was.",
+          "feedback_correct": "🔥 Reported question: asked where + S + was",
+          "feedback_wrong": "asked + Wh + S + V (word order bình thường).",
+          "ielts_tip": "Reported question: KHÔNG đảo S-V.",
+          "distractor_note": "plausible: is (direct speech)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_question",
+          "error_tag": "reported_question_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'She asked me where did the conference take place.'",
+          "options": [
+            "Sai: where did → where the conference took (không đảo trong reported)",
+            "Câu đúng không có lỗi",
+            "Sai: take → taking",
+            "Sai: place → places"
+          ],
+          "correct_answer": "Sai: where did → where the conference took (không đảo trong reported)",
+          "correct_index": 0,
+          "explanation_short": "Reported question: S + V (không đảo): where the conference took place.",
+          "explanation_long": "Reported question KHÔNG đảo: asked + Wh + S + V. Không dùng did/does/do.",
+          "feedback_correct": "🎯 Reported question: KHÔNG đảo",
+          "feedback_wrong": "Reported question: Wh + S + V.",
+          "ielts_tip": "Reported: asked where S + V (no inversion).",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_told_said",
+          "error_tag": "told_said_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The ambassador ___ that immediate action was needed to resolve the crisis.",
+          "options": [
+            "said",
+            "told",
+            "told to",
+            "says"
+          ],
+          "correct_answer": "said",
+          "correct_index": 0,
+          "explanation_short": "said + that (không tân ngữ). told + object + that.",
+          "explanation_long": "said + that clause (no object). told + someone + that clause.",
+          "feedback_correct": "⚡ said + that (không tân ngữ)",
+          "feedback_wrong": "said + that. told + someone + that.",
+          "ielts_tip": "said that / told someone that.",
+          "distractor_note": "plausible: told (cần object: told us/them)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The report stated that global poverty is declining, but inequality is rising.'",
+          "options": [
+            "Câu đúng — có thể giữ present khi sự thật vẫn đúng (reporting facts)",
+            "Sai: is → was",
+            "Sai: rising → risen",
+            "Sai: inequality → inequalities"
+          ],
+          "correct_answer": "Câu đúng — có thể giữ present khi sự thật vẫn đúng (reporting facts)",
+          "correct_index": 0,
+          "explanation_short": "Ngoại lệ: general truth/facts vẫn đúng → có thể giữ present.",
+          "explanation_long": "Khi reported fact vẫn đúng ở hiện tại → CÓ THỂ giữ present tense. Đây là ngoại lệ cho reported speech.",
+          "feedback_correct": "⚡ Facts vẫn đúng → có thể giữ present!",
+          "feedback_wrong": "General truth/ongoing fact → present OK trong reported.",
+          "ielts_tip": "Exception: facts still true → present OK.",
+          "distractor_note": "plausible: option B (is→was cũng đúng nhưng không bắt buộc)"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_imperative",
+          "error_tag": "reported_imperative_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "'Donate to the cause!' → She urged everyone ___ to the cause.",
+          "options": [
+            "to donate",
+            "donate",
+            "donating",
+            "donated"
+          ],
+          "correct_answer": "to donate",
+          "correct_index": 0,
+          "explanation_short": "Reported imperative: urged + object + to V.",
+          "explanation_long": "Reported imperative: V (command) → to V. urged everyone to donate.",
+          "feedback_correct": "🔥 Reported imperative: to + V",
+          "feedback_wrong": "urged/told/asked + object + to V.",
+          "ielts_tip": "Imperative → to V: urged/told/asked to V.",
+          "distractor_note": "plausible: donate (bare infinitive, sai)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_pronoun",
+          "error_tag": "pronoun_shift_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'I said that I can solve the problem by yourself.'",
+          "options": [
+            "Sai: yourself → myself (pronoun phải nhất quán với I)",
+            "Câu đúng không có lỗi",
+            "Sai: can → could",
+            "Sai: solve → solving"
+          ],
+          "correct_answer": "Sai: yourself → myself (pronoun phải nhất quán với I)",
+          "correct_index": 0,
+          "explanation_short": "I → myself (không yourself). Pronoun phải nhất quán.",
+          "explanation_long": "I → myself. You → yourself. Phải nhất quán ngôi.",
+          "feedback_correct": "🎯 I → myself (không yourself)",
+          "feedback_wrong": "Pronoun nhất quán: I→myself, you→yourself.",
+          "ielts_tip": "Pronoun shift phải nhất quán.",
+          "distractor_note": "plausible: option C (can→could cũng có thể cần sửa)"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The expert warned that if emissions ___ reduced, temperatures would rise sharply.",
+          "options": [
+            "were not",
+            "are not",
+            "is not",
+            "will not be"
+          ],
+          "correct_answer": "were not",
+          "correct_index": 0,
+          "explanation_short": "warned → lùi thì: are not → were not.",
+          "explanation_long": "Reported: warned → are not → were not. Conditional trong reported speech.",
+          "feedback_correct": "⚡ warned → are not → were not",
+          "feedback_wrong": "Reported conditional: are → were.",
+          "ielts_tip": "Reported: If + Present → If + Past.",
+          "distractor_note": "plausible: are not (direct speech)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The president declared that the country ___ take a leading role in climate negotiations.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "should"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "declared → will → would.",
+          "explanation_long": "Reported: declared → will → would.",
+          "feedback_correct": "🔥 declared → will → would",
+          "feedback_wrong": "Reported: will → would.",
+          "ielts_tip": "declared/announced/stated → lùi thì.",
+          "distractor_note": "plausible: will (direct speech)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "reported_tense_shift",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The minister stated that the government will implement new policies to combat poverty and that they are committed to change.'",
+          "options": [
+            "The minister stated that",
+            "the government will implement new policies",
+            "to combat poverty and that",
+            "they are committed to change"
+          ],
+          "correct_answer": "the government will implement new policies",
+          "correct_index": 1,
+          "explanation_short": "stated → will → would. are → were.",
+          "explanation_long": "Lớp 1: 'stated' (past) → 'will implement' → 'would implement'. Lớp 2: 'are committed' → 'were committed'. Cả B và D sai, B trước.",
+          "feedback_correct": "🔥 stated → would implement (không will)!",
+          "feedback_wrong": "stated → lùi thì: will → would, are → were.",
+          "ielts_tip": "Reported: stated → lùi tất cả thì.",
+          "distractor_note": "near-correct: option D (are→were) cũng cần sửa",
+          "layers": [
+            "tense backshift",
+            "double error",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_speech",
+          "error_tag": "reported_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu reported speech CHUẨN NHẤT:\nDirect: 'We have made significant progress in reducing poverty,' the UN Secretary said.",
+          "options": [
+            "The UN Secretary said that they have made significant progress in reducing poverty.",
+            "The UN Secretary said that they had made significant progress in reducing poverty.",
+            "The UN Secretary said that we have made significant progress.",
+            "The UN Secretary said that they has made significant progress."
+          ],
+          "correct_answer": "The UN Secretary said that they had made significant progress in reducing poverty.",
+          "correct_index": 1,
+          "explanation_short": "said → have made → had made. we → they.",
+          "explanation_long": "Lớp 1: 'have made' → 'had made' (Present Perfect → Past Perfect). Lớp 2: 'we' → 'they'. Lớp 3: Option A không lùi thì. Option C không đổi pronoun.",
+          "feedback_correct": "🏆 have made → had made + we → they = chuẩn!",
+          "feedback_wrong": "Reported: have V3 → had V3. we → they.",
+          "ielts_tip": "Present Perfect → Past Perfect trong reported.",
+          "distractor_note": "near-correct: option A giữ present perfect (informal OK nhưng kém chuẩn)",
+          "layers": [
+            "tense backshift",
+            "pronoun shift",
+            "academic reporting"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "reported_question",
+          "error_tag": "reported_question_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The journalist asked why did the government fail to address the humanitarian crisis in time.'",
+          "options": [
+            "The journalist asked",
+            "why did the government fail",
+            "to address the humanitarian crisis",
+            "in time"
+          ],
+          "correct_answer": "why did the government fail",
+          "correct_index": 1,
+          "explanation_short": "Reported question: KHÔNG đảo. asked why the government had failed.",
+          "explanation_long": "Lớp 1: Reported question → word order bình thường: asked why the government HAD FAILED (không did...fail). Lớp 2: Lùi thì: fail → had failed.",
+          "feedback_correct": "🔥 Reported question: KHÔNG đảo + lùi thì!",
+          "feedback_wrong": "Reported Q: Wh + S + V (no inversion). + lùi thì.",
+          "ielts_tip": "asked + Wh + S + had V3.",
+          "distractor_note": "near-correct: option C/D trông đúng",
+          "layers": [
+            "reported question",
+            "no inversion",
+            "tense backshift"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_speech",
+          "error_tag": "reported_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu reported speech CHUẨN NHẤT:\nDirect: 'You must act now!' the activist told the crowd.",
+          "options": [
+            "The activist told the crowd that they must act immediately.",
+            "The activist told the crowd that they had to act immediately.",
+            "The activist urged the crowd to act immediately.",
+            "The activist told the crowd they must to act immediately."
+          ],
+          "correct_answer": "The activist urged the crowd to act immediately.",
+          "correct_index": 2,
+          "explanation_short": "urged + to V = reported imperative chuẩn formal.",
+          "explanation_long": "Lớp 1: 'urged the crowd to act' = reported imperative chuẩn. Lớp 2: Option B (had to) cũng đúng nhưng kém powerful. Option D 'must to' = sai.",
+          "feedback_correct": "🏆 urged + to V = reported imperative chuẩn!",
+          "feedback_wrong": "urged/told + object + to V = reported imperative.",
+          "ielts_tip": "Imperative → urged/told + to V.",
+          "distractor_note": "near-correct: option B (had to) cũng acceptable",
+          "layers": [
+            "reported imperative",
+            "urged + to V",
+            "formal register"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "reported_speech",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'The expert ___ [A] that poverty ___ [B] a major threat and that immediate action ___ [C] necessary.'",
+          "options": [
+            "[A] said / [B] was / [C] was",
+            "[A] told / [B] was / [C] was",
+            "[A] said / [B] is / [C] was",
+            "[A] told / [B] is / [C] was"
+          ],
+          "correct_answer": "[A] said / [B] was / [C] was",
+          "correct_index": 0,
+          "explanation_short": "said + that (no object). was + was (nhất quán lùi thì).",
+          "explanation_long": "Lớp 1: 'said + that' (no object) → đúng. Lớp 2: 'was' + 'was' = nhất quán lùi thì. Lớp 3: Option B 'told' cần object (told someone).",
+          "feedback_correct": "🏆 said + was + was = nhất quán chuẩn!",
+          "feedback_wrong": "said + that. Nhất quán lùi thì.",
+          "ielts_tip": "said (no object) vs told (+ object).",
+          "distractor_note": "near-correct: option B (told) cần object",
+          "layers": [
+            "said vs told",
+            "tense consistency",
+            "reported speech"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "reported_speech",
+          "error_tag": "tense_shift_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The researcher reported that the findings shows a clear link between poverty and lack of education, which has been documented extensively.'",
+          "options": [
+            "The researcher reported that",
+            "the findings shows a clear link",
+            "between poverty and lack of education",
+            "which has been documented extensively"
+          ],
+          "correct_answer": "the findings shows a clear link",
+          "correct_index": 1,
+          "explanation_short": "findings (plural) → show (không shows). + shows → showed (lùi thì).",
+          "explanation_long": "Lớp 1: 'findings' = plural → 'show' (không 'shows'). Lớp 2: reported → lùi thì: show → showed. Lớp 3: 'has been' cũng nên lùi thành 'had been'.",
+          "feedback_correct": "🔥 findings (plural) → showed (lùi thì + plural)!",
+          "feedback_wrong": "Plural → show. Reported → showed.",
+          "ielts_tip": "Subject-verb agreement + tense backshift.",
+          "distractor_note": "near-correct: option D (has→had) cũng cần sửa",
+          "layers": [
+            "subject-verb agreement",
+            "tense backshift",
+            "double error"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_speech",
+          "error_tag": "reported_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "According to the WHO report",
+            " infectious diseases remain a significant threat in developing nations",
+            " where healthcare infrastructure is inadequate.",
+            "The WHO report said that infectious diseases remains a significant threat.",
+            "The WHO reported that infectious diseases are remaining a threat.",
+            "According to the report",
+            " diseases remains a threat to developing nations."
+          ],
+          "correct_answer": "According to the WHO report, infectious diseases remain a significant threat in developing nations, where healthcare infrastructure is inadequate.",
+          "correct_index": 0,
+          "explanation_short": "According to = present fact. remain (plural) = đúng.",
+          "explanation_long": "Lớp 1: 'According to' = reporting phrase → có thể giữ present (facts). Lớp 2: 'remain' (plural agree). Lớp 3: 'where' = relative clause cho place. Lớp 4: Option B 'remains' = sai (plural). Option C 'are remaining' = unnecessary continuous.",
+          "feedback_correct": "🏆 According to + present facts = academic chuẩn!",
+          "feedback_wrong": "According to + present tense for ongoing facts.",
+          "ielts_tip": "According to report/study + present = facts.",
+          "distractor_note": "near-correct: option B (remains) sai plural agreement",
+          "layers": [
+            "According to",
+            "present for facts",
+            "academic reporting"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "reported_speech",
+          "error_tag": "reported_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The ambassador told that his country would support the resolution and that they had already begun preparations.'",
+          "options": [
+            "The ambassador told that",
+            "his country would support the resolution",
+            "and that they had already",
+            "begun preparations"
+          ],
+          "correct_answer": "The ambassador told that",
+          "correct_index": 0,
+          "explanation_short": "told cần object: told US/THEM that (không told that).",
+          "explanation_long": "Lớp 1: 'told that' → 'told us/them that' hoặc 'said that' (told cần object). Lớp 2: 'would support' + 'had begun' = đúng tense backshift.",
+          "feedback_correct": "🔥 told + object: told us/them that!",
+          "feedback_wrong": "told + object + that. said + that (no object).",
+          "ielts_tip": "told someone / said that.",
+          "distractor_note": "near-correct: option B/C/D đều đúng",
+          "layers": [
+            "told vs said",
+            "object requirement",
+            "common error"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "reported_speech",
+          "error_tag": "reported_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 2: 'Kể lại lời khuyên ai đó đã cho bạn.' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "My teacher said me that I should study harder for the IELTS exam.",
+            "My teacher told me that I should focus more on my writing skills and practice regularly.",
+            "My teacher told that I should study harder.",
+            "My teacher said to me I should to study."
+          ],
+          "correct_answer": "My teacher told me that I should focus more on my writing skills and practice regularly.",
+          "correct_index": 1,
+          "explanation_short": "told me + that + should = reported advice chuẩn.",
+          "explanation_long": "Lớp 1: 'told me that I should' = reported advice chuẩn. Lớp 2: 'focus more on... and practice regularly' = chi tiết, tự nhiên. Lớp 3: Option A 'said me' = sai (said to me). Option C 'told that' thiếu object.",
+          "feedback_correct": "🏆 told me that + should = chuẩn!",
+          "feedback_wrong": "told me + that + should/could.",
+          "ielts_tip": "Speaking: told me that I should = reported advice.",
+          "distractor_note": "near-correct: option A (said me) sai cấu trúc",
+          "layers": [
+            "told vs said",
+            "reported advice",
+            "Speaking Part 2"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "reported_speech",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'The UN [A] told that poverty is declining, experts [B] said that they has made progress, and leaders [C] claimed that the world will achieve the SDGs by 2030.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [C] có lỗi — [B] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] told that → told us that / said that. [B] has → had (lùi thì + plural). [C] will → would (lùi thì).",
+          "explanation_long": "Lớp 1: [A] 'told that' → 'told us that' hoặc 'said that' (told cần object). Lớp 2: [B] 'they has' → 'they had' (plural: have→had, không has). Lớp 3: [C] 'claimed + will' → 'claimed + would' (lùi thì).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] said that / told us that | [B] they had made | [C] would achieve!",
+          "feedback_wrong": "[A] told + object. [B] they had (plural + lùi). [C] would (lùi will).",
+          "ielts_tip": "Reported: told + object. Subject-verb agreement. Tense backshift.",
+          "distractor_note": "near-correct: option B bỏ sót [B].",
+          "layers": [
+            "told vs said",
+            "subject-verb agreement",
+            "tense backshift"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "efc525c1-6db6-4dee-9a68-3fc374eeaa79",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-15-reported-speech",
+      "metadata_ref": "unit-15-reported-speech.metadata",
+      "generation_profile_ref": "gp_unit15_reported_speech",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "6.0–6.5",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "She said that she ___ tired of inequality.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "am"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ said → lùi thì: was",
+          "feedback_wrong": "said → is → was.",
+          "explanation_short": "said → lùi thì: is → was.",
+          "ielts_tip": "Reported: said + lùi thì.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "He told me that he ___ help the community project.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "does"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 told → will → would",
+          "feedback_wrong": "told → will → would.",
+          "explanation_short": "told → lùi thì: will → would.",
+          "ielts_tip": "Reported: will → would.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "They said they ___ already donated to the charity.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "did"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ said → have → had",
+          "feedback_wrong": "said → have → had.",
+          "explanation_short": "said → lùi thì: have → had.",
+          "ielts_tip": "Reported: Present Perfect → Past Perfect.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "Direct: 'I will fight for justice.' → She said she ___ fight for justice.",
+          "options": [
+            "would",
+            "will",
+            "could",
+            "can"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 I → she, will → would",
+          "feedback_wrong": "Reported: pronoun + tense shift.",
+          "explanation_short": "said → will → would. I → she.",
+          "ielts_tip": "Pronoun: I→he/she. Tense: will→would.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "The report stated that poverty ___ increasing worldwide.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "are"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ stated → is → was",
+          "feedback_wrong": "Reported verb in past → lùi thì.",
+          "explanation_short": "stated → lùi thì: is → was.",
+          "ielts_tip": "stated/reported/claimed + was/were.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "'We need more funding.' → They said they ___ more funding.",
+          "options": [
+            "needed",
+            "need",
+            "needs",
+            "needing"
+          ],
+          "correct_answer": "needed",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 said → need → needed",
+          "feedback_wrong": "said → V1 → V2.",
+          "explanation_short": "said → lùi thì: need → needed.",
+          "ielts_tip": "Reported: Present Simple → Past Simple.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "'The situation is getting worse.' → He said the situation ___ getting worse.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "be"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ said → is → was",
+          "feedback_wrong": "said → is → was.",
+          "explanation_short": "said → is → was.",
+          "ielts_tip": "Reported: Present Continuous → Past Continuous.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "She ___ me that the project had been cancelled.",
+          "options": [
+            "told",
+            "said",
+            "tells",
+            "saying"
+          ],
+          "correct_answer": "told",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 told + me. said + that.",
+          "feedback_wrong": "told + object. said + that.",
+          "explanation_short": "told + me (có tân ngữ). said không có tân ngữ.",
+          "ielts_tip": "told someone. said that.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'He said that he will attend the global summit next month.'",
+          "options": [
+            "Sai: will → would (reported speech lùi thì)",
+            "Câu đúng không có lỗi",
+            "Sai: attend → attending",
+            "Sai: global → globally"
+          ],
+          "correct_answer": "Sai: will → would (reported speech lùi thì)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Reported: will → would",
+          "feedback_wrong": "said → will → would.",
+          "explanation_short": "said → lùi thì: will → would.",
+          "ielts_tip": "Reported speech: lùi thì.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "The leader said that the crisis ___ urgent attention.",
+          "options": [
+            "required",
+            "requires",
+            "requiring",
+            "require"
+          ],
+          "correct_answer": "required",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ said → requires → required",
+          "feedback_wrong": "Reported: Present → Past.",
+          "explanation_short": "said → lùi thì: requires → required.",
+          "ielts_tip": "said/stated/claimed → lùi thì.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "6b1bcb0f-cffd-4f19-9712-d67528279228",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-15-reported-speech",
+      "metadata_ref": "unit-15-reported-speech.metadata",
+      "generation_profile_ref": "gp_unit15_reported_speech",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "6.5–6.5",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "The spokesperson announced that the organization ___ launching a new initiative.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "has"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 announced → is → was",
+          "feedback_wrong": "announced → lùi thì.",
+          "explanation_short": "announced → lùi thì: is → was.",
+          "ielts_tip": "Reported: Present Continuous → Past Continuous.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "She claimed that the government ___ enough to address climate change.",
+          "options": [
+            "had not done",
+            "has not done",
+            "does not do",
+            "did not do"
+          ],
+          "correct_answer": "had not done",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ claimed → has not → had not done",
+          "feedback_wrong": "Reported: Present Perfect → Past Perfect.",
+          "explanation_short": "claimed → lùi thì: has not done → had not done.",
+          "ielts_tip": "claimed/stated → lùi thì.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "He asked me where the refugee camp ___.",
+          "options": [
+            "was",
+            "is",
+            "were",
+            "be"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Reported question: asked where + S + was",
+          "feedback_wrong": "asked + Wh + S + V (word order bình thường).",
+          "explanation_short": "asked → lùi thì: is → was. Câu hỏi gián tiếp.",
+          "ielts_tip": "Reported question: KHÔNG đảo S-V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'She asked me where did the conference take place.'",
+          "options": [
+            "Sai: where did → where the conference took (không đảo trong reported)",
+            "Câu đúng không có lỗi",
+            "Sai: take → taking",
+            "Sai: place → places"
+          ],
+          "correct_answer": "Sai: where did → where the conference took (không đảo trong reported)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Reported question: KHÔNG đảo",
+          "feedback_wrong": "Reported question: Wh + S + V.",
+          "explanation_short": "Reported question: S + V (không đảo): where the conference took place.",
+          "ielts_tip": "Reported: asked where S + V (no inversion).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "The ambassador ___ that immediate action was needed to resolve the crisis.",
+          "options": [
+            "said",
+            "told",
+            "told to",
+            "says"
+          ],
+          "correct_answer": "said",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ said + that (không tân ngữ)",
+          "feedback_wrong": "said + that. told + someone + that.",
+          "explanation_short": "said + that (không tân ngữ). told + object + that.",
+          "ielts_tip": "said that / told someone that.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'The report stated that global poverty is declining, but inequality is rising.'",
+          "options": [
+            "Câu đúng — có thể giữ present khi sự thật vẫn đúng (reporting facts)",
+            "Sai: is → was",
+            "Sai: rising → risen",
+            "Sai: inequality → inequalities"
+          ],
+          "correct_answer": "Câu đúng — có thể giữ present khi sự thật vẫn đúng (reporting facts)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Facts vẫn đúng → có thể giữ present!",
+          "feedback_wrong": "General truth/ongoing fact → present OK trong reported.",
+          "explanation_short": "Ngoại lệ: general truth/facts vẫn đúng → có thể giữ present.",
+          "ielts_tip": "Exception: facts still true → present OK.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "'Donate to the cause!' → She urged everyone ___ to the cause.",
+          "options": [
+            "to donate",
+            "donate",
+            "donating",
+            "donated"
+          ],
+          "correct_answer": "to donate",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Reported imperative: to + V",
+          "feedback_wrong": "urged/told/asked + object + to V.",
+          "explanation_short": "Reported imperative: urged + object + to V.",
+          "ielts_tip": "Imperative → to V: urged/told/asked to V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'I said that I can solve the problem by yourself.'",
+          "options": [
+            "Sai: yourself → myself (pronoun phải nhất quán với I)",
+            "Câu đúng không có lỗi",
+            "Sai: can → could",
+            "Sai: solve → solving"
+          ],
+          "correct_answer": "Sai: yourself → myself (pronoun phải nhất quán với I)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 I → myself (không yourself)",
+          "feedback_wrong": "Pronoun nhất quán: I→myself, you→yourself.",
+          "explanation_short": "I → myself (không yourself). Pronoun phải nhất quán.",
+          "ielts_tip": "Pronoun shift phải nhất quán.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "The expert warned that if emissions ___ reduced, temperatures would rise sharply.",
+          "options": [
+            "were not",
+            "are not",
+            "is not",
+            "will not be"
+          ],
+          "correct_answer": "were not",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ warned → are not → were not",
+          "feedback_wrong": "Reported conditional: are → were.",
+          "explanation_short": "warned → lùi thì: are not → were not.",
+          "ielts_tip": "Reported: If + Present → If + Past.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "The president declared that the country ___ take a leading role in climate negotiations.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "should"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 declared → will → would",
+          "feedback_wrong": "Reported: will → would.",
+          "explanation_short": "declared → will → would.",
+          "ielts_tip": "declared/announced/stated → lùi thì.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "6dc1e9b7-1fd3-4d61-93de-219367890365",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-15-reported-speech",
+      "metadata_ref": "unit-15-reported-speech.metadata",
+      "generation_profile_ref": "gp_unit15_reported_speech",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The minister stated that the government will implement new policies to combat poverty and that they are committed to change.'",
+          "options": [
+            "The minister stated that",
+            "the government will implement new policies",
+            "to combat poverty and that",
+            "they are committed to change"
+          ],
+          "correct_answer": "the government will implement new policies",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 stated → would implement (không will)!",
+          "feedback_wrong": "stated → lùi thì: will → would, are → were.",
+          "explanation_short": "stated → will → would. are → were.",
+          "ielts_tip": "Reported: stated → lùi tất cả thì.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu reported speech CHUẨN NHẤT:\nDirect: 'We have made significant progress in reducing poverty,' the UN Secretary said.",
+          "options": [
+            "The UN Secretary said that they have made significant progress in reducing poverty.",
+            "The UN Secretary said that they had made significant progress in reducing poverty.",
+            "The UN Secretary said that we have made significant progress.",
+            "The UN Secretary said that they has made significant progress."
+          ],
+          "correct_answer": "The UN Secretary said that they had made significant progress in reducing poverty.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 have made → had made + we → they = chuẩn!",
+          "feedback_wrong": "Reported: have V3 → had V3. we → they.",
+          "explanation_short": "said → have made → had made. we → they.",
+          "ielts_tip": "Present Perfect → Past Perfect trong reported.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The journalist asked why did the government fail to address the humanitarian crisis in time.'",
+          "options": [
+            "The journalist asked",
+            "why did the government fail",
+            "to address the humanitarian crisis",
+            "in time"
+          ],
+          "correct_answer": "why did the government fail",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Reported question: KHÔNG đảo + lùi thì!",
+          "feedback_wrong": "Reported Q: Wh + S + V (no inversion). + lùi thì.",
+          "explanation_short": "Reported question: KHÔNG đảo. asked why the government had failed.",
+          "ielts_tip": "asked + Wh + S + had V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu reported speech CHUẨN NHẤT:\nDirect: 'You must act now!' the activist told the crowd.",
+          "options": [
+            "The activist told the crowd that they must act immediately.",
+            "The activist told the crowd that they had to act immediately.",
+            "The activist urged the crowd to act immediately.",
+            "The activist told the crowd they must to act immediately."
+          ],
+          "correct_answer": "The activist urged the crowd to act immediately.",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 urged + to V = reported imperative chuẩn!",
+          "feedback_wrong": "urged/told + object + to V = reported imperative.",
+          "explanation_short": "urged + to V = reported imperative chuẩn formal.",
+          "ielts_tip": "Imperative → urged/told + to V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'The expert ___ [A] that poverty ___ [B] a major threat and that immediate action ___ [C] necessary.'",
+          "options": [
+            "[A] said / [B] was / [C] was",
+            "[A] told / [B] was / [C] was",
+            "[A] said / [B] is / [C] was",
+            "[A] told / [B] is / [C] was"
+          ],
+          "correct_answer": "[A] said / [B] was / [C] was",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 said + was + was = nhất quán chuẩn!",
+          "feedback_wrong": "said + that. Nhất quán lùi thì.",
+          "explanation_short": "said + that (no object). was + was (nhất quán lùi thì).",
+          "ielts_tip": "said (no object) vs told (+ object).",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The researcher reported that the findings shows a clear link between poverty and lack of education, which has been documented extensively.'",
+          "options": [
+            "The researcher reported that",
+            "the findings shows a clear link",
+            "between poverty and lack of education",
+            "which has been documented extensively"
+          ],
+          "correct_answer": "the findings shows a clear link",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 findings (plural) → showed (lùi thì + plural)!",
+          "feedback_wrong": "Plural → show. Reported → showed.",
+          "explanation_short": "findings (plural) → show (không shows). + shows → showed (lùi thì).",
+          "ielts_tip": "Subject-verb agreement + tense backshift.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "According to the WHO report",
+            " infectious diseases remain a significant threat in developing nations",
+            " where healthcare infrastructure is inadequate.",
+            "The WHO report said that infectious diseases remains a significant threat.",
+            "The WHO reported that infectious diseases are remaining a threat.",
+            "According to the report",
+            " diseases remains a threat to developing nations."
+          ],
+          "correct_answer": "According to the WHO report, infectious diseases remain a significant threat in developing nations, where healthcare infrastructure is inadequate.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 According to + present facts = academic chuẩn!",
+          "feedback_wrong": "According to + present tense for ongoing facts.",
+          "explanation_short": "According to = present fact. remain (plural) = đúng.",
+          "ielts_tip": "According to report/study + present = facts.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The ambassador told that his country would support the resolution and that they had already begun preparations.'",
+          "options": [
+            "The ambassador told that",
+            "his country would support the resolution",
+            "and that they had already",
+            "begun preparations"
+          ],
+          "correct_answer": "The ambassador told that",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 told + object: told us/them that!",
+          "feedback_wrong": "told + object + that. said + that (no object).",
+          "explanation_short": "told cần object: told US/THEM that (không told that).",
+          "ielts_tip": "told someone / said that.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Speaking Part 2: 'Kể lại lời khuyên ai đó đã cho bạn.' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "My teacher said me that I should study harder for the IELTS exam.",
+            "My teacher told me that I should focus more on my writing skills and practice regularly.",
+            "My teacher told that I should study harder.",
+            "My teacher said to me I should to study."
+          ],
+          "correct_answer": "My teacher told me that I should focus more on my writing skills and practice regularly.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 told me that + should = chuẩn!",
+          "feedback_wrong": "told me + that + should/could.",
+          "explanation_short": "told me + that + should = reported advice chuẩn.",
+          "ielts_tip": "Speaking: told me that I should = reported advice.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'The UN [A] told that poverty is declining, experts [B] said that they has made progress, and leaders [C] claimed that the world will achieve the SDGs by 2030.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [C] có lỗi — [B] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] said that / told us that | [B] they had made | [C] would achieve!",
+          "feedback_wrong": "[A] told + object. [B] they had (plural + lùi). [C] would (lùi will).",
+          "explanation_short": "[A] told that → told us that / said that. [B] has → had (lùi thì + plural). [C] will → would (lùi thì).",
+          "ielts_tip": "Reported: told + object. Subject-verb agreement. Tense backshift.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

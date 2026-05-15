@@ -1,0 +1,3331 @@
+[
+  {
+    "id": "spt-fill-env-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past environmental event"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The government [________] a new clean energy policy last year."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "introduced",
+        "launched",
+        "announced"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "introduce",
+        "introduces",
+        "has introduced",
+        "was introduce"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Điểm đánh dấu thời gian 'last year' cho bạn biết điều này đã xảy ra trong quá khứ — không phải bây giờ.",
+      "hintLevel2": "Đối với các động từ có quy tắc trong Simple Past, hãy thêm -ed hoặc -d vào dạng cơ bản bất kể chủ ngữ.",
+      "hintLevel3": "Cấu trúc: The government + introduced / launched / announced."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Simple Past để mô tả một hành động đã hoàn thành của chính phủ trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả một sự kiện trong quá khứ liên quan đến môi trường.",
+      "bandTip": "Các động từ như 'introduced', 'implemented' và 'enacted' nghe có vẻ học thuật hơn 'made' hoặc 'did' trong bối cảnh trang trọng.",
+      "commonMistake": "Không sử dụng 'has introduced' (Present Perfect) khi một điểm đánh dấu thời gian trong quá khứ cụ thể như 'last year' được đưa ra - Simple Past là bắt buộc."
+    },
+    "reusablePattern": "The government introduced a new clean energy policy last year."
+  },
+  {
+    "id": "spt-fill-env-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what people failed to do about the environment in the past"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Many industries [________] not reduce their carbon emissions despite international pressure."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "did",
+        "Did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "does",
+        "do",
+        "was",
+        "were",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu này ở dạng phủ định và đề cập đến quá khứ - động từ phụ nào tạo nên quá khứ phủ định?",
+      "hintLevel2": "'Did not' được sử dụng với tất cả các chủ ngữ (số ít và số nhiều) để tạo thành thể phủ định Simple Past.",
+      "hintLevel3": "Cấu trúc: Many industries + did + not + reduce."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'did not' để tạo thành phủ định Simple Past, giữ 'reduce' ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những gì tổ chức hoặc chính phủ đã không làm về các vấn đề môi trường trong quá khứ.",
+      "bandTip": "Trong bối cảnh trang trọng, hãy luôn viết 'did not' thay vì 'didn't' để duy trì sổ đăng ký học tập.",
+      "commonMistake": "Không sử dụng 'does not' hoặc 'do not' cho các phủ định trong quá khứ - luôn sử dụng 'did not' + dạng cơ bản của động từ."
+    },
+    "reusablePattern": "Many industries did not reduce their carbon emissions despite international pressure."
+  },
+  {
+    "id": "spt-fill-env-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about a past environmental experience"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] your country sign the international climate agreement two years ago?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Did",
+        "did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Does",
+        "Do",
+        "Was",
+        "Were",
+        "Has"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past question, all subjects",
+      "pattern": "Did + subject + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu hỏi đề cập đến điều gì đó đã xảy ra 'two years ago' - trợ động từ nào tạo thành câu hỏi có/không trong quá khứ?",
+      "hintLevel2": "Đối với câu hỏi Simple Past có/không, hãy sử dụng 'Did' ngay từ đầu bất kể chủ đề.",
+      "hintLevel3": "Cấu trúc: Did + your country + sign...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Did' để tạo thành câu hỏi Simple Past, giữ 'sign' ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về một sự kiện cụ thể trong quá khứ liên quan đến chính sách môi trường.",
+      "bandTip": "Khi trả lời câu hỏi 'Did…?' trong bài thi Nói IELTS, hãy đưa ra câu trả lời đầy đủ kèm theo lý do hoặc chi tiết.",
+      "commonMistake": "Không sử dụng 'signed' sau 'Did' - động từ chính luôn ở dạng cơ bản trong câu hỏi 'Did'."
+    },
+    "reusablePattern": "Did your country sign the international climate agreement two years ago?"
+  },
+  {
+    "id": "spt-fill-env-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing a past environmental trend shown in a graph"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Carbon dioxide levels [________] sharply between 1990 and 2010."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "rose",
+        "increased",
+        "climbed",
+        "grew"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "rise",
+        "rises",
+        "rised",
+        "has risen",
+        "raised"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past form of irregular verb",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Phạm vi thời gian '1990 and 2010' hoàn toàn là trong quá khứ — dạng 'rise' nào được sử dụng trong Simple Past?",
+      "hintLevel2": "'Rise' là một động từ bất quy tắc - dạng Simple Past của nó là 'rose', không phải 'rised'.",
+      "hintLevel3": "Cấu trúc: Carbon dioxide levels + rose / increased / climbed + sharply."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng dạng Simple Past không đều để mô tả một xu hướng đã hoàn thành trong một khoảng thời gian xác định trước đó.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả chuyển động của dữ liệu trong một khoảng thời gian cụ thể trong quá khứ trong biểu đồ đường.",
+      "bandTip": "Việc sử dụng nhiều động từ xu hướng — 'rose', 'climbed', 'surged' — cho thấy sự đa dạng về từ vựng được khen thưởng trong cách viết Task 1.",
+      "commonMistake": "Đừng viết 'rised' - 'rise' là không đều; dạng Simple Past của nó là 'rose', không phải 'rised'."
+    },
+    "reusablePattern": "Carbon dioxide levels rose sharply between 1990 and 2010."
+  },
+  {
+    "id": "spt-fill-tech-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past experience with technology"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The company [________] its first artificial intelligence product in 2018."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "launched",
+        "released",
+        "introduced",
+        "unveiled"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "launch",
+        "launches",
+        "has launched",
+        "is launching"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Năm '2018' cho bạn biết điều này đã xảy ra trong quá khứ - bạn cần thì nào?",
+      "hintLevel2": "Thêm -ed hoặc -d vào động từ thông thường trong Simple Past cho tất cả các chủ ngữ.",
+      "hintLevel3": "Cấu trúc: The company + launched / released / introduced."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Simple Past để mô tả một hành động đã hoàn thành của công ty tại một thời điểm cụ thể trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả sự phát triển công nghệ trong quá khứ.",
+      "bandTip": "Sử dụng 'unveiled' hoặc 'released' thay vì 'made' hoặc 'put out' thể hiện vốn từ vựng mạnh hơn cho IELTS.",
+      "commonMistake": "Không sử dụng 'has launched' (Present Perfect) khi đưa ra một năm cụ thể - bắt buộc phải có Simple Past."
+    },
+    "reusablePattern": "The company launched its first artificial intelligence product in 2018."
+  },
+  {
+    "id": "spt-fill-tech-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what early internet users failed to anticipate"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Early internet users [________] not foresee the risks of sharing personal data online."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "did",
+        "Did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "do",
+        "does",
+        "was",
+        "were",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu này ở dạng phủ định và nói về quá khứ - trợ động từ nào tạo thành phủ định quá khứ?",
+      "hintLevel2": "Sử dụng 'did not' với tất cả các chủ ngữ để tạo thành câu phủ định Simple Past.",
+      "hintLevel3": "Cấu trúc: Early internet users + did + not + foresee."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'did not' và giữ nguyên động từ bất quy tắc 'foresee' ở dạng cơ bản.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những hạn chế trong quá khứ trong hiểu biết của mọi người về rủi ro công nghệ.",
+      "bandTip": "Sau 'did not', động từ vẫn ở dạng cơ bản - ngay cả các động từ bất quy tắc như 'foresee', 'know' hoặc 'understand'.",
+      "commonMistake": "Không viết 'did not foresaw' - sau 'did not', luôn sử dụng dạng cơ sở, không bao giờ sử dụng dạng quá khứ."
+    },
+    "reusablePattern": "Early internet users did not foresee the risks of sharing personal data online."
+  },
+  {
+    "id": "spt-fill-tech-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about a past technology experience"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] social media platforms exist when your parents were young?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Did",
+        "did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Do",
+        "Does",
+        "Were",
+        "Was",
+        "Have"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past question, plural subject",
+      "pattern": "Did + subject + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu hỏi đề cập đến 'when your parents were young' - một thời gian xác định trong quá khứ.",
+      "hintLevel2": "Đối với câu hỏi Simple Past có/không, hãy sử dụng 'Did' trước chủ ngữ cho tất cả mọi người.",
+      "hintLevel3": "Cấu trúc: Did + social media platforms + exist...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Did' để tạo thành câu hỏi Simple Past, với 'exist' còn lại ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về sự khác biệt giữa các thế hệ trong việc sử dụng công nghệ.",
+      "bandTip": "Trả lời các câu hỏi 'Did…?' bằng 'No, they did not exist at that time, which means…' nghe có vẻ phát triển và tự nhiên hơn.",
+      "commonMistake": "Không sử dụng 'existed' sau 'Did' - động từ chính luôn ở dạng cơ bản sau 'Did'."
+    },
+    "reusablePattern": "Did social media platforms exist when your parents were young?"
+  },
+  {
+    "id": "spt-fill-tech-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing past data trends in internet usage"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The number of internet users worldwide [________] dramatically between 2000 and 2020."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "grew",
+        "increased",
+        "rose",
+        "surged",
+        "expanded"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "grow",
+        "growed",
+        "has grown",
+        "is growing",
+        "grows"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past form of irregular verb",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Phạm vi thời gian '2000 and 2020' đã hoàn thành trong quá khứ - dạng 'grow' nào là đúng?",
+      "hintLevel2": "'Grow' là không đều - dạng Simple Past của nó là 'grew', không phải 'growed'.",
+      "hintLevel3": "Cấu trúc: The number of internet users + grew / increased / rose + dramatically."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng động từ Simple Past bất quy tắc hoặc thông thường để mô tả một xu hướng trong một khoảng thời gian trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi tóm tắt xu hướng dữ liệu trong một khoảng thời gian cụ thể trước đây.",
+      "bandTip": "Trong Task 1, việc sử dụng các động từ xu hướng khác nhau — 'surged', 'expanded', 'climbed' — thể hiện phạm vi từ vựng mạnh hơn.",
+      "commonMistake": "Đừng viết 'growed' - 'grow' là không đều; dạng Simple Past của nó là 'grew'."
+    },
+    "reusablePattern": "The number of internet users worldwide grew dramatically between 2000 and 2020."
+  },
+  {
+    "id": "spt-fill-edu-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past educational experience"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The university [________] its curriculum to include more practical skills five years ago."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "reformed",
+        "revised",
+        "updated",
+        "restructured",
+        "changed"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "reform",
+        "reforms",
+        "has reformed",
+        "is reforming"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "'Five years ago' là điểm đánh dấu thời gian cho bạn biết sự kiện này đã qua.",
+      "hintLevel2": "Thêm -ed hoặc -d vào động từ thông thường trong Simple Past cho tất cả các chủ ngữ.",
+      "hintLevel3": "Cấu trúc: The university + reformed / revised / updated."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Simple Past để mô tả một thay đổi thể chế đã hoàn thành tại một thời điểm cụ thể trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả cách một cơ sở giáo dục đã thay đổi trong quá khứ.",
+      "bandTip": "Các động từ học thuật như 'reformed', 'restructured' hoặc 'overhauled' chính xác hơn 'changed' trong ngữ cảnh IELTS chính thức.",
+      "commonMistake": "Không sử dụng 'has reformed' khi đề cập đến một thời gian cụ thể trong quá khứ ('five years ago') - luôn sử dụng Simple Past."
+    },
+    "reusablePattern": "The university reformed its curriculum to include more practical skills five years ago."
+  },
+  {
+    "id": "spt-fill-edu-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing past limitations of traditional education"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Traditional schools [________] not encourage creative thinking in the past."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "did",
+        "Did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "do",
+        "does",
+        "was",
+        "were",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Cụm từ 'in the past' báo hiệu Simple Past - trợ động từ nào tạo thành phủ định trong quá khứ?",
+      "hintLevel2": "'Did not' được dùng với mọi chủ ngữ để phủ định một động từ trong Simple Past.",
+      "hintLevel3": "Cấu trúc: Traditional schools + did + not + encourage."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'did not' với chủ ngữ số nhiều và giữ 'encourage' ở dạng cơ bản.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi đối chiếu các phương pháp giáo dục trước đây với các phương pháp giáo dục hiện tại.",
+      "bandTip": "Đối lập giữa quá khứ và hiện tại - 'did not encourage … whereas today …' - là cấu trúc Band 6+ cho IELTS Part 3.",
+      "commonMistake": "Không sử dụng 'didn't được khuyến khích' — after 'did not', động từ phải ở dạng cơ bản, không bao giờ thêm -ed."
+    },
+    "reusablePattern": "Traditional schools did not encourage creative thinking in the past."
+  },
+  {
+    "id": "spt-fill-edu-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about a past study experience"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] you study at a public or private school when you were a child?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Did",
+        "did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Do",
+        "Does",
+        "Were",
+        "Was",
+        "Have"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past question",
+      "pattern": "Did + subject + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Cụm từ 'when you were a child' đặt điều này ở quá khứ - trợ động từ nào bắt đầu câu hỏi quá khứ?",
+      "hintLevel2": "Sử dụng 'Did' khi bắt đầu câu hỏi Simple Past có/không cho tất cả các chủ đề.",
+      "hintLevel3": "Cấu trúc: Did + you + study...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Did' để tạo thành câu hỏi Simple Past, giữ 'study' ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về kinh nghiệm học tập trước đây của bạn.",
+      "bandTip": "Khi trả lời các câu hỏi 'Did you…?' trong IELTS, hãy vượt qua câu trả lời có/không - thêm chi tiết hoặc lý do.",
+      "commonMistake": "Không sử dụng 'studied' sau 'Did' - động từ chính luôn ở dạng cơ bản sau 'Did'."
+    },
+    "reusablePattern": "Did you study at a public or private school when you were a child?"
+  },
+  {
+    "id": "spt-fill-edu-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing research findings about past educational outcomes"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Researchers [________] that students who attended pre-school performed better academically."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "found",
+        "discovered",
+        "revealed",
+        "showed"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "find",
+        "finds",
+        "finded",
+        "has found",
+        "have found"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past form of irregular verb",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Đây là một kết quả nghiên cứu đã hoàn thành - thì nào mô tả các hành động đã hoàn thành trong quá khứ?",
+      "hintLevel2": "'Find' là một động từ bất quy tắc - dạng Simple Past của nó là 'found', không phải 'finded'.",
+      "hintLevel3": "Cấu trúc: Researchers + found / discovered / revealed / showed."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng động từ bất quy tắc Simple Past để báo cáo một kết quả nghiên cứu đã hoàn thành.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trích dẫn các nghiên cứu trước đây để hỗ trợ cho một lập luận.",
+      "bandTip": "Các động từ báo cáo như 'revealed', 'demonstrated' và 'established' mang tính học thuật hơn 'showed' hoặc 'found'.",
+      "commonMistake": "Đừng viết 'finded' - 'find' là không đều; dạng Simple Past của nó là 'found'."
+    },
+    "reusablePattern": "Researchers found that students who attended pre-school performed better academically."
+  },
+  {
+    "id": "spt-fill-health-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past health initiative"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The health authority [________] a nationwide campaign to promote physical activity last decade."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "launched",
+        "introduced",
+        "implemented",
+        "initiated"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "launch",
+        "launches",
+        "has launched",
+        "is launching"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "'Last decade' là điểm đánh dấu thời gian trong quá khứ - bạn cần thì nào?",
+      "hintLevel2": "Thêm -ed hoặc -d vào động từ thông thường trong Simple Past cho tất cả các chủ ngữ.",
+      "hintLevel3": "Cấu trúc: The health authority + launched / introduced / implemented."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Simple Past để mô tả một hành động y tế công cộng đã hoàn thành trong một khoảng thời gian trước đây.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả một sự kiện y tế công cộng hoặc sáng kiến ​​của chính phủ trong quá khứ.",
+      "bandTip": "Cụm từ 'launched a nationwide campaign' là một cụm từ mạnh mẽ giúp nâng cao điểm từ vựng của bạn trong IELTS.",
+      "commonMistake": "Không sử dụng 'has launched' khi 'last decade' chỉ định thời gian đã hoàn thành trong quá khứ - luôn sử dụng Simple Past."
+    },
+    "reusablePattern": "The health authority launched a nationwide campaign to promote physical activity last decade."
+  },
+  {
+    "id": "spt-fill-health-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing past failures in public health policy"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Early public health campaigns [________] not address the root causes of obesity effectively."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "did",
+        "Did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "do",
+        "does",
+        "was",
+        "were",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Đây là một câu phủ định trong quá khứ - trợ động nào tạo thành phủ định Simple Past?",
+      "hintLevel2": "'Did not' tạo thành Simple Past phủ định cho tất cả các đối tượng.",
+      "hintLevel3": "Cấu trúc: Early public health campaigns + did + not + address."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'did not' để phủ định một hành động trong quá khứ, giữ 'address' ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phân tích lý do tại sao các chính sách y tế trước đây không hiệu quả.",
+      "bandTip": "Đánh giá các chính sách trong quá khứ - 'did not address … because …' - thể hiện tư duy phân tích được đánh giá cao ở Band 6+.",
+      "commonMistake": "Không sử dụng 'did not addressed' - sau 'did not', động từ vẫn ở dạng cơ bản mà không có -ed."
+    },
+    "reusablePattern": "Early public health campaigns did not address the root causes of obesity effectively."
+  },
+  {
+    "id": "spt-fill-health-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about a past health habit"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] people exercise as regularly twenty years ago as they do today?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Did",
+        "did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Do",
+        "Does",
+        "Were",
+        "Was",
+        "Have"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past question",
+      "pattern": "Did + subject + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "'Twenty years ago' đặt câu hỏi chắc chắn ở quá khứ - trợ động nào bắt đầu câu hỏi quá khứ?",
+      "hintLevel2": "Sử dụng 'Did' khi bắt đầu câu hỏi Simple Past có/không cho tất cả các môn học.",
+      "hintLevel3": "Cấu trúc: Did + people + exercise...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Did' để tạo thành câu hỏi Simple Past, giữ 'exercise' ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về thói quen sức khỏe đã thay đổi như thế nào theo thời gian.",
+      "bandTip": "So sánh thói quen trong quá khứ và hiện tại - 'Did people … twenty years ago? In fact, …' - cho thấy khả năng quản lý diễn ngôn phức tạp.",
+      "commonMistake": "Không viết 'Did people exercised' - sau 'Did', động từ chính phải ở dạng cơ bản."
+    },
+    "reusablePattern": "Did people exercise as regularly twenty years ago as they do today?"
+  },
+  {
+    "id": "spt-fill-health-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Citing a past study on diet and health"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "A landmark study [________] that diets high in processed food significantly increased the risk of heart disease."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "revealed",
+        "showed",
+        "found",
+        "demonstrated",
+        "concluded"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "reveal",
+        "reveals",
+        "has revealed",
+        "is revealing",
+        "reveled"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb (reporting verb)",
+      "pattern": "subject + V-ed + that-clause",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Một nghiên cứu báo cáo những phát hiện của nó là một hành động đã hoàn thành trong quá khứ - bạn sử dụng thì nào?",
+      "hintLevel2": "Thêm -ed hoặc -d vào các động từ tường thuật thông thường trong Simple Past.",
+      "hintLevel3": "Cấu trúc: A landmark study + revealed / showed / demonstrated + that."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng động từ báo cáo Simple Past để giới thiệu một kết quả nghiên cứu.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trích dẫn bằng chứng từ các nghiên cứu trước đây để hỗ trợ cho một lập luận về sức khỏe.",
+      "bandTip": "Động từ báo cáo học thuật — 'revealed', 'demonstrated', 'established' — báo hiệu mức độ phức tạp từ vựng cao hơn 'showed' hoặc 'said'.",
+      "commonMistake": "Không sử dụng 'has revealed' - khi trích dẫn một nghiên cứu cụ thể trong quá khứ mà không đề cập đến hiện tại, Simple Past là đúng."
+    },
+    "reusablePattern": "A landmark study revealed that diets high in processed food significantly increased the risk of heart disease."
+  },
+  {
+    "id": "spt-fill-work-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past work experience"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The company [________] its remote work policy following feedback from employees last year."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "revised",
+        "updated",
+        "reformed",
+        "changed",
+        "introduced"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "revise",
+        "revises",
+        "has revised",
+        "is revising"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "'Last year' là điểm đánh dấu thời gian trong quá khứ - thì nào mô tả các hành động đã hoàn thành trong quá khứ?",
+      "hintLevel2": "Thêm -ed hoặc -d vào động từ thông thường trong Simple Past cho tất cả các chủ ngữ.",
+      "hintLevel3": "Cấu trúc: The company + revised / updated / reformed."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Simple Past để mô tả một thay đổi chính sách công ty đã hoàn thành tại một thời điểm cụ thể trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả một quyết định hoặc thay đổi trong quá khứ của một tổ chức.",
+      "bandTip": "Các động từ như 'revised', 'overhauled' và 'reformed' chính xác và mang tính học thuật hơn 'changed'.",
+      "commonMistake": "Không sử dụng 'has revised' khi 'last year' chỉ định một sự kiện đã hoàn thành trong quá khứ - bắt buộc phải có Simple Past."
+    },
+    "reusablePattern": "The company revised its remote work policy following feedback from employees last year."
+  },
+  {
+    "id": "spt-fill-work-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing past employment challenges"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Many workers [________] not receive adequate compensation for overtime in the past."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "did",
+        "Did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "do",
+        "does",
+        "was",
+        "were",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Cụm từ 'in the past' báo hiệu đây là Simple Past - trợ động từ nào tạo thành phủ định trong quá khứ?",
+      "hintLevel2": "'Did not' phủ định tất cả các chủ ngữ trong Simple Past.",
+      "hintLevel3": "Cấu trúc: Many workers + did + not + receive."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'did not' để tạo thành phủ định trong quá khứ, giữ 'receive' ở dạng cơ bản.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về các vấn đề lao động trong quá khứ hoặc những bất công trong quá khứ tại nơi làm việc.",
+      "bandTip": "Đối chiếu sự bất công trong quá khứ với những cải tiến hiện tại - 'did not receive … whereas today …' - là một chiến lược IELTS Part 3 hiệu quả.",
+      "commonMistake": "Không sử dụng 'did not received' - sau 'did not', luôn sử dụng dạng cơ bản của động từ."
+    },
+    "reusablePattern": "Many workers did not receive adequate compensation for overtime in the past."
+  },
+  {
+    "id": "spt-fill-work-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about a past work experience"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] your previous employer offer any professional development opportunities?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Did",
+        "did"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Does",
+        "Do",
+        "Was",
+        "Were",
+        "Has"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past question",
+      "pattern": "Did + subject + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "'Previous employer' đề cập đến một công việc trong quá khứ - phần phụ trợ nào bắt đầu câu hỏi có/không trong quá khứ?",
+      "hintLevel2": "Sử dụng 'Did' để bắt đầu câu hỏi Simple Past có/không cho tất cả các môn học.",
+      "hintLevel3": "Cấu trúc: Did + your previous employer + offer...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Did' để tạo thành câu hỏi Simple Past về nơi làm việc cũ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về kinh nghiệm làm việc trước đây hoặc người sử dụng lao động của bạn.",
+      "bandTip": "Sau khi trả lời 'Did your employer…?' hãy đưa ra một ví dụ cụ thể - 'Yes, they offered monthly workshops on…' - để mở rộng câu trả lời của bạn.",
+      "commonMistake": "Không sử dụng 'offered' sau 'Did' - động từ chính phải ở dạng cơ bản trong câu hỏi 'Did'."
+    },
+    "reusablePattern": "Did your previous employer offer any professional development opportunities?"
+  },
+  {
+    "id": "spt-fill-work-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Reporting past employment statistics"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The unemployment rate [________] to its lowest point in a decade in 2019."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "fell",
+        "dropped",
+        "declined",
+        "decreased"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "fall",
+        "falls",
+        "falled",
+        "has fallen",
+        "fallen"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past form of irregular verb",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Năm cụ thể '2019' đặt sự kiện này vào quá khứ - dạng 'fall' nào được sử dụng trong Simple Past?",
+      "hintLevel2": "'Fall' là không đều - dạng Simple Past của nó là 'fell', không phải 'falled'.",
+      "hintLevel3": "Cấu trúc: The unemployment rate + fell / dropped / declined / decreased."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng động từ Simple Past bất quy tắc hoặc thông thường để mô tả một xu hướng đã hoàn thành tại một thời điểm cụ thể trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 hoặc Task 2 khi đề cập đến số liệu thống kê việc làm cụ thể trong quá khứ.",
+      "bandTip": "Kết hợp động từ xu hướng với giới từ - 'fell to', 'dropped to' - là một cụm từ chính xác để mô tả dữ liệu Task 1.",
+      "commonMistake": "Đừng viết 'falled' - 'fall' là động từ bất quy tắc; dạng Simple Past của nó là 'fell'."
+    },
+    "reusablePattern": "The unemployment rate fell to its lowest point in a decade in 2019."
+  },
+  {
+    "id": "spt-build-env-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past government environmental policy"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The government [________] strict regulations on industrial emissions a decade ago."
+    },
+    "chips": [
+      "introduced",
+      "introduce",
+      "introduces",
+      "was introducing",
+      "strict regulations on industrial emissions a decade ago",
+      "The government"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The government",
+        "introduced",
+        "strict regulations on industrial emissions a decade ago"
+      ],
+      "distractors": [
+        "introduce",
+        "introduces",
+        "was introducing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed + object + time marker"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'introduced' là dạng Simple Past cho một hành động đã hoàn thành được báo hiệu bởi 'a decade ago'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả một chính sách trong quá khứ liên quan đến môi trường.",
+      "bandTip": "Các động từ học thuật như 'introduced', 'enacted' và 'implemented' mạnh hơn 'made' hoặc 'started' trong bối cảnh trang trọng.",
+      "commonMistake": "Không sử dụng 'was introducing' (quá khứ tiếp diễn) cho hành động chính phủ một lần đã hoàn thành - sử dụng Simple Past."
+    },
+    "reusablePattern": "The government introduced strict regulations on industrial emissions a decade ago."
+  },
+  {
+    "id": "spt-build-env-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing past failures to recycle"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many communities [________] their household waste in the early 2000s."
+    },
+    "chips": [
+      "did not recycle",
+      "did not recycled",
+      "recycled",
+      "do not recycle",
+      "their household waste in the early 2000s",
+      "Many communities"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many communities",
+        "did not recycle",
+        "their household waste in the early 2000s"
+      ],
+      "distractors": [
+        "did not recycled",
+        "recycled",
+        "do not recycle"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'did not recycle' là phủ định Simple Past đúng, giữ 'recycle' ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận lý do tại sao nhận thức về môi trường trước đây lại thấp hơn.",
+      "bandTip": "Đối chiếu điều này với hiện tại - 'In the early 2000s, communities did not recycle, but today …' - là một kỹ thuật Band 6+.",
+      "commonMistake": "Không viết 'did not recycled' - sau 'did not', động từ phải luôn ở dạng cơ bản."
+    },
+    "reusablePattern": "Many communities did not recycle their household waste in the early 2000s."
+  },
+  {
+    "id": "spt-build-env-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing a past trend in renewable energy use"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Solar panel installations [________] significantly across Europe between 2010 and 2020."
+    },
+    "chips": [
+      "increased",
+      "increase",
+      "increases",
+      "was increasing",
+      "significantly across Europe between 2010 and 2020",
+      "Solar panel installations"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Solar panel installations",
+        "increased",
+        "significantly across Europe between 2010 and 2020"
+      ],
+      "distractors": [
+        "increase",
+        "increases",
+        "was increasing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed + adverb + prepositional phrase"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'increased' là dạng Simple Past phù hợp cho một xu hướng đã hoàn thành trong một khoảng thời gian xác định trước đó.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả một xu hướng hoàn chỉnh được hiển thị trong biểu đồ đường hoặc biểu đồ thanh.",
+      "bandTip": "Trong Task 1, hãy sử dụng chính xác giới từ thời gian - 'between … and …', 'from … to …' - cùng với Simple Past động từ xu hướng.",
+      "commonMistake": "Không sử dụng 'was increasing' cho xu hướng được mô tả trong một khoảng thời gian hoàn chỉnh - Simple Past là lựa chọn tiêu chuẩn Task 1."
+    },
+    "reusablePattern": "Solar panel installations increased significantly across Europe between 2010 and 2020."
+  },
+  {
+    "id": "spt-build-env-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing past climate negotiations"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The last decade [________] a significant rise in international climate agreements."
+    },
+    "chips": [
+      "saw",
+      "seen",
+      "sees",
+      "was seeing",
+      "a significant rise in international climate agreements",
+      "The last decade"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The last decade",
+        "saw",
+        "a significant rise in international climate agreements"
+      ],
+      "distractors": [
+        "seen",
+        "sees",
+        "was seeing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past irregular verb + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'saw' là dạng Simple Past chính xác của động từ bất quy tắc 'see', được sử dụng ở đây để mô tả xu hướng xác định của một thời kỳ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 hoặc Writing Task 2 khi đề cập đến các mẫu đã xảy ra trong một khoảng thời gian vừa qua.",
+      "bandTip": "Cấu trúc 'The [period] saw + noun' là một dạng học thuật phức tạp thường được sử dụng trong IELTS Writing Task 2.",
+      "commonMistake": "Không viết 'seen' mà không có trợ động từ - 'seen' là phân từ quá khứ và cần 'has/have' để tạo thành thì Hoàn thành."
+    },
+    "reusablePattern": "The last decade saw a significant rise in international climate agreements."
+  },
+  {
+    "id": "spt-build-tech-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing how the internet changed communication in the past"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The rise of the internet [________] the way people communicated forever."
+    },
+    "chips": [
+      "transformed",
+      "transform",
+      "transforms",
+      "was transforming",
+      "the way people communicated forever",
+      "The rise of the internet"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The rise of the internet",
+        "transformed",
+        "the way people communicated forever"
+      ],
+      "distractors": [
+        "transform",
+        "transforms",
+        "was transforming"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'transformed' là biểu mẫu Simple Past cho một sự kiện đã hoàn thành với tác động lâu dài.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả một thay đổi lớn về công nghệ đã xảy ra trong quá khứ.",
+      "bandTip": "Động từ 'transformed' mạnh hơn 'changed'; sử dụng nó trong bài luận IELTS để thể hiện tác động ấn tượng hơn.",
+      "commonMistake": "Không sử dụng 'was transforming' cho một diễn biến lịch sử đã hoàn thành - Simple Past báo hiệu một sự kiện xác định trong quá khứ."
+    },
+    "reusablePattern": "The rise of the internet transformed the way people communicated forever."
+  },
+  {
+    "id": "spt-build-tech-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what early tech companies failed to consider"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Early tech companies [________] the ethical implications of data collection."
+    },
+    "chips": [
+      "did not consider",
+      "did not considered",
+      "considered",
+      "do not consider",
+      "the ethical implications of data collection",
+      "Early tech companies"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Early tech companies",
+        "did not consider",
+        "the ethical implications of data collection"
+      ],
+      "distractors": [
+        "did not considered",
+        "considered",
+        "do not consider"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'did not consider' là Simple Past phủ định với 'consider' chính xác ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê bình các quyết định trong quá khứ của các công ty công nghệ.",
+      "bandTip": "Tiếp theo một điều tiêu cực trong quá khứ kèm theo một hậu quả - 'did not consider … which led to serious privacy issues' - cho thấy khả năng phân tích cao.",
+      "commonMistake": "Không viết 'did not considered' - sau 'did not', không bao giờ thêm -ed vào động từ."
+    },
+    "reusablePattern": "Early tech companies did not consider the ethical implications of data collection."
+  },
+  {
+    "id": "spt-build-tech-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing past smartphone adoption rates"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Smartphone ownership [________] rapidly in developing nations between 2010 and 2018."
+    },
+    "chips": [
+      "grew",
+      "grow",
+      "growed",
+      "has grown",
+      "rapidly in developing nations between 2010 and 2018",
+      "Smartphone ownership"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Smartphone ownership",
+        "grew",
+        "rapidly in developing nations between 2010 and 2018"
+      ],
+      "distractors": [
+        "grow",
+        "growed",
+        "has grown"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past irregular verb + adverb + prepositional phrase"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'grew' là dạng Simple Past không đều của 'grow', được sử dụng để mô tả một xu hướng đã hoàn thành.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi tóm tắt các xu hướng dữ liệu trong quá khứ liên quan đến việc áp dụng công nghệ.",
+      "bandTip": "Liên kết xu hướng với một khu vực cụ thể — 'in developing nations' — tăng thêm độ chính xác có giá trị trong IELTS Writing Task 1.",
+      "commonMistake": "Đừng viết 'growed' - 'grow' là động từ bất quy tắc; dạng Simple Past của nó là 'grew'."
+    },
+    "reusablePattern": "Smartphone ownership grew rapidly in developing nations between 2010 and 2018."
+  },
+  {
+    "id": "spt-build-tech-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the historical impact of automation"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The industrial revolution [________] the foundations for modern automation."
+    },
+    "chips": [
+      "laid",
+      "lay",
+      "layed",
+      "has laid",
+      "the foundations for modern automation",
+      "The industrial revolution"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The industrial revolution",
+        "laid",
+        "the foundations for modern automation"
+      ],
+      "distractors": [
+        "lay",
+        "layed",
+        "has laid"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past irregular verb + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'laid' là dạng Simple Past của động từ bất quy tắc 'lay', nghĩa là 'established foundations'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 hoặc Writing Task 2 khi đưa ra lập luận lịch sử về nguồn gốc của công nghệ.",
+      "bandTip": "Cụm từ 'laid the foundations for' là một cụm từ mang tính học thuật - hãy ghi nhớ nó cho IELTS Writing Task 2.",
+      "commonMistake": "Đừng viết 'layed' — 'lay' (có nghĩa là đặt xuống) là không đều; dạng Simple Past của nó là 'laid'."
+    },
+    "reusablePattern": "The industrial revolution laid the foundations for modern automation."
+  },
+  {
+    "id": "spt-build-edu-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past school policy"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The school [________] a new peer-tutoring programme in 2015."
+    },
+    "chips": [
+      "implemented",
+      "implement",
+      "implements",
+      "was implementing",
+      "a new peer-tutoring programme in 2015",
+      "The school"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The school",
+        "implemented",
+        "a new peer-tutoring programme in 2015"
+      ],
+      "distractors": [
+        "implement",
+        "implements",
+        "was implementing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed + object + time marker"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'implemented' là biểu mẫu Simple Past cho một thay đổi chính sách trường học đã hoàn thành vào một năm cụ thể vừa qua.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả một sáng kiến ​​giáo dục trong quá khứ.",
+      "bandTip": "Động từ 'implemented' mang tính học thuật hơn 'started' hoặc 'began' — việc sử dụng nó sẽ làm tăng điểm tài nguyên từ vựng của bạn.",
+      "commonMistake": "Không sử dụng 'was implementing' cho một sự kiện đã hoàn thành, một lần trong quá khứ - Simple Past là lựa chọn chính xác."
+    },
+    "reusablePattern": "The school implemented a new peer-tutoring programme in 2015."
+  },
+  {
+    "id": "spt-build-edu-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing past limitations of rote learning"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Traditional education systems [________] students to think independently for much of the 20th century."
+    },
+    "chips": [
+      "did not encourage",
+      "did not encouraged",
+      "encouraged",
+      "do not encourage",
+      "students to think independently for much of the 20th century",
+      "Traditional education systems"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Traditional education systems",
+        "did not encourage",
+        "students to think independently for much of the 20th century"
+      ],
+      "distractors": [
+        "did not encouraged",
+        "encouraged",
+        "do not encourage"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'did not encourage' là phủ định Simple Past chính xác, với 'encourage' vẫn ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi đối chiếu các triết lý giáo dục trong quá khứ và hiện tại.",
+      "bandTip": "Cung cấp một sự tương phản lịch sử - 'did not encourage … whereas modern curricula …' - là một kỹ thuật IELTS Part 3 mạnh mẽ.",
+      "commonMistake": "Không sử dụng 'did not encouraged' - động từ theo sau 'did not' phải luôn ở dạng cơ bản."
+    },
+    "reusablePattern": "Traditional education systems did not encourage students to think independently for much of the 20th century."
+  },
+  {
+    "id": "spt-build-edu-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Reporting past research findings on learning outcomes"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Studies [________] that smaller class sizes significantly improved student outcomes."
+    },
+    "chips": [
+      "revealed",
+      "reveal",
+      "are revealing",
+      "has revealed",
+      "that smaller class sizes significantly improved student outcomes",
+      "Studies"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Studies",
+        "revealed",
+        "that smaller class sizes significantly improved student outcomes"
+      ],
+      "distractors": [
+        "reveal",
+        "are revealing",
+        "has revealed"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb (reporting verb)",
+      "pattern": "subject + V-ed + that-clause"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'revealed' là động từ báo cáo Simple Past được sử dụng để giới thiệu một kết quả nghiên cứu trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trích dẫn bằng chứng từ nghiên cứu trước đây để hỗ trợ cho một lập luận mang tính giáo dục.",
+      "bandTip": "Động từ báo cáo trong Simple Past — 'revealed', 'demonstrated', 'concluded' — là lựa chọn tiêu chuẩn khi trích dẫn các nghiên cứu đã hoàn thành.",
+      "commonMistake": "Không sử dụng 'has revealed' - khi trích dẫn kết quả chung của một nghiên cứu trước đây, Simple Past được sử dụng phổ biến hơn trong văn bản học thuật."
+    },
+    "reusablePattern": "Studies revealed that smaller class sizes significantly improved student outcomes."
+  },
+  {
+    "id": "spt-build-edu-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing a historical shift in university education"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The 20th century [________] a dramatic expansion in global university enrolment."
+    },
+    "chips": [
+      "saw",
+      "seen",
+      "sees",
+      "has seen",
+      "a dramatic expansion in global university enrolment",
+      "The 20th century"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The 20th century",
+        "saw",
+        "a dramatic expansion in global university enrolment"
+      ],
+      "distractors": [
+        "seen",
+        "sees",
+        "has seen"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past irregular verb + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'saw' là Simple Past của động từ bất quy tắc 'see', được sử dụng để mô tả những gì một giai đoạn lịch sử đã chứng kiến.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 hoặc Writing Task 2 khi đưa ra quan sát lịch sử về xu hướng giáo dục.",
+      "bandTip": "Cấu trúc 'The [century/decade] saw + noun phrase' là một mẫu văn bản học thuật báo hiệu sự kiểm soát Band 7.",
+      "commonMistake": "Đừng viết 'has seen' - thế kỷ 20 đã hoàn tất, vì vậy Simple Past, không phải Present Perfect, là đúng."
+    },
+    "reusablePattern": "The 20th century saw a dramatic expansion in global university enrolment."
+  },
+  {
+    "id": "spt-build-health-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past public health achievement"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The World Health Organization [________] the global eradication of smallpox in 1980."
+    },
+    "chips": [
+      "declared",
+      "declare",
+      "declares",
+      "was declaring",
+      "the global eradication of smallpox in 1980",
+      "The World Health Organization"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The World Health Organization",
+        "declared",
+        "the global eradication of smallpox in 1980"
+      ],
+      "distractors": [
+        "declare",
+        "declares",
+        "was declaring"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed + object + time marker"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'declared' là biểu mẫu Simple Past cho một thông báo chính thức đã hoàn thành vào một năm cụ thể.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả một thành tựu mang tính bước ngoặt trong quá khứ về sức khỏe cộng đồng.",
+      "bandTip": "Gắn chặt các sự kiện lịch sử với các năm cụ thể - 'in 1980', 'a decade ago' - làm cho câu trả lời IELTS của bạn chính xác và đáng tin cậy hơn.",
+      "commonMistake": "Không sử dụng 'was declaring' cho một sự kiện đã hoàn thành, chính thức, diễn ra một lần - Simple Past là thì đúng."
+    },
+    "reusablePattern": "The World Health Organization declared the global eradication of smallpox in 1980."
+  },
+  {
+    "id": "spt-build-health-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what early fast food companies failed to acknowledge"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Fast food companies [________] the long-term health risks of their products for many years."
+    },
+    "chips": [
+      "did not acknowledge",
+      "did not acknowledged",
+      "acknowledged",
+      "do not acknowledge",
+      "the long-term health risks of their products for many years",
+      "Fast food companies"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Fast food companies",
+        "did not acknowledge",
+        "the long-term health risks of their products for many years"
+      ],
+      "distractors": [
+        "did not acknowledged",
+        "acknowledged",
+        "do not acknowledge"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'did not acknowledge' tạo thành âm Simple Past một cách chính xác, với 'acknowledge' ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận nghiêm túc về hành vi trong quá khứ của các tập đoàn thực phẩm.",
+      "bandTip": "Tiếp theo đó là một hệ quả - 'which resulted in a generation of poor dietary habits' - nâng cao chất lượng phân tích cho câu trả lời của bạn.",
+      "commonMistake": "Không viết 'did not acknowledged' - sau 'did not', động từ phải ở dạng cơ bản."
+    },
+    "reusablePattern": "Fast food companies did not acknowledge the long-term health risks of their products for many years."
+  },
+  {
+    "id": "spt-build-health-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing past trends in life expectancy"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Average life expectancy [________] considerably in most developed countries during the 20th century."
+    },
+    "chips": [
+      "rose",
+      "rise",
+      "rised",
+      "has risen",
+      "considerably in most developed countries during the 20th century",
+      "Average life expectancy"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Average life expectancy",
+        "rose",
+        "considerably in most developed countries during the 20th century"
+      ],
+      "distractors": [
+        "rise",
+        "rised",
+        "has risen"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past irregular verb + adverb + prepositional phrase"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'rose' là dạng Simple Past không đều của 'rise', được sử dụng cho một xu hướng đã hoàn thành trong một khoảng thời gian vừa qua.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 hoặc Task 2 khi mô tả những cải thiện lịch sử về các chỉ số y tế công cộng.",
+      "bandTip": "Trong Task 1, ghép 'rose' với trạng từ — 'rose considerably', 'rose sharply' — để mô tả chính xác tốc độ thay đổi.",
+      "commonMistake": "Đừng viết 'rised' - 'rise' là không đều; dạng Simple Past của nó là 'rose'."
+    },
+    "reusablePattern": "Average life expectancy rose considerably in most developed countries during the 20th century."
+  },
+  {
+    "id": "spt-build-health-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what past medical research discovered"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Researchers [________] a clear link between sedentary behaviour and cardiovascular disease in the 1990s."
+    },
+    "chips": [
+      "established",
+      "establish",
+      "establishes",
+      "have established",
+      "a clear link between sedentary behaviour and cardiovascular disease in the 1990s",
+      "Researchers"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Researchers",
+        "established",
+        "a clear link between sedentary behaviour and cardiovascular disease in the 1990s"
+      ],
+      "distractors": [
+        "establish",
+        "establishes",
+        "have established"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb (academic reporting verb)",
+      "pattern": "subject + V-ed + object + time marker"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'established' là động từ báo cáo Simple Past cho một kết quả nghiên cứu đã hoàn thành được neo trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 hoặc Writing Task 2 khi trích dẫn bằng chứng để hỗ trợ cho một lập luận về sức khỏe.",
+      "bandTip": "Cụm từ 'established a clear link between … and …' là một cụm từ học thuật có giá trị cao cho IELTS Writing Task 2.",
+      "commonMistake": "Không sử dụng 'have established' khi 'in the 1990s' chỉ định thời gian đã hoàn thành trong quá khứ - bắt buộc phải có Simple Past."
+    },
+    "reusablePattern": "Researchers established a clear link between sedentary behaviour and cardiovascular disease in the 1990s."
+  },
+  {
+    "id": "spt-build-work-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past workplace change"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The company [________] a four-day working week as a pilot scheme last year."
+    },
+    "chips": [
+      "trialled",
+      "trial",
+      "trials",
+      "has trialled",
+      "a four-day working week as a pilot scheme last year",
+      "The company"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The company",
+        "trialled",
+        "a four-day working week as a pilot scheme last year"
+      ],
+      "distractors": [
+        "trial",
+        "trials",
+        "has trialled"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed + object + time marker"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'trialled' là biểu mẫu Simple Past cho một sáng kiến ​​công ty đã hoàn thành được báo hiệu bởi 'last year'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả một thay đổi hoặc thử nghiệm cụ thể trong quá khứ tại nơi làm việc.",
+      "bandTip": "Cụm từ 'trialled as a pilot scheme' là một cụm từ mang tính học thuật hữu ích cho các cuộc thảo luận về IELTS Writing Task 2.",
+      "commonMistake": "Không sử dụng 'has trialled' khi 'last year' chỉ định một sự kiện đã hoàn thành - bắt buộc phải có Simple Past."
+    },
+    "reusablePattern": "The company trialled a four-day working week as a pilot scheme last year."
+  },
+  {
+    "id": "spt-build-work-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing past gaps in worker protection laws"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many countries [________] adequate protections for workers in the gig economy until recently."
+    },
+    "chips": [
+      "did not have",
+      "did not had",
+      "had",
+      "do not have",
+      "adequate protections for workers in the gig economy until recently",
+      "Many countries"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many countries",
+        "did not have",
+        "adequate protections for workers in the gig economy until recently"
+      ],
+      "distractors": [
+        "did not had",
+        "had",
+        "do not have"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past negative, plural subject",
+      "pattern": "subject + did not + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'did not have' tạo thành âm phủ định Simple Past một cách chính xác với động từ cơ bản 'have'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê bình khoảng cách lịch sử trong luật lao động và quyền của người lao động.",
+      "bandTip": "Việc sử dụng 'until recently' báo hiệu sự tương phản với hiện tại - kết hợp điều này với Simple Past cho thấy khả năng kiểm soát căng thẳng tinh vi.",
+      "commonMistake": "Không viết 'did not had' - sau 'did not', động từ phải luôn ở dạng cơ bản; 'have', không phải 'had'."
+    },
+    "reusablePattern": "Many countries did not have adequate protections for workers in the gig economy until recently."
+  },
+  {
+    "id": "spt-build-work-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing past employment statistics"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Youth unemployment [________] dramatically during the 2008 financial crisis."
+    },
+    "chips": [
+      "rose",
+      "rise",
+      "rised",
+      "has risen",
+      "dramatically during the 2008 financial crisis",
+      "Youth unemployment"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Youth unemployment",
+        "rose",
+        "dramatically during the 2008 financial crisis"
+      ],
+      "distractors": [
+        "rise",
+        "rised",
+        "has risen"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, irregular verb",
+      "pattern": "subject + past irregular verb + adverb + time marker"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'rose' là Simple Past bất thường của 'rise', được sử dụng để mô tả một xu hướng đã hoàn thành trong cuộc khủng hoảng vừa qua.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 hoặc Task 2 khi trích dẫn dữ liệu kinh tế hoặc việc làm cụ thể trong quá khứ.",
+      "bandTip": "Đặt tên cho sự kiện lịch sử cụ thể — 'the 2008 financial crisis' — tăng thêm độ tin cậy và độ chính xác cho lập luận IELTS của bạn.",
+      "commonMistake": "Đừng viết 'rised' - 'rise' là không đều; dạng Simple Past của nó là 'rose'."
+    },
+    "reusablePattern": "Youth unemployment rose dramatically during the 2008 financial crisis."
+  },
+  {
+    "id": "spt-build-work-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the historical impact of automation on manufacturing"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The automation of assembly lines [________] millions of manufacturing jobs in the late 20th century."
+    },
+    "chips": [
+      "eliminated",
+      "eliminate",
+      "eliminates",
+      "has eliminated",
+      "millions of manufacturing jobs in the late 20th century",
+      "The automation of assembly lines"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The automation of assembly lines",
+        "eliminated",
+        "millions of manufacturing jobs in the late 20th century"
+      ],
+      "distractors": [
+        "eliminate",
+        "eliminates",
+        "has eliminated"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past, regular verb",
+      "pattern": "subject + V-ed + object + time marker"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'eliminated' là biểu mẫu Simple Past cho một quá trình lịch sử đã hoàn thành trong một khoảng thời gian đã xác định.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 hoặc Writing Task 2 khi đưa ra lập luận lịch sử về tự động hóa và chuyển dịch công việc.",
+      "bandTip": "Cụm từ 'eliminated millions of jobs' có tác động mạnh hơn 'took away jobs' - sử dụng động từ mạnh hơn trong bài luận IELTS.",
+      "commonMistake": "Không sử dụng 'has eliminated' khi 'in the late 20th century' chỉ định một khoảng thời gian đã hoàn thành trong quá khứ - bắt buộc phải có Simple Past."
+    },
+    "reusablePattern": "The automation of assembly lines eliminated millions of manufacturing jobs in the late 20th century."
+  },
+  {
+    "id": "spt-transform-env-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a body paragraph about past industrial pollution and its consequences"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Industries released large amounts of toxic waste into rivers.",
+        "This caused severe damage to aquatic ecosystems."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Simple Past throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Industries released large amounts of toxic waste into rivers, which caused severe damage to aquatic ecosystems.",
+      "requiredIdeas": [
+        "industries releasing toxic waste",
+        "damage to aquatic ecosystems"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O, which + V-ed + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng mệnh đề quan hệ với 'which' để kết nối một hành động trong quá khứ và hậu quả trong quá khứ của nó.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày một lập luận nhân quả lịch sử về thiệt hại môi trường.",
+      "bandTip": "Việc sử dụng 'which + Simple Past' trong mệnh đề quan hệ sẽ duy trì tính nhất quán về căng thẳng và báo hiệu sự kiểm soát ngữ pháp Band 6–7.",
+      "commonMistake": "Không viết 'which causes' (Simple Present) - cả hai mệnh đề phải ở Simple Past để duy trì tính nhất quán căng thẳng."
+    },
+    "reusablePattern": "Industries released large amounts of toxic waste into rivers, which caused severe damage to aquatic ecosystems."
+  },
+  {
+    "id": "spt-transform-env-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing about how individuals contributed to past pollution"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Consumers relied heavily on single-use plastics.",
+        "They contributed significantly to ocean pollution."
+      ],
+      "constraints": [
+        "Use 'by + V-ing' to show the method",
+        "Maintain Simple Past",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Consumers contributed significantly to ocean pollution by relying heavily on single-use plastics.",
+      "requiredIdeas": [
+        "relying on single-use plastics",
+        "contributing to ocean pollution"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "they're",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past with by + gerund",
+      "pattern": "S + V-ed + O + by + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'by + V-ing' để cho thấy hành vi của người tiêu dùng trong quá khứ đã dẫn đến hậu quả môi trường như thế nào.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi giải thích cơ chế đằng sau một vấn đề môi trường trong quá khứ.",
+      "bandTip": "Cấu trúc 'by + V-ing' liên kết chặt chẽ nguyên nhân và phương pháp trong một mệnh đề, cải thiện tính gắn kết trong bài viết IELTS.",
+      "commonMistake": "Không viết 'by rely' — sau 'by', luôn sử dụng danh động từ (dạng -ing), không bao giờ dùng dạng cơ sở."
+    },
+    "reusablePattern": "Consumers contributed significantly to ocean pollution by relying heavily on single-use plastics."
+  },
+  {
+    "id": "spt-transform-tech-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Explaining how the internet changed communication and created new industries"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "The internet revolutionised global communication.",
+        "It created entirely new industries and employment opportunities."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Simple Past throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The internet revolutionised global communication, which created entirely new industries and employment opportunities.",
+      "requiredIdeas": [
+        "the internet revolutionising communication",
+        "creation of new industries"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O, which + V-ed + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã kết nối một phép biến đổi trong quá khứ và hậu quả của nó bằng mệnh đề quan hệ 'which'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi đưa ra lập luận lịch sử về tác động tích cực của công nghệ.",
+      "bandTip": "Động từ 'revolutionised' mạnh hơn và mang tính học thuật hơn 'changed' - hãy sử dụng nó trong IELTS Writing Task 2 để có tác động lớn hơn.",
+      "commonMistake": "Không viết 'which creates' - giữ nguyên Simple Past trong mệnh đề quan hệ để khớp với thì của mệnh đề chính."
+    },
+    "reusablePattern": "The internet revolutionised global communication, which created entirely new industries and employment opportunities."
+  },
+  {
+    "id": "spt-transform-tech-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing the double-edged impact of social media in the past"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Social media connected people across the world in the 2000s.",
+        "However, it also enabled the rapid spread of misinformation."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., although, while)",
+        "Maintain Simple Past throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Although social media connected people across the world in the 2000s, it also enabled the rapid spread of misinformation.",
+      "requiredIdeas": [
+        "social media connecting people",
+        "enabling spread of misinformation"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "Although + S + V-ed + O, S + V-ed + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'although' để cân bằng lợi ích trong quá khứ với nhược điểm trong quá khứ trong một câu trang trọng.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày một lập luận lịch sử cân bằng về tác động của mạng xã hội.",
+      "bandTip": "Bắt đầu với 'Although' thể hiện tư duy cân bằng - một phẩm chất được giám khảo khen thưởng với điểm Mạch lạc và Gắn kết cao hơn.",
+      "commonMistake": "Không sử dụng 'but' trong văn bản trang trọng - thay vào đó hãy sử dụng các từ nối nhượng bộ như 'although', 'while' hoặc 'whereas'."
+    },
+    "reusablePattern": "Although social media connected people across the world in the 2000s, it also enabled the rapid spread of misinformation."
+  },
+  {
+    "id": "spt-transform-edu-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Arguing for the historical value of mass education"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "The expansion of mass education in the 20th century equipped millions with basic literacy.",
+        "This drove significant economic growth in many nations."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Simple Past throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The expansion of mass education in the 20th century equipped millions with basic literacy, which drove significant economic growth in many nations.",
+      "requiredIdeas": [
+        "mass education providing literacy",
+        "economic growth"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O, which + V-ed + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã kết hợp nguyên nhân lịch sử và hậu quả của nó bằng cách sử dụng mệnh đề quan hệ 'which' trong Simple Past.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi xây dựng lập luận lịch sử về lợi ích kinh tế của giáo dục.",
+      "bandTip": "Động từ 'drove' (quá khứ của 'drive') là động từ bất quy tắc và mang tính học thuật hơn 'caused' - hãy sử dụng nó trong các bài luận IELTS về tăng trưởng kinh tế.",
+      "commonMistake": "Đừng viết 'which drived' - 'drive' là không đều; dạng Simple Past của nó là 'drove'."
+    },
+    "reusablePattern": "The expansion of mass education in the 20th century equipped millions with basic literacy, which drove significant economic growth in many nations."
+  },
+  {
+    "id": "spt-transform-edu-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing historical tensions in education philosophy"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Rote learning produced graduates with strong knowledge of facts.",
+        "However, it did not develop their capacity for independent analysis."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., while, although)",
+        "Maintain Simple Past throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While rote learning produced graduates with strong knowledge of facts, it did not develop their capacity for independent analysis.",
+      "requiredIdeas": [
+        "rote learning producing factual knowledge",
+        "failure to develop analytical capacity"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "While + S + V-ed + O, S + did not + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'while' để đối chiếu hai kết quả trước đây của việc học vẹt trong một câu trang trọng.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày quan điểm cân bằng về mặt lịch sử về các phương pháp giáo dục truyền thống.",
+      "bandTip": "Mẫu 'While … V-ed, it did not V' cân bằng một cách trang nhã sự nhượng bộ và phê bình - một đặc điểm nổi bật của cách viết Band 6.5–7.",
+      "commonMistake": "Không viết 'did not developed' - sau 'did not', động từ phải ở dạng cơ bản; 'develop', không phải 'developed'."
+    },
+    "reusablePattern": "While rote learning produced graduates with strong knowledge of facts, it did not develop their capacity for independent analysis."
+  },
+  {
+    "id": "spt-transform-health-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Arguing about the historical impact of public health programmes"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Mass vaccination programmes eradicated several deadly diseases in the 20th century.",
+        "This saved millions of lives globally."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Simple Past throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Mass vaccination programmes eradicated several deadly diseases in the 20th century, which saved millions of lives globally.",
+      "requiredIdeas": [
+        "vaccination programmes eradicating diseases",
+        "saving millions of lives"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O, which + V-ed + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã liên kết thành tích y tế công cộng trong quá khứ và hậu quả cứu mạng của nó với mệnh đề 'which'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi hỗ trợ các lập luận về giá trị đầu tư của chính phủ cho y tế công cộng.",
+      "bandTip": "Động từ 'eradicated' mạnh hơn nhiều so với 'removed' hoặc 'got rid of' - sử dụng các động từ học thuật chính xác trong bài luận IELTS.",
+      "commonMistake": "Không viết 'which saves' — mệnh đề quan hệ phải nằm trong Simple Past để khớp với mệnh đề chính."
+    },
+    "reusablePattern": "Mass vaccination programmes eradicated several deadly diseases in the 20th century, which saved millions of lives globally."
+  },
+  {
+    "id": "spt-transform-health-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing the historical rise of fast food and its health consequences"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "The fast food industry expanded rapidly from the 1970s onwards.",
+        "However, it contributed to a global rise in obesity rates."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., although, while)",
+        "Maintain Simple Past throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Although the fast food industry expanded rapidly from the 1970s onwards, it contributed to a global rise in obesity rates.",
+      "requiredIdeas": [
+        "fast food industry expanding rapidly",
+        "contributing to rising obesity"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "Although + S + V-ed + O, S + V-ed + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã thừa nhận sự phát triển kinh tế trong quá khứ trước khi gây ra hậu quả tiêu cực cho sức khỏe.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày một lập luận lịch sử cân bằng về tác động của ngành công nghiệp thức ăn nhanh.",
+      "bandTip": "Mở đầu bằng 'Although' để thừa nhận điều tích cực trước khi đưa ra điều tiêu cực là một động thái học thuật phức tạp có giá trị ở Band 6.5+.",
+      "commonMistake": "Đừng viết 'Although … , but it …' - 'although' và 'but' là thừa cùng nhau; chỉ sử dụng một."
+    },
+    "reusablePattern": "Although the fast food industry expanded rapidly from the 1970s onwards, it contributed to a global rise in obesity rates."
+  },
+  {
+    "id": "spt-transform-work-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing about the historical impact of automation on employment"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "The automation of factories dramatically reduced production costs.",
+        "This displaced a large number of manual workers."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Simple Past throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The automation of factories dramatically reduced production costs, which displaced a large number of manual workers.",
+      "requiredIdeas": [
+        "automation reducing production costs",
+        "displacement of manual workers"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O, which + V-ed + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã kết hợp lợi ích kinh tế trong quá khứ và hậu quả lao động tiêu cực của nó với điều khoản 'which'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi đưa ra lập luận lịch sử về chi phí và lợi ích của tự động hóa công nghiệp.",
+      "bandTip": "Động từ 'displaced' chính xác và mang tính học thuật — hãy sử dụng nó thay vì 'moved out' hoặc 'took away jobs' trong bài luận IELTS.",
+      "commonMistake": "Không viết 'which displaces' - giữ nguyên Simple Past trong mệnh đề quan hệ để khớp với mệnh đề chính."
+    },
+    "reusablePattern": "The automation of factories dramatically reduced production costs, which displaced a large number of manual workers."
+  },
+  {
+    "id": "spt-transform-work-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing the historical benefits and limits of remote work"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Remote work offered employees greater flexibility during the pandemic.",
+        "However, it also created new challenges for team collaboration."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., while, although)",
+        "Maintain Simple Past throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While remote work offered employees greater flexibility during the pandemic, it also created new challenges for team collaboration.",
+      "requiredIdeas": [
+        "remote work offering flexibility",
+        "creating challenges for collaboration"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but",
+        "didn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "While + S + V-ed + O, S + V-ed + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'while' để cân bằng giữa lợi ích trước đây và thách thức trong quá khứ khi làm việc từ xa trong một câu trang trọng.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày quan điểm lịch sử mang nhiều sắc thái về tác động của công việc từ xa trong thời kỳ đại dịch.",
+      "bandTip": "'While … V-ed, it also V-ed' là mẫu ngắn gọn cho các đoạn nội dung cân đối - đặc trưng của cách viết Band 6.5–7.",
+      "commonMistake": "Không viết 'While … , but it …' - 'while' và 'but' dư thừa về mặt ngữ pháp khi sử dụng cùng nhau."
+    },
+    "reusablePattern": "While remote work offered employees greater flexibility during the pandemic, it also created new challenges for team collaboration."
+  },
+  {
+    "id": "spt-speak-env-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past environmental event or change you witnessed"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "Describe a time when you noticed or learned about an environmental problem in the past."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "A few years ago, I read about a major oil spill in the ocean that killed thousands of marine animals. It happened off the coast of a country in Southeast Asia, and the damage lasted for years. That event made me realise how serious the impact of pollution could be, and it motivated me to become more environmentally conscious.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past environmental event or experience"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "I + V-ed or subject + V-ed (past tense verbs)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'A few years ago, I learned / noticed / read about …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả rõ ràng một sự kiện môi trường trong quá khứ bằng cách sử dụng động từ Simple Past.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi được yêu cầu mô tả một trải nghiệm hoặc sự kiện trong quá khứ liên quan đến môi trường.",
+      "bandTip": "Bao gồm phản ứng cá nhân — 'That event made me realise …' — làm cho câu trả lời Part 2 của bạn hấp dẫn và phát triển hơn.",
+      "commonMistake": "Đừng kết hợp các thì một cách không cần thiết - nếu bạn đang mô tả một sự kiện trong quá khứ, hãy duy trì Simple Past trong suốt câu chuyện."
+    },
+    "reusablePattern": "A few years ago, I read about a major oil spill that killed thousands of marine animals and lasted for years."
+  },
+  {
+    "id": "spt-speak-env-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what past generations did to cause environmental problems"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "What did past generations do that contributed to today's environmental problems?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I think past generations relied heavily on fossil fuels for energy and transport, and they did not seriously consider the environmental consequences of their choices. Industries also released vast amounts of pollution into the air and water without adequate regulation. These decisions created the environmental crisis we face today.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past action that contributed to current environmental problems"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "subject + V-ed / subject + did not + V"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I think past generations relied on … and did not …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã phân tích hành vi trong quá khứ bằng cách sử dụng Simple Past trong một phản hồi chính thức và có tính xây dựng.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về trách nhiệm lịch sử đối với những thách thức môi trường hiện tại.",
+      "bandTip": "Liên kết các hành động trong quá khứ với hậu quả hiện tại - 'These decisions created the crisis we face today' - thể hiện khả năng phân tích có giá trị ở Band 6+.",
+      "commonMistake": "Không sử dụng thì Hiện tại để mô tả các hành động trong lịch sử - duy trì Simple Past khi đề cập đến hành vi đã hoàn thành trong quá khứ."
+    },
+    "reusablePattern": "Past generations relied heavily on fossil fuels and did not consider the environmental consequences of their choices."
+  },
+  {
+    "id": "spt-speak-tech-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past experience with technology"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "Describe a time when technology helped you solve a problem or learn something new."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "A couple of years ago, I used online learning platforms to study for my university entrance exam. I watched video lectures, completed practice tests, and searched for explanations of difficult concepts. The technology saved me a lot of time and helped me achieve a much higher score than I expected.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past experience in which technology was helpful"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "I + V-ed / subject + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'A few years ago, I used / discovered / learned …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã thuật lại một cách rõ ràng trải nghiệm trong quá khứ với công nghệ bằng cách sử dụng Simple Past.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi giám khảo yêu cầu bạn mô tả trải nghiệm trong quá khứ liên quan đến công nghệ.",
+      "bandTip": "Bao gồm một kết quả cụ thể — 'I achieved a much higher score than I expected' — phát triển câu trả lời Part 2 của bạn lên cấp độ Band 6+.",
+      "commonMistake": "Đừng nói 'I am using technology to…' khi mô tả một sự kiện đã hoàn thành trong quá khứ - hãy sử dụng Simple Past xuyên suốt."
+    },
+    "reusablePattern": "A couple of years ago, I used online learning platforms to study for my exam and achieved a higher score than expected."
+  },
+  {
+    "id": "spt-speak-tech-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how technology changed society in the past"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "How did the invention of the smartphone change the way people communicated?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "The smartphone fundamentally transformed how people interacted with each other. It allowed people to send messages, make video calls, and access the internet from anywhere in the world. This dramatically reduced the barriers to communication and connected billions of people who previously had no reliable means of staying in touch.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific way the smartphone changed communication",
+        "a consequence or impact"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "subject + V-ed (past completed actions)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'The smartphone fundamentally changed / allowed people to …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã đưa ra câu trả lời rõ ràng, có tính xây dựng về cách công nghệ đã thay đổi hoạt động giao tiếp bằng cách sử dụng Simple Past.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về cách một phát minh hoặc công nghệ trong quá khứ đã thay đổi xã hội.",
+      "bandTip": "Đối với Band 6.5+, hãy thêm một so sánh: 'Before smartphones, people relied on …, but the device changed all of that.'",
+      "commonMistake": "Không sử dụng Hiện tại đơn khi mô tả những thay đổi lịch sử đã hoàn thành - sử dụng Simple Past cho các sự kiện hoàn toàn nằm trong quá khứ."
+    },
+    "reusablePattern": "The smartphone fundamentally transformed how people communicated and allowed billions to stay connected globally."
+  },
+  {
+    "id": "spt-speak-edu-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a memorable past learning experience"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "Describe a teacher or lesson that had a positive impact on you in the past."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "When I was in secondary school, I had a science teacher who genuinely inspired me. She explained complex concepts in a simple and engaging way, and she always encouraged us to ask questions. Her enthusiasm for the subject motivated me to study harder, and I eventually chose to study biology at university because of her influence.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past educational experience or teacher",
+        "its impact"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "subject + V-ed (past narrative verbs)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'When I was in school, I had a teacher who …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả trải nghiệm học tập trong quá khứ bằng cách tường thuật rõ ràng bằng cách sử dụng Simple Past.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi thẻ chủ đề hỏi về một giáo viên đáng nhớ hoặc trải nghiệm giáo dục.",
+      "bandTip": "Việc mô tả cả hành vi cụ thể — 'she explained', 'she encouraged' — và tác dụng lâu dài của nó làm cho câu trả lời Part 2 của bạn trở nên đầy đủ hơn.",
+      "commonMistake": "Không chuyển sang thì Hiện tại ở giữa câu chuyện quá khứ - giữ tất cả các động từ ở Simple Past để duy trì sự mạch lạc."
+    },
+    "reusablePattern": "When I was in school, I had a teacher who inspired me by explaining concepts clearly and encouraging us to ask questions."
+  },
+  {
+    "id": "spt-speak-edu-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how education systems changed in the past"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "How did education change in your country over the last few decades?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "Over the past few decades, education in my country changed significantly. The government introduced compulsory schooling for more years, invested heavily in school infrastructure, and made university education more accessible through scholarship programmes. These changes produced a much more educated workforce and contributed to the country's economic development.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past change in education",
+        "its impact or outcome"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "subject + V-ed (completed past changes)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'Over the past few decades, the government introduced / changed …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả những thay đổi trong quá khứ trong giáo dục một cách rõ ràng Simple Past và một kết quả hợp lý.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi giám khảo hỏi về lịch sử phát triển giáo dục ở đất nước bạn.",
+      "bandTip": "Liệt kê nhiều thay đổi — 'introduced … , invested … , and made …' — hiển thị phạm vi và phát triển câu trả lời Part 3 của bạn một cách hiệu quả.",
+      "commonMistake": "Không sử dụng Present Perfect cho những thay đổi đã hoàn thành cụ thể trong một khoảng thời gian đã xác định trước đó - Simple Past là lựa chọn chính xác."
+    },
+    "reusablePattern": "Over the past few decades, the government introduced compulsory schooling, invested in infrastructure, and made university more accessible."
+  },
+  {
+    "id": "spt-speak-health-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past health-related experience"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "Describe a time when you changed your lifestyle to improve your health."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "About two years ago, I decided to change my diet after I realised I was eating too much processed food. I stopped buying fast food and started cooking my own meals at home using fresh ingredients. Within a few months, I noticed a significant improvement in my energy levels and overall well-being.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past health change",
+        "an outcome or result"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "I + V-ed (past narrative verbs)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'About two years ago, I decided to change / stop / start …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã thuật lại một cách rõ ràng sự thay đổi về sức khỏe cá nhân bằng cách sử dụng động từ Simple Past xuyên suốt.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi được yêu cầu mô tả trải nghiệm cá nhân trong quá khứ liên quan đến sức khỏe.",
+      "bandTip": "Bao gồm điểm đánh dấu thời gian — 'within a few months', 'after several weeks' — và một kết quả cụ thể sẽ làm cho câu trả lời Part 2 của bạn được phát triển đầy đủ hơn.",
+      "commonMistake": "Không nói 'I am stopping' hoặc 'I am starting' khi mô tả một thay đổi đã hoàn thành trong quá khứ - hãy sử dụng Simple Past."
+    },
+    "reusablePattern": "About two years ago, I decided to change my diet, stopped buying fast food, and started cooking fresh meals at home."
+  },
+  {
+    "id": "spt-speak-health-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how public health improved in the past"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "How did improvements in public health in the 20th century benefit people's lives?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "In the 20th century, advances in medicine and public health transformed people's lives enormously. Vaccines eliminated many deadly diseases, clean water programmes reduced the spread of infection, and improvements in nutrition raised the overall quality of life. As a result, life expectancy rose dramatically in most parts of the world.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past public health improvement",
+        "its impact on people's lives"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "subject + V-ed (past completed improvements)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'In the 20th century, advances in medicine transformed / reduced / raised …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã đưa ra phản hồi mang tính phân tích, được phát triển về những cải thiện sức khỏe cộng đồng trong quá khứ bằng cách sử dụng Simple Past.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về vai trò lịch sử của y học hoặc chính phủ trong việc cải thiện kết quả sức khỏe.",
+      "bandTip": "Đưa ra nhiều ví dụ cụ thể - vắc xin, nước sạch, dinh dưỡng - và kết quả cuối cùng cho thấy phạm vi có giá trị là Band 6.5+.",
+      "commonMistake": "Không sử dụng Present Perfect khi đề cập đến các sự kiện đã hoàn thành của thế kỷ 20 - Simple Past là lựa chọn chính xác cho một khoảng thời gian xác định trong quá khứ."
+    },
+    "reusablePattern": "In the 20th century, vaccines eliminated many deadly diseases and life expectancy rose dramatically across the world."
+  },
+  {
+    "id": "spt-speak-work-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a past work experience"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "Describe a job or work experience you had in the past and what you learned from it."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "A few years ago, I worked as a part-time sales assistant at a local shop. The job taught me how to communicate effectively with customers, manage my time efficiently, and stay calm under pressure. Although the pay was not high, the experience gave me valuable practical skills that I still use in my professional life today.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past job or work experience",
+        "a lesson or outcome"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "I + V-ed / subject + V-ed (past narrative verbs)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'A few years ago, I worked as a … and learned …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả một cách trôi chảy kinh nghiệm làm việc trong quá khứ bằng cách sử dụng Simple Past xuyên suốt.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi được yêu cầu mô tả công việc hoặc kinh nghiệm làm việc trong quá khứ.",
+      "bandTip": "Bao gồm cả những gì bạn đã làm - 'managed', 'communicated', 'stayed calm' - và những gì bạn đạt được từ nó sẽ phát triển câu trả lời Part 2 cho cấp độ Band 6+.",
+      "commonMistake": "Không mô tả công việc ở thì Hiện tại - khi nói về trải nghiệm trong quá khứ, hãy sử dụng Simple Past một cách nhất quán."
+    },
+    "reusablePattern": "A few years ago, I worked as a sales assistant and learned how to communicate effectively with customers."
+  },
+  {
+    "id": "spt-speak-work-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how work patterns changed in the past"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Past.",
+      "cue": "How did working conditions change for employees over the 20th century?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "During the 20th century, working conditions improved enormously in many countries. Governments introduced minimum wage laws, regulated working hours, and provided workers with legal protections against unfair dismissal. These reforms transformed employment from often dangerous, low-paid labour into a more structured and protected relationship between employers and employees.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past change in working conditions",
+        "its impact on workers"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "requiredStructure": "subject + V-ed (past completed changes)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'During the 20th century, governments introduced / improved / regulated …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả một cách phân tích những thay đổi lịch sử trong điều kiện làm việc bằng cách sử dụng Simple Past.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về sự phát triển của luật lao động hoặc điều kiện làm việc trong lịch sử.",
+      "bandTip": "Việc liệt kê ba thay đổi cụ thể trong quá khứ - mức lương tối thiểu, số giờ quy định, các biện pháp bảo vệ pháp lý - và liên kết chúng với một kết quả rộng hơn cho thấy phạm vi phân tích Band 6.5+.",
+      "commonMistake": "Không sử dụng Present Perfect cho một giai đoạn lịch sử đã hoàn thành đầy đủ như 'the 20th century' - luôn sử dụng Simple Past."
+    },
+    "reusablePattern": "During the 20th century, governments introduced minimum wage laws, regulated working hours, and protected workers legally."
+  },
+  {
+    "id": "spt-master-env-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about the historical causes of environmental degradation"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express the main way in which industrialisation in the past contributed to environmental damage.",
+      "constraints": [
+        "Use Simple Past",
+        "Include a cause and its environmental consequence",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Rapid industrialisation in the 20th century generated unprecedented levels of carbon emissions, which accelerated environmental degradation across the globe.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "industrialisation or past human activity",
+        "environmental damage or carbon emissions"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O, which + V-ed + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã đưa ra một câu ngắn gọn, trang trọng thể hiện nguyên nhân lịch sử và hậu quả môi trường của nó.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong các đoạn nội dung Writing Task 2 thảo luận về nguồn gốc lịch sử của các vấn đề môi trường.",
+      "bandTip": "Mẫu 'S + V-ed + O, which + V-ed + O' duy trì tính nhất quán căng thẳng trong Simple Past - tín hiệu Band 6–7 kiểm soát ngữ pháp.",
+      "commonMistake": "Không viết 'generated … which accelerates' - cả hai động từ phải ở Simple Past để duy trì tính nhất quán căng thẳng xuyên suốt."
+    },
+    "reusablePattern": "Rapid industrialisation in the 20th century generated unprecedented levels of carbon emissions, which accelerated environmental degradation across the globe."
+  },
+  {
+    "id": "spt-master-tech-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about the historical impact of the digital revolution on employment"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how the digital revolution both created and destroyed jobs in the late 20th century.",
+      "constraints": [
+        "Use Simple Past",
+        "Include both a positive and a negative employment impact",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The digital revolution created entirely new categories of employment in the technology sector while simultaneously eliminating millions of traditional clerical and manufacturing roles.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "the digital revolution creating new jobs",
+        "eliminating traditional jobs"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O + while + V-ing + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Tuyệt vời — bạn đã nắm bắt được cả hai khía cạnh tác động đến việc làm của cuộc cách mạng kỹ thuật số trong một câu trang trọng, cân bằng.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi trình bày quan điểm cân bằng về mặt lịch sử về công nghệ và việc làm.",
+      "bandTip": "Sử dụng 'while simultaneously + V-ing' để cân bằng hai tác động tương phản trong quá khứ trong một câu là đặc điểm nổi bật của văn bản học thuật Band 7.",
+      "commonMistake": "Đừng viết hai câu riêng biệt - việc kết hợp các tác động tương phản trong một câu sẽ thể hiện phạm vi ngữ pháp cao hơn."
+    },
+    "reusablePattern": "The digital revolution created entirely new categories of employment while simultaneously eliminating millions of traditional clerical and manufacturing roles."
+  },
+  {
+    "id": "spt-master-edu-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about how past education systems shaped economic development"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how the expansion of public education in the past shaped economic outcomes, acknowledging both benefits and limitations.",
+      "constraints": [
+        "Use Simple Past",
+        "Mention both a benefit and a limitation",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The rapid expansion of public education in the post-war era equipped large populations with foundational skills, although it did not always produce the critical thinkers that a modern economy requires.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "public education providing skills or benefits",
+        "a past limitation in educational quality or focus"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O + although + S + did not + V + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã viết một câu chủ đề có sắc thái thừa nhận cả lợi ích trong quá khứ và hạn chế lịch sử của giáo dục công.",
+      "ieltsUsage": "Hữu ích như một câu luận điểm hoặc câu chủ đề trong các bài tiểu luận Writing Task 2 về vai trò lịch sử của giáo dục đối với sự phát triển kinh tế.",
+      "bandTip": "Việc thêm 'although it did not' để thừa nhận một hạn chế là một cấu trúc học thuật phức tạp thể hiện tư duy Band 7.",
+      "commonMistake": "Không viết 'did not always produces' - sau 'did not', động từ phải ở dạng cơ bản: 'produce', không phải 'produces'."
+    },
+    "reusablePattern": "The rapid expansion of public education in the post-war era equipped large populations with foundational skills, although it did not always produce the critical thinkers a modern economy requires."
+  },
+  {
+    "id": "spt-master-health-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about the historical drivers of lifestyle disease"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express what historical developments in food production and urbanisation contributed to the rise of chronic diseases.",
+      "constraints": [
+        "Use Simple Past",
+        "Include both a past cause and its health consequence",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The industrialisation of food production and rapid urbanisation in the 20th century radically altered dietary habits, which contributed directly to the rising prevalence of obesity and cardiovascular disease.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "past changes in food production or urbanisation",
+        "rise in chronic or lifestyle diseases"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O, which + V-ed + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Tuyệt vời - bạn đã liên kết những thay đổi cơ cấu trong quá khứ trong xã hội với những hậu quả về sức khỏe chỉ bằng một câu chính xác.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi thảo luận về nguyên nhân lịch sử của việc gia tăng bệnh mãn tính.",
+      "bandTip": "Các cụm danh từ phức tạp như 'the industrialisation of food production' làm chủ ngữ báo hiệu cách xây dựng câu Band 7.",
+      "commonMistake": "Đừng viết 'the industrialisation … alter' - một chủ đề danh động từ như 'the industrialisation of food production' là số ít và yêu cầu 'altered'."
+    },
+    "reusablePattern": "The industrialisation of food production and rapid urbanisation radically altered dietary habits, which contributed directly to the rising prevalence of obesity and cardiovascular disease."
+  },
+  {
+    "id": "spt-master-work-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about historical changes in employment and their social impact"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how the decline of manufacturing jobs in the late 20th century affected communities and workers.",
+      "constraints": [
+        "Use Simple Past",
+        "Include a cause and a social or economic consequence",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The rapid decline of manufacturing employment in the late 20th century devastated working-class communities, which struggled for decades to recover from the loss of economic stability and social cohesion.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "decline of manufacturing jobs",
+        "impact on communities or workers"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple past",
+      "pattern": "S + V-ed + O, which + V-ed + prepositional phrase"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã thể hiện mối quan hệ nhân quả lịch sử về việc làm và tác động đến cộng đồng bằng một câu trang trọng.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi tranh luận về những tác động xã hội lâu dài của sự thay đổi kinh tế.",
+      "bandTip": "Động từ 'devastated' mạnh hơn và gợi nhiều liên tưởng hơn 'affected' hoặc 'hurt' — sử dụng động từ chính xác, có tác động mạnh sẽ nâng cao điểm từ vựng của bạn.",
+      "commonMistake": "Đừng viết 'the decline … devastate' - 'the rapid decline' là một cụm danh từ số ít và yêu cầu 'devastated', không phải dạng cơ bản."
+    },
+    "reusablePattern": "The rapid decline of manufacturing employment in the late 20th century devastated working-class communities, which struggled for decades to recover."
+  }
+]

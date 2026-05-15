@@ -143,7 +143,7 @@ export default function PassageViewer({
               borderRadius: 3,
               padding: "0 2px",
             }}
-            title={`${seg.fb.status === "MISSED" ? "Missed" : "Found"}: ${seg.fb.correctText}`}
+            title={`${seg.fb.status === "MISSED" ? "Bỏ sót" : "Tìm đúng"}: ${seg.fb.correctText}`}
           >
             {seg.fb.errorText}
           </mark>

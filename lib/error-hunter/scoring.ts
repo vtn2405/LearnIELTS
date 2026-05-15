@@ -54,22 +54,30 @@ export function computeFixAccuracy(
 }
 
 /**
- * IoU-based overlap check between a user selection and a ground-truth error.
- * Returns true if the intersection / union length ratio ≥ threshold (default 0.5).
+ * Containment-aware overlap check between a user selection and a ground-truth error.
+ *
+ * Uses overlap / min(selLen, errLen) instead of IoU (overlap / union).
+ * Rationale: learners often highlight only the *erroneous word* (e.g. "explain")
+ * rather than the full error phrase (e.g. "Our teacher always explain things").
+ * With pure IoU that selection would score < 0.5 and be wrongly flagged as a
+ * false alarm. Containment ratio rewards precise sub-span selections correctly.
+ *
+ * A selection is considered a match when:
+ *   overlap_chars / min(selection_length, error_length) ≥ threshold (default 0.5)
  */
 export function selectionOverlapsError(
   sel: { startIndex: number; endIndex: number },
   err: { startIndex: number; endIndex: number },
-  iouThreshold = 0.5
+  containmentThreshold = 0.5
 ): boolean {
   const overlapStart = Math.max(sel.startIndex, err.startIndex);
-  const overlapEnd = Math.min(sel.endIndex, err.endIndex);
+  const overlapEnd   = Math.min(sel.endIndex,   err.endIndex);
   if (overlapStart >= overlapEnd) return false;
 
   const overlapLen = overlapEnd - overlapStart;
-  const unionLen =
-    Math.max(sel.endIndex, err.endIndex) -
-    Math.min(sel.startIndex, err.startIndex);
+  const selLen     = sel.endIndex - sel.startIndex;
+  const errLen     = err.endIndex - err.startIndex;
 
-  return overlapLen / unionLen >= iouThreshold;
+  // Use the shorter span as denominator so sub-span selections are rewarded
+  return overlapLen / Math.min(selLen, errLen) >= containmentThreshold;
 }

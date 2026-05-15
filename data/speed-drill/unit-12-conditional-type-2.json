@@ -1,0 +1,2494 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-12-conditional-type-2",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-12-conditional-type-2",
+    "version": "4.0",
+    "grammar_point": "Conditional Type 2",
+    "subtitle_vi": "Câu điều kiện loại 2",
+    "topic_vocabulary": "Global Issues",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 13: Conditional Sentences — Type 2",
+      "unit_json_ref": "unit-12-conditional-type-2.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "cond2_form",
+      "cond2_result",
+      "cond2_were",
+      "cond2_could",
+      "cond2_would_in_if"
+    ],
+    "common_vietnamese_errors": [
+      "cond2_form_error",
+      "cond2_will_in_result",
+      "cond2_was_were",
+      "cond2_tense_mix",
+      "cond2_would_in_if"
+    ],
+    "ielts_band_target": {
+      "min": 5.5,
+      "max": 6.5
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-12-conditional-type-2",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "6.0–6.5",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 7.0 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.5 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If I ___ more money, I would donate to environmental charities.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "having"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "explanation_short": "Conditional Type 2: If + Past Simple (had).",
+          "explanation_long": "Type 2: If + Past Simple, would + V. Giả định không thực tế ở hiện tại.",
+          "feedback_correct": "⚡ Type 2: If + Past → had",
+          "feedback_wrong": "If + Past Simple, would + V.",
+          "ielts_tip": "Type 2: If + V2, would + V = unreal present.",
+          "distractor_note": "obvious: have (Present = Type 1), has (sai)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_result",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If governments invested more in education, poverty ___ decrease.",
+          "options": [
+            "would",
+            "will",
+            "does",
+            "is"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "Conditional Type 2: kết quả dùng would + V.",
+          "explanation_long": "Type 2: If + Past → would + V (kết quả).",
+          "feedback_correct": "🔥 Type 2: kết quả → would decrease",
+          "feedback_wrong": "If + Past, would + V.",
+          "ielts_tip": "Type 2: would + V = kết quả không thực tế.",
+          "distractor_note": "obvious: will (Type 1)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_were",
+          "error_tag": "cond2_was_were",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If he ___ the president, he would address climate change immediately.",
+          "options": [
+            "were",
+            "was",
+            "is",
+            "be"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "explanation_short": "Conditional Type 2: If + were (cho tất cả ngôi).",
+          "explanation_long": "Type 2 formal: If I/he/she/it WERE (subjunctive). 'Was' = informal.",
+          "feedback_correct": "⚡ Type 2 formal: If he WERE",
+          "feedback_wrong": "If + were (subjunctive).",
+          "ielts_tip": "Type 2 formal: were cho mọi ngôi. If I were / If he were.",
+          "distractor_note": "obvious: is (Type 1), be (sai)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If every country ___ renewable energy, global warming would slow down.",
+          "options": [
+            "used",
+            "uses",
+            "use",
+            "will use"
+          ],
+          "correct_answer": "used",
+          "correct_index": 0,
+          "explanation_short": "If + Past Simple: used.",
+          "explanation_long": "Type 2: If + used (Past Simple), would + V.",
+          "feedback_correct": "🔥 Type 2: If + Past: used",
+          "feedback_wrong": "If + V2, would + V.",
+          "ielts_tip": "If + V2 (Past), would + V.",
+          "distractor_note": "obvious: uses (Present = Type 1), will use (Type 1)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_result",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If there ___ no poverty, everyone would have access to education.",
+          "options": [
+            "were",
+            "is",
+            "was",
+            "are"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "explanation_short": "If + were: If there were no poverty.",
+          "explanation_long": "Type 2: If there were (subjunctive) = giả định không thực tế.",
+          "feedback_correct": "⚡ If there were = giả định",
+          "feedback_wrong": "If there were = subjunctive.",
+          "ielts_tip": "If there were = Type 2 (unreal present).",
+          "distractor_note": "obvious: is (Type 1), are (sai)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If I ___ the mayor, I would build more parks.",
+          "options": [
+            "were",
+            "am",
+            "will be",
+            "was being"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "explanation_short": "Type 2: If I were (subjunctive).",
+          "explanation_long": "If I were = giả định (tôi không phải là thị trưởng).",
+          "feedback_correct": "🔥 Type 2: If I were",
+          "feedback_wrong": "If I were = subjunctive.",
+          "ielts_tip": "If I were = Band 6.0+ grammar.",
+          "distractor_note": "obvious: am (Type 1)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_result",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If clean water were available to everyone, fewer people ___ from diseases.",
+          "options": [
+            "would suffer",
+            "will suffer",
+            "suffer",
+            "suffered"
+          ],
+          "correct_answer": "would suffer",
+          "correct_index": 0,
+          "explanation_short": "If + were → would + V.",
+          "explanation_long": "Type 2: If + were, would + V.",
+          "feedback_correct": "⚡ Type 2: would suffer",
+          "feedback_wrong": "If + were, would + V.",
+          "ielts_tip": "If + were, would + V = Type 2.",
+          "distractor_note": "obvious: will suffer (Type 1), suffered (Past)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the world ___ together, we could solve global hunger.",
+          "options": [
+            "worked",
+            "works",
+            "work",
+            "will work"
+          ],
+          "correct_answer": "worked",
+          "correct_index": 0,
+          "explanation_short": "Type 2: If + Past Simple: worked.",
+          "explanation_long": "If + worked (Past), could + V. 'Could' = would be able to.",
+          "feedback_correct": "🔥 Type 2: If + Past: worked",
+          "feedback_wrong": "If + V2, could + V.",
+          "ielts_tip": "could = would be able to. Variant of Type 2.",
+          "distractor_note": "obvious: works (Type 1)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_will_in_result",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If I had more free time, I will volunteer for environmental projects.'",
+          "options": [
+            "Sai: will → would (Type 2 dùng would)",
+            "Câu đúng không có lỗi",
+            "Sai: had → have",
+            "Sai: volunteer → volunteering"
+          ],
+          "correct_answer": "Sai: will → would (Type 2 dùng would)",
+          "correct_index": 0,
+          "explanation_short": "If + had (Past) → would (không will). Type 2.",
+          "explanation_long": "Type 2: If + Past → would + V. 'Will' = Type 1 → sai khi if-clause dùng Past.",
+          "feedback_correct": "🎯 Type 2: would (không will)",
+          "feedback_wrong": "If + Past → would. If + Present → will.",
+          "ielts_tip": "Type 2: would. Type 1: will.",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If every person ___ one tree a year, it would make a huge difference.",
+          "options": [
+            "planted",
+            "plants",
+            "plant",
+            "will plant"
+          ],
+          "correct_answer": "planted",
+          "correct_index": 0,
+          "explanation_short": "Type 2: If + Past Simple: planted.",
+          "explanation_long": "If + planted (Past), would + V.",
+          "feedback_correct": "⚡ Type 2: If + Past: planted",
+          "feedback_wrong": "If + V2, would + V.",
+          "ielts_tip": "Type 2: If + V2, would + V.",
+          "distractor_note": "obvious: plants (Type 1)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If developing nations had better infrastructure, their economies ___ grow much faster.",
+          "options": [
+            "would",
+            "will",
+            "do",
+            "are"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "If + had (Past) → would grow.",
+          "explanation_long": "Type 2: If + Past, would + V.",
+          "feedback_correct": "🔥 Type 2: would grow",
+          "feedback_wrong": "If + Past, would + V.",
+          "ielts_tip": "If + V2, would + V.",
+          "distractor_note": "plausible: will (Type 1, gần đúng)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_were",
+          "error_tag": "cond2_was_were",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the Earth ___ closer to the sun, life as we know it would not exist.",
+          "options": [
+            "were",
+            "was",
+            "is",
+            "be"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "explanation_short": "Type 2 formal: If the Earth were (subjunctive).",
+          "explanation_long": "Formal/academic English: were cho mọi ngôi trong Type 2.",
+          "feedback_correct": "⚡ Type 2 formal: were (subjunctive)",
+          "feedback_wrong": "If + were = formal Type 2.",
+          "ielts_tip": "Academic: If + were. Informal: If + was. IELTS: dùng were.",
+          "distractor_note": "plausible: was (informal OK nhưng were chuẩn hơn)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If international aid ___ distributed more fairly, fewer countries would suffer from extreme poverty.",
+          "options": [
+            "were",
+            "is",
+            "was",
+            "will be"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "explanation_short": "Type 2 + passive: were distributed (subjunctive).",
+          "explanation_long": "If + were distributed (Type 2 passive), would + V.",
+          "feedback_correct": "🔥 Type 2 passive: were distributed",
+          "feedback_wrong": "If + were + V3 (passive Type 2).",
+          "ielts_tip": "If + were + V3, would + V = Type 2 passive.",
+          "distractor_note": "plausible: was (informal)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_will_in_result",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If every nation reduced its carbon footprint, the world will be a healthier place.'",
+          "options": [
+            "Sai: will → would (Type 2: Past → would)",
+            "Câu đúng không có lỗi",
+            "Sai: its → their",
+            "Sai: healthier → more healthy"
+          ],
+          "correct_answer": "Sai: will → would (Type 2: Past → would)",
+          "correct_index": 0,
+          "explanation_short": "If + reduced (Past) → would (không will).",
+          "explanation_long": "Type 2: If + Past → would. 'Will' = Type 1 → mismatch.",
+          "feedback_correct": "🎯 If + Past → would, not will",
+          "feedback_wrong": "If + Past → would. Not will.",
+          "ielts_tip": "Type 2: would. Type 1: will. Không trộn.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_could",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If governments banned single-use plastics, consumers ___ easily find alternatives.",
+          "options": [
+            "could",
+            "can",
+            "will",
+            "would can"
+          ],
+          "correct_answer": "could",
+          "correct_index": 0,
+          "explanation_short": "If + banned (Past) → could (= would be able to).",
+          "explanation_long": "Type 2: could = would be able to.",
+          "feedback_correct": "⚡ Type 2: could find",
+          "feedback_wrong": "If + Past, could + V.",
+          "ielts_tip": "could = would be able to (Type 2 variant).",
+          "distractor_note": "plausible: can (Type 1)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If I am the CEO, I would implement green policies immediately.'",
+          "options": [
+            "Sai: am → were (Type 2 cần Past/subjunctive)",
+            "Câu đúng không có lỗi",
+            "Sai: implement → implementing",
+            "Sai: immediately → immediate"
+          ],
+          "correct_answer": "Sai: am → were (Type 2 cần Past/subjunctive)",
+          "correct_index": 0,
+          "explanation_short": "would → Type 2 → if-clause cần Past/subjunctive: were.",
+          "explanation_long": "If I WERE (subjunctive) = giả định, không thực tế. 'Am' = present/real → sai.",
+          "feedback_correct": "🔥 Type 2: If I were (không am)",
+          "feedback_wrong": "If I were = Type 2. If I am = Type 1.",
+          "ielts_tip": "If I were = unreal. If I am = real.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If there ___ no wars in the world, billions of dollars could be spent on healthcare.",
+          "options": [
+            "were",
+            "are",
+            "is",
+            "was"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "explanation_short": "Type 2: If there were = giả định.",
+          "explanation_long": "If there were (subjunctive), could + V.",
+          "feedback_correct": "⚡ If there were = subjunctive",
+          "feedback_wrong": "If there were = unreal present.",
+          "ielts_tip": "If there were + could/would = Type 2.",
+          "distractor_note": "plausible: was (informal)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_tense_mix",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If global leaders cooperated, emissions would decrease and the climate improves.'",
+          "options": [
+            "Sai: improves → would improve (cần would trong kết quả)",
+            "Câu đúng không có lỗi",
+            "Sai: cooperated → cooperate",
+            "Sai: decrease → decreased"
+          ],
+          "correct_answer": "Sai: improves → would improve (cần would trong kết quả)",
+          "correct_index": 0,
+          "explanation_short": "If + Past → would decrease AND would improve. 'Improves' = Present → sai.",
+          "explanation_long": "Type 2: tất cả kết quả dùng would. 'Improves' = Present → inconsistent.",
+          "feedback_correct": "🎯 Type 2: would cho mọi kết quả",
+          "feedback_wrong": "If + Past, would + V and would + V.",
+          "ielts_tip": "Type 2: nhất quán would cho mọi kết quả.",
+          "distractor_note": "plausible: option C bẫy"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If clean energy ___ more affordable, more people would use it.",
+          "options": [
+            "were",
+            "is",
+            "was",
+            "will be"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "explanation_short": "Type 2: If + were (subjunctive): were more affordable.",
+          "explanation_long": "If + were, would + V. 'Were' = subjunctive.",
+          "feedback_correct": "🔥 Type 2: were more affordable",
+          "feedback_wrong": "If + were, would + V.",
+          "ielts_tip": "If + were, would/could + V = Type 2.",
+          "distractor_note": "plausible: was (informal)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If all countries ___ their promise to reduce emissions, we would see significant improvements.",
+          "options": [
+            "kept",
+            "keep",
+            "keeps",
+            "will keep"
+          ],
+          "correct_answer": "kept",
+          "correct_index": 0,
+          "explanation_short": "Type 2: If + Past Simple: kept.",
+          "explanation_long": "If + kept (Past), would + V.",
+          "feedback_correct": "⚡ Type 2: If + Past: kept",
+          "feedback_wrong": "If + V2, would + V.",
+          "ielts_tip": "keep-kept-kept. If + V2.",
+          "distractor_note": "plausible: keep (Type 1)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_will_in_result",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If developing countries had more resources, they will be able to provide better healthcare for their citizens.'",
+          "options": [
+            "If developing countries had more resources",
+            "they will be able to provide",
+            "better healthcare",
+            "for their citizens"
+          ],
+          "correct_answer": "they will be able to provide",
+          "correct_index": 1,
+          "explanation_short": "If + had (Past) → would (không will). Type 2.",
+          "explanation_long": "Lớp 1: 'had' = Past → Type 2 → 'would be able to' (không 'will be able to'). Lớp 2: 'will' chỉ dùng trong Type 1.",
+          "feedback_correct": "🔥 Type 2: would be able to (không will)!",
+          "feedback_wrong": "If + Past → would. Not will.",
+          "ielts_tip": "If + V2, would + V. Not will.",
+          "distractor_note": "near-correct: option A (had) đúng cho Type 2",
+          "layers": [
+            "Type 2 result clause",
+            "will vs would",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If the government invested in renewable energy",
+            " pollution levels would decrease significantly.",
+            "If the government invests in renewable energy",
+            " pollution levels would decrease.",
+            "If the government invested in renewable energy",
+            " pollution levels will decrease.",
+            "If the government would invest in renewable energy",
+            " pollution levels would decrease."
+          ],
+          "correct_answer": "If the government invested in renewable energy, pollution levels would decrease significantly.",
+          "correct_index": 0,
+          "explanation_short": "If + invested (Past) + would decrease = Type 2 chuẩn.",
+          "explanation_long": "Lớp 1: 'invested' + 'would decrease' = Type 2 nhất quán. Lớp 2: Option B trộn Present + would. Option C trộn Past + will. Option D dùng would trong if-clause.",
+          "feedback_correct": "🏆 If + invested, would decrease = chuẩn!",
+          "feedback_wrong": "If + Past, would + V. Nhất quán.",
+          "ielts_tip": "Type 2: If + V2, would + V. Không trộn thì.",
+          "distractor_note": "near-correct: option C trộn Past + will",
+          "layers": [
+            "Type 2 consistency",
+            "tense matching",
+            "Task 2"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond2_were",
+          "error_tag": "cond2_was_were",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If every citizen was committed to recycling, and if the government was to provide better facilities, waste could be reduced by 50%.'",
+          "options": [
+            "If every citizen was committed",
+            "to recycling and if the",
+            "government was to provide",
+            "better facilities waste could be reduced"
+          ],
+          "correct_answer": "If every citizen was committed",
+          "correct_index": 0,
+          "explanation_short": "Academic: If + were (subjunctive): were committed.",
+          "explanation_long": "Lớp 1: Academic English: 'was committed' → 'were committed' (subjunctive). Lớp 2: 'was to provide' → 'were to provide'. Cả A và C dùng 'was' → nên dùng 'were'.",
+          "feedback_correct": "🔥 Academic: were committed (subjunctive)!",
+          "feedback_wrong": "Type 2 academic: were (not was).",
+          "ielts_tip": "IELTS Writing: dùng were, không was, trong Type 2.",
+          "distractor_note": "near-correct: option C (was to provide → were to provide) cũng cần sửa",
+          "layers": [
+            "subjunctive were",
+            "academic register",
+            "double error"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_tense_mix",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT phân biệt Type 1 và Type 2:",
+          "options": [
+            "If we solve poverty (possible)",
+            " more children will go to school. / If we solved poverty (unlikely)",
+            " all children would go to school.",
+            "If we solve poverty",
+            " children would go to school. / If we solved poverty",
+            " children will go to school.",
+            "If we will solve poverty",
+            " children go to school. / If we solved poverty",
+            " children would go to school.",
+            "If we solve poverty",
+            " children go to school. / If we would solve poverty",
+            " children will go."
+          ],
+          "correct_answer": "If we solve poverty (possible), more children will go to school. / If we solved poverty (unlikely), all children would go to school.",
+          "correct_index": 0,
+          "explanation_short": "Type 1: If + Present, will + V. Type 2: If + Past, would + V.",
+          "explanation_long": "Lớp 1: Type 1 = possible → If + solve + will go. Type 2 = unlikely → If + solved + would go. Lớp 2: Option B trộn thì. Option C dùng will trong if-clause.",
+          "feedback_correct": "🏆 Type 1: solve/will. Type 2: solved/would!",
+          "feedback_wrong": "Type 1: Present/will. Type 2: Past/would.",
+          "ielts_tip": "Type 1 = real. Type 2 = unreal/hypothetical.",
+          "distractor_note": "near-correct: option B đảo will/would",
+          "layers": [
+            "Type 1 vs Type 2",
+            "real vs unreal",
+            "distinction"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'If every person ___ [A] environmental issues, we ___ [B] live in a cleaner world.'",
+          "options": [
+            "[A] understood / [B] would",
+            "[A] understands / [B] would",
+            "[A] understood / [B] will",
+            "[A] understands / [B] will"
+          ],
+          "correct_answer": "[A] understood / [B] would",
+          "correct_index": 0,
+          "explanation_short": "Type 2: If + Past (understood) + would.",
+          "explanation_long": "Lớp 1: 'understood' = Past → Type 2 → would. Lớp 2: Option B trộn Present + would. Option C trộn Past + will.",
+          "feedback_correct": "🏆 If + understood, would live = Type 2 chuẩn!",
+          "feedback_wrong": "If + Past, would + V. Nhất quán.",
+          "ielts_tip": "Type 2: If + V2, would + V.",
+          "distractor_note": "near-correct: option B trộn Present + would",
+          "layers": [
+            "Type 2 form",
+            "tense matching",
+            "hypothetical"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_would_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the UN would have more authority, it could enforce international environmental agreements more effectively.'",
+          "options": [
+            "If the UN would have",
+            "more authority",
+            "it could enforce",
+            "international environmental agreements more effectively"
+          ],
+          "correct_answer": "If the UN would have",
+          "correct_index": 0,
+          "explanation_short": "If + Past (had), không if + would. Would không dùng trong if-clause.",
+          "explanation_long": "Lớp 1: 'If + would have' → 'If + had' (no would in if-clause). Lớp 2: 'could enforce' = đúng (variant of Type 2).",
+          "feedback_correct": "🔥 If + had (không would have)!",
+          "feedback_wrong": "If + Past, would/could + V. Không dùng would trong if-clause.",
+          "ielts_tip": "If + V2, would + V. KHÔNG if + would.",
+          "distractor_note": "near-correct: option C (could) đúng cho Type 2",
+          "layers": [
+            "no would in if-clause",
+            "Type 2 form",
+            "could variant"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If governments allocated more funds to research",
+            " scientists could develop more effective solutions to global warming.",
+            "If governments allocate more funds",
+            " scientists could develop solutions.",
+            "If governments would allocate funds",
+            " scientists would develop solutions.",
+            "If governments allocated funds",
+            " scientists will develop solutions."
+          ],
+          "correct_answer": "If governments allocated more funds to research, scientists could develop more effective solutions to global warming.",
+          "correct_index": 0,
+          "explanation_short": "If + allocated (Past) + could develop = Type 2 chuẩn.",
+          "explanation_long": "Lớp 1: 'allocated' + 'could develop' = Type 2 nhất quán. Lớp 2: Option B trộn Present + could. Option C dùng would trong if-clause. Option D trộn Past + will.",
+          "feedback_correct": "🏆 If + allocated, could develop = chuẩn!",
+          "feedback_wrong": "If + Past, could/would + V.",
+          "ielts_tip": "could = would be able to (Type 2).",
+          "distractor_note": "near-correct: option B trộn Type 1 + could",
+          "layers": [
+            "Type 2 with could",
+            "academic register",
+            "Task 2"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_tense_mix",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If access to clean water were universal, millions of lives would be saved, and healthcare costs will decrease dramatically.'",
+          "options": [
+            "If access to clean water were universal",
+            "millions of lives would be saved",
+            "and healthcare costs",
+            "will decrease dramatically"
+          ],
+          "correct_answer": "will decrease dramatically",
+          "correct_index": 3,
+          "explanation_short": "Type 2: would decrease (không will). Trộn will = inconsistent.",
+          "explanation_long": "Lớp 1: 'were' → Type 2 → 'would be saved' (đúng). Lớp 2: 'will decrease' → 'would decrease' (phải nhất quán would trong Type 2). Trộn will + would = sai.",
+          "feedback_correct": "🔥 Type 2: would decrease (không will)!",
+          "feedback_wrong": "Type 2: nhất quán would cho mọi kết quả.",
+          "ielts_tip": "If + Past, would V and would V.",
+          "distractor_note": "near-correct: option A/B đúng",
+          "layers": [
+            "tense consistency",
+            "will vs would",
+            "Type 2"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond2_form",
+          "error_tag": "cond2_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 3: 'Nếu bạn có thể thay đổi một điều trên thế giới...' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "If I can change one thing",
+            " I will eliminate poverty.",
+            "If I could change one thing",
+            " I would eliminate poverty and invest in education for all.",
+            "If I would change one thing",
+            " I eliminate poverty.",
+            "If I changed one thing",
+            " I will eliminate poverty."
+          ],
+          "correct_answer": "If I could change one thing, I would eliminate poverty and invest in education for all.",
+          "correct_index": 1,
+          "explanation_short": "If + could (Type 2 variant) + would = chuẩn Speaking.",
+          "explanation_long": "Lớp 1: 'could change' = Type 2 variant (would be able to change). Lớp 2: 'would eliminate and invest' = parallel results. Lớp 3: Option A = Type 1. Option C = would trong if-clause.",
+          "feedback_correct": "🏆 If I could change, I would... = chuẩn Speaking!",
+          "feedback_wrong": "If I could + V, I would + V = Type 2.",
+          "ielts_tip": "Speaking: If I could + V, I would + V.",
+          "distractor_note": "near-correct: option A = Type 1 (thực tế)",
+          "layers": [
+            "Type 2 Speaking",
+            "could variant",
+            "hypothetical"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond2_form",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'If every country [A] would reduce emissions by 50%, the planet [B] will be much cleaner, and future generations [C] won't face the same environmental challenges.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] would reduce → reduced. [B] will → would. [C] won't → wouldn't.",
+          "explanation_long": "Lớp 1: [A] 'would reduce' → 'reduced' (no would in if-clause). Lớp 2: [B] 'will' → 'would' (Type 2 result). Lớp 3: [C] 'won't' → 'wouldn't' (Type 2 negative result).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] reduced | [B] would be | [C] wouldn't face!",
+          "feedback_wrong": "[A] no would in if. [B] would (not will). [C] wouldn't (not won't).",
+          "ielts_tip": "Type 2: If + V2, would + V. Nhất quán.",
+          "distractor_note": "near-correct: option B bỏ sót [C].",
+          "layers": [
+            "no would in if-clause",
+            "will vs would",
+            "triple error"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "e587e6d8-5956-4cbf-ae0d-4e8068b5f12b",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-12-conditional-type-2",
+      "metadata_ref": "unit-12-conditional-type-2.metadata",
+      "generation_profile_ref": "gp_unit12_conditional_type_2",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "If I ___ more money, I would donate to environmental charities.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "having"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 2: If + Past → had",
+          "feedback_wrong": "If + Past Simple, would + V.",
+          "explanation_short": "Conditional Type 2: If + Past Simple (had).",
+          "ielts_tip": "Type 2: If + V2, would + V = unreal present.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "If governments invested more in education, poverty ___ decrease.",
+          "options": [
+            "would",
+            "will",
+            "does",
+            "is"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 2: kết quả → would decrease",
+          "feedback_wrong": "If + Past, would + V.",
+          "explanation_short": "Conditional Type 2: kết quả dùng would + V.",
+          "ielts_tip": "Type 2: would + V = kết quả không thực tế.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "If he ___ the president, he would address climate change immediately.",
+          "options": [
+            "were",
+            "was",
+            "is",
+            "be"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 2 formal: If he WERE",
+          "feedback_wrong": "If + were (subjunctive).",
+          "explanation_short": "Conditional Type 2: If + were (cho tất cả ngôi).",
+          "ielts_tip": "Type 2 formal: were cho mọi ngôi. If I were / If he were.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "If every country ___ renewable energy, global warming would slow down.",
+          "options": [
+            "used",
+            "uses",
+            "use",
+            "will use"
+          ],
+          "correct_answer": "used",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 2: If + Past: used",
+          "feedback_wrong": "If + V2, would + V.",
+          "explanation_short": "If + Past Simple: used.",
+          "ielts_tip": "If + V2 (Past), would + V.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "If there ___ no poverty, everyone would have access to education.",
+          "options": [
+            "were",
+            "is",
+            "was",
+            "are"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ If there were = giả định",
+          "feedback_wrong": "If there were = subjunctive.",
+          "explanation_short": "If + were: If there were no poverty.",
+          "ielts_tip": "If there were = Type 2 (unreal present).",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "If I ___ the mayor, I would build more parks.",
+          "options": [
+            "were",
+            "am",
+            "will be",
+            "was being"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 2: If I were",
+          "feedback_wrong": "If I were = subjunctive.",
+          "explanation_short": "Type 2: If I were (subjunctive).",
+          "ielts_tip": "If I were = Band 6.0+ grammar.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "If clean water were available to everyone, fewer people ___ from diseases.",
+          "options": [
+            "would suffer",
+            "will suffer",
+            "suffer",
+            "suffered"
+          ],
+          "correct_answer": "would suffer",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 2: would suffer",
+          "feedback_wrong": "If + were, would + V.",
+          "explanation_short": "If + were → would + V.",
+          "ielts_tip": "If + were, would + V = Type 2.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "If the world ___ together, we could solve global hunger.",
+          "options": [
+            "worked",
+            "works",
+            "work",
+            "will work"
+          ],
+          "correct_answer": "worked",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 2: If + Past: worked",
+          "feedback_wrong": "If + V2, could + V.",
+          "explanation_short": "Type 2: If + Past Simple: worked.",
+          "ielts_tip": "could = would be able to. Variant of Type 2.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'If I had more free time, I will volunteer for environmental projects.'",
+          "options": [
+            "Sai: will → would (Type 2 dùng would)",
+            "Câu đúng không có lỗi",
+            "Sai: had → have",
+            "Sai: volunteer → volunteering"
+          ],
+          "correct_answer": "Sai: will → would (Type 2 dùng would)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Type 2: would (không will)",
+          "feedback_wrong": "If + Past → would. If + Present → will.",
+          "explanation_short": "If + had (Past) → would (không will). Type 2.",
+          "ielts_tip": "Type 2: would. Type 1: will.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "If every person ___ one tree a year, it would make a huge difference.",
+          "options": [
+            "planted",
+            "plants",
+            "plant",
+            "will plant"
+          ],
+          "correct_answer": "planted",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 2: If + Past: planted",
+          "feedback_wrong": "If + V2, would + V.",
+          "explanation_short": "Type 2: If + Past Simple: planted.",
+          "ielts_tip": "Type 2: If + V2, would + V.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "e6363295-7fea-48ee-98a8-402e54704c1a",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-12-conditional-type-2",
+      "metadata_ref": "unit-12-conditional-type-2.metadata",
+      "generation_profile_ref": "gp_unit12_conditional_type_2",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "6.0–6.5",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "If developing nations had better infrastructure, their economies ___ grow much faster.",
+          "options": [
+            "would",
+            "will",
+            "do",
+            "are"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 2: would grow",
+          "feedback_wrong": "If + Past, would + V.",
+          "explanation_short": "If + had (Past) → would grow.",
+          "ielts_tip": "If + V2, would + V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "If the Earth ___ closer to the sun, life as we know it would not exist.",
+          "options": [
+            "were",
+            "was",
+            "is",
+            "be"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 2 formal: were (subjunctive)",
+          "feedback_wrong": "If + were = formal Type 2.",
+          "explanation_short": "Type 2 formal: If the Earth were (subjunctive).",
+          "ielts_tip": "Academic: If + were. Informal: If + was. IELTS: dùng were.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "If international aid ___ distributed more fairly, fewer countries would suffer from extreme poverty.",
+          "options": [
+            "were",
+            "is",
+            "was",
+            "will be"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 2 passive: were distributed",
+          "feedback_wrong": "If + were + V3 (passive Type 2).",
+          "explanation_short": "Type 2 + passive: were distributed (subjunctive).",
+          "ielts_tip": "If + were + V3, would + V = Type 2 passive.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'If every nation reduced its carbon footprint, the world will be a healthier place.'",
+          "options": [
+            "Sai: will → would (Type 2: Past → would)",
+            "Câu đúng không có lỗi",
+            "Sai: its → their",
+            "Sai: healthier → more healthy"
+          ],
+          "correct_answer": "Sai: will → would (Type 2: Past → would)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 If + Past → would, not will",
+          "feedback_wrong": "If + Past → would. Not will.",
+          "explanation_short": "If + reduced (Past) → would (không will).",
+          "ielts_tip": "Type 2: would. Type 1: will. Không trộn.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "If governments banned single-use plastics, consumers ___ easily find alternatives.",
+          "options": [
+            "could",
+            "can",
+            "will",
+            "would can"
+          ],
+          "correct_answer": "could",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 2: could find",
+          "feedback_wrong": "If + Past, could + V.",
+          "explanation_short": "If + banned (Past) → could (= would be able to).",
+          "ielts_tip": "could = would be able to (Type 2 variant).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'If I am the CEO, I would implement green policies immediately.'",
+          "options": [
+            "Sai: am → were (Type 2 cần Past/subjunctive)",
+            "Câu đúng không có lỗi",
+            "Sai: implement → implementing",
+            "Sai: immediately → immediate"
+          ],
+          "correct_answer": "Sai: am → were (Type 2 cần Past/subjunctive)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 2: If I were (không am)",
+          "feedback_wrong": "If I were = Type 2. If I am = Type 1.",
+          "explanation_short": "would → Type 2 → if-clause cần Past/subjunctive: were.",
+          "ielts_tip": "If I were = unreal. If I am = real.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "If there ___ no wars in the world, billions of dollars could be spent on healthcare.",
+          "options": [
+            "were",
+            "are",
+            "is",
+            "was"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ If there were = subjunctive",
+          "feedback_wrong": "If there were = unreal present.",
+          "explanation_short": "Type 2: If there were = giả định.",
+          "ielts_tip": "If there were + could/would = Type 2.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'If global leaders cooperated, emissions would decrease and the climate improves.'",
+          "options": [
+            "Sai: improves → would improve (cần would trong kết quả)",
+            "Câu đúng không có lỗi",
+            "Sai: cooperated → cooperate",
+            "Sai: decrease → decreased"
+          ],
+          "correct_answer": "Sai: improves → would improve (cần would trong kết quả)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Type 2: would cho mọi kết quả",
+          "feedback_wrong": "If + Past, would + V and would + V.",
+          "explanation_short": "If + Past → would decrease AND would improve. 'Improves' = Present → sai.",
+          "ielts_tip": "Type 2: nhất quán would cho mọi kết quả.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "If clean energy ___ more affordable, more people would use it.",
+          "options": [
+            "were",
+            "is",
+            "was",
+            "will be"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 2: were more affordable",
+          "feedback_wrong": "If + were, would + V.",
+          "explanation_short": "Type 2: If + were (subjunctive): were more affordable.",
+          "ielts_tip": "If + were, would/could + V = Type 2.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "If all countries ___ their promise to reduce emissions, we would see significant improvements.",
+          "options": [
+            "kept",
+            "keep",
+            "keeps",
+            "will keep"
+          ],
+          "correct_answer": "kept",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 2: If + Past: kept",
+          "feedback_wrong": "If + V2, would + V.",
+          "explanation_short": "Type 2: If + Past Simple: kept.",
+          "ielts_tip": "keep-kept-kept. If + V2.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "145b3627-7ce6-4052-9e37-9df9e422ff3c",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-12-conditional-type-2",
+      "metadata_ref": "unit-12-conditional-type-2.metadata",
+      "generation_profile_ref": "gp_unit12_conditional_type_2",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If developing countries had more resources, they will be able to provide better healthcare for their citizens.'",
+          "options": [
+            "If developing countries had more resources",
+            "they will be able to provide",
+            "better healthcare",
+            "for their citizens"
+          ],
+          "correct_answer": "they will be able to provide",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Type 2: would be able to (không will)!",
+          "feedback_wrong": "If + Past → would. Not will.",
+          "explanation_short": "If + had (Past) → would (không will). Type 2.",
+          "ielts_tip": "If + V2, would + V. Not will.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If the government invested in renewable energy",
+            " pollution levels would decrease significantly.",
+            "If the government invests in renewable energy",
+            " pollution levels would decrease.",
+            "If the government invested in renewable energy",
+            " pollution levels will decrease.",
+            "If the government would invest in renewable energy",
+            " pollution levels would decrease."
+          ],
+          "correct_answer": "If the government invested in renewable energy, pollution levels would decrease significantly.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 If + invested, would decrease = chuẩn!",
+          "feedback_wrong": "If + Past, would + V. Nhất quán.",
+          "explanation_short": "If + invested (Past) + would decrease = Type 2 chuẩn.",
+          "ielts_tip": "Type 2: If + V2, would + V. Không trộn thì.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If every citizen was committed to recycling, and if the government was to provide better facilities, waste could be reduced by 50%.'",
+          "options": [
+            "If every citizen was committed",
+            "to recycling and if the",
+            "government was to provide",
+            "better facilities waste could be reduced"
+          ],
+          "correct_answer": "If every citizen was committed",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Academic: were committed (subjunctive)!",
+          "feedback_wrong": "Type 2 academic: were (not was).",
+          "explanation_short": "Academic: If + were (subjunctive): were committed.",
+          "ielts_tip": "IELTS Writing: dùng were, không was, trong Type 2.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT phân biệt Type 1 và Type 2:",
+          "options": [
+            "If we solve poverty (possible)",
+            " more children will go to school. / If we solved poverty (unlikely)",
+            " all children would go to school.",
+            "If we solve poverty",
+            " children would go to school. / If we solved poverty",
+            " children will go to school.",
+            "If we will solve poverty",
+            " children go to school. / If we solved poverty",
+            " children would go to school.",
+            "If we solve poverty",
+            " children go to school. / If we would solve poverty",
+            " children will go."
+          ],
+          "correct_answer": "If we solve poverty (possible), more children will go to school. / If we solved poverty (unlikely), all children would go to school.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Type 1: solve/will. Type 2: solved/would!",
+          "feedback_wrong": "Type 1: Present/will. Type 2: Past/would.",
+          "explanation_short": "Type 1: If + Present, will + V. Type 2: If + Past, would + V.",
+          "ielts_tip": "Type 1 = real. Type 2 = unreal/hypothetical.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'If every person ___ [A] environmental issues, we ___ [B] live in a cleaner world.'",
+          "options": [
+            "[A] understood / [B] would",
+            "[A] understands / [B] would",
+            "[A] understood / [B] will",
+            "[A] understands / [B] will"
+          ],
+          "correct_answer": "[A] understood / [B] would",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 If + understood, would live = Type 2 chuẩn!",
+          "feedback_wrong": "If + Past, would + V. Nhất quán.",
+          "explanation_short": "Type 2: If + Past (understood) + would.",
+          "ielts_tip": "Type 2: If + V2, would + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the UN would have more authority, it could enforce international environmental agreements more effectively.'",
+          "options": [
+            "If the UN would have",
+            "more authority",
+            "it could enforce",
+            "international environmental agreements more effectively"
+          ],
+          "correct_answer": "If the UN would have",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 If + had (không would have)!",
+          "feedback_wrong": "If + Past, would/could + V. Không dùng would trong if-clause.",
+          "explanation_short": "If + Past (had), không if + would. Would không dùng trong if-clause.",
+          "ielts_tip": "If + V2, would + V. KHÔNG if + would.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If governments allocated more funds to research",
+            " scientists could develop more effective solutions to global warming.",
+            "If governments allocate more funds",
+            " scientists could develop solutions.",
+            "If governments would allocate funds",
+            " scientists would develop solutions.",
+            "If governments allocated funds",
+            " scientists will develop solutions."
+          ],
+          "correct_answer": "If governments allocated more funds to research, scientists could develop more effective solutions to global warming.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 If + allocated, could develop = chuẩn!",
+          "feedback_wrong": "If + Past, could/would + V.",
+          "explanation_short": "If + allocated (Past) + could develop = Type 2 chuẩn.",
+          "ielts_tip": "could = would be able to (Type 2).",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If access to clean water were universal, millions of lives would be saved, and healthcare costs will decrease dramatically.'",
+          "options": [
+            "If access to clean water were universal",
+            "millions of lives would be saved",
+            "and healthcare costs",
+            "will decrease dramatically"
+          ],
+          "correct_answer": "will decrease dramatically",
+          "correct_index": 3,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Type 2: would decrease (không will)!",
+          "feedback_wrong": "Type 2: nhất quán would cho mọi kết quả.",
+          "explanation_short": "Type 2: would decrease (không will). Trộn will = inconsistent.",
+          "ielts_tip": "If + Past, would V and would V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Speaking Part 3: 'Nếu bạn có thể thay đổi một điều trên thế giới...' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "If I can change one thing",
+            " I will eliminate poverty.",
+            "If I could change one thing",
+            " I would eliminate poverty and invest in education for all.",
+            "If I would change one thing",
+            " I eliminate poverty.",
+            "If I changed one thing",
+            " I will eliminate poverty."
+          ],
+          "correct_answer": "If I could change one thing, I would eliminate poverty and invest in education for all.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 If I could change, I would... = chuẩn Speaking!",
+          "feedback_wrong": "If I could + V, I would + V = Type 2.",
+          "explanation_short": "If + could (Type 2 variant) + would = chuẩn Speaking.",
+          "ielts_tip": "Speaking: If I could + V, I would + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'If every country [A] would reduce emissions by 50%, the planet [B] will be much cleaner, and future generations [C] won't face the same environmental challenges.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] reduced | [B] would be | [C] wouldn't face!",
+          "feedback_wrong": "[A] no would in if. [B] would (not will). [C] wouldn't (not won't).",
+          "explanation_short": "[A] would reduce → reduced. [B] will → would. [C] won't → wouldn't.",
+          "ielts_tip": "Type 2: If + V2, would + V. Nhất quán.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

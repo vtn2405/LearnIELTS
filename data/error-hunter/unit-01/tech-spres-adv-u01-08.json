@@ -1,0 +1,150 @@
+{
+  "slug": "tech-spres-adv-u01-08",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Technology",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5.5,
+  "difficulty": "ADVANCED",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 3: Technology — Simple Present",
+  "titleVi": "IELTS Speaking Part 3: Công nghệ — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "How does social media influence the way young people form opinions?",
+    "bulletPoints": [
+      "The role of algorithms in shaping views",
+      "How misinformation spreads",
+      "The impact on critical thinking",
+      "Possible solutions"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "Social media shape the way young people think about the world in very powerful ways. For instance, the algorithm on platforms like TikTok and Instagram show users content that match their existing beliefs, which creates a kind of echo chamber. A friend of mine, for example, only read news articles that support his political views, and he genuinely believe everything he sees online is true. This concern me, because critical thinking requires exposure to different perspectives. Research consistently show that people who rely solely on social media for information tend to be less informed. Educational institutions need to teach young people how to evaluate sources properly, or the problem will only get worse.",
+  "totalErrors": 3,
+  "errors": [
+    {
+      "errorText": "Social media shape the way",
+      "correctText": "Social media shapes the way",
+      "acceptedAnswers": [
+        "Social media shapes the way"
+      ],
+      "errorType": "SUBJECT_VERB_AGREEMENT",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Social media' is treated as a singular concept in modern English — it takes 'shapes', not 'shape'.",
+      "explanationVi": "'Social media' được coi là khái niệm số ít trong tiếng Anh hiện đại — dùng 'shapes', không phải 'shape'.",
+      "grammarRuleCode": "SPRES-019",
+      "ieltsTipErrorType": "SUBJECT_VERB_AGREEMENT",
+      "detectionDifficulty": 4,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 0,
+      "endIndex": 26
+    },
+    {
+      "errorText": "he genuinely believe everything",
+      "correctText": "he genuinely believes everything",
+      "acceptedAnswers": [
+        "he genuinely believes everything"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'He' is third-person singular — 'believes', not 'believe'.",
+      "explanationVi": "'He' là ngôi thứ ba số ít — dùng 'believes', không phải 'believe'.",
+      "grammarRuleCode": "SPRES-020",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 337,
+      "endIndex": 368
+    },
+    {
+      "errorText": "Research consistently show that",
+      "correctText": "Research consistently shows that",
+      "acceptedAnswers": [
+        "Research consistently shows that"
+      ],
+      "errorType": "SUBJECT_VERB_AGREEMENT",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Research' is an uncountable noun — it takes 'shows', not 'show'. Many learners confuse 'research' as plural.",
+      "explanationVi": "'Research' là danh từ không đếm được — dùng 'shows', không phải 'show'. Nhiều học viên nhầm 'research' là số nhiều.",
+      "grammarRuleCode": "SPRES-021",
+      "ieltsTipErrorType": "SUBJECT_VERB_AGREEMENT",
+      "detectionDifficulty": 4,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 481,
+      "endIndex": 512
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "people who rely solely on social media",
+      "hint": "'Rely' is correct — 'people who' is plural, so the base form 'rely' is used.",
+      "startIndex": 513,
+      "endIndex": 551
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "echo chamber",
+      "sourceInPassage": "creates a kind of echo chamber",
+      "translation": "buồng vọng / không gian khép kín",
+      "exampleSentence": "Social media algorithms often create echo chambers where users only see one viewpoint.",
+      "grammarNote": "'Echo chamber' — thuật ngữ hiện đại, dùng tốt trong IELTS Speaking Part 3"
+    },
+    {
+      "phrase": "critical thinking",
+      "sourceInPassage": "critical thinking requires exposure",
+      "translation": "tư duy phản biện",
+      "exampleSentence": "Schools should focus on developing critical thinking skills from an early age.",
+      "grammarNote": "'Critical thinking' — không dùng 'critic thinking' hay 'critical thought' (ít tự nhiên)"
+    },
+    {
+      "phrase": "evaluate sources",
+      "sourceInPassage": "how to evaluate sources properly",
+      "translation": "đánh giá nguồn thông tin",
+      "exampleSentence": "University students learn how to evaluate sources before using them in essays.",
+      "grammarNote": "'Evaluate sources' — không dùng 'judge sources' hay 'check sources' (ít academic)"
+    },
+    {
+      "phrase": "exposure to different perspectives",
+      "sourceInPassage": "exposure to different perspectives",
+      "translation": "tiếp xúc với quan điểm khác nhau",
+      "exampleSentence": "Travelling gives you exposure to different perspectives and cultures.",
+      "grammarNote": "'Exposure to + danh từ' — không dùng 'exposure of' hay 'exposure with'"
+    },
+    {
+      "phrase": "rely solely on",
+      "sourceInPassage": "rely solely on social media",
+      "translation": "chỉ phụ thuộc vào",
+      "exampleSentence": "You should not rely solely on one source of information for important decisions.",
+      "grammarNote": "'Rely on' — 'solely' nhấn mạnh tính độc quyền — tự nhiên trong IELTS band 6+"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "SUBJECT_VERB_AGREEMENT",
+      "THIRD_PERSON_S_OMISSION"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 150,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "Social Media and Critical Thinking",
+      "discourseSituation": "A learner using multiple examples to argue about social media's influence on opinions",
+      "discourseMood": "argumentative",
+      "learnerVoice": "example_heavy",
+      "errorStrategy": "subtle",
+      "cognitiveLoad": "high"
+    }
+  }
+}

@@ -8,10 +8,12 @@ import {
   computeFixAccuracy,
   selectionOverlapsError,
 } from "@/lib/error-hunter/scoring";
+import { findPassageBySlug } from "@/lib/error-hunter/data-loader";
 import type {
   EhSubmitRequest,
   EhSubmitResponse,
   EhPerErrorFeedback,
+  EhCollocation,
   FalseAlarmZone,
   UserSelection,
 } from "@/lib/types/error-hunter";
@@ -25,15 +27,8 @@ export async function POST(req: NextRequest) {
   const body: EhSubmitRequest = await req.json();
   const { passageId, userSelections } = body;
 
-  // Fetch full ground truth — server-side only
-  const passage = await prisma.errorHunterPassage.findUnique({
-    where: { id: passageId },
-    include: {
-      errors: {
-        include: { ieltsTip: { select: { title: true, body: true, bodyVi: true } } },
-      },
-    },
-  });
+  // Load ground truth from JSON file (passageId = slug)
+  const passage = findPassageBySlug(passageId);
 
   if (!passage) {
     return NextResponse.json({ error: "Passage not found" }, { status: 404 });
@@ -41,13 +36,21 @@ export async function POST(req: NextRequest) {
 
   const groundTruth = passage.errors;
   const falseAlarmZones: FalseAlarmZone[] =
-    (passage.falseAlarmZones as FalseAlarmZone[]) ?? [];
+    (passage.falseAlarmZones ?? []).map((z) => ({
+      startIndex: z.startIndex,
+      endIndex: z.endIndex,
+      text: z.text,
+      hint: z.hint,
+    }));
 
   const perErrorFeedback: EhPerErrorFeedback[] = [];
   const matchedSelectionIds = new Set<string>();
 
   // ── Step 1: Match each ground-truth error to a user selection ──────────────
-  for (const err of groundTruth) {
+  for (let i = 0; i < groundTruth.length; i++) {
+    const err = groundTruth[i];
+    const errId = `${passageId}-err-${i}`;
+
     const match = userSelections.find(
       (s: UserSelection) =>
         !matchedSelectionIds.has(s.id) && selectionOverlapsError(s, err)
@@ -55,12 +58,15 @@ export async function POST(req: NextRequest) {
 
     if (match) {
       matchedSelectionIds.add(match.id);
-      const fixCorrect =
-        (match.userCorrection?.trim().toLowerCase() ?? "") ===
-        err.correctText.trim().toLowerCase();
+      const userAnswer = match.userCorrection?.trim().toLowerCase() ?? "";
+      const accepted = (err.acceptedAnswers && err.acceptedAnswers.length > 0
+        ? err.acceptedAnswers
+        : [err.correctText]
+      ).map((a: string) => a.trim().toLowerCase());
+      const fixCorrect = accepted.includes(userAnswer);
 
       perErrorFeedback.push({
-        errorId:        err.id,
+        errorId:        errId,
         status:         fixCorrect ? "FOUND_CORRECT" : "FOUND_WRONG_FIX",
         startIndex:     err.startIndex,
         endIndex:       err.endIndex,
@@ -69,12 +75,12 @@ export async function POST(req: NextRequest) {
         userCorrection: match.userCorrection,
         fixCorrect,
         explanation:    err.explanation,
-        ieltsTip:       err.ieltsTip?.body ?? undefined,
+        explanationVi:  err.explanationVi,
         severity:       err.severity as any,
       });
     } else {
       perErrorFeedback.push({
-        errorId:     err.id,
+        errorId:     errId,
         status:      "MISSED",
         startIndex:  err.startIndex,
         endIndex:    err.endIndex,
@@ -82,7 +88,7 @@ export async function POST(req: NextRequest) {
         correctText: err.correctText,
         fixCorrect:  false,
         explanation: err.explanation,
-        ieltsTip:    err.ieltsTip?.body ?? undefined,
+        explanationVi: err.explanationVi,
         severity:    err.severity as any,
       });
     }
@@ -92,24 +98,20 @@ export async function POST(req: NextRequest) {
   for (const sel of userSelections) {
     if (matchedSelectionIds.has(sel.id)) continue;
 
-    // Check if this false alarm overlaps a known "tricky" zone
-    const zone = falseAlarmZones.find(
-      (z) => selectionOverlapsError(sel, z)
-    );
+    const zone = falseAlarmZones.find((z) => selectionOverlapsError(sel, z));
     const explanation =
-      zone?.hint ??
-      "This part is grammatically correct — no error here.";
+      zone?.hint ?? "Phần này đúng ngữ pháp — không có lỗi ở đây.";
 
     perErrorFeedback.push({
-      errorId:    "fa-" + sel.id,
-      status:     "FALSE_ALARM",
-      startIndex: sel.startIndex,
-      endIndex:   sel.endIndex,
-      errorText:  sel.selectedText,
+      errorId:     "fa-" + sel.id,
+      status:      "FALSE_ALARM",
+      startIndex:  sel.startIndex,
+      endIndex:    sel.endIndex,
+      errorText:   sel.selectedText,
       correctText: sel.selectedText,
-      fixCorrect: false,
+      fixCorrect:  false,
       explanation,
-      severity:   "MINOR",
+      severity:    "MINOR",
     });
   }
 
@@ -126,7 +128,7 @@ export async function POST(req: NextRequest) {
   const fixAccuracy  = computeFixAccuracy(foundCorrect, fixCorrectCount);
   const xpEarned     = computeXp(scorePercent);
 
-  // ── Step 4: Persist attempt ───────────────────────────────────────────────
+  // ── Step 4: Persist attempt (passageId = slug) ────────────────────────────
   await prisma.errorHunterAttempt.create({
     data: {
       clerkId:       userId,
@@ -143,19 +145,29 @@ export async function POST(req: NextRequest) {
   // ── Step 5: Build summary message ─────────────────────────────────────────
   let summary: string;
   if (foundCorrect === total && falseAlarms === 0) {
-    summary = `Perfect! You found all ${total} error${total !== 1 ? "s" : ""} with no false alarms. 🎉`;
+    summary = `Hoàn hảo! Bạn tìm đúng tất cả ${total} lỗi mà không báo nhầm lần nào. 🎉`;
   } else if (scorePercent >= 80) {
-    summary = `Great work! You caught ${foundCorrect}/${total} error${total !== 1 ? "s" : ""}.`;
+    summary = `Tuyệt vời! Bạn tìm được ${foundCorrect}/${total} lỗi.`;
   } else if (scorePercent >= 50) {
-    summary = `Good effort — ${foundCorrect}/${total} found. Review the missed errors below.`;
+    summary = `Khá tốt — tìm được ${foundCorrect}/${total} lỗi. Xem lại những lỗi bỏ sót bên dưới.`;
   } else {
-    summary = `${foundCorrect}/${total} found. Study the feedback carefully to sharpen your eye.`;
+    summary = `Tìm được ${foundCorrect}/${total} lỗi. Hãy xem kỹ phần phân tích để rèn mắt nhé.`;
   }
+
+  // ── Step 6: Extract collocations from passage ──────────────────────────────
+  const collocations: EhCollocation[] = (passage.collocations ?? []).map((c) => ({
+    phrase:          c.phrase,
+    sourceInPassage: c.sourceInPassage,
+    translation:     c.translation,
+    exampleSentence: c.exampleSentence,
+    grammarNote:     c.grammarNote,
+  }));
 
   const response: EhSubmitResponse = {
     score: { scorePercent, foundCorrect, missed, falseAlarms, fixAccuracy, xpEarned },
     summary,
     perErrorFeedback,
+    collocations,
   };
 
   return NextResponse.json(response);

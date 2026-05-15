@@ -60,6 +60,15 @@ export interface FalseAlarmZone {
   hint: string; // explanation of why this zone is actually correct
 }
 
+/** A collocation / vocabulary item extracted from the passage */
+export interface EhCollocation {
+  phrase: string;
+  sourceInPassage: string;
+  translation: string;
+  exampleSentence?: string;
+  grammarNote?: string;
+}
+
 // ─── Client-safe shapes ───────────────────────────────────────────────────────
 
 /** Passage data sent to client — no correctText, no error positions */
@@ -76,6 +85,7 @@ export interface EhPassageClient {
   questionPromptVi?: string | null;
   passageText: string;
   totalErrors: number;
+  speakingCueCard?: { prompt: string; bulletPoints: string[] } | null;
 }
 
 /**
@@ -124,7 +134,9 @@ export interface EhPerErrorFeedback {
   userCorrection?: string;
   fixCorrect: boolean;
   explanation: string;
+  explanationVi?: string;
   ieltsTip?: string;
+  ieltsTipVi?: string;
   severity: EhErrorSeverity;
 }
 
@@ -141,4 +153,5 @@ export interface EhSubmitResponse {
   score: EhScore;
   summary: string;
   perErrorFeedback: EhPerErrorFeedback[];
+  collocations: EhCollocation[]; // vocabulary items from the passage
 }

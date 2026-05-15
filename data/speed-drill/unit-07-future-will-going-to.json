@@ -1,0 +1,2482 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-7-future-will-going-to",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-7-future-will-going-to",
+    "version": "4.0",
+    "grammar_point": "Future (will / going to)",
+    "subtitle_vi": "Thì tương lai (will / going to)",
+    "topic_vocabulary": "Work & Technology",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 8: Future Tenses",
+      "unit_json_ref": "unit-7-future-will-going-to.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "will_prediction",
+      "going_to_plan",
+      "will_spontaneous",
+      "going_to_evidence",
+      "will_promise",
+      "will_offer",
+      "will_negative",
+      "going_to_form"
+    ],
+    "common_vietnamese_errors": [
+      "will_going_to_confusion",
+      "will_with_to",
+      "will_with_s",
+      "going_to_missing_be",
+      "wont_form_error",
+      "will_in_if_clause"
+    ],
+    "ielts_band_target": {
+      "min": 4.5,
+      "max": 5.5
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-7-future-will-going-to",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "4.5–5.0",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "5.0–5.5",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 5.5 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "5.5–6.0",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.0 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 5.5 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_prediction",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Experts predict that AI ___ many jobs in the next decade.",
+          "options": [
+            "will replace",
+            "is going to replace",
+            "replaces",
+            "replaced"
+          ],
+          "correct_answer": "will replace",
+          "correct_index": 0,
+          "explanation_short": "Dự đoán chung về tương lai → will.",
+          "explanation_long": "Dự đoán không có bằng chứng cụ thể trước mắt → will. 'Is going to' dùng khi có bằng chứng.",
+          "feedback_correct": "⚡ Dự đoán chung → will replace",
+          "feedback_wrong": "Dự đoán tương lai chung → will + V.",
+          "ielts_tip": "predict + will: dự đoán chung không có bằng chứng cụ thể.",
+          "distractor_note": "obvious: replaces (Present), replaced (Past)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "going_to_plan",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The company ___ a new office in Da Nang next month. Everything is ready.",
+          "options": [
+            "will open",
+            "is going to open",
+            "opens",
+            "opened"
+          ],
+          "correct_answer": "is going to open",
+          "correct_index": 1,
+          "explanation_short": "Kế hoạch đã sắp xếp + bằng chứng → is going to.",
+          "explanation_long": "'Everything is ready' = bằng chứng/kế hoạch đã có → is going to open.",
+          "feedback_correct": "🔥 Kế hoạch + bằng chứng → is going to open",
+          "feedback_wrong": "Có kế hoạch/bằng chứng → is going to. Không phải will.",
+          "ielts_tip": "Kế hoạch có bằng chứng → going to. Dự đoán chung → will.",
+          "distractor_note": "obvious: opens (Present), opened (Past)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_spontaneous",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "A: 'The printer is broken.' B: 'Don't worry, I ___ it.'",
+          "options": [
+            "am going to fix",
+            "will fix",
+            "fix",
+            "fixed"
+          ],
+          "correct_answer": "will fix",
+          "correct_index": 1,
+          "explanation_short": "Quyết định tức thì tại thời điểm nói → will.",
+          "explanation_long": "'Will' dùng cho quyết định ngay lúc nói. 'Going to' dùng cho kế hoạch đã có từ trước.",
+          "feedback_correct": "⚡ Quyết định tức thì → will fix",
+          "feedback_wrong": "Quyết định ngay lúc nói → will. Kế hoạch từ trước → going to.",
+          "ielts_tip": "will = spontaneous decision. going to = planned decision.",
+          "distractor_note": "obvious: fix (V1), fixed (Past)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_form",
+          "error_tag": "will_with_to",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "She ___ attend the tech conference tomorrow.",
+          "options": [
+            "will",
+            "will to",
+            "is will",
+            "going will"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "explanation_short": "will + V nguyên mẫu (không có to).",
+          "explanation_long": "will + bare infinitive: will attend. Không dùng 'will to attend'.",
+          "feedback_correct": "🎯 will + V nguyên mẫu (không to)",
+          "feedback_wrong": "will + V (không to): will attend.",
+          "ielts_tip": "will + V bare infinitive. Không bao giờ 'will to V'.",
+          "distractor_note": "obvious: will to (sai), is will (sai), going will (sai)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_negative",
+          "error_tag": "wont_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The new software ___ be available until next Friday.",
+          "options": [
+            "will",
+            "won't",
+            "doesn't",
+            "isn't going"
+          ],
+          "correct_answer": "won't",
+          "correct_index": 1,
+          "explanation_short": "until next Friday = chưa có → phủ định: won't be available.",
+          "explanation_long": "'Until next Friday' ngụ ý chưa có cho đến thứ Sáu → won't (will not).",
+          "feedback_correct": "⚡ Chưa available → won't be available until...",
+          "feedback_wrong": "until = chưa có → won't + V: won't be available.",
+          "ielts_tip": "won't + V until + time = sẽ không... cho đến khi...",
+          "distractor_note": "obvious: will (khẳng định, sai nghĩa), doesn't (Simple Present)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "going_to_evidence",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Look at those dark clouds! It ___ rain soon.",
+          "options": [
+            "will",
+            "is going to",
+            "does",
+            "has"
+          ],
+          "correct_answer": "is going to",
+          "correct_index": 1,
+          "explanation_short": "Có bằng chứng (dark clouds) → is going to.",
+          "explanation_long": "'Dark clouds' = bằng chứng trước mắt → is going to rain. Không phải will (dự đoán chung).",
+          "feedback_correct": "🔥 Bằng chứng trước mắt → is going to rain",
+          "feedback_wrong": "Bằng chứng (dark clouds) → is going to. Will = dự đoán chung.",
+          "ielts_tip": "Có evidence → going to. Dự đoán opinion → will.",
+          "distractor_note": "obvious: does (Simple Present), has (sai)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_promise",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "I ___ you the report by 5pm, I promise.",
+          "options": [
+            "am going to send",
+            "will send",
+            "send",
+            "sent"
+          ],
+          "correct_answer": "will send",
+          "correct_index": 1,
+          "explanation_short": "Promise → will: I will send.",
+          "explanation_long": "'I promise' + will = lời hứa. Going to dùng cho kế hoạch, không phải lời hứa.",
+          "feedback_correct": "⚡ Promise → will send",
+          "feedback_wrong": "Lời hứa → will. Kế hoạch → going to.",
+          "ielts_tip": "will + promise/guarantee/assure = lời hứa.",
+          "distractor_note": "obvious: send (V1), sent (Past)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "going_to_plan",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "We ___ a new CRM system next quarter. The budget has been approved.",
+          "options": [
+            "will implement",
+            "are going to implement",
+            "implement",
+            "implemented"
+          ],
+          "correct_answer": "are going to implement",
+          "correct_index": 1,
+          "explanation_short": "Budget approved = kế hoạch đã có → are going to.",
+          "explanation_long": "'Budget has been approved' = kế hoạch đã sẵn sàng → are going to implement.",
+          "feedback_correct": "🔥 Kế hoạch đã có → are going to implement",
+          "feedback_wrong": "Budget approved = kế hoạch → going to. Không phải will.",
+          "ielts_tip": "Kế hoạch + bằng chứng → going to. Spontaneous → will.",
+          "distractor_note": "obvious: implement (V1), implemented (Past)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_form",
+          "error_tag": "will_with_to",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The manager will to review all applications tomorrow.'",
+          "options": [
+            "Sai: will to → will (bỏ to)",
+            "Câu đúng không có lỗi",
+            "Sai: review → reviewing",
+            "Sai: applications → application"
+          ],
+          "correct_answer": "Sai: will to → will (bỏ to)",
+          "correct_index": 0,
+          "explanation_short": "will + V nguyên mẫu: will review (không will to review).",
+          "explanation_long": "will + bare infinitive. 'Will to review' = sai. Phải bỏ 'to': will review.",
+          "feedback_correct": "🎯 will + V (không to): will review",
+          "feedback_wrong": "will + V bare infinitive. Không bao giờ 'will to V'.",
+          "ielts_tip": "will + V (no to). Lỗi phổ biến do ảnh hưởng tiếng Việt.",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_prediction",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Technology ___ continue to shape the future of work.",
+          "options": [
+            "will",
+            "is going to",
+            "does",
+            "has"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "explanation_short": "Dự đoán chung về xu hướng tương lai → will.",
+          "explanation_long": "Dự đoán mang tính opinion/general prediction → will.",
+          "feedback_correct": "⚡ Dự đoán chung → will continue",
+          "feedback_wrong": "Dự đoán opinion/general → will.",
+          "ielts_tip": "Task 2: Technology will continue/improve/change... → will cho dự đoán.",
+          "distractor_note": "obvious: does (Present), has (Present Perfect)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The government ___ new regulations next year, as the draft has already been finalized.",
+          "options": [
+            "will introduce",
+            "is going to introduce",
+            "introduces",
+            "introduced"
+          ],
+          "correct_answer": "is going to introduce",
+          "correct_index": 1,
+          "explanation_short": "Draft finalized = kế hoạch → going to.",
+          "explanation_long": "'Draft has been finalized' = bằng chứng kế hoạch → is going to introduce.",
+          "feedback_correct": "🔥 Kế hoạch đã finalize → going to introduce",
+          "feedback_wrong": "Draft finalized = kế hoạch → going to.",
+          "ielts_tip": "Kế hoạch có evidence → going to. Opinion → will.",
+          "distractor_note": "plausible: will introduce (cũng gần đúng)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_prediction",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Many analysts believe that remote work ___ the dominant model by 2030.",
+          "options": [
+            "is going to become",
+            "will become",
+            "becomes",
+            "became"
+          ],
+          "correct_answer": "will become",
+          "correct_index": 1,
+          "explanation_short": "believe (opinion) + dự đoán tương lai → will.",
+          "explanation_long": "'Analysts believe' = opinion → dự đoán dùng will. Không có bằng chứng trực tiếp.",
+          "feedback_correct": "⚡ believe + dự đoán → will become",
+          "feedback_wrong": "Opinion/prediction → will. Evidence → going to.",
+          "ielts_tip": "Task 2: experts believe/predict + will V.",
+          "distractor_note": "plausible: is going to become (cũng đúng nhưng will chuẩn hơn với believe)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "going_to_evidence",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The tech startup has secured $10 million in funding. They ___ 200 new employees.",
+          "options": [
+            "will hire",
+            "are going to hire",
+            "hire",
+            "hired"
+          ],
+          "correct_answer": "are going to hire",
+          "correct_index": 1,
+          "explanation_short": "Đã secured funding = bằng chứng/kế hoạch → going to.",
+          "explanation_long": "'Has secured $10M' = bằng chứng cụ thể → are going to hire.",
+          "feedback_correct": "🔥 Bằng chứng cụ thể → going to hire",
+          "feedback_wrong": "Funding secured = kế hoạch → going to.",
+          "ielts_tip": "Bằng chứng + kế hoạch → going to.",
+          "distractor_note": "plausible: will hire (gần đúng)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_form",
+          "error_tag": "will_with_s",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The company will opens a new branch in Ho Chi Minh City.'",
+          "options": [
+            "Sai: will opens → will open (will + V bare infinitive)",
+            "Câu đúng không có lỗi",
+            "Sai: a new → the new",
+            "Sai: in → at"
+          ],
+          "correct_answer": "Sai: will opens → will open (will + V bare infinitive)",
+          "correct_index": 0,
+          "explanation_short": "will + V nguyên mẫu: will open (không thêm -s).",
+          "explanation_long": "Sau will dùng V nguyên mẫu, không chia: will open (không will opens).",
+          "feedback_correct": "🎯 will + V bare infinitive: will open",
+          "feedback_wrong": "will + V (không chia): will open.",
+          "ielts_tip": "will + V bare infinitive. Không bao giờ thêm -s/-ed/-ing sau will.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "will_going_to_academic",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "In conclusion, automation ___ reshape the job market, and workers will need to adapt.",
+          "options": [
+            "is going to",
+            "will",
+            "does",
+            "has"
+          ],
+          "correct_answer": "will",
+          "correct_index": 1,
+          "explanation_short": "Câu kết bài Task 2, dự đoán chung → will.",
+          "explanation_long": "Trong câu kết luận Task 2, dùng will cho dự đoán mang tính khẳng định.",
+          "feedback_correct": "⚡ Kết bài Task 2 + dự đoán → will",
+          "feedback_wrong": "Câu kết bài Task 2 → will cho dự đoán khẳng định.",
+          "ielts_tip": "Task 2 conclusion: will + V = dự đoán mạnh.",
+          "distractor_note": "plausible: is going to (cũng đúng nhưng kém formal trong kết bài)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "going_to_form",
+          "error_tag": "going_to_missing_be",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The team going to present the project results tomorrow.'",
+          "options": [
+            "Sai: going to → is going to (thiếu be)",
+            "Câu đúng không có lỗi",
+            "Sai: present → presenting",
+            "Sai: tomorrow → the tomorrow"
+          ],
+          "correct_answer": "Sai: going to → is going to (thiếu be)",
+          "correct_index": 0,
+          "explanation_short": "be going to: The team IS going to present.",
+          "explanation_long": "Cấu trúc: S + be + going to + V. Thiếu 'is' → sai.",
+          "feedback_correct": "🔥 Thiếu be: is going to present",
+          "feedback_wrong": "be going to: S + am/is/are + going to + V.",
+          "ielts_tip": "S + be + going to + V. Thiếu be = lỗi phổ biến.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_offer",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "'You look tired.' — 'I ___ you a coffee.'",
+          "options": [
+            "am going to get",
+            "will get",
+            "get",
+            "got"
+          ],
+          "correct_answer": "will get",
+          "correct_index": 1,
+          "explanation_short": "Đề nghị tức thì → will.",
+          "explanation_long": "Offer spontaneous → will. 'I will get you a coffee' = đề nghị ngay lúc nói.",
+          "feedback_correct": "⚡ Đề nghị tức thì → will get",
+          "feedback_wrong": "Offer tức thì → will. Kế hoạch → going to.",
+          "ielts_tip": "will = spontaneous offer. going to = planned action.",
+          "distractor_note": "plausible: am going to get (kế hoạch, không phải offer)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_negative",
+          "error_tag": "wont_contraction",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The new policy willn't affect current employees.'",
+          "options": [
+            "Sai: willn't → won't (viết tắt đúng)",
+            "Câu đúng không có lỗi",
+            "Sai: affect → effect",
+            "Sai: current → currently"
+          ],
+          "correct_answer": "Sai: willn't → won't (viết tắt đúng)",
+          "correct_index": 0,
+          "explanation_short": "will not = won't (không phải willn't).",
+          "explanation_long": "Viết tắt đúng: will not → won't. 'Willn't' không tồn tại.",
+          "feedback_correct": "🎯 will not → won't (không phải willn't)",
+          "feedback_wrong": "will not = won't. Không có dạng willn't.",
+          "ielts_tip": "won't = will not. Contraction chuẩn.",
+          "distractor_note": "plausible: option C (affect/effect) bẫy"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "I think technology ___ solve most of our current problems.",
+          "options": [
+            "is going to",
+            "will",
+            "does",
+            "going to"
+          ],
+          "correct_answer": "will",
+          "correct_index": 1,
+          "explanation_short": "I think + dự đoán cá nhân → will.",
+          "explanation_long": "'I think' = opinion → will. Going to dùng khi có evidence, không phải opinion.",
+          "feedback_correct": "⚡ I think + prediction → will solve",
+          "feedback_wrong": "I think + will = dự đoán cá nhân.",
+          "ielts_tip": "Speaking Part 3: I think/believe + will + V.",
+          "distractor_note": "plausible: is going to (cũng gần đúng)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "going_to_plan",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "According to the project timeline, the team ___ the app by December.",
+          "options": [
+            "will launch",
+            "is going to launch",
+            "launches",
+            "launched"
+          ],
+          "correct_answer": "is going to launch",
+          "correct_index": 1,
+          "explanation_short": "Project timeline = kế hoạch cụ thể → going to.",
+          "explanation_long": "'According to the project timeline' = kế hoạch đã lập → is going to launch.",
+          "feedback_correct": "🔥 Kế hoạch cụ thể → going to launch",
+          "feedback_wrong": "Timeline = kế hoạch → going to.",
+          "ielts_tip": "According to plan/schedule → going to.",
+          "distractor_note": "plausible: will launch (gần đúng)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The research shows clear trends: AI is going to dominate industry, and I think unemployment will to rise.'",
+          "options": [
+            "The research shows clear trends",
+            "AI is going to dominate industry",
+            "and I think unemployment",
+            "will to rise"
+          ],
+          "correct_answer": "will to rise",
+          "correct_index": 3,
+          "explanation_short": "will + V bare infinitive: will rise (không will to rise).",
+          "explanation_long": "Lớp 1: 'will to rise' → 'will rise' (không dùng to sau will). Lớp 2: 'is going to dominate' = đúng vì có evidence (research shows).",
+          "feedback_correct": "🔥 will + V bare infinitive: will rise!",
+          "feedback_wrong": "will + V (không to): will rise.",
+          "ielts_tip": "will + V (no to). going to + V (có evidence).",
+          "distractor_note": "near-correct: option B trông có vẻ sai nhưng going to + evidence = đúng",
+          "layers": [
+            "will + bare infinitive",
+            "going to + evidence",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "will_going_to_academic",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu kết bài Task 2 nào CHUẨN NHẤT?",
+          "options": [
+            "In conclusion",
+            " technology is going to continue transforming the workplace.",
+            "In conclusion",
+            " technology will continue to transform the workplace.",
+            "In conclusion",
+            " technology will to continue transforming the workplace.",
+            "In conclusion",
+            " technology continues to transform the workplace."
+          ],
+          "correct_answer": "In conclusion, technology will continue to transform the workplace.",
+          "correct_index": 1,
+          "explanation_short": "Câu kết bài + dự đoán → will (formal hơn going to).",
+          "explanation_long": "Lớp 1: will + continue = formal, chuẩn academic. Lớp 2: 'is going to' cũng đúng nhưng kém formal. Lớp 3: 'will to continue' = sai (will + V bare).",
+          "feedback_correct": "🏆 will continue = chuẩn câu kết bài!",
+          "feedback_wrong": "will + V = formal prediction trong conclusion.",
+          "ielts_tip": "Conclusion Task 2: will + V = formal prediction.",
+          "distractor_note": "near-correct: option A đúng ngữ pháp nhưng kém formal",
+          "layers": [
+            "will vs going to in academic",
+            "formal register",
+            "conclusion structure"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "going_to_form",
+          "error_tag": "going_to_missing_be",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The company going to invest heavily in renewable energy, which will create many green jobs.'",
+          "options": [
+            "The company going to invest",
+            "heavily in renewable energy",
+            "which will create",
+            "many green jobs"
+          ],
+          "correct_answer": "The company going to invest",
+          "correct_index": 0,
+          "explanation_short": "Thiếu is: The company IS going to invest.",
+          "explanation_long": "Lớp 1: be going to → 'The company is going to invest'. Thiếu 'is'. Lớp 2: 'which will create' = đúng.",
+          "feedback_correct": "🔥 Thiếu be: is going to invest!",
+          "feedback_wrong": "S + be + going to + V. Thiếu be = sai.",
+          "ielts_tip": "S + am/is/are + going to + V.",
+          "distractor_note": "near-correct: option C trông có vẻ sai nhưng will create = đúng",
+          "layers": [
+            "be going to form",
+            "subject-verb agreement",
+            "compound sentence"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT phân biệt will và going to:",
+          "options": [
+            "The weather forecast says it will rain tomorrow so I'm going to bring an umbrella.",
+            "The weather forecast says it is going to rain tomorrow so I will bring an umbrella.",
+            "The weather forecast says it is going to rain tomorrow so I'm going to bring an umbrella.",
+            "The weather forecast says it will rain tomorrow so I will bring an umbrella."
+          ],
+          "correct_answer": "The weather forecast says it is going to rain tomorrow so I'm going to bring an umbrella.",
+          "correct_index": 2,
+          "explanation_short": "Forecast = evidence → going to rain. Kế hoạch → going to bring.",
+          "explanation_long": "Lớp 1: forecast = bằng chứng → going to rain. Lớp 2: bring umbrella = kế hoạch dựa trên evidence → going to bring. Cả hai đều going to vì đều có evidence/plan.",
+          "feedback_correct": "🏆 Evidence → going to rain. Plan → going to bring!",
+          "feedback_wrong": "Forecast = evidence → going to. Plan based on evidence → going to.",
+          "ielts_tip": "Evidence → going to. Plan → going to. Spontaneous → will.",
+          "distractor_note": "near-correct: option B (going to rain + will bring) cũng gần đúng — will bring = spontaneous decision",
+          "layers": [
+            "going to for evidence",
+            "going to for plan",
+            "will for spontaneous"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "will_prediction",
+          "error_tag": "will_going_to_academic",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN cho IELTS Writing?\n'Some people argue that robots ___ [A] many workers, while others believe that technology ___ [B] new opportunities.'",
+          "options": [
+            "[A] will replace / [B] is going to create",
+            "[A] will replace / [B] will create",
+            "[A] are going to replace / [B] are going to create",
+            "[A] replace / [B] create"
+          ],
+          "correct_answer": "[A] will replace / [B] will create",
+          "correct_index": 1,
+          "explanation_short": "argue/believe = opinions → will cho cả hai.",
+          "explanation_long": "Lớp 1: 'argue' = opinion → will replace. Lớp 2: 'believe' = opinion → will create. Cả hai vế đều là dự đoán dựa trên ý kiến → will.",
+          "feedback_correct": "🏆 argue/believe = opinions → will cho cả hai!",
+          "feedback_wrong": "Opinions/predictions → will. Evidence → going to.",
+          "ielts_tip": "Task 2: argue/believe/predict + will + V.",
+          "distractor_note": "near-correct: option A trộn will/going to — không nhất quán",
+          "layers": [
+            "will for opinion-based prediction",
+            "parallel structure",
+            "Task 2 body"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Current data shows that sea levels will rise dramatically, and coastal cities is going to face serious flooding.'",
+          "options": [
+            "Current data shows that",
+            "sea levels will rise dramatically",
+            "and coastal cities is going to",
+            "face serious flooding"
+          ],
+          "correct_answer": "and coastal cities is going to",
+          "correct_index": 2,
+          "explanation_short": "cities = plural → ARE going to (không is).",
+          "explanation_long": "Lớp 1: 'cities' = số nhiều → 'are going to' (không 'is going to'). Lớp 2: 'sea levels will rise' cũng nên là 'are going to rise' vì có data (evidence), nhưng option C sai rõ ràng hơn.",
+          "feedback_correct": "🔥 cities = plural → are going to!",
+          "feedback_wrong": "cities = plural → are going to, không phải is.",
+          "ielts_tip": "S + am/is/are + going to. Số nhiều → are.",
+          "distractor_note": "near-correct: option B (will rise → going to rise vì có data) cũng có thể sai nhẹ",
+          "layers": [
+            "subject-verb agreement",
+            "going to form",
+            "academic paragraph"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "will_going_to_academic",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If governments invest in education",
+            " the economy is going to benefit significantly.",
+            "If governments invest in education",
+            " the economy will benefit significantly.",
+            "If governments will invest in education",
+            " the economy will benefit significantly.",
+            "If governments are going to invest in education",
+            " the economy benefits significantly."
+          ],
+          "correct_answer": "If governments invest in education, the economy will benefit significantly.",
+          "correct_index": 1,
+          "explanation_short": "If + Present Simple, will + V = First Conditional chuẩn.",
+          "explanation_long": "Lớp 1: If + Present Simple (invest) → will + V (benefit). Lớp 2: 'If + will' = sai (không dùng will trong if-clause). Lớp 3: Option A đúng ngữ pháp nhưng kém formal.",
+          "feedback_correct": "🏆 If + Present Simple, will + V = chuẩn!",
+          "feedback_wrong": "If + V (Present), will + V. Không dùng will trong if-clause.",
+          "ielts_tip": "If + Present, will + V. Conditional Type 1.",
+          "distractor_note": "near-correct: option C (If + will) = lỗi phổ biến",
+          "layers": [
+            "Conditional Type 1",
+            "will in main clause",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "will_form",
+          "error_tag": "will_with_s",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The report predicts that unemployment will increases and the government will needs to take action.'",
+          "options": [
+            "The report predicts that",
+            "unemployment will increases",
+            "and the government will needs",
+            "to take action"
+          ],
+          "correct_answer": "unemployment will increases",
+          "correct_index": 1,
+          "explanation_short": "will + V bare: will increase (không will increases).",
+          "explanation_long": "Lớp 1: 'will increases' → 'will increase' (không thêm -s sau will). Lớp 2: 'will needs' cũng sai → 'will need'. Cả B và C đều sai, B sai trước.",
+          "feedback_correct": "🔥 will + V bare: increase, không increases!",
+          "feedback_wrong": "will + V bare infinitive. Không thêm -s/-ed sau will.",
+          "ielts_tip": "will + V (no -s). Lỗi phổ biến do quen chia ngôi 3.",
+          "distractor_note": "near-correct: option C (will needs) cũng sai — bẫy kép",
+          "layers": [
+            "will + bare infinitive",
+            "double error detection",
+            "academic prediction"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "will_going_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn cặp câu ĐÚNG NHẤT phân biệt will vs going to:",
+          "options": [
+            "Research shows that global temperatures will rise. Therefore",
+            " we will implement new policies.",
+            "Research shows that global temperatures are going to rise. Therefore",
+            " we are going to implement new policies.",
+            "Research shows that global temperatures are going to rise. Therefore",
+            " we will implement new policies.",
+            "Research shows that global temperatures will rise. Therefore",
+            " we are going to implement new policies."
+          ],
+          "correct_answer": "Research shows that global temperatures are going to rise. Therefore, we are going to implement new policies.",
+          "correct_index": 1,
+          "explanation_short": "Research shows = evidence → going to rise. Implement policies = plan → going to.",
+          "explanation_long": "Lớp 1: 'Research shows' = evidence → going to rise. Lớp 2: 'implement new policies' = kế hoạch dựa trên evidence → going to implement.",
+          "feedback_correct": "🏆 Evidence → going to. Plan → going to!",
+          "feedback_wrong": "Evidence → going to. Plan based on evidence → going to.",
+          "ielts_tip": "evidence/data → going to. opinion/think → will.",
+          "distractor_note": "near-correct: option C (going to + will) cũng có thể đúng — will cho spontaneous decision",
+          "layers": [
+            "going to for evidence",
+            "going to for plan",
+            "consistency"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "will_vs_going_to",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'According to experts, automation [A] will to eliminate many jobs, companies [B] is going to need to retrain workers, and the government [C] will provides financial support.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [C] có lỗi — [B] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] will to → will. [B] is → are (companies = plural). [C] will provides → will provide.",
+          "explanation_long": "Lớp 1: [A] 'will to eliminate' → 'will eliminate' (will + V bare). Lớp 2: [B] 'companies is going to' → 'companies are going to' (plural). Lớp 3: [C] 'will provides' → 'will provide' (will + V bare, no -s).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] will eliminate | [B] are going to | [C] will provide!",
+          "feedback_wrong": "[A] will + V (no to). [B] companies = plural → are. [C] will + V (no -s).",
+          "ielts_tip": "will + V bare (no to, no -s). S (plural) + are going to.",
+          "distractor_note": "near-correct: option B bỏ sót [B]. Option A bỏ sót [B] và [C].",
+          "layers": [
+            "will + bare infinitive",
+            "going to agreement",
+            "triple error"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "0fb40708-1ecf-42d1-ae3e-30f6c819f80c",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-7-future-will-going-to",
+      "metadata_ref": "unit-7-future-will-going-to.metadata",
+      "generation_profile_ref": "gp_unit7_future_will_going_to",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "4.5–5.0",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "Experts predict that AI ___ many jobs in the next decade.",
+          "options": [
+            "will replace",
+            "is going to replace",
+            "replaces",
+            "replaced"
+          ],
+          "correct_answer": "will replace",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Dự đoán chung → will replace",
+          "feedback_wrong": "Dự đoán tương lai chung → will + V.",
+          "explanation_short": "Dự đoán chung về tương lai → will.",
+          "ielts_tip": "predict + will: dự đoán chung không có bằng chứng cụ thể.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "The company ___ a new office in Da Nang next month. Everything is ready.",
+          "options": [
+            "will open",
+            "is going to open",
+            "opens",
+            "opened"
+          ],
+          "correct_answer": "is going to open",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Kế hoạch + bằng chứng → is going to open",
+          "feedback_wrong": "Có kế hoạch/bằng chứng → is going to. Không phải will.",
+          "explanation_short": "Kế hoạch đã sắp xếp + bằng chứng → is going to.",
+          "ielts_tip": "Kế hoạch có bằng chứng → going to. Dự đoán chung → will.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "A: 'The printer is broken.' B: 'Don't worry, I ___ it.'",
+          "options": [
+            "am going to fix",
+            "will fix",
+            "fix",
+            "fixed"
+          ],
+          "correct_answer": "will fix",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Quyết định tức thì → will fix",
+          "feedback_wrong": "Quyết định ngay lúc nói → will. Kế hoạch từ trước → going to.",
+          "explanation_short": "Quyết định tức thì tại thời điểm nói → will.",
+          "ielts_tip": "will = spontaneous decision. going to = planned decision.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "She ___ attend the tech conference tomorrow.",
+          "options": [
+            "will",
+            "will to",
+            "is will",
+            "going will"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 will + V nguyên mẫu (không to)",
+          "feedback_wrong": "will + V (không to): will attend.",
+          "explanation_short": "will + V nguyên mẫu (không có to).",
+          "ielts_tip": "will + V bare infinitive. Không bao giờ 'will to V'.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "The new software ___ be available until next Friday.",
+          "options": [
+            "will",
+            "won't",
+            "doesn't",
+            "isn't going"
+          ],
+          "correct_answer": "won't",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Chưa available → won't be available until...",
+          "feedback_wrong": "until = chưa có → won't + V: won't be available.",
+          "explanation_short": "until next Friday = chưa có → phủ định: won't be available.",
+          "ielts_tip": "won't + V until + time = sẽ không... cho đến khi...",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "Look at those dark clouds! It ___ rain soon.",
+          "options": [
+            "will",
+            "is going to",
+            "does",
+            "has"
+          ],
+          "correct_answer": "is going to",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Bằng chứng trước mắt → is going to rain",
+          "feedback_wrong": "Bằng chứng (dark clouds) → is going to. Will = dự đoán chung.",
+          "explanation_short": "Có bằng chứng (dark clouds) → is going to.",
+          "ielts_tip": "Có evidence → going to. Dự đoán opinion → will.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "I ___ you the report by 5pm, I promise.",
+          "options": [
+            "am going to send",
+            "will send",
+            "send",
+            "sent"
+          ],
+          "correct_answer": "will send",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Promise → will send",
+          "feedback_wrong": "Lời hứa → will. Kế hoạch → going to.",
+          "explanation_short": "Promise → will: I will send.",
+          "ielts_tip": "will + promise/guarantee/assure = lời hứa.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "We ___ a new CRM system next quarter. The budget has been approved.",
+          "options": [
+            "will implement",
+            "are going to implement",
+            "implement",
+            "implemented"
+          ],
+          "correct_answer": "are going to implement",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Kế hoạch đã có → are going to implement",
+          "feedback_wrong": "Budget approved = kế hoạch → going to. Không phải will.",
+          "explanation_short": "Budget approved = kế hoạch đã có → are going to.",
+          "ielts_tip": "Kế hoạch + bằng chứng → going to. Spontaneous → will.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'The manager will to review all applications tomorrow.'",
+          "options": [
+            "Sai: will to → will (bỏ to)",
+            "Câu đúng không có lỗi",
+            "Sai: review → reviewing",
+            "Sai: applications → application"
+          ],
+          "correct_answer": "Sai: will to → will (bỏ to)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 will + V (không to): will review",
+          "feedback_wrong": "will + V bare infinitive. Không bao giờ 'will to V'.",
+          "explanation_short": "will + V nguyên mẫu: will review (không will to review).",
+          "ielts_tip": "will + V (no to). Lỗi phổ biến do ảnh hưởng tiếng Việt.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "Technology ___ continue to shape the future of work.",
+          "options": [
+            "will",
+            "is going to",
+            "does",
+            "has"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Dự đoán chung → will continue",
+          "feedback_wrong": "Dự đoán opinion/general → will.",
+          "explanation_short": "Dự đoán chung về xu hướng tương lai → will.",
+          "ielts_tip": "Task 2: Technology will continue/improve/change... → will cho dự đoán.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "5a6e5fa3-40ca-40ed-b3dd-47945c602d39",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-7-future-will-going-to",
+      "metadata_ref": "unit-7-future-will-going-to.metadata",
+      "generation_profile_ref": "gp_unit7_future_will_going_to",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "5.0–5.5",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "The government ___ new regulations next year, as the draft has already been finalized.",
+          "options": [
+            "will introduce",
+            "is going to introduce",
+            "introduces",
+            "introduced"
+          ],
+          "correct_answer": "is going to introduce",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Kế hoạch đã finalize → going to introduce",
+          "feedback_wrong": "Draft finalized = kế hoạch → going to.",
+          "explanation_short": "Draft finalized = kế hoạch → going to.",
+          "ielts_tip": "Kế hoạch có evidence → going to. Opinion → will.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "Many analysts believe that remote work ___ the dominant model by 2030.",
+          "options": [
+            "is going to become",
+            "will become",
+            "becomes",
+            "became"
+          ],
+          "correct_answer": "will become",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ believe + dự đoán → will become",
+          "feedback_wrong": "Opinion/prediction → will. Evidence → going to.",
+          "explanation_short": "believe (opinion) + dự đoán tương lai → will.",
+          "ielts_tip": "Task 2: experts believe/predict + will V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "The tech startup has secured $10 million in funding. They ___ 200 new employees.",
+          "options": [
+            "will hire",
+            "are going to hire",
+            "hire",
+            "hired"
+          ],
+          "correct_answer": "are going to hire",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Bằng chứng cụ thể → going to hire",
+          "feedback_wrong": "Funding secured = kế hoạch → going to.",
+          "explanation_short": "Đã secured funding = bằng chứng/kế hoạch → going to.",
+          "ielts_tip": "Bằng chứng + kế hoạch → going to.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'The company will opens a new branch in Ho Chi Minh City.'",
+          "options": [
+            "Sai: will opens → will open (will + V bare infinitive)",
+            "Câu đúng không có lỗi",
+            "Sai: a new → the new",
+            "Sai: in → at"
+          ],
+          "correct_answer": "Sai: will opens → will open (will + V bare infinitive)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 will + V bare infinitive: will open",
+          "feedback_wrong": "will + V (không chia): will open.",
+          "explanation_short": "will + V nguyên mẫu: will open (không thêm -s).",
+          "ielts_tip": "will + V bare infinitive. Không bao giờ thêm -s/-ed/-ing sau will.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "In conclusion, automation ___ reshape the job market, and workers will need to adapt.",
+          "options": [
+            "is going to",
+            "will",
+            "does",
+            "has"
+          ],
+          "correct_answer": "will",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Kết bài Task 2 + dự đoán → will",
+          "feedback_wrong": "Câu kết bài Task 2 → will cho dự đoán khẳng định.",
+          "explanation_short": "Câu kết bài Task 2, dự đoán chung → will.",
+          "ielts_tip": "Task 2 conclusion: will + V = dự đoán mạnh.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'The team going to present the project results tomorrow.'",
+          "options": [
+            "Sai: going to → is going to (thiếu be)",
+            "Câu đúng không có lỗi",
+            "Sai: present → presenting",
+            "Sai: tomorrow → the tomorrow"
+          ],
+          "correct_answer": "Sai: going to → is going to (thiếu be)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Thiếu be: is going to present",
+          "feedback_wrong": "be going to: S + am/is/are + going to + V.",
+          "explanation_short": "be going to: The team IS going to present.",
+          "ielts_tip": "S + be + going to + V. Thiếu be = lỗi phổ biến.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "'You look tired.' — 'I ___ you a coffee.'",
+          "options": [
+            "am going to get",
+            "will get",
+            "get",
+            "got"
+          ],
+          "correct_answer": "will get",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Đề nghị tức thì → will get",
+          "feedback_wrong": "Offer tức thì → will. Kế hoạch → going to.",
+          "explanation_short": "Đề nghị tức thì → will.",
+          "ielts_tip": "will = spontaneous offer. going to = planned action.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'The new policy willn't affect current employees.'",
+          "options": [
+            "Sai: willn't → won't (viết tắt đúng)",
+            "Câu đúng không có lỗi",
+            "Sai: affect → effect",
+            "Sai: current → currently"
+          ],
+          "correct_answer": "Sai: willn't → won't (viết tắt đúng)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 will not → won't (không phải willn't)",
+          "feedback_wrong": "will not = won't. Không có dạng willn't.",
+          "explanation_short": "will not = won't (không phải willn't).",
+          "ielts_tip": "won't = will not. Contraction chuẩn.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "I think technology ___ solve most of our current problems.",
+          "options": [
+            "is going to",
+            "will",
+            "does",
+            "going to"
+          ],
+          "correct_answer": "will",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ I think + prediction → will solve",
+          "feedback_wrong": "I think + will = dự đoán cá nhân.",
+          "explanation_short": "I think + dự đoán cá nhân → will.",
+          "ielts_tip": "Speaking Part 3: I think/believe + will + V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "According to the project timeline, the team ___ the app by December.",
+          "options": [
+            "will launch",
+            "is going to launch",
+            "launches",
+            "launched"
+          ],
+          "correct_answer": "is going to launch",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Kế hoạch cụ thể → going to launch",
+          "feedback_wrong": "Timeline = kế hoạch → going to.",
+          "explanation_short": "Project timeline = kế hoạch cụ thể → going to.",
+          "ielts_tip": "According to plan/schedule → going to.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "475d8d23-d2b7-4c56-80bf-5cd2a68680a0",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-7-future-will-going-to",
+      "metadata_ref": "unit-7-future-will-going-to.metadata",
+      "generation_profile_ref": "gp_unit7_future_will_going_to",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "5.5–6.0",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The research shows clear trends: AI is going to dominate industry, and I think unemployment will to rise.'",
+          "options": [
+            "The research shows clear trends",
+            "AI is going to dominate industry",
+            "and I think unemployment",
+            "will to rise"
+          ],
+          "correct_answer": "will to rise",
+          "correct_index": 3,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 will + V bare infinitive: will rise!",
+          "feedback_wrong": "will + V (không to): will rise.",
+          "explanation_short": "will + V bare infinitive: will rise (không will to rise).",
+          "ielts_tip": "will + V (no to). going to + V (có evidence).",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Câu kết bài Task 2 nào CHUẨN NHẤT?",
+          "options": [
+            "In conclusion",
+            " technology is going to continue transforming the workplace.",
+            "In conclusion",
+            " technology will continue to transform the workplace.",
+            "In conclusion",
+            " technology will to continue transforming the workplace.",
+            "In conclusion",
+            " technology continues to transform the workplace."
+          ],
+          "correct_answer": "In conclusion, technology will continue to transform the workplace.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 will continue = chuẩn câu kết bài!",
+          "feedback_wrong": "will + V = formal prediction trong conclusion.",
+          "explanation_short": "Câu kết bài + dự đoán → will (formal hơn going to).",
+          "ielts_tip": "Conclusion Task 2: will + V = formal prediction.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The company going to invest heavily in renewable energy, which will create many green jobs.'",
+          "options": [
+            "The company going to invest",
+            "heavily in renewable energy",
+            "which will create",
+            "many green jobs"
+          ],
+          "correct_answer": "The company going to invest",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Thiếu be: is going to invest!",
+          "feedback_wrong": "S + be + going to + V. Thiếu be = sai.",
+          "explanation_short": "Thiếu is: The company IS going to invest.",
+          "ielts_tip": "S + am/is/are + going to + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT phân biệt will và going to:",
+          "options": [
+            "The weather forecast says it will rain tomorrow so I'm going to bring an umbrella.",
+            "The weather forecast says it is going to rain tomorrow so I will bring an umbrella.",
+            "The weather forecast says it is going to rain tomorrow so I'm going to bring an umbrella.",
+            "The weather forecast says it will rain tomorrow so I will bring an umbrella."
+          ],
+          "correct_answer": "The weather forecast says it is going to rain tomorrow so I'm going to bring an umbrella.",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Evidence → going to rain. Plan → going to bring!",
+          "feedback_wrong": "Forecast = evidence → going to. Plan based on evidence → going to.",
+          "explanation_short": "Forecast = evidence → going to rain. Kế hoạch → going to bring.",
+          "ielts_tip": "Evidence → going to. Plan → going to. Spontaneous → will.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN cho IELTS Writing?\n'Some people argue that robots ___ [A] many workers, while others believe that technology ___ [B] new opportunities.'",
+          "options": [
+            "[A] will replace / [B] is going to create",
+            "[A] will replace / [B] will create",
+            "[A] are going to replace / [B] are going to create",
+            "[A] replace / [B] create"
+          ],
+          "correct_answer": "[A] will replace / [B] will create",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 argue/believe = opinions → will cho cả hai!",
+          "feedback_wrong": "Opinions/predictions → will. Evidence → going to.",
+          "explanation_short": "argue/believe = opinions → will cho cả hai.",
+          "ielts_tip": "Task 2: argue/believe/predict + will + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Current data shows that sea levels will rise dramatically, and coastal cities is going to face serious flooding.'",
+          "options": [
+            "Current data shows that",
+            "sea levels will rise dramatically",
+            "and coastal cities is going to",
+            "face serious flooding"
+          ],
+          "correct_answer": "and coastal cities is going to",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 cities = plural → are going to!",
+          "feedback_wrong": "cities = plural → are going to, không phải is.",
+          "explanation_short": "cities = plural → ARE going to (không is).",
+          "ielts_tip": "S + am/is/are + going to. Số nhiều → are.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If governments invest in education",
+            " the economy is going to benefit significantly.",
+            "If governments invest in education",
+            " the economy will benefit significantly.",
+            "If governments will invest in education",
+            " the economy will benefit significantly.",
+            "If governments are going to invest in education",
+            " the economy benefits significantly."
+          ],
+          "correct_answer": "If governments invest in education, the economy will benefit significantly.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 If + Present Simple, will + V = chuẩn!",
+          "feedback_wrong": "If + V (Present), will + V. Không dùng will trong if-clause.",
+          "explanation_short": "If + Present Simple, will + V = First Conditional chuẩn.",
+          "ielts_tip": "If + Present, will + V. Conditional Type 1.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The report predicts that unemployment will increases and the government will needs to take action.'",
+          "options": [
+            "The report predicts that",
+            "unemployment will increases",
+            "and the government will needs",
+            "to take action"
+          ],
+          "correct_answer": "unemployment will increases",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 will + V bare: increase, không increases!",
+          "feedback_wrong": "will + V bare infinitive. Không thêm -s/-ed sau will.",
+          "explanation_short": "will + V bare: will increase (không will increases).",
+          "ielts_tip": "will + V (no -s). Lỗi phổ biến do quen chia ngôi 3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Chọn cặp câu ĐÚNG NHẤT phân biệt will vs going to:",
+          "options": [
+            "Research shows that global temperatures will rise. Therefore",
+            " we will implement new policies.",
+            "Research shows that global temperatures are going to rise. Therefore",
+            " we are going to implement new policies.",
+            "Research shows that global temperatures are going to rise. Therefore",
+            " we will implement new policies.",
+            "Research shows that global temperatures will rise. Therefore",
+            " we are going to implement new policies."
+          ],
+          "correct_answer": "Research shows that global temperatures are going to rise. Therefore, we are going to implement new policies.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Evidence → going to. Plan → going to!",
+          "feedback_wrong": "Evidence → going to. Plan based on evidence → going to.",
+          "explanation_short": "Research shows = evidence → going to rise. Implement policies = plan → going to.",
+          "ielts_tip": "evidence/data → going to. opinion/think → will.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'According to experts, automation [A] will to eliminate many jobs, companies [B] is going to need to retrain workers, and the government [C] will provides financial support.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [C] có lỗi — [B] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] will eliminate | [B] are going to | [C] will provide!",
+          "feedback_wrong": "[A] will + V (no to). [B] companies = plural → are. [C] will + V (no -s).",
+          "explanation_short": "[A] will to → will. [B] is → are (companies = plural). [C] will provides → will provide.",
+          "ielts_tip": "will + V bare (no to, no -s). S (plural) + are going to.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

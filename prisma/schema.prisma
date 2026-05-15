@@ -356,12 +356,14 @@ model ErrorHunterPassage {
   totalErrors     Int
   /// Optional JSON array of FalseAlarmZone objects for smart false-alarm hints
   falseAlarmZones Json?        // FalseAlarmZone[]
+  collocations    Json?        // danh sách collocations
+  speakingCueCard Json?        // speaking cue card
+  metadata        Json?        // weaknessTag, cognitiveLoad, etc.
   isActive        Boolean      @default(true)
   createdAt       DateTime     @default(now())
   updatedAt       DateTime     @updatedAt
 
   errors          ErrorHunterError[]
-  attempts        ErrorHunterAttempt[]
 
   @@index([packId, isActive])
   @@index([minUnitIndex, maxUnitIndex])
@@ -369,37 +371,41 @@ model ErrorHunterPassage {
 
 /// Ground-truth error — char-index based, server-side only (correctText hidden from client)
 model ErrorHunterError {
-  id            String             @id @default(cuid())
-  passage       ErrorHunterPassage @relation(fields: [passageId], references: [id], onDelete: Cascade)
-  passageId     String
-  startIndex    Int
-  endIndex      Int
-  errorText     String
-  correctText   String
-  errorType     String             // "SVA" | "TENSE" | "ARTICLE" | "PREPOSITION" …
-  severity      EhErrorSeverity    @default(MAJOR)
-  explanation   String             @db.Text
-  grammarRule   GrammarRule?       @relation(fields: [grammarRuleId], references: [id])
-  grammarRuleId String?
-  ieltsTip      IeltsTip?          @relation(fields: [ieltsTipId], references: [id])
-  ieltsTipId    String?
+  id                  String             @id @default(cuid())
+  passage             ErrorHunterPassage @relation(fields: [passageId], references: [id], onDelete: Cascade)
+  passageId           String
+  startIndex          Int
+  endIndex            Int
+  errorText           String
+  correctText         String
+  acceptedAnswers     String[]           // nhiều đáp án đúng
+  errorType           String             // "SVA" | "TENSE" | "ARTICLE" | "PREPOSITION" …
+  relatedGrammar      String?            // tách biệt errorType
+  severity            EhErrorSeverity    @default(MAJOR)
+  explanation         String             @db.Text
+  explanationVi       String?            @db.Text   // giải thích tiếng Việt
+  detectionDifficulty Int?               // độ khó phát hiện 1-5
+  errorVisibility     String?            // OBVIOUS | SUBTLE
+  grammarRule         GrammarRule?       @relation(fields: [grammarRuleId], references: [id])
+  grammarRuleId       String?
+  ieltsTip            IeltsTip?          @relation(fields: [ieltsTipId], references: [id])
+  ieltsTipId          String?
 
   @@index([passageId])
 }
 
-/// One user attempt at a passage
+/// One user attempt at a passage (passageId = slug from JSON file in data/error-hunter/)
 model ErrorHunterAttempt {
-  id             String             @id @default(cuid())
+  id             String   @id @default(cuid())
   clerkId        String
-  passage        ErrorHunterPassage @relation(fields: [passageId], references: [id])
-  passageId      String
+  passageId      String   // slug from JSON file, e.g. "health-spres-starter-u01-01"
   scorePercent   Int
   foundCorrect   Int
   missed         Int
   falseAlarms    Int
   fixAccuracy    Int
   userSelections Json
-  createdAt      DateTime           @default(now())
+  createdAt      DateTime @default(now())
 
   @@index([clerkId, createdAt(sort: Desc)])
   @@index([clerkId, passageId])

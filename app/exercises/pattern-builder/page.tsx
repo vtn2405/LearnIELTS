@@ -248,8 +248,7 @@ export default function PatternBuilderPage() {
   const progressPct  = Math.round((doneUnits / totalUnits) * 100);
 
   function handleCta(unitId: string) {
-    console.log("CTA clicked:", unitId);
-    // TODO: navigate to exercise screen
+    window.location.href = `/exercises/pattern-builder/${unitId}`;
   }
 
   return (

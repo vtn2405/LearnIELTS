@@ -1,0 +1,2457 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-6-past-perfect",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-6-past-perfect",
+    "version": "4.0",
+    "grammar_point": "Past Perfect",
+    "subtitle_vi": "Thì quá khứ hoàn thành",
+    "topic_vocabulary": "Work & Technology",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 7: The Past Perfect Tense",
+      "unit_json_ref": "unit-6-past-perfect.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "past_perfect_form",
+      "past_perfect_before_past",
+      "past_perfect_with_by",
+      "past_perfect_vs_simple_past",
+      "past_perfect_irregular",
+      "past_perfect_reported",
+      "past_perfect_with_wish"
+    ],
+    "common_vietnamese_errors": [
+      "had_missing",
+      "past_participle_wrong",
+      "simple_past_instead_of_past_perfect",
+      "past_perfect_unnecessary",
+      "simple_past_with_wish",
+      "double_past_perfect"
+    ],
+    "ielts_band_target": {
+      "min": 5.5,
+      "max": 6.0
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-6-past-perfect",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "6.0–6.0",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.0 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "6.0–6.5",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ. Tìm vị trí lỗi, không chỉ chọn đáp án.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ, không liên quan đến field khác",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.0 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_form",
+          "error_tag": "had_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "She ___ already left when I arrived at the office.",
+          "options": [
+            "has",
+            "had",
+            "have",
+            "was"
+          ],
+          "correct_answer": "had",
+          "correct_index": 1,
+          "explanation_short": "Hành động xảy ra trước 'arrived' → Past Perfect: had left.",
+          "explanation_long": "Past Perfect diễn tả hành động xảy ra trước một hành động khác trong quá khứ. She had left (trước) → I arrived (sau).",
+          "feedback_correct": "⚡ Đúng! Hành động trước trong quá khứ → had + V3",
+          "feedback_wrong": "Trước 'arrived' → Past Perfect: had left.",
+          "ielts_tip": "Had + V3 = hành động xảy ra trước trong quá khứ.",
+          "distractor_note": "obvious: has (Present Perfect), have (sai ngôi), was (sai cấu trúc)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_form",
+          "error_tag": "past_participle_wrong",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "By the time the meeting started, the manager had ___ the report.",
+          "options": [
+            "finish",
+            "finished",
+            "finishing",
+            "finishes"
+          ],
+          "correct_answer": "finished",
+          "correct_index": 1,
+          "explanation_short": "had + V3: finish → finished.",
+          "explanation_long": "Past Perfect: had + past participle. Finish là động từ quy tắc: finished.",
+          "feedback_correct": "🔥 had + V3 → had finished",
+          "feedback_wrong": "Sau had phải dùng V3: finished.",
+          "ielts_tip": "had + V3. Quy tắc: thêm -ed. Bất quy tắc: phải nhớ.",
+          "distractor_note": "obvious: finish (V1), finishing (V-ing), finishes (Present)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The team ___ the project before the deadline passed.",
+          "options": [
+            "completed",
+            "had completed",
+            "has completed",
+            "completes"
+          ],
+          "correct_answer": "had completed",
+          "correct_index": 1,
+          "explanation_short": "Trước 'the deadline passed' → Past Perfect: had completed.",
+          "explanation_long": "Hành động hoàn thành trước một mốc quá khứ (deadline passed) → Past Perfect.",
+          "feedback_correct": "⚡ Trước mốc quá khứ → had completed",
+          "feedback_wrong": "Trước 'deadline passed' → Past Perfect: had completed.",
+          "ielts_tip": "Before/By the time + Simple Past → mệnh đề trước dùng Past Perfect.",
+          "distractor_note": "obvious: completed (Simple Past), has completed (Present Perfect)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_irregular",
+          "error_tag": "past_participle_wrong",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "He had never ___ abroad before he got that IT job.",
+          "options": [
+            "went",
+            "go",
+            "gone",
+            "going"
+          ],
+          "correct_answer": "gone",
+          "correct_index": 2,
+          "explanation_short": "had + V3: go → went → gone.",
+          "explanation_long": "Go là bất quy tắc: go → went (V2) → gone (V3). Sau had dùng V3: gone.",
+          "feedback_correct": "🔥 go → went → gone. Sau had dùng V3!",
+          "feedback_wrong": "go → went (V2) → gone (V3). Sau had phải là V3.",
+          "ielts_tip": "V3 bất quy tắc phổ biến: go-went-gone, do-did-done, see-saw-seen.",
+          "distractor_note": "obvious: went (V2), go (V1), going (V-ing)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_with_by",
+          "error_tag": "had_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "By 2022, the company ___ its old servers with cloud technology.",
+          "options": [
+            "replaced",
+            "had replaced",
+            "has replaced",
+            "replaces"
+          ],
+          "correct_answer": "had replaced",
+          "correct_index": 1,
+          "explanation_short": "By 2022 = trước mốc quá khứ → Past Perfect: had replaced.",
+          "explanation_long": "'By + mốc quá khứ' → Past Perfect: had replaced. 'By 2022' = trước năm 2022.",
+          "feedback_correct": "⚡ By + mốc quá khứ → had replaced",
+          "feedback_wrong": "By 2022 → Past Perfect: had replaced.",
+          "ielts_tip": "By + thời gian quá khứ → Past Perfect. By + thời gian tương lai → Future Perfect.",
+          "distractor_note": "obvious: replaced (Simple Past), has replaced (Present Perfect)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "After she ___ the training course, she applied for a promotion.",
+          "options": [
+            "finishes",
+            "had finished",
+            "has finished",
+            "finishing"
+          ],
+          "correct_answer": "had finished",
+          "correct_index": 1,
+          "explanation_short": "After + hành động trước → Past Perfect: had finished.",
+          "explanation_long": "After + Past Perfect, Past Simple: After she had finished, she applied.",
+          "feedback_correct": "🔥 After + Past Perfect → had finished",
+          "feedback_wrong": "After + hành động trước → Past Perfect: had finished.",
+          "ielts_tip": "After + had V3, S + V2. Before + S + V2, S + had V3.",
+          "distractor_note": "obvious: finishes (Present), has finished (Present Perfect)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_vs_simple_past",
+          "error_tag": "past_perfect_unnecessary",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The software ___ yesterday and caused several issues.",
+          "options": [
+            "had crashed",
+            "crashed",
+            "has crashed",
+            "crashes"
+          ],
+          "correct_answer": "crashed",
+          "correct_index": 1,
+          "explanation_short": "yesterday = mốc cụ thể, không có hành động trước → Simple Past: crashed.",
+          "explanation_long": "Chỉ có 1 hành động trong quá khứ + yesterday → Simple Past. Past Perfect chỉ dùng khi có 2 hành động, cần phân biệt trước/sau.",
+          "feedback_correct": "⚡ Chỉ 1 hành động + yesterday → Simple Past: crashed",
+          "feedback_wrong": "Chỉ 1 hành động quá khứ → Simple Past. Past Perfect cần 2 hành động.",
+          "ielts_tip": "Past Perfect CHỈ dùng khi cần phân biệt 2 hành động trước/sau trong quá khứ.",
+          "distractor_note": "obvious: had crashed (không cần Past Perfect ở đây)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_form",
+          "error_tag": "had_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "I realized I ___ my laptop at the office when I got home.",
+          "options": [
+            "forget",
+            "had forgotten",
+            "have forgotten",
+            "forgot"
+          ],
+          "correct_answer": "had forgotten",
+          "correct_index": 1,
+          "explanation_short": "Quên (trước) → nhận ra (sau) → Past Perfect: had forgotten.",
+          "explanation_long": "Hành động quên xảy ra trước hành động nhận ra → Past Perfect: had forgotten.",
+          "feedback_correct": "🔥 Quên (trước) → nhận ra (sau) → had forgotten",
+          "feedback_wrong": "Hành động trước → Past Perfect: had forgotten.",
+          "ielts_tip": "realized/discovered/noticed + had V3 = nhận ra điều đã xảy ra trước đó.",
+          "distractor_note": "obvious: forgot (Simple Past), have forgotten (Present Perfect)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'When I arrived, the meeting already started.'",
+          "options": [
+            "Sai: started → had started (hành động trước)",
+            "Câu đúng, không có lỗi",
+            "Sai: arrived → had arrived",
+            "Sai: already → yet"
+          ],
+          "correct_answer": "Sai: started → had started (hành động trước)",
+          "correct_index": 0,
+          "explanation_short": "Meeting started (trước) → I arrived (sau) → had started.",
+          "explanation_long": "'Already started' trước 'I arrived' → cần Past Perfect: had already started.",
+          "feedback_correct": "🎯 started trước arrived → had already started",
+          "feedback_wrong": "Hành động trước → Past Perfect: had already started.",
+          "ielts_tip": "When + Simple Past, S + had already + V3.",
+          "distractor_note": "obvious: option B bẫy vì câu nghe tự nhiên trong tiếng Việt"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_with_never",
+          "error_tag": "had_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "They ___ never used video conferencing before the pandemic hit.",
+          "options": [
+            "have",
+            "had",
+            "has",
+            "were"
+          ],
+          "correct_answer": "had",
+          "correct_index": 1,
+          "explanation_short": "Trước 'the pandemic hit' (quá khứ) → Past Perfect: had never used.",
+          "explanation_long": "'Before the pandemic hit' = mốc quá khứ → hành động trước đó dùng Past Perfect: had never used.",
+          "feedback_correct": "⚡ Trước mốc quá khứ → had never used",
+          "feedback_wrong": "Trước mốc quá khứ (pandemic hit) → Past Perfect: had.",
+          "ielts_tip": "had never + V3 + before + Simple Past = chưa bao giờ làm gì trước một mốc quá khứ.",
+          "distractor_note": "obvious: have (Present Perfect), has (sai ngôi), were (sai cấu trúc)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The company had already implemented AI solutions before competitors ___ the trend.",
+          "options": [
+            "had noticed",
+            "noticed",
+            "have noticed",
+            "notice"
+          ],
+          "correct_answer": "noticed",
+          "correct_index": 1,
+          "explanation_short": "Before + Simple Past: noticed. Mệnh đề trước dùng had implemented (Past Perfect).",
+          "explanation_long": "Cấu trúc: S + had V3 + before + S + V2. 'Had implemented' (trước) + 'noticed' (sau).",
+          "feedback_correct": "🔥 had V3 + before + V2 → noticed",
+          "feedback_wrong": "Before + Simple Past. Mệnh đề chính dùng Past Perfect.",
+          "ielts_tip": "S + had V3 + before + S + V2. Không dùng had cho cả hai mệnh đề.",
+          "distractor_note": "plausible: had noticed (dùng had cho cả hai vế = sai)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_vs_simple_past",
+          "error_tag": "past_perfect_unnecessary",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The engineer ___ the code, tested it, and submitted the pull request.",
+          "options": [
+            "had written",
+            "wrote",
+            "has written",
+            "writes"
+          ],
+          "correct_answer": "wrote",
+          "correct_index": 1,
+          "explanation_short": "3 hành động liên tiếp theo thứ tự → Simple Past cho tất cả.",
+          "explanation_long": "Khi các hành động xảy ra theo thứ tự tự nhiên (wrote → tested → submitted), không cần Past Perfect. Simple Past đủ rõ.",
+          "feedback_correct": "⚡ Hành động liên tiếp theo thứ tự → Simple Past",
+          "feedback_wrong": "Hành động liên tiếp → Simple Past. Past Perfect chỉ cần khi thứ tự không rõ.",
+          "ielts_tip": "Khi thứ tự rõ ràng (and, then) → Simple Past. Chỉ dùng Past Perfect khi cần nhấn mạnh trước/sau.",
+          "distractor_note": "plausible: had written nghe có vẻ academic hơn nhưng không cần thiết"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_with_by",
+          "error_tag": "had_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "By the end of the quarter, the sales team ___ all their targets.",
+          "options": [
+            "achieved",
+            "had achieved",
+            "has achieved",
+            "achieves"
+          ],
+          "correct_answer": "had achieved",
+          "correct_index": 1,
+          "explanation_short": "By the end of the quarter = mốc quá khứ → Past Perfect: had achieved.",
+          "explanation_long": "'By the end of + thời gian quá khứ' → Past Perfect: had achieved. Hành động hoàn thành trước mốc đó.",
+          "feedback_correct": "🔥 By the end of + quá khứ → had achieved",
+          "feedback_wrong": "By the end of + mốc quá khứ → Past Perfect.",
+          "ielts_tip": "By the time/end of + mốc quá khứ → Past Perfect.",
+          "distractor_note": "plausible: achieved (Simple Past cũng gần đúng)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_vs_simple_past",
+          "error_tag": "past_perfect_unnecessary",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The company had launched a new product last Tuesday.'",
+          "options": [
+            "had launched → launched (last Tuesday = thời gian cụ thể → Simple Past)",
+            "Câu đúng, không có lỗi",
+            "a new product → the new product",
+            "last Tuesday → on last Tuesday"
+          ],
+          "correct_answer": "had launched → launched (last Tuesday = thời gian cụ thể → Simple Past)",
+          "correct_index": 0,
+          "explanation_short": "last Tuesday + chỉ 1 hành động → Simple Past: launched.",
+          "explanation_long": "'Last Tuesday' = thời gian cụ thể + không có hành động thứ hai → dùng Simple Past, không cần Past Perfect.",
+          "feedback_correct": "🎯 last Tuesday + 1 hành động → Simple Past: launched",
+          "feedback_wrong": "Chỉ 1 hành động + thời gian cụ thể → Simple Past. Không cần had.",
+          "ielts_tip": "Past Perfect CHỈ cần khi phân biệt 2 hành động trước/sau. 1 hành động → Simple Past.",
+          "distractor_note": "plausible: option B bẫy vì had launched nghe formal"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_reported",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The manager said that the team ___ the deadline.",
+          "options": [
+            "missed",
+            "had missed",
+            "has missed",
+            "misses"
+          ],
+          "correct_answer": "had missed",
+          "correct_index": 1,
+          "explanation_short": "said (quá khứ) → hành động trước đó dùng Past Perfect: had missed.",
+          "explanation_long": "Reported speech: 'said' (Simple Past) → lùi thì: missed → had missed (Past Perfect).",
+          "feedback_correct": "⚡ said → lùi thì → had missed",
+          "feedback_wrong": "Reported speech: said → lùi thì → had missed.",
+          "ielts_tip": "Reported speech: said/told + had V3. Lùi 1 bậc từ Simple Past.",
+          "distractor_note": "plausible: missed (cũng được chấp nhận trong informal nhưng had missed chuẩn hơn)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_form",
+          "error_tag": "past_participle_wrong",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The developer had wrote the documentation before submitting the code.'",
+          "options": [
+            "had wrote → had written (write-wrote-written)",
+            "Câu đúng, không có lỗi",
+            "submitting → submitted",
+            "the code → a code"
+          ],
+          "correct_answer": "had wrote → had written (write-wrote-written)",
+          "correct_index": 0,
+          "explanation_short": "had + V3: write → wrote (V2) → written (V3). Had wrote = sai.",
+          "explanation_long": "Write là bất quy tắc: write-wrote-written. Sau had phải dùng V3: written, không phải V2: wrote.",
+          "feedback_correct": "🔥 write-wrote-written. Sau had dùng V3: written!",
+          "feedback_wrong": "had + V3: written. Không dùng V2 (wrote) sau had.",
+          "ielts_tip": "Lỗi phổ biến: had went/had wrote/had took → had gone/written/taken.",
+          "distractor_note": "plausible: option B bẫy vì nghe tự nhiên"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The startup failed because it ___ enough market research.",
+          "options": [
+            "didn't do",
+            "hadn't done",
+            "hasn't done",
+            "doesn't do"
+          ],
+          "correct_answer": "hadn't done",
+          "correct_index": 1,
+          "explanation_short": "Không làm research (trước) → thất bại (sau) → Past Perfect: hadn't done.",
+          "explanation_long": "Nguyên nhân (hadn't done research) xảy ra trước kết quả (failed) → Past Perfect phủ định.",
+          "feedback_correct": "⚡ Nguyên nhân trước kết quả → hadn't done",
+          "feedback_wrong": "Nguyên nhân xảy ra trước → Past Perfect: hadn't done.",
+          "ielts_tip": "failed/succeeded because + had/hadn't V3 = giải thích nguyên nhân trước kết quả.",
+          "distractor_note": "plausible: didn't do (Simple Past cũng gần đúng nhưng kém chính xác)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_with_wish",
+          "error_tag": "simple_past_with_wish",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'I wish I studied programming when I was younger.'",
+          "options": [
+            "studied → had studied (wish + Past Perfect = tiếc nuối quá khứ)",
+            "Câu đúng, không có lỗi",
+            "was → were",
+            "younger → young"
+          ],
+          "correct_answer": "studied → had studied (wish + Past Perfect = tiếc nuối quá khứ)",
+          "correct_index": 0,
+          "explanation_short": "wish + Past Perfect = tiếc nuối về quá khứ: I wish I had studied.",
+          "explanation_long": "'I wish I had studied' = ước gì đã học (tiếc nuối quá khứ). 'I wish I studied' = ước gì đang học (hiện tại).",
+          "feedback_correct": "🎯 wish + had V3 = tiếc nuối quá khứ",
+          "feedback_wrong": "wish + had V3 = tiếc nuối quá khứ: I wish I had studied.",
+          "ielts_tip": "Speaking Part 2: I wish I had + V3... → diễn đạt tiếc nuối, tăng band Grammatical Range.",
+          "distractor_note": "plausible: option C (was→were) cũng có thể đúng nhưng option A là lỗi chính"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_vs_simple_past",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The employees were frustrated because the system ___ three times that morning.",
+          "options": [
+            "crashed",
+            "had crashed",
+            "has crashed",
+            "crashes"
+          ],
+          "correct_answer": "had crashed",
+          "correct_index": 1,
+          "explanation_short": "crashed 3 lần (trước) → frustrated (sau) → Past Perfect: had crashed.",
+          "explanation_long": "Sự cố crash xảy ra trước trạng thái frustrated → Past Perfect: had crashed.",
+          "feedback_correct": "🔥 Sự kiện trước trạng thái → had crashed",
+          "feedback_wrong": "Hành động trước trạng thái quá khứ → Past Perfect.",
+          "ielts_tip": "were + adj + because + had V3 = giải thích trạng thái bằng hành động trước đó.",
+          "distractor_note": "plausible: crashed (Simple Past cũng gần đúng)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "had_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Once the team ___ the testing phase, they moved on to deployment.",
+          "options": [
+            "completed",
+            "had completed",
+            "has completed",
+            "completes"
+          ],
+          "correct_answer": "had completed",
+          "correct_index": 1,
+          "explanation_short": "Once + hành động hoàn thành trước → Past Perfect: had completed.",
+          "explanation_long": "Once + Past Perfect, Past Simple: Once they had completed (trước), they moved on (sau).",
+          "feedback_correct": "⚡ Once + had V3 → had completed",
+          "feedback_wrong": "Once + Past Perfect, Simple Past: had completed, moved on.",
+          "ielts_tip": "Once/After + had V3, S + V2. Cấu trúc mô tả trình tự sự kiện.",
+          "distractor_note": "plausible: completed (Simple Past cũng được nhưng kém chính xác)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "Past Perfect vs Simple Past",
+            "time sequence in complex sentence",
+            "academic coherence"
+          ],
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The IT team realized that a hacker accessed the system two hours before they detected the breach.'",
+          "options": [
+            "The IT team realized",
+            "that a hacker accessed the system",
+            "two hours before they",
+            "detected the breach"
+          ],
+          "correct_answer": "that a hacker accessed the system",
+          "correct_index": 1,
+          "explanation_short": "accessed (trước) → realized (sau) → Past Perfect: had accessed.",
+          "explanation_long": "Lớp 1: hacker accessed (trước) → team realized (sau) → cần Past Perfect: had accessed. Lớp 2: 'two hours before they detected' cũng củng cố thứ tự thời gian.",
+          "feedback_correct": "🔥 accessed trước realized → had accessed!",
+          "feedback_wrong": "Hành động xảy ra trước → Past Perfect: had accessed.",
+          "ielts_tip": "realized/discovered/found that + had V3 = phát hiện điều đã xảy ra trước.",
+          "distractor_note": "near-correct: option D trông có vẻ sai nhưng detected = đúng thì"
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_vs_simple_past",
+          "error_tag": "past_perfect_unnecessary",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "Past Perfect necessity",
+            "chronological order",
+            "academic writing clarity"
+          ],
+          "stem": "Chọn câu CHUẨN NHẤT cho IELTS Writing Task 2:",
+          "options": [
+            "The government had introduced new policies in 2020 and they had transformed the economy.",
+            "The government introduced new policies in 2020 and they transformed the economy.",
+            "The government had introduced new policies in 2020 and they transformed the economy.",
+            "The government introduced new policies in 2020 and they had transformed the economy."
+          ],
+          "correct_answer": "The government introduced new policies in 2020 and they transformed the economy.",
+          "correct_index": 1,
+          "explanation_short": "in 2020 + hành động theo thứ tự → Simple Past cho cả hai. Không cần Past Perfect.",
+          "explanation_long": "Lớp 1: 'in 2020' = mốc cụ thể → Simple Past. Lớp 2: hai hành động theo thứ tự tự nhiên → Simple Past cho cả hai. Past Perfect không cần thiết ở đây.",
+          "feedback_correct": "🏆 Thứ tự rõ ràng + mốc cụ thể → Simple Past!",
+          "feedback_wrong": "Khi thứ tự rõ ràng → Simple Past. Không lạm dụng Past Perfect.",
+          "ielts_tip": "Không lạm dụng Past Perfect. Chỉ dùng khi CẦN phân biệt trước/sau.",
+          "distractor_note": "near-correct: option A dùng had cho cả hai vế = lạm dụng"
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_perfect_form",
+          "error_tag": "past_participle_wrong",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "irregular V3",
+            "Past Perfect in reported context",
+            "subject-verb agreement"
+          ],
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The CEO announced that the company had grew significantly and had attract many investors.'",
+          "options": [
+            "The CEO announced that",
+            "the company had grew significantly",
+            "and had attract",
+            "many investors"
+          ],
+          "correct_answer": "the company had grew significantly",
+          "correct_index": 1,
+          "explanation_short": "had + V3: grow → grew (V2) → grown (V3). Had grew = sai.",
+          "explanation_long": "Lớp 1: grow-grew-grown. 'Had grew' → 'had grown'. Lớp 2: 'had attract' cũng sai → 'had attracted'. Cả B và C đều sai, nhưng B rõ ràng hơn.",
+          "feedback_correct": "🔥 grow-grew-grown. Sau had dùng V3: grown!",
+          "feedback_wrong": "had + V3: grown (không phải grew). Và: had attracted (không phải attract).",
+          "ielts_tip": "V3 hay sai: grow→grown, know→known, show→shown, throw→thrown.",
+          "distractor_note": "near-correct: option C (had attract) cũng có lỗi — bẫy kép"
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_with_wish",
+          "error_tag": "simple_past_with_wish",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "wish + Past Perfect for regret",
+            "conditional mood",
+            "academic register"
+          ],
+          "stem": "Chọn câu ĐÚNG NHẤT cho IELTS Speaking Part 2 (kể về tiếc nuối):",
+          "options": [
+            "I wish I learned coding skills when I was at university.",
+            "I wish I had learned coding skills when I was at university.",
+            "I wish I have learned coding skills when I was at university.",
+            "I wish I would learn coding skills when I was at university."
+          ],
+          "correct_answer": "I wish I had learned coding skills when I was at university.",
+          "correct_index": 1,
+          "explanation_short": "wish + had V3 = tiếc nuối về quá khứ: I wish I had learned.",
+          "explanation_long": "Lớp 1: wish + Past Perfect = regret about the past. Lớp 2: 'when I was' = mốc quá khứ → xác nhận đây là tiếc nuối quá khứ.",
+          "feedback_correct": "🏆 wish + had V3 = tiếc nuối quá khứ hoàn hảo!",
+          "feedback_wrong": "wish + had learned = tiếc nuối quá khứ. wish + V2 = ước ở hiện tại.",
+          "ielts_tip": "Speaking Part 2: I wish I had + V3... → nâng band Grammatical Range.",
+          "distractor_note": "near-correct: option A (wish I learned) = ước hiện tại, không phải tiếc nuối quá khứ"
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "time sequence detection",
+            "Past Perfect in academic paragraph",
+            "cause-effect relationship"
+          ],
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'By the time the company ___ [A] the problem, they already ___ [B] thousands of customers.'",
+          "options": [
+            "[A] discovered / [B] lost",
+            "[A] had discovered / [B] had lost",
+            "[A] discovered / [B] had lost",
+            "[A] had discovered / [B] lost"
+          ],
+          "correct_answer": "[A] discovered / [B] had lost",
+          "correct_index": 2,
+          "explanation_short": "By the time + Simple Past (discovered) → mệnh đề kia dùng Past Perfect (had lost).",
+          "explanation_long": "Lớp 1: 'By the time + S + V2' → mệnh đề chính dùng Past Perfect. Lớp 2: lost (trước) → discovered (sau) → had already lost.",
+          "feedback_correct": "🏆 By the time + V2, S + had V3!",
+          "feedback_wrong": "By the time + discovered (V2) → had already lost (Past Perfect).",
+          "ielts_tip": "By the time + V2, S + had V3. Cấu trúc phổ biến trong narrative essays.",
+          "distractor_note": "near-correct: option B dùng had cho cả hai = sai cấu trúc"
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_perfect_reported",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "reported speech backshift",
+            "Past Perfect in indirect speech",
+            "tense consistency"
+          ],
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The report stated that automation replaced many traditional jobs, which led to widespread unemployment.'",
+          "options": [
+            "The report stated that",
+            "automation replaced many traditional jobs",
+            "which led to",
+            "widespread unemployment"
+          ],
+          "correct_answer": "automation replaced many traditional jobs",
+          "correct_index": 1,
+          "explanation_short": "stated (quá khứ) → lùi thì: replaced → had replaced.",
+          "explanation_long": "Lớp 1: 'stated' = reporting verb ở quá khứ → tense backshift: replaced → had replaced. Lớp 2: 'which led to' cũng nên lùi thành 'had led to' nhưng option B là lỗi chính.",
+          "feedback_correct": "🔥 Reported speech: stated → lùi thì → had replaced!",
+          "feedback_wrong": "stated (quá khứ) → lùi thì → had replaced.",
+          "ielts_tip": "Reported speech formal: said/stated/reported + had V3.",
+          "distractor_note": "near-correct: option C (led → had led) cũng có thể cần lùi thì"
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "simple_past_instead_of_past_perfect",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "narrative sequence",
+            "Past Perfect for background",
+            "academic body paragraph"
+          ],
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Before the internet became widespread, people relied heavily on traditional media for information.",
+            "Before the internet had become widespread, people relied heavily on traditional media for information.",
+            "Before the internet became widespread, people had relied heavily on traditional media for information.",
+            "Before the internet had become widespread, people had relied heavily on traditional media for information."
+          ],
+          "correct_answer": "Before the internet became widespread, people had relied heavily on traditional media for information.",
+          "correct_index": 2,
+          "explanation_short": "Before + V2 (became) → mệnh đề chính dùng Past Perfect (had relied).",
+          "explanation_long": "Lớp 1: Before + Simple Past → Past Perfect cho hành động diễn ra trong khoảng thời gian trước đó. Lớp 2: had relied = trạng thái kéo dài trước mốc 'internet became widespread'.",
+          "feedback_correct": "🏆 Before + V2, S + had V3 = chuẩn nhất!",
+          "feedback_wrong": "Before + became (V2), had relied (Past Perfect) = đúng thứ tự thì.",
+          "ielts_tip": "Before + V2, S + had V3. Cấu trúc so sánh quá khứ trong Task 2.",
+          "distractor_note": "near-correct: option A cũng đúng ngữ pháp nhưng kém chính xác về thứ tự thì"
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_perfect_form",
+          "error_tag": "past_participle_wrong",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "irregular V3 in complex sentence",
+            "double Past Perfect",
+            "academic paragraph"
+          ],
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The researchers had already began the experiment when the funding had been withdrew unexpectedly.'",
+          "options": [
+            "had already began",
+            "the experiment when",
+            "the funding had been",
+            "withdrew unexpectedly"
+          ],
+          "correct_answer": "had already began",
+          "correct_index": 0,
+          "explanation_short": "had + V3: begin → began (V2) → begun (V3). Had began = sai.",
+          "explanation_long": "Lớp 1: begin-began-begun. 'Had began' → 'had begun'. Lớp 2: 'had been withdrew' cũng sai → 'had been withdrawn'. Cả A và D đều sai, nhưng A sai rõ nhất.",
+          "feedback_correct": "🔥 begin-began-begun. Sau had dùng V3: begun!",
+          "feedback_wrong": "begin-began-begun. had begun (không phải began). Và: had been withdrawn.",
+          "ielts_tip": "V3 hay nhầm: begin→begun, drink→drunk, sing→sung, swim→swum.",
+          "distractor_note": "near-correct: option D (withdrew → withdrawn) cũng sai — bẫy kép"
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "past_perfect_vs_simple_past",
+          "error_tag": "past_perfect_unnecessary",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "Past Perfect necessity assessment",
+            "chronological clarity",
+            "academic writing efficiency"
+          ],
+          "stem": "Trong đoạn Task 2 sau, chỗ nào CẦN Past Perfect?\n'The government ___ [A] new regulations. Companies ___ [B] to adapt. The economy eventually ___ [C].'",
+          "options": [
+            "Chỉ [A] cần Past Perfect",
+            "Chỉ [B] cần Past Perfect",
+            "Không chỗ nào cần Past Perfect — tất cả Simple Past",
+            "Cả [A] và [B] cần Past Perfect"
+          ],
+          "correct_answer": "Không chỗ nào cần Past Perfect — tất cả Simple Past",
+          "correct_index": 2,
+          "explanation_short": "3 hành động theo thứ tự tự nhiên → Simple Past cho tất cả.",
+          "explanation_long": "Lớp 1: introduced → struggled → recovered = thứ tự tự nhiên, rõ ràng. Lớp 2: Không cần Past Perfect vì không có sự mơ hồ về thứ tự. Lớp 3: Dùng Past Perfect ở đây = lạm dụng.",
+          "feedback_correct": "🏆 Thứ tự rõ ràng → Simple Past. Không lạm dụng Past Perfect!",
+          "feedback_wrong": "Khi thứ tự rõ ràng → Simple Past. Past Perfect chỉ cần khi có ambiguity.",
+          "ielts_tip": "Narrative Task 2: hành động theo thứ tự → Simple Past. Chỉ dùng Past Perfect khi cần.",
+          "distractor_note": "near-correct: option D bẫy vì nghĩ quá khứ = luôn cần Past Perfect"
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "past_perfect_before_past",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "layers": [
+            "Past Perfect vs Simple Past",
+            "irregular V3",
+            "double error detection"
+          ],
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'By the time the company [A] has realized the problem, thousands of users [B] already experienced data loss, which [C] had costed millions in damages.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [C] có lỗi — [B] đúng",
+            "Cả [A], [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A], [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] has realized → had realized. [B] already experienced → had already experienced. [C] had costed → had cost.",
+          "explanation_long": "Lớp 1: [A] 'By the time' + quá khứ → had realized (Past Perfect, không Present Perfect). Lớp 2: [B] 'already experienced' → 'had already experienced' (Past Perfect). Lớp 3: [C] 'costed' không tồn tại — cost-cost-cost (bất quy tắc không đổi) → 'had cost'.",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] had realized | [B] had already experienced | [C] had cost!",
+          "feedback_wrong": "[A] has→had. [B] cần had already. [C] cost-cost-cost (không phải costed).",
+          "ielts_tip": "cost-cost-cost, cut-cut-cut, put-put-put = V1=V2=V3. Không thêm -ed!",
+          "distractor_note": "near-correct: option B bỏ sót [B], option A bỏ sót [C]. Cả 3 đều sai."
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "68ead2ec-4c7f-42cd-99ee-074fbea8cf34",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-6-past-perfect",
+      "metadata_ref": "unit-6-past-perfect.metadata",
+      "generation_profile_ref": "gp_unit6_past-perfect",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "She ___ already left when I arrived at the office.",
+          "options": [
+            "has",
+            "had",
+            "have",
+            "was"
+          ],
+          "correct_answer": "had",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Đúng! Hành động trước trong quá khứ → had + V3",
+          "feedback_wrong": "Trước 'arrived' → Past Perfect: had left.",
+          "explanation_short": "Hành động xảy ra trước 'arrived' → Past Perfect: had left.",
+          "ielts_tip": "Had + V3 = hành động xảy ra trước trong quá khứ.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "By the time the meeting started, the manager had ___ the report.",
+          "options": [
+            "finish",
+            "finished",
+            "finishing",
+            "finishes"
+          ],
+          "correct_answer": "finished",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 had + V3 → had finished",
+          "feedback_wrong": "Sau had phải dùng V3: finished.",
+          "explanation_short": "had + V3: finish → finished.",
+          "ielts_tip": "had + V3. Quy tắc: thêm -ed. Bất quy tắc: phải nhớ.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "The team ___ the project before the deadline passed.",
+          "options": [
+            "completed",
+            "had completed",
+            "has completed",
+            "completes"
+          ],
+          "correct_answer": "had completed",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Trước mốc quá khứ → had completed",
+          "feedback_wrong": "Trước 'deadline passed' → Past Perfect: had completed.",
+          "explanation_short": "Trước 'the deadline passed' → Past Perfect: had completed.",
+          "ielts_tip": "Before/By the time + Simple Past → mệnh đề trước dùng Past Perfect.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "He had never ___ abroad before he got that IT job.",
+          "options": [
+            "went",
+            "go",
+            "gone",
+            "going"
+          ],
+          "correct_answer": "gone",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 go → went → gone. Sau had dùng V3!",
+          "feedback_wrong": "go → went (V2) → gone (V3). Sau had phải là V3.",
+          "explanation_short": "had + V3: go → went → gone.",
+          "ielts_tip": "V3 bất quy tắc phổ biến: go-went-gone, do-did-done, see-saw-seen.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "By 2022, the company ___ its old servers with cloud technology.",
+          "options": [
+            "replaced",
+            "had replaced",
+            "has replaced",
+            "replaces"
+          ],
+          "correct_answer": "had replaced",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ By + mốc quá khứ → had replaced",
+          "feedback_wrong": "By 2022 → Past Perfect: had replaced.",
+          "explanation_short": "By 2022 = trước mốc quá khứ → Past Perfect: had replaced.",
+          "ielts_tip": "By + thời gian quá khứ → Past Perfect. By + thời gian tương lai → Future Perfect.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "After she ___ the training course, she applied for a promotion.",
+          "options": [
+            "finishes",
+            "had finished",
+            "has finished",
+            "finishing"
+          ],
+          "correct_answer": "had finished",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 After + Past Perfect → had finished",
+          "feedback_wrong": "After + hành động trước → Past Perfect: had finished.",
+          "explanation_short": "After + hành động trước → Past Perfect: had finished.",
+          "ielts_tip": "After + had V3, S + V2. Before + S + V2, S + had V3.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "The software ___ yesterday and caused several issues.",
+          "options": [
+            "had crashed",
+            "crashed",
+            "has crashed",
+            "crashes"
+          ],
+          "correct_answer": "crashed",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Chỉ 1 hành động + yesterday → Simple Past: crashed",
+          "feedback_wrong": "Chỉ 1 hành động quá khứ → Simple Past. Past Perfect cần 2 hành động.",
+          "explanation_short": "yesterday = mốc cụ thể, không có hành động trước → Simple Past: crashed.",
+          "ielts_tip": "Past Perfect CHỈ dùng khi cần phân biệt 2 hành động trước/sau trong quá khứ.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "I realized I ___ my laptop at the office when I got home.",
+          "options": [
+            "forget",
+            "had forgotten",
+            "have forgotten",
+            "forgot"
+          ],
+          "correct_answer": "had forgotten",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Quên (trước) → nhận ra (sau) → had forgotten",
+          "feedback_wrong": "Hành động trước → Past Perfect: had forgotten.",
+          "explanation_short": "Quên (trước) → nhận ra (sau) → Past Perfect: had forgotten.",
+          "ielts_tip": "realized/discovered/noticed + had V3 = nhận ra điều đã xảy ra trước đó.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'When I arrived, the meeting already started.'",
+          "options": [
+            "Sai: started → had started (hành động trước)",
+            "Câu đúng, không có lỗi",
+            "Sai: arrived → had arrived",
+            "Sai: already → yet"
+          ],
+          "correct_answer": "Sai: started → had started (hành động trước)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 started trước arrived → had already started",
+          "feedback_wrong": "Hành động trước → Past Perfect: had already started.",
+          "explanation_short": "Meeting started (trước) → I arrived (sau) → had started.",
+          "ielts_tip": "When + Simple Past, S + had already + V3.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "They ___ never used video conferencing before the pandemic hit.",
+          "options": [
+            "have",
+            "had",
+            "has",
+            "were"
+          ],
+          "correct_answer": "had",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Trước mốc quá khứ → had never used",
+          "feedback_wrong": "Trước mốc quá khứ (pandemic hit) → Past Perfect: had.",
+          "explanation_short": "Trước 'the pandemic hit' (quá khứ) → Past Perfect: had never used.",
+          "ielts_tip": "had never + V3 + before + Simple Past = chưa bao giờ làm gì trước một mốc quá khứ.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "3efba034-b0d4-4fd3-a4f7-cb100ccd9755",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-6-past-perfect",
+      "metadata_ref": "unit-6-past-perfect.metadata",
+      "generation_profile_ref": "gp_unit6_past-perfect",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "6.0–6.0",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "The company had already implemented AI solutions before competitors ___ the trend.",
+          "options": [
+            "had noticed",
+            "noticed",
+            "have noticed",
+            "notice"
+          ],
+          "correct_answer": "noticed",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 had V3 + before + V2 → noticed",
+          "feedback_wrong": "Before + Simple Past. Mệnh đề chính dùng Past Perfect.",
+          "explanation_short": "Before + Simple Past: noticed. Mệnh đề trước dùng had implemented (Past Perfect).",
+          "ielts_tip": "S + had V3 + before + S + V2. Không dùng had cho cả hai mệnh đề.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "The engineer ___ the code, tested it, and submitted the pull request.",
+          "options": [
+            "had written",
+            "wrote",
+            "has written",
+            "writes"
+          ],
+          "correct_answer": "wrote",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Hành động liên tiếp theo thứ tự → Simple Past",
+          "feedback_wrong": "Hành động liên tiếp → Simple Past. Past Perfect chỉ cần khi thứ tự không rõ.",
+          "explanation_short": "3 hành động liên tiếp theo thứ tự → Simple Past cho tất cả.",
+          "ielts_tip": "Khi thứ tự rõ ràng (and, then) → Simple Past. Chỉ dùng Past Perfect khi cần nhấn mạnh trước/sau.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "By the end of the quarter, the sales team ___ all their targets.",
+          "options": [
+            "achieved",
+            "had achieved",
+            "has achieved",
+            "achieves"
+          ],
+          "correct_answer": "had achieved",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 By the end of + quá khứ → had achieved",
+          "feedback_wrong": "By the end of + mốc quá khứ → Past Perfect.",
+          "explanation_short": "By the end of the quarter = mốc quá khứ → Past Perfect: had achieved.",
+          "ielts_tip": "By the time/end of + mốc quá khứ → Past Perfect.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'The company had launched a new product last Tuesday.'",
+          "options": [
+            "had launched → launched (last Tuesday = thời gian cụ thể → Simple Past)",
+            "Câu đúng, không có lỗi",
+            "a new product → the new product",
+            "last Tuesday → on last Tuesday"
+          ],
+          "correct_answer": "had launched → launched (last Tuesday = thời gian cụ thể → Simple Past)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 last Tuesday + 1 hành động → Simple Past: launched",
+          "feedback_wrong": "Chỉ 1 hành động + thời gian cụ thể → Simple Past. Không cần had.",
+          "explanation_short": "last Tuesday + chỉ 1 hành động → Simple Past: launched.",
+          "ielts_tip": "Past Perfect CHỈ cần khi phân biệt 2 hành động trước/sau. 1 hành động → Simple Past.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "The manager said that the team ___ the deadline.",
+          "options": [
+            "missed",
+            "had missed",
+            "has missed",
+            "misses"
+          ],
+          "correct_answer": "had missed",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ said → lùi thì → had missed",
+          "feedback_wrong": "Reported speech: said → lùi thì → had missed.",
+          "explanation_short": "said (quá khứ) → hành động trước đó dùng Past Perfect: had missed.",
+          "ielts_tip": "Reported speech: said/told + had V3. Lùi 1 bậc từ Simple Past.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'The developer had wrote the documentation before submitting the code.'",
+          "options": [
+            "had wrote → had written (write-wrote-written)",
+            "Câu đúng, không có lỗi",
+            "submitting → submitted",
+            "the code → a code"
+          ],
+          "correct_answer": "had wrote → had written (write-wrote-written)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 write-wrote-written. Sau had dùng V3: written!",
+          "feedback_wrong": "had + V3: written. Không dùng V2 (wrote) sau had.",
+          "explanation_short": "had + V3: write → wrote (V2) → written (V3). Had wrote = sai.",
+          "ielts_tip": "Lỗi phổ biến: had went/had wrote/had took → had gone/written/taken.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "The startup failed because it ___ enough market research.",
+          "options": [
+            "didn't do",
+            "hadn't done",
+            "hasn't done",
+            "doesn't do"
+          ],
+          "correct_answer": "hadn't done",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Nguyên nhân trước kết quả → hadn't done",
+          "feedback_wrong": "Nguyên nhân xảy ra trước → Past Perfect: hadn't done.",
+          "explanation_short": "Không làm research (trước) → thất bại (sau) → Past Perfect: hadn't done.",
+          "ielts_tip": "failed/succeeded because + had/hadn't V3 = giải thích nguyên nhân trước kết quả.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'I wish I studied programming when I was younger.'",
+          "options": [
+            "studied → had studied (wish + Past Perfect = tiếc nuối quá khứ)",
+            "Câu đúng, không có lỗi",
+            "was → were",
+            "younger → young"
+          ],
+          "correct_answer": "studied → had studied (wish + Past Perfect = tiếc nuối quá khứ)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 wish + had V3 = tiếc nuối quá khứ",
+          "feedback_wrong": "wish + had V3 = tiếc nuối quá khứ: I wish I had studied.",
+          "explanation_short": "wish + Past Perfect = tiếc nuối về quá khứ: I wish I had studied.",
+          "ielts_tip": "Speaking Part 2: I wish I had + V3... → diễn đạt tiếc nuối, tăng band Grammatical Range.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "The employees were frustrated because the system ___ three times that morning.",
+          "options": [
+            "crashed",
+            "had crashed",
+            "has crashed",
+            "crashes"
+          ],
+          "correct_answer": "had crashed",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Sự kiện trước trạng thái → had crashed",
+          "feedback_wrong": "Hành động trước trạng thái quá khứ → Past Perfect.",
+          "explanation_short": "crashed 3 lần (trước) → frustrated (sau) → Past Perfect: had crashed.",
+          "ielts_tip": "were + adj + because + had V3 = giải thích trạng thái bằng hành động trước đó.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "Once the team ___ the testing phase, they moved on to deployment.",
+          "options": [
+            "completed",
+            "had completed",
+            "has completed",
+            "completes"
+          ],
+          "correct_answer": "had completed",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Once + had V3 → had completed",
+          "feedback_wrong": "Once + Past Perfect, Simple Past: had completed, moved on.",
+          "explanation_short": "Once + hành động hoàn thành trước → Past Perfect: had completed.",
+          "ielts_tip": "Once/After + had V3, S + V2. Cấu trúc mô tả trình tự sự kiện.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "1799c650-5ffa-4b56-8240-da18db2d1354",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-6-past-perfect",
+      "metadata_ref": "unit-6-past-perfect.metadata",
+      "generation_profile_ref": "gp_unit6_past-perfect",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "6.0–6.5",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ. Tìm vị trí lỗi, không chỉ chọn đáp án.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The IT team realized that a hacker accessed the system two hours before they detected the breach.'",
+          "options": [
+            "The IT team realized",
+            "that a hacker accessed the system",
+            "two hours before they",
+            "detected the breach"
+          ],
+          "correct_answer": "that a hacker accessed the system",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 accessed trước realized → had accessed!",
+          "feedback_wrong": "Hành động xảy ra trước → Past Perfect: had accessed.",
+          "explanation_short": "accessed (trước) → realized (sau) → Past Perfect: had accessed.",
+          "ielts_tip": "realized/discovered/found that + had V3 = phát hiện điều đã xảy ra trước.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu CHUẨN NHẤT cho IELTS Writing Task 2:",
+          "options": [
+            "The government had introduced new policies in 2020 and they had transformed the economy.",
+            "The government introduced new policies in 2020 and they transformed the economy.",
+            "The government had introduced new policies in 2020 and they transformed the economy.",
+            "The government introduced new policies in 2020 and they had transformed the economy."
+          ],
+          "correct_answer": "The government introduced new policies in 2020 and they transformed the economy.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Thứ tự rõ ràng + mốc cụ thể → Simple Past!",
+          "feedback_wrong": "Khi thứ tự rõ ràng → Simple Past. Không lạm dụng Past Perfect.",
+          "explanation_short": "in 2020 + hành động theo thứ tự → Simple Past cho cả hai. Không cần Past Perfect.",
+          "ielts_tip": "Không lạm dụng Past Perfect. Chỉ dùng khi CẦN phân biệt trước/sau.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The CEO announced that the company had grew significantly and had attract many investors.'",
+          "options": [
+            "The CEO announced that",
+            "the company had grew significantly",
+            "and had attract",
+            "many investors"
+          ],
+          "correct_answer": "the company had grew significantly",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 grow-grew-grown. Sau had dùng V3: grown!",
+          "feedback_wrong": "had + V3: grown (không phải grew). Và: had attracted (không phải attract).",
+          "explanation_short": "had + V3: grow → grew (V2) → grown (V3). Had grew = sai.",
+          "ielts_tip": "V3 hay sai: grow→grown, know→known, show→shown, throw→thrown.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT cho IELTS Speaking Part 2 (kể về tiếc nuối):",
+          "options": [
+            "I wish I learned coding skills when I was at university.",
+            "I wish I had learned coding skills when I was at university.",
+            "I wish I have learned coding skills when I was at university.",
+            "I wish I would learn coding skills when I was at university."
+          ],
+          "correct_answer": "I wish I had learned coding skills when I was at university.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 wish + had V3 = tiếc nuối quá khứ hoàn hảo!",
+          "feedback_wrong": "wish + had learned = tiếc nuối quá khứ. wish + V2 = ước ở hiện tại.",
+          "explanation_short": "wish + had V3 = tiếc nuối về quá khứ: I wish I had learned.",
+          "ielts_tip": "Speaking Part 2: I wish I had + V3... → nâng band Grammatical Range.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'By the time the company ___ [A] the problem, they already ___ [B] thousands of customers.'",
+          "options": [
+            "[A] discovered / [B] lost",
+            "[A] had discovered / [B] had lost",
+            "[A] discovered / [B] had lost",
+            "[A] had discovered / [B] lost"
+          ],
+          "correct_answer": "[A] discovered / [B] had lost",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 By the time + V2, S + had V3!",
+          "feedback_wrong": "By the time + discovered (V2) → had already lost (Past Perfect).",
+          "explanation_short": "By the time + Simple Past (discovered) → mệnh đề kia dùng Past Perfect (had lost).",
+          "ielts_tip": "By the time + V2, S + had V3. Cấu trúc phổ biến trong narrative essays.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The report stated that automation replaced many traditional jobs, which led to widespread unemployment.'",
+          "options": [
+            "The report stated that",
+            "automation replaced many traditional jobs",
+            "which led to",
+            "widespread unemployment"
+          ],
+          "correct_answer": "automation replaced many traditional jobs",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Reported speech: stated → lùi thì → had replaced!",
+          "feedback_wrong": "stated (quá khứ) → lùi thì → had replaced.",
+          "explanation_short": "stated (quá khứ) → lùi thì: replaced → had replaced.",
+          "ielts_tip": "Reported speech formal: said/stated/reported + had V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Before the internet became widespread, people relied heavily on traditional media for information.",
+            "Before the internet had become widespread, people relied heavily on traditional media for information.",
+            "Before the internet became widespread, people had relied heavily on traditional media for information.",
+            "Before the internet had become widespread, people had relied heavily on traditional media for information."
+          ],
+          "correct_answer": "Before the internet became widespread, people had relied heavily on traditional media for information.",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Before + V2, S + had V3 = chuẩn nhất!",
+          "feedback_wrong": "Before + became (V2), had relied (Past Perfect) = đúng thứ tự thì.",
+          "explanation_short": "Before + V2 (became) → mệnh đề chính dùng Past Perfect (had relied).",
+          "ielts_tip": "Before + V2, S + had V3. Cấu trúc so sánh quá khứ trong Task 2.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The researchers had already began the experiment when the funding had been withdrew unexpectedly.'",
+          "options": [
+            "had already began",
+            "the experiment when",
+            "the funding had been",
+            "withdrew unexpectedly"
+          ],
+          "correct_answer": "had already began",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 begin-began-begun. Sau had dùng V3: begun!",
+          "feedback_wrong": "begin-began-begun. had begun (không phải began). Và: had been withdrawn.",
+          "explanation_short": "had + V3: begin → began (V2) → begun (V3). Had began = sai.",
+          "ielts_tip": "V3 hay nhầm: begin→begun, drink→drunk, sing→sung, swim→swum.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Trong đoạn Task 2 sau, chỗ nào CẦN Past Perfect?\n'The government ___ [A] new regulations. Companies ___ [B] to adapt. The economy eventually ___ [C].'",
+          "options": [
+            "Chỉ [A] cần Past Perfect",
+            "Chỉ [B] cần Past Perfect",
+            "Không chỗ nào cần Past Perfect — tất cả Simple Past",
+            "Cả [A] và [B] cần Past Perfect"
+          ],
+          "correct_answer": "Không chỗ nào cần Past Perfect — tất cả Simple Past",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Thứ tự rõ ràng → Simple Past. Không lạm dụng Past Perfect!",
+          "feedback_wrong": "Khi thứ tự rõ ràng → Simple Past. Past Perfect chỉ cần khi có ambiguity.",
+          "explanation_short": "3 hành động theo thứ tự tự nhiên → Simple Past cho tất cả.",
+          "ielts_tip": "Narrative Task 2: hành động theo thứ tự → Simple Past. Chỉ dùng Past Perfect khi cần.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'By the time the company [A] has realized the problem, thousands of users [B] already experienced data loss, which [C] had costed millions in damages.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [C] có lỗi — [B] đúng",
+            "Cả [A], [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A], [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] had realized | [B] had already experienced | [C] had cost!",
+          "feedback_wrong": "[A] has→had. [B] cần had already. [C] cost-cost-cost (không phải costed).",
+          "explanation_short": "[A] has realized → had realized. [B] already experienced → had already experienced. [C] had costed → had cost.",
+          "ielts_tip": "cost-cost-cost, cut-cut-cut, put-put-put = V1=V2=V3. Không thêm -ed!",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

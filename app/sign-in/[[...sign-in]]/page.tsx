@@ -96,18 +96,20 @@ export default function SignInPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
 
+  // Đọc redirect_url từ query param (Clerk middleware tự đính kèm khi bảo vệ route)
+  // Chỉ dùng nếu là relative path (bảo mật, tránh open redirect)
+  const getRedirectDest = () => {
+    const redirectUrl = searchParams.get("redirect_url");
+    return redirectUrl && redirectUrl.startsWith("/") ? redirectUrl : "/grammar-theory";
+  };
+
   // Fallback client-side redirect khi middleware không đọc được cookie kịp thời
   // (Clerk dev mode: __session cookie cần JS client refresh trước)
   useEffect(() => {
     if (isSignedIn) {
-      const redirectUrl = searchParams.get("redirect_url");
-      // Chỉ dùng redirect_url nếu là relative path (bảo mật)
-      const dest =
-        redirectUrl && redirectUrl.startsWith("/")
-          ? redirectUrl
-          : "/grammar-theory";
-      router.replace(dest);
+      router.replace(getRedirectDest());
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isSignedIn, router, searchParams]);
 
   const [email, setEmail] = useState("");
@@ -121,15 +123,17 @@ export default function SignInPage() {
     if (!isLoaded) return;
     // Guard: nếu đã login thì redirect thay vì gọi lại OAuth (tránh lỗi "already signed in")
     if (isSignedIn) {
-      router.push("/grammar-theory");
+      router.push(getRedirectDest());
       return;
     }
+    const dest = getRedirectDest();
     await signIn.authenticateWithRedirect({
       strategy: "oauth_google",
       redirectUrl: "/sso-callback",
-      redirectUrlComplete: "/grammar-theory",
+      redirectUrlComplete: dest,
     });
-  }, [isLoaded, isSignedIn, signIn, router]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isLoaded, isSignedIn, signIn, router, searchParams]);
 
   /* ── Submit ─────────────────────────────────────────────── */
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -154,7 +158,7 @@ export default function SignInPage() {
       });
       if (result.status === "complete") {
         await setActive({ session: result.createdSessionId });
-        router.push("/grammar-theory");
+        router.push(getRedirectDest());
       }
     } catch (err: unknown) {
       const clerkErr = err as { errors?: { code: string; message: string }[] };

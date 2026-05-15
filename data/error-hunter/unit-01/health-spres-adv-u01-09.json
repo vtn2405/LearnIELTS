@@ -1,0 +1,151 @@
+{
+  "slug": "health-spres-adv-u01-09",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Health",
+  "taskType": "SPEAKING_PART2",
+  "bandTarget": 5.5,
+  "difficulty": "ADVANCED",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 2: Health — Simple Present",
+  "titleVi": "IELTS Speaking Part 2: Sức khỏe — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "Describe a healthy habit that you think everyone should have.",
+    "bulletPoints": [
+      "What the habit is",
+      "Why it is beneficial",
+      "How common it is in your country",
+      "Why some people find it difficult to maintain"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "In my opinion, drinking enough water every day is one of the simplest yet most important habits that a person can develop. Most doctors agree that proper hydration improve concentration, boost energy levels, and support the immune system. Unfortunately, a large number of people in my country does not drink enough water because they prefer sugary drinks instead. My grandmother, for instance, always remind me to carry a water bottle wherever I go, and I appreciate her concern. I strongly feel that this habit deserve more attention in public health campaigns, because many illnesses come from basic neglect of the body. If more schools teach children about hydration, I believe the overall health of our society would improve significantly.",
+  "totalErrors": 3,
+  "errors": [
+    {
+      "errorText": "proper hydration improve concentration",
+      "correctText": "proper hydration improves concentration",
+      "acceptedAnswers": [
+        "proper hydration improves concentration"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Hydration' is singular uncountable — 'improves', not 'improve'.",
+      "explanationVi": "'Hydration' là danh từ không đếm được số ít — dùng 'improves', không phải 'improve'.",
+      "grammarRuleCode": "SPRES-022",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 3,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 147,
+      "endIndex": 185
+    },
+    {
+      "errorText": "a large number of people in my country does not drink",
+      "correctText": "a large number of people in my country do not drink",
+      "acceptedAnswers": [
+        "a large number of people in my country do not drink",
+        "a large number of people in my country don't drink"
+      ],
+      "errorType": "SUBJECT_VERB_AGREEMENT",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'A large number of people' takes a plural verb because the focus is on 'people'. Use 'do not drink', not 'does not drink'.",
+      "explanationVi": "'A large number of people' dùng động từ số nhiều vì trọng tâm là 'people'. Dùng 'do not drink', không phải 'does not drink'.",
+      "grammarRuleCode": "SPRES-023",
+      "ieltsTipErrorType": "SUBJECT_VERB_AGREEMENT",
+      "detectionDifficulty": 4,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 254,
+      "endIndex": 307
+    },
+    {
+      "errorText": "this habit deserve more attention",
+      "correctText": "this habit deserves more attention",
+      "acceptedAnswers": [
+        "this habit deserves more attention"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'This habit' is singular — 'deserves', not 'deserve'.",
+      "explanationVi": "'This habit' là số ít — dùng 'deserves', không phải 'deserve'.",
+      "grammarRuleCode": "SPRES-024",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 501,
+      "endIndex": 534
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "Most doctors agree that",
+      "hint": "'Most doctors agree' is correct — 'doctors' is plural, so the base form 'agree' is used.",
+      "startIndex": 123,
+      "endIndex": 146
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "proper hydration",
+      "sourceInPassage": "proper hydration improve concentration",
+      "translation": "bổ sung nước đúng cách",
+      "exampleSentence": "Proper hydration is essential during hot weather to avoid heatstroke.",
+      "grammarNote": "'Proper hydration' — không dùng 'correct hydration' hay 'good hydration' (ít tự nhiên)"
+    },
+    {
+      "phrase": "boost energy levels",
+      "sourceInPassage": "boost energy levels",
+      "translation": "tăng cường năng lượng",
+      "exampleSentence": "A short nap after lunch can boost energy levels for the rest of the day.",
+      "grammarNote": "'Boost' dùng trực tiếp — không dùng 'boost up' (thừa)"
+    },
+    {
+      "phrase": "public health campaigns",
+      "sourceInPassage": "in public health campaigns",
+      "translation": "chiến dịch y tế công cộng",
+      "exampleSentence": "Public health campaigns about smoking have saved millions of lives.",
+      "grammarNote": "'Public health campaign' — không dùng 'health public campaign' (sai thứ tự tính từ)"
+    },
+    {
+      "phrase": "neglect of the body",
+      "sourceInPassage": "basic neglect of the body",
+      "translation": "sự thiếu chăm sóc cơ thể",
+      "exampleSentence": "Many health problems arise from simple neglect of the body over long periods.",
+      "grammarNote": "'Neglect of + danh từ' — không dùng 'neglect to the body'"
+    },
+    {
+      "phrase": "carry a water bottle",
+      "sourceInPassage": "carry a water bottle wherever I go",
+      "translation": "mang theo bình nước",
+      "exampleSentence": "My doctor told me to carry a water bottle everywhere to stay hydrated.",
+      "grammarNote": "'Carry a water bottle' — không dùng 'bring a water bottle' khi nói về mang theo trên người"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "THIRD_PERSON_S_OMISSION",
+      "SUBJECT_VERB_AGREEMENT"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 150,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "Water and Daily Hydration",
+      "discourseSituation": "A learner giving strong opinions about why drinking water is an essential habit",
+      "discourseMood": "reflective",
+      "learnerVoice": "opinion_heavy",
+      "errorStrategy": "mixed",
+      "cognitiveLoad": "high"
+    }
+  }
+}

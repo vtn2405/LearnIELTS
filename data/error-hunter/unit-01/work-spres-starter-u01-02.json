@@ -1,0 +1,126 @@
+{
+  "slug": "work-spres-starter-u01-02",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Work",
+  "taskType": "SPEAKING_PART1",
+  "bandTarget": 4.0,
+  "difficulty": "STARTER",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 1: Work — Simple Present",
+  "titleVi": "IELTS Speaking Part 1: Công việc — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "Do you have a part-time job?",
+    "bulletPoints": [
+      "What job you do",
+      "How many hours you work",
+      "What you like about it",
+      "Whether it affects your studies"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "Yes, I work at a bookshop near my university three days a week. My boss always give me the evening shift because I have classes in the morning. The pay is not great, but I like being around books all day. It don't really affect my studies because I manage my time quite well.",
+  "totalErrors": 2,
+  "errors": [
+    {
+      "errorText": "My boss always give me",
+      "correctText": "My boss always gives me",
+      "acceptedAnswers": [
+        "My boss always gives me"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'My boss' is third-person singular — the verb needs -s: 'gives', not 'give'.",
+      "explanationVi": "'My boss' là ngôi thứ ba số ít — động từ cần thêm -s: 'gives', không phải 'give'.",
+      "grammarRuleCode": "SPRES-003",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 1,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 64,
+      "endIndex": 86
+    },
+    {
+      "errorText": "It don't really affect",
+      "correctText": "It doesn't really affect",
+      "acceptedAnswers": [
+        "It doesn't really affect",
+        "It does not really affect"
+      ],
+      "errorType": "NEGATIVE_FORM_ERROR",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'It' is third-person singular, so the negative form requires 'doesn't', not 'don't'.",
+      "explanationVi": "'It' là ngôi thứ ba số ít, nên dạng phủ định phải dùng 'doesn't', không phải 'don't'.",
+      "grammarRuleCode": "SPRES-004",
+      "ieltsTipErrorType": "NEGATIVE_FORM_ERROR",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 205,
+      "endIndex": 227
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "I work at a bookshop",
+      "hint": "'I work' is correct simple present — first person uses the base form.",
+      "startIndex": 5,
+      "endIndex": 25
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "evening shift",
+      "sourceInPassage": "the evening shift",
+      "translation": "ca tối",
+      "exampleSentence": "I prefer the evening shift because the shop is usually quieter.",
+      "grammarNote": "'Evening shift' — không cần mạo từ 'the' khi nói chung, nhưng dùng 'the' khi chỉ cụ thể"
+    },
+    {
+      "phrase": "three days a week",
+      "sourceInPassage": "three days a week",
+      "translation": "ba ngày một tuần",
+      "exampleSentence": "She exercises three days a week to keep fit.",
+      "grammarNote": "'Days a week' dùng 'a', không dùng 'per' trong văn nói — 'three days a week' tự nhiên hơn 'three days per week'"
+    },
+    {
+      "phrase": "manage my time",
+      "sourceInPassage": "I manage my time quite well",
+      "translation": "quản lý thời gian",
+      "exampleSentence": "University students need to manage their time carefully to balance work and study.",
+      "grammarNote": "'Manage time' — không dùng 'control time' hay 'handle time'"
+    },
+    {
+      "phrase": "being around books",
+      "sourceInPassage": "I like being around books",
+      "translation": "được ở quanh sách",
+      "exampleSentence": "As a book lover, I enjoy being around books wherever I go.",
+      "grammarNote": "'Like + V-ing' cho thói quen thích — 'like being around' không phải 'like to be around' (cả hai đúng nhưng V-ing tự nhiên hơn)"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "THIRD_PERSON_S_OMISSION",
+      "NEGATIVE_FORM_ERROR"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 75,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "Part-time Employment",
+      "discourseSituation": "A student directly describing their part-time job routine",
+      "discourseMood": "descriptive",
+      "learnerVoice": "direct",
+      "errorStrategy": "obvious",
+      "cognitiveLoad": "low"
+    }
+  }
+}

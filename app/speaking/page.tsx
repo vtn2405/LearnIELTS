@@ -288,18 +288,7 @@ export default function SpeakingPage() {
     setFeedbackError(null);
 
     try {
-      // ── [DEBUG] Blob diagnostic ──────────────────────────────────────
       const blob = audioBlobRef.current;
-      console.log("[speaking-feedback] 🎙 audioBlobRef present:", blob !== null);
-      if (blob) {
-        console.log("[speaking-feedback] 🎙 blob.size =", blob.size, "bytes");
-        console.log("[speaking-feedback] 🎙 blob.type =", blob.type);
-      } else {
-        console.warn(
-          "[speaking-feedback] ⚠️ audioBlobRef is NULL — audio was never recorded or ref was cleared.",
-        );
-      }
-      // ────────────────────────────────────────────────────────────────
 
       // Guard: audio is required for pronunciation assessment.
       // If the blob is somehow missing, surface an explicit error so the
@@ -329,12 +318,7 @@ export default function SpeakingPage() {
       fd.append("audio", audioFile, "recording.webm");
       fd.append("meta", metaPayload);
 
-      // ── [DEBUG] FormData diagnostic ──────────────────────────────────
-      console.log("[speaking-feedback] 📦 FormData 'audio' set:", fd.get("audio") !== null);
-      console.log("[speaking-feedback] 📦 FormData 'meta' set:", fd.get("meta") !== null);
-      console.log("[speaking-feedback] 📦 meta payload:", metaPayload);
       // DO NOT manually set Content-Type — browser must set multipart boundary.
-      // ────────────────────────────────────────────────────────────────
 
       const res = await fetch("/api/ai/speaking-drill-feedback", {
         method: "POST",

@@ -1,0 +1,149 @@
+{
+  "slug": "soc-spres-inter-u01-05",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Society",
+  "taskType": "SPEAKING_PART2",
+  "bandTarget": 5.0,
+  "difficulty": "INTERMEDIATE",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 2: Society — Simple Present",
+  "titleVi": "IELTS Speaking Part 2: Xã hội — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "Describe a person in your community who helps others.",
+    "bulletPoints": [
+      "Who this person is",
+      "What they do to help",
+      "How often they help",
+      "Why you admire them"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "There is an elderly woman in my neighbourhood who volunteer at the local community centre every weekend. She organises free English classes for children whose families cannot afford private tutoring. What I admire most is that she never complains, even when only a few students turn up. Her dedication truly inspire everyone around her, and many younger residents now want to follow her example. I believe she represent the best of what community spirit means. People like her deserve much more recognition from local government.",
+  "totalErrors": 3,
+  "errors": [
+    {
+      "errorText": "who volunteer at the local",
+      "correctText": "who volunteers at the local",
+      "acceptedAnswers": [
+        "who volunteers at the local"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "The relative pronoun 'who' refers to 'an elderly woman' (singular), so the verb needs -s: 'volunteers'.",
+      "explanationVi": "Đại từ quan hệ 'who' thay thế cho 'an elderly woman' (số ít), nên động từ cần -s: 'volunteers'.",
+      "grammarRuleCode": "SPRES-010",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 3,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 46,
+      "endIndex": 72
+    },
+    {
+      "errorText": "dedication truly inspire everyone",
+      "correctText": "dedication truly inspires everyone",
+      "acceptedAnswers": [
+        "dedication truly inspires everyone"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Her dedication' is a singular noun phrase — the verb needs -s: 'inspires'.",
+      "explanationVi": "'Her dedication' là cụm danh từ số ít — động từ cần -s: 'inspires'.",
+      "grammarRuleCode": "SPRES-011",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 3,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 291,
+      "endIndex": 324
+    },
+    {
+      "errorText": "she represent the best",
+      "correctText": "she represents the best",
+      "acceptedAnswers": [
+        "she represents the best"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'She' is third-person singular — 'represents', not 'represent'.",
+      "explanationVi": "'She' là ngôi thứ ba số ít — dùng 'represents', không phải 'represent'.",
+      "grammarRuleCode": "SPRES-012",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 406,
+      "endIndex": 428
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "she never complains, even when only a few students turn up",
+      "hint": "'She never complains' is correct — 'she' is singular, so 'complains' has the correct -s. 'Turn up' is also correct because 'students' is plural.",
+      "startIndex": 227,
+      "endIndex": 285
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "community centre",
+      "sourceInPassage": "the local community centre",
+      "translation": "trung tâm cộng đồng",
+      "exampleSentence": "The community centre offers free activities for elderly residents.",
+      "grammarNote": "'Community centre' (British) / 'community center' (American) — cả hai đều chấp nhận trong IELTS"
+    },
+    {
+      "phrase": "afford private tutoring",
+      "sourceInPassage": "cannot afford private tutoring",
+      "translation": "đủ khả năng thuê gia sư",
+      "exampleSentence": "Many families in rural areas cannot afford private tutoring for their children.",
+      "grammarNote": "'Afford + danh từ' hoặc 'afford + to V' — 'cannot afford' phủ định tự nhiên"
+    },
+    {
+      "phrase": "community spirit",
+      "sourceInPassage": "what community spirit means",
+      "translation": "tinh thần cộng đồng",
+      "exampleSentence": "Volunteering at local events strengthens community spirit.",
+      "grammarNote": "'Community spirit' — không dùng 'community soul' hay 'community mind'"
+    },
+    {
+      "phrase": "follow her example",
+      "sourceInPassage": "want to follow her example",
+      "translation": "noi gương cô ấy",
+      "exampleSentence": "Many young people want to follow her example and volunteer regularly.",
+      "grammarNote": "'Follow someone's example' — không dùng 'follow someone's model' hay 'follow someone's way'"
+    },
+    {
+      "phrase": "deserve recognition",
+      "sourceInPassage": "deserve much more recognition",
+      "translation": "xứng đáng được công nhận",
+      "exampleSentence": "Teachers deserve more recognition for the hard work they do every day.",
+      "grammarNote": "'Deserve + danh từ' trực tiếp — không dùng 'deserve for recognition'"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "THIRD_PERSON_S_OMISSION"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 120,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "Community Volunteering",
+      "discourseSituation": "A confident learner describing an admirable community volunteer",
+      "discourseMood": "balanced_discussion",
+      "learnerVoice": "confident",
+      "errorStrategy": "subtle",
+      "cognitiveLoad": "medium"
+    }
+  }
+}

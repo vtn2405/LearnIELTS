@@ -1,7 +1,7 @@
 // components/exercises/error-hunter/ResultPanel.tsx
 "use client";
 
-import type { EhSubmitResponse, EhPerErrorFeedback, EhErrorStatus } from "@/lib/types/error-hunter";
+import type { EhSubmitResponse, EhPerErrorFeedback, EhErrorStatus, EhCollocation } from "@/lib/types/error-hunter";
 
 const STATUS_META: Record<EhErrorStatus, { label: string; color: string; bg: string }> = {
   FOUND_CORRECT:   { label: "✓ Tìm đúng & sửa đúng", color: "#15803d", bg: "#f0fdf4" },
@@ -68,6 +68,23 @@ export default function ResultPanel({ result, onNext }: Props) {
         ))}
       </div>
 
+      {/* ── Collocations section ── */}
+      {result.collocations && result.collocations.length > 0 && (
+        <>
+          <p style={{
+            margin: "4px 0 0", fontSize: 11, fontWeight: 700,
+            letterSpacing: "0.08em", color: "#0369a1", textTransform: "uppercase",
+          }}>
+            📚 Từ vựng &amp; Collocations
+          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+            {result.collocations.map((col) => (
+              <CollocationCard key={col.phrase} col={col} />
+            ))}
+          </div>
+        </>
+      )}
+
       {/* ── Next passage ── */}
       <button
         onClick={onNext}
@@ -112,30 +129,62 @@ function ErrorCard({ fb }: { fb: EhPerErrorFeedback }) {
             <strong style={{ color: "#15803d" }}>{fb.correctText}</strong>
             {fb.userCorrection && fb.status === "FOUND_WRONG_FIX" && (
               <span style={{ color: "#b45309", marginLeft: 6, fontSize: 12 }}>
-                (bạn viết: "{fb.userCorrection}")
+                (bạn viết: &ldquo;{fb.userCorrection}&rdquo;)
               </span>
             )}
           </p>
           <p style={{ margin: "0 0 6px", fontSize: 12.5, color: "#475569", lineHeight: 1.55 }}>
-            {fb.explanation}
+            {fb.explanationVi ?? fb.explanation}
           </p>
         </>
       ) : (
         <p style={{ margin: "0 0 6px", fontSize: 12.5, color: "#475569", lineHeight: 1.55 }}>
-          <strong style={{ color: "#7c3aed" }}>"{fb.errorText}"</strong>
-          {" — "}{fb.explanation}
+          <strong style={{ color: "#7c3aed" }}>&ldquo;{fb.errorText}&rdquo;</strong>
+          {" — "}{fb.explanationVi ?? fb.explanation}
         </p>
       )}
 
-      {fb.ieltsTip && (
+      {(fb.ieltsTipVi || fb.ieltsTip) && (
         <div style={{
           background: "#eff6ff", borderRadius: 6,
           padding: "6px 10px", marginTop: 4,
         }}>
           <p style={{ margin: 0, fontSize: 11.5, color: "#0369a1", lineHeight: 1.5 }}>
-            💡 Mẹo IELTS: {fb.ieltsTip}
+            💡 Mẹo IELTS: {fb.ieltsTipVi ?? fb.ieltsTip}
           </p>
         </div>
+      )}
+    </div>
+  );
+}
+
+function CollocationCard({ col }: { col: EhCollocation }) {
+  return (
+    <div style={{
+      background: "#eff6ff", borderRadius: 10,
+      padding: "12px 14px",
+      border: "1px solid #bfdbfe",
+      borderLeft: "3px solid #3b82f6",
+    }}>
+      <div style={{ display: "flex", alignItems: "baseline", gap: 8, marginBottom: 2 }}>
+        <span style={{ fontSize: 14, fontWeight: 700, color: "#1d4ed8" }}>{col.phrase}</span>
+        <span style={{ fontSize: 12, color: "#64748b" }}>— {col.translation}</span>
+      </div>
+      <p style={{ margin: "0 0 2px", fontSize: 12, color: "#475569", fontStyle: "italic" }}>
+        Trong bài: &ldquo;{col.sourceInPassage}&rdquo;
+      </p>
+      {col.exampleSentence && (
+        <p style={{ margin: "4px 0 2px", fontSize: 12, color: "#334155" }}>
+          <strong>Ví dụ:</strong> {col.exampleSentence}
+        </p>
+      )}
+      {col.grammarNote && (
+        <p style={{
+          margin: "4px 0 0", fontSize: 11.5, color: "#0369a1",
+          background: "#dbeafe", borderRadius: 4, padding: "3px 7px", display: "inline-block",
+        }}>
+          📝 {col.grammarNote}
+        </p>
       )}
     </div>
   );

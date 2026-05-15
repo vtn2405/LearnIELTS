@@ -1,0 +1,2491 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-11-conditional-type-1",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-11-conditional-type-1",
+    "version": "4.0",
+    "grammar_point": "Conditional Type 1",
+    "subtitle_vi": "Câu điều kiện loại 1",
+    "topic_vocabulary": "Global Issues",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 12: Conditional Sentences — Type 1",
+      "unit_json_ref": "unit-11-conditional-type-1.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "cond1_form",
+      "cond1_result",
+      "cond1_negative",
+      "cond1_unless",
+      "cond1_will_in_if"
+    ],
+    "common_vietnamese_errors": [
+      "cond1_will_in_if",
+      "cond1_form_error",
+      "cond1_tense_mix",
+      "cond1_unless_confusion"
+    ],
+    "ielts_band_target": {
+      "min": 5.0,
+      "max": 6.0
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-11-conditional-type-1",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "5.0–5.5",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "5.5–6.0",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.0 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "6.0–6.5",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.0 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If global temperatures ___, sea levels will rise.",
+          "options": [
+            "increase",
+            "will increase",
+            "increased",
+            "increases"
+          ],
+          "correct_answer": "increase",
+          "correct_index": 0,
+          "explanation_short": "If + Present Simple, will + V: If temperatures increase.",
+          "explanation_long": "Conditional Type 1: If + Present Simple, S + will + V.",
+          "feedback_correct": "⚡ If + Present Simple: increase",
+          "feedback_wrong": "If + V (Present), will + V.",
+          "ielts_tip": "Conditional Type 1: If + V, will + V. Không dùng will trong if-clause.",
+          "distractor_note": "obvious: will increase (will trong if-clause = sai)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_result",
+          "error_tag": "cond1_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If we reduce emissions, the environment ___ improve.",
+          "options": [
+            "will",
+            "would",
+            "is",
+            "does"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "explanation_short": "If + Present → will + V (kết quả).",
+          "explanation_long": "Conditional Type 1: mệnh đề kết quả dùng will + V.",
+          "feedback_correct": "🔥 Kết quả → will improve",
+          "feedback_wrong": "If + Present, will + V.",
+          "ielts_tip": "Conditional Type 1: kết quả dùng will.",
+          "distractor_note": "obvious: would (Type 2), is (sai)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_negative",
+          "error_tag": "cond1_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If deforestation ___ stop, many species will become extinct.",
+          "options": [
+            "doesn't",
+            "won't",
+            "didn't",
+            "don't"
+          ],
+          "correct_answer": "doesn't",
+          "correct_index": 0,
+          "explanation_short": "If + Present Simple (phủ định): doesn't stop.",
+          "explanation_long": "If + doesn't + V = Present Simple phủ định trong if-clause.",
+          "feedback_correct": "⚡ If + doesn't stop",
+          "feedback_wrong": "If + don't/doesn't + V.",
+          "ielts_tip": "If-clause: Present Simple. Phủ định: don't/doesn't.",
+          "distractor_note": "obvious: won't (will trong if-clause = sai)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ governments invest in renewable energy, carbon emissions will decrease.",
+          "options": [
+            "If",
+            "When",
+            "Unless",
+            "Although"
+          ],
+          "correct_answer": "If",
+          "correct_index": 0,
+          "explanation_short": "If + Present, will + V = Conditional Type 1.",
+          "explanation_long": "If = điều kiện. When = chắc chắn xảy ra. Unless = if...not.",
+          "feedback_correct": "🎯 If + điều kiện → Conditional Type 1",
+          "feedback_wrong": "If = điều kiện (có thể xảy ra).",
+          "ielts_tip": "If = possibility. When = certainty. Unless = if not.",
+          "distractor_note": "obvious: Although (nhượng bộ)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_unless",
+          "error_tag": "cond1_unless_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ we take action, climate change will worsen.",
+          "options": [
+            "Unless",
+            "If",
+            "When",
+            "Because"
+          ],
+          "correct_answer": "Unless",
+          "correct_index": 0,
+          "explanation_short": "Unless = If...not: Unless we take action = If we don't take action.",
+          "explanation_long": "Unless = If we DON'T take action → climate change will worsen.",
+          "feedback_correct": "⚡ Unless = If...not",
+          "feedback_wrong": "Unless + Present, will + V.",
+          "ielts_tip": "Unless = If not. Đừng dùng phủ định sau unless.",
+          "distractor_note": "obvious: Because (nguyên nhân, sai)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If people ___ more trees, air quality will improve.",
+          "options": [
+            "plant",
+            "will plant",
+            "planted",
+            "planting"
+          ],
+          "correct_answer": "plant",
+          "correct_index": 0,
+          "explanation_short": "If + Present Simple: plant.",
+          "explanation_long": "If + Present Simple (plant), will + V (improve).",
+          "feedback_correct": "🔥 If + Present Simple: plant",
+          "feedback_wrong": "If + V (Present), will + V.",
+          "ielts_tip": "Conditional Type 1: If + V, will + V.",
+          "distractor_note": "obvious: will plant (will trong if-clause)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_result",
+          "error_tag": "cond1_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the pandemic continues, the economy ___ suffer greatly.",
+          "options": [
+            "will",
+            "would",
+            "does",
+            "is going"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "explanation_short": "If + Present → will + V.",
+          "explanation_long": "Conditional Type 1: kết quả dùng will.",
+          "feedback_correct": "⚡ If + Present → will suffer",
+          "feedback_wrong": "will + V = kết quả Conditional Type 1.",
+          "ielts_tip": "If + Present, will + V.",
+          "distractor_note": "obvious: would (Type 2)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If water pollution ___, marine life will be affected.",
+          "options": [
+            "continues",
+            "will continue",
+            "continued",
+            "continuing"
+          ],
+          "correct_answer": "continues",
+          "correct_index": 0,
+          "explanation_short": "If + Present Simple (3rd person): continues.",
+          "explanation_long": "If + Present Simple (continues), will + V.",
+          "feedback_correct": "🔥 If + Present: continues",
+          "feedback_wrong": "If + V (chia theo ngôi), will + V.",
+          "ielts_tip": "If + V-s/es (ngôi 3), will + V.",
+          "distractor_note": "obvious: will continue (will trong if-clause)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If governments will ban plastic bags, pollution will decrease.'",
+          "options": [
+            "Sai: will ban → ban (bỏ will trong if-clause)",
+            "Câu đúng không có lỗi",
+            "Sai: decrease → decreasing",
+            "Sai: bags → bag"
+          ],
+          "correct_answer": "Sai: will ban → ban (bỏ will trong if-clause)",
+          "correct_index": 0,
+          "explanation_short": "If + Present Simple: If governments ban (không will ban).",
+          "explanation_long": "Conditional Type 1: KHÔNG dùng will trong if-clause.",
+          "feedback_correct": "🎯 Bỏ will trong if-clause: ban",
+          "feedback_wrong": "If + V (no will). Will chỉ dùng trong mệnh đề kết quả.",
+          "ielts_tip": "If + Present (no will), will + V.",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the world ___ to cooperate, we will solve climate change.",
+          "options": [
+            "manages",
+            "will manage",
+            "managed",
+            "managing"
+          ],
+          "correct_answer": "manages",
+          "correct_index": 0,
+          "explanation_short": "If + Present Simple: manages.",
+          "explanation_long": "If + Present Simple (manages), will + V.",
+          "feedback_correct": "⚡ If + Present Simple: manages",
+          "feedback_wrong": "If + V, will + V.",
+          "ielts_tip": "If + V-s/es, will + V.",
+          "distractor_note": "obvious: will manage (will trong if-clause)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If developing countries ___ in education, they will see significant economic growth.",
+          "options": [
+            "invest",
+            "will invest",
+            "invested",
+            "investing"
+          ],
+          "correct_answer": "invest",
+          "correct_index": 0,
+          "explanation_short": "If + Present Simple: invest.",
+          "explanation_long": "If + Present Simple (invest), will + V (see).",
+          "feedback_correct": "🔥 If + Present: invest",
+          "feedback_wrong": "If + V, will + V.",
+          "ielts_tip": "If + V (Present), will + V.",
+          "distractor_note": "plausible: will invest (will trong if-clause nghe có vẻ đúng)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_unless",
+          "error_tag": "cond1_unless_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ governments enforce stricter regulations, illegal deforestation will continue.",
+          "options": [
+            "Unless",
+            "If",
+            "When",
+            "While"
+          ],
+          "correct_answer": "Unless",
+          "correct_index": 0,
+          "explanation_short": "Unless = If not: Unless enforce = If don't enforce.",
+          "explanation_long": "Unless + Present = If + don't + V. 'Unless governments enforce' = 'If governments don't enforce'.",
+          "feedback_correct": "⚡ Unless = If not",
+          "feedback_wrong": "Unless + V (present), will + V.",
+          "ielts_tip": "Unless = If not. Phủ định ẩn.",
+          "distractor_note": "plausible: If (cũng đúng nhưng cần thêm not)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_result",
+          "error_tag": "cond1_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the global population reaches 10 billion, food production ___ need to increase by 50%.",
+          "options": [
+            "will",
+            "would",
+            "does",
+            "has"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "explanation_short": "If + Present (reaches) → will + V (need).",
+          "explanation_long": "Conditional Type 1: If + Present, will + V.",
+          "feedback_correct": "🔥 If + Present → will need",
+          "feedback_wrong": "If + Present, will + V.",
+          "ielts_tip": "If + V, will + V.",
+          "distractor_note": "plausible: would (Type 2, nhưng đây là possible → Type 1)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If the economy will recover, unemployment rates will drop significantly.'",
+          "options": [
+            "Sai: will recover → recovers (bỏ will trong if-clause)",
+            "Câu đúng không có lỗi",
+            "Sai: rates → rate",
+            "Sai: significantly → significant"
+          ],
+          "correct_answer": "Sai: will recover → recovers (bỏ will trong if-clause)",
+          "correct_index": 0,
+          "explanation_short": "If + Present: recovers (không will recover).",
+          "explanation_long": "Conditional Type 1: KHÔNG dùng will trong if-clause.",
+          "feedback_correct": "🎯 If + V (no will): recovers",
+          "feedback_wrong": "If + V (no will), will + V.",
+          "ielts_tip": "If + V (Present), will + V. No will in if-clause.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If access to clean water ___, millions of lives will be saved.",
+          "options": [
+            "improves",
+            "will improve",
+            "improved",
+            "improving"
+          ],
+          "correct_answer": "improves",
+          "correct_index": 0,
+          "explanation_short": "If + Present Simple (3rd person): improves.",
+          "explanation_long": "If + Present Simple (improves), will + V.",
+          "feedback_correct": "⚡ If + Present: improves",
+          "feedback_wrong": "If + V-s/es (ngôi 3).",
+          "ielts_tip": "If + V (Present), will + V.",
+          "distractor_note": "plausible: will improve (will trong if-clause)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_tense_mix",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If the temperature rises by 2 degrees, coastal cities would be flooded.'",
+          "options": [
+            "Sai: would → will (Type 1 dùng will",
+            " không would)",
+            "Câu đúng không có lỗi",
+            "Sai: rises → will rise",
+            "Sai: flooded → flooding"
+          ],
+          "correct_answer": "Sai: would → will (Type 1 dùng will, không would)",
+          "correct_index": 0,
+          "explanation_short": "If + Present (rises) → will (không would). Type 1 = real/possible.",
+          "explanation_long": "If + Present → will. 'Would' dùng trong Type 2 (unreal/unlikely).",
+          "feedback_correct": "🔥 Type 1: will (không would)",
+          "feedback_wrong": "If + Present → will. If + Past → would.",
+          "ielts_tip": "Type 1: will. Type 2: would.",
+          "distractor_note": "plausible: option C bẫy"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_negative",
+          "error_tag": "cond1_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If we ___ waste properly, landfills will overflow.",
+          "options": [
+            "don't manage",
+            "won't manage",
+            "didn't manage",
+            "aren't manage"
+          ],
+          "correct_answer": "don't manage",
+          "correct_index": 0,
+          "explanation_short": "If + don't/doesn't + V: don't manage.",
+          "explanation_long": "If + Present Simple phủ định: don't + V.",
+          "feedback_correct": "⚡ If + don't + V: don't manage",
+          "feedback_wrong": "If + don't/doesn't + V (Present phủ định).",
+          "ielts_tip": "If + don't + V, will + V.",
+          "distractor_note": "plausible: won't manage (will trong if-clause)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_tense_mix",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If we reduced carbon emissions now, the planet will be safer.'",
+          "options": [
+            "Sai: reduced → reduce (Type 1 cần Present",
+            " không Past)",
+            "Câu đúng không có lỗi",
+            "Sai: the planet → our planet",
+            "Sai: safer → more safe"
+          ],
+          "correct_answer": "Sai: reduced → reduce (Type 1 cần Present, không Past)",
+          "correct_index": 0,
+          "explanation_short": "If + Present (reduce), will + V. 'Reduced' = Past → Type 2.",
+          "explanation_long": "'Will' = Type 1 → if-clause cần Present: reduce (không reduced).",
+          "feedback_correct": "🎯 Type 1: If + reduce (Present), will + V",
+          "feedback_wrong": "If + Present, will + V. Không trộn Past + will.",
+          "ielts_tip": "If + V (Present) + will = Type 1. If + V (Past) + would = Type 2.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If countries ___ together on environmental issues, global warming can be controlled.",
+          "options": [
+            "work",
+            "will work",
+            "worked",
+            "working"
+          ],
+          "correct_answer": "work",
+          "correct_index": 0,
+          "explanation_short": "If + Present Simple: work.",
+          "explanation_long": "If + Present, will/can + V.",
+          "feedback_correct": "🔥 If + Present: work",
+          "feedback_wrong": "If + V, will/can + V.",
+          "ielts_tip": "If + V, modal + V.",
+          "distractor_note": "plausible: will work (will trong if-clause)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_unless",
+          "error_tag": "cond1_unless_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ immediate action is taken, the consequences of climate change will be irreversible.",
+          "options": [
+            "Unless",
+            "If",
+            "When",
+            "Since"
+          ],
+          "correct_answer": "Unless",
+          "correct_index": 0,
+          "explanation_short": "Unless = If not: Unless action is taken = If action is NOT taken.",
+          "explanation_long": "Unless + Present, will + V. 'Unless action is taken' = 'If action is not taken'.",
+          "feedback_correct": "⚡ Unless = If not",
+          "feedback_wrong": "Unless + Present = If + not + Present.",
+          "ielts_tip": "Unless + V, will + V. Ngữ cảnh negative.",
+          "distractor_note": "plausible: If (cần thêm not)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the government will implement stricter environmental laws, industries will be forced to reduce their carbon footprint.'",
+          "options": [
+            "If the government will implement",
+            "stricter environmental laws",
+            "industries will be forced",
+            "to reduce their carbon footprint"
+          ],
+          "correct_answer": "If the government will implement",
+          "correct_index": 0,
+          "explanation_short": "If + Present (implements), không will implement.",
+          "explanation_long": "Lớp 1: 'If + will implement' → 'If + implements' (no will in if-clause). Lớp 2: 'will be forced' = đúng (mệnh đề kết quả).",
+          "feedback_correct": "🔥 Bỏ will trong if-clause: implements!",
+          "feedback_wrong": "If + Present (no will), will + V.",
+          "ielts_tip": "If + V (Present), will + V.",
+          "distractor_note": "near-correct: option C (will be forced) đúng",
+          "layers": [
+            "Conditional Type 1",
+            "no will in if-clause",
+            "academic paragraph"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_tense_mix",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If governments invested more in education",
+            " the economy will benefit.",
+            "If governments invest more in education",
+            " the economy will benefit greatly.",
+            "If governments will invest more in education",
+            " the economy benefits.",
+            "If governments invest more in education",
+            " the economy benefited."
+          ],
+          "correct_answer": "If governments invest more in education, the economy will benefit greatly.",
+          "correct_index": 1,
+          "explanation_short": "If + Present (invest), will + benefit = Type 1 chuẩn.",
+          "explanation_long": "Lớp 1: If + invest (Present) + will benefit = Type 1 chuẩn. Lớp 2: Option A trộn Past (invested) + will = sai. Lớp 3: Option C dùng will trong if-clause. Lớp 4: Option D trộn thì.",
+          "feedback_correct": "🏆 If + invest, will benefit = chuẩn!",
+          "feedback_wrong": "If + Present, will + V.",
+          "ielts_tip": "Task 2: If + V, will + V = Conditional Type 1.",
+          "distractor_note": "near-correct: option A trộn Type 2 form + will",
+          "layers": [
+            "Conditional Type 1",
+            "tense consistency",
+            "Task 2"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond1_unless",
+          "error_tag": "cond1_unless_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Unless developing countries don't receive financial aid, they will struggle to combat poverty and inequality.'",
+          "options": [
+            "Unless developing countries",
+            "don't receive financial aid",
+            "they will struggle to",
+            "combat poverty and inequality"
+          ],
+          "correct_answer": "don't receive financial aid",
+          "correct_index": 1,
+          "explanation_short": "Unless = If not → đã có phủ định. 'Unless don't' = phủ định kép.",
+          "explanation_long": "Lớp 1: 'Unless don't receive' = double negative. Unless = If not → đã phủ định. 'Unless + don't' = 'If not not' = khẳng định → sai nghĩa. Đúng: 'Unless countries receive' hoặc 'If countries don't receive'.",
+          "feedback_correct": "🔥 Unless + don't = double negative!",
+          "feedback_wrong": "Unless = If not. Không thêm not/don't sau unless.",
+          "ielts_tip": "Unless + V (khẳng định). KHÔNG unless + don't.",
+          "distractor_note": "near-correct: option A/C trông đúng",
+          "layers": [
+            "unless double negative",
+            "Conditional Type 1",
+            "logical error"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT cho IELTS Writing:",
+          "options": [
+            "If the world does not address climate change",
+            " future generations will suffer the consequences.",
+            "If the world will not address climate change",
+            " future generations suffer.",
+            "If the world did not address climate change",
+            " future generations will suffer.",
+            "If the world doesn't address",
+            " future generations would suffer."
+          ],
+          "correct_answer": "If the world does not address climate change, future generations will suffer the consequences.",
+          "correct_index": 0,
+          "explanation_short": "If + does not (Present), will + V = Type 1 chuẩn.",
+          "explanation_long": "Lớp 1: 'does not address' (Present phủ định) + 'will suffer' = Type 1 chuẩn. Lớp 2: Option B dùng will trong if-clause. Lớp 3: Option C trộn Past + will. Lớp 4: Option D trộn Present + would.",
+          "feedback_correct": "🏆 If + does not + V, will + V = chuẩn!",
+          "feedback_wrong": "If + do/does not, will + V.",
+          "ielts_tip": "Type 1: If + Present (don't/doesn't), will + V.",
+          "distractor_note": "near-correct: option D trộn Type 1 + Type 2",
+          "layers": [
+            "Conditional Type 1",
+            "formal negation",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_tense_mix",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'If poverty ___ [A], social stability ___ [B] and crime rates ___ [C].'",
+          "options": [
+            "[A] increases / [B] will decrease / [C] will rise",
+            "[A] increases / [B] will decrease / [C] rise",
+            "[A] will increase / [B] will decrease / [C] will rise",
+            "[A] increases / [B] would decrease / [C] will rise"
+          ],
+          "correct_answer": "[A] increases / [B] will decrease / [C] will rise",
+          "correct_index": 0,
+          "explanation_short": "If + Present, will + V and will + V. Tất cả mệnh đề kết quả dùng will.",
+          "explanation_long": "Lớp 1: [A] increases = Present (if-clause). Lớp 2: [B] will decrease + [C] will rise = kết quả. Lớp 3: Option B thiếu will ở [C]. Option C dùng will ở [A].",
+          "feedback_correct": "🏆 If + increases, will decrease and will rise!",
+          "feedback_wrong": "If + V, will V and will V.",
+          "ielts_tip": "Nhiều kết quả: If + V, will V and will V.",
+          "distractor_note": "near-correct: option B thiếu will ở [C]",
+          "layers": [
+            "multiple result clauses",
+            "parallel structure",
+            "Conditional Type 1"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_will_in_if",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If international organizations will provide more funding for education, and if governments will support these initiatives, many children will benefit.'",
+          "options": [
+            "If international organizations",
+            "will provide more funding for education",
+            "and if governments will support",
+            "these initiatives many children will benefit"
+          ],
+          "correct_answer": "will provide more funding for education",
+          "correct_index": 1,
+          "explanation_short": "If + Present: provide (không will provide).",
+          "explanation_long": "Lớp 1: 'If + will provide' → 'If + provide'. Lớp 2: 'if + will support' cũng sai → 'if + support'. Cả B và C sai, B trước.",
+          "feedback_correct": "🔥 If + V (no will): provide!",
+          "feedback_wrong": "If + V (Present), not if + will + V.",
+          "ielts_tip": "No will in if-clause.",
+          "distractor_note": "near-correct: option C (if + will support) cũng sai",
+          "layers": [
+            "no will in if-clause",
+            "compound condition",
+            "double error"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If education is improved",
+            " social inequality will decrease",
+            " and economic growth will accelerate.",
+            "If education will be improved",
+            " social inequality decreases",
+            " and growth accelerates.",
+            "If education improved",
+            " social inequality will decrease.",
+            "Education will decrease social inequality if it will be improved."
+          ],
+          "correct_answer": "If education is improved, social inequality will decrease, and economic growth will accelerate.",
+          "correct_index": 0,
+          "explanation_short": "If + is improved (Present Passive), will + V = chuẩn.",
+          "explanation_long": "Lớp 1: 'is improved' = Present Simple Passive trong if-clause → đúng. Lớp 2: 'will decrease' + 'will accelerate' = parallel result clauses. Lớp 3: Option B dùng will trong if-clause. Option C dùng Past (Type 2 form + will).",
+          "feedback_correct": "🏆 If + Present Passive, will + V = academic chuẩn!",
+          "feedback_wrong": "If + Present (passive OK), will + V.",
+          "ielts_tip": "Task 2: If + is/are + V3 (passive in if-clause) OK.",
+          "distractor_note": "near-correct: option C trộn Past + will",
+          "layers": [
+            "passive in if-clause",
+            "parallel results",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond1_form",
+          "error_tag": "cond1_tense_mix",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If renewable energy becomes more affordable, consumers will adopt it, and fossil fuel companies would face significant losses.'",
+          "options": [
+            "If renewable energy becomes",
+            "more affordable consumers",
+            "will adopt it",
+            "and fossil fuel companies would face significant losses"
+          ],
+          "correct_answer": "and fossil fuel companies would face significant losses",
+          "correct_index": 3,
+          "explanation_short": "Type 1: will (không would). Trộn will + would = sai.",
+          "explanation_long": "Lớp 1: 'becomes' = Present (if-clause đúng). Lớp 2: 'will adopt' = Type 1 result (đúng). Lớp 3: 'would face' = Type 2 → trộn với Type 1 = inconsistent.",
+          "feedback_correct": "🔥 Type 1: will adopt + will face. Không trộn would!",
+          "feedback_wrong": "Type 1: tất cả kết quả dùng will, không trộn would.",
+          "ielts_tip": "If + Present, will + V. Nhất quán will cho mọi kết quả.",
+          "distractor_note": "near-correct: option B/C trông có vẻ sai nhưng đúng",
+          "layers": [
+            "tense consistency",
+            "will vs would",
+            "Conditional Type 1"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond1_unless",
+          "error_tag": "cond1_unless_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT dùng 'unless':",
+          "options": [
+            "Unless we don't reduce pollution",
+            " health problems will increase.",
+            "Unless pollution is reduced",
+            " health problems will increase significantly.",
+            "Unless we will reduce pollution",
+            " health problems increase.",
+            "Unless pollution reduces",
+            " health problems would increase."
+          ],
+          "correct_answer": "Unless pollution is reduced, health problems will increase significantly.",
+          "correct_index": 1,
+          "explanation_short": "Unless + Present (passive OK) + will = chuẩn.",
+          "explanation_long": "Lớp 1: 'Unless pollution is reduced' = Unless + Present Passive → OK. Lớp 2: Option A 'Unless don't' = double negative. Option C 'Unless will' = sai. Option D trộn would.",
+          "feedback_correct": "🏆 Unless + is reduced, will increase = chuẩn!",
+          "feedback_wrong": "Unless + Present (passive OK), will + V.",
+          "ielts_tip": "Unless + Present, will + V. No double negative.",
+          "distractor_note": "near-correct: option A double negative",
+          "layers": [
+            "unless form",
+            "passive in unless",
+            "no double negative"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond1_form",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'If global leaders [A] will cooperate on climate policy, emissions [B] would decrease, and unless nations [C] don't act now, the consequences will be severe.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [C] có lỗi — [A] và [B] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] will cooperate → cooperate. [B] would → will. [C] unless don't → unless + V (no don't).",
+          "explanation_long": "Lớp 1: [A] 'will cooperate' → 'cooperate' (no will in if-clause). Lớp 2: [B] 'would' → 'will' (Type 1 dùng will). Lớp 3: [C] 'unless don't act' → 'unless act' (unless = if not, double negative).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] cooperate | [B] will decrease | [C] unless nations act!",
+          "feedback_wrong": "[A] no will in if. [B] Type 1: will. [C] unless = if not, no don't.",
+          "ielts_tip": "If + V (no will), will + V. Unless + V (no not).",
+          "distractor_note": "near-correct: option B bỏ sót [C].",
+          "layers": [
+            "no will in if-clause",
+            "will vs would",
+            "unless double negative"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "d2ed97b7-8fbb-4555-8716-cad7c93c8249",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-11-conditional-type-1",
+      "metadata_ref": "unit-11-conditional-type-1.metadata",
+      "generation_profile_ref": "gp_unit11_conditional_type_1",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "5.0–5.5",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "If global temperatures ___, sea levels will rise.",
+          "options": [
+            "increase",
+            "will increase",
+            "increased",
+            "increases"
+          ],
+          "correct_answer": "increase",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ If + Present Simple: increase",
+          "feedback_wrong": "If + V (Present), will + V.",
+          "explanation_short": "If + Present Simple, will + V: If temperatures increase.",
+          "ielts_tip": "Conditional Type 1: If + V, will + V. Không dùng will trong if-clause.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "If we reduce emissions, the environment ___ improve.",
+          "options": [
+            "will",
+            "would",
+            "is",
+            "does"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Kết quả → will improve",
+          "feedback_wrong": "If + Present, will + V.",
+          "explanation_short": "If + Present → will + V (kết quả).",
+          "ielts_tip": "Conditional Type 1: kết quả dùng will.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "If deforestation ___ stop, many species will become extinct.",
+          "options": [
+            "doesn't",
+            "won't",
+            "didn't",
+            "don't"
+          ],
+          "correct_answer": "doesn't",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ If + doesn't stop",
+          "feedback_wrong": "If + don't/doesn't + V.",
+          "explanation_short": "If + Present Simple (phủ định): doesn't stop.",
+          "ielts_tip": "If-clause: Present Simple. Phủ định: don't/doesn't.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "___ governments invest in renewable energy, carbon emissions will decrease.",
+          "options": [
+            "If",
+            "When",
+            "Unless",
+            "Although"
+          ],
+          "correct_answer": "If",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 If + điều kiện → Conditional Type 1",
+          "feedback_wrong": "If = điều kiện (có thể xảy ra).",
+          "explanation_short": "If + Present, will + V = Conditional Type 1.",
+          "ielts_tip": "If = possibility. When = certainty. Unless = if not.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "___ we take action, climate change will worsen.",
+          "options": [
+            "Unless",
+            "If",
+            "When",
+            "Because"
+          ],
+          "correct_answer": "Unless",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Unless = If...not",
+          "feedback_wrong": "Unless + Present, will + V.",
+          "explanation_short": "Unless = If...not: Unless we take action = If we don't take action.",
+          "ielts_tip": "Unless = If not. Đừng dùng phủ định sau unless.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "If people ___ more trees, air quality will improve.",
+          "options": [
+            "plant",
+            "will plant",
+            "planted",
+            "planting"
+          ],
+          "correct_answer": "plant",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 If + Present Simple: plant",
+          "feedback_wrong": "If + V (Present), will + V.",
+          "explanation_short": "If + Present Simple: plant.",
+          "ielts_tip": "Conditional Type 1: If + V, will + V.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "If the pandemic continues, the economy ___ suffer greatly.",
+          "options": [
+            "will",
+            "would",
+            "does",
+            "is going"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ If + Present → will suffer",
+          "feedback_wrong": "will + V = kết quả Conditional Type 1.",
+          "explanation_short": "If + Present → will + V.",
+          "ielts_tip": "If + Present, will + V.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "If water pollution ___, marine life will be affected.",
+          "options": [
+            "continues",
+            "will continue",
+            "continued",
+            "continuing"
+          ],
+          "correct_answer": "continues",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 If + Present: continues",
+          "feedback_wrong": "If + V (chia theo ngôi), will + V.",
+          "explanation_short": "If + Present Simple (3rd person): continues.",
+          "ielts_tip": "If + V-s/es (ngôi 3), will + V.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'If governments will ban plastic bags, pollution will decrease.'",
+          "options": [
+            "Sai: will ban → ban (bỏ will trong if-clause)",
+            "Câu đúng không có lỗi",
+            "Sai: decrease → decreasing",
+            "Sai: bags → bag"
+          ],
+          "correct_answer": "Sai: will ban → ban (bỏ will trong if-clause)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Bỏ will trong if-clause: ban",
+          "feedback_wrong": "If + V (no will). Will chỉ dùng trong mệnh đề kết quả.",
+          "explanation_short": "If + Present Simple: If governments ban (không will ban).",
+          "ielts_tip": "If + Present (no will), will + V.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "If the world ___ to cooperate, we will solve climate change.",
+          "options": [
+            "manages",
+            "will manage",
+            "managed",
+            "managing"
+          ],
+          "correct_answer": "manages",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ If + Present Simple: manages",
+          "feedback_wrong": "If + V, will + V.",
+          "explanation_short": "If + Present Simple: manages.",
+          "ielts_tip": "If + V-s/es, will + V.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "14ea31d5-7bbc-44d9-b772-fb93718fd667",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-11-conditional-type-1",
+      "metadata_ref": "unit-11-conditional-type-1.metadata",
+      "generation_profile_ref": "gp_unit11_conditional_type_1",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "5.5–6.0",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "If developing countries ___ in education, they will see significant economic growth.",
+          "options": [
+            "invest",
+            "will invest",
+            "invested",
+            "investing"
+          ],
+          "correct_answer": "invest",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 If + Present: invest",
+          "feedback_wrong": "If + V, will + V.",
+          "explanation_short": "If + Present Simple: invest.",
+          "ielts_tip": "If + V (Present), will + V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "___ governments enforce stricter regulations, illegal deforestation will continue.",
+          "options": [
+            "Unless",
+            "If",
+            "When",
+            "While"
+          ],
+          "correct_answer": "Unless",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Unless = If not",
+          "feedback_wrong": "Unless + V (present), will + V.",
+          "explanation_short": "Unless = If not: Unless enforce = If don't enforce.",
+          "ielts_tip": "Unless = If not. Phủ định ẩn.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "If the global population reaches 10 billion, food production ___ need to increase by 50%.",
+          "options": [
+            "will",
+            "would",
+            "does",
+            "has"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 If + Present → will need",
+          "feedback_wrong": "If + Present, will + V.",
+          "explanation_short": "If + Present (reaches) → will + V (need).",
+          "ielts_tip": "If + V, will + V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'If the economy will recover, unemployment rates will drop significantly.'",
+          "options": [
+            "Sai: will recover → recovers (bỏ will trong if-clause)",
+            "Câu đúng không có lỗi",
+            "Sai: rates → rate",
+            "Sai: significantly → significant"
+          ],
+          "correct_answer": "Sai: will recover → recovers (bỏ will trong if-clause)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 If + V (no will): recovers",
+          "feedback_wrong": "If + V (no will), will + V.",
+          "explanation_short": "If + Present: recovers (không will recover).",
+          "ielts_tip": "If + V (Present), will + V. No will in if-clause.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "If access to clean water ___, millions of lives will be saved.",
+          "options": [
+            "improves",
+            "will improve",
+            "improved",
+            "improving"
+          ],
+          "correct_answer": "improves",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ If + Present: improves",
+          "feedback_wrong": "If + V-s/es (ngôi 3).",
+          "explanation_short": "If + Present Simple (3rd person): improves.",
+          "ielts_tip": "If + V (Present), will + V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'If the temperature rises by 2 degrees, coastal cities would be flooded.'",
+          "options": [
+            "Sai: would → will (Type 1 dùng will",
+            " không would)",
+            "Câu đúng không có lỗi",
+            "Sai: rises → will rise",
+            "Sai: flooded → flooding"
+          ],
+          "correct_answer": "Sai: would → will (Type 1 dùng will, không would)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 1: will (không would)",
+          "feedback_wrong": "If + Present → will. If + Past → would.",
+          "explanation_short": "If + Present (rises) → will (không would). Type 1 = real/possible.",
+          "ielts_tip": "Type 1: will. Type 2: would.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "If we ___ waste properly, landfills will overflow.",
+          "options": [
+            "don't manage",
+            "won't manage",
+            "didn't manage",
+            "aren't manage"
+          ],
+          "correct_answer": "don't manage",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ If + don't + V: don't manage",
+          "feedback_wrong": "If + don't/doesn't + V (Present phủ định).",
+          "explanation_short": "If + don't/doesn't + V: don't manage.",
+          "ielts_tip": "If + don't + V, will + V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'If we reduced carbon emissions now, the planet will be safer.'",
+          "options": [
+            "Sai: reduced → reduce (Type 1 cần Present",
+            " không Past)",
+            "Câu đúng không có lỗi",
+            "Sai: the planet → our planet",
+            "Sai: safer → more safe"
+          ],
+          "correct_answer": "Sai: reduced → reduce (Type 1 cần Present, không Past)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Type 1: If + reduce (Present), will + V",
+          "feedback_wrong": "If + Present, will + V. Không trộn Past + will.",
+          "explanation_short": "If + Present (reduce), will + V. 'Reduced' = Past → Type 2.",
+          "ielts_tip": "If + V (Present) + will = Type 1. If + V (Past) + would = Type 2.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "If countries ___ together on environmental issues, global warming can be controlled.",
+          "options": [
+            "work",
+            "will work",
+            "worked",
+            "working"
+          ],
+          "correct_answer": "work",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 If + Present: work",
+          "feedback_wrong": "If + V, will/can + V.",
+          "explanation_short": "If + Present Simple: work.",
+          "ielts_tip": "If + V, modal + V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "___ immediate action is taken, the consequences of climate change will be irreversible.",
+          "options": [
+            "Unless",
+            "If",
+            "When",
+            "Since"
+          ],
+          "correct_answer": "Unless",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Unless = If not",
+          "feedback_wrong": "Unless + Present = If + not + Present.",
+          "explanation_short": "Unless = If not: Unless action is taken = If action is NOT taken.",
+          "ielts_tip": "Unless + V, will + V. Ngữ cảnh negative.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "b5299743-1062-4b8b-87ae-23434e8c7ed7",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-11-conditional-type-1",
+      "metadata_ref": "unit-11-conditional-type-1.metadata",
+      "generation_profile_ref": "gp_unit11_conditional_type_1",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "6.0–6.5",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the government will implement stricter environmental laws, industries will be forced to reduce their carbon footprint.'",
+          "options": [
+            "If the government will implement",
+            "stricter environmental laws",
+            "industries will be forced",
+            "to reduce their carbon footprint"
+          ],
+          "correct_answer": "If the government will implement",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Bỏ will trong if-clause: implements!",
+          "feedback_wrong": "If + Present (no will), will + V.",
+          "explanation_short": "If + Present (implements), không will implement.",
+          "ielts_tip": "If + V (Present), will + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If governments invested more in education",
+            " the economy will benefit.",
+            "If governments invest more in education",
+            " the economy will benefit greatly.",
+            "If governments will invest more in education",
+            " the economy benefits.",
+            "If governments invest more in education",
+            " the economy benefited."
+          ],
+          "correct_answer": "If governments invest more in education, the economy will benefit greatly.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 If + invest, will benefit = chuẩn!",
+          "feedback_wrong": "If + Present, will + V.",
+          "explanation_short": "If + Present (invest), will + benefit = Type 1 chuẩn.",
+          "ielts_tip": "Task 2: If + V, will + V = Conditional Type 1.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Unless developing countries don't receive financial aid, they will struggle to combat poverty and inequality.'",
+          "options": [
+            "Unless developing countries",
+            "don't receive financial aid",
+            "they will struggle to",
+            "combat poverty and inequality"
+          ],
+          "correct_answer": "don't receive financial aid",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Unless + don't = double negative!",
+          "feedback_wrong": "Unless = If not. Không thêm not/don't sau unless.",
+          "explanation_short": "Unless = If not → đã có phủ định. 'Unless don't' = phủ định kép.",
+          "ielts_tip": "Unless + V (khẳng định). KHÔNG unless + don't.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT cho IELTS Writing:",
+          "options": [
+            "If the world does not address climate change",
+            " future generations will suffer the consequences.",
+            "If the world will not address climate change",
+            " future generations suffer.",
+            "If the world did not address climate change",
+            " future generations will suffer.",
+            "If the world doesn't address",
+            " future generations would suffer."
+          ],
+          "correct_answer": "If the world does not address climate change, future generations will suffer the consequences.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 If + does not + V, will + V = chuẩn!",
+          "feedback_wrong": "If + do/does not, will + V.",
+          "explanation_short": "If + does not (Present), will + V = Type 1 chuẩn.",
+          "ielts_tip": "Type 1: If + Present (don't/doesn't), will + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'If poverty ___ [A], social stability ___ [B] and crime rates ___ [C].'",
+          "options": [
+            "[A] increases / [B] will decrease / [C] will rise",
+            "[A] increases / [B] will decrease / [C] rise",
+            "[A] will increase / [B] will decrease / [C] will rise",
+            "[A] increases / [B] would decrease / [C] will rise"
+          ],
+          "correct_answer": "[A] increases / [B] will decrease / [C] will rise",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 If + increases, will decrease and will rise!",
+          "feedback_wrong": "If + V, will V and will V.",
+          "explanation_short": "If + Present, will + V and will + V. Tất cả mệnh đề kết quả dùng will.",
+          "ielts_tip": "Nhiều kết quả: If + V, will V and will V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If international organizations will provide more funding for education, and if governments will support these initiatives, many children will benefit.'",
+          "options": [
+            "If international organizations",
+            "will provide more funding for education",
+            "and if governments will support",
+            "these initiatives many children will benefit"
+          ],
+          "correct_answer": "will provide more funding for education",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 If + V (no will): provide!",
+          "feedback_wrong": "If + V (Present), not if + will + V.",
+          "explanation_short": "If + Present: provide (không will provide).",
+          "ielts_tip": "No will in if-clause.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If education is improved",
+            " social inequality will decrease",
+            " and economic growth will accelerate.",
+            "If education will be improved",
+            " social inequality decreases",
+            " and growth accelerates.",
+            "If education improved",
+            " social inequality will decrease.",
+            "Education will decrease social inequality if it will be improved."
+          ],
+          "correct_answer": "If education is improved, social inequality will decrease, and economic growth will accelerate.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 If + Present Passive, will + V = academic chuẩn!",
+          "feedback_wrong": "If + Present (passive OK), will + V.",
+          "explanation_short": "If + is improved (Present Passive), will + V = chuẩn.",
+          "ielts_tip": "Task 2: If + is/are + V3 (passive in if-clause) OK.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If renewable energy becomes more affordable, consumers will adopt it, and fossil fuel companies would face significant losses.'",
+          "options": [
+            "If renewable energy becomes",
+            "more affordable consumers",
+            "will adopt it",
+            "and fossil fuel companies would face significant losses"
+          ],
+          "correct_answer": "and fossil fuel companies would face significant losses",
+          "correct_index": 3,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Type 1: will adopt + will face. Không trộn would!",
+          "feedback_wrong": "Type 1: tất cả kết quả dùng will, không trộn would.",
+          "explanation_short": "Type 1: will (không would). Trộn will + would = sai.",
+          "ielts_tip": "If + Present, will + V. Nhất quán will cho mọi kết quả.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Chọn câu ĐÚNG NHẤT dùng 'unless':",
+          "options": [
+            "Unless we don't reduce pollution",
+            " health problems will increase.",
+            "Unless pollution is reduced",
+            " health problems will increase significantly.",
+            "Unless we will reduce pollution",
+            " health problems increase.",
+            "Unless pollution reduces",
+            " health problems would increase."
+          ],
+          "correct_answer": "Unless pollution is reduced, health problems will increase significantly.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Unless + is reduced, will increase = chuẩn!",
+          "feedback_wrong": "Unless + Present (passive OK), will + V.",
+          "explanation_short": "Unless + Present (passive OK) + will = chuẩn.",
+          "ielts_tip": "Unless + Present, will + V. No double negative.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'If global leaders [A] will cooperate on climate policy, emissions [B] would decrease, and unless nations [C] don't act now, the consequences will be severe.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [C] có lỗi — [A] và [B] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] cooperate | [B] will decrease | [C] unless nations act!",
+          "feedback_wrong": "[A] no will in if. [B] Type 1: will. [C] unless = if not, no don't.",
+          "explanation_short": "[A] will cooperate → cooperate. [B] would → will. [C] unless don't → unless + V (no don't).",
+          "ielts_tip": "If + V (no will), will + V. Unless + V (no not).",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

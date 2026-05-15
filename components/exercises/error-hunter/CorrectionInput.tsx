@@ -63,7 +63,7 @@ function SelectionRow({
         overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
         flexShrink: 0,
       }}>
-        "{sel.selectedText}"
+        &ldquo;{sel.selectedText}&rdquo;
       </span>
 
       <span style={{ color: "#d97706", fontSize: 13, flexShrink: 0 }}>→</span>

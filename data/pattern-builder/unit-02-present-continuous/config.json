@@ -1,0 +1,86 @@
+{
+  "moduleId": "pattern-builder",
+  "unitId": "unit-02-present-continuous",
+  "unitOrder": 2,
+  "grammarFocus": "PRESENT_CONTINUOUS",
+  "grammarTarget": "progressive aspect, temporary situations, current trends",
+
+  "status": {
+    "unlockUnit": 2,
+    "previewAllowed": true,
+    "masterUnlockRule": {
+      "requiredLevel": "challenge",
+      "minAccuracy": 80
+    }
+  },
+
+  "rotation": {
+    "topics": ["environment", "technology", "education", "health", "work"],
+    "skills": ["speaking", "writing"]
+  },
+
+  "sessionConfig": {
+    "itemsPerSession": 7,
+    "basePickRule": {
+      "starter": 2,
+      "build_up": 2,
+      "challenge": 2,
+      "master": 1
+    },
+    "topicMode": "single",
+    "difficultyProgression": {
+      "withinSession": "ordered",
+      "crossSession": "adaptive"
+    },
+    "miniSpeakingAfterLevel": "build_up",
+    "masterMode": {
+      "available": true,
+      "requiresUnlock": true,
+      "unlockCondition": {
+        "requiredLevel": "challenge",
+        "minAccuracy": 80
+      },
+      "timerSeconds": 20
+    },
+    "retryLogic": {
+      "retryWeakPatterns": true,
+      "prioritizeFailedStructures": true,
+      "maxRetryPerSession": 2
+    },
+    "adaptiveFlow": {
+      "enabled": true,
+      "downgradeIfFailRateAbove": 60,
+      "upgradeIfAccuracyAbove": 85,
+      "evaluationWindow": "last_session",
+      "cooldownSessions": 1
+    },
+    "sessionEnd": {
+      "showReusablePatterns": true,
+      "showWeaknessSummary": true
+    }
+  },
+
+  "sessionEnd": {
+    "reusablePatterns": [
+      "...is becoming increasingly...",
+      "More people are starting to...",
+      "The trend is shifting toward...",
+      "Companies are now investing in..."
+    ],
+    "nextActions": [
+      "Retry with a new topic",
+      "Move to Challenge level",
+      "Apply this pattern in Writing Task 2"
+    ],
+    "weaknessTracking": {
+      "enabled": true,
+      "trackedErrors": [
+        "missing_be",
+        "stative_verb_error",
+        "wrong_form",
+        "tense_confusion",
+        "missing_ing"
+      ]
+    }
+  }
+}

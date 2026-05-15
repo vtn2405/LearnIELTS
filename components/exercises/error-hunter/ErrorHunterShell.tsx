@@ -81,6 +81,27 @@ export default function ErrorHunterShell({
           </p>
         </div>
 
+        {/* Speaking Cue Card */}
+        {passage.taskType.startsWith("SPEAKING") && (passage as any).speakingCueCard && (
+          <div style={{
+            background: "#faf5ff", borderRadius: 10, padding: "14px 18px",
+            border: "1px solid #e9d5ff", marginBottom: 14,
+          }}>
+            <p style={{ margin: 0, fontSize: 11, fontWeight: 700, color: "#7c3aed",
+              textTransform: "uppercase", letterSpacing: "0.08em" }}>
+              Speaking Cue Card
+            </p>
+            <p style={{ margin: "6px 0 8px", fontSize: 14, color: "#1e293b", fontWeight: 600 }}>
+              {(passage as any).speakingCueCard.prompt}
+            </p>
+            <ul style={{ margin: 0, paddingLeft: 20, fontSize: 13, color: "#475569" }}>
+              {(passage as any).speakingCueCard.bulletPoints.map((bp: string, i: number) => (
+                <li key={i} style={{ marginBottom: 2 }}>{bp}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         {/* Toolbar */}
         <Toolbar
           selectionCount={selections.length}

@@ -116,3 +116,20 @@ samp,
   transition-duration: 150ms;
   transition-timing-function: ease;
 }
+
+/* ── Speed Drill: prevent white flash ──────────────────────────────────────
+   The app-wide `*` transition on background-color causes a 150ms white→dark
+   blend when entering Speed Drill. Override it to instant for SD subtree.
+   Also force the body to stay dark while inside any speed-drill route.
+*/
+body:has([data-sd-route]) {
+  background: #0f172a !important;
+  color-scheme: dark;
+}
+
+[data-sd-route] *,
+[data-sd-route] *::before,
+[data-sd-route] *::after {
+  /* Allow only non-background transitions inside Speed Drill */
+  transition-property: transform, opacity, border-color, color, box-shadow;
+}

@@ -1,0 +1,2491 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-14-relative-clauses",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-14-relative-clauses",
+    "version": "4.0",
+    "grammar_point": "Relative Clauses",
+    "subtitle_vi": "Mệnh đề quan hệ",
+    "topic_vocabulary": "Global Issues",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 15: Relative Clauses",
+      "unit_json_ref": "unit-14-relative-clauses.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "relative_who",
+      "relative_which",
+      "relative_where",
+      "relative_when",
+      "relative_whose",
+      "relative_whom",
+      "relative_that",
+      "relative_non_defining"
+    ],
+    "common_vietnamese_errors": [
+      "who_which_confusion",
+      "where_which_confusion",
+      "whose_who_confusion",
+      "that_which_confusion",
+      "who_whom_confusion",
+      "when_where_confusion",
+      "relative_clause_reduction"
+    ],
+    "ielts_band_target": {
+      "min": 5.5,
+      "max": 6.5
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-14-relative-clauses",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "6.0–6.5",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 7.0 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.5 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_who",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The people ___ live in poverty need urgent help.",
+          "options": [
+            "who",
+            "which",
+            "whom",
+            "what"
+          ],
+          "correct_answer": "who",
+          "correct_index": 0,
+          "explanation_short": "Người → who.",
+          "explanation_long": "Who = đại từ quan hệ chỉ người. Which = chỉ vật.",
+          "feedback_correct": "⚡ Người → who",
+          "feedback_wrong": "who = người. which = vật.",
+          "ielts_tip": "who = people. which = things.",
+          "distractor_note": "obvious: which (vật), what (sai)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_which",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Climate change, ___ affects millions, is a global crisis.",
+          "options": [
+            "which",
+            "who",
+            "whom",
+            "what"
+          ],
+          "correct_answer": "which",
+          "correct_index": 0,
+          "explanation_short": "Vật/sự việc → which.",
+          "explanation_long": "Which = sự việc (climate change). Non-defining relative clause.",
+          "feedback_correct": "🔥 Vật/sự việc → which",
+          "feedback_wrong": "which = vật/sự việc.",
+          "ielts_tip": "which = things/events/ideas.",
+          "distractor_note": "obvious: who (người), what (sai)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_where",
+          "error_tag": "where_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "This is the city ___ the international summit was held.",
+          "options": [
+            "where",
+            "which",
+            "who",
+            "when"
+          ],
+          "correct_answer": "where",
+          "correct_index": 0,
+          "explanation_short": "Nơi chốn → where.",
+          "explanation_long": "Where = in which. Chỉ nơi chốn.",
+          "feedback_correct": "⚡ Nơi chốn → where",
+          "feedback_wrong": "where = place.",
+          "ielts_tip": "where = in which (nơi chốn).",
+          "distractor_note": "obvious: who (người), when (thời gian)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_whose",
+          "error_tag": "whose_who_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The country ___ economy depends on tourism is struggling.",
+          "options": [
+            "whose",
+            "who",
+            "which",
+            "that"
+          ],
+          "correct_answer": "whose",
+          "correct_index": 0,
+          "explanation_short": "Sở hữu → whose.",
+          "explanation_long": "Whose = sở hữu. 'Whose economy' = nền kinh tế của quốc gia đó.",
+          "feedback_correct": "🔥 Sở hữu → whose",
+          "feedback_wrong": "whose = possession.",
+          "ielts_tip": "whose + noun = sở hữu.",
+          "distractor_note": "obvious: who (chủ ngữ), which (vật)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_that",
+          "error_tag": "that_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The policies ___ the government introduced have been effective.",
+          "options": [
+            "that",
+            "who",
+            "where",
+            "whose"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "explanation_short": "Defining clause + vật → that hoặc which.",
+          "explanation_long": "That = defining relative clause. Dùng cho cả người và vật.",
+          "feedback_correct": "⚡ Defining clause → that",
+          "feedback_wrong": "that = defining (người/vật).",
+          "ielts_tip": "that = defining. which = defining/non-defining.",
+          "distractor_note": "obvious: who (chỉ người), where (nơi chốn)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_who",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Children ___ don't have access to education face many challenges.",
+          "options": [
+            "who",
+            "which",
+            "whom",
+            "what"
+          ],
+          "correct_answer": "who",
+          "correct_index": 0,
+          "explanation_short": "Children = người → who.",
+          "explanation_long": "Who = chỉ người (children).",
+          "feedback_correct": "🔥 Người → who",
+          "feedback_wrong": "who = people/person.",
+          "ielts_tip": "who + V = người làm hành động.",
+          "distractor_note": "obvious: which (vật)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_which",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Poverty, ___ is a complex issue, requires a multifaceted approach.",
+          "options": [
+            "which",
+            "who",
+            "that",
+            "whose"
+          ],
+          "correct_answer": "which",
+          "correct_index": 0,
+          "explanation_short": "Poverty = sự việc + dấu phẩy → which (non-defining).",
+          "explanation_long": "Non-defining clause (có dấu phẩy) + vật → which. Không dùng that.",
+          "feedback_correct": "⚡ Non-defining + vật → which",
+          "feedback_wrong": "Non-defining (có phẩy) → which (không that).",
+          "ielts_tip": "Non-defining: , which... Defining: that/which.",
+          "distractor_note": "obvious: who (người), that (không dùng trong non-defining)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_where",
+          "error_tag": "where_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The regions ___ conflicts occur often suffer from famine.",
+          "options": [
+            "where",
+            "which",
+            "who",
+            "that"
+          ],
+          "correct_answer": "where",
+          "correct_index": 0,
+          "explanation_short": "Regions = nơi chốn → where.",
+          "explanation_long": "Where = in which. Chỉ nơi chốn (regions).",
+          "feedback_correct": "🔥 Nơi chốn → where",
+          "feedback_wrong": "where = in which.",
+          "ielts_tip": "where = nơi chốn.",
+          "distractor_note": "obvious: who (người)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_who_which",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The refugees which fled the conflict need humanitarian aid.'",
+          "options": [
+            "Sai: which → who (người dùng who)",
+            "Câu đúng không có lỗi",
+            "Sai: fled → fleeing",
+            "Sai: need → needs"
+          ],
+          "correct_answer": "Sai: which → who (người dùng who)",
+          "correct_index": 0,
+          "explanation_short": "Refugees = người → who (không which).",
+          "explanation_long": "People/person → who. Things/ideas → which.",
+          "feedback_correct": "🎯 Người → who (không which)",
+          "feedback_wrong": "who = người. which = vật.",
+          "ielts_tip": "who cho người. which cho vật.",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_when",
+          "error_tag": "when_where_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "2015 was the year ___ the Paris Agreement was signed.",
+          "options": [
+            "when",
+            "where",
+            "which",
+            "who"
+          ],
+          "correct_answer": "when",
+          "correct_index": 0,
+          "explanation_short": "Thời gian → when.",
+          "explanation_long": "When = in which (thời gian). '2015 was the year when...'",
+          "feedback_correct": "⚡ Thời gian → when",
+          "feedback_wrong": "when = time.",
+          "ielts_tip": "when = in which (thời gian).",
+          "distractor_note": "obvious: where (nơi chốn)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_who",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "People ___ are affected by poverty often lack access to basic healthcare.",
+          "options": [
+            "who",
+            "which",
+            "whom",
+            "what"
+          ],
+          "correct_answer": "who",
+          "correct_index": 0,
+          "explanation_short": "People = người → who.",
+          "explanation_long": "who = chỉ người, đóng vai trò chủ ngữ.",
+          "feedback_correct": "🔥 Người + chủ ngữ → who",
+          "feedback_wrong": "who = người (subject).",
+          "ielts_tip": "who + V = người thực hiện hành động.",
+          "distractor_note": "plausible: whom (object, sai ở đây vì cần subject)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_whom",
+          "error_tag": "who_whom_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The diplomat ___ they appointed negotiated the peace treaty.",
+          "options": [
+            "whom",
+            "who",
+            "which",
+            "whose"
+          ],
+          "correct_answer": "whom",
+          "correct_index": 0,
+          "explanation_short": "Object (they appointed HIM) → whom.",
+          "explanation_long": "Whom = object. 'They appointed whom' = they appointed him/her.",
+          "feedback_correct": "⚡ Object → whom",
+          "feedback_wrong": "whom = object of verb/preposition.",
+          "ielts_tip": "whom = object. who = subject.",
+          "distractor_note": "plausible: who (subject form, nhưng ở đây cần object)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_non_defining",
+          "error_tag": "that_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Global warming, ___ scientists have warned about for decades, continues to worsen.",
+          "options": [
+            "which",
+            "that",
+            "who",
+            "where"
+          ],
+          "correct_answer": "which",
+          "correct_index": 0,
+          "explanation_short": "Non-defining (dấu phẩy) → which (không that).",
+          "explanation_long": "Non-defining relative clause (có dấu phẩy) → dùng which, KHÔNG dùng that.",
+          "feedback_correct": "🔥 Non-defining (phẩy) → which, không that",
+          "feedback_wrong": "Non-defining → which. Defining → that/which.",
+          "ielts_tip": "Non-defining: , which... KHÔNG , that...",
+          "distractor_note": "plausible: that (defining OK, nhưng non-defining → sai)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_who_which",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Organizations which help refugees provide essential services to people in need.'",
+          "options": [
+            "Câu đúng",
+            " không có lỗi (that/which dùng cho organizations = đúng)",
+            "Sai: which → who",
+            "Sai: help → helps",
+            "Sai: to → for"
+          ],
+          "correct_answer": "Câu đúng, không có lỗi (that/which dùng cho organizations = đúng)",
+          "correct_index": 0,
+          "explanation_short": "Organizations = vật (tổ chức, không phải người) → which đúng.",
+          "explanation_long": "Organizations = things → which đúng. Mặc dù organizations gồm người, nhưng ngữ pháp treats organizations as things.",
+          "feedback_correct": "⚡ Organizations = thing → which đúng!",
+          "feedback_wrong": "Organizations/companies/governments = things → which.",
+          "ielts_tip": "which cho organizations/companies/institutions.",
+          "distractor_note": "plausible: option B bẫy vì nghĩ organizations = people"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_whose",
+          "error_tag": "whose_who_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Countries ___ natural resources are limited often depend on foreign aid.",
+          "options": [
+            "whose",
+            "which",
+            "who",
+            "that"
+          ],
+          "correct_answer": "whose",
+          "correct_index": 0,
+          "explanation_short": "Sở hữu (natural resources of countries) → whose.",
+          "explanation_long": "Whose = possession. 'Whose natural resources' = tài nguyên của quốc gia.",
+          "feedback_correct": "🔥 Sở hữu → whose",
+          "feedback_wrong": "whose + noun = possession.",
+          "ielts_tip": "whose + noun = sở hữu.",
+          "distractor_note": "plausible: which (vật, nhưng cần possessive)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_non_defining",
+          "error_tag": "that_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The UN, that was founded in 1945, plays a crucial role in maintaining global peace.'",
+          "options": [
+            "Sai: that → which (non-defining clause dùng which)",
+            "Câu đúng không có lỗi",
+            "Sai: was → were",
+            "Sai: plays → play"
+          ],
+          "correct_answer": "Sai: that → which (non-defining clause dùng which)",
+          "correct_index": 0,
+          "explanation_short": "Non-defining (dấu phẩy + tên riêng) → which, KHÔNG that.",
+          "explanation_long": "Non-defining clause: , which (không , that). The UN = proper noun → non-defining.",
+          "feedback_correct": "🎯 Non-defining: which (không that)",
+          "feedback_wrong": "Non-defining: , which... KHÔNG , that...",
+          "ielts_tip": "Non-defining clause KHÔNG bao giờ dùng that.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_where",
+          "error_tag": "where_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Developing regions ___ healthcare is scarce face higher mortality rates.",
+          "options": [
+            "where",
+            "which",
+            "who",
+            "that"
+          ],
+          "correct_answer": "where",
+          "correct_index": 0,
+          "explanation_short": "Regions = nơi chốn → where.",
+          "explanation_long": "Where = in which. Chỉ nơi chốn.",
+          "feedback_correct": "⚡ Nơi chốn → where",
+          "feedback_wrong": "where = in which (place).",
+          "ielts_tip": "where cho places/regions/areas.",
+          "distractor_note": "plausible: which (cũng đúng: 'in which healthcare is scarce')"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_who",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Millions of people which lack clean water are at risk of waterborne diseases.'",
+          "options": [
+            "Sai: which → who (people = người)",
+            "Câu đúng không có lỗi",
+            "Sai: lack → lacks",
+            "Sai: at → in"
+          ],
+          "correct_answer": "Sai: which → who (people = người)",
+          "correct_index": 0,
+          "explanation_short": "People = người → who (không which).",
+          "explanation_long": "people/children/workers = người → who.",
+          "feedback_correct": "🔥 People = người → who",
+          "feedback_wrong": "who cho người.",
+          "ielts_tip": "who cho people/person.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_which",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The treaty, ___ was signed by 195 countries, aims to limit global warming.",
+          "options": [
+            "which",
+            "that",
+            "who",
+            "whose"
+          ],
+          "correct_answer": "which",
+          "correct_index": 0,
+          "explanation_short": "Non-defining (dấu phẩy) + vật → which.",
+          "explanation_long": "Non-defining: , which. Treaty = thing → which.",
+          "feedback_correct": "⚡ Non-defining + vật → which",
+          "feedback_wrong": "Non-defining: , which.",
+          "ielts_tip": "Non-defining clause cho things: , which...",
+          "distractor_note": "plausible: that (defining OK nhưng non-defining → sai)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_whose",
+          "error_tag": "whose_who_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The community ___ children cannot attend school is in desperate need of educational funding.",
+          "options": [
+            "whose",
+            "which",
+            "who",
+            "where"
+          ],
+          "correct_answer": "whose",
+          "correct_index": 0,
+          "explanation_short": "Sở hữu (children of the community) → whose.",
+          "explanation_long": "whose + noun = sở hữu. 'Whose children' = con em của cộng đồng.",
+          "feedback_correct": "🔥 Sở hữu → whose",
+          "feedback_wrong": "whose + noun.",
+          "ielts_tip": "whose cho possession.",
+          "distractor_note": "plausible: where (nơi chốn, sai ở đây)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "relative_non_defining",
+          "error_tag": "that_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Climate change, that is caused by greenhouse gas emissions, threatens the livelihoods of millions of people worldwide.'",
+          "options": [
+            "Climate change",
+            "that is caused by greenhouse gas emissions",
+            "threatens the livelihoods",
+            "of millions of people worldwide"
+          ],
+          "correct_answer": "that is caused by greenhouse gas emissions",
+          "correct_index": 1,
+          "explanation_short": "Non-defining (dấu phẩy) → which, không that.",
+          "explanation_long": "Lớp 1: Non-defining clause (dấu phẩy + proper noun/known entity) → which (không that). Lớp 2: 'Climate change, WHICH is caused by...' = đúng.",
+          "feedback_correct": "🔥 Non-defining: which (không that)!",
+          "feedback_wrong": "Non-defining: , which. KHÔNG , that.",
+          "ielts_tip": "Non-defining clause KHÔNG dùng that.",
+          "distractor_note": "near-correct: option C/D trông đúng",
+          "layers": [
+            "non-defining clause",
+            "that vs which",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_clauses",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT:",
+          "options": [
+            "People who live in poverty",
+            " which is a global issue",
+            " need better access to education.",
+            "People who live in poverty",
+            " that is a global issue",
+            " need better access to education.",
+            "People which live in poverty",
+            " who is a global issue",
+            " need better access to education.",
+            "People who live in poverty",
+            " which is a widespread issue",
+            " need better access to education and healthcare."
+          ],
+          "correct_answer": "People who live in poverty, which is a widespread issue, need better access to education and healthcare.",
+          "correct_index": 3,
+          "explanation_short": "who cho people + which cho poverty (non-defining) = chuẩn.",
+          "explanation_long": "Lớp 1: 'People who' = người → who. Lớp 2: ', which is a widespread issue' = non-defining cho poverty → which. Lớp 3: Option B dùng 'that' trong non-defining. Option C dùng 'which' cho people.",
+          "feedback_correct": "🏆 who (người) + which (non-defining) = chuẩn!",
+          "feedback_wrong": "who cho người. which cho non-defining vật/ý.",
+          "ielts_tip": "who + which = phân biệt người/vật.",
+          "distractor_note": "near-correct: option A cũng đúng nhưng kém chi tiết",
+          "layers": [
+            "who vs which",
+            "non-defining clause",
+            "academic complexity"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "relative_whom",
+          "error_tag": "who_whom_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The activists who the government arrested were fighting for human rights in regions where injustice prevails.'",
+          "options": [
+            "The activists who the government arrested",
+            "were fighting for human rights",
+            "in regions where",
+            "injustice prevails"
+          ],
+          "correct_answer": "The activists who the government arrested",
+          "correct_index": 0,
+          "explanation_short": "Object → whom: whom the government arrested.",
+          "explanation_long": "Lớp 1: 'the government arrested THEM' → object → whom (không who). Lớp 2: 'where injustice prevails' = đúng. Formal: whom > who khi là object.",
+          "feedback_correct": "🔥 Object → whom: whom the government arrested!",
+          "feedback_wrong": "Object of verb → whom.",
+          "ielts_tip": "Formal: whom cho object. Informal: who OK.",
+          "distractor_note": "near-correct: option C (where) đúng",
+          "layers": [
+            "who vs whom",
+            "object pronoun",
+            "formal register"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_clauses",
+          "error_tag": "relative_clause_reduction",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT cho academic writing:",
+          "options": [
+            "The countries that are most affected by climate change are often those which lack the resources to adapt.",
+            "The countries most affected by climate change are often those lacking the resources to adapt.",
+            "The countries who are most affected by climate change are often those that lack resources.",
+            "Countries that climate change affects most are often those who lack resources."
+          ],
+          "correct_answer": "The countries most affected by climate change are often those lacking the resources to adapt.",
+          "correct_index": 1,
+          "explanation_short": "Reduced relative clause = academic + concise.",
+          "explanation_long": "Lớp 1: 'most affected' = reduced relative (= that are most affected). Lớp 2: 'those lacking' = reduced (= those that lack). Lớp 3: Academic ưu tiên reduced clauses → concise.",
+          "feedback_correct": "🏆 Reduced relative clause = academic concise!",
+          "feedback_wrong": "Reduced: V-ed/V-ing thay cho relative clause.",
+          "ielts_tip": "Academic: reduced relative clauses = Band 6.5+.",
+          "distractor_note": "near-correct: option A cũng đúng nhưng verbose",
+          "layers": [
+            "reduced relative clause",
+            "academic conciseness",
+            "Band 6.5+"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "relative_clauses",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'The organizations ___ [A] provide aid to regions ___ [B] are affected by drought rely on donations from people ___ [C] care about global issues.'",
+          "options": [
+            "[A] which / [B] that / [C] who",
+            "[A] that / [B] which / [C] whom",
+            "[A] who / [B] where / [C] which",
+            "[A] that / [B] that / [C] that"
+          ],
+          "correct_answer": "[A] which / [B] that / [C] who",
+          "correct_index": 0,
+          "explanation_short": "Organizations = vật → which/that. Regions = vật → that. People = người → who.",
+          "explanation_long": "Lớp 1: [A] organizations = things → which/that. Lớp 2: [B] regions (vật) + defining → that. Lớp 3: [C] people = người → who.",
+          "feedback_correct": "🏆 [A] which + [B] that + [C] who = chuẩn!",
+          "feedback_wrong": "organizations → which/that. regions → that. people → who.",
+          "ielts_tip": "who (người), which/that (vật).",
+          "distractor_note": "near-correct: option D (that cho tất cả) đúng nhưng kém chính xác",
+          "layers": [
+            "who vs which vs that",
+            "multiple relative clauses",
+            "precision"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "relative_whose",
+          "error_tag": "whose_who_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The nation who's economy collapsed due to corruption has been struggling to recover for decades.'",
+          "options": [
+            "The nation who's economy collapsed",
+            "due to corruption",
+            "has been struggling to recover",
+            "for decades"
+          ],
+          "correct_answer": "The nation who's economy collapsed",
+          "correct_index": 0,
+          "explanation_short": "who's = who is. Cần whose (sở hữu): whose economy.",
+          "explanation_long": "Lớp 1: 'who's' = 'who is' → sai. Cần 'whose' = sở hữu. Lớp 2: 'whose economy' = nền kinh tế của quốc gia.",
+          "feedback_correct": "🔥 who's (who is) → whose (sở hữu)!",
+          "feedback_wrong": "whose = possession. who's = who is.",
+          "ielts_tip": "whose vs who's: whose = sở hữu.",
+          "distractor_note": "near-correct: option B/C/D trông đúng",
+          "layers": [
+            "whose vs who's",
+            "possession",
+            "common spelling error"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_clauses",
+          "error_tag": "relative_clause_usage",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Education",
+            " which is a fundamental right",
+            " should be accessible to all children",
+            " regardless of the country in which they live.",
+            "Education",
+            " that is a fundamental right",
+            " should be accessible to all children.",
+            "Education which is a fundamental right should be accessible to all.",
+            "Education",
+            " which is a right",
+            " should be accessible to children where they live."
+          ],
+          "correct_answer": "Education, which is a fundamental right, should be accessible to all children, regardless of the country in which they live.",
+          "correct_index": 0,
+          "explanation_short": "Non-defining (which) + in which = academic chuẩn.",
+          "explanation_long": "Lớp 1: ', which is a fundamental right,' = non-defining clause chuẩn. Lớp 2: 'in which they live' = formal relative clause. Lớp 3: Option B dùng 'that' trong non-defining. Option C thiếu dấu phẩy.",
+          "feedback_correct": "🏆 , which... + in which = academic chuẩn!",
+          "feedback_wrong": "Non-defining: , which. Preposition + which = formal.",
+          "ielts_tip": "in which / for which / by which = formal relative.",
+          "distractor_note": "near-correct: option B (that trong non-defining) = sai",
+          "layers": [
+            "non-defining clause",
+            "preposition + which",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "relative_clauses",
+          "error_tag": "who_which_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Children which grow up in conflict zones often lack education, which limits their opportunities in life.'",
+          "options": [
+            "Children which grow up",
+            "in conflict zones often lack education",
+            "which limits their",
+            "opportunities in life"
+          ],
+          "correct_answer": "Children which grow up",
+          "correct_index": 0,
+          "explanation_short": "Children = người → who (không which).",
+          "explanation_long": "Lớp 1: 'Children which' → 'Children who' (người → who). Lớp 2: ', which limits' = non-defining cho education → đúng.",
+          "feedback_correct": "🔥 Children = người → who!",
+          "feedback_wrong": "who cho người. which cho vật/ý.",
+          "ielts_tip": "children/people/students → who.",
+          "distractor_note": "near-correct: option C (, which limits) đúng (non-defining)",
+          "layers": [
+            "who vs which",
+            "children = people",
+            "non-defining clause"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "relative_clauses",
+          "error_tag": "relative_clause_usage",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 3: 'Tại sao giáo dục quan trọng?' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "Education is important for people who want to improve their lives and contribute to the society where they live.",
+            "Education is important for people which want to improve their lives.",
+            "Education that people receive helps them in life.",
+            "Education is important because it helps people who wants to improve."
+          ],
+          "correct_answer": "Education is important for people who want to improve their lives and contribute to the society where they live.",
+          "correct_index": 0,
+          "explanation_short": "who (người) + where (nơi chốn) = đúng + chi tiết.",
+          "explanation_long": "Lớp 1: 'people who want' = người → who. Lớp 2: 'society where they live' = nơi → where. Lớp 3: Option B 'people which' = sai (which cho người). Option D 'who wants' = sai (who + V bare plural).",
+          "feedback_correct": "🏆 who (người) + where (nơi) = chuẩn!",
+          "feedback_wrong": "who cho người. where cho nơi chốn.",
+          "ielts_tip": "Speaking: who + where = thêm chi tiết tự nhiên.",
+          "distractor_note": "near-correct: option D (who wants) sai subject-verb agreement",
+          "layers": [
+            "who + where",
+            "Speaking Part 3",
+            "subject-verb agreement"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "relative_clauses",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'The UN, [A] that was established to maintain peace, helps countries [B] who's economies are struggling, particularly in regions [C] which conflicts have displaced millions.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] that → which (non-defining). [B] who's → whose (sở hữu). [C] which → where (nơi chốn).",
+          "explanation_long": "Lớp 1: [A] Non-defining clause → which (không that). Lớp 2: [B] 'who's' = 'who is' → cần 'whose' (sở hữu). Lớp 3: [C] 'regions which conflicts' → 'regions where conflicts' (nơi chốn → where).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] which | [B] whose | [C] where!",
+          "feedback_wrong": "[A] non-defining: which. [B] sở hữu: whose. [C] nơi: where.",
+          "ielts_tip": "Non-defining: which. Possession: whose. Place: where.",
+          "distractor_note": "near-correct: option B bỏ sót [C].",
+          "layers": [
+            "non-defining that→which",
+            "whose vs who's",
+            "where for place"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "c6367cf1-ff06-44ad-bf7d-8de5f30a709d",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-14-relative-clauses",
+      "metadata_ref": "unit-14-relative-clauses.metadata",
+      "generation_profile_ref": "gp_unit14_relative_clauses",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "The people ___ live in poverty need urgent help.",
+          "options": [
+            "who",
+            "which",
+            "whom",
+            "what"
+          ],
+          "correct_answer": "who",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Người → who",
+          "feedback_wrong": "who = người. which = vật.",
+          "explanation_short": "Người → who.",
+          "ielts_tip": "who = people. which = things.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "Climate change, ___ affects millions, is a global crisis.",
+          "options": [
+            "which",
+            "who",
+            "whom",
+            "what"
+          ],
+          "correct_answer": "which",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Vật/sự việc → which",
+          "feedback_wrong": "which = vật/sự việc.",
+          "explanation_short": "Vật/sự việc → which.",
+          "ielts_tip": "which = things/events/ideas.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "This is the city ___ the international summit was held.",
+          "options": [
+            "where",
+            "which",
+            "who",
+            "when"
+          ],
+          "correct_answer": "where",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Nơi chốn → where",
+          "feedback_wrong": "where = place.",
+          "explanation_short": "Nơi chốn → where.",
+          "ielts_tip": "where = in which (nơi chốn).",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "The country ___ economy depends on tourism is struggling.",
+          "options": [
+            "whose",
+            "who",
+            "which",
+            "that"
+          ],
+          "correct_answer": "whose",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Sở hữu → whose",
+          "feedback_wrong": "whose = possession.",
+          "explanation_short": "Sở hữu → whose.",
+          "ielts_tip": "whose + noun = sở hữu.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "The policies ___ the government introduced have been effective.",
+          "options": [
+            "that",
+            "who",
+            "where",
+            "whose"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Defining clause → that",
+          "feedback_wrong": "that = defining (người/vật).",
+          "explanation_short": "Defining clause + vật → that hoặc which.",
+          "ielts_tip": "that = defining. which = defining/non-defining.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "Children ___ don't have access to education face many challenges.",
+          "options": [
+            "who",
+            "which",
+            "whom",
+            "what"
+          ],
+          "correct_answer": "who",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Người → who",
+          "feedback_wrong": "who = people/person.",
+          "explanation_short": "Children = người → who.",
+          "ielts_tip": "who + V = người làm hành động.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "Poverty, ___ is a complex issue, requires a multifaceted approach.",
+          "options": [
+            "which",
+            "who",
+            "that",
+            "whose"
+          ],
+          "correct_answer": "which",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Non-defining + vật → which",
+          "feedback_wrong": "Non-defining (có phẩy) → which (không that).",
+          "explanation_short": "Poverty = sự việc + dấu phẩy → which (non-defining).",
+          "ielts_tip": "Non-defining: , which... Defining: that/which.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "The regions ___ conflicts occur often suffer from famine.",
+          "options": [
+            "where",
+            "which",
+            "who",
+            "that"
+          ],
+          "correct_answer": "where",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Nơi chốn → where",
+          "feedback_wrong": "where = in which.",
+          "explanation_short": "Regions = nơi chốn → where.",
+          "ielts_tip": "where = nơi chốn.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'The refugees which fled the conflict need humanitarian aid.'",
+          "options": [
+            "Sai: which → who (người dùng who)",
+            "Câu đúng không có lỗi",
+            "Sai: fled → fleeing",
+            "Sai: need → needs"
+          ],
+          "correct_answer": "Sai: which → who (người dùng who)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Người → who (không which)",
+          "feedback_wrong": "who = người. which = vật.",
+          "explanation_short": "Refugees = người → who (không which).",
+          "ielts_tip": "who cho người. which cho vật.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "2015 was the year ___ the Paris Agreement was signed.",
+          "options": [
+            "when",
+            "where",
+            "which",
+            "who"
+          ],
+          "correct_answer": "when",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Thời gian → when",
+          "feedback_wrong": "when = time.",
+          "explanation_short": "Thời gian → when.",
+          "ielts_tip": "when = in which (thời gian).",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "3704be1b-02ac-47d7-8ae4-74fa4ed926a8",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-14-relative-clauses",
+      "metadata_ref": "unit-14-relative-clauses.metadata",
+      "generation_profile_ref": "gp_unit14_relative_clauses",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "6.0–6.5",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "People ___ are affected by poverty often lack access to basic healthcare.",
+          "options": [
+            "who",
+            "which",
+            "whom",
+            "what"
+          ],
+          "correct_answer": "who",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Người + chủ ngữ → who",
+          "feedback_wrong": "who = người (subject).",
+          "explanation_short": "People = người → who.",
+          "ielts_tip": "who + V = người thực hiện hành động.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "The diplomat ___ they appointed negotiated the peace treaty.",
+          "options": [
+            "whom",
+            "who",
+            "which",
+            "whose"
+          ],
+          "correct_answer": "whom",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Object → whom",
+          "feedback_wrong": "whom = object of verb/preposition.",
+          "explanation_short": "Object (they appointed HIM) → whom.",
+          "ielts_tip": "whom = object. who = subject.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "Global warming, ___ scientists have warned about for decades, continues to worsen.",
+          "options": [
+            "which",
+            "that",
+            "who",
+            "where"
+          ],
+          "correct_answer": "which",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Non-defining (phẩy) → which, không that",
+          "feedback_wrong": "Non-defining → which. Defining → that/which.",
+          "explanation_short": "Non-defining (dấu phẩy) → which (không that).",
+          "ielts_tip": "Non-defining: , which... KHÔNG , that...",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'Organizations which help refugees provide essential services to people in need.'",
+          "options": [
+            "Câu đúng",
+            " không có lỗi (that/which dùng cho organizations = đúng)",
+            "Sai: which → who",
+            "Sai: help → helps",
+            "Sai: to → for"
+          ],
+          "correct_answer": "Câu đúng, không có lỗi (that/which dùng cho organizations = đúng)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Organizations = thing → which đúng!",
+          "feedback_wrong": "Organizations/companies/governments = things → which.",
+          "explanation_short": "Organizations = vật (tổ chức, không phải người) → which đúng.",
+          "ielts_tip": "which cho organizations/companies/institutions.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "Countries ___ natural resources are limited often depend on foreign aid.",
+          "options": [
+            "whose",
+            "which",
+            "who",
+            "that"
+          ],
+          "correct_answer": "whose",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Sở hữu → whose",
+          "feedback_wrong": "whose + noun = possession.",
+          "explanation_short": "Sở hữu (natural resources of countries) → whose.",
+          "ielts_tip": "whose + noun = sở hữu.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'The UN, that was founded in 1945, plays a crucial role in maintaining global peace.'",
+          "options": [
+            "Sai: that → which (non-defining clause dùng which)",
+            "Câu đúng không có lỗi",
+            "Sai: was → were",
+            "Sai: plays → play"
+          ],
+          "correct_answer": "Sai: that → which (non-defining clause dùng which)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Non-defining: which (không that)",
+          "feedback_wrong": "Non-defining: , which... KHÔNG , that...",
+          "explanation_short": "Non-defining (dấu phẩy + tên riêng) → which, KHÔNG that.",
+          "ielts_tip": "Non-defining clause KHÔNG bao giờ dùng that.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "Developing regions ___ healthcare is scarce face higher mortality rates.",
+          "options": [
+            "where",
+            "which",
+            "who",
+            "that"
+          ],
+          "correct_answer": "where",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Nơi chốn → where",
+          "feedback_wrong": "where = in which (place).",
+          "explanation_short": "Regions = nơi chốn → where.",
+          "ielts_tip": "where cho places/regions/areas.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'Millions of people which lack clean water are at risk of waterborne diseases.'",
+          "options": [
+            "Sai: which → who (people = người)",
+            "Câu đúng không có lỗi",
+            "Sai: lack → lacks",
+            "Sai: at → in"
+          ],
+          "correct_answer": "Sai: which → who (people = người)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 People = người → who",
+          "feedback_wrong": "who cho người.",
+          "explanation_short": "People = người → who (không which).",
+          "ielts_tip": "who cho people/person.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "The treaty, ___ was signed by 195 countries, aims to limit global warming.",
+          "options": [
+            "which",
+            "that",
+            "who",
+            "whose"
+          ],
+          "correct_answer": "which",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Non-defining + vật → which",
+          "feedback_wrong": "Non-defining: , which.",
+          "explanation_short": "Non-defining (dấu phẩy) + vật → which.",
+          "ielts_tip": "Non-defining clause cho things: , which...",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "The community ___ children cannot attend school is in desperate need of educational funding.",
+          "options": [
+            "whose",
+            "which",
+            "who",
+            "where"
+          ],
+          "correct_answer": "whose",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Sở hữu → whose",
+          "feedback_wrong": "whose + noun.",
+          "explanation_short": "Sở hữu (children of the community) → whose.",
+          "ielts_tip": "whose cho possession.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "e1abec12-6573-46d2-914f-9ef2875a37fc",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-14-relative-clauses",
+      "metadata_ref": "unit-14-relative-clauses.metadata",
+      "generation_profile_ref": "gp_unit14_relative_clauses",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Climate change, that is caused by greenhouse gas emissions, threatens the livelihoods of millions of people worldwide.'",
+          "options": [
+            "Climate change",
+            "that is caused by greenhouse gas emissions",
+            "threatens the livelihoods",
+            "of millions of people worldwide"
+          ],
+          "correct_answer": "that is caused by greenhouse gas emissions",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Non-defining: which (không that)!",
+          "feedback_wrong": "Non-defining: , which. KHÔNG , that.",
+          "explanation_short": "Non-defining (dấu phẩy) → which, không that.",
+          "ielts_tip": "Non-defining clause KHÔNG dùng that.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT:",
+          "options": [
+            "People who live in poverty",
+            " which is a global issue",
+            " need better access to education.",
+            "People who live in poverty",
+            " that is a global issue",
+            " need better access to education.",
+            "People which live in poverty",
+            " who is a global issue",
+            " need better access to education.",
+            "People who live in poverty",
+            " which is a widespread issue",
+            " need better access to education and healthcare."
+          ],
+          "correct_answer": "People who live in poverty, which is a widespread issue, need better access to education and healthcare.",
+          "correct_index": 3,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 who (người) + which (non-defining) = chuẩn!",
+          "feedback_wrong": "who cho người. which cho non-defining vật/ý.",
+          "explanation_short": "who cho people + which cho poverty (non-defining) = chuẩn.",
+          "ielts_tip": "who + which = phân biệt người/vật.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The activists who the government arrested were fighting for human rights in regions where injustice prevails.'",
+          "options": [
+            "The activists who the government arrested",
+            "were fighting for human rights",
+            "in regions where",
+            "injustice prevails"
+          ],
+          "correct_answer": "The activists who the government arrested",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Object → whom: whom the government arrested!",
+          "feedback_wrong": "Object of verb → whom.",
+          "explanation_short": "Object → whom: whom the government arrested.",
+          "ielts_tip": "Formal: whom cho object. Informal: who OK.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT cho academic writing:",
+          "options": [
+            "The countries that are most affected by climate change are often those which lack the resources to adapt.",
+            "The countries most affected by climate change are often those lacking the resources to adapt.",
+            "The countries who are most affected by climate change are often those that lack resources.",
+            "Countries that climate change affects most are often those who lack resources."
+          ],
+          "correct_answer": "The countries most affected by climate change are often those lacking the resources to adapt.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Reduced relative clause = academic concise!",
+          "feedback_wrong": "Reduced: V-ed/V-ing thay cho relative clause.",
+          "explanation_short": "Reduced relative clause = academic + concise.",
+          "ielts_tip": "Academic: reduced relative clauses = Band 6.5+.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'The organizations ___ [A] provide aid to regions ___ [B] are affected by drought rely on donations from people ___ [C] care about global issues.'",
+          "options": [
+            "[A] which / [B] that / [C] who",
+            "[A] that / [B] which / [C] whom",
+            "[A] who / [B] where / [C] which",
+            "[A] that / [B] that / [C] that"
+          ],
+          "correct_answer": "[A] which / [B] that / [C] who",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 [A] which + [B] that + [C] who = chuẩn!",
+          "feedback_wrong": "organizations → which/that. regions → that. people → who.",
+          "explanation_short": "Organizations = vật → which/that. Regions = vật → that. People = người → who.",
+          "ielts_tip": "who (người), which/that (vật).",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The nation who's economy collapsed due to corruption has been struggling to recover for decades.'",
+          "options": [
+            "The nation who's economy collapsed",
+            "due to corruption",
+            "has been struggling to recover",
+            "for decades"
+          ],
+          "correct_answer": "The nation who's economy collapsed",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 who's (who is) → whose (sở hữu)!",
+          "feedback_wrong": "whose = possession. who's = who is.",
+          "explanation_short": "who's = who is. Cần whose (sở hữu): whose economy.",
+          "ielts_tip": "whose vs who's: whose = sở hữu.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Education",
+            " which is a fundamental right",
+            " should be accessible to all children",
+            " regardless of the country in which they live.",
+            "Education",
+            " that is a fundamental right",
+            " should be accessible to all children.",
+            "Education which is a fundamental right should be accessible to all.",
+            "Education",
+            " which is a right",
+            " should be accessible to children where they live."
+          ],
+          "correct_answer": "Education, which is a fundamental right, should be accessible to all children, regardless of the country in which they live.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 , which... + in which = academic chuẩn!",
+          "feedback_wrong": "Non-defining: , which. Preposition + which = formal.",
+          "explanation_short": "Non-defining (which) + in which = academic chuẩn.",
+          "ielts_tip": "in which / for which / by which = formal relative.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Children which grow up in conflict zones often lack education, which limits their opportunities in life.'",
+          "options": [
+            "Children which grow up",
+            "in conflict zones often lack education",
+            "which limits their",
+            "opportunities in life"
+          ],
+          "correct_answer": "Children which grow up",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Children = người → who!",
+          "feedback_wrong": "who cho người. which cho vật/ý.",
+          "explanation_short": "Children = người → who (không which).",
+          "ielts_tip": "children/people/students → who.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Speaking Part 3: 'Tại sao giáo dục quan trọng?' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "Education is important for people who want to improve their lives and contribute to the society where they live.",
+            "Education is important for people which want to improve their lives.",
+            "Education that people receive helps them in life.",
+            "Education is important because it helps people who wants to improve."
+          ],
+          "correct_answer": "Education is important for people who want to improve their lives and contribute to the society where they live.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 who (người) + where (nơi) = chuẩn!",
+          "feedback_wrong": "who cho người. where cho nơi chốn.",
+          "explanation_short": "who (người) + where (nơi chốn) = đúng + chi tiết.",
+          "ielts_tip": "Speaking: who + where = thêm chi tiết tự nhiên.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'The UN, [A] that was established to maintain peace, helps countries [B] who's economies are struggling, particularly in regions [C] which conflicts have displaced millions.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] which | [B] whose | [C] where!",
+          "feedback_wrong": "[A] non-defining: which. [B] sở hữu: whose. [C] nơi: where.",
+          "explanation_short": "[A] that → which (non-defining). [B] who's → whose (sở hữu). [C] which → where (nơi chốn).",
+          "ielts_tip": "Non-defining: which. Possession: whose. Place: where.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

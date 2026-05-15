@@ -1,0 +1,2460 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-9-modal-may-might",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-9-modal-may-might",
+    "version": "4.0",
+    "grammar_point": "Modal: may / might",
+    "subtitle_vi": "Modal: may / might",
+    "topic_vocabulary": "Environment & Society",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 10: Modal Verbs — may/might",
+      "unit_json_ref": "unit-9-modal-may-might.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "may_possibility",
+      "might_lower_possibility",
+      "may_permission",
+      "may_academic",
+      "may_not_form",
+      "might_suggestion",
+      "might_speculation",
+      "may_vs_can"
+    ],
+    "common_vietnamese_errors": [
+      "may_might_confusion",
+      "may_with_to",
+      "may_with_s",
+      "may_not_contraction",
+      "might_with_to",
+      "mays_error"
+    ],
+    "ielts_band_target": {
+      "min": 5.5,
+      "max": 6.0
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-9-modal-may-might",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "6.0–6.0",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.0 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "6.0–6.5",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.0 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_possibility",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The meeting ___ be postponed due to the storm.",
+          "options": [
+            "may",
+            "mays",
+            "is may",
+            "can"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "explanation_short": "Khả năng có thể xảy ra → may.",
+          "explanation_long": "May = possibility (khoảng 50%). 'Mays' không tồn tại.",
+          "feedback_correct": "⚡ Khả năng → may be postponed",
+          "feedback_wrong": "Khả năng xảy ra → may + V.",
+          "ielts_tip": "may/might + V = possibility.",
+          "distractor_note": "obvious: mays (sai), is may (sai)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "might_lower_possibility",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Climate change ___ cause even more severe weather events in the future.",
+          "options": [
+            "might",
+            "mights",
+            "is might",
+            "must"
+          ],
+          "correct_answer": "might",
+          "correct_index": 0,
+          "explanation_short": "Khả năng thấp hơn may → might.",
+          "explanation_long": "Might = lower probability than may. Cả hai đều diễn tả possibility.",
+          "feedback_correct": "🔥 Khả năng (lower) → might cause",
+          "feedback_wrong": "might = khả năng (thấp hơn may).",
+          "ielts_tip": "might + V = lower possibility than may.",
+          "distractor_note": "obvious: mights (sai), is might (sai)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_permission",
+          "error_tag": "may_can_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ I leave early today? I have a doctor's appointment.",
+          "options": [
+            "May",
+            "Might",
+            "Do",
+            "Am"
+          ],
+          "correct_answer": "May",
+          "correct_index": 0,
+          "explanation_short": "Xin phép formal → May I...?",
+          "explanation_long": "May I = formal permission. Can I = informal permission.",
+          "feedback_correct": "⚡ Xin phép formal → May I...?",
+          "feedback_wrong": "May I = formal. Can I = informal.",
+          "ielts_tip": "May I + V = formal permission.",
+          "distractor_note": "obvious: Might (ít dùng xin phép), Do (sai)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_not_form",
+          "error_tag": "may_not_contraction",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Deforestation ___ not stop unless governments take action.",
+          "options": [
+            "may",
+            "might",
+            "mays",
+            "does"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "explanation_short": "may not = có thể không. Không viết tắt: mayn't.",
+          "explanation_long": "Phủ định: may not (không viết tắt thành mayn't trong formal English).",
+          "feedback_correct": "🎯 may not + V = có thể không",
+          "feedback_wrong": "may not + V. Không viết tắt.",
+          "ielts_tip": "may not / might not + V = possibly not.",
+          "distractor_note": "obvious: mays (sai), does (sai)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "might_suggestion",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "You ___ want to consider renewable energy for your factory.",
+          "options": [
+            "might",
+            "may",
+            "mights",
+            "can"
+          ],
+          "correct_answer": "might",
+          "correct_index": 0,
+          "explanation_short": "Gợi ý nhẹ nhàng → might want to.",
+          "explanation_long": "might want to = gợi ý lịch sự, nhẹ nhàng.",
+          "feedback_correct": "⚡ Gợi ý nhẹ nhàng → might want to",
+          "feedback_wrong": "might want to = polite suggestion.",
+          "ielts_tip": "might want to + V = gentle suggestion.",
+          "distractor_note": "obvious: mights (sai), can (khả năng, không gợi ý)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_possibility",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Pollution ___ affect public health in urban areas.",
+          "options": [
+            "may",
+            "mays",
+            "is may",
+            "do"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "explanation_short": "Khả năng xảy ra → may affect.",
+          "explanation_long": "may + V = possibility. Mô tả khả năng ô nhiễm ảnh hưởng sức khỏe.",
+          "feedback_correct": "🔥 Khả năng → may affect",
+          "feedback_wrong": "may + V = possibility.",
+          "ielts_tip": "may/might + V = có thể.",
+          "distractor_note": "obvious: mays (sai), is may (sai)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "might_uncertainty",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The government ___ introduce new environmental regulations next year.",
+          "options": [
+            "might",
+            "mights",
+            "is might",
+            "will might"
+          ],
+          "correct_answer": "might",
+          "correct_index": 0,
+          "explanation_short": "Chưa chắc chắn → might introduce.",
+          "explanation_long": "might = uncertainty about future action.",
+          "feedback_correct": "⚡ Chưa chắc → might introduce",
+          "feedback_wrong": "might + V = uncertainty.",
+          "ielts_tip": "might + V = chưa chắc chắn.",
+          "distractor_note": "obvious: mights (sai), will might (sai)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_academic",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "This research ___ contribute to solving global warming.",
+          "options": [
+            "may",
+            "mays",
+            "is may",
+            "does may"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "explanation_short": "Academic writing: may contribute → khả năng học thuật.",
+          "explanation_long": "may + V = academic possibility. Dùng nhiều trong research papers.",
+          "feedback_correct": "🔥 Academic → may contribute",
+          "feedback_wrong": "may + V = academic possibility.",
+          "ielts_tip": "Research: This may suggest/indicate/contribute...",
+          "distractor_note": "obvious: mays (sai), does may (sai)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_form",
+          "error_tag": "may_with_to",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Rising sea levels may to affect millions of people.'",
+          "options": [
+            "Sai: may to affect → may affect (bỏ to)",
+            "Câu đúng không có lỗi",
+            "Sai: millions → million",
+            "Sai: people → peoples"
+          ],
+          "correct_answer": "Sai: may to affect → may affect (bỏ to)",
+          "correct_index": 0,
+          "explanation_short": "may + V bare: may affect (không may to affect).",
+          "explanation_long": "Modal + V bare infinitive. 'May to affect' = sai.",
+          "feedback_correct": "🎯 may + V bare: may affect",
+          "feedback_wrong": "may + V (no to).",
+          "ielts_tip": "Modal + V bare infinitive.",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_vs_might",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "There ___ be a connection between social media use and mental health issues.",
+          "options": [
+            "may",
+            "might",
+            "mays",
+            "is"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "explanation_short": "Khả năng có liên kết → may be.",
+          "explanation_long": "may/might đều đúng. Trong academic, may phổ biến hơn.",
+          "feedback_correct": "⚡ Khả năng → may be",
+          "feedback_wrong": "may + V = possibility (academic).",
+          "ielts_tip": "Academic: There may be a connection/link/correlation...",
+          "distractor_note": "obvious: mays (sai), is (quá chắc chắn)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_vs_might",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Experts suggest that social media ___ have negative effects on mental health, but more research is needed.",
+          "options": [
+            "may",
+            "might",
+            "must",
+            "can"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "explanation_short": "Academic suggestion + chưa chắc → may have.",
+          "explanation_long": "'More research is needed' = chưa chắc chắn → may (khả năng cao hơn might nhưng chưa xác nhận).",
+          "feedback_correct": "🔥 Academic + chưa xác nhận → may have",
+          "feedback_wrong": "may = academic possibility.",
+          "ielts_tip": "Academic writing: may have + effect/impact/influence.",
+          "distractor_note": "plausible: might (cũng đúng nhưng may phổ biến hơn trong academic)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "might_past_possibility",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The ancient civilization ___ have used advanced technology that we don't know about.",
+          "options": [
+            "may",
+            "might",
+            "can",
+            "must"
+          ],
+          "correct_answer": "might",
+          "correct_index": 1,
+          "explanation_short": "Suy đoán về quá khứ xa → might have V3.",
+          "explanation_long": "Might have V3 = suy đoán về quá khứ, ít chắc chắn.",
+          "feedback_correct": "⚡ Suy đoán quá khứ xa → might have used",
+          "feedback_wrong": "might have V3 = past speculation.",
+          "ielts_tip": "might have V3 = past possibility (uncertain).",
+          "distractor_note": "plausible: may (cũng đúng nhưng might tự nhiên hơn cho quá khứ xa)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_academic",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "This finding ___ suggest that environmental factors play a larger role than previously thought.",
+          "options": [
+            "may",
+            "might",
+            "can",
+            "must"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "explanation_short": "Academic hedging → may suggest.",
+          "explanation_long": "'May suggest' = academic hedging (cautious language) phổ biến trong research.",
+          "feedback_correct": "🔥 Academic hedging → may suggest",
+          "feedback_wrong": "may = cautious academic language.",
+          "ielts_tip": "Academic: may suggest/indicate/imply = hedging.",
+          "distractor_note": "plausible: might (cũng đúng)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_form",
+          "error_tag": "may_with_s",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Deforestation may leads to the extinction of many species.'",
+          "options": [
+            "Sai: may leads → may lead (modal + V bare)",
+            "Câu đúng không có lỗi",
+            "Sai: extinction → extinct",
+            "Sai: many → much"
+          ],
+          "correct_answer": "Sai: may leads → may lead (modal + V bare)",
+          "correct_index": 0,
+          "explanation_short": "may + V bare: may lead (không may leads).",
+          "explanation_long": "Modal + V bare infinitive. Không thêm -s sau modal.",
+          "feedback_correct": "🎯 may + V bare: may lead",
+          "feedback_wrong": "may + V (no -s).",
+          "ielts_tip": "Modal + V bare. Không thêm -s.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "might_conditional",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If we don't reduce emissions, global temperatures ___ rise by 3 degrees.",
+          "options": [
+            "may",
+            "might",
+            "will",
+            "can"
+          ],
+          "correct_answer": "might",
+          "correct_index": 1,
+          "explanation_short": "Điều kiện + hậu quả không chắc → might.",
+          "explanation_long": "'If we don't reduce' = conditional → might rise (possibility, less certain than will).",
+          "feedback_correct": "⚡ Conditional + uncertainty → might rise",
+          "feedback_wrong": "If + condition → might (uncertain outcome).",
+          "ielts_tip": "If + condition, S + might/may + V.",
+          "distractor_note": "plausible: may (cũng đúng), will (quá chắc chắn)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_not_form",
+          "error_tag": "may_not_contraction",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Some people mayn't be aware of the environmental impact of their choices.'",
+          "options": [
+            "Sai: mayn't → may not (may không viết tắt thành mayn't)",
+            "Câu đúng không có lỗi",
+            "Sai: aware → awareness",
+            "Sai: their → they"
+          ],
+          "correct_answer": "Sai: mayn't → may not (may không viết tắt thành mayn't)",
+          "correct_index": 0,
+          "explanation_short": "may not (không viết tắt): may not be aware.",
+          "explanation_long": "'Mayn't' gần như không dùng trong English hiện đại. Đúng: may not.",
+          "feedback_correct": "🔥 may not (không viết tắt mayn't)",
+          "feedback_wrong": "may not (full form). Might not = mightn't (informal).",
+          "ielts_tip": "may not = full form. mightn't = informal OK.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_vs_can",
+          "error_tag": "may_can_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Students ___ not use their phones during the exam.",
+          "options": [
+            "may",
+            "can",
+            "might",
+            "must"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "explanation_short": "Quy định/rule → may not = không được phép.",
+          "explanation_long": "may not = prohibition (formal rule). can't = informal prohibition.",
+          "feedback_correct": "⚡ Quy định formal → may not use",
+          "feedback_wrong": "may not = formal prohibition.",
+          "ielts_tip": "Exam rules: may not = formal prohibition.",
+          "distractor_note": "plausible: can (informal), must (obligation, different meaning)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "might_form",
+          "error_tag": "might_with_to",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Climate change might to cause widespread food shortages in the next decade.'",
+          "options": [
+            "Sai: might to cause → might cause (bỏ to)",
+            "Câu đúng không có lỗi",
+            "Sai: widespread → wide spread",
+            "Sai: in → at"
+          ],
+          "correct_answer": "Sai: might to cause → might cause (bỏ to)",
+          "correct_index": 0,
+          "explanation_short": "might + V bare: might cause (không might to cause).",
+          "explanation_long": "Modal + V bare infinitive.",
+          "feedback_correct": "🎯 might + V bare: might cause",
+          "feedback_wrong": "might + V (no to).",
+          "ielts_tip": "Modal + V bare.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_possibility",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Renewable energy sources ___ eventually replace fossil fuels entirely.",
+          "options": [
+            "may",
+            "might",
+            "mays",
+            "does"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "explanation_short": "Khả năng tương lai → may replace.",
+          "explanation_long": "may = possibility. 'Eventually' = tương lai không xác định → may.",
+          "feedback_correct": "⚡ Khả năng tương lai → may replace",
+          "feedback_wrong": "may + V = future possibility.",
+          "ielts_tip": "may/might + eventually/one day = future possibility.",
+          "distractor_note": "plausible: might (cũng đúng)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "might_speculation",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The new environmental policy ___ not be enough to address climate change.",
+          "options": [
+            "might",
+            "may",
+            "mights",
+            "does"
+          ],
+          "correct_answer": "might",
+          "correct_index": 0,
+          "explanation_short": "Suy đoán → might not be enough.",
+          "explanation_long": "might not = suy đoán rằng có thể không đủ.",
+          "feedback_correct": "🔥 Suy đoán → might not be enough",
+          "feedback_wrong": "might not = possibly not.",
+          "ielts_tip": "might not + V = có thể không.",
+          "distractor_note": "plausible: may (cũng đúng)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "may_form",
+          "error_tag": "may_with_to",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Overpopulation may to lead to resource depletion, which might causes widespread poverty.'",
+          "options": [
+            "Overpopulation may to lead",
+            "to resource depletion",
+            "which might causes",
+            "widespread poverty"
+          ],
+          "correct_answer": "Overpopulation may to lead",
+          "correct_index": 0,
+          "explanation_short": "may + V bare: may lead (không may to lead).",
+          "explanation_long": "Lớp 1: 'may to lead' → 'may lead'. Lớp 2: 'might causes' cũng sai → 'might cause'. Cả A và C sai, A sai trước.",
+          "feedback_correct": "🔥 may + V bare: may lead!",
+          "feedback_wrong": "may + V (no to). might + V (no -s).",
+          "ielts_tip": "Modal + V bare.",
+          "distractor_note": "near-correct: option C (might causes) cũng sai",
+          "layers": [
+            "modal + bare infinitive",
+            "double error",
+            "academic paragraph"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_academic",
+          "error_tag": "may_might_academic",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu CHUẨN NHẤT cho IELTS Writing Task 2:",
+          "options": [
+            "Air pollution may leads to serious health problems in urban areas.",
+            "Air pollution may lead to serious health problems in urban areas.",
+            "Air pollution might to lead to serious health problems.",
+            "Air pollution mays lead to serious health problems."
+          ],
+          "correct_answer": "Air pollution may lead to serious health problems in urban areas.",
+          "correct_index": 1,
+          "explanation_short": "may + V bare: may lead to.",
+          "explanation_long": "Lớp 1: 'may lead' = đúng (modal + V bare). Lớp 2: 'may leads' sai (-s). Lớp 3: 'might to lead' sai (to). Lớp 4: 'mays' không tồn tại.",
+          "feedback_correct": "🏆 may + V bare: may lead to = chuẩn!",
+          "feedback_wrong": "may + V bare = academic hedging.",
+          "ielts_tip": "Task 2: may lead to/result in/cause = hedging.",
+          "distractor_note": "near-correct: option A (may leads) lỗi phổ biến",
+          "layers": [
+            "may + bare infinitive",
+            "academic hedging",
+            "Task 2"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "may_vs_might",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While some argue that social media mays harm society, others believe it might helps connect communities.'",
+          "options": [
+            "some argue that",
+            "social media mays harm society",
+            "others believe it",
+            "might helps connect communities"
+          ],
+          "correct_answer": "social media mays harm society",
+          "correct_index": 1,
+          "explanation_short": "mays không tồn tại. Đúng: may harm.",
+          "explanation_long": "Lớp 1: 'mays' không tồn tại → 'may harm'. Lớp 2: 'might helps' cũng sai → 'might help'. Cả B và D sai, B sai rõ nhất.",
+          "feedback_correct": "🔥 mays không tồn tại → may harm!",
+          "feedback_wrong": "May/might không chia: may (no -s).",
+          "ielts_tip": "Modal verbs không chia theo ngôi.",
+          "distractor_note": "near-correct: option D (might helps) cũng sai",
+          "layers": [
+            "modal no inflection",
+            "double error",
+            "contrast structure"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_vs_can",
+          "error_tag": "may_can_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT cho quy định formal:",
+          "options": [
+            "Students can't use phones during exams.",
+            "Students may not use electronic devices during examinations.",
+            "Students might not use phones during exams.",
+            "Students don't may use phones."
+          ],
+          "correct_answer": "Students may not use electronic devices during examinations.",
+          "correct_index": 1,
+          "explanation_short": "Quy định formal → may not (prohibition).",
+          "explanation_long": "Lớp 1: 'may not' = formal prohibition. Lớp 2: 'can't' = informal. Lớp 3: 'might not' = possibility, không phải prohibition. Lớp 4: 'don't may' = sai.",
+          "feedback_correct": "🏆 may not = formal prohibition chuẩn!",
+          "feedback_wrong": "may not = formal prohibition.",
+          "ielts_tip": "Formal rules: may not + V.",
+          "distractor_note": "near-correct: option A (can't) đúng nhưng informal",
+          "layers": [
+            "may not for prohibition",
+            "formal register",
+            "academic rules"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "may_possibility",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN cho IELTS Writing?\n'This trend ___ [A] that social values ___ [B] shifting towards greater environmental awareness.'",
+          "options": [
+            "[A] may suggests / [B] are",
+            "[A] may suggest / [B] are",
+            "[A] might suggests / [B] is",
+            "[A] may suggest / [B] is"
+          ],
+          "correct_answer": "[A] may suggest / [B] are",
+          "correct_index": 1,
+          "explanation_short": "may + V bare: may suggest. values = plural → are.",
+          "explanation_long": "Lớp 1: may + suggest (V bare, no -s). Lớp 2: 'social values' = plural → 'are shifting'.",
+          "feedback_correct": "🏆 may suggest + values are = chuẩn!",
+          "feedback_wrong": "may + V bare. Plural subject → are.",
+          "ielts_tip": "may suggest that + S + are/have...",
+          "distractor_note": "near-correct: option A (may suggests) sai -s",
+          "layers": [
+            "modal + bare infinitive",
+            "subject-verb agreement",
+            "academic hedging"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "might_past",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Had the government invested in renewable energy earlier, air quality might has improved significantly by now.'",
+          "options": [
+            "Had the government invested",
+            "in renewable energy earlier",
+            "air quality might has improved",
+            "significantly by now"
+          ],
+          "correct_answer": "air quality might has improved",
+          "correct_index": 2,
+          "explanation_short": "might + have V3 (không might has): might have improved.",
+          "explanation_long": "Lớp 1: might + have + V3 = past possibility. 'Might has' = sai, phải là 'might have'. Modal không chia.",
+          "feedback_correct": "🔥 might have (không might has)!",
+          "feedback_wrong": "might + have + V3. Modal không chia.",
+          "ielts_tip": "Modal + have + V3 = past possibility.",
+          "distractor_note": "near-correct: option A (Had + invested) = đúng (Conditional Type 3 inverted)",
+          "layers": [
+            "modal + have + V3",
+            "modal no inflection",
+            "Conditional Type 3"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_vs_might",
+          "error_tag": "may_might_academic",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Industrial pollution may contributes to global warming and its effects might be irreversible.",
+            "Industrial pollution may contribute to global warming",
+            " and its effects might be irreversible.",
+            "Industrial pollution might to contribute to global warming.",
+            "Industrial pollution mays contribute to global warming."
+          ],
+          "correct_answer": "Industrial pollution may contribute to global warming, and its effects might be irreversible.",
+          "correct_index": 1,
+          "explanation_short": "may contribute + might be = đúng modal + V bare.",
+          "explanation_long": "Lớp 1: 'may contribute' = hedging (modal + V bare). Lớp 2: 'might be irreversible' = lower certainty. Lớp 3: 'may contributes' sai (-s). Lớp 4: 'might to contribute' sai (to).",
+          "feedback_correct": "🏆 may contribute + might be = academic hedging chuẩn!",
+          "feedback_wrong": "may/might + V bare = hedging.",
+          "ielts_tip": "Task 2: may contribute/lead to + might be = nuanced hedging.",
+          "distractor_note": "near-correct: option A (may contributes) sai -s",
+          "layers": [
+            "academic hedging",
+            "modal + bare infinitive",
+            "nuanced possibility"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "may_not_form",
+          "error_tag": "may_not_contraction",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Some developing countries mayn't have the resources to combat climate change, which may leads to greater inequality.'",
+          "options": [
+            "Some developing countries",
+            "mayn't have the resources",
+            "to combat climate change",
+            "which may leads to greater inequality"
+          ],
+          "correct_answer": "mayn't have the resources",
+          "correct_index": 1,
+          "explanation_short": "mayn't → may not (không viết tắt mayn't).",
+          "explanation_long": "Lớp 1: 'mayn't' → 'may not' (may không viết tắt phủ định). Lớp 2: 'may leads' cũng sai → 'may lead'. Cả B và D sai, B rõ nhất.",
+          "feedback_correct": "🔥 mayn't → may not!",
+          "feedback_wrong": "may not (full form). Modal + V bare.",
+          "ielts_tip": "may not = full form.",
+          "distractor_note": "near-correct: option D (may leads) cũng sai",
+          "layers": [
+            "may not form",
+            "modal + bare infinitive",
+            "double error"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "may_vs_might",
+          "error_tag": "may_might_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 3: 'Bạn nghĩ xã hội có thể thay đổi thái độ về môi trường không?' — Chọn CHUẨN NHẤT:",
+          "options": [
+            "I think people may changes their attitudes towards the environment.",
+            "Society might gradually shift towards more sustainable practices.",
+            "People mays change their environmental attitudes.",
+            "Society may to become more environmentally conscious."
+          ],
+          "correct_answer": "Society might gradually shift towards more sustainable practices.",
+          "correct_index": 1,
+          "explanation_short": "might + V bare = cautious prediction chuẩn Speaking.",
+          "explanation_long": "Lớp 1: 'might gradually shift' = cautious + natural. Lớp 2: 'may changes' sai (-s). Lớp 3: 'mays' sai. Lớp 4: 'may to become' sai (to).",
+          "feedback_correct": "🏆 might gradually shift = chuẩn Speaking Part 3!",
+          "feedback_wrong": "might + adverb + V = cautious natural speech.",
+          "ielts_tip": "Speaking: might/may + gradually/eventually + V.",
+          "distractor_note": "near-correct: các option khác đều sai modal form",
+          "layers": [
+            "cautious prediction",
+            "Speaking Part 3",
+            "modal + bare infinitive"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "may_vs_might",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'Urbanization [A] may leads to overcrowding, which [B] mights cause social problems, and governments [C] might not has the resources to address all issues.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [C] có lỗi — [A] và [B] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] may leads → may lead. [B] mights → might. [C] might not has → might not have.",
+          "explanation_long": "Lớp 1: [A] 'may leads' → 'may lead' (modal + V bare). Lớp 2: [B] 'mights' không tồn tại → 'might'. Lớp 3: [C] 'might not has' → 'might not have' (modal không chia).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] may lead | [B] might cause | [C] might not have!",
+          "feedback_wrong": "[A] modal + V bare. [B] modal không chia. [C] modal + have (not has).",
+          "ielts_tip": "Modal + V bare. Modal không chia theo ngôi.",
+          "distractor_note": "near-correct: option B bỏ sót [C].",
+          "layers": [
+            "modal + bare infinitive",
+            "modal no inflection",
+            "triple error"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "e048b8e6-26bc-450f-b997-18ddac055006",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-9-modal-may-might",
+      "metadata_ref": "unit-9-modal-may-might.metadata",
+      "generation_profile_ref": "gp_unit9_modal_may_might",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "The meeting ___ be postponed due to the storm.",
+          "options": [
+            "may",
+            "mays",
+            "is may",
+            "can"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Khả năng → may be postponed",
+          "feedback_wrong": "Khả năng xảy ra → may + V.",
+          "explanation_short": "Khả năng có thể xảy ra → may.",
+          "ielts_tip": "may/might + V = possibility.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "Climate change ___ cause even more severe weather events in the future.",
+          "options": [
+            "might",
+            "mights",
+            "is might",
+            "must"
+          ],
+          "correct_answer": "might",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Khả năng (lower) → might cause",
+          "feedback_wrong": "might = khả năng (thấp hơn may).",
+          "explanation_short": "Khả năng thấp hơn may → might.",
+          "ielts_tip": "might + V = lower possibility than may.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "___ I leave early today? I have a doctor's appointment.",
+          "options": [
+            "May",
+            "Might",
+            "Do",
+            "Am"
+          ],
+          "correct_answer": "May",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Xin phép formal → May I...?",
+          "feedback_wrong": "May I = formal. Can I = informal.",
+          "explanation_short": "Xin phép formal → May I...?",
+          "ielts_tip": "May I + V = formal permission.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "Deforestation ___ not stop unless governments take action.",
+          "options": [
+            "may",
+            "might",
+            "mays",
+            "does"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 may not + V = có thể không",
+          "feedback_wrong": "may not + V. Không viết tắt.",
+          "explanation_short": "may not = có thể không. Không viết tắt: mayn't.",
+          "ielts_tip": "may not / might not + V = possibly not.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "You ___ want to consider renewable energy for your factory.",
+          "options": [
+            "might",
+            "may",
+            "mights",
+            "can"
+          ],
+          "correct_answer": "might",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Gợi ý nhẹ nhàng → might want to",
+          "feedback_wrong": "might want to = polite suggestion.",
+          "explanation_short": "Gợi ý nhẹ nhàng → might want to.",
+          "ielts_tip": "might want to + V = gentle suggestion.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "Pollution ___ affect public health in urban areas.",
+          "options": [
+            "may",
+            "mays",
+            "is may",
+            "do"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Khả năng → may affect",
+          "feedback_wrong": "may + V = possibility.",
+          "explanation_short": "Khả năng xảy ra → may affect.",
+          "ielts_tip": "may/might + V = có thể.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "The government ___ introduce new environmental regulations next year.",
+          "options": [
+            "might",
+            "mights",
+            "is might",
+            "will might"
+          ],
+          "correct_answer": "might",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Chưa chắc → might introduce",
+          "feedback_wrong": "might + V = uncertainty.",
+          "explanation_short": "Chưa chắc chắn → might introduce.",
+          "ielts_tip": "might + V = chưa chắc chắn.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "This research ___ contribute to solving global warming.",
+          "options": [
+            "may",
+            "mays",
+            "is may",
+            "does may"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Academic → may contribute",
+          "feedback_wrong": "may + V = academic possibility.",
+          "explanation_short": "Academic writing: may contribute → khả năng học thuật.",
+          "ielts_tip": "Research: This may suggest/indicate/contribute...",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'Rising sea levels may to affect millions of people.'",
+          "options": [
+            "Sai: may to affect → may affect (bỏ to)",
+            "Câu đúng không có lỗi",
+            "Sai: millions → million",
+            "Sai: people → peoples"
+          ],
+          "correct_answer": "Sai: may to affect → may affect (bỏ to)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 may + V bare: may affect",
+          "feedback_wrong": "may + V (no to).",
+          "explanation_short": "may + V bare: may affect (không may to affect).",
+          "ielts_tip": "Modal + V bare infinitive.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "There ___ be a connection between social media use and mental health issues.",
+          "options": [
+            "may",
+            "might",
+            "mays",
+            "is"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Khả năng → may be",
+          "feedback_wrong": "may + V = possibility (academic).",
+          "explanation_short": "Khả năng có liên kết → may be.",
+          "ielts_tip": "Academic: There may be a connection/link/correlation...",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "13bc03f9-5138-4e96-9de7-9c12f76d3567",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-9-modal-may-might",
+      "metadata_ref": "unit-9-modal-may-might.metadata",
+      "generation_profile_ref": "gp_unit9_modal_may_might",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "6.0–6.0",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "Experts suggest that social media ___ have negative effects on mental health, but more research is needed.",
+          "options": [
+            "may",
+            "might",
+            "must",
+            "can"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Academic + chưa xác nhận → may have",
+          "feedback_wrong": "may = academic possibility.",
+          "explanation_short": "Academic suggestion + chưa chắc → may have.",
+          "ielts_tip": "Academic writing: may have + effect/impact/influence.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "The ancient civilization ___ have used advanced technology that we don't know about.",
+          "options": [
+            "may",
+            "might",
+            "can",
+            "must"
+          ],
+          "correct_answer": "might",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Suy đoán quá khứ xa → might have used",
+          "feedback_wrong": "might have V3 = past speculation.",
+          "explanation_short": "Suy đoán về quá khứ xa → might have V3.",
+          "ielts_tip": "might have V3 = past possibility (uncertain).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "This finding ___ suggest that environmental factors play a larger role than previously thought.",
+          "options": [
+            "may",
+            "might",
+            "can",
+            "must"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Academic hedging → may suggest",
+          "feedback_wrong": "may = cautious academic language.",
+          "explanation_short": "Academic hedging → may suggest.",
+          "ielts_tip": "Academic: may suggest/indicate/imply = hedging.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'Deforestation may leads to the extinction of many species.'",
+          "options": [
+            "Sai: may leads → may lead (modal + V bare)",
+            "Câu đúng không có lỗi",
+            "Sai: extinction → extinct",
+            "Sai: many → much"
+          ],
+          "correct_answer": "Sai: may leads → may lead (modal + V bare)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 may + V bare: may lead",
+          "feedback_wrong": "may + V (no -s).",
+          "explanation_short": "may + V bare: may lead (không may leads).",
+          "ielts_tip": "Modal + V bare. Không thêm -s.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "If we don't reduce emissions, global temperatures ___ rise by 3 degrees.",
+          "options": [
+            "may",
+            "might",
+            "will",
+            "can"
+          ],
+          "correct_answer": "might",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Conditional + uncertainty → might rise",
+          "feedback_wrong": "If + condition → might (uncertain outcome).",
+          "explanation_short": "Điều kiện + hậu quả không chắc → might.",
+          "ielts_tip": "If + condition, S + might/may + V.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'Some people mayn't be aware of the environmental impact of their choices.'",
+          "options": [
+            "Sai: mayn't → may not (may không viết tắt thành mayn't)",
+            "Câu đúng không có lỗi",
+            "Sai: aware → awareness",
+            "Sai: their → they"
+          ],
+          "correct_answer": "Sai: mayn't → may not (may không viết tắt thành mayn't)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 may not (không viết tắt mayn't)",
+          "feedback_wrong": "may not (full form). Might not = mightn't (informal).",
+          "explanation_short": "may not (không viết tắt): may not be aware.",
+          "ielts_tip": "may not = full form. mightn't = informal OK.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "Students ___ not use their phones during the exam.",
+          "options": [
+            "may",
+            "can",
+            "might",
+            "must"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Quy định formal → may not use",
+          "feedback_wrong": "may not = formal prohibition.",
+          "explanation_short": "Quy định/rule → may not = không được phép.",
+          "ielts_tip": "Exam rules: may not = formal prohibition.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'Climate change might to cause widespread food shortages in the next decade.'",
+          "options": [
+            "Sai: might to cause → might cause (bỏ to)",
+            "Câu đúng không có lỗi",
+            "Sai: widespread → wide spread",
+            "Sai: in → at"
+          ],
+          "correct_answer": "Sai: might to cause → might cause (bỏ to)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 might + V bare: might cause",
+          "feedback_wrong": "might + V (no to).",
+          "explanation_short": "might + V bare: might cause (không might to cause).",
+          "ielts_tip": "Modal + V bare.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "Renewable energy sources ___ eventually replace fossil fuels entirely.",
+          "options": [
+            "may",
+            "might",
+            "mays",
+            "does"
+          ],
+          "correct_answer": "may",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Khả năng tương lai → may replace",
+          "feedback_wrong": "may + V = future possibility.",
+          "explanation_short": "Khả năng tương lai → may replace.",
+          "ielts_tip": "may/might + eventually/one day = future possibility.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "The new environmental policy ___ not be enough to address climate change.",
+          "options": [
+            "might",
+            "may",
+            "mights",
+            "does"
+          ],
+          "correct_answer": "might",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Suy đoán → might not be enough",
+          "feedback_wrong": "might not = possibly not.",
+          "explanation_short": "Suy đoán → might not be enough.",
+          "ielts_tip": "might not + V = có thể không.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "cb5dddde-d7f5-43bf-be88-bfb5eeb8a961",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-9-modal-may-might",
+      "metadata_ref": "unit-9-modal-may-might.metadata",
+      "generation_profile_ref": "gp_unit9_modal_may_might",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "6.0–6.5",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Overpopulation may to lead to resource depletion, which might causes widespread poverty.'",
+          "options": [
+            "Overpopulation may to lead",
+            "to resource depletion",
+            "which might causes",
+            "widespread poverty"
+          ],
+          "correct_answer": "Overpopulation may to lead",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 may + V bare: may lead!",
+          "feedback_wrong": "may + V (no to). might + V (no -s).",
+          "explanation_short": "may + V bare: may lead (không may to lead).",
+          "ielts_tip": "Modal + V bare.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu CHUẨN NHẤT cho IELTS Writing Task 2:",
+          "options": [
+            "Air pollution may leads to serious health problems in urban areas.",
+            "Air pollution may lead to serious health problems in urban areas.",
+            "Air pollution might to lead to serious health problems.",
+            "Air pollution mays lead to serious health problems."
+          ],
+          "correct_answer": "Air pollution may lead to serious health problems in urban areas.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 may + V bare: may lead to = chuẩn!",
+          "feedback_wrong": "may + V bare = academic hedging.",
+          "explanation_short": "may + V bare: may lead to.",
+          "ielts_tip": "Task 2: may lead to/result in/cause = hedging.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While some argue that social media mays harm society, others believe it might helps connect communities.'",
+          "options": [
+            "some argue that",
+            "social media mays harm society",
+            "others believe it",
+            "might helps connect communities"
+          ],
+          "correct_answer": "social media mays harm society",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 mays không tồn tại → may harm!",
+          "feedback_wrong": "May/might không chia: may (no -s).",
+          "explanation_short": "mays không tồn tại. Đúng: may harm.",
+          "ielts_tip": "Modal verbs không chia theo ngôi.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT cho quy định formal:",
+          "options": [
+            "Students can't use phones during exams.",
+            "Students may not use electronic devices during examinations.",
+            "Students might not use phones during exams.",
+            "Students don't may use phones."
+          ],
+          "correct_answer": "Students may not use electronic devices during examinations.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 may not = formal prohibition chuẩn!",
+          "feedback_wrong": "may not = formal prohibition.",
+          "explanation_short": "Quy định formal → may not (prohibition).",
+          "ielts_tip": "Formal rules: may not + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN cho IELTS Writing?\n'This trend ___ [A] that social values ___ [B] shifting towards greater environmental awareness.'",
+          "options": [
+            "[A] may suggests / [B] are",
+            "[A] may suggest / [B] are",
+            "[A] might suggests / [B] is",
+            "[A] may suggest / [B] is"
+          ],
+          "correct_answer": "[A] may suggest / [B] are",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 may suggest + values are = chuẩn!",
+          "feedback_wrong": "may + V bare. Plural subject → are.",
+          "explanation_short": "may + V bare: may suggest. values = plural → are.",
+          "ielts_tip": "may suggest that + S + are/have...",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Had the government invested in renewable energy earlier, air quality might has improved significantly by now.'",
+          "options": [
+            "Had the government invested",
+            "in renewable energy earlier",
+            "air quality might has improved",
+            "significantly by now"
+          ],
+          "correct_answer": "air quality might has improved",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 might have (không might has)!",
+          "feedback_wrong": "might + have + V3. Modal không chia.",
+          "explanation_short": "might + have V3 (không might has): might have improved.",
+          "ielts_tip": "Modal + have + V3 = past possibility.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Industrial pollution may contributes to global warming and its effects might be irreversible.",
+            "Industrial pollution may contribute to global warming",
+            " and its effects might be irreversible.",
+            "Industrial pollution might to contribute to global warming.",
+            "Industrial pollution mays contribute to global warming."
+          ],
+          "correct_answer": "Industrial pollution may contribute to global warming, and its effects might be irreversible.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 may contribute + might be = academic hedging chuẩn!",
+          "feedback_wrong": "may/might + V bare = hedging.",
+          "explanation_short": "may contribute + might be = đúng modal + V bare.",
+          "ielts_tip": "Task 2: may contribute/lead to + might be = nuanced hedging.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Some developing countries mayn't have the resources to combat climate change, which may leads to greater inequality.'",
+          "options": [
+            "Some developing countries",
+            "mayn't have the resources",
+            "to combat climate change",
+            "which may leads to greater inequality"
+          ],
+          "correct_answer": "mayn't have the resources",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 mayn't → may not!",
+          "feedback_wrong": "may not (full form). Modal + V bare.",
+          "explanation_short": "mayn't → may not (không viết tắt mayn't).",
+          "ielts_tip": "may not = full form.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Speaking Part 3: 'Bạn nghĩ xã hội có thể thay đổi thái độ về môi trường không?' — Chọn CHUẨN NHẤT:",
+          "options": [
+            "I think people may changes their attitudes towards the environment.",
+            "Society might gradually shift towards more sustainable practices.",
+            "People mays change their environmental attitudes.",
+            "Society may to become more environmentally conscious."
+          ],
+          "correct_answer": "Society might gradually shift towards more sustainable practices.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 might gradually shift = chuẩn Speaking Part 3!",
+          "feedback_wrong": "might + adverb + V = cautious natural speech.",
+          "explanation_short": "might + V bare = cautious prediction chuẩn Speaking.",
+          "ielts_tip": "Speaking: might/may + gradually/eventually + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'Urbanization [A] may leads to overcrowding, which [B] mights cause social problems, and governments [C] might not has the resources to address all issues.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [C] có lỗi — [A] và [B] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] may lead | [B] might cause | [C] might not have!",
+          "feedback_wrong": "[A] modal + V bare. [B] modal không chia. [C] modal + have (not has).",
+          "explanation_short": "[A] may leads → may lead. [B] mights → might. [C] might not has → might not have.",
+          "ielts_tip": "Modal + V bare. Modal không chia theo ngôi.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

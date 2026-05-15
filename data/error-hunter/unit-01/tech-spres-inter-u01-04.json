@@ -1,0 +1,152 @@
+{
+  "slug": "tech-spres-inter-u01-04",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Technology",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5.0,
+  "difficulty": "INTERMEDIATE",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 3: Technology — Simple Present",
+  "titleVi": "IELTS Speaking Part 3: Công nghệ — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "Do you think technology helps children learn better?",
+    "bulletPoints": [
+      "Benefits of technology for young learners",
+      "Possible risks of too much screen time",
+      "How schools use technology today",
+      "Your personal view on digital learning"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "From my perspective, technology definitely help children access information much faster than before. However, I also believe that too much screen time have a negative impact on their concentration and social skills. Many schools now use tablets in the classroom, and most teachers think it makes learning more interactive. On the other hand, some parents worry that their children does not spend enough time reading physical books. Personally, I think balance is the key, and we need to guide young people carefully. The challenge is finding the right approach for each age group.",
+  "totalErrors": 3,
+  "errors": [
+    {
+      "errorText": "technology definitely help children",
+      "correctText": "technology definitely helps children",
+      "acceptedAnswers": [
+        "technology definitely helps children"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Technology' is a singular uncountable noun — the verb needs -s: 'helps'.",
+      "explanationVi": "'Technology' là danh từ không đếm được số ít — động từ cần thêm -s: 'helps'.",
+      "grammarRuleCode": "SPRES-007",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 21,
+      "endIndex": 56
+    },
+    {
+      "errorText": "screen time have a negative",
+      "correctText": "screen time has a negative",
+      "acceptedAnswers": [
+        "screen time has a negative"
+      ],
+      "errorType": "SUBJECT_VERB_AGREEMENT",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Screen time' is an uncountable singular concept — it requires 'has', not 'have'.",
+      "explanationVi": "'Screen time' là khái niệm không đếm được số ít — phải dùng 'has', không phải 'have'.",
+      "grammarRuleCode": "SPRES-008",
+      "ieltsTipErrorType": "SUBJECT_VERB_AGREEMENT",
+      "detectionDifficulty": 3,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 139,
+      "endIndex": 166
+    },
+    {
+      "errorText": "their children does not spend",
+      "correctText": "their children do not spend",
+      "acceptedAnswers": [
+        "their children do not spend",
+        "their children don't spend"
+      ],
+      "errorType": "DO_DOES_CONFUSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Children' is plural, so use 'do not', not 'does not'. 'Does' is only for third-person singular.",
+      "explanationVi": "'Children' là số nhiều, nên dùng 'do not', không phải 'does not'. 'Does' chỉ dùng cho ngôi thứ ba số ít.",
+      "grammarRuleCode": "SPRES-009",
+      "ieltsTipErrorType": "DO_DOES_CONFUSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 366,
+      "endIndex": 395
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "most teachers think it makes learning more interactive",
+      "hint": "'It makes' is correct — 'it' is singular, and 'makes' correctly has the -s ending.",
+      "startIndex": 267,
+      "endIndex": 321
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "access information",
+      "sourceInPassage": "access information much faster",
+      "translation": "tiếp cận thông tin",
+      "exampleSentence": "The internet allows people to access information from anywhere in the world.",
+      "grammarNote": "'Access' dùng trực tiếp như động từ — không dùng 'access to information' khi 'access' là verb"
+    },
+    {
+      "phrase": "negative impact",
+      "sourceInPassage": "a negative impact on their concentration",
+      "translation": "tác động tiêu cực",
+      "exampleSentence": "Pollution has a negative impact on people living in big cities.",
+      "grammarNote": "'Impact on + danh từ' — không dùng 'impact to' hay 'impact for'"
+    },
+    {
+      "phrase": "screen time",
+      "sourceInPassage": "too much screen time",
+      "translation": "thời gian sử dụng màn hình",
+      "exampleSentence": "Experts recommend limiting screen time for children under five.",
+      "grammarNote": "'Screen time' không đếm được — dùng 'too much screen time', không dùng 'too many screen times'"
+    },
+    {
+      "phrase": "physical books",
+      "sourceInPassage": "reading physical books",
+      "translation": "sách giấy",
+      "exampleSentence": "Some students prefer physical books to e-books because they enjoy turning pages.",
+      "grammarNote": "'Physical books' đối lập với 'digital books / e-books' — tự nhiên hơn 'paper books' trong IELTS"
+    },
+    {
+      "phrase": "balance is the key",
+      "sourceInPassage": "balance is the key",
+      "translation": "sự cân bằng là chìa khóa",
+      "exampleSentence": "When it comes to diet and exercise, balance is the key.",
+      "grammarNote": "'Balance is the key' hoặc 'balance is key' — cả hai đều đúng trong IELTS"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "THIRD_PERSON_S_OMISSION",
+      "SUBJECT_VERB_AGREEMENT",
+      "DO_DOES_CONFUSION"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 120,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "Digital Learning for Children",
+      "discourseSituation": "A student analyzing the pros and cons of technology in education",
+      "discourseMood": "argumentative",
+      "learnerVoice": "analytical",
+      "errorStrategy": "mixed",
+      "cognitiveLoad": "medium"
+    }
+  }
+}

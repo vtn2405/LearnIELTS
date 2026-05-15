@@ -5,7 +5,7 @@
 //   npx tsx app/exercises/error-hunter/data/seed-passages.ts
 //   npx tsx app/exercises/error-hunter/data/seed-passages.ts --dry-run
 
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient, Prisma } from "@prisma/client";
 import { readFileSync, readdirSync, existsSync } from "fs";
 import path from "path";
 
@@ -13,37 +13,69 @@ const prisma = new PrismaClient();
 
 interface PassageJson {
   slug: string;
+  type?: string;
   title?: string;
   titleVi?: string;
   topic: string;
   taskType: string;
   bandTarget: number;
-  minUnitIndex: number;
-  maxUnitIndex: number;
-  grammarFocus: string[];
   difficulty: string;
-  packId: string;
+  // v5 fields
+  unitId?: string;
+  unitNum?: number;
+  grammarFocus: string | string[];
+  grammarPoint?: string;
+  phase?: string;
+  // Fallback format cũ
+  minUnitIndex?: number;
+  maxUnitIndex?: number;
+  packId?: string;
   questionPrompt: string;
   questionPromptVi?: string;
   passageText: string;
   totalErrors: number;
+  speakingCueCard?: { prompt: string; bulletPoints: string[] };
   falseAlarmZones?: {
     startIndex: number;
     endIndex: number;
     text: string;
     hint: string;
   }[];
+  collocations?: {
+    phrase: string;
+    sourceInPassage: string;
+    translation: string;
+    exampleSentence: string;
+    grammarNote: string;
+  }[];
+  metadata?: Record<string, unknown>;
   errors: {
     startIndex: number;
     endIndex: number;
     errorText: string;
     correctText: string;
+    acceptedAnswers?: string[];
     errorType: string;
+    relatedGrammar?: string;
     severity: string;
     explanation: string;
+    explanationVi?: string;
     grammarRuleCode?: string;
     ieltsTipErrorType?: string;
+    detectionDifficulty?: number;
+    errorVisibility?: string;
   }[];
+}
+
+/** Tính packId từ unitNum (1-2→"pack-units-1-2", 3-4→"pack-units-3-4"...) */
+function derivePackId(unitNum: number): string {
+  const base = unitNum % 2 === 0 ? unitNum - 1 : unitNum;
+  return `pack-units-${base}-${base + 1}`;
+}
+
+/** Chuẩn hóa grammarFocus: string → array */
+function normalizeGrammarFocus(gf: string | string[]): string[] {
+  return Array.isArray(gf) ? gf : [gf];
 }
 
 async function seedPassages(dryRun: boolean): Promise<void> {
@@ -55,7 +87,7 @@ async function seedPassages(dryRun: boolean): Promise<void> {
   }
 
   const packDirs = readdirSync(dataDir, { withFileTypes: true })
-    .filter((d) => d.isDirectory() && d.name.startsWith("pack-units-"))
+    .filter((d) => d.isDirectory())
     .map((d) => d.name)
     .sort();
 
@@ -103,7 +135,7 @@ async function seedPassages(dryRun: boolean): Promise<void> {
           where: { code: { in: grammarRuleCodes } },
           select: { id: true, code: true },
         });
-        const ruleMap = new Map(grammarRules.map((r) => [r.code, r.id]));
+        const ruleMap = new Map<string, string>(grammarRules.map((r: { code: string; id: string }) => [r.code, r.id]));
 
         // Look up IeltsTip IDs for each error
         const tipErrorTypes = [
@@ -125,6 +157,13 @@ async function seedPassages(dryRun: boolean): Promise<void> {
           }
         }
 
+        // Tính fields từ v5 format
+        const unitNum = data.unitNum ?? data.minUnitIndex ?? 1;
+        const minUnitIndex = data.minUnitIndex ?? unitNum;
+        const maxUnitIndex = data.maxUnitIndex ?? unitNum;
+        const packId = data.packId ?? derivePackId(unitNum);
+        const grammarFocus = normalizeGrammarFocus(data.grammarFocus);
+
         // Upsert passage
         const passage = await prisma.errorHunterPassage.upsert({
           where: { slug: data.slug },
@@ -134,16 +173,19 @@ async function seedPassages(dryRun: boolean): Promise<void> {
             topic: data.topic,
             taskType: data.taskType as any,
             bandTarget: data.bandTarget,
-            minUnitIndex: data.minUnitIndex,
-            maxUnitIndex: data.maxUnitIndex,
-            grammarFocus: data.grammarFocus,
+            minUnitIndex: minUnitIndex,
+            maxUnitIndex: maxUnitIndex,
+            grammarFocus: grammarFocus,
             difficulty: data.difficulty as any,
-            packId: data.packId,
+            packId: packId,
             questionPrompt: data.questionPrompt,
             questionPromptVi: data.questionPromptVi ?? null,
             passageText: data.passageText,
             totalErrors: data.totalErrors,
-            falseAlarmZones: data.falseAlarmZones ?? null,
+            falseAlarmZones: data.falseAlarmZones ?? Prisma.DbNull,
+            collocations: data.collocations ?? Prisma.DbNull,
+            speakingCueCard: data.speakingCueCard ?? Prisma.DbNull,
+            metadata: (data.metadata as Prisma.InputJsonValue) ?? Prisma.DbNull,
             updatedAt: new Date(),
           },
           create: {
@@ -153,16 +195,19 @@ async function seedPassages(dryRun: boolean): Promise<void> {
             topic: data.topic,
             taskType: data.taskType as any,
             bandTarget: data.bandTarget,
-            minUnitIndex: data.minUnitIndex,
-            maxUnitIndex: data.maxUnitIndex,
-            grammarFocus: data.grammarFocus,
+            minUnitIndex: minUnitIndex,
+            maxUnitIndex: maxUnitIndex,
+            grammarFocus: grammarFocus,
             difficulty: data.difficulty as any,
-            packId: data.packId,
+            packId: packId,
             questionPrompt: data.questionPrompt,
             questionPromptVi: data.questionPromptVi ?? null,
             passageText: data.passageText,
             totalErrors: data.totalErrors,
-            falseAlarmZones: data.falseAlarmZones ?? null,
+            falseAlarmZones: data.falseAlarmZones ?? Prisma.DbNull,
+            collocations: data.collocations ?? Prisma.DbNull,
+            speakingCueCard: data.speakingCueCard ?? Prisma.DbNull,
+            metadata: (data.metadata as Prisma.InputJsonValue) ?? Prisma.DbNull,
           },
         });
 
@@ -180,9 +225,14 @@ async function seedPassages(dryRun: boolean): Promise<void> {
               endIndex: err.endIndex,
               errorText: err.errorText,
               correctText: err.correctText,
+              acceptedAnswers: err.acceptedAnswers ?? [err.correctText],
               errorType: err.errorType,
+              relatedGrammar: err.relatedGrammar ?? null,
               severity: (err.severity as any) ?? "MAJOR",
               explanation: err.explanation,
+              explanationVi: err.explanationVi ?? null,
+              detectionDifficulty: err.detectionDifficulty ?? null,
+              errorVisibility: err.errorVisibility ?? null,
               grammarRuleId: err.grammarRuleCode
                 ? ruleMap.get(err.grammarRuleCode) ?? null
                 : null,

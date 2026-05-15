@@ -6,6 +6,7 @@ import {
   UNIT_ORDER,
   MIN_ALLOWED_UNIT_INDEX,
 } from "@/lib/constants/unit-order";
+import { filterPassages } from "@/lib/error-hunter/data-loader";
 import type { EhNextResponse } from "@/lib/types/error-hunter";
 
 export async function GET(req: NextRequest) {
@@ -15,22 +16,27 @@ export async function GET(req: NextRequest) {
   }
 
   const { searchParams } = req.nextUrl;
-  const packId = searchParams.get("packId") ?? undefined;
   const difficulty = searchParams.get("difficulty") ?? undefined;
 
-  // 1. Determine allowed unit range from the user's highest completed unit
+  // 1. Determine which units the user has unlocked
   const completedUnits = await prisma.unitProgress.findMany({
     where: { clerkId: userId, completedAt: { not: null } },
     select: { unitId: true },
   });
 
   const highestIndex = completedUnits.reduce(
-    (max: number, u: { unitId: string }) => Math.max(max, UNIT_ORDER[u.unitId] ?? 0),
+    (max: number, u: { unitId: string }) =>
+      Math.max(max, UNIT_ORDER[u.unitId] ?? 0),
     0
   );
   const allowedMaxUnit = Math.max(highestIndex, MIN_ALLOWED_UNIT_INDEX);
 
-  // 2. Exclude passages attempted in the last 7 days to avoid repetition
+  // Build the set of allowed unitIds from unit-order
+  const allowedUnitIds = Object.entries(UNIT_ORDER)
+    .filter(([, idx]) => idx <= allowedMaxUnit)
+    .map(([id]) => id);
+
+  // 2. Exclude passages attempted in the last 7 days
   const recentAttempts = await prisma.errorHunterAttempt.findMany({
     where: {
       clerkId: userId,
@@ -38,28 +44,18 @@ export async function GET(req: NextRequest) {
     },
     select: { passageId: true },
   });
-  const excludeIds = recentAttempts.map((a: { passageId: string }) => a.passageId);
+  const excludeSlugs = recentAttempts.map((a: { passageId: string }) => a.passageId);
 
-  // 3. Fetch candidates within allowed range
-  const candidates = await prisma.errorHunterPassage.findMany({
-    where: {
-      isActive: true,
-      minUnitIndex: { lte: allowedMaxUnit },
-      ...(packId ? { packId } : {}),
-      ...(difficulty ? { difficulty: difficulty as any } : {}),
-      ...(excludeIds.length > 0 ? { id: { notIn: excludeIds } } : {}),
-    },
-    include: {
-      errors: {
-        select: { id: true, errorType: true, severity: true },
-        // correctText, startIndex, endIndex intentionally excluded
-      },
-    },
+  // 3. Filter passages from JSON files
+  const candidates = filterPassages({
+    difficulty,
+    unitIds: allowedUnitIds,
+    excludeSlugs,
   });
 
   if (candidates.length === 0) {
     return NextResponse.json(
-      { error: "No passages available. Try a different pack or complete more units." },
+      { error: "Không có đoạn văn nào phù hợp. Hãy thử cấp độ khác hoặc hoàn thành thêm unit." },
       { status: 404 }
     );
   }
@@ -70,23 +66,25 @@ export async function GET(req: NextRequest) {
   // 5. errorType is only revealed for ADVANCED difficulty
   const revealType = passage.difficulty === "ADVANCED";
 
+  // 6. Build client-safe response
   const response: EhNextResponse = {
     passage: {
-      id:               passage.id,
+      id:               passage.slug,
       title:            passage.title,
-      titleVi:          passage.titleVi,
+      titleVi:          passage.titleVi ?? null,
       topic:            passage.topic,
       taskType:         passage.taskType as any,
       bandTarget:       passage.bandTarget,
-      grammarFocus:     passage.grammarFocus,
-      difficulty:       passage.difficulty as any,
+      grammarFocus:     [passage.grammarFocus],
+      difficulty:       passage.difficulty,
       questionPrompt:   passage.questionPrompt,
-      questionPromptVi: passage.questionPromptVi,
+      questionPromptVi: passage.questionPromptVi ?? null,
       passageText:      passage.passageText,
       totalErrors:      passage.totalErrors,
+      speakingCueCard:  passage.speakingCueCard ?? null,
     },
-    errorsMeta: passage.errors.map((e: { id: string; errorType: string; severity: string }) => ({
-      id:       e.id,
+    errorsMeta: passage.errors.map((e, i) => ({
+      id:       `${passage.slug}-err-${i}`,
       severity: e.severity as any,
       ...(revealType ? { errorType: e.errorType } : {}),
     })),

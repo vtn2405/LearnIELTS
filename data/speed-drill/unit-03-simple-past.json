@@ -1,0 +1,2450 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-3-simple-past",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-3-simple-past",
+    "version": "4.0",
+    "grammar_point": "Simple Past",
+    "subtitle_vi": "Thì quá khứ đơn",
+    "topic_vocabulary": "Education",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 4: The Simple Past Tense",
+      "unit_json_ref": "unit-3-simple-past.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "simple_past_regular",
+      "simple_past_irregular",
+      "simple_past_negation",
+      "simple_past_question",
+      "simple_past_be",
+      "simple_past_vs_present_perfect"
+    ],
+    "common_vietnamese_errors": [
+      "irregular_with_ed",
+      "didnt_plus_past",
+      "forgetting_v2",
+      "was_were_confusion",
+      "perfect_with_specific_time"
+    ],
+    "ielts_band_target": {
+      "min": 4.5,
+      "max": 5.5
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-3-simple-past",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items x 100 base + 500 streak = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "4.0–4.5",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "4.5–5.5",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế, options gần nhau.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 5.5 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "5.5–6.5",
+        "description_vi": "2–3 lớp ngữ pháp. Distractor gần đúng. Tìm vị trí lỗi.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.0 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd3_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_regular",
+          "error_tag": "regular_verb_ed",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "She ___ for her IELTS exam every evening last month.",
+          "options": [
+            "study",
+            "studies",
+            "studied",
+            "is studying"
+          ],
+          "correct_answer": "studied",
+          "correct_index": 2,
+          "explanation_short": "last month → Simple Past: studied.",
+          "explanation_long": "'Last month' = thời điểm quá khứ → Simple Past. study → studied (y→ied).",
+          "feedback_correct": "⚡ last month → studied",
+          "feedback_wrong": "last month → quá khứ → studied",
+          "ielts_tip": "Từ tín hiệu Simple Past: yesterday, last week/month/year, ago, in 2020.",
+          "distractor_note": "obvious: study/studies=Present, is studying=Continuous"
+        },
+        {
+          "item_id": "sd3_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_irregular",
+          "error_tag": "irregular_verb_v2",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "My teacher ___ me a lot when I was in high school.",
+          "options": [
+            "teached",
+            "teaches",
+            "taught",
+            "has taught"
+          ],
+          "correct_answer": "taught",
+          "correct_index": 2,
+          "explanation_short": "teach→taught (bất quy tắc V2).",
+          "explanation_long": "teach là bất quy tắc: teach→taught→taught. Không bao giờ 'teached'.",
+          "feedback_correct": "🔥 teach=irregular→taught",
+          "feedback_wrong": "teach bất quy tắc → taught (không teached)",
+          "ielts_tip": "Học thuộc V2: teach→taught, buy→bought, think→thought, bring→brought.",
+          "distractor_note": "obvious: teached(sai quy tắc), teaches(Present), has taught(Perfect)"
+        },
+        {
+          "item_id": "sd3_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_negation",
+          "error_tag": "didnt_plus_base",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "She ___ the exam last year because she was sick.",
+          "options": [
+            "didn't passed",
+            "didn't pass",
+            "doesn't pass",
+            "not passed"
+          ],
+          "correct_answer": "didn't pass",
+          "correct_index": 1,
+          "explanation_short": "Sau didn't → V nguyên mẫu: didn't pass.",
+          "explanation_long": "Phủ định Simple Past: didn't + V nguyên mẫu. 'Didn't passed' = double past.",
+          "feedback_correct": "⚡ didn't + pass (bare infinitive)",
+          "feedback_wrong": "Sau didn't → V nguyên mẫu: pass (không passed)",
+          "ielts_tip": "Sau didn't → V nguyên mẫu. Không bao giờ 'didn't passed/went/studied'.",
+          "distractor_note": "obvious: didn't passed(double past), doesn't pass(Present), not passed"
+        },
+        {
+          "item_id": "sd3_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_question",
+          "error_tag": "did_question_form",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ you study abroad when you were young?",
+          "options": [
+            "Do",
+            "Did",
+            "Were",
+            "Have"
+          ],
+          "correct_answer": "Did",
+          "correct_index": 1,
+          "explanation_short": "Câu hỏi Simple Past: Did + S + V nguyên mẫu?",
+          "explanation_long": "Câu hỏi Simple Past dùng Did (tất cả ngôi). Sau Did: V nguyên mẫu.",
+          "feedback_correct": "🎯 Câu hỏi quá khứ → Did + V nguyên mẫu",
+          "feedback_wrong": "Câu hỏi Simple Past: Did + S + V nguyên mẫu?",
+          "ielts_tip": "Did + S + V? Không phải Do/Does/Were. Câu hỏi quá khứ → Did cho tất cả ngôi.",
+          "distractor_note": "obvious: Do(Present), Were(be-question), Have(Perfect)"
+        },
+        {
+          "item_id": "sd3_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_irregular",
+          "error_tag": "go_went",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "I ___ to a language center three times a week when I was in grade 10.",
+          "options": [
+            "go",
+            "went",
+            "goes",
+            "was going"
+          ],
+          "correct_answer": "went",
+          "correct_index": 1,
+          "explanation_short": "when I was in grade 10 = quá khứ → went (go bất quy tắc).",
+          "explanation_long": "go là bất quy tắc: go→went→gone. 'When I was' = quá khứ.",
+          "feedback_correct": "⚡ when I was... → quá khứ → went",
+          "feedback_wrong": "go bất quy tắc → went (không goed)",
+          "ielts_tip": "V2 hay gặp: go→went, come→came, see→saw, get→got, take→took.",
+          "distractor_note": "obvious: go(Present), goes(3rd person), was going(Past Continuous)"
+        },
+        {
+          "item_id": "sd3_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_be",
+          "error_tag": "was_were_choice",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The exam results ___ very disappointing last semester.",
+          "options": [
+            "was",
+            "were",
+            "are",
+            "is"
+          ],
+          "correct_answer": "were",
+          "correct_index": 1,
+          "explanation_short": "results = số nhiều → were.",
+          "explanation_long": "Results = số nhiều → were. Simple Past of be: I/he/she/it→was. You/we/they/plural→were.",
+          "feedback_correct": "🔥 results=plural → were",
+          "feedback_wrong": "results=số nhiều → were (không was)",
+          "ielts_tip": "was: I/he/she/it. were: you/we/they/danh từ số nhiều.",
+          "distractor_note": "obvious: are/is=Present"
+        },
+        {
+          "item_id": "sd3_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_irregular",
+          "error_tag": "tell_told",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "When my teacher ___ me about the IELTS exam, I felt very nervous.",
+          "options": [
+            "tell",
+            "told",
+            "telled",
+            "has told"
+          ],
+          "correct_answer": "told",
+          "correct_index": 1,
+          "explanation_short": "tell=bất quy tắc→told.",
+          "explanation_long": "tell bất quy tắc: tell→told→told. Không phải 'telled'.",
+          "feedback_correct": "🎯 tell=bất quy tắc→told",
+          "feedback_wrong": "tell bất quy tắc → told (không telled)",
+          "ielts_tip": "V2 hay nhầm: tell→told, sell→sold, feel→felt, keep→kept, leave→left.",
+          "distractor_note": "obvious: tell(Present), telled(sai), has told(Perfect)"
+        },
+        {
+          "item_id": "sd3_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_context",
+          "error_tag": "past_sequence",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Last year, I ___ to improve my vocabulary, and it ___ my writing score significantly.",
+          "options": [
+            "decide / improve",
+            "decided / improved",
+            "decide / improved",
+            "decided / improve"
+          ],
+          "correct_answer": "decided / improved",
+          "correct_index": 1,
+          "explanation_short": "Last year → cả hai động từ đều Simple Past.",
+          "explanation_long": "'Last year' = quá khứ → decided + improved. Cả hai regular V-ed.",
+          "feedback_correct": "⚡ Last year → cả hai Simple Past: decided + improved",
+          "feedback_wrong": "Last year → quá khứ → decided + improved (cả hai -ed)",
+          "ielts_tip": "Khi câu có một thời điểm quá khứ, tất cả hành động trong câu đó đều Simple Past.",
+          "distractor_note": "obvious: decide/improve(Present), mixed forms"
+        },
+        {
+          "item_id": "sd3_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_negation",
+          "error_tag": "past_negation_pair",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The school ___ enough resources, so many students ___ high-quality materials.",
+          "options": [
+            "didn't have / couldn't access",
+            "didn't had / can't access",
+            "don't have / couldn't access",
+            "didn't have / can't access"
+          ],
+          "correct_answer": "didn't have / couldn't access",
+          "correct_index": 0,
+          "explanation_short": "didn't have + couldn't access = cả hai Simple Past.",
+          "explanation_long": "didn't + have (V nguyên mẫu). couldn't = quá khứ của can't. Cả hai phù hợp ngữ cảnh quá khứ.",
+          "feedback_correct": "🔥 didn't have + couldn't = Simple Past pair",
+          "feedback_wrong": "didn't + V nguyên mẫu: have. couldn't = quá khứ của can't.",
+          "ielts_tip": "Quá khứ: can't→couldn't, won't→wouldn't, don't/doesn't→didn't.",
+          "distractor_note": "obvious: didn't had(sai), can't(present)"
+        },
+        {
+          "item_id": "sd3_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_irregular",
+          "error_tag": "three_irregular_verbs",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "When the results ___ out, I ___ so happy that I ___ my whole family.",
+          "options": [
+            "came / felt / call",
+            "came / felt / called",
+            "come / felt / called",
+            "came / feel / called"
+          ],
+          "correct_answer": "came / felt / called",
+          "correct_index": 1,
+          "explanation_short": "came(come→came) + felt(feel→felt) + called(regular).",
+          "explanation_long": "come→came, feel→felt (bất quy tắc), call→called (có quy tắc). Tất cả Simple Past.",
+          "feedback_correct": "🏆 came + felt + called = ba Simple Past!",
+          "feedback_wrong": "come→came, feel→felt, call→called.",
+          "ielts_tip": "Chuỗi bất quy tắc: come-came, feel-felt, tell-told, meet-met, keep-kept.",
+          "distractor_note": "plausible: come/feel(quên chia); call→called(dễ nhất)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd3_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_vs_present_perfect",
+          "error_tag": "past_with_specific_time",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "I ___ three IELTS practice tests last week, and I ___ that my score improved.",
+          "options": [
+            "took / noticed",
+            "have taken / have noticed",
+            "took / have noticed",
+            "have taken / noticed"
+          ],
+          "correct_answer": "took / noticed",
+          "correct_index": 0,
+          "explanation_short": "last week → cả hai Simple Past: took + noticed.",
+          "explanation_long": "'Last week' = specific past → Simple Past cho cả hai. Present Perfect không dùng với thời điểm cụ thể đã qua.",
+          "feedback_correct": "⚡ last week → Simple Past: took + noticed",
+          "feedback_wrong": "last week=specific past → Simple Past (không Present Perfect)",
+          "ielts_tip": "Simple Past + specific time. Present Perfect + no specific time (recently/already/yet).",
+          "distractor_note": "plausible: have taken/noticed nghe tự nhiên"
+        },
+        {
+          "item_id": "sd3_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_irregular",
+          "error_tag": "sequence_events",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "After she ___ her certificate, she ___ to a company and ___ a well-paid position.",
+          "options": [
+            "received / applied / got",
+            "received / applied / getted",
+            "receive / apply / got",
+            "has received / applied / got"
+          ],
+          "correct_answer": "received / applied / got",
+          "correct_index": 0,
+          "explanation_short": "Ba hành động liên tiếp quá khứ → cả ba Simple Past.",
+          "explanation_long": "received(regular), applied(regular), got(get→got irregular). Tất cả Simple Past.",
+          "feedback_correct": "🔥 Chuỗi quá khứ: received + applied + got",
+          "feedback_wrong": "Ba hành động liên tiếp → cả ba Simple Past.",
+          "ielts_tip": "Kể chuyện Part 2: chuỗi Simple Past cho hành động theo thứ tự.",
+          "distractor_note": "obvious: getted(sai), has received(Perfect)"
+        },
+        {
+          "item_id": "sd3_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_negation",
+          "error_tag": "didnt_context",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Although the teacher ___ the rule clearly, many students still ___ it.",
+          "options": [
+            "explained / didn't understood",
+            "explained / didn't understand",
+            "didn't explain / understood",
+            "has explained / didn't understand"
+          ],
+          "correct_answer": "explained / didn't understand",
+          "correct_index": 1,
+          "explanation_short": "explained(regular) + didn't understand(V nguyên mẫu sau didn't).",
+          "explanation_long": "explained=regular V-ed. didn't+understand(bare infinitive). 'Didn't understood'=double past.",
+          "feedback_correct": "⚡ explained + didn't understand",
+          "feedback_wrong": "Sau didn't → V nguyên mẫu: understand (không understood).",
+          "ielts_tip": "Lỗi phổ biến nhất: 'didn't understood/went/came' → phải là 'didn't understand/go/come'.",
+          "distractor_note": "plausible: didn't understood(double past) rất phổ biến"
+        },
+        {
+          "item_id": "sd3_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_question",
+          "error_tag": "question_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Did she studied English at a language center before she took the IELTS exam?'",
+          "options": [
+            "Did → Does (Simple Present phù hợp hơn)",
+            "studied → study (sau Did dùng V nguyên mẫu)",
+            "before she took → before she takes",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "studied → study (sau Did dùng V nguyên mẫu)",
+          "correct_index": 1,
+          "explanation_short": "Sau Did → V nguyên mẫu: study (không studied).",
+          "explanation_long": "'Did she studied' sai vì sau Did phải là V nguyên mẫu. 'Before she took' đúng.",
+          "feedback_correct": "🎯 Sau Did → V nguyên mẫu: Did she study?",
+          "feedback_wrong": "Did + S + V nguyên mẫu (không V-ed). 'Did she studied'=double past.",
+          "ielts_tip": "Câu hỏi: Did + S + V? Luôn V nguyên mẫu sau Did.",
+          "distractor_note": "plausible: Did→Does nghe có lý"
+        },
+        {
+          "item_id": "sd3_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_irregular",
+          "error_tag": "two_irregular_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'When I speaked to my IELTS examiner for the first time, I feeled extremely nervous.'",
+          "options": [
+            "speaked → spoke | feeled → felt",
+            "speaked → spoke only",
+            "feeled → felt only",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "speaked → spoke | feeled → felt",
+          "correct_index": 0,
+          "explanation_short": "speak→spoke, feel→felt (cả hai bất quy tắc).",
+          "explanation_long": "speak và feel là bất quy tắc: speak→spoke, feel→felt. Không bao giờ thêm -ed.",
+          "feedback_correct": "🔥 speak→spoke | feel→felt. Hai bất quy tắc!",
+          "feedback_wrong": "speak và feel bất quy tắc → spoke, felt.",
+          "ielts_tip": "Bất quy tắc hay sai: speak→spoke, feel→felt, rise→rose, fall→fell, grow→grew.",
+          "distractor_note": "plausible: nghĩ chỉ một lỗi"
+        },
+        {
+          "item_id": "sd3_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_context",
+          "error_tag": "speaking_part2",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 2 — Câu nào tự nhiên nhất khi kể về giáo viên?",
+          "options": [
+            "My teacher inspires me to study harder when I was struggling.",
+            "My teacher inspired me to study harder when I was struggling.",
+            "My teacher has inspired me to study harder when I was struggling.",
+            "My teacher was inspire me to study harder when I was struggling."
+          ],
+          "correct_answer": "My teacher inspired me to study harder when I was struggling.",
+          "correct_index": 1,
+          "explanation_short": "when I was struggling → quá khứ → inspired.",
+          "explanation_long": "'When I was struggling'=quá khứ → Simple Past: inspired. 'Has inspired' sai vì có 'when I was'.",
+          "feedback_correct": "⚡ when I was (quá khứ) → inspired",
+          "feedback_wrong": "when I was=quá khứ → Simple Past: inspired (không has inspired).",
+          "ielts_tip": "Part 2: 'When I was + V-ing' → Past Continuous bối cảnh + Simple Past hành động.",
+          "distractor_note": "plausible: has inspired nghe tự nhiên"
+        },
+        {
+          "item_id": "sd3_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_vs_present_perfect",
+          "error_tag": "specific_time_conflict",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'She has completed her IELTS course last month and received an excellent score.'",
+          "options": [
+            "has completed → completed (last month=specific past)",
+            "received → has received",
+            "last month → recently",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "has completed → completed (last month=specific past)",
+          "correct_index": 0,
+          "explanation_short": "last month=specific past → Simple Past: completed.",
+          "explanation_long": "Present Perfect không dùng với thời điểm cụ thể đã qua. 'Has completed'→'completed'. 'Received' đúng.",
+          "feedback_correct": "🎯 last month=specific past → completed (không has completed)",
+          "feedback_wrong": "Present Perfect+last month=sai → Simple Past.",
+          "ielts_tip": "Simple Past: yesterday/last week/in 2020/ago. Present Perfect: recently/already/yet/so far.",
+          "distractor_note": "plausible: 'received→has received' trông cần sửa cho song song"
+        },
+        {
+          "item_id": "sd3_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_be",
+          "error_tag": "three_be_verbs",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "When I ___ a student, my school ___ one of the best in the province and my teachers ___ very dedicated.",
+          "options": [
+            "was / were / was",
+            "was / was / were",
+            "were / was / were",
+            "was / was / was"
+          ],
+          "correct_answer": "was / was / were",
+          "correct_index": 1,
+          "explanation_short": "I→was. school→was(singular). teachers→were(plural).",
+          "explanation_long": "I→was. school=singular→was. teachers=plural→were. Ba quyết định be-verb.",
+          "feedback_correct": "⚡ I→was | school(singular)→was | teachers(plural)→were",
+          "feedback_wrong": "I→was. school=singular→was. teachers=plural→were.",
+          "ielts_tip": "was: I/he/she/it/singular. were: you/we/they/plural.",
+          "distractor_note": "plausible: was/were/was nghe đối xứng"
+        },
+        {
+          "item_id": "sd3_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_irregular",
+          "error_tag": "irregular_pair_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The committee reviewed applications, choosed the best candidates, and sended acceptance letters.'",
+          "options": [
+            "choosed → chose | sended → sent",
+            "choosed → chose only",
+            "sended → sent only",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "choosed → chose | sended → sent",
+          "correct_index": 0,
+          "explanation_short": "choose→chose, send→sent (cả hai bất quy tắc).",
+          "explanation_long": "choose và send bất quy tắc: choose→chose, send→sent. Không thêm -ed.",
+          "feedback_correct": "🔥 choose→chose | send→sent. Hai bất quy tắc!",
+          "feedback_wrong": "choose và send bất quy tắc → chose, sent.",
+          "ielts_tip": "Bất quy tắc hay sai: choose→chose, send→sent, lend→lent, spend→spent, build→built.",
+          "distractor_note": "plausible: chỉ sửa 1 lỗi"
+        },
+        {
+          "item_id": "sd3_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_historical",
+          "error_tag": "task2_historical",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Tìm câu ĐÚNG để đưa ví dụ lịch sử trong Task 2:",
+          "options": [
+            "In the 1990s, Finland has reformed its education system and became one of the world's best.",
+            "In the 1990s, Finland reformed its education system and became one of the world's best.",
+            "In the 1990s, Finland reformed its education system and has become one of the world's best.",
+            "In the 1990s, Finland was reform its education system and became one of the world's best."
+          ],
+          "correct_answer": "In the 1990s, Finland reformed its education system and became one of the world's best.",
+          "correct_index": 1,
+          "explanation_short": "In the 1990s=specific past → reformed + became (cả hai Simple Past).",
+          "explanation_long": "'In the 1990s'=specific past → Simple Past cho cả hai: reformed+became. 'Has reformed' sai.",
+          "feedback_correct": "🏆 In the 1990s → reformed + became. Task 2 ví dụ lịch sử chuẩn!",
+          "feedback_wrong": "In the 1990s=specific past → Simple Past. Không dùng has reformed với specific time.",
+          "ielts_tip": "Task 2: 'In [year], [country] + Simple Past...' — chuẩn mực, thuyết phục.",
+          "distractor_note": "plausible: has reformed nghe academic; has become nghe đúng riêng lẻ"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd3_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "simple_past_irregular",
+          "error_tag": "speak_feel_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'When I speaked with the examiner, I suddenly realized I have forgotten to bring my identification.'",
+          "options": [
+            "When I speaked with the examiner",
+            "I suddenly realized",
+            "I have forgotten to bring",
+            "my identification"
+          ],
+          "correct_answer": "When I speaked with the examiner",
+          "correct_index": 0,
+          "explanation_short": "speak→spoke (bất quy tắc). have forgotten trong past context→had forgotten.",
+          "explanation_long": "Lớp 1: 'speaked'→'spoke' (speak bất quy tắc). Lớp 2: 'have forgotten' trong past context→'had forgotten' hoặc 'forgot'. Option A là lỗi cơ bản nhất.",
+          "feedback_correct": "⚡ speaked→spoke. have forgotten→had forgotten!",
+          "feedback_wrong": "speak bất quy tắc→spoke. 'have forgotten' trong past→had forgotten.",
+          "ielts_tip": "Bất quy tắc + Past Perfect: hành động xảy ra TRƯỚC trong past context dùng Past Perfect.",
+          "distractor_note": "near-correct: 'I have forgotten' cũng sai nhưng 'speaked' là lỗi cơ bản hơn.",
+          "layers": [
+            "simple_past_irregular_speak",
+            "past_perfect_in_past_context",
+            "narrative_tense"
+          ]
+        },
+        {
+          "item_id": "sd3_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "simple_past_vs_present_perfect",
+          "error_tag": "research_date_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Research conducted in 2018 has shown that students who studied independently performed better, which suggests the same pattern still exists.'",
+          "options": [
+            "Research conducted in 2018 has shown",
+            "students who studied independently",
+            "which suggests the same pattern",
+            "still exists today"
+          ],
+          "correct_answer": "Research conducted in 2018 has shown",
+          "correct_index": 0,
+          "explanation_short": "in 2018=specific past → Simple Past: showed (không has shown).",
+          "explanation_long": "Lớp 1: 'in 2018'=specific past → 'showed'. Lớp 2: 'students who studied' đúng. Lớp 3: 'which suggests...exists' đúng (hiện tại).",
+          "feedback_correct": "🔥 in 2018+Simple Past: showed. which suggests...exists=hiện tại đúng!",
+          "feedback_wrong": "in 2018=specific → showed. 'which suggests...exists'=đúng.",
+          "ielts_tip": "Kết hợp Simple Past(quá khứ có ngày) + Simple Present(sự thật hiện tại) trong 1 câu phức.",
+          "distractor_note": "near-correct: 'which suggests' trông như lỗi nhưng đúng.",
+          "layers": [
+            "present_perfect_with_specific_time",
+            "simple_past_for_dated_research",
+            "simple_present_for_current_truth"
+          ]
+        },
+        {
+          "item_id": "sd3_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_narrative",
+          "error_tag": "part2_narrative",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 2 — Câu kể chuyện nào CHUẨN nhất?",
+          "options": [
+            "I remember a time when my teacher has given me feedback that completely changed how I approached writing.",
+            "I remember a time when my teacher gave me feedback that completely changed how I approached writing.",
+            "I remember a time when my teacher was giving me feedback that has completely changed how I approached writing.",
+            "I remember a time when my teacher had given me feedback that completely changed how I approached writing."
+          ],
+          "correct_answer": "I remember a time when my teacher gave me feedback that completely changed how I approached writing.",
+          "correct_index": 1,
+          "explanation_short": "gave(Simple Past) + changed(Simple Past) = narrative chuẩn.",
+          "explanation_long": "Lớp 1: gave=hành động điểm→Simple Past. Lớp 2: changed=kết quả→Simple Past. Lớp 3: 'had given' không cần vì chỉ 1 mốc quá khứ.",
+          "feedback_correct": "🏆 gave+changed=Simple Past narrative. 'I remember'=Simple Present. Perfect!",
+          "feedback_wrong": "gave+changed=Simple Past. 'I remember'=Simple Present. 'had given' không cần ở đây.",
+          "ielts_tip": "Part 2: 'I remember a time when...' → kể lại bằng Simple Past. Past Perfect chỉ dùng khi có 2 mốc quá khứ.",
+          "distractor_note": "near-correct: had given nghe academic nhưng không cần.",
+          "layers": [
+            "simple_past_narrative",
+            "simple_present_framing",
+            "past_perfect_not_needed"
+          ]
+        },
+        {
+          "item_id": "sd3_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "simple_past_be",
+          "error_tag": "collective_relative_agreement",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The group of international students who was selected for the scholarship were extremely talented and dedicated.'",
+          "options": [
+            "The group of international students",
+            "who was selected for the scholarship",
+            "were extremely talented",
+            "dedicated to their studies"
+          ],
+          "correct_answer": "who was selected for the scholarship",
+          "correct_index": 1,
+          "explanation_short": "who=students(plural)→were selected (không was selected).",
+          "explanation_long": "Lớp 1: 'group' collective British English→plural→were đúng. Lớp 2: who thay 'students'(plural)→were selected. Inconsistency: were(plural)+who was(singular)=mâu thuẫn.",
+          "feedback_correct": "⚡ who=students(plural)→were selected (không was selected)!",
+          "feedback_wrong": "who thay 'students'(plural)→were selected. Không phải was selected.",
+          "ielts_tip": "Relative clause: who/which chia theo antecedent. who=students(plural)→were.",
+          "distractor_note": "near-correct: 'were extremely talented' trông sai vì 'group'=singular. Nhưng group British English=plural.",
+          "layers": [
+            "collective_noun_british",
+            "relative_clause_be_agreement",
+            "who_antecedent"
+          ]
+        },
+        {
+          "item_id": "sd3_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "simple_past_negation",
+          "error_tag": "double_past_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Many students didn't attended the revision session because they couldn't find the venue, which caused stress.'",
+          "options": [
+            "Many students didn't attended",
+            "they couldn't find the venue",
+            "which caused a lot",
+            "unnecessary stress"
+          ],
+          "correct_answer": "Many students didn't attended",
+          "correct_index": 0,
+          "explanation_short": "Sau didn't→V nguyên mẫu: attend (không attended).",
+          "explanation_long": "Lớp 1: 'didn't attended'=double past→'didn't attend'. Lớp 2: 'couldn't find' đúng. Lớp 3: 'which caused' đúng.",
+          "feedback_correct": "🔥 didn't+attend(bare infinitive). Không phải didn't attended!",
+          "feedback_wrong": "Sau didn't→V nguyên mẫu: attend. 'didn't attended'=double past.",
+          "ielts_tip": "Quy tắc phủ định quá khứ: didn't+V nguyên mẫu. Không thêm -ed sau didn't.",
+          "distractor_note": "near-correct: 'couldn't find'→'couldn't found' trông như lỗi.",
+          "layers": [
+            "didnt_plus_base",
+            "past_modal_negation",
+            "relative_clause_past"
+          ]
+        },
+        {
+          "item_id": "sd3_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_vs_present_perfect",
+          "error_tag": "academic_mixed_tense",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Task 2 — Câu phân tích lịch sử ĐÚNG nhất và ACADEMIC nhất?",
+          "options": [
+            "Finland reformed its education system in the 1970s and has since become a global model.",
+            "Finland has reformed its education system in the 1970s and became a global model.",
+            "Finland reformed its education system in the 1970s and became a global model.",
+            "Finland has reformed its education system in the 1970s and has since become a global model."
+          ],
+          "correct_answer": "Finland reformed its education system in the 1970s and has since become a global model.",
+          "correct_index": 0,
+          "explanation_short": "reformed(specific past 1970s) + has since become(kết quả đến nay).",
+          "explanation_long": "Lớp 1: 'in the 1970s'→reformed(Simple Past). Lớp 2: 'has since become'=kết quả kéo dài đến nay→Present Perfect. Lớp 3: Simple Past+Present Perfect trong 1 câu=Grammatical Range band 6.5+.",
+          "feedback_correct": "🏆 reformed(1970s) + has since become(đến nay). Grammatical Range tối cao!",
+          "feedback_wrong": "reformed(specific past)+has since become(kết quả đến hiện tại)=band 6.5+.",
+          "ielts_tip": "Task 2: '[Country] reformed X in [year] and has since become...'=chuẩn nhất.",
+          "distractor_note": "near-correct: option C(reformed+became)đúng nhưng kém academic.",
+          "layers": [
+            "simple_past_specific_time",
+            "present_perfect_with_since",
+            "mixed_tense_academic"
+          ]
+        },
+        {
+          "item_id": "sd3_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "simple_past_irregular",
+          "error_tag": "set_invariant_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'She setted clear goals, worked consistently, and finally achieved the IELTS score she has dreamed of for years.'",
+          "options": [
+            "She setted clear goals",
+            "worked consistently",
+            "finally achieved the IELTS score",
+            "she has dreamed of for years"
+          ],
+          "correct_answer": "She setted clear goals",
+          "correct_index": 0,
+          "explanation_short": "set=bất quy tắc V1=V2=V3. 'Setted' không tồn tại.",
+          "explanation_long": "Lớp 1: 'set'→V1=V2=V3: set. 'Setted' không tồn tại. Lớp 2: 'has dreamed' trong past context→'had dreamed'. Nhưng 'setted' là lỗi rõ ràng nhất.",
+          "feedback_correct": "⚡ set=bất quy tắc→set(không setted). 'has dreamed' cũng đáng ngờ!",
+          "feedback_wrong": "set bất quy tắc: set→set→set. 'Setted' không tồn tại.",
+          "ielts_tip": "V1=V2=V3: set, put, cut, hit, cost, let, hurt, shut. Không bao giờ thêm -ed!",
+          "distractor_note": "near-correct: 'has dreamed' cũng có vấn đề nhưng 'setted' là lỗi cơ bản hơn.",
+          "layers": [
+            "set_put_cut_invariant",
+            "past_perfect_narrative",
+            "irregular_recognition"
+          ]
+        },
+        {
+          "item_id": "sd3_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "simple_past_negation",
+          "error_tag": "negative_question_base",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Didn't the committee informed all applicants about the new requirements before they submitted documents?'",
+          "options": [
+            "Didn't the committee",
+            "informed all applicants",
+            "before they submitted",
+            "their documents"
+          ],
+          "correct_answer": "informed all applicants",
+          "correct_index": 1,
+          "explanation_short": "Sau Didn't→V nguyên mẫu: inform (không informed).",
+          "explanation_long": "Lớp 1: Didn't+S+V nguyên mẫu?→'inform'. Lớp 2: 'before they submitted' đúng. Lớp 3: Câu hỏi phủ định+mệnh đề thời gian=phức tạp.",
+          "feedback_correct": "🔥 Didn't+V nguyên mẫu: inform(không informed). before they submitted=đúng!",
+          "feedback_wrong": "Câu hỏi phủ định: Didn't+S+V nguyên mẫu. 'informed'=double past.",
+          "ielts_tip": "Didn't+V?=câu hỏi ngạc nhiên/phủ định. Luôn V nguyên mẫu sau Didn't.",
+          "distractor_note": "near-correct: 'before they submitted' trông như lỗi.",
+          "layers": [
+            "didnt_question_base",
+            "negative_question_past",
+            "subordinate_past"
+          ]
+        },
+        {
+          "item_id": "sd3_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "simple_past_narrative",
+          "error_tag": "consistent_narrative",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Đoạn Part 2 nào NHẤT QUÁN về thì và tự nhiên nhất?",
+          "options": [
+            "When I was in high school, my teacher had noticed my potential and encouraged me to enter a competition. I participated and won, which was changing my life.",
+            "When I was in high school, my teacher noticed my potential and encouraged me to enter a competition. I participated and won, which changed my life.",
+            "When I was in high school, my teacher noticed my potential and encouraged me to enter a competition. I participated and won, which was changing my life.",
+            "When I was in high school, my teacher had noticed my potential and was encouraging me to enter a competition. I participated and won, which changed my life."
+          ],
+          "correct_answer": "When I was in high school, my teacher noticed my potential and encouraged me to enter a competition. I participated and won, which changed my life.",
+          "correct_index": 1,
+          "explanation_short": "noticed+encouraged+participated+won+changed=tất cả Simple Past nhất quán.",
+          "explanation_long": "Lớp 1: Tất cả hành động cùng quá khứ→Simple Past. Lớp 2: 'had noticed' không cần(không có 2 mốc). Lớp 3: 'was changing'→'changed'(Continuous nghe như đang xảy ra).",
+          "feedback_correct": "🏆 Tất cả Simple Past: noticed, encouraged, participated, won, changed. Part 2 hoàn hảo!",
+          "feedback_wrong": "Narrative 1 mốc quá khứ→tất cả Simple Past. Không cần Past Perfect hay Continuous.",
+          "ielts_tip": "Part 2: Simple Past xuyên suốt cho chuỗi hành động cùng thời điểm.",
+          "distractor_note": "near-correct: option D(had noticed) nghe academic nhưng không cần.",
+          "layers": [
+            "simple_past_consistency",
+            "past_perfect_unnecessary",
+            "relative_clause_past"
+          ]
+        },
+        {
+          "item_id": "sd3_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "simple_past_boss",
+          "error_tag": "four_errors_boss",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn sau có BAO NHIÊU lỗi?\n'When I [A]was receive my first result, I [B]feeled devastated because I [C]didn't achieved the score my university [D]has required.'",
+          "options": [
+            "1 lỗi: [A] only",
+            "2 lỗi: [A]+[B]",
+            "3 lỗi: [A]+[B]+[C]",
+            "4 lỗi: [A]+[B]+[C]+[D]"
+          ],
+          "correct_answer": "4 lỗi: [A]+[B]+[C]+[D]",
+          "correct_index": 3,
+          "explanation_short": "[A]was receive→received. [B]feeled→felt. [C]didn't achieved→didn't achieve. [D]has required→required.",
+          "explanation_long": "[A]'was receive'→'received'. [B]feel→felt(bất quy tắc). [C]didn't+V nguyên mẫu: achieve. [D]has required trong past→required. Bốn lỗi độc lập.",
+          "feedback_correct": "🏆 BOSS CLEARED! 4 lỗi: received|felt|didn't achieve|required!",
+          "feedback_wrong": "[A]received [B]felt [C]didn't achieve [D]required. Bốn lỗi Simple Past phổ biến nhất!",
+          "ielts_tip": "Review: (1)cấu trúc V, (2)bất quy tắc, (3)sau didn't, (4)Perfect trong past context.",
+          "distractor_note": "near-correct: option C(3 lỗi) bẫy mạnh—[D] tinh tế nhất.",
+          "layers": [
+            "simple_past_structure",
+            "irregular_feel",
+            "didnt_base",
+            "perfect_in_past"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "552600a0-6599-4566-b0cf-d067f427d674",
+      "generated_at": "2026-04-26T07:56:18.677686+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-3-simple-past",
+      "metadata_ref": "unit-3-simple-past.metadata",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "4.0–4.5",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd3_s_001",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_001",
+          "round_number": 1,
+          "stem": "She ___ for her IELTS exam every evening last month.",
+          "options": [
+            "study",
+            "studies",
+            "studied",
+            "is studying"
+          ],
+          "correct_answer": "studied",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ last month → studied",
+          "feedback_wrong": "last month → quá khứ → studied",
+          "explanation_short": "last month → Simple Past: studied.",
+          "ielts_tip": "Từ tín hiệu Simple Past: yesterday, last week/month/year, ago, in 2020.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_s_002",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_002",
+          "round_number": 2,
+          "stem": "My teacher ___ me a lot when I was in high school.",
+          "options": [
+            "teached",
+            "teaches",
+            "taught",
+            "has taught"
+          ],
+          "correct_answer": "taught",
+          "correct_index": 2,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 teach=irregular→taught",
+          "feedback_wrong": "teach bất quy tắc → taught (không teached)",
+          "explanation_short": "teach→taught (bất quy tắc V2).",
+          "ielts_tip": "Học thuộc V2: teach→taught, buy→bought, think→thought, bring→brought.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_s_003",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_003",
+          "round_number": 3,
+          "stem": "She ___ the exam last year because she was sick.",
+          "options": [
+            "didn't passed",
+            "didn't pass",
+            "doesn't pass",
+            "not passed"
+          ],
+          "correct_answer": "didn't pass",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ didn't + pass (bare infinitive)",
+          "feedback_wrong": "Sau didn't → V nguyên mẫu: pass (không passed)",
+          "explanation_short": "Sau didn't → V nguyên mẫu: didn't pass.",
+          "ielts_tip": "Sau didn't → V nguyên mẫu. Không bao giờ 'didn't passed/went/studied'.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_s_004",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_004",
+          "round_number": 4,
+          "stem": "___ you study abroad when you were young?",
+          "options": [
+            "Do",
+            "Did",
+            "Were",
+            "Have"
+          ],
+          "correct_answer": "Did",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Câu hỏi quá khứ → Did + V nguyên mẫu",
+          "feedback_wrong": "Câu hỏi Simple Past: Did + S + V nguyên mẫu?",
+          "explanation_short": "Câu hỏi Simple Past: Did + S + V nguyên mẫu?",
+          "ielts_tip": "Did + S + V? Không phải Do/Does/Were. Câu hỏi quá khứ → Did cho tất cả ngôi.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_s_005",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_005",
+          "round_number": 5,
+          "stem": "I ___ to a language center three times a week when I was in grade 10.",
+          "options": [
+            "go",
+            "went",
+            "goes",
+            "was going"
+          ],
+          "correct_answer": "went",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ when I was... → quá khứ → went",
+          "feedback_wrong": "go bất quy tắc → went (không goed)",
+          "explanation_short": "when I was in grade 10 = quá khứ → went (go bất quy tắc).",
+          "ielts_tip": "V2 hay gặp: go→went, come→came, see→saw, get→got, take→took.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_s_006",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_006",
+          "round_number": 6,
+          "stem": "The exam results ___ very disappointing last semester.",
+          "options": [
+            "was",
+            "were",
+            "are",
+            "is"
+          ],
+          "correct_answer": "were",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 results=plural → were",
+          "feedback_wrong": "results=số nhiều → were (không was)",
+          "explanation_short": "results = số nhiều → were.",
+          "ielts_tip": "was: I/he/she/it. were: you/we/they/danh từ số nhiều.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_s_007",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_007",
+          "round_number": 7,
+          "stem": "When my teacher ___ me about the IELTS exam, I felt very nervous.",
+          "options": [
+            "tell",
+            "told",
+            "telled",
+            "has told"
+          ],
+          "correct_answer": "told",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 tell=bất quy tắc→told",
+          "feedback_wrong": "tell bất quy tắc → told (không telled)",
+          "explanation_short": "tell=bất quy tắc→told.",
+          "ielts_tip": "V2 hay nhầm: tell→told, sell→sold, feel→felt, keep→kept, leave→left.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_s_008",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_008",
+          "round_number": 8,
+          "stem": "Last year, I ___ to improve my vocabulary, and it ___ my writing score significantly.",
+          "options": [
+            "decide / improve",
+            "decided / improved",
+            "decide / improved",
+            "decided / improve"
+          ],
+          "correct_answer": "decided / improved",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Last year → cả hai Simple Past: decided + improved",
+          "feedback_wrong": "Last year → quá khứ → decided + improved (cả hai -ed)",
+          "explanation_short": "Last year → cả hai động từ đều Simple Past.",
+          "ielts_tip": "Khi câu có một thời điểm quá khứ, tất cả hành động trong câu đó đều Simple Past.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_s_009",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_009",
+          "round_number": 9,
+          "stem": "The school ___ enough resources, so many students ___ high-quality materials.",
+          "options": [
+            "didn't have / couldn't access",
+            "didn't had / can't access",
+            "don't have / couldn't access",
+            "didn't have / can't access"
+          ],
+          "correct_answer": "didn't have / couldn't access",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 didn't have + couldn't = Simple Past pair",
+          "feedback_wrong": "didn't + V nguyên mẫu: have. couldn't = quá khứ của can't.",
+          "explanation_short": "didn't have + couldn't access = cả hai Simple Past.",
+          "ielts_tip": "Quá khứ: can't→couldn't, won't→wouldn't, don't/doesn't→didn't.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_s_010",
+          "blueprint_ref": "blueprint.items_by_level.starter.sd3_s_010",
+          "round_number": 10,
+          "stem": "When the results ___ out, I ___ so happy that I ___ my whole family.",
+          "options": [
+            "came / felt / call",
+            "came / felt / called",
+            "come / felt / called",
+            "came / feel / called"
+          ],
+          "correct_answer": "came / felt / called",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 came + felt + called = ba Simple Past!",
+          "feedback_wrong": "come→came, feel→felt, call→called.",
+          "explanation_short": "came(come→came) + felt(feel→felt) + called(regular).",
+          "ielts_tip": "Chuỗi bất quy tắc: come-came, feel-felt, tell-told, meet-met, keep-kept.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "598dd331-4ad2-466a-b691-daa4770a36fd",
+      "generated_at": "2026-04-26T07:56:18.677769+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-3-simple-past",
+      "metadata_ref": "unit-3-simple-past.metadata",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "4.5–5.5",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế, options gần nhau.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd3_b_001",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_001",
+          "round_number": 1,
+          "stem": "I ___ three IELTS practice tests last week, and I ___ that my score improved.",
+          "options": [
+            "took / noticed",
+            "have taken / have noticed",
+            "took / have noticed",
+            "have taken / noticed"
+          ],
+          "correct_answer": "took / noticed",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ last week → Simple Past: took + noticed",
+          "feedback_wrong": "last week=specific past → Simple Past (không Present Perfect)",
+          "explanation_short": "last week → cả hai Simple Past: took + noticed.",
+          "ielts_tip": "Simple Past + specific time. Present Perfect + no specific time (recently/already/yet).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_b_002",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_002",
+          "round_number": 2,
+          "stem": "After she ___ her certificate, she ___ to a company and ___ a well-paid position.",
+          "options": [
+            "received / applied / got",
+            "received / applied / getted",
+            "receive / apply / got",
+            "has received / applied / got"
+          ],
+          "correct_answer": "received / applied / got",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Chuỗi quá khứ: received + applied + got",
+          "feedback_wrong": "Ba hành động liên tiếp → cả ba Simple Past.",
+          "explanation_short": "Ba hành động liên tiếp quá khứ → cả ba Simple Past.",
+          "ielts_tip": "Kể chuyện Part 2: chuỗi Simple Past cho hành động theo thứ tự.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_b_003",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_003",
+          "round_number": 3,
+          "stem": "Although the teacher ___ the rule clearly, many students still ___ it.",
+          "options": [
+            "explained / didn't understood",
+            "explained / didn't understand",
+            "didn't explain / understood",
+            "has explained / didn't understand"
+          ],
+          "correct_answer": "explained / didn't understand",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ explained + didn't understand",
+          "feedback_wrong": "Sau didn't → V nguyên mẫu: understand (không understood).",
+          "explanation_short": "explained(regular) + didn't understand(V nguyên mẫu sau didn't).",
+          "ielts_tip": "Lỗi phổ biến nhất: 'didn't understood/went/came' → phải là 'didn't understand/go/come'.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_b_004",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'Did she studied English at a language center before she took the IELTS exam?'",
+          "options": [
+            "Did → Does (Simple Present phù hợp hơn)",
+            "studied → study (sau Did dùng V nguyên mẫu)",
+            "before she took → before she takes",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "studied → study (sau Did dùng V nguyên mẫu)",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Sau Did → V nguyên mẫu: Did she study?",
+          "feedback_wrong": "Did + S + V nguyên mẫu (không V-ed). 'Did she studied'=double past.",
+          "explanation_short": "Sau Did → V nguyên mẫu: study (không studied).",
+          "ielts_tip": "Câu hỏi: Did + S + V? Luôn V nguyên mẫu sau Did.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_b_005",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_005",
+          "round_number": 5,
+          "stem": "Phát hiện lỗi: 'When I speaked to my IELTS examiner for the first time, I feeled extremely nervous.'",
+          "options": [
+            "speaked → spoke | feeled → felt",
+            "speaked → spoke only",
+            "feeled → felt only",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "speaked → spoke | feeled → felt",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 speak→spoke | feel→felt. Hai bất quy tắc!",
+          "feedback_wrong": "speak và feel bất quy tắc → spoke, felt.",
+          "explanation_short": "speak→spoke, feel→felt (cả hai bất quy tắc).",
+          "ielts_tip": "Bất quy tắc hay sai: speak→spoke, feel→felt, rise→rose, fall→fell, grow→grew.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_b_006",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_006",
+          "round_number": 6,
+          "stem": "Speaking Part 2 — Câu nào tự nhiên nhất khi kể về giáo viên?",
+          "options": [
+            "My teacher inspires me to study harder when I was struggling.",
+            "My teacher inspired me to study harder when I was struggling.",
+            "My teacher has inspired me to study harder when I was struggling.",
+            "My teacher was inspire me to study harder when I was struggling."
+          ],
+          "correct_answer": "My teacher inspired me to study harder when I was struggling.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ when I was (quá khứ) → inspired",
+          "feedback_wrong": "when I was=quá khứ → Simple Past: inspired (không has inspired).",
+          "explanation_short": "when I was struggling → quá khứ → inspired.",
+          "ielts_tip": "Part 2: 'When I was + V-ing' → Past Continuous bối cảnh + Simple Past hành động.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_b_007",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_007",
+          "round_number": 7,
+          "stem": "Phát hiện lỗi: 'She has completed her IELTS course last month and received an excellent score.'",
+          "options": [
+            "has completed → completed (last month=specific past)",
+            "received → has received",
+            "last month → recently",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "has completed → completed (last month=specific past)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 last month=specific past → completed (không has completed)",
+          "feedback_wrong": "Present Perfect+last month=sai → Simple Past.",
+          "explanation_short": "last month=specific past → Simple Past: completed.",
+          "ielts_tip": "Simple Past: yesterday/last week/in 2020/ago. Present Perfect: recently/already/yet/so far.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_b_008",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_008",
+          "round_number": 8,
+          "stem": "When I ___ a student, my school ___ one of the best in the province and my teachers ___ very dedicated.",
+          "options": [
+            "was / were / was",
+            "was / was / were",
+            "were / was / were",
+            "was / was / was"
+          ],
+          "correct_answer": "was / was / were",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ I→was | school(singular)→was | teachers(plural)→were",
+          "feedback_wrong": "I→was. school=singular→was. teachers=plural→were.",
+          "explanation_short": "I→was. school→was(singular). teachers→were(plural).",
+          "ielts_tip": "was: I/he/she/it/singular. were: you/we/they/plural.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_b_009",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'The committee reviewed applications, choosed the best candidates, and sended acceptance letters.'",
+          "options": [
+            "choosed → chose | sended → sent",
+            "choosed → chose only",
+            "sended → sent only",
+            "Câu đúng, không cần sửa"
+          ],
+          "correct_answer": "choosed → chose | sended → sent",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 choose→chose | send→sent. Hai bất quy tắc!",
+          "feedback_wrong": "choose và send bất quy tắc → chose, sent.",
+          "explanation_short": "choose→chose, send→sent (cả hai bất quy tắc).",
+          "ielts_tip": "Bất quy tắc hay sai: choose→chose, send→sent, lend→lent, spend→spent, build→built.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_b_010",
+          "blueprint_ref": "blueprint.items_by_level.build_up.sd3_b_010",
+          "round_number": 10,
+          "stem": "Tìm câu ĐÚNG để đưa ví dụ lịch sử trong Task 2:",
+          "options": [
+            "In the 1990s, Finland has reformed its education system and became one of the world's best.",
+            "In the 1990s, Finland reformed its education system and became one of the world's best.",
+            "In the 1990s, Finland reformed its education system and has become one of the world's best.",
+            "In the 1990s, Finland was reform its education system and became one of the world's best."
+          ],
+          "correct_answer": "In the 1990s, Finland reformed its education system and became one of the world's best.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 In the 1990s → reformed + became. Task 2 ví dụ lịch sử chuẩn!",
+          "feedback_wrong": "In the 1990s=specific past → Simple Past. Không dùng has reformed với specific time.",
+          "explanation_short": "In the 1990s=specific past → reformed + became (cả hai Simple Past).",
+          "ielts_tip": "Task 2: 'In [year], [country] + Simple Past...' — chuẩn mực, thuyết phục.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "e8dba0db-7daa-4726-a900-08683f44189a",
+      "generated_at": "2026-04-26T07:56:18.677818+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-3-simple-past",
+      "metadata_ref": "unit-3-simple-past.metadata",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "5.5–6.5",
+        "description": "2–3 lớp ngữ pháp. Distractor gần đúng. Tìm vị trí lỗi.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd3_c_001",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'When I speaked with the examiner, I suddenly realized I have forgotten to bring my identification.'",
+          "options": [
+            "When I speaked with the examiner",
+            "I suddenly realized",
+            "I have forgotten to bring",
+            "my identification"
+          ],
+          "correct_answer": "When I speaked with the examiner",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "⚡ speaked→spoke. have forgotten→had forgotten!",
+          "feedback_wrong": "speak bất quy tắc→spoke. 'have forgotten' trong past→had forgotten.",
+          "explanation_short": "speak→spoke (bất quy tắc). have forgotten trong past context→had forgotten.",
+          "ielts_tip": "Bất quy tắc + Past Perfect: hành động xảy ra TRƯỚC trong past context dùng Past Perfect.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_c_002",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_002",
+          "round_number": 2,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Research conducted in 2018 has shown that students who studied independently performed better, which suggests the same pattern still exists.'",
+          "options": [
+            "Research conducted in 2018 has shown",
+            "students who studied independently",
+            "which suggests the same pattern",
+            "still exists today"
+          ],
+          "correct_answer": "Research conducted in 2018 has shown",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 in 2018+Simple Past: showed. which suggests...exists=hiện tại đúng!",
+          "feedback_wrong": "in 2018=specific → showed. 'which suggests...exists'=đúng.",
+          "explanation_short": "in 2018=specific past → Simple Past: showed (không has shown).",
+          "ielts_tip": "Kết hợp Simple Past(quá khứ có ngày) + Simple Present(sự thật hiện tại) trong 1 câu phức.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_c_003",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_003",
+          "round_number": 3,
+          "stem": "Speaking Part 2 — Câu kể chuyện nào CHUẨN nhất?",
+          "options": [
+            "I remember a time when my teacher has given me feedback that completely changed how I approached writing.",
+            "I remember a time when my teacher gave me feedback that completely changed how I approached writing.",
+            "I remember a time when my teacher was giving me feedback that has completely changed how I approached writing.",
+            "I remember a time when my teacher had given me feedback that completely changed how I approached writing."
+          ],
+          "correct_answer": "I remember a time when my teacher gave me feedback that completely changed how I approached writing.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 gave+changed=Simple Past narrative. 'I remember'=Simple Present. Perfect!",
+          "feedback_wrong": "gave+changed=Simple Past. 'I remember'=Simple Present. 'had given' không cần ở đây.",
+          "explanation_short": "gave(Simple Past) + changed(Simple Past) = narrative chuẩn.",
+          "ielts_tip": "Part 2: 'I remember a time when...' → kể lại bằng Simple Past. Past Perfect chỉ dùng khi có 2 mốc quá khứ.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_c_004",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_004",
+          "round_number": 4,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The group of international students who was selected for the scholarship were extremely talented and dedicated.'",
+          "options": [
+            "The group of international students",
+            "who was selected for the scholarship",
+            "were extremely talented",
+            "dedicated to their studies"
+          ],
+          "correct_answer": "who was selected for the scholarship",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "⚡ who=students(plural)→were selected (không was selected)!",
+          "feedback_wrong": "who thay 'students'(plural)→were selected. Không phải was selected.",
+          "explanation_short": "who=students(plural)→were selected (không was selected).",
+          "ielts_tip": "Relative clause: who/which chia theo antecedent. who=students(plural)→were.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_c_005",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_005",
+          "round_number": 5,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Many students didn't attended the revision session because they couldn't find the venue, which caused stress.'",
+          "options": [
+            "Many students didn't attended",
+            "they couldn't find the venue",
+            "which caused a lot",
+            "unnecessary stress"
+          ],
+          "correct_answer": "Many students didn't attended",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 didn't+attend(bare infinitive). Không phải didn't attended!",
+          "feedback_wrong": "Sau didn't→V nguyên mẫu: attend. 'didn't attended'=double past.",
+          "explanation_short": "Sau didn't→V nguyên mẫu: attend (không attended).",
+          "ielts_tip": "Quy tắc phủ định quá khứ: didn't+V nguyên mẫu. Không thêm -ed sau didn't.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_c_006",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_006",
+          "round_number": 6,
+          "stem": "Task 2 — Câu phân tích lịch sử ĐÚNG nhất và ACADEMIC nhất?",
+          "options": [
+            "Finland reformed its education system in the 1970s and has since become a global model.",
+            "Finland has reformed its education system in the 1970s and became a global model.",
+            "Finland reformed its education system in the 1970s and became a global model.",
+            "Finland has reformed its education system in the 1970s and has since become a global model."
+          ],
+          "correct_answer": "Finland reformed its education system in the 1970s and has since become a global model.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 reformed(1970s) + has since become(đến nay). Grammatical Range tối cao!",
+          "feedback_wrong": "reformed(specific past)+has since become(kết quả đến hiện tại)=band 6.5+.",
+          "explanation_short": "reformed(specific past 1970s) + has since become(kết quả đến nay).",
+          "ielts_tip": "Task 2: '[Country] reformed X in [year] and has since become...'=chuẩn nhất.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_c_007",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_007",
+          "round_number": 7,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'She setted clear goals, worked consistently, and finally achieved the IELTS score she has dreamed of for years.'",
+          "options": [
+            "She setted clear goals",
+            "worked consistently",
+            "finally achieved the IELTS score",
+            "she has dreamed of for years"
+          ],
+          "correct_answer": "She setted clear goals",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "⚡ set=bất quy tắc→set(không setted). 'has dreamed' cũng đáng ngờ!",
+          "feedback_wrong": "set bất quy tắc: set→set→set. 'Setted' không tồn tại.",
+          "explanation_short": "set=bất quy tắc V1=V2=V3. 'Setted' không tồn tại.",
+          "ielts_tip": "V1=V2=V3: set, put, cut, hit, cost, let, hurt, shut. Không bao giờ thêm -ed!",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_c_008",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Didn't the committee informed all applicants about the new requirements before they submitted documents?'",
+          "options": [
+            "Didn't the committee",
+            "informed all applicants",
+            "before they submitted",
+            "their documents"
+          ],
+          "correct_answer": "informed all applicants",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Didn't+V nguyên mẫu: inform(không informed). before they submitted=đúng!",
+          "feedback_wrong": "Câu hỏi phủ định: Didn't+S+V nguyên mẫu. 'informed'=double past.",
+          "explanation_short": "Sau Didn't→V nguyên mẫu: inform (không informed).",
+          "ielts_tip": "Didn't+V?=câu hỏi ngạc nhiên/phủ định. Luôn V nguyên mẫu sau Didn't.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_c_009",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_009",
+          "round_number": 9,
+          "stem": "Đoạn Part 2 nào NHẤT QUÁN về thì và tự nhiên nhất?",
+          "options": [
+            "When I was in high school, my teacher had noticed my potential and encouraged me to enter a competition. I participated and won, which was changing my life.",
+            "When I was in high school, my teacher noticed my potential and encouraged me to enter a competition. I participated and won, which changed my life.",
+            "When I was in high school, my teacher noticed my potential and encouraged me to enter a competition. I participated and won, which was changing my life.",
+            "When I was in high school, my teacher had noticed my potential and was encouraging me to enter a competition. I participated and won, which changed my life."
+          ],
+          "correct_answer": "When I was in high school, my teacher noticed my potential and encouraged me to enter a competition. I participated and won, which changed my life.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Tất cả Simple Past: noticed, encouraged, participated, won, changed. Part 2 hoàn hảo!",
+          "feedback_wrong": "Narrative 1 mốc quá khứ→tất cả Simple Past. Không cần Past Perfect hay Continuous.",
+          "explanation_short": "noticed+encouraged+participated+won+changed=tất cả Simple Past nhất quán.",
+          "ielts_tip": "Part 2: Simple Past xuyên suốt cho chuỗi hành động cùng thời điểm.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd3_c_010",
+          "blueprint_ref": "blueprint.items_by_level.challenge.sd3_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn sau có BAO NHIÊU lỗi?\n'When I [A]was receive my first result, I [B]feeled devastated because I [C]didn't achieved the score my university [D]has required.'",
+          "options": [
+            "1 lỗi: [A] only",
+            "2 lỗi: [A]+[B]",
+            "3 lỗi: [A]+[B]+[C]",
+            "4 lỗi: [A]+[B]+[C]+[D]"
+          ],
+          "correct_answer": "4 lỗi: [A]+[B]+[C]+[D]",
+          "correct_index": 3,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! 4 lỗi: received|felt|didn't achieve|required!",
+          "feedback_wrong": "[A]received [B]felt [C]didn't achieve [D]required. Bốn lỗi Simple Past phổ biến nhất!",
+          "explanation_short": "[A]was receive→received. [B]feeled→felt. [C]didn't achieved→didn't achieve. [D]has required→required.",
+          "ielts_tip": "Review: (1)cấu trúc V, (2)bất quy tắc, (3)sau didn't, (4)Perfect trong past context.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Unit tiếp theo →",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "unit-4-past-continuous"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

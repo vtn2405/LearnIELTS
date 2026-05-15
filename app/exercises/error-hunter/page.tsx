@@ -2,7 +2,7 @@
 "use client";
 
 import { useEffect, useReducer, useCallback, useState } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import ErrorHunterShell from "@/components/exercises/error-hunter/ErrorHunterShell";
 import type {
   EhPassageClient,
@@ -22,25 +22,25 @@ const DIFFICULTY_META: Record<DifficultyKey, {
   label: string; labelVi: string; band: string; descVi: string; errorCount: string;
 }> = {
   STARTER: {
-    icon: "\u{1F680}", gradient: "linear-gradient(135deg, #1d4ed8 0%, #6366f1 100%)",
+    icon: "🚀", gradient: "linear-gradient(135deg, #1d4ed8 0%, #6366f1 100%)",
     borderColor: "#6366f1", badgeColor: "#1d4ed8",
-    label: "Starter", labelVi: "C\u01a1 b\u1ea3n", band: "Band 4.0\u20135.0",
-    descVi: "L\u1ed7i r\u00f5 r\u00e0ng \u2014 x\u00e2y n\u1ec1n t\u1ea3ng ph\u00e1t hi\u1ec7n l\u1ed7i",
-    errorCount: "3\u20134 l\u1ed7i/\u0111o\u1ea1n",
+    label: "Starter", labelVi: "Cơ bản", band: "Band 4.0–5.0",
+    descVi: "Lỗi rõ ràng — xây nền tảng phát hiện lỗi",
+    errorCount: "3–4 lỗi/đoạn",
   },
   INTERMEDIATE: {
-    icon: "\u26A1", gradient: "linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)",
+    icon: "⚡", gradient: "linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)",
     borderColor: "#a855f7", badgeColor: "#7c3aed",
-    label: "Intermediate", labelVi: "Trung c\u1ea5p", band: "Band 5.0\u20136.5",
-    descVi: "L\u1ed7i tinh t\u1ebf trong ng\u1eef c\u1ea3nh d\u00e0i \u2014 m\u00e0i s\u1eafc k\u1ef9 n\u0103ng",
-    errorCount: "4\u20135 l\u1ed7i/\u0111o\u1ea1n",
+    label: "Intermediate", labelVi: "Trung cấp", band: "Band 5.0–6.5",
+    descVi: "Lỗi tinh tế trong ngữ cảnh dài — mài sắc kỹ năng",
+    errorCount: "4–5 lỗi/đoạn",
   },
   ADVANCED: {
-    icon: "\u{1F3C6}", gradient: "linear-gradient(135deg, #dc2626 0%, #f97316 100%)",
+    icon: "🏆", gradient: "linear-gradient(135deg, #dc2626 0%, #f97316 100%)",
     borderColor: "#f97316", badgeColor: "#dc2626",
-    label: "Advanced", labelVi: "N\u00e2ng cao", band: "Band 6.5\u20137.5",
-    descVi: "B\u1eaby ng\u1eef ph\u00e1p \u0111a t\u1ea7ng \u2014 k\u1ebft h\u1ee3p 2\u20133 lo\u1ea1i l\u1ed7i",
-    errorCount: "5\u20136 l\u1ed7i/\u0111o\u1ea1n",
+    label: "Advanced", labelVi: "Nâng cao", band: "Band 6.5–7.5",
+    descVi: "Bẫy ngữ pháp đa tầng — kết hợp 2–3 loại lỗi",
+    errorCount: "5–6 lỗi/đoạn",
   },
 };
 
@@ -153,9 +153,7 @@ function reducer(state: State, action: Action): State {
 // ─── Page component ───────────────────────────────────────────────────────────
 
 export default function ErrorHunterPage() {
-  const searchParams = useSearchParams();
-  const router       = useRouter();
-  const packId = searchParams.get("packId") ?? "pack-units-1-2";
+  const router = useRouter();
 
   const [selectedDifficulty, setSelectedDifficulty] = useState<DifficultyKey | null>(null);
   const [state, dispatch] = useReducer(reducer, INIT);
@@ -165,21 +163,21 @@ export default function ErrorHunterPage() {
     dispatch({ type: "LOAD_START" });
     try {
       const res = await fetch(
-        `/api/error-hunter/next?packId=${packId}&difficulty=${selectedDifficulty}`
+        `/api/error-hunter/next?difficulty=${selectedDifficulty}`
       );
       if (!res.ok) {
         const body = await res.json();
-        throw new Error(body.error ?? "Kh\u00f4ng t\u1ea3i \u0111\u01b0\u1ee3c \u0111o\u1ea1n v\u0103n.");
+        throw new Error(body.error ?? "Không tải được đoạn văn.");
       }
       const data: EhNextResponse = await res.json();
       dispatch({ type: "LOAD_OK", payload: data });
     } catch (e: unknown) {
       dispatch({
         type: "LOAD_FAIL",
-        message: e instanceof Error ? e.message : "L\u1ed7i kh\u00f4ng x\u00e1c \u0111\u1ecbnh",
+        message: e instanceof Error ? e.message : "Lỗi không xác định",
       });
     }
-  }, [packId, selectedDifficulty]);
+  }, [selectedDifficulty]);
 
   useEffect(() => {
     if (selectedDifficulty) loadNext();
@@ -200,7 +198,7 @@ export default function ErrorHunterPage() {
       const result: EhSubmitResponse = await res.json();
       dispatch({ type: "SUBMIT_OK", result });
     } catch {
-      dispatch({ type: "LOAD_FAIL", message: "G\u1eedi b\u00e0i th\u1ea5t b\u1ea1i. Vui l\u00f2ng th\u1eed l\u1ea1i." });
+      dispatch({ type: "LOAD_FAIL", message: "Gửi bài thất bại. Vui lòng thử lại." });
     }
   };
 
@@ -225,7 +223,7 @@ export default function ErrorHunterPage() {
             cursor: "pointer", marginBottom: 20, padding: 0,
           }}
         >
-          {selectedDifficulty ? "\u2190 Ch\u1ecdn c\u1ea5p \u0111\u1ed9" : "\u2190 Exercise Hub"}
+          {selectedDifficulty ? "← Chọn cấp độ" : "← Exercise Hub"}
         </button>
 
         {/* Page header */}
@@ -238,14 +236,14 @@ export default function ErrorHunterPage() {
             }}>
               Error Hunter{" "}
               <span style={{ fontSize: 14, fontWeight: 500, color: "#64748b" }}>
-                S\u0103n l\u1ed7i ng\u1eef ph\u00e1p
+                Săn lỗi ngữ pháp
               </span>
             </h1>
           </div>
           <p style={{ margin: 0, fontSize: 13.5, color: "#64748b", maxWidth: 560 }}>
             {selectedDifficulty
-              ? "\u0110\u1ecdc \u0111o\u1ea1n v\u0103n v\u00e0 ch\u1ecdn c\u00e1c l\u1ed7i ng\u1eef ph\u00e1p b\u1ea1n ph\u00e1t hi\u1ec7n. B\u1ea1n c\u00f3 th\u1ec3 g\u00f5 b\u1ea3n s\u1eeda \u0111\u00fang cho m\u1ed7i l\u1ed7i."
-              : "Ch\u1ecdn c\u1ea5p \u0111\u1ed9 luy\u1ec7n t\u1eadp \u2014 t\u00ecm v\u00e0 s\u1eeda l\u1ed7i ng\u1eef ph\u00e1p trong \u0111o\u1ea1n v\u0103n IELTS."}
+              ? "Đọc đoạn văn và chọn các lỗi ngữ pháp bạn phát hiện. Bạn có thể gõ bản sửa đúng cho mỗi lỗi."
+              : "Chọn cấp độ luyện tập — tìm và sửa lỗi ngữ pháp trong đoạn văn IELTS."}
           </p>
         </div>
 
@@ -256,7 +254,7 @@ export default function ErrorHunterPage() {
               margin: "0 0 16px", fontSize: 12, fontWeight: 700,
               letterSpacing: "0.08em", color: "#94a3b8", textTransform: "uppercase",
             }}>
-              Ch\u1ecdn c\u1ea5p \u0111\u1ed9 luy\u1ec7n t\u1eadp
+              Chọn cấp độ luyện tập
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: 16 }}>
               {(["STARTER", "INTERMEDIATE", "ADVANCED"] as DifficultyKey[]).map((key) => (
@@ -264,7 +262,7 @@ export default function ErrorHunterPage() {
               ))}
             </div>
             <p style={{ textAlign: "center", color: "#94a3b8", fontSize: 12, marginTop: 24 }}>
-              M\u1ed7i \u0111o\u1ea1n v\u0103n \u0111\u01b0\u1ee3c thi\u1ebft k\u1ebf s\u00e1t \u0111\u1ec1 IELTS Writing Task 2 v\u00e0 Speaking Part 2/3
+              Mỗi đoạn văn được thiết kế sát đề IELTS Writing Task 2 và Speaking Part 2/3
             </p>
           </>
         ) : (

@@ -16,7 +16,6 @@ export interface DrillItem {
   explanation_long: string;
   feedback_correct: string;
   feedback_wrong: string;
-  // Keyed by exact option text → personalized explanation for that wrong choice
   wrong_answer_feedbacks?: Record<string, string>;
   ielts_tip: string;
   grammar_tag: string;
@@ -65,7 +64,7 @@ interface Props {
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 
-function calcSpeedPoints(timeUsed: number, timerSeconds: number, scoreRule: ScoreRule): number {
+function calcSpeedPoints(timeUsed: number, _timerSeconds: number, scoreRule: ScoreRule): number {
   const tiers = scoreRule.speed_scoring.tiers;
   for (const tier of tiers) {
     if (tier.condition === "wrong_or_timeout") return 0;
@@ -83,10 +82,10 @@ function checkStreakBonus(streak: number, scoreRule: ScoreRule): { bonus: number
 }
 
 const OPTION_COLORS = [
-  { bg: "#e21b3c", border: "#a8132b", text: "#ffffff" }, // Red
-  { bg: "#26890c", border: "#1c6309", text: "#ffffff" }, // Green
-  { bg: "#d89e00", border: "#9c7200", text: "#ffffff" }, // Yellow
-  { bg: "#1368ce", border: "#0e4a93", text: "#ffffff" }, // Blue
+  { bg: "#e21b3c", text: "#ffffff" },
+  { bg: "#26890c", text: "#ffffff" },
+  { bg: "#d89e00", text: "#ffffff" },
+  { bg: "#1368ce", text: "#ffffff" },
 ];
 
 // ─── Timer Ring ───────────────────────────────────────────────────────────────
@@ -117,6 +116,25 @@ function TimerRing({ timeLeft, total }: { timeLeft: number; total: number }) {
       }}>
         {timeLeft}
       </div>
+    </div>
+  );
+}
+
+// ─── Progress Bar (smooth linear transition) ──────────────────────────────────
+
+function ProgressBar({ current, total }: { current: number; total: number }) {
+  const pct = (current / total) * 100;
+  return (
+    <div style={{
+      width: "100%", height: 4, borderRadius: 9999,
+      background: SD.borderAlt, overflow: "hidden",
+    }}>
+      <div style={{
+        height: "100%", borderRadius: 9999,
+        width: `${pct}%`,
+        background: "linear-gradient(90deg, #6366f1, #a855f7)",
+        transition: "width 0.6s cubic-bezier(0.4, 0, 0.2, 1)",
+      }} />
     </div>
   );
 }
@@ -168,7 +186,7 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
     if (intervalRef.current) clearInterval(intervalRef.current);
   }, [scoreRule]);
 
-  // Timer — count down to 0, then trigger timeout
+  // Timer
   useEffect(() => {
     if (state.phase !== "question") return;
     intervalRef.current = setInterval(() => {
@@ -176,7 +194,6 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
         if (prev.phase !== "question") return prev;
         const next = prev.timeLeft - 1;
         if (next <= 0) {
-          // Show 0 in the ring, then immediately signal timeout
           setTimeout(() => handleAnswer(-1, true), 0);
           return { ...prev, timeLeft: 0 };
         }
@@ -187,22 +204,8 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
   }, [state.phase, state.currentIndex, handleAnswer]);
 
   // Keyboard shortcuts
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (state.phase === "question") {
-        if (e.key === "1") handleAnswer(0);
-        if (e.key === "2") handleAnswer(1);
-        if (e.key === "3") handleAnswer(2);
-        if (e.key === "4") handleAnswer(3);
-      } else if (state.phase === "feedback" && e.key === " ") {
-        goNext();
-      }
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [state.phase, state.currentIndex, handleAnswer]);
-
-  function goNext() {
+  const goNextRef = useRef<() => void>(() => {});
+  goNextRef.current = () => {
     const s = stateRef.current;
     const nextIndex = s.currentIndex + 1;
     if (nextIndex >= totalQ) {
@@ -218,68 +221,97 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
       bonusLabel: null,
       timeLeft: timerSeconds,
     }));
+  };
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (stateRef.current.phase === "question") {
+        if (e.key === "1") handleAnswer(0);
+        if (e.key === "2") handleAnswer(1);
+        if (e.key === "3") handleAnswer(2);
+        if (e.key === "4") handleAnswer(3);
+      } else if (stateRef.current.phase === "feedback" && e.key === " ") {
+        goNextRef.current();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [handleAnswer]);
+
+  function goNext() {
+    goNextRef.current();
   }
 
   const item = state.items[state.currentIndex];
   const qNum = state.currentIndex + 1;
   const isCorrect = state.chosenIndex === item.correct_index;
 
+  // Determine animation class for each option in feedback phase
+  function getOptionAnimation(i: number): string {
+    if (state.phase !== "feedback") return "";
+    if (i === item.correct_index) return "sdPulseCorrect";
+    if (i === state.chosenIndex && i !== item.correct_index) return "sdShakeWrong";
+    return "";
+  }
+
   return (
     <div style={{
       minHeight: "100vh", background: SD.bg,
       display: "flex", flexDirection: "column",
       fontFamily: "var(--font-inter), Inter, sans-serif",
+      animation: "sdGameFadeIn 0.35s ease-out",
     }}>
       {/* Top Bar */}
       <div style={{
         background: SD.bg, borderBottom: `1px solid ${SD.border}`,
-        padding: "12px 20px", display: "flex", alignItems: "center",
-        justifyContent: "space-between", gap: 16, flexWrap: "wrap",
+        padding: "12px 20px", display: "flex", flexDirection: "column", gap: 10,
       }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-          <button onClick={onBack} style={{
-            background: "transparent", border: "1px solid #475569",
-            color: SD.textSecondary, borderRadius: 8, padding: "5px 12px",
-            fontSize: 13, cursor: "pointer", fontWeight: 600,
-          }}>← Back</button>
-          <div style={{ display: "flex", gap: 6 }}>
-            {state.items.map((_, i) => (
-              <div key={i} style={{
-                width: 8, height: 8, borderRadius: "50%",
-                background: i < state.currentIndex
-                  ? (state.answers[i]?.correct ? SD.correct : SD.wrong)
-                  : i === state.currentIndex ? SD.timer : SD.borderAlt,
-                transition: `background 0.3s ${EASE_STANDARD}`,
-              }} />
-            ))}
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16, flexWrap: "wrap" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <button onClick={onBack} style={{
+              background: "transparent", border: "1px solid #475569",
+              color: SD.textSecondary, borderRadius: 8, padding: "5px 12px",
+              fontSize: 13, cursor: "pointer", fontWeight: 600,
+            }}>← Back</button>
+            <div style={{ display: "flex", gap: 6 }}>
+              {state.items.map((_, i) => (
+                <div key={i} style={{
+                  width: 8, height: 8, borderRadius: "50%",
+                  background: i < state.currentIndex
+                    ? (state.answers[i]?.correct ? SD.correct : SD.wrong)
+                    : i === state.currentIndex ? SD.timer : SD.borderAlt,
+                  transition: `background 0.3s ${EASE_STANDARD}`,
+                }} />
+              ))}
+            </div>
+            <span style={{ color: SD.textSecondary, fontSize: 13, fontWeight: 600 }}>
+              {qNum}/{totalQ}
+            </span>
           </div>
-          <span style={{ color: SD.textSecondary, fontSize: 13, fontWeight: 600 }}>
-            {qNum}/{totalQ}
-          </span>
-        </div>
 
-        <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
-          {/* Score */}
-          <div style={{ textAlign: "center" }}>
-            <div style={{ fontSize: 11, color: SD.textMuted, fontWeight: 700, letterSpacing: "0.1em" }}>SCORE</div>
-            <div style={{ fontSize: 20, fontWeight: 900, color: SD.textPrimary }}>{state.score}</div>
-          </div>
-          {/* Streak */}
-          <div style={{ textAlign: "center" }}>
-            <div style={{ fontSize: 11, color: SD.textMuted, fontWeight: 700, letterSpacing: "0.1em" }}>🔥 STREAK</div>
-            <div style={{ fontSize: 20, fontWeight: 900, color: state.streak > 0 ? "#f97316" : "#f8fafc" }}>
-              {state.streak}
+          <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
+            <div style={{ textAlign: "center" }}>
+              <div style={{ fontSize: 11, color: SD.textMuted, fontWeight: 700, letterSpacing: "0.1em" }}>SCORE</div>
+              <div style={{ fontSize: 20, fontWeight: 900, color: SD.textPrimary }}>{state.score}</div>
+            </div>
+            <div style={{ textAlign: "center" }}>
+              <div style={{ fontSize: 11, color: SD.textMuted, fontWeight: 700, letterSpacing: "0.1em" }}>🔥 STREAK</div>
+              <div style={{ fontSize: 20, fontWeight: 900, color: state.streak > 0 ? "#f97316" : "#f8fafc" }}>
+                {state.streak}
+              </div>
+            </div>
+            <div style={{
+              padding: "4px 10px", borderRadius: 20, fontSize: 11, fontWeight: 800,
+              background: levelKey === "starter" ? "#1d4ed8" : levelKey === "build_up" ? "#7c3aed" : "#dc2626",
+              color: "#fff", letterSpacing: "0.08em",
+            }}>
+              {levelRule.label.toUpperCase()}
             </div>
           </div>
-          {/* Level badge */}
-          <div style={{
-            padding: "4px 10px", borderRadius: 20, fontSize: 11, fontWeight: 800,
-            background: levelKey === "starter" ? "#1d4ed8" : levelKey === "build_up" ? "#7c3aed" : "#dc2626",
-            color: "#fff", letterSpacing: "0.08em",
-          }}>
-            {levelRule.label.toUpperCase()}
-          </div>
         </div>
+
+        {/* Smooth Progress Bar */}
+        <ProgressBar current={state.currentIndex + (state.phase === "feedback" ? 1 : 0)} total={totalQ} />
       </div>
 
       {/* Bonus Banner */}
@@ -289,7 +321,7 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
           padding: "8px 20px", textAlign: "center",
           fontSize: 16, fontWeight: 900, color: "#fff",
           letterSpacing: "0.05em",
-          animation: "slideDown 0.3s ease",
+          animation: "sdSlideDown 0.3s ease",
         }}>
           {state.bonusLabel}
         </div>
@@ -306,6 +338,7 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
           width: "100%", background: SD.surface, borderRadius: 16,
           padding: "24px 28px", marginBottom: 20,
           border: `1px solid ${SD.border}`,
+          animation: "sdFadeUp 0.3s ease-out",
         }}>
           <div style={{ display: "flex", alignItems: "flex-start", gap: 20 }}>
             <TimerRing timeLeft={state.timeLeft} total={timerSeconds} />
@@ -332,9 +365,7 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
         }}>
           {item.options.map((opt, i) => {
             const col = OPTION_COLORS[i % 4];
-            let bg = col.bg;
-            let border = col.border;
-            let textColor = col.text;
+            const animClass = getOptionAnimation(i);
             let transform = "scale(1)";
             let opacity = 1;
             let boxShadow = "none";
@@ -342,23 +373,19 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
 
             if (state.phase === "feedback") {
               if (i === item.correct_index) {
-                boxShadow = "0 0 20px #10b98140, 0 4px 16px #10b98120";
+                boxShadow = "0 0 24px #10b98150, 0 4px 20px #10b98130";
+                transform = "scale(1.04)";
+                zIndex = 10;
               } else if (i === state.chosenIndex) {
-                boxShadow = "0 0 20px #ef444440, 0 4px 16px #ef444420";
-              }
-              if (i === state.chosenIndex) {
-                 transform = "scale(1.05)";
-                 zIndex = 10;
-              }
-              if (i !== item.correct_index && i !== state.chosenIndex) {
-                 opacity = 0.4;
-              }
-              if (state.chosenIndex !== -1 && i === item.correct_index && i !== state.chosenIndex) {
-                 transform = "scale(1.05)";
-                 zIndex = 10;
+                boxShadow = "0 0 24px #ef444450, 0 4px 20px #ef444430";
+                transform = "scale(1.04)";
+                zIndex = 10;
+              } else {
+                opacity = 0.35;
               }
             } else if (state.phase === "question" && hoveredOption === i) {
-               transform = "scale(1.03)";
+              transform = "scale(1.03)";
+              boxShadow = "0 6px 20px rgba(0,0,0,0.3)";
             }
 
             return (
@@ -368,8 +395,9 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
                 onMouseEnter={() => state.phase === "question" && setHoveredOption(i)}
                 onMouseLeave={() => setHoveredOption(null)}
                 disabled={state.phase === "feedback"}
+                className={animClass}
                 style={{
-                  background: bg,
+                  background: col.bg,
                   borderRadius: 12,
                   padding: "24px 20px",
                   display: "flex",
@@ -378,7 +406,7 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
                   flexDirection: "column",
                   gap: 12,
                   cursor: state.phase === "question" ? "pointer" : "default",
-                  transition: `all 0.2s ${EASE_SPRING}`,
+                  transition: `transform 0.2s ${EASE_SPRING}, opacity 0.25s ease, box-shadow 0.25s ease`,
                   textAlign: "center",
                   boxShadow,
                   transform,
@@ -392,7 +420,7 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
                 <span style={{
                   fontSize: 22,
                   fontWeight: 600,
-                  color: textColor,
+                  color: col.text,
                   lineHeight: 1.4,
                 }}>
                   {opt}
@@ -407,6 +435,7 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
           <div style={{
             width: "100%", borderRadius: 16, overflow: "hidden",
             border: `1px solid ${isCorrect ? SD.correct : SD.wrong}`,
+            animation: "sdFeedbackSlideUp 0.3s ease-out",
           }}>
             {/* Feedback header */}
             <div style={{
@@ -427,7 +456,6 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
                     : isCorrect
                     ? item.feedback_correct
                     : (() => {
-                        // Show what user actually chose vs correct, then the generic tip
                         const chosenText = state.chosenIndex !== null
                           ? item.options[state.chosenIndex]
                           : "";
@@ -442,7 +470,10 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
                   border: "none", color: "#fff", borderRadius: 10,
                   padding: "8px 18px", fontSize: 14, fontWeight: 600,
                   cursor: "pointer",
+                  transition: "transform 0.15s ease",
                 }}
+                onMouseEnter={(e) => (e.currentTarget.style.transform = "scale(1.05)")}
+                onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
               >
                 {state.currentIndex + 1 >= totalQ ? "Kết quả →" : "Tiếp →"}
               </button>
@@ -450,7 +481,6 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
 
             {/* Explanation */}
             <div style={{ background: SD.bg, padding: "16px 20px" }}>
-              {/* Show the JSON feedback_wrong tip (grammar rule reminder) when wrong */}
               {!isCorrect && state.chosenIndex !== -1 && (() => {
                 const chosenText = state.chosenIndex !== null && state.chosenIndex >= 0
                   ? item.options[state.chosenIndex] : "";
@@ -490,8 +520,44 @@ export default function SpeedDrillGame({ items, levelRule, scoreRule, levelKey, 
         )}
       </div>
 
+      {/* Animations */}
       <style>{`
-        @keyframes slideDown { from { transform: translateY(-20px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+        @keyframes sdGameFadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        @keyframes sdFadeUp {
+          from { opacity: 0; transform: translateY(12px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes sdSlideDown {
+          from { transform: translateY(-20px); opacity: 0; }
+          to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes sdFeedbackSlideUp {
+          from { opacity: 0; transform: translateY(16px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes sdPulseCorrectKf {
+          0% { transform: scale(1.04); box-shadow: 0 0 0 0 rgba(16,185,129,0.5); }
+          50% { transform: scale(1.08); box-shadow: 0 0 30px 8px rgba(16,185,129,0.3); }
+          100% { transform: scale(1.04); box-shadow: 0 0 24px 4px rgba(16,185,129,0.2); }
+        }
+        @keyframes sdShakeWrongKf {
+          0% { transform: translateX(0) scale(1.04); }
+          15% { transform: translateX(-6px) scale(1.04); }
+          30% { transform: translateX(6px) scale(1.04); }
+          45% { transform: translateX(-4px) scale(1.04); }
+          60% { transform: translateX(4px) scale(1.04); }
+          75% { transform: translateX(-2px) scale(1.04); }
+          100% { transform: translateX(0) scale(1.04); }
+        }
+        .sdPulseCorrect {
+          animation: sdPulseCorrectKf 0.6s ease-out !important;
+        }
+        .sdShakeWrong {
+          animation: sdShakeWrongKf 0.5s ease-out !important;
+        }
       `}</style>
     </div>
   );

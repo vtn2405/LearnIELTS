@@ -14,6 +14,7 @@ const NO_SIDEBAR_ROUTES = [
   "/dashboard",
   "/exercises/error-hunter",
   "/exercises/pattern-builder",
+  "/exercises/speed-drill",
 ];
 
 export function AppShell({

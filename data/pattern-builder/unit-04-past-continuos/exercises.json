@@ -1,0 +1,3335 @@
+[
+  {
+    "id": "ptc-fill-env-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing a background environmental event while something else happened"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "While the economy [________], the government introduced stricter environmental regulations."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "was growing",
+        "was expanding",
+        "was developing"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "grew",
+        "grows",
+        "is growing",
+        "were growing",
+        "grow"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, background action",
+      "pattern": "While + subject + was + V-ing, subject + V-ed",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": "'While' báo hiệu một hành động nền đang diễn ra - thì nào mô tả một hành động đang diễn ra trong quá khứ?",
+      "hintLevel2": "Past Continuous sử dụng 'was' hoặc 'were' + V-ing.'The economy' là số ít, vì vậy hãy sử dụng 'was'.",
+      "hintLevel3": "Cấu trúc: While the economy + was growing / was expanding."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous để mô tả một hành động nền đang diễn ra khi một sự kiện khác xảy ra.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi dựng bối cảnh cho một sự kiện môi trường trong quá khứ với mệnh đề 'while'.",
+      "bandTip": "Mẫu 'While X was V-ing, Y V-ed' tương phản một cách trang nhã tình huống nền với một sự kiện cụ thể trong quá khứ - cấu trúc Band 6.5+.",
+      "commonMistake": "Không sử dụng Simple Past 'grew' sau 'While' cho hành động nền - Past Continuous 'was growing' cho thấy hành động đang diễn ra."
+    },
+    "reusablePattern": "While the economy was growing, the government introduced stricter environmental regulations."
+  },
+  {
+    "id": "ptc-fill-env-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what environmental organisations were failing to do"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Environmental organisations [________] not receiving enough funding during the financial crisis."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "were",
+        "Were"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "was",
+        "did",
+        "are",
+        "do",
+        "have"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous negative, plural subject",
+      "pattern": "subject + were + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu mô tả một tình huống đang diễn ra trong quá khứ - bạn cần trợ động từ nào trước 'not receiving'?",
+      "hintLevel2": "'Environmental organisations' là số nhiều, vì vậy trợ động từ chính xác là 'were', không phải 'was'.",
+      "hintLevel3": "Cấu trúc: Environmental organisations + were + not receiving."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'were' với chủ ngữ số nhiều để tạo thành phủ định Past Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về các vấn đề đang diễn ra ảnh hưởng đến các nhóm môi trường trong thời gian vừa qua.",
+      "bandTip": "Sử dụng Past Continuous phủ định - 'were not receiving' - nhấn mạnh tính chất đang diễn ra của một vấn đề trong quá khứ, mang tính mô tả nhiều hơn Simple Past.",
+      "commonMistake": "Không sử dụng 'was' với chủ ngữ số nhiều như 'organisations' — luôn sử dụng 'were' cho chủ ngữ số nhiều trong Past Continuous."
+    },
+    "reusablePattern": "Environmental organisations were not receiving enough funding during the financial crisis."
+  },
+  {
+    "id": "ptc-fill-env-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about an ongoing environmental situation in the past"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] global temperatures rising rapidly throughout the 1990s?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Were",
+        "were"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Was",
+        "Did",
+        "Are",
+        "Do",
+        "Has"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous question, plural subject",
+      "pattern": "Were + subject + V-ing?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu hỏi hỏi về một xu hướng đang diễn ra trong khoảng thời gian vừa qua - trợ động nào bắt đầu câu hỏi Past Continuous?",
+      "hintLevel2": "'Global temperatures' là số nhiều - sử dụng 'Were' khi bắt đầu câu hỏi.",
+      "hintLevel3": "Cấu trúc: Were + global temperatures + rising...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Were' để tạo thành câu hỏi Past Continuous về xu hướng đang diễn ra trong khoảng thời gian vừa qua.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận xem những thay đổi về môi trường có xảy ra trong một khoảng thời gian cụ thể trong quá khứ hay không.",
+      "bandTip": "Sử dụng Past Continuous trong câu hỏi - 'Were temperatures rising?' - ngụ ý rằng bạn đang hỏi về một quá trình đang diễn ra chứ không phải một sự kiện đơn lẻ.",
+      "commonMistake": "Không sử dụng 'Did' ở đây - 'Did … rise' hỏi về một sự kiện đã hoàn thành, trong khi 'Were … rising' hỏi về một quá trình đang diễn ra trong một khoảng thời gian."
+    },
+    "reusablePattern": "Were global temperatures rising rapidly throughout the 1990s?"
+  },
+  {
+    "id": "ptc-fill-env-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing an ongoing environmental trend shown in a graph"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Sea levels [________] steadily throughout the early 21st century according to the data."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "were rising",
+        "were increasing",
+        "were climbing"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "rose",
+        "rise",
+        "rises",
+        "was rising",
+        "are rising",
+        "have risen"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, ongoing trend",
+      "pattern": "subject + were + V-ing + time expression",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "'Throughout' báo hiệu một quá trình liên tục theo thời gian - thì nào mô tả một hành động đang diễn ra trong quá khứ?",
+      "hintLevel2": "'Sea levels' là số nhiều, vì vậy hãy sử dụng 'were' + V-ing để tạo thành Past Continuous.",
+      "hintLevel3": "Cấu trúc: Sea levels + were rising / were increasing + steadily."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous để mô tả một xu hướng đang diễn ra trong một khoảng thời gian vừa qua.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả xu hướng dần dần, đang diễn ra hiển thị trong một phạm vi thời gian trong biểu đồ đường.",
+      "bandTip": "Past Continuous — 'were rising steadily' — nhấn mạnh tính chất dần dần, liên tục của xu hướng, mang tính mô tả nhiều hơn 'rose steadily'.",
+      "commonMistake": "Không sử dụng 'was rising' với chủ ngữ số nhiều 'sea levels' - luôn sử dụng 'were' với chủ ngữ số nhiều."
+    },
+    "reusablePattern": "Sea levels were rising steadily throughout the early 21st century according to the data."
+  },
+  {
+    "id": "ptc-fill-tech-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing what was happening in the technology sector at a past time"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "At that time, companies [________] new artificial intelligence tools at an unprecedented pace."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "were developing",
+        "were creating",
+        "were building"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "developed",
+        "was developing",
+        "develop",
+        "are developing",
+        "have developed"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, temporary situation",
+      "pattern": "At that time, subject + were + V-ing",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": "'At that time' báo hiệu một tình huống đang diễn ra trong quá khứ - thì nào thể hiện một hành động trong quá khứ đang diễn ra?",
+      "hintLevel2": "'Companies' là số nhiều, vì vậy hãy sử dụng 'were' + V-ing cho Past Continuous.",
+      "hintLevel3": "Cấu trúc: At that time, companies + were developing / were creating."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous để mô tả một hoạt động đang diễn ra tại một thời điểm cụ thể trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả những gì đang xảy ra trong một ngành cụ thể tại một thời điểm nhất định.",
+      "bandTip": "'At that time, experts were …' là một cụm từ dựng cảnh phức tạp cho các bài tường thuật IELTS Speaking Part 2.",
+      "commonMistake": "Không sử dụng 'was developing' với chủ ngữ số nhiều 'companies' - sử dụng 'were developing' cho chủ ngữ số nhiều."
+    },
+    "reusablePattern": "At that time, companies were developing new artificial intelligence tools at an unprecedented pace."
+  },
+  {
+    "id": "ptc-fill-tech-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what the government was failing to do about technology regulation"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The government [________] not investing enough in cybersecurity during the early stages of the internet."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "was",
+        "Was"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "were",
+        "did",
+        "is",
+        "does",
+        "has"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous negative, singular subject",
+      "pattern": "subject + was + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu mô tả một tình huống đang diễn ra trong quá khứ - bạn cần trợ động từ nào trước 'not investing'?",
+      "hintLevel2": "'The government' là số ít, vì vậy hãy sử dụng 'was' trước 'not investing'.",
+      "hintLevel3": "Cấu trúc: The government + was + not investing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'was' với chủ ngữ số ít để tạo thành phủ định Past Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê phán sự thiếu hành động của chính phủ đối với quy định công nghệ trong thời gian vừa qua.",
+      "bandTip": "Past Continuous tiêu cực — 'was not investing' — ngụ ý tình hình đang diễn ra và có vấn đề, điều này củng cố khả năng phân tích quan trọng trong Part 3.",
+      "commonMistake": "Không sử dụng 'were' với chủ ngữ số ít 'the government' — luôn sử dụng 'was' cho chủ ngữ số ít trong Past Continuous."
+    },
+    "reusablePattern": "The government was not investing enough in cybersecurity during the early stages of the internet."
+  },
+  {
+    "id": "ptc-fill-tech-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about an ongoing technology trend in the past"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] smartphone technology evolving rapidly when the first iPhone appeared?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Was",
+        "was"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Were",
+        "Did",
+        "Is",
+        "Does",
+        "Has"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous question, singular subject",
+      "pattern": "Was + subject + V-ing + when + subject + V-ed?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu hỏi hỏi về một quá trình đang diễn ra khi một sự kiện cụ thể xảy ra - thì nào được sử dụng cho hành động đang diễn ra?",
+      "hintLevel2": "'Smartphone technology' là số ít - sử dụng 'Was' khi bắt đầu câu hỏi Past Continuous.",
+      "hintLevel3": "Cấu trúc: Was + smartphone technology + evolving...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Was' để tạo thành câu hỏi Past Continuous về một quá trình đang diễn ra bị gián đoạn bởi một sự kiện cụ thể.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về cách công nghệ đã thay đổi tại một thời điểm cụ thể trong quá khứ.",
+      "bandTip": "Mẫu 'Was X V-ing when Y V-ed?' kết hợp Past Continuous và Simple Past một cách hiệu quả — một kỹ năng ngữ pháp quan trọng cho IELTS Band 6+.",
+      "commonMistake": "Không sử dụng 'Did' ở đây - 'Did … evolve' sẽ hỏi về một sự kiện đã hoàn thành chứ không phải về quá trình nền đang diễn ra."
+    },
+    "reusablePattern": "Was smartphone technology evolving rapidly when the first iPhone appeared?"
+  },
+  {
+    "id": "ptc-fill-tech-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing an ongoing technology trend in a past period"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "While mobile internet coverage [________], more people in rural areas gained access to online services."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "was expanding",
+        "was growing",
+        "was increasing"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "expanded",
+        "were expanding",
+        "expands",
+        "is expanding",
+        "has expanded"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, background action",
+      "pattern": "While + subject + was + V-ing, subject + V-ed",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": "'While' giới thiệu một hành động đang diễn ra trong nền - thì nào mô tả một hành động đang diễn ra trong quá khứ?",
+      "hintLevel2": "'Mobile internet coverage' là số ít - sử dụng 'was' + V-ing.",
+      "hintLevel3": "Cấu trúc: While mobile internet coverage + was expanding / was growing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous cho hành động nền và Simple Past cho kết quả trong cấu trúc 'While'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả cách một xu hướng đang diễn ra kích hoạt hoặc đi kèm với một sự phát triển khác trong quá khứ.",
+      "bandTip": "Mẫu 'While X was V-ing, Y V-ed' là mẫu tuyệt vời để mô tả các xu hướng đồng thời trong biểu đồ đường IELTS Writing Task 1.",
+      "commonMistake": "Không sử dụng 'were expanding' với chủ đề số ít 'mobile internet coverage' - sử dụng 'was expanding'."
+    },
+    "reusablePattern": "While mobile internet coverage was expanding, more people in rural areas gained access to online services."
+  },
+  {
+    "id": "ptc-fill-edu-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing an ongoing change in education at a specific past time"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "At that time, universities [________] towards more flexible online learning formats."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "were shifting",
+        "were moving",
+        "were transitioning"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "shifted",
+        "was shifting",
+        "shift",
+        "are shifting",
+        "have shifted"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, gradual change",
+      "pattern": "At that time, subject + were + V-ing",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": "'At that time' giới thiệu một tình huống đang diễn ra trong quá khứ - bạn cần thì nào?",
+      "hintLevel2": "'Universities' là số nhiều - sử dụng 'were' + V-ing cho Past Continuous.",
+      "hintLevel3": "Cấu trúc: At that time, universities + were shifting / were moving."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous để mô tả một sự thay đổi dần dần đang diễn ra tại một thời điểm cụ thể trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả các cơ sở giáo dục đã thay đổi như thế nào trong một giai đoạn cụ thể.",
+      "bandTip": "Các cụm từ như 'were shifting towards', 'were transitioning to' thể hiện nhận thức sâu sắc về sự thay đổi đang diễn ra - có giá trị ở mức Band 6.5+.",
+      "commonMistake": "Không sử dụng 'was shifting' với chủ ngữ số nhiều 'universities' - sử dụng 'were' cho chủ ngữ số nhiều trong Past Continuous."
+    },
+    "reusablePattern": "At that time, universities were shifting towards more flexible online learning formats."
+  },
+  {
+    "id": "ptc-fill-edu-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what the education system was failing to do"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The education system [________] not adequately addressing the needs of students with disabilities during that period."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "was",
+        "Was"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "were",
+        "did",
+        "is",
+        "does",
+        "has"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous negative, singular subject",
+      "pattern": "subject + was + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu mô tả một sự thất bại đang diễn ra trong một khoảng thời gian vừa qua - bạn cần trợ từ nào trước 'not adequately addressing'?",
+      "hintLevel2": "'The education system' là số ít - sử dụng 'was' trước 'not'.",
+      "hintLevel3": "Cấu trúc: The education system + was + not adequately addressing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'was' với chủ ngữ số ít để tạo thành phủ định Past Continuous, mô tả một thiếu sót đang diễn ra trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê bình cách các hệ thống xử lý các thách thức đang diễn ra trong khoảng thời gian vừa qua.",
+      "bandTip": "'Was not adequately addressing' ngụ ý một vấn đề dai dẳng, đang diễn ra - mạnh mẽ hơn và mang tính mô tả hơn 'did not address'.",
+      "commonMistake": "Không sử dụng 'were' với chủ ngữ số ít 'the education system' - sử dụng 'was' cho chủ ngữ số ít."
+    },
+    "reusablePattern": "The education system was not adequately addressing the needs of students with disabilities during that period."
+  },
+  {
+    "id": "ptc-fill-edu-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about ongoing educational changes in the past"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] teachers adapting their methods to include digital technology in the early 2000s?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Were",
+        "were"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Was",
+        "Did",
+        "Are",
+        "Do",
+        "Have"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous question, plural subject",
+      "pattern": "Were + subject + V-ing?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu hỏi hỏi về một quá trình đang diễn ra trong khoảng thời gian vừa qua - trợ động nào bắt đầu câu hỏi Past Continuous?",
+      "hintLevel2": "'Teachers' là số nhiều - sử dụng 'Were' khi bắt đầu câu hỏi.",
+      "hintLevel3": "Cấu trúc: Were + teachers + adapting...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Were' để tạo thành câu hỏi Past Continuous về một quá trình đang diễn ra trong khoảng thời gian vừa qua.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về cách thức giảng dạy đã thay đổi trong một thời đại cụ thể.",
+      "bandTip": "Các câu hỏi Past Continuous với 'Were … V-ing?' hỏi về các tình huống đang diễn ra, thể hiện sự kiểm soát căng thẳng theo sắc thái trong IELTS Nói.",
+      "commonMistake": "Không sử dụng 'Was' với chủ ngữ số nhiều 'teachers' — luôn sử dụng 'Were' cho chủ ngữ số nhiều trong câu hỏi Past Continuous."
+    },
+    "reusablePattern": "Were teachers adapting their methods to include digital technology in the early 2000s?"
+  },
+  {
+    "id": "ptc-fill-edu-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing an ongoing trend in education enrolment"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Student enrolment in traditional universities [________] steadily while online learning platforms gained popularity."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "was declining",
+        "was falling",
+        "was decreasing",
+        "was dropping"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "declined",
+        "were declining",
+        "declines",
+        "is declining",
+        "has declined"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, parallel contrast",
+      "pattern": "subject + was + V-ing + while + subject + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu đối lập một xu hướng đang diễn ra với một sự phát triển đã hoàn thành - thì nào được sử dụng cho xu hướng đang diễn ra?",
+      "hintLevel2": "'Student enrolment' là số ít - sử dụng 'was' + V-ing cho Past Continuous.",
+      "hintLevel3": "Cấu trúc: Student enrolment + was declining / was falling + steadily."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous cho xu hướng nền đang diễn ra tương phản với sự phát triển Simple Past.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả cách một xu hướng đang diễn ra trong khi một thay đổi cụ thể khác xảy ra.",
+      "bandTip": "Sự tương phản 'was declining … while … gained' cho thấy khả năng quản lý căng thẳng phức tạp - một tính năng chính có giá trị trong cách viết Task 1.",
+      "commonMistake": "Không sử dụng 'were declining' với chủ đề số ít 'student enrolment' - sử dụng 'was declining'."
+    },
+    "reusablePattern": "Student enrolment in traditional universities was declining steadily while online learning platforms gained popularity."
+  },
+  {
+    "id": "ptc-fill-health-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing an ongoing health awareness trend in the past"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "People [________] increasingly aware of the health risks of smoking during the 1990s."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "were becoming",
+        "were growing"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "became",
+        "was becoming",
+        "become",
+        "are becoming",
+        "have become"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, gradual change",
+      "pattern": "subject + were + becoming + adjective",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "'Increasingly' báo hiệu một sự thay đổi dần dần, đang diễn ra - thì nào mô tả một quá trình trong quá khứ đang phát triển theo thời gian?",
+      "hintLevel2": "'People' là số nhiều - sử dụng 'were' + V-ing cho Past Continuous.",
+      "hintLevel3": "Cấu trúc: People + were becoming / were growing + increasingly aware."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous để mô tả sự thay đổi dần dần về nhận thức đang phát triển trong một khoảng thời gian vừa qua.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả thái độ của công chúng đã thay đổi như thế nào trong một thập kỷ cụ thể.",
+      "bandTip": "'People were increasingly…' là một cấu trúc học thuật linh hoạt để mô tả những thay đổi xã hội dần dần trong các bài luận IELTS.",
+      "commonMistake": "Không sử dụng 'was becoming' với chủ ngữ số nhiều 'people' — luôn sử dụng 'were' cho chủ ngữ số nhiều trong Past Continuous."
+    },
+    "reusablePattern": "People were becoming increasingly aware of the health risks of smoking during the 1990s."
+  },
+  {
+    "id": "ptc-fill-health-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what the healthcare system was failing to do"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The healthcare system [________] not coping effectively with the rising demand for mental health services at that time."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "was",
+        "Was"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "were",
+        "did",
+        "is",
+        "does",
+        "has"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous negative, singular subject",
+      "pattern": "subject + was + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "'At that time' báo hiệu một tình huống đang diễn ra trong quá khứ - bạn cần trợ từ nào trước 'not coping'?",
+      "hintLevel2": "'The healthcare system' là số ít - sử dụng 'was' trước 'not coping'.",
+      "hintLevel3": "Cấu trúc: The healthcare system + was + not coping."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'was' với chủ ngữ số ít để tạo thành phủ định Past Continuous, mô tả một vấn đề đang diễn ra trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê bình những thiếu sót đang diễn ra của các dịch vụ công trong thời gian vừa qua.",
+      "bandTip": "'Was not coping with' ngụ ý sự đấu tranh bền bỉ - mạnh hơn 'did not cope with' vì nhấn mạnh khó khăn đang diễn ra.",
+      "commonMistake": "Không sử dụng 'were' với chủ ngữ số ít 'the healthcare system' - sử dụng 'was' cho chủ ngữ số ít."
+    },
+    "reusablePattern": "The healthcare system was not coping effectively with the rising demand for mental health services at that time."
+  },
+  {
+    "id": "ptc-fill-health-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about an ongoing public health effort in the past"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] the government funding public health campaigns while the epidemic was spreading?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Was",
+        "was"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Were",
+        "Did",
+        "Is",
+        "Does",
+        "Has"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous question, singular subject",
+      "pattern": "Was + subject + V-ing + while + subject + was + V-ing?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu hỏi hỏi về một hành động đang diễn ra song song - trợ động nào bắt đầu câu hỏi Past Continuous bằng 'the government'?",
+      "hintLevel2": "'The government' là số ít - sử dụng 'Was' để bắt đầu câu hỏi.",
+      "hintLevel3": "Cấu trúc: Was + the government + funding...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Was' để tạo thành câu hỏi Past Continuous về hai hành động đang diễn ra song song trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi hỏi liệu hai sự kiện có xảy ra đồng thời trong quá khứ hay không.",
+      "bandTip": "Kết hợp hai mệnh đề Past Continuous - 'Was X V-ing while Y was V-ing?' - cho thấy nhận thức mạnh mẽ về các sự kiện song song trong quá khứ.",
+      "commonMistake": "Không sử dụng 'Were' với chủ ngữ số ít 'the government' - sử dụng 'Was' cho chủ ngữ số ít trong câu hỏi."
+    },
+    "reusablePattern": "Was the government funding public health campaigns while the epidemic was spreading?"
+  },
+  {
+    "id": "ptc-fill-health-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing an ongoing health trend in a past period"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "At that time, life expectancy [________] in most developed countries due to advances in medical technology."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "was rising",
+        "was increasing",
+        "was improving",
+        "was growing"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "rose",
+        "were rising",
+        "rises",
+        "is rising",
+        "has risen"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, ongoing trend",
+      "pattern": "At that time, subject + was + V-ing",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": "'At that time' báo hiệu một tình huống đang diễn ra - thì nào thể hiện một quá trình đang diễn ra trong quá khứ?",
+      "hintLevel2": "'Life expectancy' là số ít - sử dụng 'was' + V-ing cho Past Continuous.",
+      "hintLevel3": "Cấu trúc: At that time, life expectancy + was rising / was increasing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous để mô tả một xu hướng đang diễn ra tại một thời điểm cụ thể trong quá khứ.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả xu hướng đang diễn ra có thể nhìn thấy tại một thời điểm cụ thể trên biểu đồ.",
+      "bandTip": "'At that time, X was V-ing' là một cách chính xác để mô tả dữ liệu chụp nhanh trong IELTS Task 1 - mang tính mô tả nhiều hơn chỉ riêng Simple Past.",
+      "commonMistake": "Không sử dụng 'were rising' với chủ đề số ít 'life expectancy' - sử dụng 'was rising'."
+    },
+    "reusablePattern": "At that time, life expectancy was rising in most developed countries due to advances in medical technology."
+  },
+  {
+    "id": "ptc-fill-work-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing what workers were doing during a past period"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "At that time, workers [________] better conditions and higher wages from their employers."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "were demanding",
+        "were requesting",
+        "were seeking"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "demanded",
+        "was demanding",
+        "demand",
+        "are demanding",
+        "have demanded"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, ongoing action",
+      "pattern": "At that time, subject + were + V-ing",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": "'At that time' báo hiệu một tình huống đang diễn ra - thì nào mô tả một hành động đang diễn ra trong quá khứ?",
+      "hintLevel2": "'Workers' là số nhiều - sử dụng 'were' + V-ing cho Past Continuous.",
+      "hintLevel3": "Cấu trúc: At that time, workers + were demanding / were seeking."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous để mô tả một hoạt động đang diễn ra mà công nhân đã tham gia trong khoảng thời gian vừa qua.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả những gì mọi người ở nơi làm việc đang làm trong một thời gian cụ thể.",
+      "bandTip": "'At that time, experts were…' hoặc 'workers were…' là một cấu trúc dựng cảnh mạnh mẽ cho các câu chuyện IELTS Part 2.",
+      "commonMistake": "Không sử dụng 'was demanding' với chủ ngữ số nhiều 'workers' - sử dụng 'were' cho chủ ngữ số nhiều trong Past Continuous."
+    },
+    "reusablePattern": "At that time, workers were demanding better conditions and higher wages from their employers."
+  },
+  {
+    "id": "ptc-fill-work-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what companies were failing to provide"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The company [________] not providing adequate training for its employees during the transition to remote work."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "was",
+        "Was"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "were",
+        "did",
+        "is",
+        "does",
+        "has"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous negative, singular subject",
+      "pattern": "subject + was + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu mô tả một lỗi đang diễn ra trong quá trình chuyển đổi trong quá khứ - trợ động từ nào đứng trước 'not providing'?",
+      "hintLevel2": "'The company' là số ít - sử dụng 'was' trước 'not providing'.",
+      "hintLevel3": "Cấu trúc: The company + was + not providing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'was' với chủ ngữ số ít để tạo thành phủ định Past Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những thiếu sót đang diễn ra của công ty trong giai đoạn thay đổi vừa qua.",
+      "bandTip": "'Was not providing' nhấn mạnh tính chất đang diễn ra của lỗi - mang tính mô tả nhiều hơn 'did not provide' đối với tình huống liên tục.",
+      "commonMistake": "Không sử dụng 'were' với chủ ngữ số ít 'the company' - sử dụng 'was' cho chủ ngữ số ít."
+    },
+    "reusablePattern": "The company was not providing adequate training for its employees during the transition to remote work."
+  },
+  {
+    "id": "ptc-fill-work-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about ongoing industry changes in the past"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] many industries automating their processes during the early 2000s?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Were",
+        "were"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Was",
+        "Did",
+        "Are",
+        "Do",
+        "Have"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous question, plural subject",
+      "pattern": "Were + subject + V-ing?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu hỏi hỏi về một xu hướng đang diễn ra trong khoảng thời gian vừa qua - trợ động nào bắt đầu câu hỏi Past Continuous?",
+      "hintLevel2": "'Many industries' là số nhiều - sử dụng 'Were' khi bắt đầu câu hỏi.",
+      "hintLevel3": "Cấu trúc: Were + many industries + automating...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Were' để tạo thành câu hỏi Past Continuous về xu hướng công nghiệp đang diễn ra trong thời gian vừa qua.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi hỏi về những thay đổi đang diễn ra trong một lĩnh vực cụ thể trong thời gian vừa qua.",
+      "bandTip": "Sử dụng tín hiệu 'Were … V-ing during …?' mà bạn đang hỏi về một quy trình chứ không phải một sự kiện duy nhất - một điểm khác biệt chính về thì của Band 6+.",
+      "commonMistake": "Không sử dụng 'Was' với chủ ngữ số nhiều 'many industries' - luôn sử dụng 'Were' cho chủ ngữ số nhiều."
+    },
+    "reusablePattern": "Were many industries automating their processes during the early 2000s?"
+  },
+  {
+    "id": "ptc-fill-work-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing an ongoing change in work patterns"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The nature of work [________] rapidly as more companies adopted flexible working arrangements."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "was changing",
+        "was evolving",
+        "was transforming",
+        "was shifting"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "changed",
+        "were changing",
+        "changes",
+        "is changing",
+        "has changed"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, background change",
+      "pattern": "subject + was + V-ing + as + subject + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Câu mô tả một sự thay đổi dần dần cùng với một sự phát triển cụ thể - thì nào thể hiện sự thay đổi đang diễn ra?",
+      "hintLevel2": "'The nature of work' là số ít - sử dụng 'was' + V-ing cho Past Continuous.",
+      "hintLevel3": "Cấu trúc: The nature of work + was changing / was evolving + rapidly."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous cho thay đổi nền đang diễn ra đi kèm với sự phát triển Simple Past cụ thể.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả cách một thay đổi đang diễn ra đi kèm với những phát triển cụ thể được hiển thị trong dữ liệu.",
+      "bandTip": "Mẫu 'X was V-ing as Y V-ed' là một cách mạnh mẽ để thể hiện nguyên nhân và nền tảng trong bài viết IELTS Task 1.",
+      "commonMistake": "Không sử dụng 'were changing' với chủ đề số ít 'the nature of work' - sử dụng 'was changing'."
+    },
+    "reusablePattern": "The nature of work was changing rapidly as more companies adopted flexible working arrangements."
+  },
+  {
+    "id": "ptc-build-env-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing how deforestation was affecting the environment in the past"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "While governments [________], deforestation was destroying vast areas of rainforest."
+    },
+    "chips": [
+      "were debating",
+      "debated",
+      "debate",
+      "was debating",
+      "climate policy",
+      "While governments"
+    ],
+    "answer": {
+      "correctOrder": [
+        "While governments",
+        "were debating",
+        "climate policy"
+      ],
+      "distractors": [
+        "debated",
+        "debate",
+        "was debating"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, parallel background actions",
+      "pattern": "While + subject + were + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were debating' là dạng Past Continuous cho một hành động nền đang diễn ra với chủ ngữ số nhiều.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả hai sự kiện trong quá khứ đồng thời trong bối cảnh môi trường.",
+      "bandTip": "Hai mệnh đề Past Continuous song song - 'were debating … was destroying' - truyền tải một cách sinh động các tình huống đang diễn ra đồng thời.",
+      "commonMistake": "Không sử dụng 'was debating' với chủ ngữ số nhiều 'governments' - sử dụng 'were debating' cho chủ ngữ số nhiều."
+    },
+    "reusablePattern": "While governments were debating climate policy, deforestation was destroying vast areas of rainforest."
+  },
+  {
+    "id": "ptc-build-env-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what communities were failing to do about pollution"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Local communities [________] enough to reduce industrial pollution in their regions during the 1990s."
+    },
+    "chips": [
+      "were not doing",
+      "did not do",
+      "were not done",
+      "do not do",
+      "enough to reduce industrial pollution in their regions during the 1990s",
+      "Local communities"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Local communities",
+        "were not doing",
+        "enough to reduce industrial pollution in their regions during the 1990s"
+      ],
+      "distractors": [
+        "did not do",
+        "were not done",
+        "do not do"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous negative, plural subject",
+      "pattern": "subject + were + not + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were not doing' là phủ định Past Continuous, nhấn mạnh đến việc thiếu hành động liên tục trong một khoảng thời gian.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê bình những gì cộng đồng đã không làm về các vấn đề môi trường trong thời gian qua.",
+      "bandTip": "'Were not doing enough' nhấn mạnh tính chất liên tục, dai dẳng của lỗi - mạnh hơn 'did not do enough' để mô tả một tình huống liên tục.",
+      "commonMistake": "Đừng nhầm lẫn 'were not doing' (hoạt động) với 'were not done' (thụ động) - ý nghĩa thay đổi hoàn toàn."
+    },
+    "reusablePattern": "Local communities were not doing enough to reduce industrial pollution in their regions during the 1990s."
+  },
+  {
+    "id": "ptc-build-env-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing ongoing carbon emission trends"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Carbon emissions from developing nations [________] significantly during the period shown in the graph."
+    },
+    "chips": [
+      "were increasing",
+      "increased",
+      "was increasing",
+      "are increasing",
+      "significantly during the period shown in the graph",
+      "Carbon emissions from developing nations"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Carbon emissions from developing nations",
+        "were increasing",
+        "significantly during the period shown in the graph"
+      ],
+      "distractors": [
+        "increased",
+        "was increasing",
+        "are increasing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, ongoing trend",
+      "pattern": "subject + were + V-ing + adverb + time expression"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were increasing' là Past Continuous cho một xu hướng đang diễn ra với chủ ngữ số nhiều 'carbon emissions'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả một xu hướng đang diễn ra trong suốt khoảng thời gian được hiển thị trong biểu đồ hoặc đồ thị.",
+      "bandTip": "Sử dụng Past Continuous — 'were increasing' — nhấn mạnh tính chất dần dần, liên tục của một xu hướng, bổ sung thêm chiều sâu mô tả trong Task 1.",
+      "commonMistake": "Không sử dụng 'was increasing' với chủ ngữ số nhiều 'carbon emissions' - sử dụng 'were increasing'."
+    },
+    "reusablePattern": "Carbon emissions from developing nations were increasing significantly during the period shown in the graph."
+  },
+  {
+    "id": "ptc-build-env-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Describing how activism was growing when a key policy was announced"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Environmental activism [________] rapidly when the Paris Agreement was signed in 2015."
+    },
+    "chips": [
+      "was growing",
+      "grew",
+      "were growing",
+      "is growing",
+      "rapidly when the Paris Agreement was signed in 2015",
+      "Environmental activism"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Environmental activism",
+        "was growing",
+        "rapidly when the Paris Agreement was signed in 2015"
+      ],
+      "distractors": [
+        "grew",
+        "were growing",
+        "is growing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, background + interruption",
+      "pattern": "subject + was + V-ing + when + subject + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'was growing' mô tả hành động nền đang diễn ra khi sự kiện cụ thể xảy ra.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi mô tả bối cảnh xung quanh một sự kiện chính sách môi trường quan trọng.",
+      "bandTip": "Mẫu 'X was V-ing when Y V-ed' tương phản một cách hiệu quả một tình huống đang diễn ra với một sự kiện cụ thể - cấu trúc Band 6.5+.",
+      "commonMistake": "Không sử dụng 'were growing' với chủ đề số ít 'environmental activism' - sử dụng 'was growing'."
+    },
+    "reusablePattern": "Environmental activism was growing rapidly when the Paris Agreement was signed in 2015."
+  },
+  {
+    "id": "ptc-build-tech-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing how the internet was changing communication in a past period"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The internet [________] the way people communicated when social media platforms emerged."
+    },
+    "chips": [
+      "was transforming",
+      "transformed",
+      "were transforming",
+      "is transforming",
+      "the way people communicated when social media platforms emerged",
+      "The internet"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The internet",
+        "was transforming",
+        "the way people communicated when social media platforms emerged"
+      ],
+      "distractors": [
+        "transformed",
+        "were transforming",
+        "is transforming"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, background + interruption",
+      "pattern": "subject + was + V-ing + object + when + subject + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'was transforming' mô tả quá trình đang diễn ra khi có sự phát triển mới.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả cách công nghệ đã thay đổi mọi thứ trước khi một sự kiện khác xảy ra.",
+      "bandTip": "Việc sử dụng 'was transforming … when … emerged' cho thấy tính chất tiến bộ, liên tục của sự thay đổi công nghệ trước thời điểm quan trọng.",
+      "commonMistake": "Không sử dụng 'were transforming' với chủ đề số ít 'the internet' - sử dụng 'was transforming'."
+    },
+    "reusablePattern": "The internet was transforming the way people communicated when social media platforms emerged."
+  },
+  {
+    "id": "ptc-build-tech-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what companies were neglecting during the tech boom"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many tech companies [________] the privacy concerns of their users during the rapid expansion of social media."
+    },
+    "chips": [
+      "were ignoring",
+      "were not addressing",
+      "ignored",
+      "was ignoring",
+      "the privacy concerns of their users during the rapid expansion of social media",
+      "Many tech companies"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many tech companies",
+        "were ignoring",
+        "the privacy concerns of their users during the rapid expansion of social media"
+      ],
+      "distractors": [
+        "ignored",
+        "was ignoring",
+        "were not addressing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, ongoing neglect",
+      "pattern": "subject + were + V-ing + object + time expression"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were ignoring' là Past Continuous cho một hành động đang diễn ra với chủ ngữ số nhiều 'many tech companies'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê bình hành vi đang diễn ra của các công ty công nghệ trong thời gian vừa qua.",
+      "bandTip": "'Were ignoring' nhấn mạnh rằng việc bỏ bê diễn ra liên tục và dai dẳng - có tác động mạnh hơn Simple Past 'ignored'.",
+      "commonMistake": "Không sử dụng 'was ignoring' với chủ ngữ số nhiều 'many tech companies' - sử dụng 'were ignoring'."
+    },
+    "reusablePattern": "Many tech companies were ignoring the privacy concerns of their users during the rapid expansion of social media."
+  },
+  {
+    "id": "ptc-build-tech-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing an ongoing trend in smartphone adoption"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Smartphone ownership [________] rapidly in developing nations throughout the period shown."
+    },
+    "chips": [
+      "was growing",
+      "grew",
+      "were growing",
+      "has grown",
+      "rapidly in developing nations throughout the period shown",
+      "Smartphone ownership"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Smartphone ownership",
+        "was growing",
+        "rapidly in developing nations throughout the period shown"
+      ],
+      "distractors": [
+        "grew",
+        "were growing",
+        "has grown"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, ongoing trend",
+      "pattern": "subject + was + V-ing + adverb + prepositional phrase"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'was growing' là Past Continuous cho một chủ đề số ít, mô tả một xu hướng đang diễn ra trong một khoảng thời gian vừa qua.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả một xu hướng đang diễn ra trong suốt khung thời gian của biểu đồ.",
+      "bandTip": "Trong Task 1, 'was growing rapidly' nhấn mạnh tính chất liên tục, dần dần của một xu hướng - mang tính mô tả nhiều hơn 'grew rapidly'.",
+      "commonMistake": "Không sử dụng 'were growing' với chủ đề số ít 'smartphone ownership' - sử dụng 'was growing'."
+    },
+    "reusablePattern": "Smartphone ownership was growing rapidly in developing nations throughout the period shown."
+  },
+  {
+    "id": "ptc-build-tech-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing parallel developments in artificial intelligence"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Researchers [________] breakthroughs in artificial intelligence while ethical debates about AI safety intensified."
+    },
+    "chips": [
+      "were achieving",
+      "achieved",
+      "was achieving",
+      "are achieving",
+      "breakthroughs in artificial intelligence while ethical debates about AI safety intensified",
+      "Researchers"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Researchers",
+        "were achieving",
+        "breakthroughs in artificial intelligence while ethical debates about AI safety intensified"
+      ],
+      "distractors": [
+        "achieved",
+        "was achieving",
+        "are achieving"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, parallel events",
+      "pattern": "subject + were + V-ing + object + while + subject + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were achieving' là Past Continuous cho hành động nền đang diễn ra với chủ ngữ số nhiều 'researchers'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về tiến bộ công nghệ và các mối quan tâm xã hội đang phát triển song song như thế nào.",
+      "bandTip": "Mẫu 'X were V-ing … while Y V-ed' tương phản một cách hiệu quả giữa tiến trình đang diễn ra với sự phát triển cụ thể.",
+      "commonMistake": "Không sử dụng 'was achieving' với chủ ngữ số nhiều 'researchers' - sử dụng 'were achieving'."
+    },
+    "reusablePattern": "Researchers were achieving breakthroughs in artificial intelligence while ethical debates about AI safety intensified."
+  },
+  {
+    "id": "ptc-build-edu-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing how online learning was developing when a disruption occurred"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Online learning platforms [________] steadily when the pandemic suddenly accelerated their growth."
+    },
+    "chips": [
+      "were expanding",
+      "expanded",
+      "was expanding",
+      "are expanding",
+      "steadily when the pandemic suddenly accelerated their growth",
+      "Online learning platforms"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Online learning platforms",
+        "were expanding",
+        "steadily when the pandemic suddenly accelerated their growth"
+      ],
+      "distractors": [
+        "expanded",
+        "was expanding",
+        "are expanding"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, background + interruption",
+      "pattern": "subject + were + V-ing + adverb + when + subject + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were expanding' mô tả quá trình nền đang diễn ra bị gián đoạn bởi một sự kiện bất ngờ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả xu hướng dần dần đã diễn ra như thế nào trước một sự kiện đột phá.",
+      "bandTip": "'Were expanding steadily when … suddenly accelerated' đối lập một cách hiệu quả sự thay đổi dần dần với sự gián đoạn đột ngột.",
+      "commonMistake": "Không sử dụng 'was expanding' với chủ ngữ số nhiều 'online learning platforms' - sử dụng 'were expanding'."
+    },
+    "reusablePattern": "Online learning platforms were expanding steadily when the pandemic suddenly accelerated their growth."
+  },
+  {
+    "id": "ptc-build-edu-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what schools were failing to teach"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many schools [________] students for the demands of the digital economy during the early 2000s."
+    },
+    "chips": [
+      "were not preparing",
+      "did not prepare",
+      "were not prepared",
+      "was not preparing",
+      "students for the demands of the digital economy during the early 2000s",
+      "Many schools"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many schools",
+        "were not preparing",
+        "students for the demands of the digital economy during the early 2000s"
+      ],
+      "distractors": [
+        "did not prepare",
+        "were not prepared",
+        "was not preparing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous negative, plural subject",
+      "pattern": "subject + were + not + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were not preparing' là dạng phủ định Past Continuous với chủ ngữ số nhiều, nhấn mạnh sự thất bại đang diễn ra.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê bình việc các cơ sở giáo dục liên tục thất bại trong thời gian qua như thế nào.",
+      "bandTip": "'Were not preparing' nhấn mạnh tính chất liên tục, dai dẳng của thiếu sót - rõ ràng hơn 'did not prepare'.",
+      "commonMistake": "Đừng nhầm lẫn 'were not preparing' (hoạt động, đang diễn ra) với 'were not prepared' (thụ động, trạng thái) - chúng có ý nghĩa khác nhau."
+    },
+    "reusablePattern": "Many schools were not preparing students for the demands of the digital economy during the early 2000s."
+  },
+  {
+    "id": "ptc-build-edu-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing an ongoing shift in university enrolment patterns"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The number of international students [________] significantly throughout the decade shown in the chart."
+    },
+    "chips": [
+      "was rising",
+      "rose",
+      "were rising",
+      "has risen",
+      "significantly throughout the decade shown in the chart",
+      "The number of international students"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The number of international students",
+        "was rising",
+        "significantly throughout the decade shown in the chart"
+      ],
+      "distractors": [
+        "rose",
+        "were rising",
+        "has risen"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, ongoing trend",
+      "pattern": "subject + was + V-ing + adverb + time expression"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'was rising' là Past Continuous cho chủ đề số ít 'the number', mô tả một xu hướng đang diễn ra trong suốt một khoảng thời gian.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả xu hướng tăng liên tục trong một khoảng thời gian được hiển thị trong biểu đồ.",
+      "bandTip": "'The number of X was rising significantly' nhấn mạnh tính chất dần dần, liên tục của một xu hướng - tuyệt vời cho các mô tả Task 1.",
+      "commonMistake": "Không sử dụng 'were rising' - 'the number' là số ít mặc dù 'students' là số nhiều; chủ đề là 'the number'."
+    },
+    "reusablePattern": "The number of international students was rising significantly throughout the decade shown in the chart."
+  },
+  {
+    "id": "ptc-build-edu-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Describing what educational reforms were achieving"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "While governments [________] heavily in primary education, literacy rates in rural areas began to improve."
+    },
+    "chips": [
+      "were investing",
+      "invested",
+      "was investing",
+      "are investing",
+      "heavily in primary education",
+      "While governments"
+    ],
+    "answer": {
+      "correctOrder": [
+        "While governments",
+        "were investing",
+        "heavily in primary education"
+      ],
+      "distractors": [
+        "invested",
+        "was investing",
+        "are investing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, background action",
+      "pattern": "While + subject + were + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were investing' là Past Continuous cho hành động nền với chủ ngữ số nhiều 'governments'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi mô tả cách các hành động của chính phủ tạo ra các điều kiện cơ bản cho kết quả tích cực.",
+      "bandTip": "'While governments were investing … , literacy rates began to improve' thể hiện mối quan hệ nguyên nhân và bối cảnh rõ ràng.",
+      "commonMistake": "Không sử dụng 'was investing' với chủ ngữ số nhiều 'governments' - sử dụng 'were investing'."
+    },
+    "reusablePattern": "While governments were investing heavily in primary education, literacy rates in rural areas began to improve."
+  },
+  {
+    "id": "ptc-build-health-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing how researchers were working when a breakthrough occurred"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Scientists [________] tirelessly on a vaccine when the virus suddenly mutated."
+    },
+    "chips": [
+      "were working",
+      "worked",
+      "was working",
+      "are working",
+      "tirelessly on a vaccine when the virus suddenly mutated",
+      "Scientists"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Scientists",
+        "were working",
+        "tirelessly on a vaccine when the virus suddenly mutated"
+      ],
+      "distractors": [
+        "worked",
+        "was working",
+        "are working"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, background + interruption",
+      "pattern": "subject + were + V-ing + adverb + when + subject + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were working' mô tả nghiên cứu đang diễn ra khi sự kiện bất ngờ xảy ra.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi kể lại câu chuyện về một nỗ lực đang diễn ra nhưng bị gián đoạn bởi một sự kiện bất ngờ.",
+      "bandTip": "'Were working tirelessly … when … suddenly mutated' tạo ra sự căng thẳng trong câu chuyện bằng cách đối chiếu nỗ lực ổn định với sự gián đoạn đột ngột.",
+      "commonMistake": "Không sử dụng 'was working' với chủ ngữ số nhiều 'scientists' - sử dụng 'were working'."
+    },
+    "reusablePattern": "Scientists were working tirelessly on a vaccine when the virus suddenly mutated."
+  },
+  {
+    "id": "ptc-build-health-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what health authorities were failing to do"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Health authorities [________] the public adequately about the risks of processed food during the 1990s."
+    },
+    "chips": [
+      "were not informing",
+      "did not inform",
+      "were not informed",
+      "was not informing",
+      "the public adequately about the risks of processed food during the 1990s",
+      "Health authorities"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Health authorities",
+        "were not informing",
+        "the public adequately about the risks of processed food during the 1990s"
+      ],
+      "distractors": [
+        "did not inform",
+        "were not informed",
+        "was not informing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous negative, plural subject",
+      "pattern": "subject + were + not + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were not informing' là phủ định Past Continuous, nhấn mạnh việc liên tục không giao tiếp được.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê bình những thiếu sót dai dẳng về thể chế trong truyền thông y tế công cộng.",
+      "bandTip": "'Were not informing' nhấn mạnh tính chất đang diễn ra của lỗi - mạnh hơn 'did not inform' để mô tả một tình huống dai dẳng.",
+      "commonMistake": "Đừng nhầm lẫn 'were not informing' (hoạt động, đang diễn ra) với 'were not informed' (thụ động) — chủ thể thực hiện hành động thay đổi."
+    },
+    "reusablePattern": "Health authorities were not informing the public adequately about the risks of processed food during the 1990s."
+  },
+  {
+    "id": "ptc-build-health-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing an ongoing decline in physical activity levels"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Average physical activity levels [________] throughout the 2000s as sedentary lifestyles became more common."
+    },
+    "chips": [
+      "were declining",
+      "declined",
+      "was declining",
+      "have declined",
+      "throughout the 2000s as sedentary lifestyles became more common",
+      "Average physical activity levels"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Average physical activity levels",
+        "were declining",
+        "throughout the 2000s as sedentary lifestyles became more common"
+      ],
+      "distractors": [
+        "declined",
+        "was declining",
+        "have declined"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, ongoing trend",
+      "pattern": "subject + were + V-ing + time expression + as + subject + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were declining' là Past Continuous cho chủ ngữ số nhiều, mô tả một xu hướng đang diễn ra trong một khoảng thời gian.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả xu hướng giảm dần cùng với sự phát triển có liên quan được hiển thị trong dữ liệu.",
+      "bandTip": "'Were declining … as … became' liên kết xu hướng đang diễn ra với một yếu tố góp phần - một cấu trúc Task 1 phức tạp.",
+      "commonMistake": "Không sử dụng 'was declining' với chủ ngữ số nhiều 'average physical activity levels' - sử dụng 'were declining'."
+    },
+    "reusablePattern": "Average physical activity levels were declining throughout the 2000s as sedentary lifestyles became more common."
+  },
+  {
+    "id": "ptc-build-health-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Describing how healthcare was improving when a crisis hit"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The healthcare sector [________] significant progress in disease prevention when the pandemic struck."
+    },
+    "chips": [
+      "was making",
+      "made",
+      "were making",
+      "is making",
+      "significant progress in disease prevention when the pandemic struck",
+      "The healthcare sector"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The healthcare sector",
+        "was making",
+        "significant progress in disease prevention when the pandemic struck"
+      ],
+      "distractors": [
+        "made",
+        "were making",
+        "is making"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, background + interruption",
+      "pattern": "subject + was + V-ing + object + when + subject + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'was making' mô tả tiến trình đang diễn ra khi một sự kiện bất ngờ bị gián đoạn.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi kể lại tiến trình trong một lĩnh vực đã bị gián đoạn như thế nào do một cuộc khủng hoảng bất ngờ.",
+      "bandTip": "'Was making … when … struck' tạo ra một câu chuyện kể về tiến trình bị gián đoạn một cách hiệu quả — một cấu trúc kể chuyện mạnh mẽ.",
+      "commonMistake": "Không sử dụng 'were making' với chủ đề số ít 'the healthcare sector' - sử dụng 'was making'."
+    },
+    "reusablePattern": "The healthcare sector was making significant progress in disease prevention when the pandemic struck."
+  },
+  {
+    "id": "ptc-build-work-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing how the workplace was changing before a major event"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The company [________] a new flexible working policy when the economic crisis began."
+    },
+    "chips": [
+      "was implementing",
+      "implemented",
+      "were implementing",
+      "is implementing",
+      "a new flexible working policy when the economic crisis began",
+      "The company"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The company",
+        "was implementing",
+        "a new flexible working policy when the economic crisis began"
+      ],
+      "distractors": [
+        "implemented",
+        "were implementing",
+        "is implementing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, background + interruption",
+      "pattern": "subject + was + V-ing + object + when + subject + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'was implementing' mô tả một quy trình đang diễn ra của công ty bị gián đoạn bởi một sự kiện bất ngờ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả quá trình thực hiện một sáng kiến ​​tại nơi làm việc trước khi có sự gián đoạn từ bên ngoài.",
+      "bandTip": "'Was implementing … when … began' hiển thị một hành động nền chưa hoàn thành bị gián đoạn bởi một sự kiện mới - một cấu trúc tường thuật tự nhiên.",
+      "commonMistake": "Không sử dụng 'were implementing' với chủ đề số ít 'the company' - sử dụng 'was implementing'."
+    },
+    "reusablePattern": "The company was implementing a new flexible working policy when the economic crisis began."
+  },
+  {
+    "id": "ptc-build-work-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what employers were failing to address"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many employers [________] the mental health needs of their workforce during the transition to remote work."
+    },
+    "chips": [
+      "were overlooking",
+      "overlooked",
+      "was overlooking",
+      "are overlooking",
+      "the mental health needs of their workforce during the transition to remote work",
+      "Many employers"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many employers",
+        "were overlooking",
+        "the mental health needs of their workforce during the transition to remote work"
+      ],
+      "distractors": [
+        "overlooked",
+        "was overlooking",
+        "are overlooking"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, plural subject, ongoing neglect",
+      "pattern": "subject + were + V-ing + object + time expression"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'were overlooking' là Past Continuous cho chủ ngữ số nhiều, nhấn mạnh sự lơ là liên tục trong khoảng thời gian vừa qua.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi phê bình hành vi cố chấp của người sử dụng lao động trong thời gian thay đổi nơi làm việc.",
+      "bandTip": "'Were overlooking' ngụ ý việc bỏ bê đang diễn ra và theo thói quen - mạnh hơn 'overlooked' vì nhấn mạnh một vấn đề dai dẳng.",
+      "commonMistake": "Không sử dụng 'was overlooking' với chủ ngữ số nhiều 'many employers' - sử dụng 'were overlooking'."
+    },
+    "reusablePattern": "Many employers were overlooking the mental health needs of their workforce during the transition to remote work."
+  },
+  {
+    "id": "ptc-build-work-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 1",
+      "context": "Describing an ongoing rise in unemployment"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Youth unemployment [________] dramatically throughout the period of the global financial crisis."
+    },
+    "chips": [
+      "was rising",
+      "rose",
+      "were rising",
+      "has risen",
+      "dramatically throughout the period of the global financial crisis",
+      "Youth unemployment"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Youth unemployment",
+        "was rising",
+        "dramatically throughout the period of the global financial crisis"
+      ],
+      "distractors": [
+        "rose",
+        "were rising",
+        "has risen"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, ongoing trend",
+      "pattern": "subject + was + V-ing + adverb + time expression"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'was rising' là Past Continuous cho chủ đề số ít, mô tả một xu hướng đang diễn ra trong giai đoạn khủng hoảng vừa qua.",
+      "ieltsUsage": "Hữu ích trong Writing Task 1 khi mô tả mức độ thất nghiệp gia tăng trong một khoảng thời gian cụ thể được hiển thị trong dữ liệu.",
+      "bandTip": "'Was rising dramatically' nhấn mạnh cường độ và tính chất đang diễn ra của xu hướng thất nghiệp - ngôn ngữ mô tả mạnh mẽ cho Task 1.",
+      "commonMistake": "Không sử dụng 'were rising' với chủ đề số ít 'youth unemployment' - sử dụng 'was rising'."
+    },
+    "reusablePattern": "Youth unemployment was rising dramatically throughout the period of the global financial crisis."
+  },
+  {
+    "id": "ptc-build-work-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Describing how automation was reshaping industries"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Automation [________] traditional manufacturing jobs while new roles in technology were being created."
+    },
+    "chips": [
+      "was replacing",
+      "replaced",
+      "were replacing",
+      "is replacing",
+      "traditional manufacturing jobs while new roles in technology were being created",
+      "Automation"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Automation",
+        "was replacing",
+        "traditional manufacturing jobs while new roles in technology were being created"
+      ],
+      "distractors": [
+        "replaced",
+        "were replacing",
+        "is replacing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous, singular subject, parallel events",
+      "pattern": "subject + was + V-ing + object + while + subject + was/were being + V-ed"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'was replacing' mô tả quá trình đang diễn ra với một chủ đề số ít, ghép với mệnh đề thụ động song song Past Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về hai quy trình đồng thời trên thị trường lao động.",
+      "bandTip": "Ghép nối hoạt động Past Continuous — 'was replacing' — với thụ động Past Continuous — 'were being created' — hiển thị phạm vi ngữ pháp nâng cao.",
+      "commonMistake": "Không sử dụng 'were replacing' với chủ đề số ít 'automation' - sử dụng 'was replacing'."
+    },
+    "reusablePattern": "Automation was replacing traditional manufacturing jobs while new roles in technology were being created."
+  },
+  {
+    "id": "ptc-transform-env-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing parallel environmental processes in the past"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Global temperatures were rising steadily throughout the decade.",
+        "At the same time, governments were failing to reach consensus on emission targets."
+      ],
+      "constraints": [
+        "Use 'while' to connect the two ideas",
+        "Maintain Past Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While global temperatures were rising steadily throughout the decade, governments were failing to reach consensus on emission targets.",
+      "requiredIdeas": [
+        "rising temperatures as an ongoing process",
+        "government failure to agree on emissions as a parallel ongoing situation"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "While + S + was/were + V-ing, S + was/were + V-ing",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'while' với hai mệnh đề Past Continuous để hiển thị các sự kiện đang diễn ra song song.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi đối chiếu hai xu hướng đồng thời trong một lập luận về môi trường.",
+      "bandTip": "Mẫu 'While X was V-ing, Y was V-ing' là một cách mạnh mẽ để đối chiếu hai tình huống đang diễn ra - cấu trúc Band 6.5–7.",
+      "commonMistake": "Không trộn lẫn các thì - cả hai mệnh đề nên sử dụng Past Continuous khi mô tả hai tình huống đang diễn ra song song."
+    },
+    "reusablePattern": "While global temperatures were rising steadily throughout the decade, governments were failing to reach consensus on emission targets."
+  },
+  {
+    "id": "ptc-transform-env-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Contrasting background environmental trends with specific policy actions"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Pollution levels in major cities were worsening rapidly.",
+        "The government introduced a new clean air policy."
+      ],
+      "constraints": [
+        "Use Past Continuous for the background action and Simple Past for the specific event",
+        "Use a time connector such as 'when' or 'as'",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Pollution levels in major cities were worsening rapidly when the government introduced a new clean air policy.",
+      "requiredIdeas": [
+        "worsening pollution as an ongoing background",
+        "government policy as a specific response"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous + simple past",
+      "pattern": "S + was/were + V-ing + when/as + S + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã kết hợp Past Continuous cho tình huống nền với Simple Past cho sự kiện cụ thể.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi giải thích lý do tại sao hành động của chính phủ được thực hiện để ứng phó với tình huống xấu đi.",
+      "bandTip": "'Was/Were V-ing when S V-ed' là mẫu cổ điển cho nền + sự kiện - việc nắm vững điều này cho thấy khả năng kiểm soát căng thẳng mạnh mẽ.",
+      "commonMistake": "Không sử dụng Past Continuous cho cả hai mệnh đề ở đây - hành động của chính phủ là một sự kiện cụ thể, đã hoàn thành và yêu cầu Simple Past."
+    },
+    "reusablePattern": "Pollution levels in major cities were worsening rapidly when the government introduced a new clean air policy."
+  },
+  {
+    "id": "ptc-transform-tech-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing how rapid tech development was affecting society"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Social media platforms were growing at an extraordinary rate.",
+        "Meanwhile, concerns about data privacy were also intensifying."
+      ],
+      "constraints": [
+        "Use 'as' or 'while' to connect the parallel developments",
+        "Maintain Past Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "As social media platforms were growing at an extraordinary rate, concerns about data privacy were also intensifying.",
+      "requiredIdeas": [
+        "social media growth as an ongoing process",
+        "data privacy concerns growing in parallel"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "As/While + S + was/were + V-ing, S + was/were + V-ing",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã kết nối hai quá trình phát triển song song đang diễn ra bằng cách sử dụng 'as' hoặc 'while' với Past Continuous nhất quán.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày hai xu hướng đồng thời trong một lập luận về công nghệ.",
+      "bandTip": "Việc sử dụng 'As … was V-ing, … were also V-ing' cho thấy nhận thức phức tạp về thời gian - một cấu trúc có giá trị ở Band 7.",
+      "commonMistake": "Không sử dụng Simple Past ở đây - cả hai quá trình phát triển đều đang diễn ra và đồng thời, yêu cầu Past Continuous trong cả hai mệnh đề."
+    },
+    "reusablePattern": "As social media platforms were growing at an extraordinary rate, concerns about data privacy were also intensifying."
+  },
+  {
+    "id": "ptc-transform-tech-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Contrasting technological progress with a sudden market event"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Tech companies were investing billions in artificial intelligence research.",
+        "The global financial crisis suddenly disrupted their funding."
+      ],
+      "constraints": [
+        "Use Past Continuous for the background and Simple Past for the disruption",
+        "Use 'when' to connect the two ideas",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Tech companies were investing billions in artificial intelligence research when the global financial crisis suddenly disrupted their funding.",
+      "requiredIdeas": [
+        "tech investment as an ongoing activity",
+        "financial crisis as a sudden disruption"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous + simple past",
+      "pattern": "S + was/were + V-ing + O + when + S + V-ed + O",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous cho khoản đầu tư đang diễn ra và Simple Past cho sự gián đoạn tài chính đột ngột.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi giải thích cách một sự kiện bất ngờ làm gián đoạn xu hướng đang diễn ra trong lĩnh vực công nghệ.",
+      "bandTip": "'Were investing … when … disrupted' tạo ra một câu chuyện về sự tiến triển bị gián đoạn - có hiệu quả trong việc thể hiện quan hệ nhân quả trong các bài luận.",
+      "commonMistake": "Không sử dụng Past Continuous cho cuộc khủng hoảng - một sự kiện cụ thể, đột ngột yêu cầu Simple Past: 'disrupted', không phải 'was disrupting'."
+    },
+    "reusablePattern": "Tech companies were investing billions in artificial intelligence research when the global financial crisis suddenly disrupted their funding."
+  },
+  {
+    "id": "ptc-transform-edu-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing parallel trends in education and employment"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "University tuition fees were rising significantly across the country.",
+        "At the same time, graduate employment rates were declining."
+      ],
+      "constraints": [
+        "Use 'while' to connect the two contrasting trends",
+        "Maintain Past Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While university tuition fees were rising significantly across the country, graduate employment rates were declining.",
+      "requiredIdeas": [
+        "rising tuition fees as an ongoing trend",
+        "declining employment as a parallel ongoing trend"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "While + S + was/were + V-ing, S + was/were + V-ing",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'while' với hai mệnh đề Past Continuous để làm nổi bật sự tương phản đáng lo ngại giữa hai xu hướng đang diễn ra.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi lập luận rằng chi phí giáo dục ngày càng tăng và kết quả giảm sút đang diễn ra đồng thời.",
+      "bandTip": "Đối chiếu hai xu hướng tiêu cực đang diễn ra với 'While … was V-ing, … were V-ing' củng cố lập luận phản biện trong bài luận IELTS.",
+      "commonMistake": "Không sử dụng Simple Past ở đây - cả hai xu hướng đều đang diễn ra và song song, vì vậy cần có Past Continuous trong cả hai mệnh đề."
+    },
+    "reusablePattern": "While university tuition fees were rising significantly across the country, graduate employment rates were declining."
+  },
+  {
+    "id": "ptc-transform-edu-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Contrasting an ongoing educational trend with a sudden policy change"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Student interest in STEM subjects was growing rapidly.",
+        "The government cut funding for science programmes in schools."
+      ],
+      "constraints": [
+        "Use Past Continuous for the background trend and Simple Past for the policy action",
+        "Use 'when' or 'just as' to connect",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Student interest in STEM subjects was growing rapidly when the government cut funding for science programmes in schools.",
+      "requiredIdeas": [
+        "growing student interest as an ongoing trend",
+        "government funding cut as a specific event"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous + simple past",
+      "pattern": "S + was + V-ing + when/just as + S + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã đối chiếu xu hướng tích cực đang diễn ra với một quyết định chính sách tiêu cực đột ngột bằng cách sử dụng các thì hỗn hợp.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi lập luận rằng các quyết định của chính phủ làm suy yếu các xu hướng giáo dục tích cực.",
+      "bandTip": "'Was growing … when … cut' tạo ra sự tương phản mạnh mẽ giữa đà và sự gián đoạn — hiệu quả cho bài viết thuyết phục.",
+      "commonMistake": "Không sử dụng Past Continuous để cắt giảm kinh phí - đó là một hành động cụ thể, đã hoàn thành của chính phủ yêu cầu Simple Past."
+    },
+    "reusablePattern": "Student interest in STEM subjects was growing rapidly when the government cut funding for science programmes in schools."
+  },
+  {
+    "id": "ptc-transform-health-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing parallel health trends in the past"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Obesity rates were climbing steadily across developed nations.",
+        "Governments were struggling to implement effective public health campaigns."
+      ],
+      "constraints": [
+        "Use 'while' or 'as' to connect the parallel developments",
+        "Maintain Past Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While obesity rates were climbing steadily across developed nations, governments were struggling to implement effective public health campaigns.",
+      "requiredIdeas": [
+        "rising obesity as an ongoing trend",
+        "government struggle as a parallel ongoing situation"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "While/As + S + was/were + V-ing, S + was/were + V-ing",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'while' với hai mệnh đề Past Continuous để thể hiện sự tương phản đáng lo ngại giữa vấn đề đang gia tăng và phản hồi không hiệu quả.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi lập luận rằng các thách thức về sức khỏe đang vượt xa các phản ứng của chính phủ trong giai đoạn vừa qua.",
+      "bandTip": "Mẫu 'While problem was V-ing, response was V-ing' tương phản mạnh mẽ một vấn đề với phản ứng không thỏa đáng.",
+      "commonMistake": "Đừng trộn lẫn các thì ở đây - cả hai tình huống đều diễn ra và song song, vì vậy Past Continuous đều đúng trong cả hai mệnh đề."
+    },
+    "reusablePattern": "While obesity rates were climbing steadily across developed nations, governments were struggling to implement effective public health campaigns."
+  },
+  {
+    "id": "ptc-transform-health-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Contrasting an ongoing health crisis with a research breakthrough"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "The disease was spreading rapidly across Southeast Asia.",
+        "Researchers discovered an effective treatment."
+      ],
+      "constraints": [
+        "Use Past Continuous for the ongoing crisis and Simple Past for the discovery",
+        "Use 'when' to connect the two events",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The disease was spreading rapidly across Southeast Asia when researchers discovered an effective treatment.",
+      "requiredIdeas": [
+        "disease spreading as an ongoing crisis",
+        "research discovery as a specific breakthrough"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous + simple past",
+      "pattern": "S + was + V-ing + when + S + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng Past Continuous cho cuộc khủng hoảng đang diễn ra và Simple Past cho bước đột phá nghiên cứu cụ thể.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày cách thức một bước đột phá xảy ra trong bối cảnh cuộc khủng hoảng sức khỏe đang diễn ra.",
+      "bandTip": "'Was spreading … when … discovered' tạo ra một câu chuyện hấp dẫn về khủng hoảng và ứng phó - có tác dụng mạnh mẽ đối với các bài luận liên quan đến sức khỏe.",
+      "commonMistake": "Không sử dụng Past Continuous để khám phá - đó là một sự kiện cụ thể, đã hoàn thành: 'discovered', không phải 'were discovering'."
+    },
+    "reusablePattern": "The disease was spreading rapidly across Southeast Asia when researchers discovered an effective treatment."
+  },
+  {
+    "id": "ptc-transform-work-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing parallel trends in employment and automation"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Traditional manufacturing jobs were disappearing rapidly across the industrial regions.",
+        "The technology sector was creating thousands of new positions."
+      ],
+      "constraints": [
+        "Use 'while' to contrast the two parallel developments",
+        "Maintain Past Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While traditional manufacturing jobs were disappearing rapidly across the industrial regions, the technology sector was creating thousands of new positions.",
+      "requiredIdeas": [
+        "manufacturing job losses as an ongoing process",
+        "tech sector growth as a parallel ongoing development"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "While + S + was/were + V-ing, S + was + V-ing",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã đối chiếu hai sự phát triển song song đang diễn ra trên thị trường lao động bằng cách sử dụng 'while' với Past Continuous nhất quán.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi thảo luận về mức độ mất việc làm trong một lĩnh vực này trùng hợp với mức tăng trưởng trong lĩnh vực khác.",
+      "bandTip": "Đối chiếu 'were disappearing' với 'was creating' sử dụng 'while' cho thấy sự hiểu biết sâu sắc về những thay đổi kinh tế đồng thời.",
+      "commonMistake": "Không sử dụng Simple Past ở đây - cả hai quá trình phát triển đều đang diễn ra và đồng thời, yêu cầu Past Continuous trong cả hai mệnh đề."
+    },
+    "reusablePattern": "While traditional manufacturing jobs were disappearing rapidly across the industrial regions, the technology sector was creating thousands of new positions."
+  },
+  {
+    "id": "ptc-transform-work-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Contrasting an ongoing workplace trend with a sudden regulatory change"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Companies were increasingly adopting flexible working arrangements.",
+        "The government passed new legislation regulating remote work."
+      ],
+      "constraints": [
+        "Use Past Continuous for the background trend and Simple Past for the legislation",
+        "Use 'when' or 'as' to connect",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Companies were increasingly adopting flexible working arrangements when the government passed new legislation regulating remote work.",
+      "requiredIdeas": [
+        "companies adopting flexible work as an ongoing trend",
+        "government legislation as a specific event"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "didn't",
+        "weren't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous + simple past",
+      "pattern": "S + was/were + V-ing + when + S + V-ed",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã kết hợp Past Continuous cho việc chuyển đổi dần dần nơi làm việc với Simple Past cho hành động lập pháp cụ thể.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi giải thích cách thay đổi quy định đáp ứng hoặc đi kèm với xu hướng đang phát triển tại nơi làm việc.",
+      "bandTip": "'Were increasingly adopting … when … passed' xây dựng luật một cách hiệu quả như một phản ứng đối với xu hướng đang diễn ra.",
+      "commonMistake": "Không sử dụng Past Continuous cho luật pháp - thông qua luật là một hành động cụ thể, hoàn chỉnh yêu cầu Simple Past."
+    },
+    "reusablePattern": "Companies were increasingly adopting flexible working arrangements when the government passed new legislation regulating remote work."
+  },
+  {
+    "id": "ptc-speak-env-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing an environmental event with background details"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "Describe what was happening in your country's environment during a specific period in the past."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "During the early 2000s, the forests in my region were shrinking rapidly because farmers were clearing land for agriculture. At the same time, air pollution was worsening in the major cities because factories were expanding without adequate environmental controls. The government was trying to introduce new regulations, but progress was happening very slowly.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past environmental situation in progress",
+        "descriptive use of Past Continuous"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "subject + was/were + V-ing (past ongoing events)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'During the [period], the environment in my country was …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả một tình huống môi trường đang diễn ra trong quá khứ bằng cách sử dụng Past Continuous để dựng bối cảnh.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả các điều kiện môi trường nền trong một khoảng thời gian vừa qua.",
+      "bandTip": "Sử dụng nhiều động từ Past Continuous — 'were shrinking', 'was worsening', 'were expanding' — tạo ra cảnh quá khứ sống động, có giá trị Band 6.5+.",
+      "commonMistake": "Không chuyển sang Simple Past để biết các mô tả cơ bản đang diễn ra - giữ Past Continuous để duy trì cảm giác về một tình huống đang diễn ra."
+    },
+    "reusablePattern": "During the early 2000s, the forests were shrinking, air pollution was worsening, and the government was trying to introduce new regulations."
+  },
+  {
+    "id": "ptc-speak-env-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what was happening to the environment while governments debated"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "What was happening to the natural environment while governments were debating climate policies?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "While governments were debating climate policies, the natural environment was deteriorating rapidly. Ice caps were melting at alarming rates, sea levels were rising, and extreme weather events were becoming more frequent. Meanwhile, deforestation was accelerating in tropical regions, which was contributing to the loss of biodiversity on an unprecedented scale.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "environmental damage as an ongoing process",
+        "government debate as a parallel ongoing situation"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "subject + was/were + V-ing (parallel ongoing events)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'While governments were debating, the environment was …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả các sự kiện đang diễn ra song song bằng cách sử dụng Past Continuous để đối chiếu việc chính phủ không hành động với thiệt hại về môi trường.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về khoảng cách giữa tranh luận chính trị và thực tế môi trường trong thời gian vừa qua.",
+      "bandTip": "Liệt kê nhiều động từ Past Continuous song song — 'were melting', 'were rising', 'were becoming' — xây dựng một cảnh mô tả mạnh mẽ.",
+      "commonMistake": "Không sử dụng Simple Past khi mô tả những gì đang xảy ra trong nền - Past Continuous duy trì tính chất đang diễn ra của tình huống."
+    },
+    "reusablePattern": "While governments were debating, ice caps were melting, sea levels were rising, and extreme weather events were becoming more frequent."
+  },
+  {
+    "id": "ptc-speak-tech-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing what was happening in the technology world during a past period"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "Describe what was happening in the world of technology at a specific time in the past."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "Around 2010, the technology industry was changing incredibly fast. Smartphone companies were releasing new models almost every month, social media platforms were gaining millions of new users, and app developers were creating innovative tools that were transforming everyday life. At the same time, concerns about online privacy were growing among the public.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past period in technology",
+        "ongoing changes described with Past Continuous"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "subject + was/were + V-ing (ongoing past tech developments)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'Around [year], the technology industry was …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả nhiều bước phát triển công nghệ đang diễn ra bằng cách sử dụng Past Continuous để vẽ nên một bức tranh sống động.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả bối cảnh rộng hơn của trải nghiệm trong quá khứ liên quan đến công nghệ.",
+      "bandTip": "Việc sử dụng một loạt động từ Past Continuous — 'were releasing', 'were gaining', 'were creating' — thể hiện sự trôi chảy và phạm vi mô tả.",
+      "commonMistake": "Không chuyển sang Simple Present khi mô tả những gì đã xảy ra trong khoảng thời gian trước đây - hãy duy trì Past Continuous xuyên suốt."
+    },
+    "reusablePattern": "Around 2010, companies were releasing new smartphones, social media was gaining users, and app developers were creating innovative tools."
+  },
+  {
+    "id": "ptc-speak-tech-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what was happening when a major tech event occurred"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "What was the technology landscape like when smartphones first became widely available?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "When smartphones first became widely available, the technology landscape was undergoing a massive transformation. Traditional phone manufacturers were losing market share, internet companies were rapidly expanding their mobile services, and millions of people were discovering online shopping and social media for the first time. Essentially, the entire way people were communicating and accessing information was changing fundamentally.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "an ongoing technology trend",
+        "its broader context at the time smartphones emerged"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "subject + was/were + V-ing (background developments)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'When smartphones first appeared, the industry was …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả bối cảnh công nghệ đang diễn ra tại thời điểm diễn ra một sự kiện cụ thể bằng cách sử dụng Past Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về bối cảnh rộng hơn xung quanh một sự phát triển công nghệ cụ thể.",
+      "bandTip": "Việc kết hợp 'When X V-ed' (sự kiện Simple Past) với 'Y was V-ing' (nền Past Continuous) cho thấy khả năng quản lý căng thẳng phức tạp.",
+      "commonMistake": "Không sử dụng Simple Past cho tất cả các mô tả - khi vẽ cảnh nền, Past Continuous mang tính mô tả và phù hợp hơn."
+    },
+    "reusablePattern": "When smartphones became available, manufacturers were losing share, companies were expanding mobile services, and people were discovering social media."
+  },
+  {
+    "id": "ptc-speak-edu-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing what was happening in education when a change occurred"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "Describe what was happening in the education system when you were growing up."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "When I was growing up, the education system in my country was undergoing significant changes. Schools were beginning to introduce computers into classrooms, teachers were adapting their methods to include more interactive activities, and the government was investing more in teacher training programmes. At the same time, parents were becoming more involved in their children's education and were pushing for higher academic standards.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "an ongoing change in education during a past period",
+        "descriptive use of Past Continuous"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "subject + was/were + V-ing (ongoing past changes)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'When I was growing up, the education system was …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả những thay đổi liên tục về giáo dục trong khoảng thời gian vừa qua bằng cách sử dụng Past Continuous một cách nhất quán.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả bối cảnh giáo dục thời thơ ấu hoặc tuổi trẻ của bạn.",
+      "bandTip": "Sử dụng 'When I was growing up' làm khung có nhiều mô tả Past Continuous sẽ tạo ra một câu chuyện Part 2 tự nhiên, phát triển.",
+      "commonMistake": "Không chuyển sang thì Hiện tại - khi mô tả những thay đổi về giáo dục trong quá khứ, hãy duy trì Past Continuous xuyên suốt."
+    },
+    "reusablePattern": "When I was growing up, schools were introducing computers, teachers were adapting methods, and the government was investing in training."
+  },
+  {
+    "id": "ptc-speak-edu-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what was happening in education during a period of change"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "How was the education system changing in your country during the last decade?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "During the last decade, the education system was changing in many important ways. Universities were offering more online courses, students were increasingly choosing practical and vocational qualifications over traditional academic degrees, and schools were placing greater emphasis on digital literacy and critical thinking skills. At the same time, the role of teachers was evolving as technology was reshaping the classroom experience.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "an ongoing educational change during a past period",
+        "the broader impact of that change"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "subject + was/were + V-ing (ongoing past developments)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'During the last decade, the education system was …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả nhiều thay đổi giáo dục đang diễn ra bằng cách sử dụng Past Continuous để tạo phản hồi phân tích chi tiết.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về cách giáo dục phát triển trong một khoảng thời gian cụ thể vừa qua.",
+      "bandTip": "Liệt kê một số thay đổi đang diễn ra — 'were offering', 'were choosing', 'were placing' — cho thấy độ sâu phân tích và khả năng mô tả trôi chảy.",
+      "commonMistake": "Không sử dụng Simple Past cho những thay đổi dần dần, liên tục - Past Continuous nắm bắt tốt hơn bản chất đang diễn ra của quá trình phát triển giáo dục."
+    },
+    "reusablePattern": "During the last decade, universities were offering online courses, students were choosing vocational qualifications, and schools were emphasising digital literacy."
+  },
+  {
+    "id": "ptc-speak-health-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing an ongoing health-related experience in the past"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "Describe a time when you were trying to improve your health and what was happening around you."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "A couple of years ago, I was trying to improve my fitness by going to the gym regularly. While I was exercising, my friends were also joining fitness classes, so we were all motivating each other. At the same time, healthy food options were becoming more available in my neighbourhood, which was making it easier to maintain a balanced diet. I was also sleeping better, and my overall well-being was gradually improving.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a personal ongoing health effort in the past",
+        "surrounding circumstances described with Past Continuous"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "I + was/were + V-ing (ongoing past health activities)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'A couple of years ago, I was trying to …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả hành trình sức khỏe cá nhân bằng cách sử dụng Past Continuous để thể hiện những nỗ lực không ngừng và hoàn cảnh cơ bản.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả trải nghiệm thay đổi lối sống trong quá khứ với chi tiết cơ bản phong phú.",
+      "bandTip": "Sử dụng Past Continuous cho cả hành động cá nhân và hoàn cảnh xung quanh - 'I was trying … friends were joining …' - tạo ra một câu trả lời sinh động, phát triển.",
+      "commonMistake": "Không chuyển sang Simple Past khi mô tả các tình huống nền đang diễn ra - Past Continuous duy trì cảm giác về các hoạt động đồng thời, đang diễn ra."
+    },
+    "reusablePattern": "A couple of years ago, I was trying to improve my fitness, friends were joining classes, and healthy food was becoming more available."
+  },
+  {
+    "id": "ptc-speak-health-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what was happening in public health during a crisis"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "What was happening in the field of public health during a recent health crisis?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "During the recent pandemic, the public health sector was facing enormous challenges. Hospitals were struggling to cope with the surge in patients, healthcare workers were working extremely long hours, and governments were racing to secure vaccines. At the same time, researchers were collaborating across borders to develop treatments, and communities were adapting to new social distancing measures.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "an ongoing public health challenge",
+        "responses that were happening simultaneously"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "subject + was/were + V-ing (ongoing past health events)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'During the crisis, hospitals were … and governments were …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả nhiều sự kiện đang diễn ra đồng thời trong một cuộc khủng hoảng sức khỏe bằng cách sử dụng Past Continuous một cách hiệu quả.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về diễn biến phức tạp, đang diễn ra của tình trạng khẩn cấp về sức khỏe cộng đồng.",
+      "bandTip": "Hiển thị nhiều hành động đang diễn ra song song — 'were struggling', 'were working', 'were racing', 'were collaborating' — thể hiện khả năng phân tích trôi chảy.",
+      "commonMistake": "Không sử dụng Simple Past để mô tả các tình huống đang diễn ra trong một cuộc khủng hoảng - Past Continuous truyền tải cường độ và thời lượng tốt hơn."
+    },
+    "reusablePattern": "During the pandemic, hospitals were struggling, healthcare workers were working long hours, and governments were racing to secure vaccines."
+  },
+  {
+    "id": "ptc-speak-work-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 2",
+      "context": "Describing an ongoing work experience in the past"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "Describe what you were doing at work during a particularly busy or challenging period."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "Last year, I was working on a major project with a very tight deadline. I was managing a small team, and we were all putting in extra hours to meet the target. While I was coordinating with different departments, my colleagues were handling the technical aspects of the project. It was exhausting, but we were learning a lot about teamwork and problem-solving under pressure.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific past work experience in progress",
+        "background details using Past Continuous"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "I + was/were + V-ing (ongoing past work activities)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'Last year, I was working on a project and was …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả một khoảng thời gian làm việc bận rộn với các chi tiết sinh động đang diễn ra bằng cách sử dụng Past Continuous xuyên suốt.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 2 khi mô tả kinh nghiệm làm việc trước đây với nhiều hoạt động và thử thách đang diễn ra.",
+      "bandTip": "Mô tả đồng thời những điều khác nhau của những người 'were doing' - 'I was managing … colleagues were handling …' - làm cho câu trả lời Part 2 của bạn phát triển hơn.",
+      "commonMistake": "Không chuyển sang Simple Past khi mô tả những gì đã xảy ra trong một khoảng thời gian đang diễn ra - Past Continuous duy trì cảm giác về hoạt động đang diễn ra."
+    },
+    "reusablePattern": "Last year, I was working on a major project, managing a team, and coordinating with different departments under a tight deadline."
+  },
+  {
+    "id": "ptc-speak-work-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how working conditions were changing during a past period"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Past Continuous.",
+      "cue": "How were working conditions changing for employees during the shift to remote work?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "During the shift to remote work, working conditions were changing dramatically. Employees were adjusting to working from home, companies were investing in digital communication tools, and managers were developing new strategies to maintain team productivity. At the same time, the boundary between work and personal life was becoming increasingly blurred, and many workers were experiencing higher levels of stress and isolation.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "ongoing changes in working conditions",
+        "the broader context of the remote work transition"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "requiredStructure": "subject + was/were + V-ing (ongoing workplace changes)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'During the shift, employees were … and companies were …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả nhiều thay đổi đang diễn ra tại nơi làm việc bằng cách sử dụng Past Continuous để thể hiện quy mô của quá trình chuyển đổi.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về cách môi trường làm việc phát triển trong thời kỳ thay đổi.",
+      "bandTip": "Mô tả nhiều thay đổi đồng thời — 'were adjusting', 'were investing', 'were developing', 'was becoming' — hiển thị độ sâu phân tích có giá trị ở Band 6.5+.",
+      "commonMistake": "Không sử dụng Simple Past cho những thay đổi dần dần, đang diễn ra - Past Continuous truyền tải tốt hơn cảm giác về một quá trình chuyển đổi vẫn đang diễn ra."
+    },
+    "reusablePattern": "During the shift, employees were adjusting, companies were investing in tools, and the boundary between work and life was becoming blurred."
+  },
+  {
+    "id": "ptc-master-env-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about what was happening environmentally while governments debated"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express what was happening to the natural environment while international leaders were debating climate policies.",
+      "constraints": [
+        "Use Past Continuous in both clauses",
+        "Include a contrast between environmental damage and political debate",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While international leaders were debating the terms of climate agreements, the natural environment was deteriorating at an alarming rate, with rising sea levels and increasing deforestation threatening ecosystems worldwide.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "environmental damage as an ongoing process",
+        "political debate as a parallel ongoing situation"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "While + S + was/were + V-ing, S + was/were + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã đối chiếu hai tình huống đang diễn ra bằng cách sử dụng các mệnh đề Past Continuous song song trong một câu trang trọng, gắn kết.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi lập luận rằng việc không hành động chính trị không phù hợp với tốc độ suy thoái môi trường.",
+      "bandTip": "Mẫu 'While X was V-ing, Y was V-ing' với các cụm danh từ phong phú thể hiện khả năng kiểm soát ngữ pháp và từ vựng của Band 7.",
+      "commonMistake": "Không trộn lẫn các thì trong cấu trúc này - cả hai mệnh đề đều mô tả các tình huống đang diễn ra và nên sử dụng Past Continuous."
+    },
+    "reusablePattern": "While international leaders were debating climate agreements, the natural environment was deteriorating at an alarming rate."
+  },
+  {
+    "id": "ptc-master-tech-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about what was happening in technology and society simultaneously"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how the technology sector was transforming everyday communication while traditional industries were struggling to adapt.",
+      "constraints": [
+        "Use Past Continuous to describe both ongoing processes",
+        "Include both a positive and a negative aspect",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The technology sector was fundamentally transforming everyday communication through digital platforms while traditional industries were struggling to adapt to the pace of technological change.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "technology transforming communication as an ongoing process",
+        "traditional industries struggling as a parallel ongoing problem"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "S + was + V-ing + O + while + S + was/were + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Tuyệt vời - bạn đã nắm bắt được hai diễn biến tương phản đang diễn ra trong một câu cân bằng duy nhất bằng cách sử dụng Past Continuous nhất quán.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi trình bày quan điểm cân bằng về các tác động tích cực và tiêu cực đồng thời của công nghệ.",
+      "bandTip": "Cân bằng sự phát triển tích cực với sự phát triển tiêu cực bằng cách sử dụng 'while' thể hiện lối suy nghĩ đa sắc thái được mong đợi ở Band 7.",
+      "commonMistake": "Không sử dụng Simple Past cho một trong hai mệnh đề - cả hai quá trình đều đang diễn ra và song song, yêu cầu Past Continuous."
+    },
+    "reusablePattern": "The technology sector was transforming everyday communication while traditional industries were struggling to adapt to the pace of change."
+  },
+  {
+    "id": "ptc-master-edu-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about competing trends in education"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how online education was expanding access to learning while concerns about educational quality were also growing.",
+      "constraints": [
+        "Use Past Continuous in both clauses",
+        "Include both a benefit and a concern",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Online education was dramatically expanding access to learning for millions of students worldwide, although concerns about the quality and rigour of virtual instruction were also growing among educators and policymakers.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "online education expanding access as an ongoing benefit",
+        "growing quality concerns as a parallel ongoing worry"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "S + was + V-ing + O + although + S + was/were + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã cân bằng được xu hướng tích cực đang diễn ra với mối quan tâm đồng thời bằng cách sử dụng Past Continuous trong một câu trang trọng, có sắc thái.",
+      "ieltsUsage": "Hữu ích như một tuyên bố luận điểm trong Writing Task 2 khi trình bày quan điểm cân bằng về tác động liên tục của giáo dục trực tuyến.",
+      "bandTip": "Sử dụng 'although' với hai mệnh đề Past Continuous cho thấy Band 7 sự cân bằng có tính nhượng bộ và tính nhất quán căng thẳng.",
+      "commonMistake": "Không sử dụng Simple Past cho một trong hai mệnh đề - cả phần mở rộng và mối quan tâm đều là các quy trình đang diễn ra yêu cầu Past Continuous."
+    },
+    "reusablePattern": "Online education was expanding access to learning for millions, although concerns about the quality of virtual instruction were also growing."
+  },
+  {
+    "id": "ptc-master-health-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about what was driving the rise of chronic diseases"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express what lifestyle factors were contributing to the increase in chronic diseases while medical science was advancing.",
+      "constraints": [
+        "Use Past Continuous to describe both ongoing processes",
+        "Include a contrast between unhealthy trends and medical progress",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Sedentary lifestyles and poor dietary habits were contributing to a sharp increase in chronic diseases, even as medical science was making remarkable advances in treatment and prevention.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "unhealthy lifestyle factors driving disease as an ongoing process",
+        "medical advancement as a parallel ongoing positive development"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "S + was/were + V-ing + O, even as + S + was + V-ing + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã so sánh xu hướng lối sống tiêu cực với những tiến bộ y tế tích cực trong một câu trang trọng duy nhất bằng cách sử dụng nhất quán Past Continuous.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi tranh luận về nghịch lý của việc bệnh mãn tính gia tăng bất chấp tiến bộ y tế.",
+      "bandTip": "'Even as' tạo ra sự tương phản mạnh mẽ giữa hai quy trình đang diễn ra đồng thời — một trình kết nối phức tạp để viết Band 7.",
+      "commonMistake": "Không trộn lẫn các thì - cả xu hướng tiêu cực và sự phát triển tích cực đều đang diễn ra, vì vậy cả hai đều yêu cầu Past Continuous."
+    },
+    "reusablePattern": "Sedentary lifestyles were contributing to a rise in chronic diseases, even as medical science was making remarkable advances in treatment."
+  },
+  {
+    "id": "ptc-master-work-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about how the labour market was being reshaped by technology"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how automation was eliminating routine jobs while the gig economy was creating new forms of precarious employment.",
+      "constraints": [
+        "Use Past Continuous to describe both ongoing processes",
+        "Include both the loss of traditional jobs and the rise of insecure work",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Automation was steadily eliminating routine manufacturing and clerical jobs while the gig economy was simultaneously creating new forms of precarious, short-term employment that lacked traditional worker protections.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "automation eliminating traditional jobs as an ongoing process",
+        "gig economy creating precarious work as a parallel ongoing development"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "past continuous",
+      "pattern": "S + was + V-ing + O + while + S + was + V-ing + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã nắm bắt được hai sự thay đổi đang diễn ra song song của thị trường lao động trong một câu trang trọng, chính xác duy nhất bằng cách sử dụng Past Continuous nhất quán.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi tranh luận về những tác động phức tạp, đồng thời của công nghệ đối với thị trường việc làm.",
+      "bandTip": "Việc sử dụng 'while … was simultaneously V-ing' nhấn mạnh tính chất song song và đồng thời của những ca làm việc này - cấu trúc Band 7.",
+      "commonMistake": "Không sử dụng Simple Past cho một trong hai điều khoản - cả tình trạng mất việc làm và sự gia tăng công việc tự do đều là các quá trình diễn ra dần dần, đòi hỏi phải có Past Continuous."
+    },
+    "reusablePattern": "Automation was eliminating routine jobs while the gig economy was creating new forms of precarious employment."
+  }
+]

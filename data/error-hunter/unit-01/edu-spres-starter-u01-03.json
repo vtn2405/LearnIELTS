@@ -1,0 +1,124 @@
+{
+  "slug": "edu-spres-starter-u01-03",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Education",
+  "taskType": "SPEAKING_PART2",
+  "bandTarget": 4.0,
+  "difficulty": "STARTER",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 2: Education — Simple Present",
+  "titleVi": "IELTS Speaking Part 2: Giáo dục — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "Describe your favourite subject at school.",
+    "bulletPoints": [
+      "What the subject is",
+      "What you learn in it",
+      "Why you enjoy it",
+      "How the teacher makes it interesting"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "My favourite subject is definitely science because I love learning about how the world works. Our teacher always explain things using fun experiments, and that really helps me understand better. I feel excited every time we go to the laboratory, even though some of my classmates find it boring. I think science teach us how to think carefully and ask good questions.",
+  "totalErrors": 2,
+  "errors": [
+    {
+      "errorText": "Our teacher always explain things",
+      "correctText": "Our teacher always explains things",
+      "acceptedAnswers": [
+        "Our teacher always explains things"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Our teacher' is third-person singular — the verb needs -s: 'explains', not 'explain'.",
+      "explanationVi": "'Our teacher' là ngôi thứ ba số ít — động từ cần thêm -s: 'explains', không phải 'explain'.",
+      "grammarRuleCode": "SPRES-005",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 1,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 94,
+      "endIndex": 127
+    },
+    {
+      "errorText": "science teach us",
+      "correctText": "science teaches us",
+      "acceptedAnswers": [
+        "science teaches us"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Science' is a singular subject, so the verb requires -es: 'teaches', not 'teach'.",
+      "explanationVi": "'Science' là chủ ngữ số ít, nên động từ cần thêm -es: 'teaches', không phải 'teach'.",
+      "grammarRuleCode": "SPRES-006",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 304,
+      "endIndex": 320
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "some of my classmates find it boring",
+      "hint": "'Find' is correct — 'classmates' is plural, so the base form 'find' is used, not 'finds'.",
+      "startIndex": 258,
+      "endIndex": 294
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "how the world works",
+      "sourceInPassage": "how the world works",
+      "translation": "thế giới vận hành như thế nào",
+      "exampleSentence": "Children are naturally curious about how the world works.",
+      "grammarNote": "'How + S + V' — không dùng 'how does the world works' trong mệnh đề danh từ"
+    },
+    {
+      "phrase": "fun experiments",
+      "sourceInPassage": "fun experiments",
+      "translation": "thí nghiệm vui",
+      "exampleSentence": "The teacher uses fun experiments to help students understand chemistry.",
+      "grammarNote": "'Fun' dùng như tính từ trước danh từ — tự nhiên trong văn nói"
+    },
+    {
+      "phrase": "understand better",
+      "sourceInPassage": "helps me understand better",
+      "translation": "hiểu rõ hơn",
+      "exampleSentence": "Watching videos online helps me understand better when the textbook is confusing.",
+      "grammarNote": "'Help + somebody + V(bare)' — không dùng 'helps me to understand' trong văn nói tự nhiên"
+    },
+    {
+      "phrase": "ask good questions",
+      "sourceInPassage": "ask good questions",
+      "translation": "đặt câu hỏi hay",
+      "exampleSentence": "A good student knows how to ask good questions during class.",
+      "grammarNote": "'Ask questions' — không dùng 'make questions' hay 'do questions'"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "THIRD_PERSON_S_OMISSION"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 75,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "School Subjects",
+      "discourseSituation": "A student emotionally describing why they love science class",
+      "discourseMood": "reflective",
+      "learnerVoice": "emotional",
+      "errorStrategy": "mixed",
+      "cognitiveLoad": "medium"
+    }
+  }
+}

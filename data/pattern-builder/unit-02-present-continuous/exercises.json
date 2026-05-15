@@ -1,0 +1,3281 @@
+[
+  {
+    "id": "pc-fill-env-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a current environmental trend"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The global temperature [________] rising due to increased greenhouse gas emissions."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "be"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'the global temperature' - số ít hay số nhiều?",
+      "hintLevel2": "Với chủ ngữ số ít, bạn cần 'is' làm trợ động từ trước dạng -ing.",
+      "hintLevel3": "Cấu trúc: The global temperature + is + rising."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã khớp chủ đề số ít 'the global temperature' với 'is' để tạo thành Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả xu hướng môi trường đang diễn ra hiện tại hoặc xung quanh hiện tại.",
+      "bandTip": "Để đạt được Band 6, hãy sử dụng Present Continuous để thay đổi xu hướng: 'temperatures are rising', 'sea levels are climbing'.",
+      "commonMistake": "Không sử dụng 'are' với chủ đề số ít như 'the global temperature'; luôn sử dụng 'is'."
+    },
+    "reusablePattern": "The global temperature is rising due to increased greenhouse gas emissions."
+  },
+  {
+    "id": "pc-fill-env-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what people are failing to do for the environment right now"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Many governments [________] not investing enough in renewable energy at the moment."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "are",
+        "Are"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "is",
+        "am",
+        "were",
+        "be"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous negative, plural subject",
+      "pattern": "subject (plural) + are + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'many governments' là số nhiều - bạn sử dụng trợ động từ nào?",
+      "hintLevel2": "Với chủ ngữ số nhiều, dùng 'are' trước 'not' và dạng -ing.",
+      "hintLevel3": "Cấu trúc: Many governments + are + not + investing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'are' với chủ ngữ số nhiều 'many governments' để tạo thành phủ định Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những nhóm người hoặc tổ chức hiện chưa làm được.",
+      "bandTip": "Trong cách nói trang trọng, thích 'are not' hơn 'aren't' để duy trì hồ sơ học tập.",
+      "commonMistake": "Không sử dụng 'is not' với chủ ngữ số nhiều như 'many governments'; 'is' chỉ dành cho he/she/it."
+    },
+    "reusablePattern": "Many governments are not investing enough in renewable energy at the moment."
+  },
+  {
+    "id": "pc-fill-env-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about current environmental initiatives"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] your local community doing anything to reduce plastic waste this year?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Is",
+        "is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Are",
+        "are",
+        "Does",
+        "Do"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous question, third-person singular",
+      "pattern": "Is + subject (singular) + V-ing?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'your local community' - số ít hay số nhiều?",
+      "hintLevel2": "Đối với câu hỏi có/không về một chủ thể đơn lẻ đang làm gì đó, hãy bắt đầu bằng 'Is'.",
+      "hintLevel3": "Cấu trúc: Is + your local community + doing...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Is' để tạo thành câu hỏi Present Continuous về chủ đề số ít 'your local community'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về những nỗ lực môi trường quốc gia hoặc địa phương hiện tại.",
+      "bandTip": "Khi trả lời câu hỏi 'Is…?' trong bài thi Nói IELTS, hãy đưa ra câu trả lời đầy đủ kèm theo ví dụ thay vì chỉ 'Yes' hoặc 'No'.",
+      "commonMistake": "Không sử dụng 'Are' với chủ đề số ít như 'your local community'; luôn sử dụng 'Is' cho he/she/it hoặc danh từ số ít."
+    },
+    "reusablePattern": "Is your local community doing anything to reduce plastic waste this year?"
+  },
+  {
+    "id": "pc-fill-env-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Describing a currently shifting environmental attitude"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Public awareness of climate change [________] growing rapidly across the world."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "be",
+        "grows"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'public awareness' là số ít - trợ động từ nào phù hợp?",
+      "hintLevel2": "Đối với tình huống hiện đang thay đổi hoặc đang phát triển, hãy sử dụng 'is' + V-ing.",
+      "hintLevel3": "Cấu trúc: Public awareness + is + growing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'is' với chủ đề số ít 'public awareness' để mô tả một sự thay đổi đang diễn ra.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 hoặc Part 3 khi mô tả một xu hướng hiện đang phát triển.",
+      "bandTip": "Sử dụng Present Continuous theo xu hướng - 'is becoming', 'is growing', 'is shifting' - báo hiệu phạm vi ngữ pháp cao hơn trong IELTS.",
+      "commonMistake": "Không sử dụng Simple Present 'grows' ở đây - câu mô tả sự thay đổi đang diễn ra, yêu cầu Present Continuous."
+    },
+    "reusablePattern": "Public awareness of climate change is growing rapidly across the world."
+  },
+  {
+    "id": "pc-fill-tech-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing how a person is currently using technology"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "My younger sister [________] spending more and more time on social media these days."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "spends"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'my younger sister' - đây là số ít hay số nhiều?",
+      "hintLevel2": "Chủ ngữ ngôi thứ ba số ít (cô ấy) sử dụng 'is' làm trợ từ trong Present Continuous.",
+      "hintLevel3": "Cấu trúc: My younger sister + is + spending."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã khớp chủ đề số ít 'my younger sister' với 'is' để tạo thành Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả thói quen công nghệ hiện tại hoặc đang thay đổi của ai đó.",
+      "bandTip": "Các cụm từ như 'these days' và 'more and more' báo hiệu Present Continuous là lựa chọn thì đúng.",
+      "commonMistake": "Không sử dụng 'are' với chủ ngữ số ít; luôn sử dụng 'is' cho he/she/it."
+    },
+    "reusablePattern": "My younger sister is spending more and more time on social media these days."
+  },
+  {
+    "id": "pc-fill-tech-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what AI is currently not achieving in the workplace"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Automation [________] not replacing skilled professionals in most sectors yet."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "does not",
+        "doesn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous negative, third-person singular",
+      "pattern": "subject (singular) + is + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'automation' là số ít - trợ động từ nào đi với chủ ngữ số ít ở dạng tiếp diễn?",
+      "hintLevel2": "Sử dụng 'is not' trước dạng -ing để tạo âm Present Continuous với chủ ngữ số ít.",
+      "hintLevel3": "Cấu trúc: Automation + is + not + replacing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'is not' với chủ ngữ số ít 'automation' để tạo thành phủ định Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi đưa ra phản biện về tốc độ thay thế AI hiện tại.",
+      "bandTip": "Trong bối cảnh trang trọng, 'is not' nghe có vẻ mang tính học thuật hơn 'isn't'; sử dụng dạng đầy đủ trong các câu trả lời IELTS có cấu trúc.",
+      "commonMistake": "Không sử dụng 'are not' với chủ đề số ít như 'automation'; luôn sử dụng 'is not'."
+    },
+    "reusablePattern": "Automation is not replacing skilled professionals in most sectors yet."
+  },
+  {
+    "id": "pc-fill-tech-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about current online communication trends"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] most teenagers moving away from traditional phone calls toward messaging apps?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Are",
+        "are"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Is",
+        "is",
+        "Do",
+        "Does"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous question, plural subject",
+      "pattern": "Are + subject (plural) + V-ing?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'most teenagers' - đây là số ít hay số nhiều?",
+      "hintLevel2": "Đối với câu hỏi có chủ ngữ số nhiều trong Present Continuous, hãy sử dụng 'Are' ở đầu.",
+      "hintLevel3": "Cấu trúc: Are + most teenagers + moving...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Are' để tạo thành câu hỏi Present Continuous với chủ ngữ số nhiều 'most teenagers'.",
+      "ieltsUsage": "Hữu ích khi giám khảo ở Speaking Part 1 hỏi về xu hướng hiện nay của giới trẻ.",
+      "bandTip": "Khi hình thành câu hỏi Present Continuous trong IELTS Nói, hãy đảm bảo động từ -ing theo sát chủ ngữ.",
+      "commonMistake": "Không sử dụng 'Is' với chủ ngữ số nhiều như 'most teenagers'; 'Is' chỉ dành cho he/she/it hoặc danh từ số ít."
+    },
+    "reusablePattern": "Are most teenagers moving away from traditional phone calls toward messaging apps?"
+  },
+  {
+    "id": "pc-fill-tech-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Describing how digital dependence is currently intensifying"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "He [________] increasingly relying on AI tools to complete his work tasks."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "relies"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject + is + adverb + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Hãy suy nghĩ về trợ động từ cần thiết trước dạng -ing với chủ ngữ số ít.",
+      "hintLevel2": "Với chủ ngữ số ít như 'he', hãy sử dụng 'is' trước dạng -ing.",
+      "hintLevel3": "Cấu trúc: He + is + increasingly + relying on."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'is' với chủ đề số ít 'he' để thể hiện một tình huống đang diễn ra và đang phát triển.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả hành vi của ai đó hiện đang thay đổi như thế nào.",
+      "bandTip": "Các trạng từ như 'increasingly' và 'gradually' kết hợp tự nhiên với Present Continuous để thể hiện sự thay đổi dần dần.",
+      "commonMistake": "Không sử dụng Simple Present 'relies' ở đây - 'increasingly' báo hiệu một sự thay đổi đang diễn ra, yêu cầu Present Continuous."
+    },
+    "reusablePattern": "He is increasingly relying on AI tools to complete his work tasks."
+  },
+  {
+    "id": "pc-fill-edu-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a teacher's current classroom activity"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The teacher [________] experimenting with new digital tools to engage students."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "experiments"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'the teacher' - hãy nghĩ xem nó là số ít hay số nhiều.",
+      "hintLevel2": "Chủ ngữ số ít trong Present Continuous yêu cầu 'is' trước dạng -ing.",
+      "hintLevel3": "Cấu trúc: The teacher + is + experimenting."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'is' với chủ đề số ít 'the teacher' để mô tả một hoạt động tạm thời hiện tại.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả những gì giáo viên hiện đang làm trong lớp.",
+      "bandTip": "Sử dụng 'is experimenting' thay vì 'is trying' cho thấy phạm vi từ vựng rộng hơn và có thể nâng cao điểm từ vựng của bạn.",
+      "commonMistake": "Không sử dụng 'are' với chủ đề số ít như 'the teacher'; luôn sử dụng 'is'."
+    },
+    "reusablePattern": "The teacher is experimenting with new digital tools to engage students."
+  },
+  {
+    "id": "pc-fill-edu-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the current shift toward online learning"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Online learning [________] not replacing the social value of traditional classrooms yet."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "does not",
+        "doesn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous negative, third-person singular",
+      "pattern": "subject (singular) + is + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'online learning' là số ít - phụ trợ nào khớp với chủ ngữ số ít ở dạng tiếp diễn?",
+      "hintLevel2": "Sử dụng 'is not' trước dạng -ing khi chủ ngữ ở số ít.",
+      "hintLevel3": "Cấu trúc: Online learning + is + not + replacing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'is not' với chủ ngữ số ít 'online learning' để tạo thành phủ định Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi xác định những hạn chế hiện tại của giáo dục kỹ thuật số.",
+      "bandTip": "Nói 'is not yet replacing' nghe có vẻ mang nhiều sắc thái và học thuật hơn là chỉ đơn giản là 'does not replace'.",
+      "commonMistake": "Đừng nhầm lẫn 'is not' (Present Continuous) với 'does not' (Simple Present); chúng báo hiệu các khung thời gian khác nhau."
+    },
+    "reusablePattern": "Online learning is not replacing the social value of traditional classrooms yet."
+  },
+  {
+    "id": "pc-fill-edu-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about current study habits"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] university students increasingly choosing online courses over campus-based ones?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Are",
+        "are"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Is",
+        "is",
+        "Do",
+        "Does"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous question, plural subject",
+      "pattern": "Are + subject (plural) + V-ing?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'university students' - nó là số ít hay số nhiều?",
+      "hintLevel2": "Đối với câu hỏi có chủ ngữ số nhiều trong Present Continuous, hãy bắt đầu bằng 'Are'.",
+      "hintLevel3": "Cấu trúc: Are + university students + choosing...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Are' đúng với chủ ngữ số nhiều 'university students' trong câu hỏi Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi trả lời các câu hỏi về xu hướng học tập hiện nay.",
+      "bandTip": "Trong IELTS Nói, hãy đưa ra câu trả lời đầy đủ, phát triển sau câu hỏi có/không thay vì trả lời một từ.",
+      "commonMistake": "Không sử dụng 'Is' với chủ ngữ số nhiều; 'Is' được dành riêng cho chủ đề ngôi thứ ba số ít."
+    },
+    "reusablePattern": "Are university students increasingly choosing online courses over campus-based ones?"
+  },
+  {
+    "id": "pc-fill-edu-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Describing how education systems are currently adapting"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "She [________] gradually recognising the importance of self-directed learning."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "recognises"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous with gradual change",
+      "pattern": "subject + is + adverb + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Động từ phụ nào đi cùng với 'she' trong Present Continuous?",
+      "hintLevel2": "Sử dụng 'is' trước dạng -ing để thể hiện sự thay đổi dần dần và đang diễn ra.",
+      "hintLevel3": "Cấu trúc: She + is + gradually + recognising."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'is' để thể hiện một quá trình thay đổi đang diễn ra với chủ đề số ít 'she'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi nhấn mạnh sự hiểu biết hoặc thái độ của ai đó hiện đang phát triển như thế nào.",
+      "bandTip": "Lưu ý: 'recognise' là động từ chỉ trạng thái; tuy nhiên, khi được dùng với nghĩa 'beginning to realise', nó có thể xuất hiện ở dạng tiếp diễn để thể hiện nhận thức đang phát triển.",
+      "commonMistake": "Không sử dụng Simple Present 'recognises' ở đây - 'gradually' báo hiệu một sự thay đổi đang diễn ra yêu cầu Present Continuous."
+    },
+    "reusablePattern": "She is gradually recognising the importance of self-directed learning."
+  },
+  {
+    "id": "pc-fill-health-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a person's current exercise routine"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "My neighbour [________] training for a marathon at the moment."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "trains"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'my neighbour' - một danh từ ngôi thứ ba số ít.",
+      "hintLevel2": "Chủ ngữ ngôi thứ ba số ít cần có 'is' trước dạng -ing.",
+      "hintLevel3": "Cấu trúc: My neighbour + is + training."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'is' với chủ đề số ít 'my neighbour' để mô tả một hoạt động hiện tại, tạm thời.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả các hoạt động thể chất và sức khỏe hiện tại của ai đó.",
+      "bandTip": "Các từ tín hiệu như 'at the moment', 'currently' và 'right now' xác nhận rằng Present Continuous là lựa chọn đúng đắn.",
+      "commonMistake": "Không sử dụng 'trains' (Simple Present) ở đây - 'at the moment' biểu thị một hành động tạm thời đang diễn ra."
+    },
+    "reusablePattern": "My neighbour is training for a marathon at the moment."
+  },
+  {
+    "id": "pc-fill-health-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how unhealthy eating habits are currently worsening"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Fast food consumption [________] not declining despite growing health awareness."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "does not",
+        "doesn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous negative, third-person singular",
+      "pattern": "subject (singular) + is + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'fast food consumption' là số ít - bạn cần trợ từ nào?",
+      "hintLevel2": "Chủ ngữ số ít dùng 'is not' trước dạng -ing trong Present Continuous.",
+      "hintLevel3": "Cấu trúc: Fast food consumption + is + not + declining."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'is not' với chủ ngữ số ít 'fast food consumption' để tạo thành phủ định Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận tại sao vấn đề sức khỏe vẫn tồn tại bất chấp nhận thức của cộng đồng.",
+      "bandTip": "Trong lời nói trang trọng, 'is not' nghe có vẻ học thuật hơn 'isn't'; sử dụng dạng đầy đủ trong các câu trả lời IELTS có cấu trúc.",
+      "commonMistake": "Đừng viết 'fast food consumption are not' - 'fast food consumption' là một cụm danh từ số ít và yêu cầu 'is not'."
+    },
+    "reusablePattern": "Fast food consumption is not declining despite growing health awareness."
+  },
+  {
+    "id": "pc-fill-health-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about someone's current exercise activity"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] regular physical exercise becoming more popular among office workers these days?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Is",
+        "is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Are",
+        "are",
+        "Does",
+        "Do"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous question, third-person singular",
+      "pattern": "Is + subject (singular) + V-ing?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'regular physical exercise' - nó là số ít hay số nhiều?",
+      "hintLevel2": "Chủ ngữ số ít trong câu hỏi có/không Present Continuous yêu cầu 'Is' khi bắt đầu.",
+      "hintLevel3": "Cấu trúc: Is + regular physical exercise + becoming...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Is' để tạo thành câu hỏi Present Continuous về chủ đề số ít 'regular physical exercise'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về xu hướng sức khỏe hiện tại giữa các nhóm người cụ thể.",
+      "bandTip": "Sau khi trả lời 'Is…?' trong Speaking IELTS, hãy thêm lý do hoặc ví dụ cá nhân để phát triển câu trả lời của bạn.",
+      "commonMistake": "Không sử dụng 'Are' với chủ ngữ số ít; luôn sử dụng 'Is' cho he/she/it hoặc danh từ số ít."
+    },
+    "reusablePattern": "Is regular physical exercise becoming more popular among office workers these days?"
+  },
+  {
+    "id": "pc-fill-health-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how attitudes toward mental health are currently changing"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "She [________] increasingly advocating for better mental health support in the workplace."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "advocates"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject + is + adverb + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Động từ phụ nào đi với chủ ngữ số ít 'she' trong Present Continuous?",
+      "hintLevel2": "Sử dụng 'is' trước dạng -ing để thể hiện một hành động đang diễn ra và đang phát triển.",
+      "hintLevel3": "Cấu trúc: She + is + increasingly + advocating."
+    },
+    "feedback": {
+      "correct": "Đúng rồi - bạn đặt 'is' trước động từ -ing để thể hiện quan điểm đang phát triển, đang diễn ra.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thể hiện quan điểm hoặc hành động của ai đó hiện đang phát triển như thế nào.",
+      "bandTip": "Các trạng từ như 'increasingly' và 'more and more' kết hợp tự nhiên với Present Continuous để mô tả sự thay đổi dần dần.",
+      "commonMistake": "Đừng nói 'she advocates' ở đây - 'increasingly' báo hiệu sự thay đổi đang diễn ra, khiến Present Continuous trở thành lựa chọn chính xác."
+    },
+    "reusablePattern": "She is increasingly advocating for better mental health support in the workplace."
+  },
+  {
+    "id": "pc-fill-work-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a colleague's current work activity"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "My manager [________] reviewing the team's performance metrics this week."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "reviews"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'my manager' là một danh từ số ít - nó cần trợ động từ gì?",
+      "hintLevel2": "Chủ ngữ ngôi thứ ba số ít cần có 'is' trước dạng -ing.",
+      "hintLevel3": "Cấu trúc: My manager + is + reviewing."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã khớp chủ đề số ít 'my manager' với 'is' trong Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả những gì đồng nghiệp hoặc người quản lý hiện đang làm tại nơi làm việc.",
+      "bandTip": "Các biểu thức thời gian như 'this week' và 'currently' xác nhận rằng Present Continuous, không phải Simple Present, là cần thiết.",
+      "commonMistake": "Đừng quên thêm 'is' trước động từ -ing khi chủ ngữ là ngôi thứ ba số ít."
+    },
+    "reusablePattern": "My manager is reviewing the team's performance metrics this week."
+  },
+  {
+    "id": "pc-fill-work-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing current challenges in work-life balance"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Remote work [________] not always delivering the work-life balance employees expected."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "does not",
+        "doesn't"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous negative, third-person singular",
+      "pattern": "subject (singular) + is + not + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'remote work' là số ít - trợ động từ nào đi với chủ ngữ số ít ở dạng tiếp diễn?",
+      "hintLevel2": "Sử dụng 'is not' trước dạng -ing khi chủ ngữ ở số ít trong Present Continuous.",
+      "hintLevel3": "Cấu trúc: Remote work + is + not + always delivering."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'is not' với chủ ngữ số ít 'remote work' để tạo thành phủ định Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những hạn chế hiện tại của làm việc từ xa đối với sức khỏe của nhân viên.",
+      "bandTip": "Thêm một sự nhượng bộ — 'While remote work has benefits, it is not always delivering the balance people hoped for' — nghe có vẻ hay hơn Band 7.",
+      "commonMistake": "Không sử dụng 'are not' với chủ đề số ít như 'remote work'; luôn sử dụng 'is not'."
+    },
+    "reusablePattern": "Remote work is not always delivering the work-life balance employees expected."
+  },
+  {
+    "id": "pc-fill-work-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about current career development activities"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] your company currently expanding its training programmes for staff?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Is",
+        "is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Are",
+        "are",
+        "Does",
+        "Do"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous question, third-person singular",
+      "pattern": "Is + subject (singular) + V-ing?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'your company' - nó là số ít hay số nhiều?",
+      "hintLevel2": "Đối với câu hỏi có/không trong Present Continuous với chủ đề số ít, hãy bắt đầu bằng 'Is'.",
+      "hintLevel3": "Cấu trúc: Is + your company + expanding...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Is' để bắt đầu câu hỏi Present Continuous về chủ đề số ít 'your company'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi trả lời các câu hỏi của giám khảo về những thay đổi hiện tại tại nơi làm việc của bạn.",
+      "bandTip": "Trả lời các câu hỏi 'Is your company…?' bằng một câu đầy đủ kèm theo một ví dụ cụ thể để phát triển câu trả lời của bạn.",
+      "commonMistake": "Không sử dụng 'Are' với chủ đề số ít như 'your company'; luôn sử dụng 'Is'."
+    },
+    "reusablePattern": "Is your company currently expanding its training programmes for staff?"
+  },
+  {
+    "id": "pc-fill-work-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Describing how an employee is currently adapting to change"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "He [________] gradually adapting to the demands of his new remote position."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "is",
+        "Is"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "are",
+        "am",
+        "was",
+        "adapts"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject + is + adverb + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Hãy nghĩ đến trợ động từ cần thiết trước dạng -ing với chủ ngữ số ít.",
+      "hintLevel2": "Trạng từ chỉ tần suất hoặc mức độ như 'gradually' đứng ngay trước động từ -ing chính.",
+      "hintLevel3": "Cấu trúc: He + is + gradually + adapting."
+    },
+    "feedback": {
+      "correct": "Đúng rồi — bạn đã đặt 'is' trước động từ -ing để thể hiện quá trình thích ứng đang diễn ra.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả cách bạn hoặc đồng nghiệp hiện đang điều chỉnh để thích ứng với những thay đổi tại nơi làm việc.",
+      "bandTip": "Các trạng từ như 'gradually' hoặc 'slowly' kết hợp tự nhiên với Present Continuous để thể hiện sự thay đổi tăng dần.",
+      "commonMistake": "Không đặt trợ động từ 'is' sau trạng từ; nó phải đứng trước: 'He is gradually adapting', không phải 'He gradually is adapting'."
+    },
+    "reusablePattern": "He is gradually adapting to the demands of his new remote position."
+  },
+  {
+    "id": "pc-build-env-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a city's current approach to pollution control"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The city government [________] stricter environmental regulations this year."
+    },
+    "chips": [
+      "is enforcing",
+      "enforces",
+      "enforced",
+      "are enforcing",
+      "stricter environmental regulations this year",
+      "The city government"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The city government",
+        "is enforcing",
+        "stricter environmental regulations this year"
+      ],
+      "distractors": [
+        "enforces",
+        "enforced",
+        "are enforcing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is enforcing' là dạng Present Continuous phù hợp cho chủ ngữ số ít 'the city government'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả những gì chính quyền địa phương hiện đang làm về các vấn đề môi trường.",
+      "bandTip": "Các động từ như 'is implementing', 'is introducing' hoặc 'is tightening' nghe có vẻ học thuật hơn 'is doing'.",
+      "commonMistake": "Không sử dụng 'enforces' (Simple Present) khi 'this year' báo hiệu một hành động tạm thời đang diễn ra."
+    },
+    "reusablePattern": "The city government is enforcing stricter environmental regulations this year."
+  },
+  {
+    "id": "pc-build-env-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing current recycling behaviour"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many residents [________] their household waste properly these days."
+    },
+    "chips": [
+      "are not sorting",
+      "sort",
+      "sorts",
+      "is not sorting",
+      "their household waste properly these days",
+      "Many residents"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many residents",
+        "are not sorting",
+        "their household waste properly these days"
+      ],
+      "distractors": [
+        "sort",
+        "sorts",
+        "is not sorting"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous negative, plural subject",
+      "pattern": "subject (plural) + are + not + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'are not sorting' là dạng phủ định Present Continuous chính xác cho chủ ngữ số nhiều 'many residents'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận lý do tại sao tỷ lệ tái chế ở nhiều cộng đồng hiện nay vẫn ở mức thấp.",
+      "bandTip": "Giải thích lý do - 'are not sorting … due to a lack of accessible recycling facilities' - tăng thêm chiều sâu cho câu trả lời IELTS của bạn.",
+      "commonMistake": "Không sử dụng 'is not sorting' (dạng số ít) với chủ ngữ số nhiều 'many residents'."
+    },
+    "reusablePattern": "Many residents are not sorting their household waste properly these days."
+  },
+  {
+    "id": "pc-build-env-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing current use of renewable energy at home"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Solar energy [________] increasingly popular as a household power source."
+    },
+    "chips": [
+      "is becoming",
+      "becomes",
+      "became",
+      "are becoming",
+      "increasingly popular as a household power source",
+      "Solar energy"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Solar energy",
+        "is becoming",
+        "increasingly popular as a household power source"
+      ],
+      "distractors": [
+        "becomes",
+        "became",
+        "are becoming"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + complement"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is becoming' khớp với chủ đề số ít 'solar energy' và mô tả xu hướng đang phát triển.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi nói về mức độ sử dụng năng lượng tái tạo hiện đang gia tăng.",
+      "bandTip": "Cụm từ '…is becoming increasingly…' là một cụm từ IELTS tuyệt vời để mô tả các xu hướng.",
+      "commonMistake": "Không sử dụng 'becomes' (Simple Present) - câu mô tả một xu hướng hiện tại, không phải một sự thật vượt thời gian."
+    },
+    "reusablePattern": "Solar energy is becoming increasingly popular as a household power source."
+  },
+  {
+    "id": "pc-build-env-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Talking about how climate change is affecting biodiversity right now"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Climate change [________] a growing threat to biodiversity across many regions."
+    },
+    "chips": [
+      "is posing",
+      "poses",
+      "posed",
+      "are posing",
+      "a growing threat to biodiversity across many regions",
+      "Climate change"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Climate change",
+        "is posing",
+        "a growing threat to biodiversity across many regions"
+      ],
+      "distractors": [
+        "poses",
+        "posed",
+        "are posing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is posing' sử dụng chính xác Present Continuous để mô tả mối đe dọa đang phát triển tích cực.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi trình bày một tuyên bố hiện tại về tác động ngày càng gia tăng của biến đổi khí hậu.",
+      "bandTip": "Cụm từ 'is posing a growing threat to' là một cụm từ phức tạp trong IELTS Writing Task 2.",
+      "commonMistake": "Không sử dụng 'poses' (Simple Present) khi câu nhấn mạnh tính chất năng động, đang diễn ra của mối đe dọa."
+    },
+    "reusablePattern": "Climate change is posing a growing threat to biodiversity across many regions."
+  },
+  {
+    "id": "pc-build-tech-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing how AI is currently changing everyday life"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Artificial intelligence [________] many industries by taking over repetitive tasks."
+    },
+    "chips": [
+      "is transforming",
+      "transforms",
+      "transformed",
+      "are transforming",
+      "many industries by taking over repetitive tasks",
+      "Artificial intelligence"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Artificial intelligence",
+        "is transforming",
+        "many industries by taking over repetitive tasks"
+      ],
+      "distractors": [
+        "transforms",
+        "transformed",
+        "are transforming"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is transforming' là dạng đúng Present Continuous cho chủ ngữ số ít 'artificial intelligence'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả tác động hiện tại của AI đối với cuộc sống và công việc hàng ngày.",
+      "bandTip": "Sử dụng 'is transforming' thay vì 'is changing' thể hiện phạm vi từ vựng rộng hơn.",
+      "commonMistake": "Không sử dụng 'transforms' (Simple Present) khi mô tả một quá trình đang phát triển, đang hoạt động."
+    },
+    "reusablePattern": "Artificial intelligence is transforming many industries by taking over repetitive tasks."
+  },
+  {
+    "id": "pc-build-tech-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing a current limitation of social media"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Social media [________] healthy communication habits among teenagers at the moment."
+    },
+    "chips": [
+      "is not encouraging",
+      "is not encourage",
+      "does not encourage",
+      "are not encouraging",
+      "healthy communication habits among teenagers at the moment",
+      "Social media"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Social media",
+        "is not encouraging",
+        "healthy communication habits among teenagers at the moment"
+      ],
+      "distractors": [
+        "is not encourage",
+        "does not encourage",
+        "are not encouraging"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous negative, third-person singular",
+      "pattern": "subject (singular) + is + not + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is not encouraging' là phủ định đúng Present Continuous cho chủ ngữ số ít 'social media'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những hạn chế hiện tại của nền tảng truyền thông xã hội.",
+      "bandTip": "Thêm lý do — 'Social media is not encouraging … because it prioritises engagement over meaningful dialogue' — nâng câu trả lời lên Band 6+.",
+      "commonMistake": "Không sử dụng 'are not encouraging' với danh từ số ít 'social media'; nó yêu cầu 'is not encouraging'."
+    },
+    "reusablePattern": "Social media is not encouraging healthy communication habits among teenagers at the moment."
+  },
+  {
+    "id": "pc-build-tech-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing daily device usage trends among young people"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many young people [________] their smartphones for learning as well as entertainment."
+    },
+    "chips": [
+      "are using",
+      "is using",
+      "used",
+      "use",
+      "their smartphones for learning as well as entertainment",
+      "Many young people"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many young people",
+        "are using",
+        "their smartphones for learning as well as entertainment"
+      ],
+      "distractors": [
+        "is using",
+        "used",
+        "use"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, plural subject",
+      "pattern": "subject (plural) + are + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'are using' là dạng Present Continuous chính xác cho chủ ngữ số nhiều 'many young people'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về cách giới trẻ hiện đang tương tác với công nghệ kỹ thuật số.",
+      "bandTip": "Liệt kê hai mục đích với 'as well as' - 'for learning as well as entertainment' - cho thấy sự đa dạng của câu.",
+      "commonMistake": "Không sử dụng 'is using' (dạng số ít) với chủ ngữ số nhiều như 'many young people'."
+    },
+    "reusablePattern": "Many young people are using their smartphones for learning as well as entertainment."
+  },
+  {
+    "id": "pc-build-tech-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Talking about the current role of digital education"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Online learning platforms [________] students with access to a wider range of subjects."
+    },
+    "chips": [
+      "are providing",
+      "is providing",
+      "provided",
+      "provide",
+      "students with access to a wider range of subjects",
+      "Online learning platforms"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Online learning platforms",
+        "are providing",
+        "students with access to a wider range of subjects"
+      ],
+      "distractors": [
+        "is providing",
+        "provided",
+        "provide"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, plural subject",
+      "pattern": "subject (plural) + are + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'are providing' là dạng Present Continuous chính xác cho chủ ngữ số nhiều 'online learning platforms'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về cách các công cụ kỹ thuật số hiện đang mở rộng khả năng tiếp cận giáo dục.",
+      "bandTip": "Cụm từ 'are providing students with access to' là một đoạn học thuật có tần suất sử dụng cao đáng ghi nhớ trong IELTS Writing.",
+      "commonMistake": "Không sử dụng 'is providing' (số ít) với chủ ngữ số nhiều như 'online learning platforms'."
+    },
+    "reusablePattern": "Online learning platforms are providing students with access to a wider range of subjects."
+  },
+  {
+    "id": "pc-build-edu-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a school's current assessment approach"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The school [________] its assessment methods to include more project-based work."
+    },
+    "chips": [
+      "is reforming",
+      "reforms",
+      "reformed",
+      "are reforming",
+      "its assessment methods to include more project-based work",
+      "The school"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The school",
+        "is reforming",
+        "its assessment methods to include more project-based work"
+      ],
+      "distractors": [
+        "reforms",
+        "reformed",
+        "are reforming"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is reforming' là dạng đúng Present Continuous cho chủ ngữ số ít 'the school'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giải thích cách các cơ sở giáo dục hiện đang thay đổi cách thực hành của họ.",
+      "bandTip": "Động từ 'is reforming' mang tính học thuật hơn 'is changing'; sử dụng nó trong IELTS có thể nâng cao điểm từ vựng của bạn.",
+      "commonMistake": "Không sử dụng 'reforms' (Simple Present) cho thay đổi tạm thời hiện tại - sử dụng Present Continuous."
+    },
+    "reusablePattern": "The school is reforming its assessment methods to include more project-based work."
+  },
+  {
+    "id": "pc-build-edu-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing current limitations of excessive homework"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Excessive homework [________] the mental well-being of many students at present."
+    },
+    "chips": [
+      "is undermining",
+      "undermines",
+      "undermined",
+      "are undermining",
+      "the mental well-being of many students at present",
+      "Excessive homework"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Excessive homework",
+        "is undermining",
+        "the mental well-being of many students at present"
+      ],
+      "distractors": [
+        "undermines",
+        "undermined",
+        "are undermining"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is undermining' sử dụng chính xác Present Continuous cho chủ đề số ít 'excessive homework' với 'at present'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi tranh luận về những tác động tiêu cực hiện tại của việc tải bài tập về nhà nặng nề.",
+      "bandTip": "Bạn có thể mở rộng điều này: 'Excessive homework is undermining well-being, which highlights the need for balanced workloads.'",
+      "commonMistake": "Không sử dụng 'are undermining' với cụm danh từ số ít 'excessive homework'."
+    },
+    "reusablePattern": "Excessive homework is undermining the mental well-being of many students at present."
+  },
+  {
+    "id": "pc-build-edu-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing university students' current study choices"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Most university students [________] more flexible study arrangements this semester."
+    },
+    "chips": [
+      "are seeking",
+      "is seeking",
+      "sought",
+      "seek",
+      "more flexible study arrangements this semester",
+      "Most university students"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Most university students",
+        "are seeking",
+        "more flexible study arrangements this semester"
+      ],
+      "distractors": [
+        "is seeking",
+        "sought",
+        "seek"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, plural subject",
+      "pattern": "subject (plural) + are + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'are seeking' phù hợp với chủ ngữ số nhiều 'most university students' mô tả xu hướng hiện tại.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về cách học sinh hiện đang cân bằng việc học của mình.",
+      "bandTip": "Thêm lý do: 'Most university students are seeking more flexible arrangements this semester because of financial pressures.'",
+      "commonMistake": "Không sử dụng 'is seeking' (dạng số ít) với chủ ngữ số nhiều như 'most university students'."
+    },
+    "reusablePattern": "Most university students are seeking more flexible study arrangements this semester."
+  },
+  {
+    "id": "pc-build-edu-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how critical thinking is being developed in education"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Critical thinking [________] a more central role in modern curricula."
+    },
+    "chips": [
+      "is taking on",
+      "takes on",
+      "took on",
+      "are taking on",
+      "a more central role in modern curricula",
+      "Critical thinking"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Critical thinking",
+        "is taking on",
+        "a more central role in modern curricula"
+      ],
+      "distractors": [
+        "takes on",
+        "took on",
+        "are taking on"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is taking on' hiển thị chính xác sự thay đổi đang diễn ra đối với chủ đề số ít 'critical thinking'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 hoặc Writing Task 2 khi thảo luận về vai trò ngày càng tăng của kỹ năng phân tích trong giáo dục.",
+      "bandTip": "Cụm động từ 'is taking on' theo sau là một danh từ là một dạng phức tạp phổ biến trong tiếng Anh học thuật.",
+      "commonMistake": "Không sử dụng 'takes on' (Simple Present) khi mô tả một thay đổi hiện đang diễn ra."
+    },
+    "reusablePattern": "Critical thinking is taking on a more central role in modern curricula."
+  },
+  {
+    "id": "pc-build-health-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing current trends in exercise habits"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Regular exercise [________] more attention in public health campaigns these days."
+    },
+    "chips": [
+      "is receiving",
+      "receives",
+      "received",
+      "are receiving",
+      "more attention in public health campaigns these days",
+      "Regular exercise"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Regular exercise",
+        "is receiving",
+        "more attention in public health campaigns these days"
+      ],
+      "distractors": [
+        "receives",
+        "received",
+        "are receiving"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is receiving' là biến cách chính xác Present Continuous cho chủ đề số ít 'regular exercise'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả lợi ích sức khỏe ngày càng tăng của hoạt động thể chất trong diễn ngôn hiện tại.",
+      "bandTip": "Để đa dạng, hãy thay thế 'is receiving' bằng 'is gaining' hoặc 'is attracting' để thể hiện phạm vi từ vựng rộng hơn.",
+      "commonMistake": "Không sử dụng 'is receiving' cho một sự thật vượt thời gian - hãy sử dụng nó ở đây vì 'these days' báo hiệu một xu hướng tạm thời đang diễn ra."
+    },
+    "reusablePattern": "Regular exercise is receiving more attention in public health campaigns these days."
+  },
+  {
+    "id": "pc-build-health-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Arguing that diet alone is currently insufficient"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "A healthy diet [________] the need for regular physical activity, despite popular belief."
+    },
+    "chips": [
+      "is not replacing",
+      "is not replace",
+      "does not replace",
+      "are not replacing",
+      "the need for regular physical activity, despite popular belief",
+      "A healthy diet"
+    ],
+    "answer": {
+      "correctOrder": [
+        "A healthy diet",
+        "is not replacing",
+        "the need for regular physical activity, despite popular belief"
+      ],
+      "distractors": [
+        "is not replace",
+        "does not replace",
+        "are not replacing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous negative, third-person singular",
+      "pattern": "subject (singular) + is + not + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is not replacing' sử dụng chính xác âm Present Continuous với chủ ngữ số ít 'a healthy diet'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi giải thích rằng sức khỏe đòi hỏi phải phối hợp cả chế độ ăn kiêng và tập thể dục.",
+      "bandTip": "Thêm ưu đãi: 'While diet is crucial, a healthy diet is not replacing the need for regular activity in current research findings.'",
+      "commonMistake": "Không sử dụng 'is not replace' — sau 'is not', động từ phải ở dạng -ing."
+    },
+    "reusablePattern": "A healthy diet is not replacing the need for regular physical activity, despite popular belief."
+  },
+  {
+    "id": "pc-build-health-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing how stress is currently affecting people"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many working adults [________] from increasing levels of stress right now."
+    },
+    "chips": [
+      "are suffering",
+      "is suffering",
+      "suffered",
+      "suffer",
+      "from increasing levels of stress right now",
+      "Many working adults"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many working adults",
+        "are suffering",
+        "from increasing levels of stress right now"
+      ],
+      "distractors": [
+        "is suffering",
+        "suffered",
+        "suffer"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, plural subject",
+      "pattern": "subject (plural) + are + V-ing + prepositional phrase"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'are suffering' là dạng Present Continuous đúng cho chủ ngữ số nhiều 'many working adults'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về mức độ ảnh hưởng của các mô hình công việc hiện đại đến sức khỏe.",
+      "bandTip": "Thêm mệnh đề nguyên nhân: '… right now, largely because workplaces are demanding longer hours than ever before.'",
+      "commonMistake": "Không sử dụng 'is suffering' (dạng số ít) với chủ ngữ số nhiều như 'many working adults'."
+    },
+    "reusablePattern": "Many working adults are suffering from increasing levels of stress right now."
+  },
+  {
+    "id": "pc-build-health-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the government's current role in public health"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The government [________] more funding into preventive healthcare this year."
+    },
+    "chips": [
+      "is directing",
+      "directs",
+      "directed",
+      "are directing",
+      "more funding into preventive healthcare this year",
+      "The government"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The government",
+        "is directing",
+        "more funding into preventive healthcare this year"
+      ],
+      "distractors": [
+        "directs",
+        "directed",
+        "are directing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is directing' là biến cách Present Continuous chính xác cho chủ đề số ít 'the government'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về trách nhiệm hiện tại của chính phủ đối với sức khỏe cộng đồng.",
+      "bandTip": "Bạn có thể mở rộng điều này: 'The government is directing more funding into preventive healthcare, which should reduce long-term hospital costs.'",
+      "commonMistake": "Không sử dụng 'directs' (Simple Present) khi 'this year' báo hiệu một quyết định chính sách tạm thời, hiện tại."
+    },
+    "reusablePattern": "The government is directing more funding into preventive healthcare this year."
+  },
+  {
+    "id": "pc-build-work-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a company's current employment policy"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The company [________] hybrid working models to boost employee productivity."
+    },
+    "chips": [
+      "is trialling",
+      "trials",
+      "trialled",
+      "are trialling",
+      "hybrid working models to boost employee productivity",
+      "The company"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The company",
+        "is trialling",
+        "hybrid working models to boost employee productivity"
+      ],
+      "distractors": [
+        "trials",
+        "trialled",
+        "are trialling"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is trialling' là dạng Present Continuous được biến cách chính xác cho chủ ngữ số ít 'the company'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả các sáng kiến ​​hoặc chính sách hiện tại tại nơi làm việc.",
+      "bandTip": "Thay vì 'is trialling', hãy thử 'is piloting' hoặc 'is testing' để thêm đa dạng và hiển thị vốn từ vựng rộng hơn.",
+      "commonMistake": "Không sử dụng 'trials' (Simple Present) cho sáng kiến ​​tạm thời hiện tại — sử dụng Present Continuous."
+    },
+    "reusablePattern": "The company is trialling hybrid working models to boost employee productivity."
+  },
+  {
+    "id": "pc-build-work-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the current downside of automation at work"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Automation [________] new job opportunities fast enough to replace those being lost."
+    },
+    "chips": [
+      "is not creating",
+      "is not create",
+      "does not create",
+      "are not creating",
+      "new job opportunities fast enough to replace those being lost",
+      "Automation"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Automation",
+        "is not creating",
+        "new job opportunities fast enough to replace those being lost"
+      ],
+      "distractors": [
+        "is not create",
+        "does not create",
+        "are not creating"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous negative, third-person singular",
+      "pattern": "subject (singular) + is + not + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is not creating' là âm Present Continuous cho chủ ngữ số ít 'automation'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những rủi ro hiện tại của tự động hóa và chuyển dịch công việc.",
+      "bandTip": "Việc thêm 'fast enough' làm cho đối số có nhiều sắc thái hơn: 'Automation is not creating new opportunities fast enough to offset losses.'",
+      "commonMistake": "Không sử dụng 'is not create' - sau 'is not', động từ phải ở dạng -ing."
+    },
+    "reusablePattern": "Automation is not creating new job opportunities fast enough to replace those being lost."
+  },
+  {
+    "id": "pc-build-work-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing what employees are currently doing to improve their skills"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many employees [________] short online courses to stay competitive in the job market."
+    },
+    "chips": [
+      "are completing",
+      "is completing",
+      "completed",
+      "complete",
+      "short online courses to stay competitive in the job market",
+      "Many employees"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many employees",
+        "are completing",
+        "short online courses to stay competitive in the job market"
+      ],
+      "distractors": [
+        "is completing",
+        "completed",
+        "complete"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, plural subject",
+      "pattern": "subject (plural) + are + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'are completing' đúng cho chủ ngữ số nhiều 'many employees' trong Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả những gì người lao động hiện đang làm để phát triển chuyên nghiệp.",
+      "bandTip": "Thay thế 'are completing' bằng 'are enrolling in' để có một sự thay thế trang trọng, cụ thể hơn trong IELTS Writing Task 2.",
+      "commonMistake": "Không sử dụng 'is completing' (dạng số ít) với chủ ngữ số nhiều; 'many employees' yêu cầu 'are'."
+    },
+    "reusablePattern": "Many employees are completing short online courses to stay competitive in the job market."
+  },
+  {
+    "id": "pc-build-work-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the current impact of remote work on collaboration"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Remote work [________] the way employees collaborate and communicate."
+    },
+    "chips": [
+      "is reshaping",
+      "reshapes",
+      "reshaped",
+      "are reshaping",
+      "the way employees collaborate and communicate",
+      "Remote work"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Remote work",
+        "is reshaping",
+        "the way employees collaborate and communicate"
+      ],
+      "distractors": [
+        "reshapes",
+        "reshaped",
+        "are reshaping"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous, third-person singular",
+      "pattern": "subject (singular) + is + V-ing + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'is reshaping' hiển thị chính xác sự thay đổi đang diễn ra đối với chủ đề số ít 'remote work'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những lợi thế và thách thức hiện tại của chính sách làm việc từ xa.",
+      "bandTip": "Cấu trúc 'is reshaping + noun' là một mẫu học thuật hữu ích trong cả Writing Task 2 và Speaking Part 3.",
+      "commonMistake": "Không sử dụng 'reshapes' (Simple Present) cho xu hướng hiện đang diễn ra - bắt buộc phải có Present Continuous."
+    },
+    "reusablePattern": "Remote work is reshaping the way employees collaborate and communicate."
+  },
+  {
+    "id": "pc-transform-env-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a body paragraph about current industrial pollution trends"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Factories are releasing increasing amounts of pollutants.",
+        "This is accelerating the deterioration of air quality in urban areas."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Present Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Factories are releasing increasing amounts of pollutants, which is accelerating the deterioration of air quality in urban areas.",
+      "requiredIdeas": [
+        "factories releasing pollutants",
+        "worsening air quality"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "S + is/are + V-ing + O, which + is + V-ing + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng mệnh đề quan hệ với 'which' để kết nối một nguyên nhân đang diễn ra và kết quả hiện tại của nó.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi giải thích tác động môi trường hiện tại của các hoạt động công nghiệp.",
+      "bandTip": "Việc sử dụng 'which is + V-ing' duy trì Present Continuous trong mệnh đề quan hệ, thể hiện tính nhất quán về mặt ngữ pháp ở Band 6–7.",
+      "commonMistake": "Đừng chia câu này thành hai câu ngắn trong văn bản trang trọng; kết hợp các ý tưởng với 'which' cho thấy phạm vi ngữ pháp cao hơn."
+    },
+    "reusablePattern": "Factories are releasing increasing amounts of pollutants, which is accelerating the deterioration of air quality in urban areas."
+  },
+  {
+    "id": "pc-transform-env-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing about conservation efforts currently under way"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "People are switching to reusable products.",
+        "This is helping reduce plastic pollution in oceans."
+      ],
+      "constraints": [
+        "Use 'by + V-ing' to show the method",
+        "Maintain Present Continuous",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "People are helping reduce plastic pollution in oceans by switching to reusable products.",
+      "requiredIdeas": [
+        "switching to reusable products",
+        "reducing plastic pollution"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "they're"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous with by + gerund",
+      "pattern": "S + are + V-ing + O + by + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'by + V-ing' để liên kết rõ ràng hành động hiện tại và kết quả đang diễn ra của nó.",
+      "ieltsUsage": "Hữu ích trong các đoạn nội dung Writing Task 2 khi giải thích cách các cá nhân hiện đang giảm thiểu thiệt hại cho môi trường.",
+      "bandTip": "Cấu trúc 'by + V-ing' thể hiện sự gắn kết giữa phương pháp và hiệu quả, được khen thưởng trong IELTS Writing về sự mạch lạc.",
+      "commonMistake": "Không viết 'by switch' — sau 'by', luôn sử dụng dạng danh động từ (-ing), không phải dạng cơ sở."
+    },
+    "reusablePattern": "People are helping reduce plastic pollution in oceans by switching to reusable products."
+  },
+  {
+    "id": "pc-transform-tech-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Explaining how AI is currently increasing efficiency"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "AI is automating an increasing number of routine tasks.",
+        "This is enabling workers to devote more time to creative work."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Present Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "AI is automating an increasing number of routine tasks, which is enabling workers to devote more time to creative work.",
+      "requiredIdeas": [
+        "AI automating tasks",
+        "workers focusing on creative work"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "S + is + V-ing + O, which + is + V-ing + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã nối hai ý tưởng đang diễn ra bằng mệnh đề quan hệ không xác định bằng cách sử dụng 'which'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi giải thích những lợi ích hiện tại của AI trong môi trường chuyên nghiệp.",
+      "bandTip": "Mẫu 'S + is V-ing + O, which is V-ing' thể hiện khả năng kiểm soát ngữ pháp phức tạp tại Band 6–7.",
+      "commonMistake": "Không bỏ dấu phẩy trước 'which' trong mệnh đề quan hệ không xác định."
+    },
+    "reusablePattern": "AI is automating an increasing number of routine tasks, which is enabling workers to devote more time to creative work."
+  },
+  {
+    "id": "pc-transform-tech-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing how social media is currently affecting communication"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Social media is connecting people across the world.",
+        "However, it is also spreading misinformation at an alarming rate."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., although, while)",
+        "Maintain Present Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Although social media is connecting people across the world, it is also spreading misinformation at an alarming rate.",
+      "requiredIdeas": [
+        "social media connecting people",
+        "spreading misinformation"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "Although + S + is + V-ing + O, S + is + V-ing + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'although' để tạo một mệnh đề nhượng bộ cân bằng giữa hai diễn biến hiện tại tương phản nhau.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày một lập luận cân bằng về những ưu điểm và nhược điểm hiện tại của công nghệ.",
+      "bandTip": "Bắt đầu với 'Although' báo hiệu tư duy cân bằng, điều này được giám khảo đánh giá cao hơn về tính mạch lạc và gắn kết.",
+      "commonMistake": "Không sử dụng 'but' trong văn bản học thuật trang trọng - hãy sử dụng các từ nối nhượng bộ như 'although', 'while' hoặc 'whereas'."
+    },
+    "reusablePattern": "Although social media is connecting people across the world, it is also spreading misinformation at an alarming rate."
+  },
+  {
+    "id": "pc-transform-edu-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Arguing for the current value of university education"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Universities are equipping graduates with increasingly specialised knowledge.",
+        "This is improving their long-term employment prospects."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Present Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Universities are equipping graduates with increasingly specialised knowledge, which is improving their long-term employment prospects.",
+      "requiredIdeas": [
+        "universities providing knowledge",
+        "improved employment prospects"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "S + are + V-ing + O, which + is + V-ing + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã kết hợp cả hai ý tưởng đang diễn ra bằng cách sử dụng mệnh đề quan hệ không xác định với 'which'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi xây dựng lập luận về lợi ích hiện tại của giáo dục đại học.",
+      "bandTip": "Động từ 'are equipping' theo sau là 'with' là một cách sắp xếp học thuật hữu ích; ghi nhớ nó cho IELTS Writing Task 2.",
+      "commonMistake": "Đừng viết hai câu ngắn; kết hợp chúng với 'which' thể hiện phạm vi ngữ pháp cao hơn."
+    },
+    "reusablePattern": "Universities are equipping graduates with increasingly specialised knowledge, which is improving their long-term employment prospects."
+  },
+  {
+    "id": "pc-transform-edu-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing whether exams are a reliable current assessment method"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Exams are measuring academic performance under pressure.",
+        "However, they are not assessing creativity or real-world problem-solving."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., while, although)",
+        "Maintain Present Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While exams are measuring academic performance under pressure, they are not assessing creativity or real-world problem-solving.",
+      "requiredIdeas": [
+        "exams measuring performance under pressure",
+        "not assessing creativity or real-world skills"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "While + S + are + V-ing + O, S + are + not + V-ing + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'while' để đối chiếu hai quan sát hiện tại về các kỳ thi trong một câu trang trọng duy nhất.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày quan điểm cân bằng về những hạn chế hiện tại của đánh giá truyền thống.",
+      "bandTip": "Các cấu trúc như 'While … are … , they are not …' báo hiệu một lập luận có sắc thái, đặc trưng của cách viết Band 6.5–7.",
+      "commonMistake": "Không sử dụng 'aren't' in formal academic writing — always write 'are not' để duy trì đăng ký chính xác."
+    },
+    "reusablePattern": "While exams are measuring academic performance under pressure, they are not assessing creativity or real-world problem-solving."
+  },
+  {
+    "id": "pc-transform-health-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Arguing that governments should invest more in preventive healthcare now"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Preventive healthcare is reducing the number of avoidable hospital admissions.",
+        "This is saving governments significant medical expenditure."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Present Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Preventive healthcare is reducing the number of avoidable hospital admissions, which is saving governments significant medical expenditure.",
+      "requiredIdeas": [
+        "preventive healthcare reducing admissions",
+        "saving government expenditure"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "S + is + V-ing + O, which + is + V-ing + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã liên kết thành công một nguyên nhân đang diễn ra và một hậu quả tài chính hiện tại bằng cách sử dụng mệnh đề quan hệ 'which'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi đưa ra lập luận kinh tế về đầu tư hiện tại của chính phủ vào y tế công cộng.",
+      "bandTip": "Các cụm từ như 'is saving expenditure' và 'is reducing admissions' rất phổ biến trong văn bản y tế học thuật.",
+      "commonMistake": "Đừng viết 'which it is saving' - 'which' đã đề cập đến chủ đề; do not thêm 'it' sau nó."
+    },
+    "reusablePattern": "Preventive healthcare is reducing the number of avoidable hospital admissions, which is saving governments significant medical expenditure."
+  },
+  {
+    "id": "pc-transform-health-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing whether fast food consumption should be restricted now"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Fast food is becoming more affordable and accessible.",
+        "It is simultaneously contributing to rising obesity rates."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., although, while)",
+        "Maintain Present Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Although fast food is becoming more affordable and accessible, it is simultaneously contributing to rising obesity rates.",
+      "requiredIdeas": [
+        "fast food becoming more affordable",
+        "contributing to rising obesity"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "Although + S + is + V-ing + O, S + is + V-ing + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'although' để xác nhận lợi ích hiện tại trước khi đưa ra mối lo ngại về sức khỏe đang diễn ra.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi thảo luận về ưu và nhược điểm hiện tại của việc cung cấp thức ăn nhanh.",
+      "bandTip": "Bắt đầu bằng 'Although' để thừa nhận một quan điểm trước khi phản đối nó là một cấu trúc học thuật phức tạp đáng để thực hành.",
+      "commonMistake": "Không viết 'Although … , but …' - những từ nối này thừa với nhau; chỉ sử dụng một."
+    },
+    "reusablePattern": "Although fast food is becoming more affordable and accessible, it is simultaneously contributing to rising obesity rates."
+  },
+  {
+    "id": "pc-transform-work-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing current advantages of remote work for productivity"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Remote work is eliminating daily commuting time for millions of workers.",
+        "This is giving employees more time for productive and personal activities."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Present Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Remote work is eliminating daily commuting time for millions of workers, which is giving employees more time for productive and personal activities.",
+      "requiredIdeas": [
+        "remote work eliminating commuting time",
+        "more time for productive activities"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "S + is + V-ing + O, which + is + V-ing + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã nối hai ý tưởng đang diễn ra bằng một mệnh đề quan hệ không xác định để thể hiện một hệ quả hiện tại rõ ràng.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày lập luận về lợi ích năng suất hiện tại của làm việc từ xa.",
+      "bandTip": "Cấu trúc 'is eliminating … , which is giving …' thể hiện một chuỗi nhân quả phức tạp có giá trị trong việc chấm điểm IELTS Task 2.",
+      "commonMistake": "Đừng viết 'which it is giving' - đại từ quan hệ 'which' đã thay thế chủ ngữ; do not lặp lại nó với 'it'."
+    },
+    "reusablePattern": "Remote work is eliminating daily commuting time for millions of workers, which is giving employees more time for productive and personal activities."
+  },
+  {
+    "id": "pc-transform-work-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Arguing for and against current automation in the workforce"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Automation is currently increasing efficiency across many industries.",
+        "However, it is also displacing a significant number of low-skilled workers."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., while, although)",
+        "Maintain Present Continuous throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While automation is currently increasing efficiency across many industries, it is also displacing a significant number of low-skilled workers.",
+      "requiredIdeas": [
+        "automation increasing efficiency",
+        "displacing workers"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "While + S + is + V-ing + O, S + is + V-ing + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'while' để thừa nhận lợi ích hiện tại của tự động hóa trước khi nêu bật chi phí xã hội hiện tại của nó.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày quan điểm sắc thái về tác động hiện tại của tự động hóa đối với việc làm.",
+      "bandTip": "'While … is … , it is also …' là một mẫu ngắn gọn và hiệu quả cho các đoạn nội dung cân đối trong Task 2.",
+      "commonMistake": "Đừng viết 'While … , but it …' - 'while' và 'but' cùng nhau là dư thừa về mặt ngữ pháp."
+    },
+    "reusablePattern": "While automation is currently increasing efficiency across many industries, it is also displacing a significant number of low-skilled workers."
+  },
+  {
+    "id": "pc-speak-env-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing personal environmental habits in progress"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "Talk about what you are currently doing at home to protect the environment."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "At the moment, I am trying to cut down on single-use plastic by carrying a reusable bag and a water bottle wherever I go. I am also switching off appliances when I am not using them to reduce energy consumption. I think these small changes are making a real difference.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific environmental action currently in progress"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "I + am + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'At the moment, I am trying to …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả thói quen cá nhân hiện tại bằng cách sử dụng Present Continuous một cách rõ ràng và tự nhiên.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về những nỗ lực hiện tại của bạn liên quan đến môi trường.",
+      "bandTip": "Đề cập đến hai hoặc ba hành động cụ thể - giảm nhựa, tiết kiệm năng lượng, làm phân bón - để đưa ra câu trả lời đầy đủ hơn, chất lượng Band 6.",
+      "commonMistake": "Không mô tả một thói quen thường ngày bằng Present Continuous nếu Simple Present phù hợp hơn - sử dụng 'am doing' cho các hành động tạm thời, đang diễn ra."
+    },
+    "reusablePattern": "At the moment, I am trying to cut down on single-use plastic by carrying a reusable bag and a water bottle wherever I go."
+  },
+  {
+    "id": "pc-speak-env-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what governments are currently doing about climate change"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "What are governments currently doing to address climate change?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "Many governments are currently investing in renewable energy and are introducing stricter regulations on carbon emissions. Some are also funding research into green technologies and are educating the public about sustainable practices. However, many are not acting quickly enough given the scale of the problem.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a current government policy or action related to climate change"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "Governments + are + V-ing or subject + is/are + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'Many governments are currently investing in …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã trình bày một bức tranh rõ ràng về các hành động chính sách hiện tại bằng cách sử dụng Present Continuous trong sổ đăng ký chính thức.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về các giải pháp hiện tại cho các vấn đề môi trường ở cấp quốc gia hoặc toàn cầu.",
+      "bandTip": "Đối với Band 6+, hãy hỗ trợ quan sát của bạn bằng lý do: 'Governments are investing in renewables because fossil fuels are no longer sustainable.'",
+      "commonMistake": "Đừng mô tả những sự thật chung chung vĩnh viễn bằng Present Continuous; chỉ sử dụng nó cho các hành động hiện tại, đang diễn ra hoặc tạm thời."
+    },
+    "reusablePattern": "Many governments are currently investing in renewable energy and are introducing stricter regulations on carbon emissions."
+  },
+  {
+    "id": "pc-speak-tech-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Discussing how your technology use is currently changing"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "Describe how your use of technology is changing these days."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "These days, I am relying more and more on my smartphone and laptop for everything — I am using them for studying, communicating, and even shopping. I am also starting to use AI tools to help me write and translate texts. I think technology is becoming more central to my daily life than ever before.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific way technology use is currently changing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "I + am + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'These days, I am using technology more for …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả thói quen sử dụng công nghệ của mình hiện đang phát triển như thế nào bằng cách sử dụng Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về những thay đổi hiện tại trong thói quen hàng ngày của bạn với công nghệ.",
+      "bandTip": "Đặt tên cho các công cụ hoặc nền tảng cụ thể — 'I am using ChatGPT to help me study' — thay vì nói chung chung để nghe trôi chảy hơn.",
+      "commonMistake": "Đừng trộn các thì một cách không cần thiết; giữ câu trả lời ở Present Continuous khi mô tả các thói quen đang phát triển hiện tại."
+    },
+    "reusablePattern": "These days, I am relying more and more on my smartphone and laptop for everything."
+  },
+  {
+    "id": "pc-speak-tech-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how AI is currently affecting society"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "How is artificial intelligence currently changing the way people work?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "Artificial intelligence is currently transforming the workplace in profound ways. It is automating repetitive tasks, which is freeing up workers to focus on higher-level thinking. At the same time, it is displacing many low-skilled jobs, which is creating new pressures on governments to retrain affected workers.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a current change AI is causing in the workplace",
+        "a reasoned observation"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "subject + is/are + V-ing (ongoing change statements)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'Artificial intelligence is currently changing …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã đưa ra quan sát rõ ràng được hỗ trợ bởi các ví dụ, tất cả đều có trong Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi mô tả những phát triển hiện tại về tác động của công nghệ đối với xã hội.",
+      "bandTip": "Đối với Band 6.5+, hãy bao gồm ưu đãi: 'While AI is creating exciting opportunities, it is also generating significant social challenges.'",
+      "commonMistake": "Đừng chỉ cho một điểm; Câu trả lời IELTS Part 3 sẽ mạnh mẽ hơn khi chúng bao gồm nhiều quan sát hoặc nhượng bộ."
+    },
+    "reusablePattern": "Artificial intelligence is currently transforming the workplace in profound ways. It is automating repetitive tasks..."
+  },
+  {
+    "id": "pc-speak-edu-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Talking about how your current studies are going"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "Talk about what you are currently studying or working on to improve your skills."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "At the moment, I am focusing on improving my English for the IELTS exam. I am practising writing essays every day and I am also watching English documentaries to improve my listening. I am finding that my vocabulary is growing gradually, which is giving me more confidence in speaking.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific study activity currently in progress"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "I + am + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'At the moment, I am studying …' hoặc 'Currently, I am working on …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả rõ ràng các hoạt động học tập hiện tại của mình bằng cách sử dụng Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về các hoạt động học tập hoặc kế hoạch học tập hiện tại của bạn.",
+      "bandTip": "Đưa ra một chuỗi các hành động đang diễn ra — 'I am also …, and I am now …' — để làm cho câu trả lời của bạn có tổ chức và trôi chảy hơn.",
+      "commonMistake": "Đừng chỉ nói 'I am studying hard' mà không nói cụ thể; giám khảo muốn nghe chi tiết về các phương pháp bạn đang sử dụng."
+    },
+    "reusablePattern": "At the moment, I am focusing on improving my English for the IELTS exam. I am practising writing essays every day..."
+  },
+  {
+    "id": "pc-speak-edu-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how the purpose of university education is currently evolving"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "How is the role of university education changing in today's world?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I think university education is shifting away from purely academic study toward more practical, skills-based learning. Universities are increasingly partnering with industries to give students real-world experience. At the same time, online study options are expanding access to higher education for people who cannot attend in person.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a current change in the role or nature of university education",
+        "a reasoned explanation"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "subject + is/are + V-ing (ongoing change)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I think university education is shifting toward …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã đưa ra phản hồi sâu sắc và có tính xây dựng về những thay đổi hiện tại trong giáo dục bằng cách sử dụng Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về vai trò hoặc cấu trúc của giáo dục đại học hiện đang phát triển như thế nào.",
+      "bandTip": "Đề cập đến nhiều thay đổi hiện tại - cải cách chương trình giảng dạy VÀ mở rộng khả năng tiếp cận - cho thấy tư duy phân tích có giá trị ở mức Band 6.5+.",
+      "commonMistake": "Đừng giới hạn câu trả lời của bạn cho một xu hướng hiện tại; giám khảo khen thưởng những câu trả lời xác định và giải thích nhiều diễn biến."
+    },
+    "reusablePattern": "I think university education is shifting away from purely academic study toward more practical, skills-based learning."
+  },
+  {
+    "id": "pc-speak-health-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Discussing personal health habits currently in progress"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "What are you currently doing to improve your health?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "At the moment, I am trying to exercise more regularly and I am also paying closer attention to what I eat. I am cutting down on processed food and I am eating more fresh vegetables and fruit. I am also going to bed earlier to get enough sleep, which I think is having a positive effect on my energy levels.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific current health improvement activity — exercise, diet, or sleep"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "I + am + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'At the moment, I am trying to …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả những nỗ lực sức khỏe hiện tại của mình một cách rõ ràng và tự nhiên trong Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về những thay đổi về lối sống hoặc sức khỏe hiện tại của bạn.",
+      "bandTip": "Đề cập đến ít nhất hai hoạt động hiện tại - tập thể dục và thay đổi chế độ ăn uống - để phát triển câu trả lời của bạn ngoài một điểm duy nhất.",
+      "commonMistake": "Đừng nói 'I am doing exercise regularly' cho một thói quen cố định - sử dụng Simple Present cho các thói quen, Present Continuous cho những thay đổi hiện tại."
+    },
+    "reusablePattern": "At the moment, I am trying to exercise more regularly and I am also paying closer attention to what I eat."
+  },
+  {
+    "id": "pc-speak-health-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what governments are currently doing to promote public health"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "What are governments currently doing to encourage citizens to live more healthily?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "Many governments are currently running public health campaigns to raise awareness about diet and exercise. Some are also introducing taxes on sugary drinks and are restricting the advertising of unhealthy food. However, a number of governments are not investing enough in mental health services, which is a growing concern.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a current government action in public health",
+        "an ongoing challenge or limitation"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "Governments + are + V-ing / subject + is/are + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'Many governments are currently running …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã trình bày quan điểm công bằng về các sáng kiến ​​y tế hiện tại của chính phủ bằng cách sử dụng Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về các chính sách hiện hành của chính phủ về sức khỏe và hạnh phúc.",
+      "bandTip": "Một câu trả lời cân bằng — 'Governments are … ; however, some are not …' — thể hiện tư duy phức tạp có giá trị ở mức Band 6.5+.",
+      "commonMistake": "Đừng đưa ra câu trả lời hoàn toàn một chiều; giám khảo khen thưởng những câu trả lời thừa nhận cả những gì đang được thực hiện và những gì còn thiếu."
+    },
+    "reusablePattern": "Many governments are currently running public health campaigns to raise awareness about diet and exercise."
+  },
+  {
+    "id": "pc-speak-work-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing your current job or how your work is changing"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "Talk about what kind of work you are doing currently or how your career is developing."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "At the moment, I am working as a part-time English tutor while also studying for my degree. My role is evolving — I am currently developing new lesson materials and I am also exploring online teaching platforms. I am finding that I am growing more confident as a teacher with each lesson I give.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a current work activity or how a career is currently developing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "I + am + V-ing / My role + is + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'At the moment, I am working as a … and I am also …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả tình hình công việc hiện tại và sự phát triển nghề nghiệp của mình bằng cách sử dụng Present Continuous.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về nghề nghiệp hoặc con đường sự nghiệp hiện tại của bạn.",
+      "bandTip": "Cấu trúc 'My role is evolving — I am currently …' là một cách tự nhiên, trôi chảy để mô tả sự thay đổi trong bài thi Nói IELTS của bạn.",
+      "commonMistake": "Đừng chỉ nói 'I am working' mà không giải thích bạn đang làm gì hoặc nó đang phát triển như thế nào - hãy thêm chi tiết."
+    },
+    "reusablePattern": "At the moment, I am working as a part-time English tutor while also studying for my degree."
+  },
+  {
+    "id": "pc-speak-work-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing how remote work is currently affecting employees"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Present Continuous.",
+      "cue": "How is remote work currently affecting employees' well-being and productivity?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "Remote work is currently giving many employees more flexibility and is eliminating the stress of daily commuting. However, it is also blurring the line between work and personal life, which is leading to burnout for some. Companies are now trying to address this by introducing clearer policies on working hours.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a current benefit of remote work",
+        "an ongoing challenge or limitation"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "requiredStructure": "subject + is/are + V-ing (ongoing developments)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'Remote work is currently giving employees … , but it is also …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã đưa ra một cái nhìn cân bằng về mức độ ảnh hưởng của công việc từ xa đến nhân viên.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi giám khảo yêu cầu bạn đánh giá xu hướng hoặc chính sách hiện tại tại nơi làm việc.",
+      "bandTip": "Đối với Band 6.5+, hãy thêm một so sánh: 'Remote work is suiting some employees better than others, depending on their home situation.'",
+      "commonMistake": "Không chỉ nêu ưu điểm mà không có phản biện; IELTS Part 3 thưởng cho những câu trả lời cân bằng, có sắc thái."
+    },
+    "reusablePattern": "Remote work is currently giving many employees more flexibility and is eliminating the stress of daily commuting."
+  },
+  {
+    "id": "pc-master-env-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about the current environmental impact of fossil fuels"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express the main environmental problem that burning fossil fuels is currently causing.",
+      "constraints": [
+        "Use Present Continuous",
+        "Include a cause and its current environmental effect",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The continued burning of fossil fuels is releasing unprecedented quantities of greenhouse gases, which is accelerating climate change at a rate that threatens ecosystems worldwide.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "burning fossil fuels",
+        "current environmental damage or greenhouse gas release"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "V-ing phrase / S + is + V-ing + O, which + is + V-ing + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã đưa ra một câu ngắn gọn, trang trọng thể hiện một nguyên nhân đang diễn ra và kết quả hiện tại của nó.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong các đoạn nội dung Writing Task 2 về ô nhiễm hiện tại hoặc xu hướng biến đổi khí hậu.",
+      "bandTip": "Mẫu 'S + is V-ing + O, which is V-ing + O' là cấu trúc Band 6–7 tần số cao; sử dụng nó trong các bài luận Task 2 của bạn.",
+      "commonMistake": "Không viết 'fossil fuels releases' - chủ đề 'the burning of fossil fuels' là số ít và yêu cầu 'is releasing'."
+    },
+    "reusablePattern": "The continued burning of fossil fuels is releasing unprecedented quantities of greenhouse gases..."
+  },
+  {
+    "id": "pc-master-tech-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about how AI is currently affecting the job market"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how artificial intelligence is currently affecting employment, both positively and negatively.",
+      "constraints": [
+        "Use Present Continuous",
+        "Include both a positive and a negative current effect",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Artificial intelligence is creating new high-skilled positions in the technology sector while simultaneously displacing low-skilled workers in manufacturing and service industries.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "AI's current effect on jobs",
+        "positive and negative employment impact"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "S + is + V-ing + O + while + S + is + V-ing + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Tuyệt vời - bạn đã nắm bắt được cả hai khía cạnh về tác động hiện tại của AI trong một câu trang trọng, cân bằng.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi trình bày quan điểm cân bằng về công nghệ và xu hướng việc làm hiện tại.",
+      "bandTip": "Sử dụng 'while simultaneously' để cân bằng hai tác động đang diễn ra trong một câu là đặc điểm nổi bật của văn bản học thuật Band 7.",
+      "commonMistake": "Không viết hai câu ngắn riêng biệt; việc kết hợp các ý tưởng đang diễn ra tương phản trong một câu sẽ thể hiện phạm vi ngữ pháp cao hơn."
+    },
+    "reusablePattern": "Artificial intelligence is creating new high-skilled positions in the technology sector while simultaneously displacing low-skilled workers..."
+  },
+  {
+    "id": "pc-master-edu-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about how online learning is currently affecting education"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how online learning is currently affecting both access to and quality of education.",
+      "constraints": [
+        "Use Present Continuous",
+        "Mention both access and quality",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Online learning is significantly expanding access to education for students in remote and underserved areas, although it is not always delivering the same quality of instruction as traditional classroom teaching.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "online learning expanding access",
+        "current quality concerns or limitations"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "S + is + V-ing + O + , although + S + is + not + V-ing + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Tuyệt vời - bạn đã viết một câu chủ đề có sắc thái bao gồm cả những lợi ích và hạn chế hiện tại của việc học trực tuyến.",
+      "ieltsUsage": "Hữu ích như một câu luận điểm hoặc câu chủ đề trong các bài tiểu luận Writing Task 2 về các xu hướng hiện nay trong giáo dục kỹ thuật số.",
+      "bandTip": "Việc thêm 'although' để giới thiệu giới hạn hiện tại sẽ làm cho câu chủ đề của bạn cân bằng hơn và thể hiện tư duy Band 7.",
+      "commonMistake": "Đừng chỉ viết về quyền truy cập mà không thừa nhận mối quan tâm về chất lượng - sự cân bằng là chìa khóa trong IELTS Task 2."
+    },
+    "reusablePattern": "Online learning is significantly expanding access to education for students in remote and underserved areas..."
+  },
+  {
+    "id": "pc-master-health-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about current lifestyle disease trends"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express what is currently driving the rise in lifestyle diseases in modern society.",
+      "constraints": [
+        "Use Present Continuous",
+        "Include a current cause and its health consequence",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The widespread adoption of sedentary lifestyles and poor dietary choices is contributing significantly to the growing prevalence of chronic diseases such as obesity and type 2 diabetes.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "sedentary lifestyle or poor diet currently driving disease",
+        "rise in chronic illness"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "S (noun phrase) + is + V-ing + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã viết một câu trang trọng, chính xác liên kết nguyên nhân của lối sống hiện tại với những hậu quả về sức khỏe.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi thảo luận về các nguyên nhân gây ra bệnh mãn tính hiện nay.",
+      "bandTip": "Lưu ý: 'the widespread adoption of … choices' là một chủ ngữ danh động từ — nó có số ít về mặt ngữ pháp và sử dụng 'is contributing', không phải 'are contributing'.",
+      "commonMistake": "Không viết 'are contributing' với chủ ngữ cụm danh từ số ít; luôn kiểm tra sự hòa hợp giữa chủ ngữ và động từ với các cụm danh từ phức tạp."
+    },
+    "reusablePattern": "The widespread adoption of sedentary lifestyles and poor dietary choices is contributing significantly to the growing prevalence of chronic diseases..."
+  },
+  {
+    "id": "pc-master-work-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about current challenges in work-life balance"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express why maintaining a healthy work-life balance is currently becoming more difficult for workers.",
+      "constraints": [
+        "Use Present Continuous",
+        "Include a current reason for the difficulty",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Many employees are struggling to maintain a healthy work-life balance because modern workplaces are demanding longer hours and are increasingly encroaching on personal time through digital connectivity.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "current difficulty maintaining work-life balance",
+        "increasing workplace demands or digital connectivity"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "present continuous",
+      "pattern": "S + are + V-ing + O + because + S + are + V-ing + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã thể hiện mối quan hệ nhân quả rõ ràng hiện tại về sự cân bằng giữa công việc và cuộc sống chỉ bằng một câu trang trọng.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi tranh luận về những áp lực hiện tại mà nhân viên phải đối mặt ở nơi làm việc hiện đại.",
+      "bandTip": "Sử dụng 'are struggling to + infinitive' là cách sắp xếp tự nhiên; ghép nó với mệnh đề 'because' để hiển thị một lập luận nhân quả hoàn chỉnh.",
+      "commonMistake": "Không viết 'many employees is struggling' - 'many employees' là số nhiều và yêu cầu 'are', không phải 'is'."
+    },
+    "reusablePattern": "Many employees are struggling to maintain a healthy work-life balance because modern workplaces are demanding longer hours..."
+  }
+]

@@ -1,0 +1,2454 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-16-cleft-sentences",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-16-cleft-sentences",
+    "version": "4.0",
+    "grammar_point": "Cleft Sentences",
+    "subtitle_vi": "Câu chẻ",
+    "topic_vocabulary": "Global Issues",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 17: Cleft Sentences",
+      "unit_json_ref": "unit-16-cleft-sentences.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "cleft_it",
+      "cleft_what",
+      "cleft_not_until",
+      "cleft_emphasis"
+    ],
+    "common_vietnamese_errors": [
+      "cleft_form_error",
+      "what_that_confusion",
+      "it_cleft_what_error",
+      "subject_verb_agreement_cleft"
+    ],
+    "ielts_band_target": {
+      "min": 6.5,
+      "max": 7.0
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-16-cleft-sentences",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "6.5–7.0",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "7.0–7.0",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 7.0 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "7.0–7.5",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 7.5 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 7.0 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ is poverty that causes the most suffering in developing nations.",
+          "options": [
+            "It",
+            "There",
+            "This",
+            "What"
+          ],
+          "correct_answer": "It",
+          "correct_index": 0,
+          "explanation_short": "It-cleft: It is/was + focus + that + clause.",
+          "explanation_long": "It-cleft: It is X that Y. Nhấn mạnh X.",
+          "feedback_correct": "⚡ It-cleft: It is... that...",
+          "feedback_wrong": "It is + focus + that.",
+          "ielts_tip": "It is/was + X + that = cleft sentence.",
+          "distractor_note": "obvious: There (existential), This (demonstrative)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_what",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ the world needs is a united effort to fight poverty.",
+          "options": [
+            "What",
+            "It",
+            "That",
+            "Which"
+          ],
+          "correct_answer": "What",
+          "correct_index": 0,
+          "explanation_short": "What-cleft: What + S + V + is + focus.",
+          "explanation_long": "What-cleft: What the world needs is X. Nhấn mạnh X.",
+          "feedback_correct": "🔥 What-cleft: What... is...",
+          "feedback_wrong": "What + S + V + is + focus.",
+          "ielts_tip": "What-cleft: What... is/was...",
+          "distractor_note": "obvious: It (It-cleft cấu trúc khác), That (sai)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "It ___ the lack of education that keeps communities trapped in poverty.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "explanation_short": "It is + singular focus + that.",
+          "explanation_long": "It-cleft: It + is/was. 'Lack of education' = singular → is.",
+          "feedback_correct": "⚡ It is + singular → is",
+          "feedback_wrong": "It is + singular focus.",
+          "ielts_tip": "It is/was + focus + that.",
+          "distractor_note": "obvious: are (plural), were (plural past)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_what",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "What we need ___ more international cooperation.",
+          "options": [
+            "is",
+            "are",
+            "were",
+            "has"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "explanation_short": "What-cleft: What + S + V + is + focus.",
+          "explanation_long": "What we need (singular concept) → is.",
+          "feedback_correct": "🔥 What + S + V + is",
+          "feedback_wrong": "What + S + V + is.",
+          "ielts_tip": "What... is/was + focus.",
+          "distractor_note": "obvious: are (sai), were (sai)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "It was in 2015 ___ the Paris Agreement was signed.",
+          "options": [
+            "that",
+            "which",
+            "when",
+            "where"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "explanation_short": "It-cleft: It was + time + THAT (không when).",
+          "explanation_long": "It-cleft luôn dùng 'that', ngay cả khi nhấn mạnh thời gian. Không dùng when.",
+          "feedback_correct": "⚡ It-cleft: that (không when)",
+          "feedback_wrong": "It was + time + that.",
+          "ielts_tip": "It-cleft luôn dùng that.",
+          "distractor_note": "obvious: which (sai), where (sai)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "It is ___ that has the greatest impact on children's futures.",
+          "options": [
+            "education",
+            "educate",
+            "educating",
+            "educated"
+          ],
+          "correct_answer": "education",
+          "correct_index": 0,
+          "explanation_short": "It is + noun (focus) + that: It is education that...",
+          "explanation_long": "It-cleft: It is + noun/noun phrase + that.",
+          "feedback_correct": "🔥 It is + noun: education",
+          "feedback_wrong": "It is + noun + that.",
+          "ielts_tip": "It is + focus (noun) + that.",
+          "distractor_note": "obvious: educate (verb)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_what",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "What concerns experts most ___ the rising inequality gap.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "explanation_short": "What-cleft: What + V + is + focus.",
+          "explanation_long": "What concerns experts (singular concept) → is.",
+          "feedback_correct": "⚡ What + V + is",
+          "feedback_wrong": "What + V + is.",
+          "ielts_tip": "What... is + focus.",
+          "distractor_note": "obvious: are (sai)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "It was the government ___ failed to address the housing crisis.",
+          "options": [
+            "that",
+            "which",
+            "who",
+            "what"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "explanation_short": "It-cleft: It was + focus + that.",
+          "explanation_long": "It-cleft luôn dùng 'that', ngay cả khi nhấn mạnh người.",
+          "feedback_correct": "🔥 It-cleft: that (cho cả người)",
+          "feedback_wrong": "It was + focus + that.",
+          "ielts_tip": "It-cleft: that cho mọi trường hợp.",
+          "distractor_note": "obvious: what (sai cấu trúc)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_form",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'It is the lack of resources what prevents progress in developing countries.'",
+          "options": [
+            "Sai: what → that (It-cleft dùng that)",
+            "Câu đúng không có lỗi",
+            "Sai: prevents → prevent",
+            "Sai: in → at"
+          ],
+          "correct_answer": "Sai: what → that (It-cleft dùng that)",
+          "correct_index": 0,
+          "explanation_short": "It-cleft: It is + focus + THAT (không what).",
+          "explanation_long": "It-cleft luôn dùng 'that'. 'What' dùng trong What-cleft.",
+          "feedback_correct": "🎯 It-cleft: that (không what)",
+          "feedback_wrong": "It is... that. KHÔNG It is... what.",
+          "ielts_tip": "It-cleft: that. What-cleft: What... is.",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_what",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ is needed to solve global issues is strong leadership.",
+          "options": [
+            "What",
+            "It",
+            "That",
+            "Which"
+          ],
+          "correct_answer": "What",
+          "correct_index": 0,
+          "explanation_short": "What-cleft: What is needed is X.",
+          "explanation_long": "What-cleft: What + passive + is + focus.",
+          "feedback_correct": "⚡ What-cleft: What is needed is...",
+          "feedback_wrong": "What + is needed + is.",
+          "ielts_tip": "What is needed/required is + focus.",
+          "distractor_note": "obvious: It (cấu trúc khác)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "It is access to clean water ___ can transform communities in developing regions.",
+          "options": [
+            "that",
+            "which",
+            "what",
+            "who"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "explanation_short": "It-cleft: It is + focus + that.",
+          "explanation_long": "It-cleft: It is access to clean water THAT can transform...",
+          "feedback_correct": "🔥 It-cleft: that",
+          "feedback_wrong": "It is + focus + that.",
+          "ielts_tip": "It-cleft: luôn that.",
+          "distractor_note": "plausible: which (relative clause, nhưng đây là cleft)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_what",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "What makes this crisis particularly devastating ___ its impact on the most vulnerable populations.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "explanation_short": "What-cleft: What + V + is + focus.",
+          "explanation_long": "What makes... (singular concept) → is.",
+          "feedback_correct": "⚡ What + V + is",
+          "feedback_wrong": "What + V + is.",
+          "ielts_tip": "What-cleft: What... is + focus.",
+          "distractor_note": "plausible: are (nếu nghĩ populations = plural → sai, vì What = singular subject)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "It was not until 2020 ___ the government took serious action against pollution.",
+          "options": [
+            "that",
+            "when",
+            "which",
+            "what"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "explanation_short": "It was not until + time + THAT.",
+          "explanation_long": "It was not until + time/event + that + S + V. Cấu trúc nhấn mạnh.",
+          "feedback_correct": "🔥 It was not until + that",
+          "feedback_wrong": "It was not until... that.",
+          "ielts_tip": "It was not until... that = chỉ khi... mới...",
+          "distractor_note": "plausible: when (thời gian nhưng cleft dùng that)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_form",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'What the country needs are better healthcare systems and education.'",
+          "options": [
+            "Câu đúng — are đúng vì focus là plural (systems and education)",
+            "Sai: are → is",
+            "Sai: needs → need",
+            "Sai: better → more better"
+          ],
+          "correct_answer": "Câu đúng — are đúng vì focus là plural (systems and education)",
+          "correct_index": 0,
+          "explanation_short": "What + S + V + are + plural focus. Khi focus = plural → are OK.",
+          "explanation_long": "Khi phần focus sau is/are là plural → dùng 'are'. 'Systems and education' = plural → are.",
+          "feedback_correct": "⚡ What... are + plural focus = đúng!",
+          "feedback_wrong": "What... is + singular. What... are + plural.",
+          "ielts_tip": "Focus plural → are. Focus singular → is.",
+          "distractor_note": "plausible: option B (is) cũng đúng theo một số quy tắc)"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "It is only through international cooperation ___ we can address the global refugee crisis.",
+          "options": [
+            "that",
+            "which",
+            "what",
+            "when"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "explanation_short": "It is only through + noun + THAT.",
+          "explanation_long": "It-cleft: It is only through + focus + that + S + V.",
+          "feedback_correct": "🔥 It is only through... that",
+          "feedback_wrong": "It is only through... that.",
+          "ielts_tip": "It is only by/through... that = nhấn mạnh cách thức.",
+          "distractor_note": "plausible: which (relative clause)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_form",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'It is the poverty what prevents millions of children from attending school.'",
+          "options": [
+            "Sai: what → that (It-cleft dùng that)",
+            "Câu đúng không có lỗi",
+            "Sai: prevents → prevent",
+            "Sai: from → of"
+          ],
+          "correct_answer": "Sai: what → that (It-cleft dùng that)",
+          "correct_index": 0,
+          "explanation_short": "It-cleft: that (không what). It is X THAT Y.",
+          "explanation_long": "It-cleft luôn dùng 'that'. 'What' chỉ dùng trong What-cleft.",
+          "feedback_correct": "🎯 It-cleft: that (không what)",
+          "feedback_wrong": "It is... that. KHÔNG It is... what.",
+          "ielts_tip": "It-cleft: that. What-cleft: What... is.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_what",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "What distinguishes successful nations from others ___ their investment in human capital.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "explanation_short": "What-cleft: What + V + is + focus.",
+          "explanation_long": "What distinguishes... (singular concept) → is.",
+          "feedback_correct": "⚡ What + V + is",
+          "feedback_wrong": "What + V + is.",
+          "ielts_tip": "What-cleft → is (singular subject).",
+          "distractor_note": "plausible: are (nghĩ nations = plural → sai, What = subject)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_form",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'What is needed to solve this crisis are strong leadership and international cooperation.'",
+          "options": [
+            "Câu đúng — are đúng vì focus plural",
+            "Sai: are → is",
+            "Sai: is needed → needs",
+            "Sai: to solve → solving"
+          ],
+          "correct_answer": "Câu đúng — are đúng vì focus plural",
+          "correct_index": 0,
+          "explanation_short": "Focus = plural (leadership and cooperation) → are OK.",
+          "explanation_long": "Khi focus = compound/plural → 'are' có thể dùng.",
+          "feedback_correct": "🔥 Plural focus → are OK!",
+          "feedback_wrong": "What... are + plural focus.",
+          "ielts_tip": "Focus plural → are.",
+          "distractor_note": "plausible: option B (is cũng được theo formal grammar)"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "It was the 2008 financial crisis ___ exposed the vulnerability of the global economic system.",
+          "options": [
+            "that",
+            "which",
+            "what",
+            "when"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "explanation_short": "It-cleft: It was + event + THAT.",
+          "explanation_long": "It-cleft: It was the 2008 crisis THAT exposed...",
+          "feedback_correct": "⚡ It-cleft: that",
+          "feedback_wrong": "It was + focus + that.",
+          "ielts_tip": "It was + event/thing + that.",
+          "distractor_note": "plausible: which (relative clause)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_what",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "What the research reveals ___ that income inequality leads to social instability.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "explanation_short": "What-cleft: What + S + V + is + that-clause.",
+          "explanation_long": "What the research reveals (singular) → is. Followed by that-clause.",
+          "feedback_correct": "🔥 What + V + is + that...",
+          "feedback_wrong": "What + V + is + that.",
+          "ielts_tip": "What-cleft with that-clause: What... is that...",
+          "distractor_note": "plausible: are (sai, What = singular)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cleft_form",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'It is the lack of education what prevents developing countries from achieving economic growth and social stability.'",
+          "options": [
+            "It is the lack of education",
+            "what prevents developing countries",
+            "from achieving economic growth",
+            "and social stability"
+          ],
+          "correct_answer": "what prevents developing countries",
+          "correct_index": 1,
+          "explanation_short": "It-cleft: that (không what). It is X THAT Y.",
+          "explanation_long": "Lớp 1: 'what' → 'that' (It-cleft luôn dùng that, không what). Lớp 2: 'It is the lack of education THAT prevents' = đúng.",
+          "feedback_correct": "🔥 It-cleft: that (không what)!",
+          "feedback_wrong": "It is... that. KHÔNG It is... what.",
+          "ielts_tip": "It-cleft: that. What-cleft: What... is.",
+          "distractor_note": "near-correct: option A/C/D trông đúng",
+          "layers": [
+            "It-cleft",
+            "that not what",
+            "common error"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_sentence",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT dùng cleft sentence:",
+          "options": [
+            "It is education that plays the most crucial role in reducing global poverty and promoting sustainable development.",
+            "It is education what plays the most crucial role in reducing poverty.",
+            "What plays the most crucial role in reducing poverty is education that helps.",
+            "Education that is what plays the most crucial role."
+          ],
+          "correct_answer": "It is education that plays the most crucial role in reducing global poverty and promoting sustainable development.",
+          "correct_index": 0,
+          "explanation_short": "It-cleft chuẩn: It is + focus + that + V.",
+          "explanation_long": "Lớp 1: 'It is education that plays' = It-cleft chuẩn. Lớp 2: Option B dùng 'what'. Lớp 3: Option C trộn What-cleft + that. Lớp 4: Option D cấu trúc sai.",
+          "feedback_correct": "🏆 It is education that plays = chuẩn!",
+          "feedback_wrong": "It is + focus + that + V.",
+          "ielts_tip": "It-cleft cho emphasis trong Task 2.",
+          "distractor_note": "near-correct: option B dùng what thay that",
+          "layers": [
+            "It-cleft form",
+            "academic emphasis",
+            "Task 2"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cleft_what",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'What the developing world need most are sustainable solutions that address both poverty and environmental degradation.'",
+          "options": [
+            "What the developing world",
+            "need most are",
+            "sustainable solutions that address",
+            "both poverty and environmental degradation"
+          ],
+          "correct_answer": "need most are",
+          "correct_index": 1,
+          "explanation_short": "the developing world (singular) → NEEDS (không need).",
+          "explanation_long": "Lớp 1: 'the developing world' = singular → 'needs' (không 'need'). Lớp 2: 'are' có thể đúng vì focus = plural (sustainable solutions). Nhưng lỗi rõ nhất là 'need'.",
+          "feedback_correct": "🔥 developing world (singular) → needs!",
+          "feedback_wrong": "Singular subject → needs (not need).",
+          "ielts_tip": "Subject-verb agreement trong What-cleft.",
+          "distractor_note": "near-correct: 'are' có thể đúng (plural focus)",
+          "layers": [
+            "subject-verb agreement",
+            "What-cleft",
+            "singular subject"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_sentence",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT phân biệt It-cleft và What-cleft:",
+          "options": [
+            "It is education that matters most. / What matters most is education.",
+            "What is education that matters most. / It matters most is education.",
+            "It is education what matters. / What matters most that education.",
+            "Education is what matters. / What it matters is education."
+          ],
+          "correct_answer": "It is education that matters most. / What matters most is education.",
+          "correct_index": 0,
+          "explanation_short": "It-cleft: It is X that Y. What-cleft: What Y is X.",
+          "explanation_long": "Lớp 1: It-cleft: 'It is education that matters' = đúng. Lớp 2: What-cleft: 'What matters most is education' = đúng. Lớp 3: Cả hai cách đều nhấn mạnh 'education'.",
+          "feedback_correct": "🏆 It-cleft + What-cleft = cả hai chuẩn!",
+          "feedback_wrong": "It-cleft: It is X that. What-cleft: What... is X.",
+          "ielts_tip": "It-cleft vs What-cleft: 2 cách nhấn mạnh.",
+          "distractor_note": "near-correct: option C trộn what/that",
+          "layers": [
+            "It-cleft vs What-cleft",
+            "emphasis",
+            "parallel forms"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cleft_it",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?",
+          "options": [
+            "It is through education that we can break the cycle of poverty.",
+            "It is through education what we can break the cycle of poverty.",
+            "It is through education which we can break the cycle of poverty.",
+            "It was through education when we can break the cycle of poverty."
+          ],
+          "correct_answer": "It is through education that we can break the cycle of poverty.",
+          "correct_index": 0,
+          "explanation_short": "It-cleft: It is through + noun + THAT.",
+          "explanation_long": "Lớp 1: 'It is through education THAT' = It-cleft chuẩn. Lớp 2: Option B dùng 'what'. Option C dùng 'which'. Option D dùng 'when' + trộn was/can.",
+          "feedback_correct": "🏆 It is through... that = chuẩn!",
+          "feedback_wrong": "It is through/by + noun + that.",
+          "ielts_tip": "It-cleft: luôn dùng that.",
+          "distractor_note": "near-correct: option B (what) phổ biến nhưng sai",
+          "layers": [
+            "It-cleft through",
+            "that not what/which",
+            "emphasis"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cleft_what",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'What is needed to achieve the Sustainable Development Goals are commitment from all nations, which the UN has been advocating for decades.'",
+          "options": [
+            "What is needed to achieve",
+            "the Sustainable Development Goals",
+            "are commitment from all nations",
+            "which the UN has been advocating for decades"
+          ],
+          "correct_answer": "are commitment from all nations",
+          "correct_index": 2,
+          "explanation_short": "commitment (singular/uncountable) → IS (không are).",
+          "explanation_long": "Lớp 1: 'commitment' = uncountable/singular → 'is' (không 'are'). Lớp 2: Nếu focus là plural → are OK, nhưng 'commitment' = singular → is.",
+          "feedback_correct": "🔥 commitment (singular) → is (không are)!",
+          "feedback_wrong": "Singular/uncountable focus → is.",
+          "ielts_tip": "Subject-verb agreement: focus determines is/are.",
+          "distractor_note": "near-correct: option D trông có vẻ sai nhưng đúng",
+          "layers": [
+            "subject-verb agreement",
+            "What-cleft",
+            "uncountable noun"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_sentence",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT dùng cleft:",
+          "options": [
+            "It is not until governments invest in education that real progress can be made in reducing global poverty.",
+            "It is not until governments invest in education what real progress can be made.",
+            "It was not until governments invest in education that progress can be made.",
+            "Not until governments invest",
+            " it is that progress can be made."
+          ],
+          "correct_answer": "It is not until governments invest in education that real progress can be made in reducing global poverty.",
+          "correct_index": 0,
+          "explanation_short": "It is not until + clause + THAT + clause. Formal emphasis.",
+          "explanation_long": "Lớp 1: 'It is not until + clause + that + clause' = chuẩn formal emphasis. Lớp 2: Option B dùng 'what'. Option C trộn was + present. Option D cấu trúc sai.",
+          "feedback_correct": "🏆 It is not until... that = chuẩn formal!",
+          "feedback_wrong": "It is not until... that.",
+          "ielts_tip": "It is not until... that = formal emphasis.",
+          "distractor_note": "near-correct: option B (what) sai",
+          "layers": [
+            "It is not until... that",
+            "formal emphasis",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cleft_form",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'It were the failure of leadership that led to the humanitarian crisis, which affected millions of innocent civilians.'",
+          "options": [
+            "It were the failure of leadership",
+            "that led to the humanitarian crisis",
+            "which affected millions",
+            "of innocent civilians"
+          ],
+          "correct_answer": "It were the failure of leadership",
+          "correct_index": 0,
+          "explanation_short": "It IS/WAS (singular): It was (không It were).",
+          "explanation_long": "Lớp 1: 'It' luôn đi với 'is/was' (không 'were'). 'It were' = sai. Lớp 2: 'It was the failure' = đúng.",
+          "feedback_correct": "🔥 It + is/was (không were)!",
+          "feedback_wrong": "It is/was (singular). KHÔNG It were/are.",
+          "ielts_tip": "It-cleft: It is/was + focus + that.",
+          "distractor_note": "near-correct: option B/C/D trông đúng",
+          "layers": [
+            "It + is/was",
+            "It-cleft form",
+            "singular It"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cleft_sentence",
+          "error_tag": "cleft_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 3: 'Yếu tố nào quan trọng nhất để giảm nghèo?' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "I think it is education that plays the most crucial role in breaking the cycle of poverty.",
+            "What I think plays the most crucial role is education that helps people.",
+            "I think education what is the most important factor.",
+            "It is I think education that plays the most role."
+          ],
+          "correct_answer": "I think it is education that plays the most crucial role in breaking the cycle of poverty.",
+          "correct_index": 0,
+          "explanation_short": "I think + It-cleft = opinion + emphasis chuẩn.",
+          "explanation_long": "Lớp 1: 'I think' + 'It is education that' = opinion + It-cleft emphasis. Lớp 2: 'Breaking the cycle of poverty' = idiomatic expression. Lớp 3: Option B: awkward structure. Option C: 'what' sai. Option D: wrong word order.",
+          "feedback_correct": "🏆 I think + It-cleft = chuẩn Speaking!",
+          "feedback_wrong": "I think/believe + It is + focus + that.",
+          "ielts_tip": "Speaking: I think + cleft = opinion + emphasis.",
+          "distractor_note": "near-correct: option B awkward but close",
+          "layers": [
+            "opinion + cleft",
+            "Speaking Part 3",
+            "emphasis"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cleft_form",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'[A] It are education and healthcare what [B] plays the most important roles, and [C] what is needed most are strong commitment from all governments worldwide.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] It are → It is + what → that. [B] plays → play (plural). [C] are → is (commitment = singular).",
+          "explanation_long": "Lớp 1: [A] 'It are' → 'It is' (It luôn singular). + 'what' → 'that' (It-cleft dùng that). Lớp 2: [B] 'plays' → 'play' (education and healthcare = plural). Lớp 3: [C] 'are' → 'is' ('strong commitment' = singular/uncountable).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] It is... that | [B] play | [C] is!",
+          "feedback_wrong": "[A] It is + that. [B] plural → play. [C] singular → is.",
+          "ielts_tip": "It-cleft: It is... that. Subject-verb agreement.",
+          "distractor_note": "near-correct: option B bỏ sót [C].",
+          "layers": [
+            "It-cleft form",
+            "subject-verb agreement",
+            "triple error"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "8764dd9e-c9be-482d-956b-ce3ac7384163",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-16-cleft-sentences",
+      "metadata_ref": "unit-16-cleft-sentences.metadata",
+      "generation_profile_ref": "gp_unit16_cleft_sentences",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "6.5–7.0",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "___ is poverty that causes the most suffering in developing nations.",
+          "options": [
+            "It",
+            "There",
+            "This",
+            "What"
+          ],
+          "correct_answer": "It",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ It-cleft: It is... that...",
+          "feedback_wrong": "It is + focus + that.",
+          "explanation_short": "It-cleft: It is/was + focus + that + clause.",
+          "ielts_tip": "It is/was + X + that = cleft sentence.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "___ the world needs is a united effort to fight poverty.",
+          "options": [
+            "What",
+            "It",
+            "That",
+            "Which"
+          ],
+          "correct_answer": "What",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 What-cleft: What... is...",
+          "feedback_wrong": "What + S + V + is + focus.",
+          "explanation_short": "What-cleft: What + S + V + is + focus.",
+          "ielts_tip": "What-cleft: What... is/was...",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "It ___ the lack of education that keeps communities trapped in poverty.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ It is + singular → is",
+          "feedback_wrong": "It is + singular focus.",
+          "explanation_short": "It is + singular focus + that.",
+          "ielts_tip": "It is/was + focus + that.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "What we need ___ more international cooperation.",
+          "options": [
+            "is",
+            "are",
+            "were",
+            "has"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 What + S + V + is",
+          "feedback_wrong": "What + S + V + is.",
+          "explanation_short": "What-cleft: What + S + V + is + focus.",
+          "ielts_tip": "What... is/was + focus.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "It was in 2015 ___ the Paris Agreement was signed.",
+          "options": [
+            "that",
+            "which",
+            "when",
+            "where"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ It-cleft: that (không when)",
+          "feedback_wrong": "It was + time + that.",
+          "explanation_short": "It-cleft: It was + time + THAT (không when).",
+          "ielts_tip": "It-cleft luôn dùng that.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "It is ___ that has the greatest impact on children's futures.",
+          "options": [
+            "education",
+            "educate",
+            "educating",
+            "educated"
+          ],
+          "correct_answer": "education",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 It is + noun: education",
+          "feedback_wrong": "It is + noun + that.",
+          "explanation_short": "It is + noun (focus) + that: It is education that...",
+          "ielts_tip": "It is + focus (noun) + that.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "What concerns experts most ___ the rising inequality gap.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ What + V + is",
+          "feedback_wrong": "What + V + is.",
+          "explanation_short": "What-cleft: What + V + is + focus.",
+          "ielts_tip": "What... is + focus.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "It was the government ___ failed to address the housing crisis.",
+          "options": [
+            "that",
+            "which",
+            "who",
+            "what"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 It-cleft: that (cho cả người)",
+          "feedback_wrong": "It was + focus + that.",
+          "explanation_short": "It-cleft: It was + focus + that.",
+          "ielts_tip": "It-cleft: that cho mọi trường hợp.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'It is the lack of resources what prevents progress in developing countries.'",
+          "options": [
+            "Sai: what → that (It-cleft dùng that)",
+            "Câu đúng không có lỗi",
+            "Sai: prevents → prevent",
+            "Sai: in → at"
+          ],
+          "correct_answer": "Sai: what → that (It-cleft dùng that)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 It-cleft: that (không what)",
+          "feedback_wrong": "It is... that. KHÔNG It is... what.",
+          "explanation_short": "It-cleft: It is + focus + THAT (không what).",
+          "ielts_tip": "It-cleft: that. What-cleft: What... is.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "___ is needed to solve global issues is strong leadership.",
+          "options": [
+            "What",
+            "It",
+            "That",
+            "Which"
+          ],
+          "correct_answer": "What",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ What-cleft: What is needed is...",
+          "feedback_wrong": "What + is needed + is.",
+          "explanation_short": "What-cleft: What is needed is X.",
+          "ielts_tip": "What is needed/required is + focus.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "16e65c82-a90f-4311-8a11-aab2fb711d80",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-16-cleft-sentences",
+      "metadata_ref": "unit-16-cleft-sentences.metadata",
+      "generation_profile_ref": "gp_unit16_cleft_sentences",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "7.0–7.0",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "It is access to clean water ___ can transform communities in developing regions.",
+          "options": [
+            "that",
+            "which",
+            "what",
+            "who"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 It-cleft: that",
+          "feedback_wrong": "It is + focus + that.",
+          "explanation_short": "It-cleft: It is + focus + that.",
+          "ielts_tip": "It-cleft: luôn that.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "What makes this crisis particularly devastating ___ its impact on the most vulnerable populations.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ What + V + is",
+          "feedback_wrong": "What + V + is.",
+          "explanation_short": "What-cleft: What + V + is + focus.",
+          "ielts_tip": "What-cleft: What... is + focus.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "It was not until 2020 ___ the government took serious action against pollution.",
+          "options": [
+            "that",
+            "when",
+            "which",
+            "what"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 It was not until + that",
+          "feedback_wrong": "It was not until... that.",
+          "explanation_short": "It was not until + time + THAT.",
+          "ielts_tip": "It was not until... that = chỉ khi... mới...",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'What the country needs are better healthcare systems and education.'",
+          "options": [
+            "Câu đúng — are đúng vì focus là plural (systems and education)",
+            "Sai: are → is",
+            "Sai: needs → need",
+            "Sai: better → more better"
+          ],
+          "correct_answer": "Câu đúng — are đúng vì focus là plural (systems and education)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ What... are + plural focus = đúng!",
+          "feedback_wrong": "What... is + singular. What... are + plural.",
+          "explanation_short": "What + S + V + are + plural focus. Khi focus = plural → are OK.",
+          "ielts_tip": "Focus plural → are. Focus singular → is.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "It is only through international cooperation ___ we can address the global refugee crisis.",
+          "options": [
+            "that",
+            "which",
+            "what",
+            "when"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 It is only through... that",
+          "feedback_wrong": "It is only through... that.",
+          "explanation_short": "It is only through + noun + THAT.",
+          "ielts_tip": "It is only by/through... that = nhấn mạnh cách thức.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'It is the poverty what prevents millions of children from attending school.'",
+          "options": [
+            "Sai: what → that (It-cleft dùng that)",
+            "Câu đúng không có lỗi",
+            "Sai: prevents → prevent",
+            "Sai: from → of"
+          ],
+          "correct_answer": "Sai: what → that (It-cleft dùng that)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 It-cleft: that (không what)",
+          "feedback_wrong": "It is... that. KHÔNG It is... what.",
+          "explanation_short": "It-cleft: that (không what). It is X THAT Y.",
+          "ielts_tip": "It-cleft: that. What-cleft: What... is.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "What distinguishes successful nations from others ___ their investment in human capital.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ What + V + is",
+          "feedback_wrong": "What + V + is.",
+          "explanation_short": "What-cleft: What + V + is + focus.",
+          "ielts_tip": "What-cleft → is (singular subject).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'What is needed to solve this crisis are strong leadership and international cooperation.'",
+          "options": [
+            "Câu đúng — are đúng vì focus plural",
+            "Sai: are → is",
+            "Sai: is needed → needs",
+            "Sai: to solve → solving"
+          ],
+          "correct_answer": "Câu đúng — are đúng vì focus plural",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Plural focus → are OK!",
+          "feedback_wrong": "What... are + plural focus.",
+          "explanation_short": "Focus = plural (leadership and cooperation) → are OK.",
+          "ielts_tip": "Focus plural → are.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "It was the 2008 financial crisis ___ exposed the vulnerability of the global economic system.",
+          "options": [
+            "that",
+            "which",
+            "what",
+            "when"
+          ],
+          "correct_answer": "that",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ It-cleft: that",
+          "feedback_wrong": "It was + focus + that.",
+          "explanation_short": "It-cleft: It was + event + THAT.",
+          "ielts_tip": "It was + event/thing + that.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "What the research reveals ___ that income inequality leads to social instability.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "were"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 What + V + is + that...",
+          "feedback_wrong": "What + V + is + that.",
+          "explanation_short": "What-cleft: What + S + V + is + that-clause.",
+          "ielts_tip": "What-cleft with that-clause: What... is that...",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "58bf7c1c-6e76-4bb7-9d82-4bd32c9799bf",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-16-cleft-sentences",
+      "metadata_ref": "unit-16-cleft-sentences.metadata",
+      "generation_profile_ref": "gp_unit16_cleft_sentences",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "7.0–7.5",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'It is the lack of education what prevents developing countries from achieving economic growth and social stability.'",
+          "options": [
+            "It is the lack of education",
+            "what prevents developing countries",
+            "from achieving economic growth",
+            "and social stability"
+          ],
+          "correct_answer": "what prevents developing countries",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 It-cleft: that (không what)!",
+          "feedback_wrong": "It is... that. KHÔNG It is... what.",
+          "explanation_short": "It-cleft: that (không what). It is X THAT Y.",
+          "ielts_tip": "It-cleft: that. What-cleft: What... is.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT dùng cleft sentence:",
+          "options": [
+            "It is education that plays the most crucial role in reducing global poverty and promoting sustainable development.",
+            "It is education what plays the most crucial role in reducing poverty.",
+            "What plays the most crucial role in reducing poverty is education that helps.",
+            "Education that is what plays the most crucial role."
+          ],
+          "correct_answer": "It is education that plays the most crucial role in reducing global poverty and promoting sustainable development.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 It is education that plays = chuẩn!",
+          "feedback_wrong": "It is + focus + that + V.",
+          "explanation_short": "It-cleft chuẩn: It is + focus + that + V.",
+          "ielts_tip": "It-cleft cho emphasis trong Task 2.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'What the developing world need most are sustainable solutions that address both poverty and environmental degradation.'",
+          "options": [
+            "What the developing world",
+            "need most are",
+            "sustainable solutions that address",
+            "both poverty and environmental degradation"
+          ],
+          "correct_answer": "need most are",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 developing world (singular) → needs!",
+          "feedback_wrong": "Singular subject → needs (not need).",
+          "explanation_short": "the developing world (singular) → NEEDS (không need).",
+          "ielts_tip": "Subject-verb agreement trong What-cleft.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT phân biệt It-cleft và What-cleft:",
+          "options": [
+            "It is education that matters most. / What matters most is education.",
+            "What is education that matters most. / It matters most is education.",
+            "It is education what matters. / What matters most that education.",
+            "Education is what matters. / What it matters is education."
+          ],
+          "correct_answer": "It is education that matters most. / What matters most is education.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 It-cleft + What-cleft = cả hai chuẩn!",
+          "feedback_wrong": "It-cleft: It is X that. What-cleft: What... is X.",
+          "explanation_short": "It-cleft: It is X that Y. What-cleft: What Y is X.",
+          "ielts_tip": "It-cleft vs What-cleft: 2 cách nhấn mạnh.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?",
+          "options": [
+            "It is through education that we can break the cycle of poverty.",
+            "It is through education what we can break the cycle of poverty.",
+            "It is through education which we can break the cycle of poverty.",
+            "It was through education when we can break the cycle of poverty."
+          ],
+          "correct_answer": "It is through education that we can break the cycle of poverty.",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 It is through... that = chuẩn!",
+          "feedback_wrong": "It is through/by + noun + that.",
+          "explanation_short": "It-cleft: It is through + noun + THAT.",
+          "ielts_tip": "It-cleft: luôn dùng that.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'What is needed to achieve the Sustainable Development Goals are commitment from all nations, which the UN has been advocating for decades.'",
+          "options": [
+            "What is needed to achieve",
+            "the Sustainable Development Goals",
+            "are commitment from all nations",
+            "which the UN has been advocating for decades"
+          ],
+          "correct_answer": "are commitment from all nations",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 commitment (singular) → is (không are)!",
+          "feedback_wrong": "Singular/uncountable focus → is.",
+          "explanation_short": "commitment (singular/uncountable) → IS (không are).",
+          "ielts_tip": "Subject-verb agreement: focus determines is/are.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT dùng cleft:",
+          "options": [
+            "It is not until governments invest in education that real progress can be made in reducing global poverty.",
+            "It is not until governments invest in education what real progress can be made.",
+            "It was not until governments invest in education that progress can be made.",
+            "Not until governments invest",
+            " it is that progress can be made."
+          ],
+          "correct_answer": "It is not until governments invest in education that real progress can be made in reducing global poverty.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 It is not until... that = chuẩn formal!",
+          "feedback_wrong": "It is not until... that.",
+          "explanation_short": "It is not until + clause + THAT + clause. Formal emphasis.",
+          "ielts_tip": "It is not until... that = formal emphasis.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'It were the failure of leadership that led to the humanitarian crisis, which affected millions of innocent civilians.'",
+          "options": [
+            "It were the failure of leadership",
+            "that led to the humanitarian crisis",
+            "which affected millions",
+            "of innocent civilians"
+          ],
+          "correct_answer": "It were the failure of leadership",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 It + is/was (không were)!",
+          "feedback_wrong": "It is/was (singular). KHÔNG It were/are.",
+          "explanation_short": "It IS/WAS (singular): It was (không It were).",
+          "ielts_tip": "It-cleft: It is/was + focus + that.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Speaking Part 3: 'Yếu tố nào quan trọng nhất để giảm nghèo?' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "I think it is education that plays the most crucial role in breaking the cycle of poverty.",
+            "What I think plays the most crucial role is education that helps people.",
+            "I think education what is the most important factor.",
+            "It is I think education that plays the most role."
+          ],
+          "correct_answer": "I think it is education that plays the most crucial role in breaking the cycle of poverty.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 I think + It-cleft = chuẩn Speaking!",
+          "feedback_wrong": "I think/believe + It is + focus + that.",
+          "explanation_short": "I think + It-cleft = opinion + emphasis chuẩn.",
+          "ielts_tip": "Speaking: I think + cleft = opinion + emphasis.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'[A] It are education and healthcare what [B] plays the most important roles, and [C] what is needed most are strong commitment from all governments worldwide.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] It is... that | [B] play | [C] is!",
+          "feedback_wrong": "[A] It is + that. [B] plural → play. [C] singular → is.",
+          "explanation_short": "[A] It are → It is + what → that. [B] plays → play (plural). [C] are → is (commitment = singular).",
+          "ielts_tip": "It-cleft: It is... that. Subject-verb agreement.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

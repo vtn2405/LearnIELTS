@@ -1,0 +1,2459 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-10-passive-voice",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-10-passive-voice",
+    "version": "4.0",
+    "grammar_point": "Passive Voice",
+    "subtitle_vi": "Câu bị động",
+    "topic_vocabulary": "Environment & Society",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 11: The Passive Voice",
+      "unit_json_ref": "unit-10-passive-voice.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "passive_present",
+      "passive_past",
+      "passive_present_perfect",
+      "passive_modal",
+      "passive_present_continuous",
+      "passive_future",
+      "passive_vs_active",
+      "passive_academic"
+    ],
+    "common_vietnamese_errors": [
+      "active_passive_confusion",
+      "passive_form_error",
+      "passive_v3_missing",
+      "passive_by_error",
+      "passive_being_error"
+    ],
+    "ielts_band_target": {
+      "min": 5.5,
+      "max": 6.5
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-10-passive-voice",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "6.0–6.5",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 7.0 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.5 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_present",
+          "error_tag": "active_passive_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The reports ___ submitted every Friday.",
+          "options": [
+            "are",
+            "is",
+            "be",
+            "being"
+          ],
+          "correct_answer": "are",
+          "correct_index": 0,
+          "explanation_short": "Reports (plural) + passive → are submitted.",
+          "explanation_long": "Passive Present Simple: S + am/is/are + V3. Reports = plural → are.",
+          "feedback_correct": "⚡ Passive: are + V3",
+          "feedback_wrong": "Passive Present: S + be + V3.",
+          "ielts_tip": "Passive: S + be + V3. Active: S + V + O.",
+          "distractor_note": "obvious: be (bare), being (continuous)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_past",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The new policy ___ announced by the government last week.",
+          "options": [
+            "was",
+            "were",
+            "is",
+            "has"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "explanation_short": "Policy (singular) + quá khứ → was announced.",
+          "explanation_long": "Passive Past Simple: S + was/were + V3. Policy = singular → was.",
+          "feedback_correct": "🔥 Passive Past: was + V3",
+          "feedback_wrong": "Passive Past: S + was/were + V3.",
+          "ielts_tip": "was/were + V3 = Past Passive.",
+          "distractor_note": "obvious: were (plural), is (present)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_present",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Solar energy ___ used in many countries around the world.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "been"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "explanation_short": "Solar energy (singular/uncountable) → is used.",
+          "explanation_long": "Passive: Solar energy + is + V3 (used).",
+          "feedback_correct": "⚡ Passive: is used",
+          "feedback_wrong": "S (uncountable) + is + V3.",
+          "ielts_tip": "is/are + V3 = Present Passive.",
+          "distractor_note": "obvious: be (bare), been (past participle of be)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_modal",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Air pollution ___ be reduced through better technology.",
+          "options": [
+            "can",
+            "is",
+            "was",
+            "has"
+          ],
+          "correct_answer": "can",
+          "correct_index": 0,
+          "explanation_short": "Modal + be + V3: can be reduced.",
+          "explanation_long": "Passive with modal: S + modal + be + V3. Can be reduced = có thể được giảm.",
+          "feedback_correct": "🔥 Modal passive: can be + V3",
+          "feedback_wrong": "Modal + be + V3 = passive with modal.",
+          "ielts_tip": "can/should/must + be + V3 = modal passive.",
+          "distractor_note": "obvious: is (present, not modal), was (past)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_present_continuous",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "A new recycling system ___ being developed right now.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "has"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "explanation_short": "Present Continuous Passive: is being developed.",
+          "explanation_long": "Passive Present Continuous: S + am/is/are + being + V3. System = singular → is.",
+          "feedback_correct": "⚡ Present Continuous Passive: is being + V3",
+          "feedback_wrong": "Passive Continuous: S + be + being + V3.",
+          "ielts_tip": "is/are + being + V3 = Present Continuous Passive.",
+          "distractor_note": "obvious: was (past), has (perfect)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_vs_active",
+          "error_tag": "active_passive_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Which sentence is in the passive voice?",
+          "options": [
+            "Scientists study climate change.",
+            "Climate change is studied by scientists.",
+            "Scientists are studying climate change.",
+            "Scientists have studied climate change."
+          ],
+          "correct_answer": "Climate change is studied by scientists.",
+          "correct_index": 1,
+          "explanation_short": "Passive: S + be + V3 (+ by agent).",
+          "explanation_long": "'Is studied' = passive. Subject nhận hành động. 'By scientists' = agent.",
+          "feedback_correct": "🔥 is studied = passive voice!",
+          "feedback_wrong": "Passive: S + be + V3 + by + agent.",
+          "ielts_tip": "Passive = subject nhận hành động. Active = subject làm hành động.",
+          "distractor_note": "obvious: các option khác đều active"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_past",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Many trees ___ planted in the community park last year.",
+          "options": [
+            "were",
+            "was",
+            "are",
+            "is"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "explanation_short": "Trees (plural) + last year → were planted.",
+          "explanation_long": "Passive Past: S + was/were + V3. Trees = plural → were planted.",
+          "feedback_correct": "⚡ Plural + past → were planted",
+          "feedback_wrong": "Plural + past → were + V3.",
+          "ielts_tip": "were + V3 = Past Passive (plural subject).",
+          "distractor_note": "obvious: was (singular), are (present)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_present_perfect",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "New environmental laws ___ been introduced this year.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "are"
+          ],
+          "correct_answer": "have",
+          "correct_index": 0,
+          "explanation_short": "Laws (plural) + Present Perfect Passive: have been introduced.",
+          "explanation_long": "Passive Present Perfect: S + have/has + been + V3. Laws = plural → have.",
+          "feedback_correct": "🔥 Present Perfect Passive: have been + V3",
+          "feedback_wrong": "have/has + been + V3 = Present Perfect Passive.",
+          "ielts_tip": "have/has + been + V3 = Present Perfect Passive.",
+          "distractor_note": "obvious: has (singular), had (past perfect)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_form",
+          "error_tag": "passive_v3_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The waste is dispose of by the recycling company.'",
+          "options": [
+            "Sai: dispose → disposed (cần V3)",
+            "Câu đúng không có lỗi",
+            "Sai: is → are",
+            "Sai: by → from"
+          ],
+          "correct_answer": "Sai: dispose → disposed (cần V3)",
+          "correct_index": 0,
+          "explanation_short": "Passive: is + V3: is disposed of.",
+          "explanation_long": "Passive cần V3: dispose → disposed. 'Is dispose' = sai.",
+          "feedback_correct": "🎯 Passive cần V3: is disposed of",
+          "feedback_wrong": "be + V3. dispose → disposed.",
+          "ielts_tip": "Passive: be + V3. Không dùng V1.",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_present",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Water ___ polluted by industrial waste in many developing countries.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "been"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "explanation_short": "Water (uncountable) → is polluted.",
+          "explanation_long": "Passive: Water + is + V3. Water = uncountable → is.",
+          "feedback_correct": "⚡ Uncountable + passive: is polluted",
+          "feedback_wrong": "Uncountable noun + is + V3.",
+          "ielts_tip": "is + V3 = passive (uncountable/singular).",
+          "distractor_note": "obvious: be (bare), been (wrong form)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_present",
+          "error_tag": "active_passive_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Millions of tons of plastic ___ dumped into the ocean every year.",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "has been"
+          ],
+          "correct_answer": "are",
+          "correct_index": 0,
+          "explanation_short": "Millions of tons (plural) + mỗi năm → Present Passive: are dumped.",
+          "explanation_long": "Passive Present: are + V3. 'Every year' = habitual → Present.",
+          "feedback_correct": "🔥 Plural + every year → are dumped",
+          "feedback_wrong": "Plural + present → are + V3.",
+          "ielts_tip": "are + V3 = Present Passive (plural/habitual).",
+          "distractor_note": "plausible: is (singular, sai), were (past)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_modal",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Greenhouse gas emissions should ___ significantly to prevent climate change.",
+          "options": [
+            "be reduced",
+            "reduced",
+            "be reduce",
+            "reducing"
+          ],
+          "correct_answer": "be reduced",
+          "correct_index": 0,
+          "explanation_short": "Modal + be + V3: should be reduced.",
+          "explanation_long": "Passive with should: should + be + V3. Should be reduced = nên được giảm.",
+          "feedback_correct": "⚡ should + be + V3: should be reduced",
+          "feedback_wrong": "Modal passive: should + be + V3.",
+          "ielts_tip": "should/must/can + be + V3 = modal passive.",
+          "distractor_note": "plausible: reduced (thiếu be)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_present_perfect",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Since 2010, over 1000 species ___ been classified as endangered.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "are"
+          ],
+          "correct_answer": "have",
+          "correct_index": 0,
+          "explanation_short": "Species (plural ở đây) + since 2010 → have been classified.",
+          "explanation_long": "Present Perfect Passive: have + been + V3. Since = present perfect trigger.",
+          "feedback_correct": "🔥 Since + plural → have been classified",
+          "feedback_wrong": "Since + have/has + been + V3 = Present Perfect Passive.",
+          "ielts_tip": "Since/For + have been + V3 = Present Perfect Passive.",
+          "distractor_note": "plausible: has (singular)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_form",
+          "error_tag": "passive_by_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The forest was destroyed from illegal logging activities.'",
+          "options": [
+            "Sai: from → by (passive agent dùng by)",
+            "Câu đúng không có lỗi",
+            "Sai: destroyed → destroy",
+            "Sai: activities → activity"
+          ],
+          "correct_answer": "Sai: from → by (passive agent dùng by)",
+          "correct_index": 0,
+          "explanation_short": "Passive agent dùng by, không from: was destroyed BY.",
+          "explanation_long": "Passive voice: by + agent. 'From' = sai.",
+          "feedback_correct": "🎯 Passive: by + agent, không from",
+          "feedback_wrong": "Passive: by + agent.",
+          "ielts_tip": "was/were + V3 + by + agent.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_vs_active",
+          "error_tag": "active_passive_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu PASSIVE:",
+          "options": [
+            "The government implemented new environmental policies.",
+            "New environmental policies were implemented by the government.",
+            "The government has been implementing new policies.",
+            "The government will implement new policies."
+          ],
+          "correct_answer": "New environmental policies were implemented by the government.",
+          "correct_index": 1,
+          "explanation_short": "were implemented = passive. Subject nhận hành động.",
+          "explanation_long": "Passive: 'were implemented' + 'by the government'. Subject nhận hành động.",
+          "feedback_correct": "⚡ were implemented = passive!",
+          "feedback_wrong": "Passive: S + be + V3 + by agent.",
+          "ielts_tip": "Passive: subject nhận hành động. Active: subject làm hành động.",
+          "distractor_note": "plausible: option C (has been implementing) = active continuous"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_form",
+          "error_tag": "passive_v3_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Toxic chemicals are release into rivers by factories.'",
+          "options": [
+            "Sai: release → released (cần V3)",
+            "Câu đúng không có lỗi",
+            "Sai: are → is",
+            "Sai: into → in"
+          ],
+          "correct_answer": "Sai: release → released (cần V3)",
+          "correct_index": 0,
+          "explanation_short": "Passive: are + V3: are released.",
+          "explanation_long": "Passive cần V3: release → released. 'Are release' = sai.",
+          "feedback_correct": "🔥 Passive cần V3: are released",
+          "feedback_wrong": "be + V3. release → released.",
+          "ielts_tip": "Passive: be + V3. Phải dùng past participle.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_future",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The new waste management system ___ be installed next month.",
+          "options": [
+            "will",
+            "is",
+            "was",
+            "has"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "explanation_short": "Next month + passive → Future Passive: will be installed.",
+          "explanation_long": "Future Passive: will + be + V3. Will be installed = sẽ được lắp đặt.",
+          "feedback_correct": "⚡ Future Passive: will + be + V3",
+          "feedback_wrong": "will + be + V3 = Future Passive.",
+          "ielts_tip": "will + be + V3 = Future Passive.",
+          "distractor_note": "plausible: is (present)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_form",
+          "error_tag": "passive_being_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The data is been analyzed by the research team right now.'",
+          "options": [
+            "Sai: is been → is being (continuous passive)",
+            "Câu đúng không có lỗi",
+            "Sai: analyzed → analyzing",
+            "Sai: right now → now"
+          ],
+          "correct_answer": "Sai: is been → is being (continuous passive)",
+          "correct_index": 0,
+          "explanation_short": "Continuous Passive: is BEING analyzed (không is been).",
+          "explanation_long": "Present Continuous Passive: S + is/are + being + V3. 'Is been' = sai.",
+          "feedback_correct": "🎯 Continuous Passive: is being + V3",
+          "feedback_wrong": "is/are + being + V3 = Continuous Passive.",
+          "ielts_tip": "being + V3 = continuous passive.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_modal",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Endangered animals must ___ by strict conservation laws.",
+          "options": [
+            "be protected",
+            "protected",
+            "be protect",
+            "protecting"
+          ],
+          "correct_answer": "be protected",
+          "correct_index": 0,
+          "explanation_short": "must + be + V3: must be protected.",
+          "explanation_long": "Modal passive: must + be + V3.",
+          "feedback_correct": "🔥 must + be + V3: must be protected",
+          "feedback_wrong": "Modal passive: must + be + V3.",
+          "ielts_tip": "must/should/can + be + V3.",
+          "distractor_note": "plausible: protected (thiếu be)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_present_perfect",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Several environmental projects ___ been funded by international organizations.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "are"
+          ],
+          "correct_answer": "have",
+          "correct_index": 0,
+          "explanation_short": "Projects (plural) → have been funded.",
+          "explanation_long": "Present Perfect Passive: have + been + V3. Projects = plural → have.",
+          "feedback_correct": "⚡ Plural → have been funded",
+          "feedback_wrong": "Plural + have + been + V3.",
+          "ielts_tip": "have/has + been + V3 = Present Perfect Passive.",
+          "distractor_note": "plausible: has (singular)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "passive_form",
+          "error_tag": "passive_v3_missing",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The ozone layer is being damage by harmful chemicals, and marine ecosystems are also being threaten.'",
+          "options": [
+            "The ozone layer is being damage",
+            "by harmful chemicals",
+            "and marine ecosystems are",
+            "also being threaten"
+          ],
+          "correct_answer": "The ozone layer is being damage",
+          "correct_index": 0,
+          "explanation_short": "being + V3: being damaged (không being damage).",
+          "explanation_long": "Lớp 1: 'being damage' → 'being damaged' (V3). Lớp 2: 'being threaten' → 'being threatened'. Cả A và D sai, A trước.",
+          "feedback_correct": "🔥 being + V3: being damaged!",
+          "feedback_wrong": "be + being + V3. damage → damaged.",
+          "ielts_tip": "Passive continuous: be + being + V3.",
+          "distractor_note": "near-correct: option D (being threaten) cũng sai",
+          "layers": [
+            "passive V3",
+            "continuous passive",
+            "double error"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_academic",
+          "error_tag": "active_passive_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT (academic passive):",
+          "options": [
+            "Scientists have conducted extensive research on climate change.",
+            "Extensive research on climate change has been conducted.",
+            "Climate change research is conduct by scientists.",
+            "Scientists conduct research on climate change."
+          ],
+          "correct_answer": "Extensive research on climate change has been conducted.",
+          "correct_index": 1,
+          "explanation_short": "Academic writing ưu tiên passive khi agent không quan trọng.",
+          "explanation_long": "Lớp 1: 'has been conducted' = academic passive chuẩn. Lớp 2: Agent (scientists) không quan trọng bằng research → bỏ 'by scientists'. Lớp 3: 'is conduct' sai (thiếu V3).",
+          "feedback_correct": "🏆 Academic passive: has been conducted!",
+          "feedback_wrong": "Academic passive: bỏ agent khi không quan trọng.",
+          "ielts_tip": "Task 2: Passive khi focus vào action, không phải doer.",
+          "distractor_note": "near-correct: option A đúng nhưng active, ít academic",
+          "layers": [
+            "academic passive",
+            "agent omission",
+            "present perfect passive"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "passive_modal",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Renewable energy sources should be promote by governments, and fossil fuels must be gradually phase out.'",
+          "options": [
+            "Renewable energy sources",
+            "should be promote by governments",
+            "and fossil fuels must be",
+            "gradually phase out"
+          ],
+          "correct_answer": "should be promote by governments",
+          "correct_index": 1,
+          "explanation_short": "should be + V3: should be promoted (không promote).",
+          "explanation_long": "Lớp 1: 'should be promote' → 'should be promoted' (V3). Lớp 2: 'phase out' → 'phased out' (V3). Cả B và D sai, B trước.",
+          "feedback_correct": "🔥 should be + V3: promoted!",
+          "feedback_wrong": "Modal passive: modal + be + V3.",
+          "ielts_tip": "should/must + be + V3.",
+          "distractor_note": "near-correct: option D (phase out → phased out) cũng sai",
+          "layers": [
+            "modal passive",
+            "V3 form",
+            "double error"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_vs_active",
+          "error_tag": "active_passive_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT cho đoạn academic:",
+          "options": [
+            "People must protect endangered species before they disappear.",
+            "Endangered species must be protected before they disappear.",
+            "Endangered species must protected before they disappear.",
+            "Endangered species must be protect before they disappear."
+          ],
+          "correct_answer": "Endangered species must be protected before they disappear.",
+          "correct_index": 1,
+          "explanation_short": "Academic: passive focus vào object. must + be + V3.",
+          "explanation_long": "Lớp 1: 'must be protected' = chuẩn modal passive. Lớp 2: Academic ưu tiên passive. Lớp 3: 'must protected' thiếu be. Lớp 4: 'must be protect' thiếu -ed.",
+          "feedback_correct": "🏆 must be protected = academic passive chuẩn!",
+          "feedback_wrong": "must + be + V3. Academic ưu tiên passive.",
+          "ielts_tip": "Academic: must/should/can + be + V3.",
+          "distractor_note": "near-correct: option C thiếu be, option D thiếu -ed",
+          "layers": [
+            "modal passive",
+            "academic register",
+            "passive preference"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "passive_tense",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'Since 2015, many environmental policies ___ [A] and significant progress ___ [B].'",
+          "options": [
+            "[A] have been implemented / [B] has been made",
+            "[A] have been implemented / [B] have been made",
+            "[A] has been implemented / [B] has been made",
+            "[A] were implemented / [B] was made"
+          ],
+          "correct_answer": "[A] have been implemented / [B] has been made",
+          "correct_index": 0,
+          "explanation_short": "Policies (plural) → have. Progress (uncountable) → has.",
+          "explanation_long": "Lớp 1: 'policies' = plural → 'have been implemented'. Lớp 2: 'progress' = uncountable → 'has been made'. Since = Present Perfect trigger.",
+          "feedback_correct": "🏆 policies → have. progress → has.",
+          "feedback_wrong": "Plural → have been. Uncountable → has been.",
+          "ielts_tip": "Since + have/has been + V3.",
+          "distractor_note": "near-correct: option B (have been made) sai vì progress = uncountable → has",
+          "layers": [
+            "subject-verb agreement",
+            "passive perfect",
+            "uncountable noun"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "passive_form",
+          "error_tag": "passive_being_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While new recycling methods are been developed, existing waste management systems are being improved simultaneously.'",
+          "options": [
+            "While new recycling methods",
+            "are been developed",
+            "existing waste management systems",
+            "are being improved simultaneously"
+          ],
+          "correct_answer": "are been developed",
+          "correct_index": 1,
+          "explanation_short": "Continuous passive: are BEING developed (không are been).",
+          "explanation_long": "Lớp 1: 'are been' → 'are being' (continuous passive). Lớp 2: 'are being improved' = đúng.",
+          "feedback_correct": "🔥 are been → are being developed!",
+          "feedback_wrong": "Continuous passive: be + being + V3.",
+          "ielts_tip": "are/is + being + V3 = continuous passive.",
+          "distractor_note": "near-correct: option D trông có vẻ sai nhưng are being improved = đúng",
+          "layers": [
+            "continuous passive",
+            "being vs been",
+            "parallel structure"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_academic",
+          "error_tag": "active_passive_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "The government should implement stricter regulations to reduce pollution levels.",
+            "Stricter regulations should be implemented to reduce pollution levels.",
+            "Stricter regulations should implemented to reduce pollution levels.",
+            "Pollution levels should be reduce by stricter regulations."
+          ],
+          "correct_answer": "Stricter regulations should be implemented to reduce pollution levels.",
+          "correct_index": 1,
+          "explanation_short": "Academic: passive focus vào policy. should + be + V3.",
+          "explanation_long": "Lớp 1: should be implemented = chuẩn. Lớp 2: Academic ưu tiên passive khi subject = policy/regulation. Lớp 3: 'should implemented' thiếu be. Lớp 4: 'should be reduce' thiếu -d.",
+          "feedback_correct": "🏆 should be implemented = academic passive chuẩn!",
+          "feedback_wrong": "should + be + V3. Academic ưu tiên passive cho policy.",
+          "ielts_tip": "Task 2: Passive cho policy/regulation/law.",
+          "distractor_note": "near-correct: option A đúng nhưng active",
+          "layers": [
+            "modal passive",
+            "academic register",
+            "policy language"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "passive_tense",
+          "error_tag": "passive_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The report was publish in 2023, and its findings have been widely discuss by environmental experts.'",
+          "options": [
+            "The report was publish in 2023",
+            "and its findings have been",
+            "widely discuss",
+            "by environmental experts"
+          ],
+          "correct_answer": "The report was publish in 2023",
+          "correct_index": 0,
+          "explanation_short": "was + V3: was published (không was publish).",
+          "explanation_long": "Lớp 1: 'was publish' → 'was published' (V3). Lớp 2: 'widely discuss' → 'widely discussed' (V3). Cả A và C sai, A trước.",
+          "feedback_correct": "🔥 was + V3: was published!",
+          "feedback_wrong": "Passive: be + V3. publish → published.",
+          "ielts_tip": "was/were + V3. have been + V3.",
+          "distractor_note": "near-correct: option C (discuss → discussed) cũng sai",
+          "layers": [
+            "passive V3",
+            "double error",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "passive_academic",
+          "error_tag": "active_passive_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 3: 'Ai chịu trách nhiệm bảo vệ môi trường?' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "Everyone should protect the environment.",
+            "The environment should be protected by everyone",
+            " including governments and individuals.",
+            "The environment should be protect by governments.",
+            "Everyone should be protecting the environment."
+          ],
+          "correct_answer": "The environment should be protected by everyone, including governments and individuals.",
+          "correct_index": 1,
+          "explanation_short": "Passive + by everyone = academic + comprehensive.",
+          "explanation_long": "Lớp 1: should be protected = passive chuẩn. Lớp 2: 'by everyone, including...' = comprehensive answer. Lớp 3: 'should be protect' sai (thiếu -ed).",
+          "feedback_correct": "🏆 should be protected + comprehensive agent!",
+          "feedback_wrong": "Passive + by agent = academic answer.",
+          "ielts_tip": "Speaking Part 3: Passive + by agent = band 6.0+.",
+          "distractor_note": "near-correct: option A đúng nhưng active, ít sophisticated",
+          "layers": [
+            "passive for academic",
+            "Speaking Part 3",
+            "comprehensive answer"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "passive_form",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'Forests [A] are being destroy at an alarming rate, endangered species [B] has been threaten, and natural habitats [C] must be preserve for future generations.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [C] có lỗi — [A] và [B] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] destroy → destroyed. [B] has → have (species = plural). [C] preserve → preserved.",
+          "explanation_long": "Lớp 1: [A] 'being destroy' → 'being destroyed' (V3). Lớp 2: [B] 'species has' → 'species have' (species = plural ở đây) + 'threaten' → 'threatened'. Lớp 3: [C] 'be preserve' → 'be preserved' (V3).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] destroyed | [B] have been threatened | [C] be preserved!",
+          "feedback_wrong": "[A] being + V3. [B] plural → have + V3. [C] be + V3.",
+          "ielts_tip": "Passive: be + V3. Luôn dùng past participle.",
+          "distractor_note": "near-correct: option B bỏ sót [C].",
+          "layers": [
+            "passive V3",
+            "subject-verb agreement",
+            "triple error"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "f423928f-809c-45b4-980d-5ae542b6d99a",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-10-passive-voice",
+      "metadata_ref": "unit-10-passive-voice.metadata",
+      "generation_profile_ref": "gp_unit10_passive_voice",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "5.5–6.0",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "The reports ___ submitted every Friday.",
+          "options": [
+            "are",
+            "is",
+            "be",
+            "being"
+          ],
+          "correct_answer": "are",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Passive: are + V3",
+          "feedback_wrong": "Passive Present: S + be + V3.",
+          "explanation_short": "Reports (plural) + passive → are submitted.",
+          "ielts_tip": "Passive: S + be + V3. Active: S + V + O.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "The new policy ___ announced by the government last week.",
+          "options": [
+            "was",
+            "were",
+            "is",
+            "has"
+          ],
+          "correct_answer": "was",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Passive Past: was + V3",
+          "feedback_wrong": "Passive Past: S + was/were + V3.",
+          "explanation_short": "Policy (singular) + quá khứ → was announced.",
+          "ielts_tip": "was/were + V3 = Past Passive.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "Solar energy ___ used in many countries around the world.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "been"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Passive: is used",
+          "feedback_wrong": "S (uncountable) + is + V3.",
+          "explanation_short": "Solar energy (singular/uncountable) → is used.",
+          "ielts_tip": "is/are + V3 = Present Passive.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "Air pollution ___ be reduced through better technology.",
+          "options": [
+            "can",
+            "is",
+            "was",
+            "has"
+          ],
+          "correct_answer": "can",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Modal passive: can be + V3",
+          "feedback_wrong": "Modal + be + V3 = passive with modal.",
+          "explanation_short": "Modal + be + V3: can be reduced.",
+          "ielts_tip": "can/should/must + be + V3 = modal passive.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "A new recycling system ___ being developed right now.",
+          "options": [
+            "is",
+            "are",
+            "was",
+            "has"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Present Continuous Passive: is being + V3",
+          "feedback_wrong": "Passive Continuous: S + be + being + V3.",
+          "explanation_short": "Present Continuous Passive: is being developed.",
+          "ielts_tip": "is/are + being + V3 = Present Continuous Passive.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "Which sentence is in the passive voice?",
+          "options": [
+            "Scientists study climate change.",
+            "Climate change is studied by scientists.",
+            "Scientists are studying climate change.",
+            "Scientists have studied climate change."
+          ],
+          "correct_answer": "Climate change is studied by scientists.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 is studied = passive voice!",
+          "feedback_wrong": "Passive: S + be + V3 + by + agent.",
+          "explanation_short": "Passive: S + be + V3 (+ by agent).",
+          "ielts_tip": "Passive = subject nhận hành động. Active = subject làm hành động.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "Many trees ___ planted in the community park last year.",
+          "options": [
+            "were",
+            "was",
+            "are",
+            "is"
+          ],
+          "correct_answer": "were",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Plural + past → were planted",
+          "feedback_wrong": "Plural + past → were + V3.",
+          "explanation_short": "Trees (plural) + last year → were planted.",
+          "ielts_tip": "were + V3 = Past Passive (plural subject).",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "New environmental laws ___ been introduced this year.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "are"
+          ],
+          "correct_answer": "have",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Present Perfect Passive: have been + V3",
+          "feedback_wrong": "have/has + been + V3 = Present Perfect Passive.",
+          "explanation_short": "Laws (plural) + Present Perfect Passive: have been introduced.",
+          "ielts_tip": "have/has + been + V3 = Present Perfect Passive.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'The waste is dispose of by the recycling company.'",
+          "options": [
+            "Sai: dispose → disposed (cần V3)",
+            "Câu đúng không có lỗi",
+            "Sai: is → are",
+            "Sai: by → from"
+          ],
+          "correct_answer": "Sai: dispose → disposed (cần V3)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Passive cần V3: is disposed of",
+          "feedback_wrong": "be + V3. dispose → disposed.",
+          "explanation_short": "Passive: is + V3: is disposed of.",
+          "ielts_tip": "Passive: be + V3. Không dùng V1.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "Water ___ polluted by industrial waste in many developing countries.",
+          "options": [
+            "is",
+            "are",
+            "be",
+            "been"
+          ],
+          "correct_answer": "is",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Uncountable + passive: is polluted",
+          "feedback_wrong": "Uncountable noun + is + V3.",
+          "explanation_short": "Water (uncountable) → is polluted.",
+          "ielts_tip": "is + V3 = passive (uncountable/singular).",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "c9c2be3b-6504-4c93-bd2e-7b8e74c205c4",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-10-passive-voice",
+      "metadata_ref": "unit-10-passive-voice.metadata",
+      "generation_profile_ref": "gp_unit10_passive_voice",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "6.0–6.5",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "Millions of tons of plastic ___ dumped into the ocean every year.",
+          "options": [
+            "are",
+            "is",
+            "were",
+            "has been"
+          ],
+          "correct_answer": "are",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Plural + every year → are dumped",
+          "feedback_wrong": "Plural + present → are + V3.",
+          "explanation_short": "Millions of tons (plural) + mỗi năm → Present Passive: are dumped.",
+          "ielts_tip": "are + V3 = Present Passive (plural/habitual).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "Greenhouse gas emissions should ___ significantly to prevent climate change.",
+          "options": [
+            "be reduced",
+            "reduced",
+            "be reduce",
+            "reducing"
+          ],
+          "correct_answer": "be reduced",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ should + be + V3: should be reduced",
+          "feedback_wrong": "Modal passive: should + be + V3.",
+          "explanation_short": "Modal + be + V3: should be reduced.",
+          "ielts_tip": "should/must/can + be + V3 = modal passive.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "Since 2010, over 1000 species ___ been classified as endangered.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "are"
+          ],
+          "correct_answer": "have",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Since + plural → have been classified",
+          "feedback_wrong": "Since + have/has + been + V3 = Present Perfect Passive.",
+          "explanation_short": "Species (plural ở đây) + since 2010 → have been classified.",
+          "ielts_tip": "Since/For + have been + V3 = Present Perfect Passive.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'The forest was destroyed from illegal logging activities.'",
+          "options": [
+            "Sai: from → by (passive agent dùng by)",
+            "Câu đúng không có lỗi",
+            "Sai: destroyed → destroy",
+            "Sai: activities → activity"
+          ],
+          "correct_answer": "Sai: from → by (passive agent dùng by)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Passive: by + agent, không from",
+          "feedback_wrong": "Passive: by + agent.",
+          "explanation_short": "Passive agent dùng by, không from: was destroyed BY.",
+          "ielts_tip": "was/were + V3 + by + agent.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "Chọn câu PASSIVE:",
+          "options": [
+            "The government implemented new environmental policies.",
+            "New environmental policies were implemented by the government.",
+            "The government has been implementing new policies.",
+            "The government will implement new policies."
+          ],
+          "correct_answer": "New environmental policies were implemented by the government.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ were implemented = passive!",
+          "feedback_wrong": "Passive: S + be + V3 + by agent.",
+          "explanation_short": "were implemented = passive. Subject nhận hành động.",
+          "ielts_tip": "Passive: subject nhận hành động. Active: subject làm hành động.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'Toxic chemicals are release into rivers by factories.'",
+          "options": [
+            "Sai: release → released (cần V3)",
+            "Câu đúng không có lỗi",
+            "Sai: are → is",
+            "Sai: into → in"
+          ],
+          "correct_answer": "Sai: release → released (cần V3)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Passive cần V3: are released",
+          "feedback_wrong": "be + V3. release → released.",
+          "explanation_short": "Passive: are + V3: are released.",
+          "ielts_tip": "Passive: be + V3. Phải dùng past participle.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "The new waste management system ___ be installed next month.",
+          "options": [
+            "will",
+            "is",
+            "was",
+            "has"
+          ],
+          "correct_answer": "will",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Future Passive: will + be + V3",
+          "feedback_wrong": "will + be + V3 = Future Passive.",
+          "explanation_short": "Next month + passive → Future Passive: will be installed.",
+          "ielts_tip": "will + be + V3 = Future Passive.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'The data is been analyzed by the research team right now.'",
+          "options": [
+            "Sai: is been → is being (continuous passive)",
+            "Câu đúng không có lỗi",
+            "Sai: analyzed → analyzing",
+            "Sai: right now → now"
+          ],
+          "correct_answer": "Sai: is been → is being (continuous passive)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Continuous Passive: is being + V3",
+          "feedback_wrong": "is/are + being + V3 = Continuous Passive.",
+          "explanation_short": "Continuous Passive: is BEING analyzed (không is been).",
+          "ielts_tip": "being + V3 = continuous passive.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "Endangered animals must ___ by strict conservation laws.",
+          "options": [
+            "be protected",
+            "protected",
+            "be protect",
+            "protecting"
+          ],
+          "correct_answer": "be protected",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 must + be + V3: must be protected",
+          "feedback_wrong": "Modal passive: must + be + V3.",
+          "explanation_short": "must + be + V3: must be protected.",
+          "ielts_tip": "must/should/can + be + V3.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "Several environmental projects ___ been funded by international organizations.",
+          "options": [
+            "have",
+            "has",
+            "had",
+            "are"
+          ],
+          "correct_answer": "have",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Plural → have been funded",
+          "feedback_wrong": "Plural + have + been + V3.",
+          "explanation_short": "Projects (plural) → have been funded.",
+          "ielts_tip": "have/has + been + V3 = Present Perfect Passive.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "71cfa757-f892-4583-8442-0d34af1b6605",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-10-passive-voice",
+      "metadata_ref": "unit-10-passive-voice.metadata",
+      "generation_profile_ref": "gp_unit10_passive_voice",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The ozone layer is being damage by harmful chemicals, and marine ecosystems are also being threaten.'",
+          "options": [
+            "The ozone layer is being damage",
+            "by harmful chemicals",
+            "and marine ecosystems are",
+            "also being threaten"
+          ],
+          "correct_answer": "The ozone layer is being damage",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 being + V3: being damaged!",
+          "feedback_wrong": "be + being + V3. damage → damaged.",
+          "explanation_short": "being + V3: being damaged (không being damage).",
+          "ielts_tip": "Passive continuous: be + being + V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT (academic passive):",
+          "options": [
+            "Scientists have conducted extensive research on climate change.",
+            "Extensive research on climate change has been conducted.",
+            "Climate change research is conduct by scientists.",
+            "Scientists conduct research on climate change."
+          ],
+          "correct_answer": "Extensive research on climate change has been conducted.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Academic passive: has been conducted!",
+          "feedback_wrong": "Academic passive: bỏ agent khi không quan trọng.",
+          "explanation_short": "Academic writing ưu tiên passive khi agent không quan trọng.",
+          "ielts_tip": "Task 2: Passive khi focus vào action, không phải doer.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Renewable energy sources should be promote by governments, and fossil fuels must be gradually phase out.'",
+          "options": [
+            "Renewable energy sources",
+            "should be promote by governments",
+            "and fossil fuels must be",
+            "gradually phase out"
+          ],
+          "correct_answer": "should be promote by governments",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 should be + V3: promoted!",
+          "feedback_wrong": "Modal passive: modal + be + V3.",
+          "explanation_short": "should be + V3: should be promoted (không promote).",
+          "ielts_tip": "should/must + be + V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT cho đoạn academic:",
+          "options": [
+            "People must protect endangered species before they disappear.",
+            "Endangered species must be protected before they disappear.",
+            "Endangered species must protected before they disappear.",
+            "Endangered species must be protect before they disappear."
+          ],
+          "correct_answer": "Endangered species must be protected before they disappear.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 must be protected = academic passive chuẩn!",
+          "feedback_wrong": "must + be + V3. Academic ưu tiên passive.",
+          "explanation_short": "Academic: passive focus vào object. must + be + V3.",
+          "ielts_tip": "Academic: must/should/can + be + V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'Since 2015, many environmental policies ___ [A] and significant progress ___ [B].'",
+          "options": [
+            "[A] have been implemented / [B] has been made",
+            "[A] have been implemented / [B] have been made",
+            "[A] has been implemented / [B] has been made",
+            "[A] were implemented / [B] was made"
+          ],
+          "correct_answer": "[A] have been implemented / [B] has been made",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 policies → have. progress → has.",
+          "feedback_wrong": "Plural → have been. Uncountable → has been.",
+          "explanation_short": "Policies (plural) → have. Progress (uncountable) → has.",
+          "ielts_tip": "Since + have/has been + V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'While new recycling methods are been developed, existing waste management systems are being improved simultaneously.'",
+          "options": [
+            "While new recycling methods",
+            "are been developed",
+            "existing waste management systems",
+            "are being improved simultaneously"
+          ],
+          "correct_answer": "are been developed",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 are been → are being developed!",
+          "feedback_wrong": "Continuous passive: be + being + V3.",
+          "explanation_short": "Continuous passive: are BEING developed (không are been).",
+          "ielts_tip": "are/is + being + V3 = continuous passive.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "The government should implement stricter regulations to reduce pollution levels.",
+            "Stricter regulations should be implemented to reduce pollution levels.",
+            "Stricter regulations should implemented to reduce pollution levels.",
+            "Pollution levels should be reduce by stricter regulations."
+          ],
+          "correct_answer": "Stricter regulations should be implemented to reduce pollution levels.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 should be implemented = academic passive chuẩn!",
+          "feedback_wrong": "should + be + V3. Academic ưu tiên passive cho policy.",
+          "explanation_short": "Academic: passive focus vào policy. should + be + V3.",
+          "ielts_tip": "Task 2: Passive cho policy/regulation/law.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The report was publish in 2023, and its findings have been widely discuss by environmental experts.'",
+          "options": [
+            "The report was publish in 2023",
+            "and its findings have been",
+            "widely discuss",
+            "by environmental experts"
+          ],
+          "correct_answer": "The report was publish in 2023",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 was + V3: was published!",
+          "feedback_wrong": "Passive: be + V3. publish → published.",
+          "explanation_short": "was + V3: was published (không was publish).",
+          "ielts_tip": "was/were + V3. have been + V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Speaking Part 3: 'Ai chịu trách nhiệm bảo vệ môi trường?' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "Everyone should protect the environment.",
+            "The environment should be protected by everyone",
+            " including governments and individuals.",
+            "The environment should be protect by governments.",
+            "Everyone should be protecting the environment."
+          ],
+          "correct_answer": "The environment should be protected by everyone, including governments and individuals.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 should be protected + comprehensive agent!",
+          "feedback_wrong": "Passive + by agent = academic answer.",
+          "explanation_short": "Passive + by everyone = academic + comprehensive.",
+          "ielts_tip": "Speaking Part 3: Passive + by agent = band 6.0+.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'Forests [A] are being destroy at an alarming rate, endangered species [B] has been threaten, and natural habitats [C] must be preserve for future generations.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [C] có lỗi — [A] và [B] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] destroyed | [B] have been threatened | [C] be preserved!",
+          "feedback_wrong": "[A] being + V3. [B] plural → have + V3. [C] be + V3.",
+          "explanation_short": "[A] destroy → destroyed. [B] has → have (species = plural). [C] preserve → preserved.",
+          "ielts_tip": "Passive: be + V3. Luôn dùng past participle.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

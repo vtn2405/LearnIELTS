@@ -1,0 +1,2484 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-13-conditional-type-3",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-13-conditional-type-3",
+    "version": "4.0",
+    "grammar_point": "Conditional Type 3",
+    "subtitle_vi": "Câu điều kiện loại 3",
+    "topic_vocabulary": "Global Issues",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 14: Conditional Sentences — Type 3",
+      "unit_json_ref": "unit-13-conditional-type-3.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "cond3_form",
+      "cond3_if_clause",
+      "cond3_result",
+      "cond3_inverted",
+      "cond3_mixed"
+    ],
+    "common_vietnamese_errors": [
+      "cond3_form_error",
+      "cond3_mixed",
+      "cond3_would_in_if"
+    ],
+    "ielts_band_target": {
+      "min": 6.0,
+      "max": 6.5
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-13-conditional-type-3",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "6.0–6.5",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "6.5–6.5",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 7.0 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.5 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If I had known about the disaster, I ___ have helped.",
+          "options": [
+            "would",
+            "will",
+            "could",
+            "had"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "Type 3: If + had V3, would + have + V3.",
+          "explanation_long": "Conditional Type 3: If + Past Perfect, would + have + V3. Tiếc nuối quá khứ.",
+          "feedback_correct": "⚡ Type 3: would have helped",
+          "feedback_wrong": "If + had V3, would have V3.",
+          "ielts_tip": "Type 3 = regret about past.",
+          "distractor_note": "obvious: will (Type 1), had (sai vị trí)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the government had acted sooner, the crisis ___ been averted.",
+          "options": [
+            "could have",
+            "can have",
+            "will have",
+            "would"
+          ],
+          "correct_answer": "could have",
+          "correct_index": 0,
+          "explanation_short": "Type 3: If + had V3, could have + V3.",
+          "explanation_long": "could have V3 = would have been able to (Type 3 variant).",
+          "feedback_correct": "🔥 Type 3: could have been averted",
+          "feedback_wrong": "If + had V3, could have V3.",
+          "ielts_tip": "could have = would have been able to.",
+          "distractor_note": "obvious: can have (present), will have (Type 1)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_if_clause",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If they ___ invested in renewable energy earlier, pollution would have been lower.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "explanation_short": "Type 3: If + had + V3: had invested.",
+          "explanation_long": "Type 3: If + had V3, would have V3.",
+          "feedback_correct": "⚡ Type 3: If + had invested",
+          "feedback_wrong": "If + had + V3.",
+          "ielts_tip": "If + had V3, would/could have V3.",
+          "distractor_note": "obvious: have (present), would (wrong clause)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If we had protected forests, many species ___ not have become extinct.",
+          "options": [
+            "would",
+            "will",
+            "could",
+            "should"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "Type 3: would not have become.",
+          "explanation_long": "If + had V3, would + not + have + V3.",
+          "feedback_correct": "🔥 Type 3 phủ định: would not have become",
+          "feedback_wrong": "If + had V3, would/would not have V3.",
+          "ielts_tip": "Type 3 phủ định: would not have V3.",
+          "distractor_note": "obvious: will (Type 1)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the warning had been issued earlier, more lives ___ have been saved.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "must"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "Type 3: would have been saved.",
+          "explanation_long": "If + had been V3 (passive), would + have been V3.",
+          "feedback_correct": "⚡ Type 3 passive: would have been saved",
+          "feedback_wrong": "If + had been V3, would have been V3.",
+          "ielts_tip": "Type 3 passive: would have been V3.",
+          "distractor_note": "obvious: will (Type 1), can (present)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If I ___ studied harder, I would have passed the IELTS exam.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "explanation_short": "Type 3: If + had + V3: had studied.",
+          "explanation_long": "If + had studied (Past Perfect), would have V3.",
+          "feedback_correct": "🔥 Type 3: If + had studied",
+          "feedback_wrong": "If + had V3, would have V3.",
+          "ielts_tip": "Type 3: tiếc nuối → If + had V3.",
+          "distractor_note": "obvious: have (present), would (wrong clause)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The floods would not have caused so much damage if the city ___ prepared better.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "was"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "explanation_short": "If + had + V3: had prepared.",
+          "explanation_long": "Type 3: đảo mệnh đề vẫn đúng.",
+          "feedback_correct": "⚡ Type 3: had prepared",
+          "feedback_wrong": "If + had V3.",
+          "ielts_tip": "Type 3: kết quả có thể đặt trước if-clause.",
+          "distractor_note": "obvious: has (present), was (Type 2)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the company had invested in safety measures, the accident ___ have been prevented.",
+          "options": [
+            "could",
+            "can",
+            "will",
+            "is"
+          ],
+          "correct_answer": "could",
+          "correct_index": 0,
+          "explanation_short": "Type 3: could have been prevented.",
+          "explanation_long": "could have V3 = would have been able to V.",
+          "feedback_correct": "🔥 Type 3: could have been prevented",
+          "feedback_wrong": "If + had V3, could have V3.",
+          "ielts_tip": "could have = có thể đã (Type 3).",
+          "distractor_note": "obvious: can (present), will (Type 1)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If the world had act sooner, climate change would have been controlled.'",
+          "options": [
+            "Sai: act → acted (cần V3/past participle)",
+            "Câu đúng không có lỗi",
+            "Sai: would have → will have",
+            "Sai: controlled → controlling"
+          ],
+          "correct_answer": "Sai: act → acted (cần V3/past participle)",
+          "correct_index": 0,
+          "explanation_short": "had + V3: had acted (không had act).",
+          "explanation_long": "If + had V3: act → acted (regular verb).",
+          "feedback_correct": "🎯 had + V3: had acted",
+          "feedback_wrong": "had + V3. act → acted.",
+          "ielts_tip": "had + V3 (past participle).",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If international cooperation ___ been stronger, global poverty would have decreased.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "was"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "explanation_short": "Type 3: If + had + been: had been stronger.",
+          "explanation_long": "If + had been (Past Perfect), would have V3.",
+          "feedback_correct": "⚡ Type 3: had been",
+          "feedback_wrong": "If + had been + adj, would have V3.",
+          "ielts_tip": "If + had been = Past Perfect.",
+          "distractor_note": "obvious: has (present)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If governments had implemented stricter regulations decades ago, the environmental damage ___ have been significantly less severe.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "shall"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "If + had V3 → would have V3.",
+          "explanation_long": "Type 3: If + had implemented, would have been less severe.",
+          "feedback_correct": "🔥 Type 3: would have been",
+          "feedback_wrong": "If + had V3, would have V3.",
+          "ielts_tip": "would have V3 = kết quả giả định quá khứ.",
+          "distractor_note": "plausible: will (gần đúng)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Many species ___ have survived if their habitats had not been destroyed.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "must"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "explanation_short": "If + had not been V3 → would have V3.",
+          "explanation_long": "Type 3 phủ định: If + had not been destroyed, would have survived.",
+          "feedback_correct": "⚡ Type 3: would have survived",
+          "feedback_wrong": "If + had not V3, would have V3.",
+          "ielts_tip": "Type 3 phủ định: had not been V3.",
+          "distractor_note": "plausible: will (Type 1)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the earthquake warning system ___ been in place, the casualties could have been minimized.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "explanation_short": "Type 3: If + had been.",
+          "explanation_long": "If + had been in place, could have been minimized.",
+          "feedback_correct": "🔥 Type 3: had been in place",
+          "feedback_wrong": "If + had been, could have V3.",
+          "ielts_tip": "had been = Past Perfect.",
+          "distractor_note": "plausible: has (Present Perfect)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If the organization had received more funding, they will have expanded their operations.'",
+          "options": [
+            "Sai: will have → would have (Type 3 dùng would)",
+            "Câu đúng không có lỗi",
+            "Sai: received → receive",
+            "Sai: expanded → expanding"
+          ],
+          "correct_answer": "Sai: will have → would have (Type 3 dùng would)",
+          "correct_index": 0,
+          "explanation_short": "If + had V3 → would have V3 (không will have).",
+          "explanation_long": "Type 3: had received → would have expanded.",
+          "feedback_correct": "🎯 Type 3: would have (không will have)",
+          "feedback_wrong": "had V3 → would have V3.",
+          "ielts_tip": "Type 3: would/could have V3.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If scientists ___ the dangers of pollution earlier, communities would have been better protected.",
+          "options": [
+            "had identified",
+            "identified",
+            "have identified",
+            "identify"
+          ],
+          "correct_answer": "had identified",
+          "correct_index": 0,
+          "explanation_short": "Type 3: If + had V3: had identified.",
+          "explanation_long": "If + had identified (Past Perfect), would have been V3.",
+          "feedback_correct": "🔥 Type 3: had identified",
+          "feedback_wrong": "If + had V3, would have V3.",
+          "ielts_tip": "If + had V3 = Past Perfect in if-clause.",
+          "distractor_note": "plausible: identified (Simple Past = Type 2)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_mixed",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If the leaders invested more in healthcare, the pandemic would not have been so devastating.'",
+          "options": [
+            "Sai: invested → had invested (Type 3 cần Past Perfect)",
+            "Câu đúng không có lỗi",
+            "Sai: would not → will not",
+            "Sai: devastating → devastated"
+          ],
+          "correct_answer": "Sai: invested → had invested (Type 3 cần Past Perfect)",
+          "correct_index": 0,
+          "explanation_short": "would have V3 → Type 3 → if-clause cần had V3: had invested.",
+          "explanation_long": "'Would have been' = Type 3 result → if-clause phải dùng had invested (Past Perfect).",
+          "feedback_correct": "🔥 Type 3: had invested (Past Perfect)",
+          "feedback_wrong": "If + had V3 (not just V2), would have V3.",
+          "ielts_tip": "Type 3: If + had V3. Type 2: If + V2.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The famine ___ have been prevented if international aid had arrived on time.",
+          "options": [
+            "could",
+            "can",
+            "will",
+            "must"
+          ],
+          "correct_answer": "could",
+          "correct_index": 0,
+          "explanation_short": "Type 3: could have been prevented.",
+          "explanation_long": "could have V3 = would have been able to V.",
+          "feedback_correct": "⚡ Type 3: could have been prevented",
+          "feedback_wrong": "If + had V3, could have V3.",
+          "ielts_tip": "could have = conditional possibility (past).",
+          "distractor_note": "plausible: can (present)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'If we would have known about the risk, we would have evacuated sooner.'",
+          "options": [
+            "Sai: would have known → had known (no would in if-clause)",
+            "Câu đúng không có lỗi",
+            "Sai: evacuated → evacuate",
+            "Sai: sooner → more soon"
+          ],
+          "correct_answer": "Sai: would have known → had known (no would in if-clause)",
+          "correct_index": 0,
+          "explanation_short": "If + had V3 (không if + would have V3).",
+          "explanation_long": "Type 3: KHÔNG dùng would trong if-clause. 'Would have known' → 'had known'.",
+          "feedback_correct": "🎯 If + had known (không would have known)",
+          "feedback_wrong": "If + had V3. KHÔNG if + would have V3.",
+          "ielts_tip": "If + had V3 (no would in if-clause).",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If early action ___ been taken on global warming, we would not be facing this crisis today.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "explanation_short": "Mixed conditional: If + had been taken, would not be.",
+          "explanation_long": "If + had been taken (Type 3 if-clause) + would not be (Type 2 result) = mixed conditional.",
+          "feedback_correct": "🔥 Mixed conditional: had been + would be",
+          "feedback_wrong": "Mixed: If + had V3, would + V (present result).",
+          "ielts_tip": "Mixed conditional: past condition → present result.",
+          "distractor_note": "plausible: has (Present Perfect)"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the treaty ___ been signed in time, many conflicts would have been avoided.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "explanation_short": "Type 3: If + had been signed.",
+          "explanation_long": "If + had been V3 (passive Past Perfect), would have been V3.",
+          "feedback_correct": "⚡ Type 3: had been signed",
+          "feedback_wrong": "If + had been V3, would have V3.",
+          "ielts_tip": "Type 3 passive: If + had been V3.",
+          "distractor_note": "plausible: has (Present Perfect)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the international community would have responded faster to the crisis, thousands of refugees could have been saved.'",
+          "options": [
+            "If the international community",
+            "would have responded faster to the crisis",
+            "thousands of refugees",
+            "could have been saved"
+          ],
+          "correct_answer": "would have responded faster to the crisis",
+          "correct_index": 1,
+          "explanation_short": "If + had responded (không would have responded).",
+          "explanation_long": "Lớp 1: 'would have responded' → 'had responded' (no would in Type 3 if-clause). Lớp 2: 'could have been saved' = đúng (Type 3 result).",
+          "feedback_correct": "🔥 If + had responded (không would have)!",
+          "feedback_wrong": "If + had V3. KHÔNG if + would have V3.",
+          "ielts_tip": "Type 3: If + had V3, would/could have V3.",
+          "distractor_note": "near-correct: option D (could have been saved) đúng",
+          "layers": [
+            "no would in if-clause",
+            "Type 3 form",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If governments had invested more in disaster preparedness",
+            " the impact of natural disasters would have been significantly reduced.",
+            "If governments invested more",
+            " natural disasters would have been reduced.",
+            "If governments would have invested more",
+            " natural disasters could have been reduced.",
+            "If governments had invest more",
+            " natural disasters would been reduced."
+          ],
+          "correct_answer": "If governments had invested more in disaster preparedness, the impact of natural disasters would have been significantly reduced.",
+          "correct_index": 0,
+          "explanation_short": "If + had invested + would have been reduced = Type 3 chuẩn.",
+          "explanation_long": "Lớp 1: 'had invested' + 'would have been reduced' = Type 3 nhất quán. Lớp 2: Option B dùng Past (Type 2 if) + Type 3 result. Option C dùng would trong if-clause. Option D thiếu -ed và thiếu have.",
+          "feedback_correct": "🏆 If + had V3, would have been V3 = chuẩn!",
+          "feedback_wrong": "Type 3: If + had V3, would have been V3.",
+          "ielts_tip": "Type 3 passive: would have been V3.",
+          "distractor_note": "near-correct: option B trộn Type 2 + Type 3",
+          "layers": [
+            "Type 3 form",
+            "passive result",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Had the world leaders took decisive action, the environmental crisis could have been averted.'",
+          "options": [
+            "Had the world leaders took",
+            "decisive action",
+            "the environmental crisis",
+            "could have been averted"
+          ],
+          "correct_answer": "Had the world leaders took",
+          "correct_index": 0,
+          "explanation_short": "Had + V3: taken (không took). take-took-taken.",
+          "explanation_long": "Lớp 1: 'Had + took' → 'Had + taken' (V3). take-took-taken. Lớp 2: 'Had + S + V3' = Type 3 inverted (formal). Đúng form: 'Had the leaders taken'.",
+          "feedback_correct": "🔥 Had + V3: taken (không took)!",
+          "feedback_wrong": "Had + V3 (inverted). take → taken.",
+          "ielts_tip": "Type 3 inverted: Had + S + V3, would/could have V3.",
+          "distractor_note": "near-correct: option D (could have been averted) đúng",
+          "layers": [
+            "Type 3 inverted",
+            "irregular V3",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_mixed",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT — Mixed Conditional:",
+          "options": [
+            "If the government had invested in education years ago",
+            " the literacy rate would be higher today.",
+            "If the government invested in education",
+            " the literacy rate would be higher today.",
+            "If the government had invested in education",
+            " the literacy rate would have been higher.",
+            "If the government invests in education",
+            " the literacy rate will be higher."
+          ],
+          "correct_answer": "If the government had invested in education years ago, the literacy rate would be higher today.",
+          "correct_index": 0,
+          "explanation_short": "Mixed: If + had V3 (past condition), would + V (present result).",
+          "explanation_long": "Lớp 1: 'had invested' = past condition (Type 3 if). Lớp 2: 'would be higher today' = present result (Type 2 result). Lớp 3: Mixed conditional = past condition → present consequence.",
+          "feedback_correct": "🏆 Mixed conditional: had V3 → would V (present)!",
+          "feedback_wrong": "Mixed: If + had V3, would + V (present).",
+          "ielts_tip": "Mixed conditional: past condition → present result.",
+          "distractor_note": "near-correct: option B = pure Type 2, option C = pure Type 3",
+          "layers": [
+            "mixed conditional",
+            "past cause → present effect",
+            "academic distinction"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'If the country ___ [A] in technology, it ___ [B] a global leader by now.'",
+          "options": [
+            "[A] had invested / [B] would have become",
+            "[A] had invested / [B] would be",
+            "[A] invested / [B] would have become",
+            "[A] has invested / [B] would be"
+          ],
+          "correct_answer": "[A] had invested / [B] would be",
+          "correct_index": 1,
+          "explanation_short": "'By now' = present → Mixed conditional: had V3 + would V (present).",
+          "explanation_long": "Lớp 1: 'had invested' = past condition. Lớp 2: 'would be' = present result (because 'by now' = present). Mixed conditional: past → present.",
+          "feedback_correct": "🏆 Mixed: had invested + would be (by now = present)!",
+          "feedback_wrong": "'By now' = present → would be, not would have been.",
+          "ielts_tip": "Mixed conditional: If + had V3, would V (present).",
+          "distractor_note": "near-correct: option A (would have become) = pure Type 3, nhưng 'by now' = present",
+          "layers": [
+            "mixed conditional",
+            "by now = present",
+            "past → present"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the vaccine had been developed sooner, millions of people would not had died from the pandemic.'",
+          "options": [
+            "If the vaccine had been developed sooner",
+            "millions of people",
+            "would not had died",
+            "from the pandemic"
+          ],
+          "correct_answer": "would not had died",
+          "correct_index": 2,
+          "explanation_short": "would not HAVE died (không had). Modal + have + V3.",
+          "explanation_long": "Lớp 1: 'would not had' → 'would not have' (modal + have, not had). Lớp 2: 'had been developed' = đúng (passive Past Perfect in if-clause).",
+          "feedback_correct": "🔥 would not HAVE died (không had)!",
+          "feedback_wrong": "Modal + have + V3. Không modal + had.",
+          "ielts_tip": "would/could/might + have + V3.",
+          "distractor_note": "near-correct: option A (had been developed) đúng",
+          "layers": [
+            "modal + have",
+            "Type 3 result",
+            "modal negation"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Had governments prioritized renewable energy decades ago",
+            " the current climate crisis could have been mitigated.",
+            "If governments prioritized renewable energy",
+            " the climate crisis could have been mitigated.",
+            "Had governments would prioritize renewable energy",
+            " the crisis could be mitigated.",
+            "If governments have prioritized renewable energy",
+            " the crisis would have been mitigated."
+          ],
+          "correct_answer": "Had governments prioritized renewable energy decades ago, the current climate crisis could have been mitigated.",
+          "correct_index": 0,
+          "explanation_short": "Type 3 inverted formal: Had + S + V3, could have been V3.",
+          "explanation_long": "Lớp 1: 'Had governments prioritized' = Type 3 inverted (formal, academic). Lớp 2: 'could have been mitigated' = đúng. Lớp 3: Option B trộn Past + Type 3 result. Option C dùng would trong inverted.",
+          "feedback_correct": "🏆 Had + S + V3 = Type 3 inverted chuẩn academic!",
+          "feedback_wrong": "Had + S + V3, would/could have V3 = formal Type 3.",
+          "ielts_tip": "Type 3 inverted: Had + S + V3 (no if).",
+          "distractor_note": "near-correct: option B trộn Type 2 + Type 3",
+          "layers": [
+            "Type 3 inverted",
+            "formal academic",
+            "passive result"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If early education programs had been established, poverty rates might have decrease significantly in developing regions.'",
+          "options": [
+            "If early education programs",
+            "had been established",
+            "poverty rates might have",
+            "decrease significantly in developing regions"
+          ],
+          "correct_answer": "decrease significantly in developing regions",
+          "correct_index": 3,
+          "explanation_short": "might have + V3: decreased (không decrease).",
+          "explanation_long": "Lớp 1: 'might have decrease' → 'might have decreased' (V3). Lớp 2: 'had been established' = đúng (passive Past Perfect).",
+          "feedback_correct": "🔥 might have + V3: decreased!",
+          "feedback_wrong": "Modal + have + V3. decrease → decreased.",
+          "ielts_tip": "might/could/would + have + V3.",
+          "distractor_note": "near-correct: option C trông có vẻ sai nhưng 'might have' OK nếu có V3",
+          "layers": [
+            "modal + have + V3",
+            "past participle",
+            "Type 3 result"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cond3_form",
+          "error_tag": "cond3_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 2: 'Kể về một quyết định bạn hối tiếc' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "If I studied abroad",
+            " my career would have been different.",
+            "If I had studied abroad when I had the chance",
+            " my career would have been completely different.",
+            "If I would have studied abroad",
+            " my career will be different.",
+            "If I have studied abroad",
+            " my career would have been different."
+          ],
+          "correct_answer": "If I had studied abroad when I had the chance, my career would have been completely different.",
+          "correct_index": 1,
+          "explanation_short": "Type 3: If + had studied + would have been = regret chuẩn.",
+          "explanation_long": "Lớp 1: 'had studied' + 'would have been' = Type 3 chuẩn. Lớp 2: 'when I had the chance' = thêm chi tiết, tự nhiên. Lớp 3: Option A = Type 2 if + Type 3 result. Option C = would in if-clause.",
+          "feedback_correct": "🏆 If + had V3, would have V3 = regret chuẩn!",
+          "feedback_wrong": "Type 3: If + had V3, would have V3.",
+          "ielts_tip": "Speaking Part 2: Type 3 cho regret/wish.",
+          "distractor_note": "near-correct: option A trộn Type 2 + Type 3",
+          "layers": [
+            "Type 3 for regret",
+            "Speaking Part 2",
+            "narrative"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cond3_form",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'If world leaders [A] would have addressed poverty earlier, millions of children [B] will have received education, and global inequality [C] could have been reduce.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [C] có lỗi — [A] và [B] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] would have addressed → had addressed. [B] will have → would have. [C] reduce → reduced.",
+          "explanation_long": "Lớp 1: [A] 'would have addressed' → 'had addressed' (no would in if-clause). Lớp 2: [B] 'will have received' → 'would have received' (Type 3: would, not will). Lớp 3: [C] 'been reduce' → 'been reduced' (V3).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] had addressed | [B] would have received | [C] been reduced!",
+          "feedback_wrong": "[A] no would in if. [B] would (not will). [C] been + V3.",
+          "ielts_tip": "Type 3: If + had V3, would/could have V3.",
+          "distractor_note": "near-correct: option B bỏ sót [C].",
+          "layers": [
+            "no would in if-clause",
+            "will vs would",
+            "V3 form"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "2f56c46a-f714-45e3-ab41-9e77cc194743",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-13-conditional-type-3",
+      "metadata_ref": "unit-13-conditional-type-3.metadata",
+      "generation_profile_ref": "gp_unit13_conditional_type_3",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "6.0–6.5",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "If I had known about the disaster, I ___ have helped.",
+          "options": [
+            "would",
+            "will",
+            "could",
+            "had"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 3: would have helped",
+          "feedback_wrong": "If + had V3, would have V3.",
+          "explanation_short": "Type 3: If + had V3, would + have + V3.",
+          "ielts_tip": "Type 3 = regret about past.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "If the government had acted sooner, the crisis ___ been averted.",
+          "options": [
+            "could have",
+            "can have",
+            "will have",
+            "would"
+          ],
+          "correct_answer": "could have",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 3: could have been averted",
+          "feedback_wrong": "If + had V3, could have V3.",
+          "explanation_short": "Type 3: If + had V3, could have + V3.",
+          "ielts_tip": "could have = would have been able to.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "If they ___ invested in renewable energy earlier, pollution would have been lower.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 3: If + had invested",
+          "feedback_wrong": "If + had + V3.",
+          "explanation_short": "Type 3: If + had + V3: had invested.",
+          "ielts_tip": "If + had V3, would/could have V3.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "If we had protected forests, many species ___ not have become extinct.",
+          "options": [
+            "would",
+            "will",
+            "could",
+            "should"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 3 phủ định: would not have become",
+          "feedback_wrong": "If + had V3, would/would not have V3.",
+          "explanation_short": "Type 3: would not have become.",
+          "ielts_tip": "Type 3 phủ định: would not have V3.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "If the warning had been issued earlier, more lives ___ have been saved.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "must"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 3 passive: would have been saved",
+          "feedback_wrong": "If + had been V3, would have been V3.",
+          "explanation_short": "Type 3: would have been saved.",
+          "ielts_tip": "Type 3 passive: would have been V3.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "If I ___ studied harder, I would have passed the IELTS exam.",
+          "options": [
+            "had",
+            "have",
+            "has",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 3: If + had studied",
+          "feedback_wrong": "If + had V3, would have V3.",
+          "explanation_short": "Type 3: If + had + V3: had studied.",
+          "ielts_tip": "Type 3: tiếc nuối → If + had V3.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "The floods would not have caused so much damage if the city ___ prepared better.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "was"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 3: had prepared",
+          "feedback_wrong": "If + had V3.",
+          "explanation_short": "If + had + V3: had prepared.",
+          "ielts_tip": "Type 3: kết quả có thể đặt trước if-clause.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "If the company had invested in safety measures, the accident ___ have been prevented.",
+          "options": [
+            "could",
+            "can",
+            "will",
+            "is"
+          ],
+          "correct_answer": "could",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 3: could have been prevented",
+          "feedback_wrong": "If + had V3, could have V3.",
+          "explanation_short": "Type 3: could have been prevented.",
+          "ielts_tip": "could have = có thể đã (Type 3).",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'If the world had act sooner, climate change would have been controlled.'",
+          "options": [
+            "Sai: act → acted (cần V3/past participle)",
+            "Câu đúng không có lỗi",
+            "Sai: would have → will have",
+            "Sai: controlled → controlling"
+          ],
+          "correct_answer": "Sai: act → acted (cần V3/past participle)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 had + V3: had acted",
+          "feedback_wrong": "had + V3. act → acted.",
+          "explanation_short": "had + V3: had acted (không had act).",
+          "ielts_tip": "had + V3 (past participle).",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "If international cooperation ___ been stronger, global poverty would have decreased.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "was"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 3: had been",
+          "feedback_wrong": "If + had been + adj, would have V3.",
+          "explanation_short": "Type 3: If + had + been: had been stronger.",
+          "ielts_tip": "If + had been = Past Perfect.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "1e142d19-3f53-4522-8d5e-afb86a4eed5f",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-13-conditional-type-3",
+      "metadata_ref": "unit-13-conditional-type-3.metadata",
+      "generation_profile_ref": "gp_unit13_conditional_type_3",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "6.5–6.5",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "If governments had implemented stricter regulations decades ago, the environmental damage ___ have been significantly less severe.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "shall"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 3: would have been",
+          "feedback_wrong": "If + had V3, would have V3.",
+          "explanation_short": "If + had V3 → would have V3.",
+          "ielts_tip": "would have V3 = kết quả giả định quá khứ.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "Many species ___ have survived if their habitats had not been destroyed.",
+          "options": [
+            "would",
+            "will",
+            "can",
+            "must"
+          ],
+          "correct_answer": "would",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 3: would have survived",
+          "feedback_wrong": "If + had not V3, would have V3.",
+          "explanation_short": "If + had not been V3 → would have V3.",
+          "ielts_tip": "Type 3 phủ định: had not been V3.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "If the earthquake warning system ___ been in place, the casualties could have been minimized.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 3: had been in place",
+          "feedback_wrong": "If + had been, could have V3.",
+          "explanation_short": "Type 3: If + had been.",
+          "ielts_tip": "had been = Past Perfect.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'If the organization had received more funding, they will have expanded their operations.'",
+          "options": [
+            "Sai: will have → would have (Type 3 dùng would)",
+            "Câu đúng không có lỗi",
+            "Sai: received → receive",
+            "Sai: expanded → expanding"
+          ],
+          "correct_answer": "Sai: will have → would have (Type 3 dùng would)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Type 3: would have (không will have)",
+          "feedback_wrong": "had V3 → would have V3.",
+          "explanation_short": "If + had V3 → would have V3 (không will have).",
+          "ielts_tip": "Type 3: would/could have V3.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "If scientists ___ the dangers of pollution earlier, communities would have been better protected.",
+          "options": [
+            "had identified",
+            "identified",
+            "have identified",
+            "identify"
+          ],
+          "correct_answer": "had identified",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 3: had identified",
+          "feedback_wrong": "If + had V3, would have V3.",
+          "explanation_short": "Type 3: If + had V3: had identified.",
+          "ielts_tip": "If + had V3 = Past Perfect in if-clause.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'If the leaders invested more in healthcare, the pandemic would not have been so devastating.'",
+          "options": [
+            "Sai: invested → had invested (Type 3 cần Past Perfect)",
+            "Câu đúng không có lỗi",
+            "Sai: would not → will not",
+            "Sai: devastating → devastated"
+          ],
+          "correct_answer": "Sai: invested → had invested (Type 3 cần Past Perfect)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Type 3: had invested (Past Perfect)",
+          "feedback_wrong": "If + had V3 (not just V2), would have V3.",
+          "explanation_short": "would have V3 → Type 3 → if-clause cần had V3: had invested.",
+          "ielts_tip": "Type 3: If + had V3. Type 2: If + V2.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "The famine ___ have been prevented if international aid had arrived on time.",
+          "options": [
+            "could",
+            "can",
+            "will",
+            "must"
+          ],
+          "correct_answer": "could",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 3: could have been prevented",
+          "feedback_wrong": "If + had V3, could have V3.",
+          "explanation_short": "Type 3: could have been prevented.",
+          "ielts_tip": "could have = conditional possibility (past).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "Phát hiện lỗi: 'If we would have known about the risk, we would have evacuated sooner.'",
+          "options": [
+            "Sai: would have known → had known (no would in if-clause)",
+            "Câu đúng không có lỗi",
+            "Sai: evacuated → evacuate",
+            "Sai: sooner → more soon"
+          ],
+          "correct_answer": "Sai: would have known → had known (no would in if-clause)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 If + had known (không would have known)",
+          "feedback_wrong": "If + had V3. KHÔNG if + would have V3.",
+          "explanation_short": "If + had V3 (không if + would have V3).",
+          "ielts_tip": "If + had V3 (no would in if-clause).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "If early action ___ been taken on global warming, we would not be facing this crisis today.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Mixed conditional: had been + would be",
+          "feedback_wrong": "Mixed: If + had V3, would + V (present result).",
+          "explanation_short": "Mixed conditional: If + had been taken, would not be.",
+          "ielts_tip": "Mixed conditional: past condition → present result.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "If the treaty ___ been signed in time, many conflicts would have been avoided.",
+          "options": [
+            "had",
+            "has",
+            "have",
+            "would"
+          ],
+          "correct_answer": "had",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Type 3: had been signed",
+          "feedback_wrong": "If + had been V3, would have V3.",
+          "explanation_short": "Type 3: If + had been signed.",
+          "ielts_tip": "Type 3 passive: If + had been V3.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "d975d67d-c9b5-4556-ab2a-0193aa8d262a",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-13-conditional-type-3",
+      "metadata_ref": "unit-13-conditional-type-3.metadata",
+      "generation_profile_ref": "gp_unit13_conditional_type_3",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "6.5–7.0",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the international community would have responded faster to the crisis, thousands of refugees could have been saved.'",
+          "options": [
+            "If the international community",
+            "would have responded faster to the crisis",
+            "thousands of refugees",
+            "could have been saved"
+          ],
+          "correct_answer": "would have responded faster to the crisis",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 If + had responded (không would have)!",
+          "feedback_wrong": "If + had V3. KHÔNG if + would have V3.",
+          "explanation_short": "If + had responded (không would have responded).",
+          "ielts_tip": "Type 3: If + had V3, would/could have V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu Task 2 CHUẨN NHẤT:",
+          "options": [
+            "If governments had invested more in disaster preparedness",
+            " the impact of natural disasters would have been significantly reduced.",
+            "If governments invested more",
+            " natural disasters would have been reduced.",
+            "If governments would have invested more",
+            " natural disasters could have been reduced.",
+            "If governments had invest more",
+            " natural disasters would been reduced."
+          ],
+          "correct_answer": "If governments had invested more in disaster preparedness, the impact of natural disasters would have been significantly reduced.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 If + had V3, would have been V3 = chuẩn!",
+          "feedback_wrong": "Type 3: If + had V3, would have been V3.",
+          "explanation_short": "If + had invested + would have been reduced = Type 3 chuẩn.",
+          "ielts_tip": "Type 3 passive: would have been V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Had the world leaders took decisive action, the environmental crisis could have been averted.'",
+          "options": [
+            "Had the world leaders took",
+            "decisive action",
+            "the environmental crisis",
+            "could have been averted"
+          ],
+          "correct_answer": "Had the world leaders took",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 Had + V3: taken (không took)!",
+          "feedback_wrong": "Had + V3 (inverted). take → taken.",
+          "explanation_short": "Had + V3: taken (không took). take-took-taken.",
+          "ielts_tip": "Type 3 inverted: Had + S + V3, would/could have V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT — Mixed Conditional:",
+          "options": [
+            "If the government had invested in education years ago",
+            " the literacy rate would be higher today.",
+            "If the government invested in education",
+            " the literacy rate would be higher today.",
+            "If the government had invested in education",
+            " the literacy rate would have been higher.",
+            "If the government invests in education",
+            " the literacy rate will be higher."
+          ],
+          "correct_answer": "If the government had invested in education years ago, the literacy rate would be higher today.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Mixed conditional: had V3 → would V (present)!",
+          "feedback_wrong": "Mixed: If + had V3, would + V (present).",
+          "explanation_short": "Mixed: If + had V3 (past condition), would + V (present result).",
+          "ielts_tip": "Mixed conditional: past condition → present result.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'If the country ___ [A] in technology, it ___ [B] a global leader by now.'",
+          "options": [
+            "[A] had invested / [B] would have become",
+            "[A] had invested / [B] would be",
+            "[A] invested / [B] would have become",
+            "[A] has invested / [B] would be"
+          ],
+          "correct_answer": "[A] had invested / [B] would be",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 Mixed: had invested + would be (by now = present)!",
+          "feedback_wrong": "'By now' = present → would be, not would have been.",
+          "explanation_short": "'By now' = present → Mixed conditional: had V3 + would V (present).",
+          "ielts_tip": "Mixed conditional: If + had V3, would V (present).",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the vaccine had been developed sooner, millions of people would not had died from the pandemic.'",
+          "options": [
+            "If the vaccine had been developed sooner",
+            "millions of people",
+            "would not had died",
+            "from the pandemic"
+          ],
+          "correct_answer": "would not had died",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 would not HAVE died (không had)!",
+          "feedback_wrong": "Modal + have + V3. Không modal + had.",
+          "explanation_short": "would not HAVE died (không had). Modal + have + V3.",
+          "ielts_tip": "would/could/might + have + V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body paragraph Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Had governments prioritized renewable energy decades ago",
+            " the current climate crisis could have been mitigated.",
+            "If governments prioritized renewable energy",
+            " the climate crisis could have been mitigated.",
+            "Had governments would prioritize renewable energy",
+            " the crisis could be mitigated.",
+            "If governments have prioritized renewable energy",
+            " the crisis would have been mitigated."
+          ],
+          "correct_answer": "Had governments prioritized renewable energy decades ago, the current climate crisis could have been mitigated.",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Had + S + V3 = Type 3 inverted chuẩn academic!",
+          "feedback_wrong": "Had + S + V3, would/could have V3 = formal Type 3.",
+          "explanation_short": "Type 3 inverted formal: Had + S + V3, could have been V3.",
+          "ielts_tip": "Type 3 inverted: Had + S + V3 (no if).",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If early education programs had been established, poverty rates might have decrease significantly in developing regions.'",
+          "options": [
+            "If early education programs",
+            "had been established",
+            "poverty rates might have",
+            "decrease significantly in developing regions"
+          ],
+          "correct_answer": "decrease significantly in developing regions",
+          "correct_index": 3,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 might have + V3: decreased!",
+          "feedback_wrong": "Modal + have + V3. decrease → decreased.",
+          "explanation_short": "might have + V3: decreased (không decrease).",
+          "ielts_tip": "might/could/would + have + V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Speaking Part 2: 'Kể về một quyết định bạn hối tiếc' — Chọn câu CHUẨN NHẤT:",
+          "options": [
+            "If I studied abroad",
+            " my career would have been different.",
+            "If I had studied abroad when I had the chance",
+            " my career would have been completely different.",
+            "If I would have studied abroad",
+            " my career will be different.",
+            "If I have studied abroad",
+            " my career would have been different."
+          ],
+          "correct_answer": "If I had studied abroad when I had the chance, my career would have been completely different.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 If + had V3, would have V3 = regret chuẩn!",
+          "feedback_wrong": "Type 3: If + had V3, would have V3.",
+          "explanation_short": "Type 3: If + had studied + would have been = regret chuẩn.",
+          "ielts_tip": "Speaking Part 2: Type 3 cho regret/wish.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'If world leaders [A] would have addressed poverty earlier, millions of children [B] will have received education, and global inequality [C] could have been reduce.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [C] có lỗi — [A] và [B] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] had addressed | [B] would have received | [C] been reduced!",
+          "feedback_wrong": "[A] no would in if. [B] would (not will). [C] been + V3.",
+          "explanation_short": "[A] would have addressed → had addressed. [B] will have → would have. [C] reduce → reduced.",
+          "ielts_tip": "Type 3: If + had V3, would/could have V3.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

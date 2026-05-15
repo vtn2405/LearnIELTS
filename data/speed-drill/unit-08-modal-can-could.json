@@ -1,0 +1,2462 @@
+{
+  "_meta": {
+    "version": "4.0",
+    "architecture": "3-layer: metadata | blueprint | session_instances",
+    "unit_id": "unit-8-modal-can-could",
+    "total_questions": 30
+  },
+  "metadata": {
+    "unit_id": "unit-8-modal-can-could",
+    "version": "4.0",
+    "grammar_point": "Modal: can / could",
+    "subtitle_vi": "Modal: can / could",
+    "topic_vocabulary": "Work & Technology",
+    "source_content": {
+      "type": "learned_units_and_unit_pdf_content",
+      "pdf_ref": "Giải Thích Ngữ Pháp Tiếng Anh — Chương 9: Modal Verbs — can/could",
+      "unit_json_ref": "unit-8-modal-can-could.json"
+    },
+    "scoring_standard": "ielts_grammar_accuracy_band_logic",
+    "gameplay_style": "kahoot_like_speed_combo",
+    "core_grammar_tags": [
+      "can_ability",
+      "could_past_ability",
+      "can_permission",
+      "could_polite",
+      "can_vs_could",
+      "could_possibility",
+      "could_conditional",
+      "can_vs_be_able_to"
+    ],
+    "common_vietnamese_errors": [
+      "can_could_confusion",
+      "can_with_to",
+      "cant_form_error",
+      "can_with_s",
+      "be_able_to_confusion",
+      "dont_can_error"
+    ],
+    "ielts_band_target": {
+      "min": 5.0,
+      "max": 6.0
+    }
+  },
+  "blueprint": {
+    "unit_id": "unit-8-modal-can-could",
+    "total_items": 30,
+    "scoring_rule": {
+      "base_points_per_item": 100,
+      "speed_scoring": {
+        "tiers": [
+          {
+            "max_seconds": 1,
+            "points": 100
+          },
+          {
+            "max_seconds": 2,
+            "points": 90
+          },
+          {
+            "max_seconds": 3,
+            "points": 80
+          },
+          {
+            "max_seconds": 4,
+            "points": 70
+          },
+          {
+            "max_seconds": 5,
+            "points": 60
+          },
+          {
+            "condition": "wrong_or_timeout",
+            "points": 0
+          }
+        ]
+      },
+      "streak_bonus": {
+        "milestones": [
+          {
+            "streak": 3,
+            "bonus_points": 150,
+            "label": "🔥 On Fire!"
+          },
+          {
+            "streak": 5,
+            "bonus_points": 300,
+            "label": "⚡ Unstoppable!"
+          },
+          {
+            "streak": 10,
+            "bonus_points": 500,
+            "label": "🏆 PERFECT STREAK!"
+          }
+        ],
+        "stacking": false
+      },
+      "max_score_note": "10 items × 100 base + 500 streak bonus = 1500"
+    },
+    "level_rules": {
+      "starter": {
+        "label": "Starter",
+        "label_vi": "Nền tảng",
+        "band_range": "5.0–5.5",
+        "description_vi": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "question_count": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 6,
+          "application": 3,
+          "detection": 1
+        },
+        "question_types_allowed": [
+          "multiple_choice"
+        ],
+        "distractor_strategy": "obvious_wrong",
+        "context_complexity": "short_isolated_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "writing_task2_simple"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "IELTS Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Building Strong ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Drilling ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Start Over 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_BUILDUP",
+        "next_action_on_fail": "REVIEW_THEORY"
+      },
+      "build_up": {
+        "label": "Build Up",
+        "label_vi": "Nâng cấp",
+        "band_range": "5.5–6.0",
+        "description_vi": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "question_count": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 2,
+          "application": 5,
+          "detection": 3
+        },
+        "question_types_allowed": [
+          "multiple_choice",
+          "error_detection"
+        ],
+        "distractor_strategy": "plausible_wrong",
+        "context_complexity": "multi_clause_sentence",
+        "ielts_skill_focus": [
+          "speaking_part1",
+          "speaking_part2",
+          "writing_task2"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.0 Ready ⭐⭐⭐"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Almost There ⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Keep Going ⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Starter 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_CHALLENGE",
+        "next_action_on_fail": "REPEAT_BUILDUP"
+      },
+      "challenge": {
+        "label": "Challenge",
+        "label_vi": "Thử thách",
+        "band_range": "6.0–6.5",
+        "description_vi": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "question_count": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "difficulty_distribution": {
+          "recognition": 0,
+          "application": 3,
+          "detection": 7
+        },
+        "question_types_allowed": [
+          "locate_error",
+          "best_option",
+          "multi_layer_choice"
+        ],
+        "distractor_strategy": "near_correct — sai ở chi tiết nhỏ",
+        "context_complexity": "academic_paragraph_multi_clause",
+        "ielts_skill_focus": [
+          "speaking_part3",
+          "writing_task2_academic"
+        ],
+        "score_tiers": [
+          {
+            "min": 1350,
+            "max": 1500,
+            "label": "Band 6.5 Ready 🏆"
+          },
+          {
+            "min": 1050,
+            "max": 1349,
+            "label": "Band 6.0 Territory ⭐⭐⭐"
+          },
+          {
+            "min": 750,
+            "max": 1049,
+            "label": "Still Building ⭐⭐"
+          },
+          {
+            "min": 0,
+            "max": 749,
+            "label": "Back to Build Up 💪"
+          }
+        ],
+        "next_action_on_pass": "UNLOCK_NEXT_UNIT",
+        "next_action_on_fail": "REPEAT_CHALLENGE"
+      }
+    },
+    "items_by_level": {
+      "starter": [
+        {
+          "item_id": "sd_s_001",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_ability",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "She ___ code in Python and JavaScript.",
+          "options": [
+            "could",
+            "can",
+            "cans",
+            "is can"
+          ],
+          "correct_answer": "can",
+          "correct_index": 1,
+          "explanation_short": "Khả năng hiện tại → can.",
+          "explanation_long": "Can = khả năng hiện tại. Could = khả năng quá khứ hoặc lịch sự.",
+          "feedback_correct": "⚡ Khả năng hiện tại → can code",
+          "feedback_wrong": "Khả năng hiện tại → can.",
+          "ielts_tip": "can + V = ability in present.",
+          "distractor_note": "obvious: cans (không tồn tại), is can (sai)"
+        },
+        {
+          "item_id": "sd_s_002",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "could_past_ability",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "When he was younger, he ___ fix any computer problem.",
+          "options": [
+            "can",
+            "could",
+            "cans",
+            "is able"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "explanation_short": "Khả năng trong quá khứ → could.",
+          "explanation_long": "'When he was younger' = quá khứ → could fix.",
+          "feedback_correct": "🔥 Khả năng quá khứ → could fix",
+          "feedback_wrong": "Quá khứ + khả năng → could.",
+          "ielts_tip": "could + V = ability in past.",
+          "distractor_note": "obvious: can (hiện tại), cans (sai)"
+        },
+        {
+          "item_id": "sd_s_003",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_permission",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ I use the conference room for a meeting?",
+          "options": [
+            "Could",
+            "Can",
+            "Do",
+            "Am"
+          ],
+          "correct_answer": "Can",
+          "correct_index": 1,
+          "explanation_short": "Xin phép → Can I...? (informal) hoặc Could I...? (formal).",
+          "explanation_long": "Can I...? = xin phép informal. Could I...? = xin phép formal/lịch sự hơn.",
+          "feedback_correct": "⚡ Xin phép → Can I...?",
+          "feedback_wrong": "Can I = xin phép (informal). Could I = xin phép (formal).",
+          "ielts_tip": "Can I/Could I + V = xin phép.",
+          "distractor_note": "obvious: Do (sai cấu trúc), Am (sai)"
+        },
+        {
+          "item_id": "sd_s_004",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cannot_form",
+          "error_tag": "cant_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Employees ___ access the system without a password.",
+          "options": [
+            "can't",
+            "can not't",
+            "cann't",
+            "don't can"
+          ],
+          "correct_answer": "can't",
+          "correct_index": 0,
+          "explanation_short": "can + not = cannot = can't.",
+          "explanation_long": "Phủ định: cannot (viết liền) hoặc can't. Không có 'cann't' hay 'don't can'.",
+          "feedback_correct": "🎯 cannot = can't",
+          "feedback_wrong": "Phủ định: can't hoặc cannot.",
+          "ielts_tip": "can't/cannot + V. Không dùng 'don't can'.",
+          "distractor_note": "obvious: cann't (sai), don't can (sai)"
+        },
+        {
+          "item_id": "sd_s_005",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "could_polite",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "___ you please send me the project files?",
+          "options": [
+            "Can",
+            "Could",
+            "Do",
+            "Are"
+          ],
+          "correct_answer": "Could",
+          "correct_index": 1,
+          "explanation_short": "Yêu cầu lịch sự → Could you please...?",
+          "explanation_long": "Could you please = yêu cầu lịch sự. Can you = yêu cầu thông thường.",
+          "feedback_correct": "⚡ Yêu cầu lịch sự → Could you please...?",
+          "feedback_wrong": "Could you please = polite request.",
+          "ielts_tip": "Could you please + V = lịch sự. Can you + V = thông thường.",
+          "distractor_note": "obvious: Do (sai), Are (sai)"
+        },
+        {
+          "item_id": "sd_s_006",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_ability",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "This new software ___ process data 10 times faster than the old version.",
+          "options": [
+            "could",
+            "can",
+            "is can",
+            "cans"
+          ],
+          "correct_answer": "can",
+          "correct_index": 1,
+          "explanation_short": "Khả năng hiện tại của software → can.",
+          "explanation_long": "Mô tả khả năng hiện tại → can process.",
+          "feedback_correct": "🔥 Khả năng hiện tại → can process",
+          "feedback_wrong": "Khả năng hiện tại → can + V.",
+          "ielts_tip": "can = hiện tại. could = quá khứ/lịch sự/khả năng.",
+          "distractor_note": "obvious: is can (sai), cans (sai)"
+        },
+        {
+          "item_id": "sd_s_007",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "could_possibility",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "With better training, employees ___ improve their productivity significantly.",
+          "options": [
+            "can",
+            "could",
+            "must",
+            "cans"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "explanation_short": "Khả năng lý thuyết (with better training) → could.",
+          "explanation_long": "'With better training' = điều kiện giả định → could (khả năng nhưng chưa chắc chắn).",
+          "feedback_correct": "⚡ Khả năng lý thuyết → could improve",
+          "feedback_wrong": "Điều kiện + khả năng → could.",
+          "ielts_tip": "could = possibility (less certain than can).",
+          "distractor_note": "obvious: must (bắt buộc, sai), cans (sai)"
+        },
+        {
+          "item_id": "sd_s_008",
+          "difficulty_tier": "starter",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_ability",
+          "error_tag": "be_able_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "The IT team ___ resolve the issue within an hour.",
+          "options": [
+            "can",
+            "could",
+            "is able",
+            "cans"
+          ],
+          "correct_answer": "can",
+          "correct_index": 1,
+          "explanation_short": "Khả năng hiện tại cụ thể → can resolve.",
+          "explanation_long": "Mô tả khả năng giải quyết hiện tại → can.",
+          "feedback_correct": "🔥 Khả năng hiện tại → can resolve",
+          "feedback_wrong": "can + V = khả năng hiện tại.",
+          "ielts_tip": "can + V bare. Không cần 'is able to' khi dùng can.",
+          "distractor_note": "obvious: cans (sai), is able (thiếu to)"
+        },
+        {
+          "item_id": "sd_s_009",
+          "difficulty_tier": "starter",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_form",
+          "error_tag": "can_with_to",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'She can to speak three programming languages.'",
+          "options": [
+            "Sai: can to speak → can speak (bỏ to)",
+            "Câu đúng không có lỗi",
+            "Sai: three → 3",
+            "Sai: programming → program"
+          ],
+          "correct_answer": "Sai: can to speak → can speak (bỏ to)",
+          "correct_index": 0,
+          "explanation_short": "can + V bare infinitive (không to): can speak.",
+          "explanation_long": "Modal verb + V bare infinitive. Không dùng 'can to speak'.",
+          "feedback_correct": "🎯 can + V (không to): can speak",
+          "feedback_wrong": "can + V bare. Không bao giờ 'can to V'.",
+          "ielts_tip": "Modal + V bare. Không dùng to sau modal.",
+          "distractor_note": "obvious: option B bẫy"
+        },
+        {
+          "item_id": "sd_s_010",
+          "difficulty_tier": "starter",
+          "sub_type": "recognition",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "could_suggestion",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "We ___ try a different approach to solve this technical problem.",
+          "options": [
+            "can",
+            "could",
+            "must",
+            "shall"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "explanation_short": "Gợi ý → could try.",
+          "explanation_long": "Could + V = suggestion (nhẹ nhàng, lịch sự).",
+          "feedback_correct": "⚡ Gợi ý → could try",
+          "feedback_wrong": "could + V = suggestion.",
+          "ielts_tip": "could = suggestion. can = ability. must = obligation.",
+          "distractor_note": "obvious: must (quá mạnh), shall (ít dùng)"
+        }
+      ],
+      "build_up": [
+        {
+          "item_id": "sd_b_001",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_vs_could",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Before the update, users ___ only upload 5MB files, but now they ___ upload up to 100MB.",
+          "options": [
+            "can / could",
+            "could / can",
+            "could / could",
+            "can / can"
+          ],
+          "correct_answer": "could / can",
+          "correct_index": 1,
+          "explanation_short": "Quá khứ → could. Hiện tại → can.",
+          "explanation_long": "Before = quá khứ → could upload. Now = hiện tại → can upload.",
+          "feedback_correct": "🔥 Quá khứ: could. Hiện tại: can.",
+          "feedback_wrong": "Before → could. Now → can.",
+          "ielts_tip": "Past ability → could. Present ability → can.",
+          "distractor_note": "plausible: can/could (đảo ngược)"
+        },
+        {
+          "item_id": "sd_b_002",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "could_polite",
+          "error_tag": "can_could_register",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "In a formal business email, which is MOST appropriate?",
+          "options": [
+            "Can you send me the report?",
+            "Could you kindly send me the report?",
+            "You can send me the report.",
+            "Send me the report."
+          ],
+          "correct_answer": "Could you kindly send me the report?",
+          "correct_index": 1,
+          "explanation_short": "Email formal → Could you kindly...?",
+          "explanation_long": "Business email formal: 'Could you kindly' = lịch sự nhất.",
+          "feedback_correct": "⚡ Formal email → Could you kindly...?",
+          "feedback_wrong": "Could you kindly = formal polite request.",
+          "ielts_tip": "Business email: Could you kindly/please + V = professional.",
+          "distractor_note": "plausible: Can you (đúng nhưng informal)"
+        },
+        {
+          "item_id": "sd_b_003",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_ability",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Thanks to cloud computing, employees ___ access work files from anywhere.",
+          "options": [
+            "could",
+            "can",
+            "are able",
+            "cans"
+          ],
+          "correct_answer": "can",
+          "correct_index": 1,
+          "explanation_short": "Khả năng hiện tại nhờ công nghệ → can.",
+          "explanation_long": "Thanks to + công nghệ hiện tại → can access (khả năng hiện tại).",
+          "feedback_correct": "🔥 Khả năng hiện tại → can access",
+          "feedback_wrong": "Thanks to + hiện tại → can.",
+          "ielts_tip": "can + V = current ability.",
+          "distractor_note": "plausible: could (quá khứ/lý thuyết)"
+        },
+        {
+          "item_id": "sd_b_004",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_form",
+          "error_tag": "can_with_to",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'The new AI system can to analyze thousands of data points per second.'",
+          "options": [
+            "Sai: can to analyze → can analyze",
+            "Câu đúng không có lỗi",
+            "Sai: thousands → thousand",
+            "Sai: per → a"
+          ],
+          "correct_answer": "Sai: can to analyze → can analyze",
+          "correct_index": 0,
+          "explanation_short": "can + V bare: can analyze (không can to analyze).",
+          "explanation_long": "Modal + V bare infinitive. 'Can to analyze' = sai.",
+          "feedback_correct": "🎯 can + V bare: can analyze",
+          "feedback_wrong": "can + V (no to).",
+          "ielts_tip": "Modal + V bare. Lỗi phổ biến ở band 5.0.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_005",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "could_possibility",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "With the right investment, Vietnam ___ become a leading tech hub in Southeast Asia.",
+          "options": [
+            "can",
+            "could",
+            "must",
+            "will can"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "explanation_short": "Khả năng tương lai có điều kiện → could.",
+          "explanation_long": "'With the right investment' = điều kiện → could become (khả năng nhưng chưa chắc).",
+          "feedback_correct": "⚡ Điều kiện → could become",
+          "feedback_wrong": "With + condition → could (possibility).",
+          "ielts_tip": "could = conditional possibility.",
+          "distractor_note": "plausible: can (khả năng chung), must (quá mạnh)"
+        },
+        {
+          "item_id": "sd_b_006",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "cannot_form",
+          "error_tag": "cant_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'Workers don't can use personal devices for company work.'",
+          "options": [
+            "Sai: don't can → can't / cannot",
+            "Câu đúng không có lỗi",
+            "Sai: personal → privately",
+            "Sai: for → to"
+          ],
+          "correct_answer": "Sai: don't can → can't / cannot",
+          "correct_index": 0,
+          "explanation_short": "Phủ định modal: can't/cannot, KHÔNG dùng don't + modal.",
+          "explanation_long": "Modal verb không dùng 'don't': don't can = sai. Đúng: can't / cannot.",
+          "feedback_correct": "🔥 don't can → can't / cannot",
+          "feedback_wrong": "Phủ định modal: can't. Không dùng don't can.",
+          "ielts_tip": "Modal phủ định: can't, couldn't, won't. Không dùng don't/doesn't.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_007",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "could_conditional",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "If the server were upgraded, we ___ handle twice as many users.",
+          "options": [
+            "can",
+            "could",
+            "will can",
+            "must"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "explanation_short": "If + were (subjunctive) → could (Conditional Type 2).",
+          "explanation_long": "Conditional Type 2: If + V2 (were), could + V. Khả năng giả định.",
+          "feedback_correct": "⚡ Conditional Type 2 → could handle",
+          "feedback_wrong": "If + V2, could + V.",
+          "ielts_tip": "If + were/V2, could + V = Conditional Type 2.",
+          "distractor_note": "plausible: can (sai với if-were)"
+        },
+        {
+          "item_id": "sd_b_008",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_vs_be_able_to",
+          "error_tag": "be_able_to_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "After six months of training, she was ___ build complex web applications.",
+          "options": [
+            "can",
+            "able to",
+            "could to",
+            "able"
+          ],
+          "correct_answer": "able to",
+          "correct_index": 1,
+          "explanation_short": "was + able to + V = khả năng cụ thể trong quá khứ.",
+          "explanation_long": "was/were able to = managed to (khả năng đạt được trong quá khứ). Can không dùng sau was.",
+          "feedback_correct": "🔥 was + able to + V",
+          "feedback_wrong": "was/were + able to + V.",
+          "ielts_tip": "was able to = managed to (specific past ability).",
+          "distractor_note": "plausible: could to (sai), able (thiếu to)"
+        },
+        {
+          "item_id": "sd_b_009",
+          "difficulty_tier": "build_up",
+          "sub_type": "detection",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "could_past",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Phát hiện lỗi: 'When she was a student, she can program in five languages.'",
+          "options": [
+            "Sai: can → could (quá khứ)",
+            "Câu đúng không có lỗi",
+            "Sai: was → is",
+            "Sai: in → with"
+          ],
+          "correct_answer": "Sai: can → could (quá khứ)",
+          "correct_index": 0,
+          "explanation_short": "'When she was a student' = quá khứ → could, không phải can.",
+          "explanation_long": "Quá khứ (was a student) → could program.",
+          "feedback_correct": "🎯 Quá khứ → could (không can)",
+          "feedback_wrong": "was a student = quá khứ → could.",
+          "ielts_tip": "Past → could. Present → can.",
+          "distractor_note": "plausible: option B bẫy"
+        },
+        {
+          "item_id": "sd_b_010",
+          "difficulty_tier": "build_up",
+          "sub_type": "application",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_ability",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Modern smartphones ___ perform tasks that desktop computers ___ only do a decade ago.",
+          "options": [
+            "can / could",
+            "could / can",
+            "can / can",
+            "could / could"
+          ],
+          "correct_answer": "can / could",
+          "correct_index": 0,
+          "explanation_short": "Hiện tại (smartphones) → can. Quá khứ (a decade ago) → could.",
+          "explanation_long": "Modern = hiện tại → can. A decade ago = quá khứ → could.",
+          "feedback_correct": "⚡ Hiện tại: can. Quá khứ: could.",
+          "feedback_wrong": "Present → can. Past → could.",
+          "ielts_tip": "can = present ability. could = past ability.",
+          "distractor_note": "plausible: could/can (đảo ngược)"
+        }
+      ],
+      "challenge": [
+        {
+          "item_id": "sd_c_001",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "can_form",
+          "error_tag": "can_with_to",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Artificial intelligence can to process vast amounts of data, which can helps businesses make better decisions.'",
+          "options": [
+            "Artificial intelligence can to process",
+            "vast amounts of data",
+            "which can helps",
+            "businesses make better decisions"
+          ],
+          "correct_answer": "Artificial intelligence can to process",
+          "correct_index": 0,
+          "explanation_short": "can + V bare: can process (không can to process).",
+          "explanation_long": "Lớp 1: 'can to process' → 'can process'. Lớp 2: 'can helps' cũng sai → 'can help'. Cả A và C sai, A sai trước.",
+          "feedback_correct": "🔥 can + V bare: can process!",
+          "feedback_wrong": "can + V (no to, no -s).",
+          "ielts_tip": "Modal + V bare infinitive.",
+          "distractor_note": "near-correct: option C (can helps) cũng sai — bẫy kép",
+          "layers": [
+            "can + bare infinitive",
+            "modal + no inflection",
+            "double error"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_vs_could",
+          "error_tag": "can_could_register",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT cho business email:",
+          "options": [
+            "Can you review the proposal by Friday?",
+            "Could you possibly review the proposal by Friday?",
+            "You can review the proposal by Friday.",
+            "Review the proposal by Friday."
+          ],
+          "correct_answer": "Could you possibly review the proposal by Friday?",
+          "correct_index": 1,
+          "explanation_short": "Business email lịch sự → Could you possibly...?",
+          "explanation_long": "Lớp 1: 'Could you possibly' = formal + polite. Lớp 2: 'Can you' = informal. Lớp 3: 'You can' = giving permission, not request.",
+          "feedback_correct": "🏆 Could you possibly = formal polite!",
+          "feedback_wrong": "Could you possibly/kindly = formal request.",
+          "ielts_tip": "Business email: Could you possibly/kindly + V.",
+          "distractor_note": "near-correct: option A đúng nhưng informal",
+          "layers": [
+            "can vs could register",
+            "business email",
+            "polite request"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "cannot_form",
+          "error_tag": "cant_form_error",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Employees doesn't can access confidential files without proper authorization from management.'",
+          "options": [
+            "Employees doesn't can access",
+            "confidential files without",
+            "proper authorization",
+            "from management"
+          ],
+          "correct_answer": "Employees doesn't can access",
+          "correct_index": 0,
+          "explanation_short": "don't/doesn't + can = sai. Đúng: can't/cannot access.",
+          "explanation_long": "Lớp 1: 'doesn't can' → 'cannot/can't' (modal không dùng do/does). Lớp 2: 'Employees doesn't' cũng sai số (employees = plural → don't).",
+          "feedback_correct": "🔥 doesn't can → cannot / can't!",
+          "feedback_wrong": "Modal phủ định: can't. Không dùng don't/doesn't.",
+          "ielts_tip": "Modal + not = cannot. Không dùng do/does + modal.",
+          "distractor_note": "near-correct: option C/D trông đúng",
+          "layers": [
+            "modal negation",
+            "subject-verb agreement",
+            "double error"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "could_possibility",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu ĐÚNG NHẤT cho IELTS Speaking Part 3:",
+          "options": [
+            "Technology can solves many problems in education.",
+            "Technology could solve many problems in education",
+            " if properly implemented.",
+            "Technology can to solve many problems in education.",
+            "Technology could solves many problems in education."
+          ],
+          "correct_answer": "Technology could solve many problems in education, if properly implemented.",
+          "correct_index": 1,
+          "explanation_short": "Điều kiện (if properly implemented) → could solve.",
+          "explanation_long": "Lớp 1: 'could solve' = conditional possibility. Lớp 2: 'can solves' sai (can + V bare). Lớp 3: 'can to solve' sai. Lớp 4: 'could solves' sai.",
+          "feedback_correct": "🏆 could + V bare = conditional possibility!",
+          "feedback_wrong": "could + condition = possibility.",
+          "ielts_tip": "Speaking Part 3: could + V = cautious opinion.",
+          "distractor_note": "near-correct: option A (can solves) và D (could solves) đều sai -s",
+          "layers": [
+            "modal + bare infinitive",
+            "conditional possibility",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "can_vs_could",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'Ten years ago, most people ___ [A] only access the internet at home, but now they ___ [B] use it anywhere.'",
+          "options": [
+            "[A] can / [B] could",
+            "[A] could / [B] can",
+            "[A] could / [B] could",
+            "[A] can / [B] can"
+          ],
+          "correct_answer": "[A] could / [B] can",
+          "correct_index": 1,
+          "explanation_short": "Ten years ago (past) → could. Now (present) → can.",
+          "explanation_long": "Lớp 1: 'Ten years ago' = quá khứ → could access. Lớp 2: 'now' = hiện tại → can use.",
+          "feedback_correct": "🏆 Past: could. Present: can.",
+          "feedback_wrong": "Ten years ago → could. Now → can.",
+          "ielts_tip": "Past ability → could. Present ability → can.",
+          "distractor_note": "near-correct: option A đảo ngược thì",
+          "layers": [
+            "can vs could temporal",
+            "past vs present ability",
+            "contrast structure"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "could_past_ability",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The old system can only handle 100 users simultaneously, but the new one could support 10,000.'",
+          "options": [
+            "The old system can only handle",
+            "100 users simultaneously",
+            "but the new one could support",
+            "10",
+            "000"
+          ],
+          "correct_answer": "but the new one could support",
+          "correct_index": 2,
+          "explanation_short": "New system = hiện tại → CAN support, không phải could.",
+          "explanation_long": "Lớp 1: 'the new one could' → 'the new one can' (hệ thống mới = hiện tại → can). Lớp 2: 'The old system can' cũng cần xem lại — nếu old system đã thay thế → could. Nhưng option C sai rõ nhất.",
+          "feedback_correct": "🔥 New system = hiện tại → can support!",
+          "feedback_wrong": "New = hiện tại → can. Old (nếu đã thay) → could.",
+          "ielts_tip": "can = present. could = past.",
+          "distractor_note": "near-correct: option A (old system + can) có thể sai nếu đã thay thế",
+          "layers": [
+            "temporal can/could",
+            "contrast old vs new",
+            "context-dependent"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_vs_could",
+          "error_tag": "can_could_academic",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Chọn câu body Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Education can helps people find better jobs and improve their lives.",
+            "Education can help people find better jobs and could improve their overall quality of life.",
+            "Education could to help people find better jobs.",
+            "Education can help people find better jobs and improve their overall quality of life."
+          ],
+          "correct_answer": "Education can help people find better jobs and improve their overall quality of life.",
+          "correct_index": 3,
+          "explanation_short": "can help + (can) improve = parallel structure chuẩn.",
+          "explanation_long": "Lớp 1: 'can help... and improve' = parallel (can áp dụng cho cả hai V). Lớp 2: Option B trộn can/could — không nhất quán. Lớp 3: 'can helps' sai, 'could to help' sai.",
+          "feedback_correct": "🏆 can help and improve = parallel chuẩn!",
+          "feedback_wrong": "can + V1 and V2 = parallel structure.",
+          "ielts_tip": "can + V and V = parallel. Không trộn can/could.",
+          "distractor_note": "near-correct: option B (can + could) không nhất quán",
+          "layers": [
+            "parallel structure",
+            "can + bare infinitive",
+            "academic register"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "could_conditional",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the company invested more in R&D, they can develop groundbreaking products that could change the industry.'",
+          "options": [
+            "If the company invested more in R&D",
+            "they can develop groundbreaking products",
+            "that could change",
+            "the industry"
+          ],
+          "correct_answer": "they can develop groundbreaking products",
+          "correct_index": 1,
+          "explanation_short": "If + V2 (invested) → could develop, không phải can.",
+          "explanation_long": "Lớp 1: Conditional Type 2: If + V2 (invested) → could + V (develop). 'Can' = sai trong Conditional Type 2. Lớp 2: 'could change' = đúng.",
+          "feedback_correct": "🔥 If + V2 → could, không phải can!",
+          "feedback_wrong": "Conditional Type 2: If + V2, could + V.",
+          "ielts_tip": "If + V2, could + V. Không dùng can.",
+          "distractor_note": "near-correct: option C (could change) đúng",
+          "layers": [
+            "Conditional Type 2",
+            "could vs can",
+            "if-clause"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "difficulty_tier": "challenge",
+          "sub_type": "best_option",
+          "answer_type": "multiple_choice",
+          "grammar_tag": "can_vs_could",
+          "error_tag": "can_could_confusion",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "Speaking Part 3: 'Bạn nghĩ công nghệ có thể giải quyết ô nhiễm không?' — Chọn câu trả lời CHUẨN NHẤT:",
+          "options": [
+            "Technology can definitely solving pollution problems.",
+            "I believe technology could play a significant role in reducing pollution.",
+            "Technology could to solve pollution if we try harder.",
+            "I think technology can to help with pollution."
+          ],
+          "correct_answer": "I believe technology could play a significant role in reducing pollution.",
+          "correct_index": 1,
+          "explanation_short": "I believe + could = cautious opinion chuẩn Speaking.",
+          "explanation_long": "Lớp 1: 'could play' = cautious opinion (phù hợp Speaking Part 3). Lớp 2: 'can solving' sai (can + V bare). Lớp 3: 'could to solve' sai. Lớp 4: 'can to help' sai.",
+          "feedback_correct": "🏆 I believe + could + V = chuẩn Speaking Part 3!",
+          "feedback_wrong": "I believe + could = cautious opinion.",
+          "ielts_tip": "Speaking Part 3: I believe/think + could + V.",
+          "distractor_note": "near-correct: các option khác đều sai ngữ pháp modal",
+          "layers": [
+            "cautious opinion",
+            "Speaking Part 3",
+            "modal + bare infinitive"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "difficulty_tier": "challenge",
+          "sub_type": "locate_error",
+          "answer_type": "locate_error",
+          "grammar_tag": "can_vs_could",
+          "error_tag": "multiple_errors",
+          "source_standard_ref": "IDP_GRA",
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'Technology [A] can to improve healthcare access, but governments [B] doesn't can ignore the digital divide that [C] could prevents rural communities from benefiting.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "explanation_short": "[A] can to → can. [B] doesn't can → cannot. [C] could prevents → could prevent.",
+          "explanation_long": "Lớp 1: [A] 'can to improve' → 'can improve' (modal + V bare). Lớp 2: [B] 'doesn't can' → 'cannot' (modal không dùng do/does). Lớp 3: [C] 'could prevents' → 'could prevent' (modal + V bare, no -s).",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] can improve | [B] cannot | [C] could prevent!",
+          "feedback_wrong": "[A] can + V (no to). [B] cannot (no doesn't). [C] could + V (no -s).",
+          "ielts_tip": "Modal + V bare. Modal phủ định: can't/cannot.",
+          "distractor_note": "near-correct: option B bỏ sót [C].",
+          "layers": [
+            "modal + bare infinitive",
+            "modal negation",
+            "triple error"
+          ]
+        }
+      ]
+    }
+  },
+  "session_instances": {
+    "starter": {
+      "session_id": "a89dd543-8e14-4c37-9b05-666493dbe565",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "starter",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-8-modal-can-could",
+      "metadata_ref": "unit-8-modal-can-could.metadata",
+      "generation_profile_ref": "gp_unit8_modal_can_could",
+      "level_rule_ref": "blueprint.level_rules.starter",
+      "ui": {
+        "title": "⚡ Speed Drill — Starter",
+        "badge": "Nền tảng",
+        "band_range": "5.0–5.5",
+        "description": "Nhận diện đúng/sai rõ ràng. Câu ngắn, 1 lớp ngữ pháp, distractor rõ.",
+        "timer_display": "5s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 5,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 5000
+      },
+      "items": [
+        {
+          "item_id": "sd_s_001",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_001",
+          "round_number": 1,
+          "stem": "She ___ code in Python and JavaScript.",
+          "options": [
+            "could",
+            "can",
+            "cans",
+            "is can"
+          ],
+          "correct_answer": "can",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Khả năng hiện tại → can code",
+          "feedback_wrong": "Khả năng hiện tại → can.",
+          "explanation_short": "Khả năng hiện tại → can.",
+          "ielts_tip": "can + V = ability in present.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_002",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_002",
+          "round_number": 2,
+          "stem": "When he was younger, he ___ fix any computer problem.",
+          "options": [
+            "can",
+            "could",
+            "cans",
+            "is able"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Khả năng quá khứ → could fix",
+          "feedback_wrong": "Quá khứ + khả năng → could.",
+          "explanation_short": "Khả năng trong quá khứ → could.",
+          "ielts_tip": "could + V = ability in past.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_003",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_003",
+          "round_number": 3,
+          "stem": "___ I use the conference room for a meeting?",
+          "options": [
+            "Could",
+            "Can",
+            "Do",
+            "Am"
+          ],
+          "correct_answer": "Can",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Xin phép → Can I...?",
+          "feedback_wrong": "Can I = xin phép (informal). Could I = xin phép (formal).",
+          "explanation_short": "Xin phép → Can I...? (informal) hoặc Could I...? (formal).",
+          "ielts_tip": "Can I/Could I + V = xin phép.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_004",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_004",
+          "round_number": 4,
+          "stem": "Employees ___ access the system without a password.",
+          "options": [
+            "can't",
+            "can not't",
+            "cann't",
+            "don't can"
+          ],
+          "correct_answer": "can't",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 cannot = can't",
+          "feedback_wrong": "Phủ định: can't hoặc cannot.",
+          "explanation_short": "can + not = cannot = can't.",
+          "ielts_tip": "can't/cannot + V. Không dùng 'don't can'.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_005",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_005",
+          "round_number": 5,
+          "stem": "___ you please send me the project files?",
+          "options": [
+            "Can",
+            "Could",
+            "Do",
+            "Are"
+          ],
+          "correct_answer": "Could",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Yêu cầu lịch sự → Could you please...?",
+          "feedback_wrong": "Could you please = polite request.",
+          "explanation_short": "Yêu cầu lịch sự → Could you please...?",
+          "ielts_tip": "Could you please + V = lịch sự. Can you + V = thông thường.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_006",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_006",
+          "round_number": 6,
+          "stem": "This new software ___ process data 10 times faster than the old version.",
+          "options": [
+            "could",
+            "can",
+            "is can",
+            "cans"
+          ],
+          "correct_answer": "can",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Khả năng hiện tại → can process",
+          "feedback_wrong": "Khả năng hiện tại → can + V.",
+          "explanation_short": "Khả năng hiện tại của software → can.",
+          "ielts_tip": "can = hiện tại. could = quá khứ/lịch sự/khả năng.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_007",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_007",
+          "round_number": 7,
+          "stem": "With better training, employees ___ improve their productivity significantly.",
+          "options": [
+            "can",
+            "could",
+            "must",
+            "cans"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Khả năng lý thuyết → could improve",
+          "feedback_wrong": "Điều kiện + khả năng → could.",
+          "explanation_short": "Khả năng lý thuyết (with better training) → could.",
+          "ielts_tip": "could = possibility (less certain than can).",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_008",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_008",
+          "round_number": 8,
+          "stem": "The IT team ___ resolve the issue within an hour.",
+          "options": [
+            "can",
+            "could",
+            "is able",
+            "cans"
+          ],
+          "correct_answer": "can",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Khả năng hiện tại → can resolve",
+          "feedback_wrong": "can + V = khả năng hiện tại.",
+          "explanation_short": "Khả năng hiện tại cụ thể → can resolve.",
+          "ielts_tip": "can + V bare. Không cần 'is able to' khi dùng can.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_009",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'She can to speak three programming languages.'",
+          "options": [
+            "Sai: can to speak → can speak (bỏ to)",
+            "Câu đúng không có lỗi",
+            "Sai: three → 3",
+            "Sai: programming → program"
+          ],
+          "correct_answer": "Sai: can to speak → can speak (bỏ to)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 can + V (không to): can speak",
+          "feedback_wrong": "can + V bare. Không bao giờ 'can to V'.",
+          "explanation_short": "can + V bare infinitive (không to): can speak.",
+          "ielts_tip": "Modal + V bare. Không dùng to sau modal.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_s_010",
+          "blueprint_ref": "question_blueprints.items_by_level.starter.sd_s_010",
+          "round_number": 10,
+          "stem": "We ___ try a different approach to solve this technical problem.",
+          "options": [
+            "can",
+            "could",
+            "must",
+            "shall"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Gợi ý → could try",
+          "feedback_wrong": "could + V = suggestion.",
+          "explanation_short": "Gợi ý → could try.",
+          "ielts_tip": "could = suggestion. can = ability. must = obligation.",
+          "time_limit_seconds": 5,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.starter.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Build Up",
+            "action": "UNLOCK_BUILDUP",
+            "target": "build_up"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Ôn lại lý thuyết",
+            "action": "REVIEW_THEORY",
+            "target": "starter"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "build_up": {
+      "session_id": "5edf4900-a0d7-4c39-a017-a60b2d7beccf",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "build_up",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-8-modal-can-could",
+      "metadata_ref": "unit-8-modal-can-could.metadata",
+      "generation_profile_ref": "gp_unit8_modal_can_could",
+      "level_rule_ref": "blueprint.level_rules.build_up",
+      "ui": {
+        "title": "⚡ Speed Drill — Build Up",
+        "badge": "Nâng cấp",
+        "band_range": "5.5–6.0",
+        "description": "Áp dụng trong ngữ cảnh dài hơn. Lỗi tinh tế hơn, options gần nhau hơn.",
+        "timer_display": "6s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 6,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 6000
+      },
+      "items": [
+        {
+          "item_id": "sd_b_001",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_001",
+          "round_number": 1,
+          "stem": "Before the update, users ___ only upload 5MB files, but now they ___ upload up to 100MB.",
+          "options": [
+            "can / could",
+            "could / can",
+            "could / could",
+            "can / can"
+          ],
+          "correct_answer": "could / can",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Quá khứ: could. Hiện tại: can.",
+          "feedback_wrong": "Before → could. Now → can.",
+          "explanation_short": "Quá khứ → could. Hiện tại → can.",
+          "ielts_tip": "Past ability → could. Present ability → can.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_002",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_002",
+          "round_number": 2,
+          "stem": "In a formal business email, which is MOST appropriate?",
+          "options": [
+            "Can you send me the report?",
+            "Could you kindly send me the report?",
+            "You can send me the report.",
+            "Send me the report."
+          ],
+          "correct_answer": "Could you kindly send me the report?",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Formal email → Could you kindly...?",
+          "feedback_wrong": "Could you kindly = formal polite request.",
+          "explanation_short": "Email formal → Could you kindly...?",
+          "ielts_tip": "Business email: Could you kindly/please + V = professional.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_003",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_003",
+          "round_number": 3,
+          "stem": "Thanks to cloud computing, employees ___ access work files from anywhere.",
+          "options": [
+            "could",
+            "can",
+            "are able",
+            "cans"
+          ],
+          "correct_answer": "can",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 Khả năng hiện tại → can access",
+          "feedback_wrong": "Thanks to + hiện tại → can.",
+          "explanation_short": "Khả năng hiện tại nhờ công nghệ → can.",
+          "ielts_tip": "can + V = current ability.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_004",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_004",
+          "round_number": 4,
+          "stem": "Phát hiện lỗi: 'The new AI system can to analyze thousands of data points per second.'",
+          "options": [
+            "Sai: can to analyze → can analyze",
+            "Câu đúng không có lỗi",
+            "Sai: thousands → thousand",
+            "Sai: per → a"
+          ],
+          "correct_answer": "Sai: can to analyze → can analyze",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 can + V bare: can analyze",
+          "feedback_wrong": "can + V (no to).",
+          "explanation_short": "can + V bare: can analyze (không can to analyze).",
+          "ielts_tip": "Modal + V bare. Lỗi phổ biến ở band 5.0.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_005",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_005",
+          "round_number": 5,
+          "stem": "With the right investment, Vietnam ___ become a leading tech hub in Southeast Asia.",
+          "options": [
+            "can",
+            "could",
+            "must",
+            "will can"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Điều kiện → could become",
+          "feedback_wrong": "With + condition → could (possibility).",
+          "explanation_short": "Khả năng tương lai có điều kiện → could.",
+          "ielts_tip": "could = conditional possibility.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_006",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_006",
+          "round_number": 6,
+          "stem": "Phát hiện lỗi: 'Workers don't can use personal devices for company work.'",
+          "options": [
+            "Sai: don't can → can't / cannot",
+            "Câu đúng không có lỗi",
+            "Sai: personal → privately",
+            "Sai: for → to"
+          ],
+          "correct_answer": "Sai: don't can → can't / cannot",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 don't can → can't / cannot",
+          "feedback_wrong": "Phủ định modal: can't. Không dùng don't can.",
+          "explanation_short": "Phủ định modal: can't/cannot, KHÔNG dùng don't + modal.",
+          "ielts_tip": "Modal phủ định: can't, couldn't, won't. Không dùng don't/doesn't.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_007",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_007",
+          "round_number": 7,
+          "stem": "If the server were upgraded, we ___ handle twice as many users.",
+          "options": [
+            "can",
+            "could",
+            "will can",
+            "must"
+          ],
+          "correct_answer": "could",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Conditional Type 2 → could handle",
+          "feedback_wrong": "If + V2, could + V.",
+          "explanation_short": "If + were (subjunctive) → could (Conditional Type 2).",
+          "ielts_tip": "If + were/V2, could + V = Conditional Type 2.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_008",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_008",
+          "round_number": 8,
+          "stem": "After six months of training, she was ___ build complex web applications.",
+          "options": [
+            "can",
+            "able to",
+            "could to",
+            "able"
+          ],
+          "correct_answer": "able to",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🔥 was + able to + V",
+          "feedback_wrong": "was/were + able to + V.",
+          "explanation_short": "was + able to + V = khả năng cụ thể trong quá khứ.",
+          "ielts_tip": "was able to = managed to (specific past ability).",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_009",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_009",
+          "round_number": 9,
+          "stem": "Phát hiện lỗi: 'When she was a student, she can program in five languages.'",
+          "options": [
+            "Sai: can → could (quá khứ)",
+            "Câu đúng không có lỗi",
+            "Sai: was → is",
+            "Sai: in → with"
+          ],
+          "correct_answer": "Sai: can → could (quá khứ)",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🎯 Quá khứ → could (không can)",
+          "feedback_wrong": "was a student = quá khứ → could.",
+          "explanation_short": "'When she was a student' = quá khứ → could, không phải can.",
+          "ielts_tip": "Past → could. Present → can.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_b_010",
+          "blueprint_ref": "question_blueprints.items_by_level.build_up.sd_b_010",
+          "round_number": 10,
+          "stem": "Modern smartphones ___ perform tasks that desktop computers ___ only do a decade ago.",
+          "options": [
+            "can / could",
+            "could / can",
+            "can / can",
+            "could / could"
+          ],
+          "correct_answer": "can / could",
+          "correct_index": 0,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "⚡ Hiện tại: can. Quá khứ: could.",
+          "feedback_wrong": "Present → can. Past → could.",
+          "explanation_short": "Hiện tại (smartphones) → can. Quá khứ (a decade ago) → could.",
+          "ielts_tip": "can = present ability. could = past ability.",
+          "time_limit_seconds": 6,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.build_up.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_CHALLENGE",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_BUILDUP",
+            "target": "build_up"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    },
+    "challenge": {
+      "session_id": "884197ca-1856-4df4-9bdb-acecc4c7451f",
+      "generated_at": "2026-05-14T01:55:00.000000+00:00",
+      "user_id": "demo_user",
+      "user_level": "challenge",
+      "mode": "speed_drill",
+      "game_style": "kahoot_like",
+      "session_type": "daily_review",
+      "unit_id": "unit-8-modal-can-could",
+      "metadata_ref": "unit-8-modal-can-could.metadata",
+      "generation_profile_ref": "gp_unit8_modal_can_could",
+      "level_rule_ref": "blueprint.level_rules.challenge",
+      "ui": {
+        "title": "⚡ Speed Drill — Challenge",
+        "badge": "Thử thách",
+        "band_range": "6.0–6.5",
+        "description": "2–3 lớp ngữ pháp đồng thời. Distractor gần đúng, sai ở chi tiết nhỏ.",
+        "timer_display": "8s / câu",
+        "total_rounds": 10,
+        "show_combo": true,
+        "show_streak": true,
+        "show_progress_bar": true
+      },
+      "session_metadata": {
+        "question_count": 10,
+        "total_rounds": 10,
+        "timer_seconds": 8,
+        "max_score": 1500,
+        "streak_bonus_enabled": true,
+        "instant_feedback_enabled": true,
+        "scoring_rule_ref": "blueprint.scoring_rule"
+      },
+      "game_state": {
+        "current_round": 0,
+        "score_so_far": 0,
+        "accuracy_so_far": 0.0,
+        "combo_count": 0,
+        "highest_streak": 0,
+        "time_remaining_ms": 8000
+      },
+      "items": [
+        {
+          "item_id": "sd_c_001",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_001",
+          "round_number": 1,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Artificial intelligence can to process vast amounts of data, which can helps businesses make better decisions.'",
+          "options": [
+            "Artificial intelligence can to process",
+            "vast amounts of data",
+            "which can helps",
+            "businesses make better decisions"
+          ],
+          "correct_answer": "Artificial intelligence can to process",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 can + V bare: can process!",
+          "feedback_wrong": "can + V (no to, no -s).",
+          "explanation_short": "can + V bare: can process (không can to process).",
+          "ielts_tip": "Modal + V bare infinitive.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_002",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_002",
+          "round_number": 2,
+          "stem": "Chọn câu ĐÚNG NHẤT cho business email:",
+          "options": [
+            "Can you review the proposal by Friday?",
+            "Could you possibly review the proposal by Friday?",
+            "You can review the proposal by Friday.",
+            "Review the proposal by Friday."
+          ],
+          "correct_answer": "Could you possibly review the proposal by Friday?",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 Could you possibly = formal polite!",
+          "feedback_wrong": "Could you possibly/kindly = formal request.",
+          "explanation_short": "Business email lịch sự → Could you possibly...?",
+          "ielts_tip": "Business email: Could you possibly/kindly + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_003",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_003",
+          "round_number": 3,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'Employees doesn't can access confidential files without proper authorization from management.'",
+          "options": [
+            "Employees doesn't can access",
+            "confidential files without",
+            "proper authorization",
+            "from management"
+          ],
+          "correct_answer": "Employees doesn't can access",
+          "correct_index": 0,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 doesn't can → cannot / can't!",
+          "feedback_wrong": "Modal phủ định: can't. Không dùng don't/doesn't.",
+          "explanation_short": "don't/doesn't + can = sai. Đúng: can't/cannot access.",
+          "ielts_tip": "Modal + not = cannot. Không dùng do/does + modal.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_004",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_004",
+          "round_number": 4,
+          "stem": "Chọn câu ĐÚNG NHẤT cho IELTS Speaking Part 3:",
+          "options": [
+            "Technology can solves many problems in education.",
+            "Technology could solve many problems in education",
+            " if properly implemented.",
+            "Technology can to solve many problems in education.",
+            "Technology could solves many problems in education."
+          ],
+          "correct_answer": "Technology could solve many problems in education, if properly implemented.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 could + V bare = conditional possibility!",
+          "feedback_wrong": "could + condition = possibility.",
+          "explanation_short": "Điều kiện (if properly implemented) → could solve.",
+          "ielts_tip": "Speaking Part 3: could + V = cautious opinion.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_005",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_005",
+          "round_number": 5,
+          "stem": "Câu nào ĐÚNG HOÀN TOÀN?\n'Ten years ago, most people ___ [A] only access the internet at home, but now they ___ [B] use it anywhere.'",
+          "options": [
+            "[A] can / [B] could",
+            "[A] could / [B] can",
+            "[A] could / [B] could",
+            "[A] can / [B] can"
+          ],
+          "correct_answer": "[A] could / [B] can",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 Past: could. Present: can.",
+          "feedback_wrong": "Ten years ago → could. Now → can.",
+          "explanation_short": "Ten years ago (past) → could. Now (present) → can.",
+          "ielts_tip": "Past ability → could. Present ability → can.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_006",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_006",
+          "round_number": 6,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'The old system can only handle 100 users simultaneously, but the new one could support 10,000.'",
+          "options": [
+            "The old system can only handle",
+            "100 users simultaneously",
+            "but the new one could support",
+            "10",
+            "000"
+          ],
+          "correct_answer": "but the new one could support",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 New system = hiện tại → can support!",
+          "feedback_wrong": "New = hiện tại → can. Old (nếu đã thay) → could.",
+          "explanation_short": "New system = hiện tại → CAN support, không phải could.",
+          "ielts_tip": "can = present. could = past.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_007",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_007",
+          "round_number": 7,
+          "stem": "Chọn câu body Task 2 CHUẨN NHẤT:",
+          "options": [
+            "Education can helps people find better jobs and improve their lives.",
+            "Education can help people find better jobs and could improve their overall quality of life.",
+            "Education could to help people find better jobs.",
+            "Education can help people find better jobs and improve their overall quality of life."
+          ],
+          "correct_answer": "Education can help people find better jobs and improve their overall quality of life.",
+          "correct_index": 3,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 can help and improve = parallel chuẩn!",
+          "feedback_wrong": "can + V1 and V2 = parallel structure.",
+          "explanation_short": "can help + (can) improve = parallel structure chuẩn.",
+          "ielts_tip": "can + V and V = parallel. Không trộn can/could.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_008",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_008",
+          "round_number": 8,
+          "stem": "Câu sau có lỗi ở phrase nào?\n'If the company invested more in R&D, they can develop groundbreaking products that could change the industry.'",
+          "options": [
+            "If the company invested more in R&D",
+            "they can develop groundbreaking products",
+            "that could change",
+            "the industry"
+          ],
+          "correct_answer": "they can develop groundbreaking products",
+          "correct_index": 1,
+          "answer_type": "locate_error",
+          "feedback_correct": "🔥 If + V2 → could, không phải can!",
+          "feedback_wrong": "Conditional Type 2: If + V2, could + V.",
+          "explanation_short": "If + V2 (invested) → could develop, không phải can.",
+          "ielts_tip": "If + V2, could + V. Không dùng can.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_009",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_009",
+          "round_number": 9,
+          "stem": "Speaking Part 3: 'Bạn nghĩ công nghệ có thể giải quyết ô nhiễm không?' — Chọn câu trả lời CHUẨN NHẤT:",
+          "options": [
+            "Technology can definitely solving pollution problems.",
+            "I believe technology could play a significant role in reducing pollution.",
+            "Technology could to solve pollution if we try harder.",
+            "I think technology can to help with pollution."
+          ],
+          "correct_answer": "I believe technology could play a significant role in reducing pollution.",
+          "correct_index": 1,
+          "answer_type": "multiple_choice",
+          "feedback_correct": "🏆 I believe + could + V = chuẩn Speaking Part 3!",
+          "feedback_wrong": "I believe + could = cautious opinion.",
+          "explanation_short": "I believe + could = cautious opinion chuẩn Speaking.",
+          "ielts_tip": "Speaking Part 3: I believe/think + could + V.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        },
+        {
+          "item_id": "sd_c_010",
+          "blueprint_ref": "question_blueprints.items_by_level.challenge.sd_c_010",
+          "round_number": 10,
+          "stem": "🏆 BOSS ROUND — Đoạn Task 2 có BAO NHIÊU phrase chứa lỗi?\n'Technology [A] can to improve healthcare access, but governments [B] doesn't can ignore the digital divide that [C] could prevents rural communities from benefiting.'",
+          "options": [
+            "Chỉ [A] có lỗi — [B] và [C] đúng",
+            "Chỉ [A] và [B] có lỗi — [C] đúng",
+            "Cả [A] [B] và [C] đều có lỗi",
+            "Chỉ [B] có lỗi — [A] và [C] đúng"
+          ],
+          "correct_answer": "Cả [A] [B] và [C] đều có lỗi",
+          "correct_index": 2,
+          "answer_type": "locate_error",
+          "feedback_correct": "🏆 BOSS CLEARED! [A] can improve | [B] cannot | [C] could prevent!",
+          "feedback_wrong": "[A] can + V (no to). [B] cannot (no doesn't). [C] could + V (no -s).",
+          "explanation_short": "[A] can to → can. [B] doesn't can → cannot. [C] could prevents → could prevent.",
+          "ielts_tip": "Modal + V bare. Modal phủ định: can't/cannot.",
+          "time_limit_seconds": 8,
+          "points": {
+            "base_points": 100,
+            "speed_multiplier": true,
+            "streak_bonus": true
+          },
+          "state": {
+            "answered": false,
+            "user_answer": null,
+            "is_correct": null,
+            "time_spent_ms": null,
+            "points_earned": 0
+          },
+          "save_to": [
+            "exercise_attempts",
+            "daily_review_sessions"
+          ]
+        }
+      ],
+      "end_summary": {
+        "show_score": true,
+        "show_accuracy": true,
+        "show_streak": true,
+        "show_weak_topics": true,
+        "show_time_avg": true,
+        "title": "🏆 Game Over!",
+        "score_tiers_ref": "blueprint.level_rules.challenge.score_tiers",
+        "weak_topic_detection": {
+          "logic": "sai ≥2 câu cùng error_tag → weak topic",
+          "output_fields": [
+            "error_tag",
+            "error_count",
+            "recommended_action"
+          ]
+        },
+        "next_actions": [
+          {
+            "condition": "accuracy >= 0.8",
+            "cta": "Lên level → Challenge",
+            "action": "UNLOCK_NEXT_UNIT",
+            "target": "challenge"
+          },
+          {
+            "condition": "accuracy < 0.8",
+            "cta": "Thử lại",
+            "action": "REPEAT_CHALLENGE",
+            "target": "challenge"
+          }
+        ],
+        "data_to_save": {
+          "session_id": {
+            "type": "string",
+            "required": true
+          },
+          "user_id": {
+            "type": "string",
+            "required": true
+          },
+          "unit_id": {
+            "type": "string",
+            "required": true
+          },
+          "item_id": {
+            "type": "string",
+            "required": true
+          },
+          "is_correct": {
+            "type": "boolean",
+            "required": true
+          },
+          "time_spent_ms": {
+            "type": "integer",
+            "required": true
+          },
+          "user_answer": {
+            "type": "string",
+            "required": true
+          },
+          "correct_answer": {
+            "type": "string",
+            "required": true
+          },
+          "streak_reached": {
+            "type": "integer",
+            "required": false
+          },
+          "error_tags": {
+            "type": "array",
+            "required": false
+          }
+        },
+        "cta": "🔄 Play Again"
+      }
+    }
+  }
+}

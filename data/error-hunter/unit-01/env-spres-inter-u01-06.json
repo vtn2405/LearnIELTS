@@ -1,0 +1,145 @@
+{
+  "slug": "env-spres-inter-u01-06",
+  "type": "PURE",
+  "unitId": "unit-1-simple-present",
+  "unitNum": 1,
+  "grammarFocus": "SIMPLE_PRESENT",
+  "grammarPoint": "Simple Present (subject + verb/verb-s)",
+  "mixedGrammar": null,
+  "topic": "Environment",
+  "taskType": "SPEAKING_PART3",
+  "bandTarget": 5.0,
+  "difficulty": "INTERMEDIATE",
+  "phase": "5B",
+  "title": "IELTS Speaking Part 3: Environment — Simple Present",
+  "titleVi": "IELTS Speaking Part 3: Môi trường — Thì Hiện Tại Đơn",
+  "speakingCueCard": {
+    "prompt": "What do people in your country do to protect the environment?",
+    "bulletPoints": [
+      "Common environmental actions",
+      "Government policies",
+      "Individual responsibility",
+      "Whether enough is being done"
+    ]
+  },
+  "questionPrompt": "Read the speaking response below. Select every grammar error you notice by highlighting it. You may also type the correct version in the box that appears.",
+  "questionPromptVi": "Đọc đoạn văn dưới đây. Chọn mỗi lỗi ngữ pháp bạn phát hiện bằng cách bôi đen. Bạn có thể gõ bản sửa đúng vào ô hiện ra.",
+  "passageText": "Well, in my country, the government encourage people to separate their rubbish into different bins for recycling. Many families follow this rule, but some people still does not bother because they think it takes too much time. Factories also produce a large amount of pollution, and this causes serious health problems in big cities. I think each person need to take responsibility, because small actions add up over time. Looking at the bigger picture, protecting the environment requires effort from everyone in society. We all share the same planet, after all.",
+  "totalErrors": 3,
+  "errors": [
+    {
+      "errorText": "the government encourage people",
+      "correctText": "the government encourages people",
+      "acceptedAnswers": [
+        "the government encourages people"
+      ],
+      "errorType": "THIRD_PERSON_S_OMISSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'The government' is singular — the verb needs -s: 'encourages'.",
+      "explanationVi": "'The government' là số ít — động từ cần -s: 'encourages'.",
+      "grammarRuleCode": "SPRES-013",
+      "ieltsTipErrorType": "THIRD_PERSON_S_OMISSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 21,
+      "endIndex": 52
+    },
+    {
+      "errorText": "some people still does not bother",
+      "correctText": "some people still do not bother",
+      "acceptedAnswers": [
+        "some people still do not bother",
+        "some people still don't bother"
+      ],
+      "errorType": "DO_DOES_CONFUSION",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Some people' is plural — use 'do not', not 'does not'.",
+      "explanationVi": "'Some people' là số nhiều — dùng 'do not', không phải 'does not'.",
+      "grammarRuleCode": "SPRES-014",
+      "ieltsTipErrorType": "DO_DOES_CONFUSION",
+      "detectionDifficulty": 2,
+      "errorVisibility": "OBVIOUS",
+      "startIndex": 150,
+      "endIndex": 183
+    },
+    {
+      "errorText": "each person need to take",
+      "correctText": "each person needs to take",
+      "acceptedAnswers": [
+        "each person needs to take"
+      ],
+      "errorType": "SUBJECT_VERB_AGREEMENT",
+      "relatedGrammar": "SIMPLE_PRESENT",
+      "severity": "MAJOR",
+      "explanation": "'Each person' is grammatically singular — 'needs', not 'need'. 'Each' always takes a singular verb.",
+      "explanationVi": "'Each person' về ngữ pháp là số ít — dùng 'needs', không phải 'need'. 'Each' luôn đi với động từ số ít.",
+      "grammarRuleCode": "SPRES-015",
+      "ieltsTipErrorType": "SUBJECT_VERB_AGREEMENT",
+      "detectionDifficulty": 3,
+      "errorVisibility": "SUBTLE",
+      "startIndex": 342,
+      "endIndex": 366
+    }
+  ],
+  "falseAlarmZones": [
+    {
+      "text": "small actions add up over time",
+      "hint": "'Actions add' is correct — 'actions' is plural, so the base form 'add' is used.",
+      "startIndex": 391,
+      "endIndex": 421
+    }
+  ],
+  "collocations": [
+    {
+      "phrase": "separate rubbish",
+      "sourceInPassage": "separate their rubbish into different bins",
+      "translation": "phân loại rác",
+      "exampleSentence": "In Japan, people are very careful to separate rubbish into the correct categories.",
+      "grammarNote": "'Separate rubbish' hoặc 'sort rubbish' — không dùng 'divide rubbish'"
+    },
+    {
+      "phrase": "take responsibility",
+      "sourceInPassage": "need to take responsibility",
+      "translation": "nhận trách nhiệm",
+      "exampleSentence": "Everyone should take responsibility for reducing their own carbon footprint.",
+      "grammarNote": "'Take responsibility' — không dùng 'get responsibility' hay 'have responsibility for'"
+    },
+    {
+      "phrase": "add up over time",
+      "sourceInPassage": "small actions add up over time",
+      "translation": "tích lũy dần theo thời gian",
+      "exampleSentence": "Even small savings add up over time and can make a big difference.",
+      "grammarNote": "'Add up' (phrasal verb) = tích lũy — không dùng 'add up together' (thừa)"
+    },
+    {
+      "phrase": "the bigger picture",
+      "sourceInPassage": "Looking at the bigger picture",
+      "translation": "bức tranh tổng thể",
+      "exampleSentence": "We need to look at the bigger picture when discussing environmental policy.",
+      "grammarNote": "'The bigger picture' — tự nhiên hơn 'the big picture' trong IELTS discussion"
+    }
+  ],
+  "metadata": {
+    "weaknessTag": [
+      "THIRD_PERSON_S_OMISSION",
+      "DO_DOES_CONFUSION",
+      "SUBJECT_VERB_AGREEMENT"
+    ],
+    "commonMistakeProfile": "VIETNAMESE_LEARNER",
+    "skillFocus": "SPEAKING",
+    "estimatedTimeSeconds": 120,
+    "relatedUnits": [
+      1
+    ],
+    "generationMatrix": {
+      "poolDomain": "Recycling and Individual Responsibility",
+      "discourseSituation": "A learner using a structured template to discuss environmental actions",
+      "discourseMood": "cause_effect",
+      "learnerVoice": "template",
+      "errorStrategy": "mixed",
+      "cognitiveLoad": "medium"
+    }
+  }
+}

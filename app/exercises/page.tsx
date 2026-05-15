@@ -203,7 +203,7 @@ export default function ExercisesPage() {
   if (showSpeedDrill) {
     return (
       <div style={{ position: "fixed", inset: 0, zIndex: 1000, overflowY: "auto" }}>
-        <SpeedDrillModule onBackHub={() => setShowSpeedDrill(false)} />
+        <SpeedDrillModule unitId={1} onBackHub={() => setShowSpeedDrill(false)} />
       </div>
     );
   }
@@ -366,9 +366,9 @@ export default function ExercisesPage() {
               card={card}
               onClick={
                 card.id === "speed-drill"
-                  ? () => setShowSpeedDrill(true)
+                  ? () => router.push("/exercises/speed-drill")
                   : card.id === "error-hunter"
-                  ? () => router.push("/exercises/error-hunter?packId=pack-units-1-2")
+                  ? () => router.push("/exercises/error-hunter")
                   : card.id === "pattern-builder"
                   ? () => router.push("/exercises/pattern-builder")
                   : undefined

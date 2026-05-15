@@ -8,6 +8,29 @@ import useSpeedDrillShell from "../../hooks/useSpeedDrillShell";
 import { SD } from "../../constants/speedDrillTheme";
 import { EASE_STANDARD } from "../../utils/animation";
 
+// ─── Animated View Wrapper ───────────────────────────────────────────────────
+// Usage: <AnimatedView key="unique-key-per-view"> — the `key` prop at the
+// CALL SITE is what triggers React to unmount/remount, re-firing the CSS
+// animation on every view switch (smooth crossfade instead of hard flash).
+function AnimatedView({ children }: { children: React.ReactNode }) {
+  return (
+    <div
+      style={{
+        animation: "sdViewEnter 0.28s cubic-bezier(0.22, 1, 0.36, 1) both",
+        willChange: "opacity, transform",
+      }}
+    >
+      {children}
+      <style>{`
+        @keyframes sdViewEnter {
+          from { opacity: 0; transform: translateY(10px) scale(0.995); }
+          to   { opacity: 1; transform: translateY(0)  scale(1);     }
+        }
+      `}</style>
+    </div>
+  );
+}
+
 // ─── Types ────────────────────────────────────────────────────────────────────
 
 type LevelKey = "starter" | "build_up" | "challenge";
@@ -31,6 +54,7 @@ interface GameResult {
 
 interface Props {
   onBackHub: () => void;
+  unitId?: number; // 1-16, defaults to 1
 }
 
 // ─── Mode config ──────────────────────────────────────────────────────────────
@@ -177,7 +201,7 @@ function ModeCard({
 
 // ─── Main Component ───────────────────────────────────────────────────────────
 
-export default function SpeedDrillModule({ onBackHub }: Props) {
+export default function SpeedDrillModule({ onBackHub, unitId = 1 }: Props) {
   useSpeedDrillShell();
   const [data, setData] = useState<DrillData | null>(null);
   const [loadErr, setLoadErr] = useState<string | null>(null);
@@ -186,21 +210,21 @@ export default function SpeedDrillModule({ onBackHub }: Props) {
   const [result, setResult] = useState<GameResult | null>(null);
 
   // localStorage progress keys
-  const LS_KEY_STARTER = "sd_unit1_starter_pass";
-  const LS_KEY_BUILDUP = "sd_unit1_buildup_pass";
+  const LS_KEY_STARTER = `sd_unit${unitId}_starter_pass`;
+  const LS_KEY_BUILDUP = `sd_unit${unitId}_buildup_pass`;
 
   const starterPassed = typeof window !== "undefined" && localStorage.getItem(LS_KEY_STARTER) === "1";
   const buildUpPassed = typeof window !== "undefined" && localStorage.getItem(LS_KEY_BUILDUP) === "1";
 
   useEffect(() => {
-    fetch("/speed-drill-unit1-v4-final.json")
+    fetch(`/api/speed-drill?unit=${unitId}`)
       .then(r => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`);
         return r.json();
       })
       .then((json: DrillData) => setData(json))
       .catch((e: Error) => setLoadErr(e.message));
-  }, []);
+  }, [unitId]);
 
   function startLevel(level: LevelKey) {
     setActiveLevel(level);
@@ -222,140 +246,149 @@ export default function SpeedDrillModule({ onBackHub }: Props) {
     setView("results");
   }
 
-  // ── Results view ──
+  // ── View switcher with smooth enter animation ──
+  // Each <AnimatedView key="..."> gets a unique React key so that on every
+  // view change React unmounts and remounts the wrapper, re-firing the
+  // @keyframes sdViewEnter CSS animation (crossfade+slide) — no libraries needed.
+
   if (view === "results" && result && data) {
     const levelRule = data.blueprint.level_rules[activeLevel];
     return (
-      <SpeedDrillEndScreen
-        score={result.score}
-        maxScore={levelRule.max_score}
-        streak={0}
-        maxStreak={result.maxStreak}
-        answers={result.answers}
-        levelRule={levelRule}
-        levelKey={activeLevel}
-        onRetry={() => startLevel(activeLevel)}
-        onBackModes={() => setView("modes")}
-        onBackHub={onBackHub}
-        onNext={
-          activeLevel === "starter" ? () => startLevel("build_up")
-          : activeLevel === "build_up" ? () => startLevel("challenge")
-          : undefined
-        }
-      />
+      <AnimatedView key={`results-${activeLevel}`}>
+        <SpeedDrillEndScreen
+          score={result.score}
+          maxScore={levelRule.max_score}
+          streak={0}
+          maxStreak={result.maxStreak}
+          answers={result.answers}
+          levelRule={levelRule}
+          levelKey={activeLevel}
+          onRetry={() => startLevel(activeLevel)}
+          onBackModes={() => setView("modes")}
+          onBackHub={onBackHub}
+          onNext={
+            activeLevel === "starter" ? () => startLevel("build_up")
+            : activeLevel === "build_up" ? () => startLevel("challenge")
+            : undefined
+          }
+        />
+      </AnimatedView>
     );
   }
 
-  // ── Playing view ──
   if (view === "playing" && data) {
     const items = data.blueprint.items_by_level[activeLevel];
     const levelRule = data.blueprint.level_rules[activeLevel];
     const scoreRule = data.blueprint.scoring_rule;
     return (
-      <SpeedDrillGame
-        items={items}
-        levelRule={levelRule}
-        scoreRule={scoreRule}
-        levelKey={activeLevel}
-        onDone={handleDone}
-        onBack={() => setView("modes")}
-      />
+      <AnimatedView key={`playing-${activeLevel}`}>
+        <SpeedDrillGame
+          items={items}
+          levelRule={levelRule}
+          scoreRule={scoreRule}
+          levelKey={activeLevel}
+          onDone={handleDone}
+          onBack={() => setView("modes")}
+        />
+      </AnimatedView>
     );
   }
 
   // ── Mode selector ──
   return (
-    <div style={{
-      minHeight: "100vh", background: "#0f172a",
-      fontFamily: "var(--font-inter), Inter, sans-serif",
-    }}>
-      {/* Header */}
+    <AnimatedView key="modes">
       <div style={{
-        background: "linear-gradient(180deg, #1e293b 0%, #0f172a 100%)",
-        borderBottom: `1px solid ${SD.surfaceAlt}`,
-        padding: "24px 24px 20px",
+        minHeight: "100vh", background: "#0f172a",
+        fontFamily: "var(--font-inter), Inter, sans-serif",
       }}>
-        <div style={{ maxWidth: 680, margin: "0 auto" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
-            <button onClick={onBackHub} style={{
-              background: "transparent", border: `1px solid ${SD.borderAlt}`,
-              color: SD.textMuted, borderRadius: 8, padding: "5px 12px",
-              fontSize: 13, cursor: "pointer", fontWeight: 600,
-            }}>
-              ← Hub
-            </button>
-            <span style={{ color: "#334155" }}>›</span>
-            <span style={{ fontSize: 13, fontWeight: 700, color: SD.textMuted }}>Speed Drill</span>
-          </div>
+        {/* Header */}
+        <div style={{
+          background: "linear-gradient(180deg, #1e293b 0%, #0f172a 100%)",
+          borderBottom: `1px solid ${SD.surfaceAlt}`,
+          padding: "24px 24px 20px",
+        }}>
+          <div style={{ maxWidth: 680, margin: "0 auto" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
+              <button onClick={onBackHub} style={{
+                background: "transparent", border: `1px solid ${SD.borderAlt}`,
+                color: SD.textMuted, borderRadius: 8, padding: "5px 12px",
+                fontSize: 13, cursor: "pointer", fontWeight: 600,
+              }}>
+                ← Hub
+              </button>
+              <span style={{ color: "#334155" }}>›</span>
+              <span style={{ fontSize: 13, fontWeight: 700, color: SD.textMuted }}>Speed Drill</span>
+            </div>
 
-          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-            <div style={{
-              width: 56, height: 56, borderRadius: 16, fontSize: 28,
-              background: "linear-gradient(135deg, #6366f1, #a855f7)",
-              display: "flex", alignItems: "center", justifyContent: "center",
-              boxShadow: "0 4px 20px #6366f160",
-            }}>⚡</div>
-            <div>
-              <h1 style={{ margin: 0, fontSize: 24, fontWeight: 900, color: "#f1f5f9" }}>
-                Speed Drill — Unit 1
-              </h1>
-              <p style={{ margin: 0, fontSize: 14, color: SD.textMuted, fontWeight: 600 }}>
-                {data ? `${data.metadata.grammar_point} · ${data.metadata.subtitle_vi}` : "Simple Present · Thì hiện tại đơn"}
-              </p>
+            <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+              <div style={{
+                width: 56, height: 56, borderRadius: 16, fontSize: 28,
+                background: "linear-gradient(135deg, #6366f1, #a855f7)",
+                display: "flex", alignItems: "center", justifyContent: "center",
+                boxShadow: "0 4px 20px #6366f160",
+              }}>⚡</div>
+              <div>
+                <h1 style={{ margin: 0, fontSize: 24, fontWeight: 900, color: "#f1f5f9" }}>
+                  Speed Drill — Unit {unitId}
+                </h1>
+                <p style={{ margin: 0, fontSize: 14, color: SD.textMuted, fontWeight: 600 }}>
+                  {data ? `${data.metadata.grammar_point} · ${data.metadata.subtitle_vi}` : "Simple Present · Thì hiện tại đơn"}
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Content */}
-      <div style={{ maxWidth: 680, margin: "0 auto", padding: "28px 20px" }}>
-        {loadErr ? (
-          <div style={{
-            background: "#450a0a", borderRadius: 14, padding: 24,
-            border: "1px solid #ef4444", color: "#fca5a5", textAlign: "center",
-          }}>
-            <p style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700 }}>⚠ Lỗi tải dữ liệu</p>
-            <p style={{ margin: 0, fontSize: 13 }}>{loadErr}</p>
-          </div>
-        ) : !data ? (
-          <LoadingSkeleton />
-        ) : (
-          <>
-            <p style={{ margin: "0 0 20px", fontSize: 13, color: "#475569", fontWeight: 600, textAlign: "center" }}>
-              Chọn cấp độ luyện tập — 10 câu/vòng
-            </p>
-
-            <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-              {(["starter", "build_up", "challenge"] as LevelKey[]).map(key => {
-                const unlocked =
-                  key === "starter" ? true
-                  : key === "build_up" ? starterPassed
-                  : buildUpPassed;
-
-                return (
-                  <ModeCard
-                    key={key}
-                    levelKey={key}
-                    meta={MODE_META[key]}
-                    rule={data.blueprint.level_rules[key]}
-                    onClick={() => startLevel(key)}
-                    unlocked={unlocked}
-                  />
-                );
-              })}
+        {/* Content */}
+        <div style={{ maxWidth: 680, margin: "0 auto", padding: "28px 20px" }}>
+          {loadErr ? (
+            <div style={{
+              background: "#450a0a", borderRadius: 14, padding: 24,
+              border: "1px solid #ef4444", color: "#fca5a5", textAlign: "center",
+            }}>
+              <p style={{ margin: "0 0 8px", fontSize: 16, fontWeight: 700 }}>⚠ Lỗi tải dữ liệu</p>
+              <p style={{ margin: 0, fontSize: 13 }}>{loadErr}</p>
             </div>
+          ) : !data ? (
+            <LoadingSkeleton />
+          ) : (
+            <>
+              <p style={{ margin: "0 0 20px", fontSize: 13, color: "#475569", fontWeight: 600, textAlign: "center" }}>
+                Chọn cấp độ luyện tập — 10 câu/vòng
+              </p>
 
-            {/* Keyboard hint */}
-            <p style={{ textAlign: "center", color: "#334155", fontSize: 12, marginTop: 24 }}>
-              💡 Trong lúc chơi: phím <kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>1</kbd>
-              {" "}<kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>2</kbd>
-              {" "}<kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>3</kbd>
-              {" "}<kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>4</kbd>
-              {" "}để chọn đáp án · <kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>Space</kbd> để tiếp
-            </p>
-          </>
-        )}
+              <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+                {(["starter", "build_up", "challenge"] as LevelKey[]).map(key => {
+                  const unlocked =
+                    key === "starter" ? true
+                    : key === "build_up" ? starterPassed
+                    : buildUpPassed;
+
+                  return (
+                    <ModeCard
+                      key={key}
+                      levelKey={key}
+                      meta={MODE_META[key]}
+                      rule={data.blueprint.level_rules[key]}
+                      onClick={() => startLevel(key)}
+                      unlocked={unlocked}
+                    />
+                  );
+                })}
+              </div>
+
+              {/* Keyboard hint */}
+              <p style={{ textAlign: "center", color: "#334155", fontSize: 12, marginTop: 24 }}>
+                💡 Trong lúc chơi: phím <kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>1</kbd>
+                {" "}<kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>2</kbd>
+                {" "}<kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>3</kbd>
+                {" "}<kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>4</kbd>
+                {" "}để chọn đáp án · <kbd style={{ background: "#1e293b", border: `1px solid ${SD.borderAlt}`, borderRadius: 4, padding: "1px 6px", color: SD.textSecondary }}>Space</kbd> để tiếp
+              </p>
+            </>
+          )}
+        </div>
       </div>
-    </div>
+    </AnimatedView>
   );
 }

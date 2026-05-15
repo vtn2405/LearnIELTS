@@ -1,0 +1,3300 @@
+[
+  {
+    "id": "sp-fill-env-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing daily habits related to the environment"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The factory [________] a large amount of carbon dioxide into the atmosphere every day."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "releases",
+        "emits",
+        "produces"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "release",
+        "emit",
+        "produce",
+        "released",
+        "emitted"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'the factory' - hãy nghĩ xem nó là số ít hay số nhiều.",
+      "hintLevel2": "Với chủ ngữ số ít (he/she/it/the Factory), động từ cần có đuôi -s hoặc -es.",
+      "hintLevel3": "Cấu trúc: The factory + V-s → The factory releases / emits / produces."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã ghép chủ ngữ số ít 'the factory' với một động từ được biến cách đúng cách.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả những gì các ngành hoặc tổ chức thường làm.",
+      "bandTip": "Để đạt được Band 6, hãy thay đổi lựa chọn động từ của bạn — sử dụng 'emits' hoặc 'releases' thay vì luôn luôn 'produces'.",
+      "commonMistake": "Không sử dụng dạng cơ bản 'release' với chủ ngữ số ít; luôn thêm -s hoặc -es."
+    },
+    "reusablePattern": "The factory releases a large amount of carbon dioxide into the atmosphere every day."
+  },
+  {
+    "id": "sp-fill-env-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what people fail to do for the environment"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Many households [________] recycle their plastic waste properly."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "do not",
+        "don't"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "does not",
+        "doesn't",
+        "not",
+        "no"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, plural subject",
+      "pattern": "subject (plural) + do not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'many households' là số nhiều - bạn sử dụng trợ từ nào để biến nó thành phủ định?",
+      "hintLevel2": "Với chủ ngữ số nhiều, sử dụng 'do not' (hoặc 'don't') trước dạng cơ bản của động từ.",
+      "hintLevel3": "Cấu trúc: Many households + do not + recycle."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'do not' với chủ ngữ số nhiều 'many households' và giữ nguyên dạng động từ cơ bản.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi giải thích những nhóm người không làm được gì liên quan đến các vấn đề môi trường.",
+      "bandTip": "Trong văn viết hoặc nói trang trọng, hãy sử dụng 'do not' hơn 'don't' để nghe có vẻ học thuật hơn.",
+      "commonMistake": "Không sử dụng 'does not' với chủ ngữ số nhiều như 'many households'; 'does not' chỉ dành cho he/she/it."
+    },
+    "reusablePattern": "Many households do not recycle their plastic waste properly."
+  },
+  {
+    "id": "sp-fill-env-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about personal environmental habits"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] your local government invest enough money in renewable energy?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Does",
+        "does"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Do",
+        "do",
+        "Is",
+        "Are"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present question, third-person singular",
+      "pattern": "Does + subject (singular) + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'your local government' - số ít hay số nhiều?",
+      "hintLevel2": "Đối với câu hỏi có/không có chủ ngữ ở ngôi thứ ba số ít, hãy bắt đầu bằng 'Does'.",
+      "hintLevel3": "Cấu trúc: Does + your local government + invest...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng đúng 'Does' để tạo câu hỏi với chủ đề số ít 'your local government'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về các chính sách môi trường của địa phương hoặc quốc gia.",
+      "bandTip": "Khi trả lời câu hỏi 'Does…?' trong bài thi Nói IELTS, hãy đưa ra câu trả lời đầy đủ thay vì chỉ 'Yes' hoặc 'No'.",
+      "commonMistake": "Không sử dụng 'Do' với chủ ngữ ngôi thứ ba số ít như 'your local government'; luôn sử dụng 'Does'."
+    },
+    "reusablePattern": "Does your local government invest enough money in renewable energy?"
+  },
+  {
+    "id": "sp-fill-env-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Analysing how often people demonstrate environmental awareness"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "She [________] cares about recycling — she takes it very seriously."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "always",
+        "genuinely",
+        "truly",
+        "really"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "never",
+        "sometimes",
+        "not"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present with adverb of frequency",
+      "pattern": "subject + adverb + V-s/V-es",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Hãy suy nghĩ về vị trí của trạng từ chỉ tần suất hoặc sự nhấn mạnh trong câu Simple Present.",
+      "hintLevel2": "Các trạng từ như 'always', 'genuinely' hoặc 'truly' đứng ngay trước động từ chính.",
+      "hintLevel3": "Cấu trúc: She + always/genuinely/truly + cares."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã đặt trạng từ tần suất hoặc sự nhấn mạnh trước động từ chính 'cares'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi bạn muốn nhấn mạnh mức độ thường xuyên hoặc chân thành của ai đó làm điều gì đó.",
+      "bandTip": "Sử dụng các trạng từ như 'consistently' hoặc 'genuinely' thay vì 'always' có thể nâng cao điểm từ vựng của bạn.",
+      "commonMistake": "Không đặt trạng từ chỉ tần suất sau động từ chính; họ thuộc về trực tiếp trước nó."
+    },
+    "reusablePattern": "She always cares about recycling — she takes it very seriously."
+  },
+  {
+    "id": "sp-fill-tech-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing how a person uses technology daily"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "My younger sister [________] social media for at least three hours every day."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "uses",
+        "checks",
+        "browses",
+        "scrolls through"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "use",
+        "check",
+        "browse",
+        "used",
+        "is use"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'my younger sister' - đây là số ít hay số nhiều?",
+      "hintLevel2": "Chủ ngữ ngôi thứ ba số ít (she) yêu cầu động từ có -s hoặc -es ở cuối.",
+      "hintLevel3": "Cấu trúc: My younger sister + uses / checks / browses."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã ghép chủ ngữ số ít 'my younger sister' với động từ được biến cách chính xác.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả thói quen sử dụng công nghệ của người khác.",
+      "bandTip": "Thay vì 'uses', hãy thử 'relies on' hoặc 'spends time on' để hiển thị phạm vi từ vựng rộng hơn.",
+      "commonMistake": "Không sử dụng dạng cơ bản 'use' với chủ ngữ số ít; luôn thêm -s hoặc -es."
+    },
+    "reusablePattern": "My younger sister uses social media for at least three hours every day."
+  },
+  {
+    "id": "sp-fill-tech-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the negative impact of AI on employment"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Automation [________] replace human workers in many manufacturing jobs."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "does not",
+        "doesn't"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "do not",
+        "don't",
+        "not",
+        "cannot"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, third-person singular",
+      "pattern": "subject (singular) + does not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'automation' là số ít - trợ động từ phủ định nào đi cùng chủ ngữ số ít?",
+      "hintLevel2": "Với chủ ngữ số ít, dùng 'does not' (hoặc 'doesn't') trước dạng động từ cơ sở.",
+      "hintLevel3": "Cấu trúc: Automation + does not + replace."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'does not' với chủ ngữ số ít 'automation' và giữ nguyên động từ cơ sở 'replace'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi đưa ra phản biện về công nghệ và công việc.",
+      "bandTip": "Trong bối cảnh trang trọng, hãy sử dụng 'does not' thay vì 'doesn't' để duy trì sổ đăng ký học tập.",
+      "commonMistake": "Không sử dụng 'do not' với chủ đề số ít như 'automation'; luôn sử dụng 'does not'."
+    },
+    "reusablePattern": "Automation does not replace human workers in many manufacturing jobs."
+  },
+  {
+    "id": "sp-fill-tech-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about personal online communication habits"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] most teenagers prefer online communication to face-to-face interaction?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Do",
+        "do"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Does",
+        "does",
+        "Are",
+        "Is"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present question, plural subject",
+      "pattern": "Do + subject (plural) + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'most teenagers' - đây là số ít hay số nhiều?",
+      "hintLevel2": "Đối với câu hỏi có chủ ngữ số nhiều, hãy sử dụng 'Do' ở đầu.",
+      "hintLevel3": "Cấu trúc: Do + most teenagers + prefer...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Do' để tạo thành câu hỏi với chủ ngữ số nhiều 'most teenagers'.",
+      "ieltsUsage": "Hữu ích khi giám khảo ở Speaking Part 1 hỏi về thói quen chung của giới trẻ.",
+      "bandTip": "Khi đặt câu hỏi trong Speaking IELTS, hãy đảm bảo động từ vẫn ở dạng cơ bản sau 'Do/Does'.",
+      "commonMistake": "Không sử dụng 'Does' với chủ ngữ số nhiều như 'most teenagers'; 'Does' chỉ dành cho he/she/it."
+    },
+    "reusablePattern": "Do most teenagers prefer online communication to face-to-face interaction?"
+  },
+  {
+    "id": "sp-fill-tech-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing whether people rely too much on digital devices"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "He [________] relies on his smartphone to manage his daily schedule."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "heavily",
+        "constantly",
+        "largely",
+        "completely"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "never",
+        "rarely",
+        "barely"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present with adverb of degree",
+      "pattern": "subject + adverb + V-s/V-es",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Hãy nghĩ về một trạng từ mô tả mức độ hoặc cường độ của việc ai đó dựa vào điều gì đó.",
+      "hintLevel2": "Các trạng từ chỉ mức độ như 'heavily', 'constantly' hoặc 'largely' đứng trước động từ chính.",
+      "hintLevel3": "Cấu trúc: He + heavily / constantly + relies on."
+    },
+    "feedback": {
+      "correct": "Đúng rồi - bạn đã đặt trạng từ chỉ mức độ trước động từ chính 'relies' để thể hiện cường độ.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả mức độ phụ thuộc của một người nào đó vào một công nghệ cụ thể.",
+      "bandTip": "Các trạng từ như 'heavily' hoặc 'increasingly' có thể làm cho câu trả lời IELTS của bạn nghe chính xác và mang tính học thuật hơn.",
+      "commonMistake": "Không đặt trạng từ chỉ mức độ sau động từ chính; họ nên trực tiếp đi trước nó."
+    },
+    "reusablePattern": "He heavily relies on his smartphone to manage his daily schedule."
+  },
+  {
+    "id": "sp-fill-edu-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a teacher's habitual classroom behaviour"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "The teacher [________] homework to students at the end of every lesson."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "assigns",
+        "gives",
+        "provides"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "assign",
+        "give",
+        "provide",
+        "assigned",
+        "is assign"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'the teacher' - hãy nghĩ xem nó là số ít hay số nhiều.",
+      "hintLevel2": "Chủ ngữ ngôi thứ ba số ít yêu cầu động từ kết thúc bằng -s hoặc -es.",
+      "hintLevel3": "Cấu trúc: The teacher + assigns / gives / provides."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã thêm -s hoặc -es vào động từ một cách chính xác để khớp với chủ ngữ số ít 'the teacher'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả những gì giáo viên thường làm trong lớp.",
+      "bandTip": "Sử dụng 'assigns' thay vì 'gives' cho thấy phạm vi từ vựng rộng hơn và có thể nâng cao điểm từ vựng của bạn.",
+      "commonMistake": "Không sử dụng dạng cơ bản 'assign' hoặc 'give' với chủ ngữ số ít; luôn luôn biến cách động từ."
+    },
+    "reusablePattern": "The teacher assigns homework to students at the end of every lesson."
+  },
+  {
+    "id": "sp-fill-edu-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing limitations of online learning"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Online learning [________] provide the same social interaction as traditional classrooms."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "does not",
+        "doesn't"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "do not",
+        "don't",
+        "not",
+        "cannot"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, third-person singular",
+      "pattern": "subject (singular) + does not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'online learning' là số ít - trợ động từ phủ định nào phù hợp với chủ ngữ số ít?",
+      "hintLevel2": "Với chủ ngữ ngôi thứ ba số ít, hãy sử dụng 'does not' trước động từ cơ sở.",
+      "hintLevel3": "Cấu trúc: Online learning + does not + provide."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'does not' với chủ đề số ít 'online learning' và giữ 'provide' ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi xác định những hạn chế của giáo dục kỹ thuật số.",
+      "bandTip": "Nói 'does not offer' hoặc 'fails to provide' thay vì chỉ đơn giản là 'does not provide' có thể làm phong phú thêm câu trả lời của bạn.",
+      "commonMistake": "Không sử dụng 'do not' với chủ đề số ít như 'online learning'; luôn sử dụng 'does not'."
+    },
+    "reusablePattern": "Online learning does not provide the same social interaction as traditional classrooms."
+  },
+  {
+    "id": "sp-fill-edu-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about study habits"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] university students study more effectively in libraries than at home?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Do",
+        "do"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Does",
+        "does",
+        "Are",
+        "Is"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present question, plural subject",
+      "pattern": "Do + subject (plural) + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'university students' - nó là số ít hay số nhiều?",
+      "hintLevel2": "Đối với câu hỏi có chủ ngữ số nhiều, hãy sử dụng 'Do' để bắt đầu câu hỏi.",
+      "hintLevel3": "Cấu trúc: Do + university students + study...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Do' đúng với chủ ngữ số nhiều 'university students'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi trả lời các câu hỏi về thói quen học tập chung.",
+      "bandTip": "Trong IELTS Nói, hãy đưa ra câu trả lời đầy đủ, phát triển sau câu hỏi có/không thay vì trả lời một từ.",
+      "commonMistake": "Không sử dụng 'Does' với chủ ngữ số nhiều; 'Does' được dành riêng cho chủ đề ngôi thứ ba số ít."
+    },
+    "reusablePattern": "Do university students study more effectively in libraries than at home?"
+  },
+  {
+    "id": "sp-fill-edu-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Evaluating the study attitudes of students in different education systems"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "She [________] understands the importance of revising regularly before exams."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "clearly",
+        "fully",
+        "truly",
+        "deeply"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "not",
+        "never",
+        "barely"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present with stative verb and adverb",
+      "pattern": "subject + adverb + stative verb (V-s/V-es)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Hãy nghĩ về một trạng từ nhấn mạnh mức độ hiểu biết của cô ấy về điều gì đó.",
+      "hintLevel2": "Các trạng từ mức độ như 'clearly', 'fully' hoặc 'deeply' được đặt trực tiếp trước động từ trạng thái.",
+      "hintLevel3": "Cấu trúc: She + clearly / fully / truly + understands."
+    },
+    "feedback": {
+      "correct": "Đúng rồi - bạn đã đặt một trạng từ trước động từ trạng thái 'understands' để nhấn mạnh.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi nhấn mạnh mức độ một người nắm bắt ý tưởng về giáo dục.",
+      "bandTip": "Các động từ trạng thái như 'understand', 'believe' và 'know' are not được sử dụng ở thì tiếp diễn — luôn sử dụng Simple Present.",
+      "commonMistake": "Không sử dụng 'is understanding' — động từ trạng thái do not có dạng -ing trong tiếng Anh chuẩn."
+    },
+    "reusablePattern": "She clearly understands the importance of revising regularly before exams."
+  },
+  {
+    "id": "sp-fill-health-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a person's exercise routine"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "My neighbour [________] to the gym three times a week to stay fit."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "goes",
+        "travels",
+        "walks"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "go",
+        "travel",
+        "walk",
+        "went",
+        "is go"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'my neighbour' - một danh từ ngôi thứ ba số ít.",
+      "hintLevel2": "Chủ ngữ ngôi thứ ba số ít yêu cầu động từ kết thúc bằng -s hoặc -es.",
+      "hintLevel3": "Cấu trúc: My neighbour + goes / travels / walks."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã thêm -es vào 'go' để tạo thành 'goes', khớp với chủ ngữ số ít.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả thói quen tập thể dục và sức khỏe thường xuyên của ai đó.",
+      "bandTip": "Các động từ khác nhau — 'heads to', 'visits', 'attends' — thể hiện vốn từ vựng phong phú hơn so với việc luôn sử dụng 'goes'.",
+      "commonMistake": "Không sử dụng dạng cơ bản 'go' sau chủ ngữ số ít như 'my neighbour'; sử dụng 'goes'."
+    },
+    "reusablePattern": "My neighbour goes to the gym three times a week to stay fit."
+  },
+  {
+    "id": "sp-fill-health-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing unhealthy eating habits"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Fast food [________] contain the essential nutrients that the body needs."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "does not",
+        "doesn't"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "do not",
+        "don't",
+        "not",
+        "cannot"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, third-person singular",
+      "pattern": "subject (singular) + does not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'fast food' là số ít - bạn cần trợ động từ phủ định nào?",
+      "hintLevel2": "Chủ ngữ số ít đặt 'does not' trước dạng cơ bản của động từ chính.",
+      "hintLevel3": "Cấu trúc: Fast food + does not + contain."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'does not' với chủ ngữ số ít 'fast food' và giữ nguyên động từ cơ sở 'contain'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận tại sao một số chế độ ăn kiêng nhất định lại không lành mạnh.",
+      "bandTip": "Trong lời nói trang trọng, 'does not' nghe có vẻ học thuật hơn 'doesn't'; sử dụng dạng đầy đủ trong câu trả lời có cấu trúc.",
+      "commonMistake": "Không viết 'fast food do not' - 'fast food' là danh từ số ít và yêu cầu 'does not'."
+    },
+    "reusablePattern": "Fast food does not contain the essential nutrients that the body needs."
+  },
+  {
+    "id": "sp-fill-health-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about someone's exercise habits"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] regular physical exercise help reduce the risk of heart disease?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Does",
+        "does"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Do",
+        "do",
+        "Is",
+        "Are"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present question, third-person singular",
+      "pattern": "Does + subject (singular) + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'regular physical exercise' - nó là số ít hay số nhiều?",
+      "hintLevel2": "Chủ ngữ số ít trong câu hỏi có/không yêu cầu 'Does' khi bắt đầu.",
+      "hintLevel3": "Cấu trúc: Does + regular physical exercise + help...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Does' để tạo câu hỏi với chủ đề số ít 'regular physical exercise'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về lợi ích của việc tập thể dục đối với sức khỏe.",
+      "bandTip": "Sau khi trả lời 'Does…?' trong IELTS Nói, hãy thêm lý do hoặc ví dụ để thể hiện khả năng ở mức cao hơn.",
+      "commonMistake": "Không sử dụng 'Do' với chủ ngữ số ít; luôn sử dụng 'Does' cho he/she/it hoặc danh từ số ít."
+    },
+    "reusablePattern": "Does regular physical exercise help reduce the risk of heart disease?"
+  },
+  {
+    "id": "sp-fill-health-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing societal attitudes toward mental health and well-being"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "She [________] believes that mental health is just as important as physical health."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "strongly",
+        "firmly",
+        "truly",
+        "deeply"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "not",
+        "never",
+        "barely",
+        "rarely"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present with stative verb and adverb",
+      "pattern": "subject + adverb + stative verb (V-s/V-es)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Bạn có thể đặt trạng từ nào trước 'believes' để cho thấy cô ấy giữ quan điểm này mạnh mẽ đến mức nào?",
+      "hintLevel2": "Các trạng từ như 'strongly', 'firmly' hoặc 'deeply' đứng ngay trước động từ trạng thái.",
+      "hintLevel3": "Cấu trúc: She + strongly / firmly / truly + believes."
+    },
+    "feedback": {
+      "correct": "Đúng rồi - bạn đã đặt một trạng từ trước động từ trạng thái 'believes' để tăng cường ý nghĩa.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thể hiện niềm tin chắc chắn của cá nhân hoặc người khác về sức khỏe.",
+      "bandTip": "Động từ trạng thái (tin, biết, thích, hiểu) ở trong Simple Present ngay cả khi mô tả những cảm xúc mạnh mẽ đang diễn ra.",
+      "commonMistake": "Đừng nói 'is strongly believing' — các động từ trạng thái như 'believe' do not có dạng -ing tiếp diễn."
+    },
+    "reusablePattern": "She strongly believes that mental health is just as important as physical health."
+  },
+  {
+    "id": "sp-fill-work-01",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a colleague's work routine"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "My manager [________] the team's progress report every Monday morning."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "reviews",
+        "checks",
+        "evaluates",
+        "reads"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "review",
+        "check",
+        "evaluate",
+        "read",
+        "reviewed",
+        "is review"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'my manager' là một danh từ số ít - động từ cần kết thúc như thế nào?",
+      "hintLevel2": "Chủ ngữ ngôi thứ ba số ít cần động từ có thêm -s hoặc -es.",
+      "hintLevel3": "Cấu trúc: My manager + reviews / checks / evaluates."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã ghép chủ ngữ số ít 'my manager' với một động từ được biến cách chính xác.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả các hoạt động thường ngày trong môi trường làm việc.",
+      "bandTip": "Việc sử dụng các động từ chính xác như 'evaluates' hoặc 'assesses' thay vì 'checks' cho thấy phạm vi từ vựng phong phú hơn.",
+      "commonMistake": "Đừng quên thêm -s hoặc -es vào động từ khi chủ ngữ là ngôi thứ ba số ít."
+    },
+    "reusablePattern": "My manager reviews the team's progress report every Monday morning."
+  },
+  {
+    "id": "sp-fill-work-02",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing work-life balance challenges"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "Remote work [________] always improve employees' work-life balance."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "does not",
+        "doesn't"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "do not",
+        "don't",
+        "not",
+        "cannot"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, third-person singular",
+      "pattern": "subject (singular) + does not + V (base form)",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ 'remote work' là số ít - trợ động từ phủ định nào đi cùng chủ ngữ số ít?",
+      "hintLevel2": "Sử dụng 'does not' trước dạng cơ bản của động từ khi chủ ngữ ở số ít.",
+      "hintLevel3": "Cấu trúc: Remote work + does not + always improve."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'does not' với chủ đề số ít 'remote work' và giữ 'improve' ở dạng cơ sở.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những hạn chế của làm việc từ xa đối với sức khỏe của nhân viên.",
+      "bandTip": "Thêm sự nhượng bộ trước câu phủ định — 'While remote work has benefits, it does not always improve…' — nghe hay hơn Band 7.",
+      "commonMistake": "Không sử dụng 'do not' với chủ đề số ít như 'remote work'; luôn sử dụng 'does not'."
+    },
+    "reusablePattern": "Remote work does not always improve employees' work-life balance."
+  },
+  {
+    "id": "sp-fill-work-03",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Asking about career development habits"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "[________] your company offer training programmes for career development?"
+    },
+    "answer": {
+      "acceptedTokens": [
+        "Does",
+        "does"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "Do",
+        "do",
+        "Is",
+        "Are"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present question, third-person singular",
+      "pattern": "Does + subject (singular) + V (base form)?",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Chủ ngữ là 'your company' - nó là số ít hay số nhiều?",
+      "hintLevel2": "Đối với câu hỏi có/không có chủ ngữ ở ngôi thứ ba số ít, hãy bắt đầu bằng 'Does'.",
+      "hintLevel3": "Cấu trúc: Does + your company + offer...?"
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'Does' để bắt đầu câu hỏi về chủ đề số ít 'your company'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi trả lời các câu hỏi của giám khảo về nơi làm việc hoặc người sử dụng lao động của bạn.",
+      "bandTip": "Trả lời các câu hỏi 'Does your company…?' bằng một câu đầy đủ kèm theo một ví dụ cụ thể để phát triển câu trả lời của bạn.",
+      "commonMistake": "Không sử dụng 'Do' với chủ đề số ít như 'your company'; luôn sử dụng 'Does'."
+    },
+    "reusablePattern": "Does your company offer training programmes for career development?"
+  },
+  {
+    "id": "sp-fill-work-04",
+    "type": "FILL",
+    "level": "starter",
+    "difficultyOrder": 1,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Analysing whether employees maintain consistent productivity standards"
+    },
+    "prompt": {
+      "instruction": "Complete the sentence with the correct verb form.",
+      "frame": "He [________] works overtime to meet project deadlines."
+    },
+    "answer": {
+      "acceptedTokens": [
+        "often",
+        "frequently",
+        "regularly",
+        "consistently"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "never",
+        "rarely",
+        "barely",
+        "not"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present with adverb of frequency",
+      "pattern": "subject + adverb of frequency + V-s/V-es",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": "Hãy nghĩ về một trạng từ chỉ tần suất anh ấy làm việc ngoài giờ - hiếm khi hay thường xuyên?",
+      "hintLevel2": "Trạng từ chỉ tần suất (thường xuyên, thường xuyên, thường xuyên) được đặt trực tiếp trước động từ chính.",
+      "hintLevel3": "Cấu trúc: He + often / frequently / regularly + works."
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã đặt một trạng từ tần số trước động từ chính 'works' trong Simple Present.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả tần suất bạn hoặc đồng nghiệp làm điều gì đó tại nơi làm việc.",
+      "bandTip": "Sử dụng các trạng từ như 'consistently' hoặc 'routinely' thay vì 'often' để thể hiện vốn từ vựng nâng cao hơn.",
+      "commonMistake": "Không đặt trạng từ chỉ tần suất sau động từ chính; họ phải đến ngay trước nó."
+    },
+    "reusablePattern": "He often works overtime to meet project deadlines."
+  },
+  {
+    "id": "sp-build-env-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a city's approach to pollution control"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The city government [________] strict regulations to reduce air pollution."
+    },
+    "chips": [
+      "enforces",
+      "enforce",
+      "enforced",
+      "is enforcing",
+      "strict regulations",
+      "The city government"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The city government",
+        "enforces",
+        "strict regulations"
+      ],
+      "distractors": [
+        "enforce",
+        "enforced",
+        "is enforcing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'enforces' là dạng số ít ngôi thứ ba phù hợp của 'enforce' trong Simple Present.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả những gì chính quyền địa phương làm để giải quyết các vấn đề môi trường.",
+      "bandTip": "Các động từ như 'enforces', 'implements' hoặc 'introduces' nghe có vẻ học thuật hơn 'has' hoặc 'uses'.",
+      "commonMistake": "Không sử dụng 'enforce' (dạng cơ bản) hoặc 'is enforcing' (liên tục) với chủ ngữ số ít trong ngữ cảnh thông thường."
+    },
+    "reusablePattern": "The city government enforces strict regulations to reduce air pollution."
+  },
+  {
+    "id": "sp-build-env-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing people's recycling habits"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many residents [________] their household waste into different bins."
+    },
+    "chips": [
+      "sort",
+      "sorts",
+      "sorted",
+      "do not sort",
+      "their household waste",
+      "Many residents"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many residents",
+        "do not sort",
+        "their household waste"
+      ],
+      "distractors": [
+        "sort",
+        "sorts",
+        "sorted"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, plural subject",
+      "pattern": "subject (plural) + do not + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'do not sort' là dạng phủ định Simple Present chính xác cho chủ ngữ số nhiều 'many residents'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận lý do tại sao tỷ lệ tái chế vẫn ở mức thấp ở nhiều cộng đồng.",
+      "bandTip": "Giải thích lý do tại sao mọi người do not phân loại rác thải — 'due to a lack of awareness' — sẽ bổ sung thêm chiều sâu cho câu trả lời IELTS của bạn.",
+      "commonMistake": "Không sử dụng 'sorts' (dạng ngôi thứ ba số ít) với chủ ngữ số nhiều 'many residents'."
+    },
+    "reusablePattern": "Many residents do not sort their household waste into different bins."
+  },
+  {
+    "id": "sp-build-env-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing use of renewable energy at home"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Solar energy [________] households with a clean and sustainable power source."
+    },
+    "chips": [
+      "provides",
+      "provide",
+      "provided",
+      "is providing",
+      "with a clean and sustainable power source",
+      "Solar energy"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Solar energy",
+        "provides",
+        "with a clean and sustainable power source"
+      ],
+      "distractors": [
+        "provide",
+        "provided",
+        "is providing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + complement"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'provides' khớp với chủ đề số ít 'solar energy' trong Simple Present.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi nói về lợi ích của việc sử dụng năng lượng tái tạo tại nhà.",
+      "bandTip": "Đối với Band 6+, hãy mở rộng câu này: 'Solar energy provides households with … which significantly reduces electricity bills.'",
+      "commonMistake": "Không sử dụng 'provide' (dạng cơ bản) hoặc 'is providing' (liên tục) để mô tả một sự thật chung chung."
+    },
+    "reusablePattern": "Solar energy provides households with a clean and sustainable power source."
+  },
+  {
+    "id": "sp-build-env-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Talking about climate change as a global concern"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Climate change [________] a serious threat to biodiversity worldwide."
+    },
+    "chips": [
+      "poses",
+      "pose",
+      "posed",
+      "is posing",
+      "a serious threat to biodiversity worldwide",
+      "Climate change"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Climate change",
+        "poses",
+        "a serious threat to biodiversity worldwide"
+      ],
+      "distractors": [
+        "pose",
+        "posed",
+        "is posing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'poses' biến cách chính xác động từ cho chủ ngữ số ít 'climate change'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi trình bày tuyên bố về tác động của biến đổi khí hậu.",
+      "bandTip": "Cụm từ 'poses a serious threat to' là một cụm từ tuyệt vời cho IELTS Writing Task 2.",
+      "commonMistake": "Không sử dụng 'is posing' - khi nêu một sự thật chung chung hoặc tình huống đang diễn ra là sự thật, hãy sử dụng Simple Present, không dùng liên tục."
+    },
+    "reusablePattern": "Climate change poses a serious threat to biodiversity worldwide."
+  },
+  {
+    "id": "sp-build-tech-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing how AI is used in everyday life"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Artificial intelligence [________] many industries by automating repetitive tasks."
+    },
+    "chips": [
+      "transforms",
+      "transform",
+      "transformed",
+      "is transforming",
+      "many industries by automating repetitive tasks",
+      "Artificial intelligence"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Artificial intelligence",
+        "transforms",
+        "many industries by automating repetitive tasks"
+      ],
+      "distractors": [
+        "transform",
+        "transformed",
+        "is transforming"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'transforms' là dạng Simple Present được biến cách chính xác cho chủ ngữ số ít 'artificial intelligence'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả tác động chung của AI đến cuộc sống và công việc hàng ngày.",
+      "bandTip": "Động từ 'transforms' mạnh hơn 'changes'; việc sử dụng các động từ chính xác sẽ làm tăng điểm tài nguyên từ vựng của bạn.",
+      "commonMistake": "Không sử dụng 'transform' (dạng cơ bản) với chủ ngữ số ít; luôn thêm -s."
+    },
+    "reusablePattern": "Artificial intelligence transforms many industries by automating repetitive tasks."
+  },
+  {
+    "id": "sp-build-tech-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing a limitation of social media"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Social media [________] always encourage healthy communication among teenagers."
+    },
+    "chips": [
+      "does not",
+      "do not",
+      "encourages",
+      "encourage",
+      "always encourage healthy communication among teenagers",
+      "Social media"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Social media",
+        "does not",
+        "always encourage healthy communication among teenagers"
+      ],
+      "distractors": [
+        "do not",
+        "encourages",
+        "encourage"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, third-person singular",
+      "pattern": "subject (singular) + does not + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'does not' là trợ động từ phủ định phù hợp cho chủ ngữ số ít 'social media'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về những hạn chế của nền tảng truyền thông xã hội.",
+      "bandTip": "Thêm lý do — 'Social media does not always encourage … because it often promotes shallow interaction' — nâng câu trả lời lên Band 6+.",
+      "commonMistake": "Không sử dụng 'do not' với danh từ số ít 'social media'; nó yêu cầu 'does not'."
+    },
+    "reusablePattern": "Social media does not always encourage healthy communication among teenagers."
+  },
+  {
+    "id": "sp-build-tech-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing daily device usage among young people"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many young people [________] their smartphones to communicate, learn, and entertain themselves."
+    },
+    "chips": [
+      "use",
+      "uses",
+      "used",
+      "are using",
+      "their smartphones to communicate, learn, and entertain themselves",
+      "Many young people"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many young people",
+        "use",
+        "their smartphones to communicate, learn, and entertain themselves"
+      ],
+      "distractors": [
+        "uses",
+        "used",
+        "are using"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, plural subject",
+      "pattern": "subject (plural) + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'use' (dạng cơ sở) phù hợp với chủ ngữ số nhiều 'many young people'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về cách giới trẻ tương tác hàng ngày với công nghệ kỹ thuật số.",
+      "bandTip": "Liệt kê ba mục đích bằng dấu phẩy — 'to communicate, learn, and entertain' — cho thấy cấu trúc câu phù hợp cho IELTS.",
+      "commonMistake": "Không sử dụng 'uses' (dạng số ít) với chủ ngữ số nhiều như 'many young people'."
+    },
+    "reusablePattern": "Many young people use their smartphones to communicate, learn, and entertain themselves."
+  },
+  {
+    "id": "sp-build-tech-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Talking about the role of digital education"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Online learning platforms [________] students with access to global educational resources."
+    },
+    "chips": [
+      "provide",
+      "provides",
+      "provided",
+      "are providing",
+      "students with access to global educational resources",
+      "Online learning platforms"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Online learning platforms",
+        "provide",
+        "students with access to global educational resources"
+      ],
+      "distractors": [
+        "provides",
+        "provided",
+        "are providing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, plural subject",
+      "pattern": "subject (plural) + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'provide' (dạng cơ bản) là lựa chọn đúng cho chủ ngữ số nhiều 'online learning platforms'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về cách các công cụ kỹ thuật số mở rộng khả năng tiếp cận giáo dục.",
+      "bandTip": "Cụm từ 'provide students with access to' là một đoạn học thuật có tần suất sử dụng cao đáng ghi nhớ trong IELTS Writing.",
+      "commonMistake": "Không sử dụng 'provides' (số ít) với chủ ngữ số nhiều như 'online learning platforms'."
+    },
+    "reusablePattern": "Online learning platforms provide students with access to global educational resources."
+  },
+  {
+    "id": "sp-build-edu-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a school's examination policy"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The school [________] students with written examinations every semester."
+    },
+    "chips": [
+      "assesses",
+      "assess",
+      "assessed",
+      "is assessing",
+      "students with written examinations every semester",
+      "The school"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The school",
+        "assesses",
+        "students with written examinations every semester"
+      ],
+      "distractors": [
+        "assess",
+        "assessed",
+        "is assessing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'assesses' là dạng biến cách chính xác cho chủ ngữ số ít 'the school'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giải thích cách các tổ chức giáo dục đánh giá thành tích của học sinh.",
+      "bandTip": "Động từ 'assesses' mang tính học thuật hơn 'tests'; sử dụng nó trong IELTS Writing Task 2 có thể nâng cao điểm số của bạn.",
+      "commonMistake": "Không sử dụng 'assess' (dạng cơ bản) với chủ ngữ số ít; luôn thêm -es."
+    },
+    "reusablePattern": "The school assesses students with written examinations every semester."
+  },
+  {
+    "id": "sp-build-edu-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing a limitation of homework"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Excessive homework [________] guarantee better academic performance."
+    },
+    "chips": [
+      "does not",
+      "do not",
+      "guarantee",
+      "guarantees",
+      "better academic performance",
+      "Excessive homework"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Excessive homework",
+        "does not",
+        "guarantee"
+      ],
+      "distractors": [
+        "do not",
+        "guarantees",
+        "better academic performance"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, third-person singular",
+      "pattern": "subject (singular) + does not + V (base form)"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'does not guarantee' phủ định chính xác chủ ngữ số ít 'excessive homework'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi lập luận rằng số lượng bài tập về nhà is not là chìa khóa thành công trong học tập.",
+      "bandTip": "Bạn có thể mở rộng điều này thành: 'Excessive homework does not guarantee better performance; in fact, it may increase stress.'",
+      "commonMistake": "Không sử dụng 'guarantees' sau 'does not' - sau 'does not', luôn sử dụng dạng cơ bản của động từ."
+    },
+    "reusablePattern": "Excessive homework does not guarantee better academic performance."
+  },
+  {
+    "id": "sp-build-edu-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing university students' study habits"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Most university students [________] part-time jobs to support their studies."
+    },
+    "chips": [
+      "take",
+      "takes",
+      "took",
+      "are taking",
+      "part-time jobs to support their studies",
+      "Most university students"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Most university students",
+        "take",
+        "part-time jobs to support their studies"
+      ],
+      "distractors": [
+        "takes",
+        "took",
+        "are taking"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, plural subject",
+      "pattern": "subject (plural) + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'take' (dạng cơ sở) phù hợp với chủ ngữ số nhiều 'most university students'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về cách học sinh cân bằng giữa công việc và học tập.",
+      "bandTip": "Thêm lý do: 'Most university students take part-time jobs to support their studies, especially those from low-income families.'",
+      "commonMistake": "Không sử dụng 'takes' (dạng số ít) với chủ ngữ số nhiều như 'most university students'."
+    },
+    "reusablePattern": "Most university students take part-time jobs to support their studies."
+  },
+  {
+    "id": "sp-build-edu-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the benefit of critical thinking in education"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Critical thinking [________] students to analyse problems from multiple perspectives."
+    },
+    "chips": [
+      "enables",
+      "enable",
+      "enabled",
+      "is enabling",
+      "students to analyse problems from multiple perspectives",
+      "Critical thinking"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Critical thinking",
+        "enables",
+        "students to analyse problems from multiple perspectives"
+      ],
+      "distractors": [
+        "enable",
+        "enabled",
+        "is enabling"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'enables' biến cách chính xác động từ cho chủ ngữ số ít 'critical thinking'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 hoặc Writing Task 2 khi thảo luận về giá trị của việc dạy kỹ năng phân tích.",
+      "bandTip": "Cấu trúc 'enables + object + to + infinitive' là một mẫu phức tạp thường được sử dụng trong tiếng Anh học thuật.",
+      "commonMistake": "Không sử dụng 'enable' (dạng cơ bản) với chủ ngữ số ít; thêm -s để tạo thành 'enables'."
+    },
+    "reusablePattern": "Critical thinking enables students to analyse problems from multiple perspectives."
+  },
+  {
+    "id": "sp-build-health-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing benefits of regular exercise"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Regular exercise [________] both physical and mental well-being."
+    },
+    "chips": [
+      "improves",
+      "improve",
+      "improved",
+      "is improving",
+      "both physical and mental well-being",
+      "Regular exercise"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Regular exercise",
+        "improves",
+        "both physical and mental well-being"
+      ],
+      "distractors": [
+        "improve",
+        "improved",
+        "is improving"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'improves' là động từ được biến cách chính xác cho chủ ngữ số ít 'regular exercise'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả lợi ích sức khỏe của hoạt động thể chất.",
+      "bandTip": "Để đa dạng, hãy thay thế 'improves' bằng 'enhances' hoặc 'boosts' để thể hiện phạm vi từ vựng rộng hơn.",
+      "commonMistake": "Không sử dụng 'is improving' - sử dụng Simple Present, không liên tục, khi nêu một thông tin chung về sức khỏe."
+    },
+    "reusablePattern": "Regular exercise improves both physical and mental well-being."
+  },
+  {
+    "id": "sp-build-health-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Arguing that diet alone is insufficient"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "A healthy diet [________] replace the need for regular physical activity."
+    },
+    "chips": [
+      "does not",
+      "do not",
+      "replace",
+      "replaces",
+      "the need for regular physical activity",
+      "A healthy diet"
+    ],
+    "answer": {
+      "correctOrder": [
+        "A healthy diet",
+        "does not",
+        "replace"
+      ],
+      "distractors": [
+        "do not",
+        "replaces",
+        "the need for regular physical activity"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, third-person singular",
+      "pattern": "subject (singular) + does not + V (base form)"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'does not replace' sử dụng chính xác thể phủ định với chủ ngữ số ít 'a healthy diet'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi giải thích rằng sức khỏe đòi hỏi cả chế độ ăn kiêng và tập thể dục cùng nhau.",
+      "bandTip": "Thêm ưu đãi: 'While diet is crucial, a healthy diet does not replace the need for regular activity.'",
+      "commonMistake": "Không sử dụng 'replaces' sau 'does not'; động từ phải ở dạng cơ bản sau trợ động từ phủ định."
+    },
+    "reusablePattern": "A healthy diet does not replace the need for regular physical activity."
+  },
+  {
+    "id": "sp-build-health-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing how stress affects people"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many working adults [________] from stress-related illnesses due to poor work-life balance."
+    },
+    "chips": [
+      "suffer",
+      "suffers",
+      "suffered",
+      "are suffering",
+      "from stress-related illnesses due to poor work-life balance",
+      "Many working adults"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many working adults",
+        "suffer",
+        "from stress-related illnesses due to poor work-life balance"
+      ],
+      "distractors": [
+        "suffers",
+        "suffered",
+        "are suffering"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, plural subject",
+      "pattern": "subject (plural) + V (base form) + prepositional phrase"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'suffer' (dạng cơ sở) phù hợp với chủ ngữ số nhiều 'many working adults'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi thảo luận về cách các mô hình công việc hiện đại ảnh hưởng đến sức khỏe.",
+      "bandTip": "Thêm mệnh đề nguyên nhân: '… due to poor work-life balance, which highlights the importance of setting boundaries.'",
+      "commonMistake": "Không sử dụng 'suffers' (dạng số ít) với chủ ngữ số nhiều như 'many working adults'."
+    },
+    "reusablePattern": "Many working adults suffer from stress-related illnesses due to poor work-life balance."
+  },
+  {
+    "id": "sp-build-health-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the role of government in public health"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The government [________] free healthcare services to all citizens."
+    },
+    "chips": [
+      "provides",
+      "provide",
+      "provided",
+      "is providing",
+      "free healthcare services to all citizens",
+      "The government"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The government",
+        "provides",
+        "free healthcare services to all citizens"
+      ],
+      "distractors": [
+        "provide",
+        "provided",
+        "is providing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'provides' là biến cách Simple Present chính xác cho chủ đề số ít 'the government'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về trách nhiệm của chính phủ đối với sức khỏe cộng đồng.",
+      "bandTip": "Bạn có thể mở rộng điều này: 'The government provides free healthcare services, which significantly reduces financial burdens on low-income families.'",
+      "commonMistake": "Không sử dụng 'provide' (dạng cơ sở) với chủ đề số ít như 'the government'; thêm -s."
+    },
+    "reusablePattern": "The government provides free healthcare services to all citizens."
+  },
+  {
+    "id": "sp-build-work-01",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing a company's employment policy"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "The company [________] flexible working hours to improve employee productivity."
+    },
+    "chips": [
+      "offers",
+      "offer",
+      "offered",
+      "is offering",
+      "flexible working hours to improve employee productivity",
+      "The company"
+    ],
+    "answer": {
+      "correctOrder": [
+        "The company",
+        "offers",
+        "flexible working hours to improve employee productivity"
+      ],
+      "distractors": [
+        "offer",
+        "offered",
+        "is offering"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'offers' là dạng Simple Present được biến cách chính xác cho chủ ngữ số ít 'the company'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả các chính sách hoặc lợi ích tại nơi làm việc trong công việc của bạn.",
+      "bandTip": "Thay vì 'offers', hãy thử 'provides' hoặc 'grants' để thêm đa dạng và hiển thị vốn từ vựng rộng hơn.",
+      "commonMistake": "Không sử dụng 'offer' (dạng cơ bản) với chủ ngữ số ít; luôn thêm -s hoặc -es."
+    },
+    "reusablePattern": "The company offers flexible working hours to improve employee productivity."
+  },
+  {
+    "id": "sp-build-work-02",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the downside of automation at work"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Automation [________] always create new job opportunities for displaced workers."
+    },
+    "chips": [
+      "does not",
+      "do not",
+      "create",
+      "creates",
+      "new job opportunities for displaced workers",
+      "Automation"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Automation",
+        "does not",
+        "create"
+      ],
+      "distractors": [
+        "do not",
+        "creates",
+        "new job opportunities for displaced workers"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present negative, third-person singular",
+      "pattern": "subject (singular) + does not + V (base form)"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'does not create' là âm Simple Present cho chủ ngữ số ít 'automation'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về các rủi ro của tự động hóa và chuyển dịch công việc.",
+      "bandTip": "Việc thêm 'in the short term' làm cho đối số có nhiều sắc thái hơn: 'Automation does not always create new opportunities in the short term.'",
+      "commonMistake": "Không sử dụng 'creates' sau 'does not'; động từ phải ở dạng cơ bản sau 'does not'."
+    },
+    "reusablePattern": "Automation does not always create new job opportunities for displaced workers."
+  },
+  {
+    "id": "sp-build-work-03",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing what employees do to improve their skills"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Many employees [________] professional development courses to advance their careers."
+    },
+    "chips": [
+      "attend",
+      "attends",
+      "attended",
+      "are attending",
+      "professional development courses to advance their careers",
+      "Many employees"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Many employees",
+        "attend",
+        "professional development courses to advance their careers"
+      ],
+      "distractors": [
+        "attends",
+        "attended",
+        "are attending"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, plural subject",
+      "pattern": "subject (plural) + V (base form) + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'attend' (dạng cơ bản) đúng cho chủ ngữ số nhiều 'many employees'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi mô tả những gì người lao động làm để phát triển nghề nghiệp.",
+      "bandTip": "Thay thế 'attend' bằng 'enrol in' để có một sự thay thế trang trọng, cụ thể hơn trong IELTS Writing Task 2.",
+      "commonMistake": "Không sử dụng 'attends' (dạng số ít) với chủ ngữ số nhiều; 'many employees' yêu cầu động từ cơ sở."
+    },
+    "reusablePattern": "Many employees attend professional development courses to advance their careers."
+  },
+  {
+    "id": "sp-build-work-04",
+    "type": "BUILD",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the impact of remote work on collaboration"
+    },
+    "prompt": {
+      "instruction": "Build the sentence using the chips.",
+      "baseSentence": "Remote work [________] employees to maintain a better work-life balance."
+    },
+    "chips": [
+      "allows",
+      "allow",
+      "allowed",
+      "is allowing",
+      "employees to maintain a better work-life balance",
+      "Remote work"
+    ],
+    "answer": {
+      "correctOrder": [
+        "Remote work",
+        "allows",
+        "employees to maintain a better work-life balance"
+      ],
+      "distractors": [
+        "allow",
+        "allowed",
+        "is allowing"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present, third-person singular",
+      "pattern": "subject (singular) + V-s/V-es + object"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Chính xác — 'allows' là động từ được biến cách chính xác cho chủ ngữ số ít 'remote work'.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về lợi ích của chính sách làm việc từ xa.",
+      "bandTip": "Cấu trúc 'allows + object + to + infinitive' là một mẫu học thuật hữu ích trong cả Writing Task 2 và Speaking Part 3.",
+      "commonMistake": "Không sử dụng 'allow' (dạng cơ sở) với chủ đề số ít như 'remote work'; luôn thêm -s."
+    },
+    "reusablePattern": "Remote work allows employees to maintain a better work-life balance."
+  },
+  {
+    "id": "sp-transform-env-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a body paragraph about industrial pollution"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Factories release harmful gases into the atmosphere.",
+        "This process damages the ozone layer."
+      ],
+      "constraints": [
+        "Use a causal connector (e.g., which, thereby, thus)",
+        "Maintain Simple Present throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Factories release harmful gases into the atmosphere, which damages the ozone layer.",
+      "requiredIdeas": [
+        "factories releasing gases",
+        "damage to the ozone layer"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "S + V + O, which + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng mệnh đề quan hệ với 'which' để kết nối nguyên nhân và kết quả trong một câu trang trọng.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi giải thích tác động môi trường của các hoạt động công nghiệp.",
+      "bandTip": "Sử dụng 'which + V' để thêm hậu quả là cấu trúc mệnh đề quan hệ Band 6–7 thường được dùng trong IELTS.",
+      "commonMistake": "Đừng chia câu này thành hai câu ngắn trong văn bản trang trọng; kết hợp các ý tưởng với 'which' cho thấy phạm vi ngữ pháp cao hơn."
+    },
+    "reusablePattern": "Factories release harmful gases into the atmosphere, which damages the ozone layer."
+  },
+  {
+    "id": "sp-transform-env-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing about conservation and individual responsibility"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "People use reusable bags.",
+        "This reduces plastic waste significantly."
+      ],
+      "constraints": [
+        "Use 'by + V-ing' to show the method",
+        "Maintain Simple Present",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "People reduce plastic waste significantly by using reusable bags.",
+      "requiredIdeas": [
+        "reusable bags",
+        "reducing plastic waste"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "they're"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present with by + gerund",
+      "pattern": "S + V + O + by + V-ing",
+      "mustContainComma": false
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng cấu trúc 'by + V-ing' để liên kết rõ ràng hành động và kết quả của nó.",
+      "ieltsUsage": "Hữu ích trong các đoạn nội dung Writing Task 2 khi giải thích cách các cá nhân có thể giảm thiểu thiệt hại cho môi trường.",
+      "bandTip": "Cấu trúc 'by + V-ing' thể hiện sự gắn kết giữa nguyên nhân và phương pháp, được khen thưởng trong IELTS Writing.",
+      "commonMistake": "Không viết 'by use' — sau 'by', luôn sử dụng dạng danh động từ (-ing), không phải dạng cơ sở."
+    },
+    "reusablePattern": "People reduce plastic waste significantly by using reusable bags."
+  },
+  {
+    "id": "sp-transform-tech-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Explaining how AI increases efficiency in the workplace"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "AI automates repetitive tasks.",
+        "This allows workers to focus on creative work."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Simple Present throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "AI automates repetitive tasks, which allows workers to focus on creative work.",
+      "requiredIdeas": [
+        "AI automating tasks",
+        "workers focusing on creative work"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "S + V + O, which + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã nối hai ý tưởng bằng mệnh đề quan hệ không xác định bằng cách sử dụng 'which'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi giải thích lợi ích của AI hoặc công nghệ trong môi trường chuyên nghiệp.",
+      "bandTip": "Mẫu 'S + V + O, which + V' là dấu hiệu đặc trưng của cách viết Band 6–7; thực hành sử dụng nó trong tất cả các đoạn thân bài Task 2.",
+      "commonMistake": "Không bỏ dấu phẩy trước 'which' trong mệnh đề quan hệ không xác định - nó làm thay đổi ý nghĩa."
+    },
+    "reusablePattern": "AI automates repetitive tasks, which allows workers to focus on creative work."
+  },
+  {
+    "id": "sp-transform-tech-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing how social media affects communication"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Social media connects people across the world.",
+        "However, it also spreads misinformation rapidly."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., although, while, whereas)",
+        "Maintain Simple Present throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Although social media connects people across the world, it also spreads misinformation rapidly.",
+      "requiredIdeas": [
+        "social media connecting people",
+        "spreading misinformation"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "Although + S + V + O, S + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'although' để tạo một mệnh đề nhượng bộ, cân bằng hai ý tưởng tương phản trong một câu.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày một lập luận cân bằng về ưu điểm và nhược điểm của công nghệ.",
+      "bandTip": "Bắt đầu một câu bằng 'Although' báo hiệu tư duy cân bằng, điều mà giám khảo đánh giá ở Task 2 với điểm Mạch lạc và Liên kết cao hơn.",
+      "commonMistake": "Không sử dụng 'but' trong văn bản học thuật trang trọng - thay vào đó hãy sử dụng các từ nối nhượng bộ như 'although', 'while' hoặc 'whereas'."
+    },
+    "reusablePattern": "Although social media connects people across the world, it also spreads misinformation rapidly."
+  },
+  {
+    "id": "sp-transform-edu-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Arguing for the value of university education"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "A university degree equips graduates with specialist knowledge.",
+        "This improves their employment prospects."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Simple Present throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "A university degree equips graduates with specialist knowledge, which improves their employment prospects.",
+      "requiredIdeas": [
+        "university degree providing knowledge",
+        "improved employment prospects"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "S + V + O, which + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã kết hợp cả hai ý tưởng bằng cách sử dụng mệnh đề quan hệ không xác định với 'which'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi xây dựng lập luận về lợi ích của giáo dục đại học.",
+      "bandTip": "Động từ 'equips' theo sau là 'with' là một cách sắp xếp học thuật hữu ích; ghi nhớ nó cho IELTS Writing Task 2.",
+      "commonMistake": "Đừng viết hai câu ngắn; kết hợp chúng với 'which' thể hiện mức độ ngữ pháp cao hơn."
+    },
+    "reusablePattern": "A university degree equips graduates with specialist knowledge, which improves their employment prospects."
+  },
+  {
+    "id": "sp-transform-edu-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing whether exams are a reliable assessment method"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Exams measure a student's ability under pressure.",
+        "However, they do not assess creativity or practical skills."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., while, although)",
+        "Maintain Simple Present throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While exams measure a student's ability under pressure, they do not assess creativity or practical skills.",
+      "requiredIdeas": [
+        "exams measuring ability under pressure",
+        "not assessing creativity or practical skills"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "While + S + V + O, S + do not + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'while' để đối chiếu hai ý tưởng về bài kiểm tra trong một câu trang trọng.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày quan điểm cân bằng về những hạn chế của đánh giá truyền thống.",
+      "bandTip": "Các cấu trúc như 'While … , they do not …' báo hiệu một đối số có sắc thái, đặc trưng của cách viết Band 6.5–7.",
+      "commonMistake": "Không sử dụng 'don't' in formal academic writing — always write 'do not' để duy trì đăng ký chính xác."
+    },
+    "reusablePattern": "While exams measure a student's ability under pressure, they do not assess creativity or practical skills."
+  },
+  {
+    "id": "sp-transform-health-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Arguing that governments should invest more in preventive healthcare"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Preventive healthcare reduces the number of hospital admissions.",
+        "This saves the government significant medical expenditure."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Simple Present throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Preventive healthcare reduces the number of hospital admissions, which saves the government significant medical expenditure.",
+      "requiredIdeas": [
+        "preventive healthcare reducing admissions",
+        "saving government expenditure"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "S + V + O, which + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã liên kết thành công nguyên nhân và hậu quả tài chính bằng cách sử dụng mệnh đề quan hệ 'which'.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi đưa ra lập luận kinh tế về đầu tư của chính phủ vào y tế công cộng.",
+      "bandTip": "Các cụm từ như 'saves expenditure' và 'reduces admissions' thường gặp trong văn bản về sức khỏe học thuật — hãy sử dụng chúng một cách tự tin.",
+      "commonMistake": "Đừng viết 'which it saves' - 'which' đã đề cập đến chủ đề; do not thêm 'it' sau nó."
+    },
+    "reusablePattern": "Preventive healthcare reduces the number of hospital admissions..."
+  },
+  {
+    "id": "sp-transform-health-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing whether fast food should be restricted"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Fast food is affordable and convenient.",
+        "It contributes to obesity and poor nutrition."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., although, while)",
+        "Maintain Simple Present throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Although fast food is affordable and convenient, it contributes to obesity and poor nutrition.",
+      "requiredIdeas": [
+        "fast food being affordable and convenient",
+        "contributing to obesity and poor nutrition"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "Although + S + V + O, S + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'although' để thừa nhận một lợi thế trước khi đưa ra mối lo ngại về sức khỏe.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi thảo luận về ưu và nhược điểm của việc tiêu thụ thức ăn nhanh.",
+      "bandTip": "Bắt đầu bằng 'Although' để thừa nhận một quan điểm trước khi phản đối nó là một cấu trúc học thuật phức tạp đáng để thực hành.",
+      "commonMistake": "Không viết 'Although … , but …' - những từ nối này thừa với nhau; chỉ sử dụng một."
+    },
+    "reusablePattern": "Although fast food is affordable and convenient, it contributes to obesity and poor nutrition."
+  },
+  {
+    "id": "sp-transform-work-01",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Discussing advantages of remote work for productivity"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Remote work eliminates commuting time.",
+        "This gives employees more time for productive tasks."
+      ],
+      "constraints": [
+        "Use a relative clause with 'which'",
+        "Maintain Simple Present throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Remote work eliminates commuting time, which gives employees more time for productive tasks.",
+      "requiredIdeas": [
+        "remote work eliminating commuting time",
+        "more time for productive tasks"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "S + V + O, which + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã nối hai ý tưởng bằng một mệnh đề quan hệ không xác định để thể hiện một hệ quả rõ ràng.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày lập luận về lợi ích năng suất của làm việc từ xa.",
+      "bandTip": "Cấu trúc 'eliminates … , which gives …' thể hiện một chuỗi nhân quả phức tạp có giá trị trong việc chấm điểm IELTS Task 2.",
+      "commonMistake": "Đừng viết 'which it gives' - đại từ quan hệ 'which' đã thay thế chủ ngữ; do not lặp lại nó với 'it'."
+    },
+    "reusablePattern": "Remote work eliminates commuting time, which gives employees more time for productive tasks."
+  },
+  {
+    "id": "sp-transform-work-02",
+    "type": "TRANSFORM",
+    "level": "challenge",
+    "difficultyOrder": 3,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Arguing for and against automation in the workforce"
+    },
+    "prompt": {
+      "instruction": "Combine the two ideas into one formal sentence.",
+      "sourceSentences": [
+        "Automation increases efficiency in many industries.",
+        "However, it displaces a significant number of workers."
+      ],
+      "constraints": [
+        "Use a concessive connector (e.g., while, although)",
+        "Maintain Simple Present throughout",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "While automation increases efficiency in many industries, it displaces a significant number of workers.",
+      "requiredIdeas": [
+        "automation increasing efficiency",
+        "displacing workers"
+      ],
+      "requiredTokens": [],
+      "blockedTokens": [
+        "don't",
+        "can't",
+        "it's",
+        "but"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "While + S + V + O, S + V + O",
+      "mustContainComma": true
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Chính xác — bạn đã sử dụng 'while' để thừa nhận lợi ích của tự động hóa trước khi nêu bật chi phí xã hội của nó.",
+      "ieltsUsage": "Hữu ích trong Writing Task 2 khi trình bày quan điểm đa sắc thái về tác động của tự động hóa đối với việc làm.",
+      "bandTip": "'While … , it …' là một mẫu ngắn gọn và hiệu quả để viết các đoạn nội dung cân đối trong Task 2.",
+      "commonMistake": "Đừng viết 'While … , but it …' - 'while' và 'but' cùng nhau là dư thừa về mặt ngữ pháp."
+    },
+    "reusablePattern": "While automation increases efficiency in many industries, it displaces a significant number of workers."
+  },
+  {
+    "id": "sp-speak-env-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing personal environmental habits"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "Talk about what you do at home to protect the environment."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "At home, I try to reduce waste by recycling paper, plastic, and glass. I also switch off lights when I leave a room and use reusable bags when I go shopping. I believe these small habits make a real difference to the environment.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific environmental action at home"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "I + V (base form) or I + V-s"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'At home, I try to …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả thói quen cá nhân bằng cách sử dụng Simple Present một cách rõ ràng và tự nhiên.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về thói quen hàng ngày của bạn liên quan đến môi trường.",
+      "bandTip": "Đề cập đến hai hoặc ba hành động cụ thể - tái chế, tiết kiệm nước, sử dụng phương tiện giao thông công cộng - để đưa ra câu trả lời đầy đủ hơn, chất lượng Band 6.",
+      "commonMistake": "Đừng mô tả một hành động xảy ra một lần trong quá khứ; tập trung vào thói quen thường xuyên sử dụng Simple Present."
+    },
+    "reusablePattern": "At home, I try to reduce waste by recycling paper, plastic, and glass. I also switch off lights when I leave a room and..."
+  },
+  {
+    "id": "sp-speak-env-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing what governments can do about climate change"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "What do you think governments should do to address climate change?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I think governments need to invest heavily in renewable energy and impose stricter regulations on industrial pollution. They also need to educate the public about sustainable practices, because individuals play an equally important role in reducing carbon emissions.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a government policy or action related to climate change"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "Governments + V (base form) or subject + V-s/V-es"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I think governments need to …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã trình bày một ý tưởng chính sách rõ ràng bằng cách sử dụng Simple Present trong sổ đăng ký chính thức.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về giải pháp cho các vấn đề môi trường ở cấp quốc gia hoặc toàn cầu.",
+      "bandTip": "Đối với Band 6+, hãy ủng hộ đề xuất của bạn với lý do: 'Governments need to invest in renewables because fossil fuels are a leading cause of climate change.'",
+      "commonMistake": "Đừng chỉ nói những gì chính phủ 'should do' mà không giải thích lý do - đưa ra lý do để thể hiện khả năng phân tích."
+    },
+    "reusablePattern": "I think governments need to invest heavily in renewable energy and impose stricter regulations on industrial pollution...."
+  },
+  {
+    "id": "sp-speak-tech-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Discussing personal technology use"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "Describe how you use technology in your daily life."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I rely on technology for almost everything — I use my phone to communicate with friends, browse the internet for information, and manage my schedule. I also use apps to study English and track my fitness goals, so technology really plays a central role in my daily routine.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific way technology is used daily"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "I + V (base form)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I use technology to …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả rõ ràng thói quen sử dụng công nghệ của mình bằng cách sử dụng Simple Present.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về thói quen hàng ngày của bạn với công nghệ hoặc thiết bị.",
+      "bandTip": "Đặt tên cho các ứng dụng hoặc thiết bị cụ thể — 'I use Google Maps to navigate' — thay vì nói chung chung để nghe trôi chảy và tự tin hơn.",
+      "commonMistake": "Đừng trộn các thì một cách không cần thiết; giữ toàn bộ câu trả lời trong Simple Present khi mô tả thói quen hiện tại."
+    },
+    "reusablePattern": "I rely on technology for almost everything — I use my phone to communicate with friends..."
+  },
+  {
+    "id": "sp-speak-tech-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the impact of AI on society"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "Do you think artificial intelligence benefits society more than it harms it? Why?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I believe artificial intelligence generally benefits society more than it harms it. AI improves medical diagnosis, increases efficiency in businesses, and provides personalised learning experiences for students. However, it also poses risks like job displacement, so governments need to introduce policies that protect workers.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a benefit or risk of AI",
+        "a reasoned opinion"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "subject + V-s/V-es (general truth statements)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I believe artificial intelligence …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã đưa ra ý kiến ​​rõ ràng được hỗ trợ bằng các ví dụ, tất cả đều có trong Simple Present.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thể hiện và biện minh cho quan điểm cá nhân về tác động xã hội của công nghệ.",
+      "bandTip": "Đối với Band 6.5+, hãy bao gồm ưu đãi: 'While AI brings many benefits, it also creates challenges that society must address.'",
+      "commonMistake": "Đừng chỉ cho một điểm; Câu trả lời IELTS Part 3 sẽ mạnh mẽ hơn khi chúng bao gồm nhiều ý tưởng hoặc một sự nhượng bộ."
+    },
+    "reusablePattern": "I believe artificial intelligence generally benefits society more than it harms it. AI improves medical diagnosis..."
+  },
+  {
+    "id": "sp-speak-edu-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Talking about your current studies or learning habits"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "Talk about how you usually study or prepare for exams."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I usually start revising about two weeks before an exam. I make summary notes, practise past papers, and review difficult topics with a classmate. I find that explaining things to others really helps me to understand and remember the material better.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific study method or exam preparation habit"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "I + V (base form)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I usually study by …' hoặc 'When I prepare for exams, I …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả rõ ràng thói quen học tập của mình bằng cách sử dụng Simple Present.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về thói quen học tập của bạn hoặc cách bạn chuẩn bị cho bài kiểm tra.",
+      "bandTip": "Đưa ra một chuỗi các bước — 'First I …, then I …, finally I …' — để làm cho câu trả lời của bạn có tổ chức và trôi chảy hơn.",
+      "commonMistake": "Đừng chỉ nói 'I study hard' mà không nói cụ thể; giám khảo muốn nghe chi tiết về các phương pháp bạn sử dụng."
+    },
+    "reusablePattern": "I usually start revising about two weeks before an exam. I make summary notes, practise past papers..."
+  },
+  {
+    "id": "sp-speak-edu-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the purpose of university education"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "What do you think is the main purpose of a university education?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I think university education serves two main purposes: it equips students with specialist knowledge and develops critical thinking skills. Beyond career preparation, it also exposes students to diverse perspectives, which helps them become more well-rounded and responsible members of society.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a purpose of university education",
+        "a reasoned explanation"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "subject + V-s/V-es (general truth)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I think university education helps students to …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã đưa ra một câu trả lời sâu sắc và có tính phát triển về giáo dục bằng cách sử dụng Simple Present xuyên suốt.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận về vai trò hoặc giá trị của giáo dục đại học.",
+      "bandTip": "Đề cập đến nhiều mục đích - chuẩn bị nghề nghiệp VÀ phát triển cá nhân - cho thấy tư duy phân tích có giá trị Band 6.5+.",
+      "commonMistake": "Đừng giới hạn câu trả lời của bạn ở 'getting a good job'; giám khảo khen thưởng những câu trả lời vượt xa sự rõ ràng."
+    },
+    "reusablePattern": "I think university education serves two main purposes: it equips students with specialist knowledge and develops..."
+  },
+  {
+    "id": "sp-speak-health-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Discussing personal health habits"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "What do you do to stay healthy?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "To stay healthy, I try to exercise at least three times a week — usually I go jogging or do yoga. I also pay attention to my diet by eating more vegetables and less processed food. I think sleep is equally important, so I aim to get around eight hours every night.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a specific health habit — exercise, diet, or sleep"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "I + V (base form) / I + V-s/V-es"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'To stay healthy, I try to …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả thói quen sức khỏe của mình một cách rõ ràng và tự nhiên trong Simple Present.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về lối sống hoặc cách tiếp cận của bạn để duy trì sức khỏe tốt.",
+      "bandTip": "Đề cập đến ít nhất hai thói quen sức khỏe - tập thể dục và ăn kiêng - để phát triển câu trả lời của bạn và tránh những câu trả lời một dòng.",
+      "commonMistake": "Đừng nói 'I am doing exercise' - đối với thói quen thông thường, hãy sử dụng Simple Present: 'I exercise' hoặc 'I go jogging'."
+    },
+    "reusablePattern": "To stay healthy, I try to exercise at least three times a week — usually I go jogging or do yoga. I also pay attention..."
+  },
+  {
+    "id": "sp-speak-health-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing the role of government in promoting public health"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "Do you think it is the government's responsibility to ensure that citizens live a healthy lifestyle?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I think the government shares responsibility with individuals when it comes to public health. Governments need to fund healthcare systems, regulate unhealthy food marketing, and promote physical activity through public campaigns. However, individuals also need to take personal responsibility for their own choices.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a government role in public health",
+        "individual responsibility"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "Governments + V (base form) / subject + V-s/V-es"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I think the government has a role to play in …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã trình bày quan điểm cân bằng về trách nhiệm của chính phủ và cá nhân bằng cách sử dụng Simple Present.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi thảo luận xem trách nhiệm về sức khỏe thuộc về chính phủ hay cá nhân.",
+      "bandTip": "Một câu trả lời cân bằng — 'Governments need to … ; however, individuals also …' — thể hiện tư duy phức tạp có giá trị ở mức Band 6.5+.",
+      "commonMistake": "Đừng đưa ra câu trả lời phiến diện quá mức; giám khảo khen thưởng những câu trả lời thừa nhận cả hai mặt của một lập luận."
+    },
+    "reusablePattern": "I think the government shares responsibility with individuals when it comes to public health. Governments need to fund..."
+  },
+  {
+    "id": "sp-speak-work-01",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 1",
+      "context": "Describing your current job or work preferences"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "Talk about what kind of job you have or what kind of work you prefer."
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I currently work as a part-time English tutor and I really enjoy it. My job involves preparing lesson materials, running classes, and giving feedback to students. I prefer this type of work because it allows me to combine my passion for teaching with a flexible schedule.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "current job or work preference with a reason"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "I + V (base form) / My job + involves + V-ing"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I work as a … and I enjoy it because …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã mô tả rõ ràng công việc và sở thích của mình bằng cách sử dụng Simple Present.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 1 khi giám khảo hỏi về nghề nghiệp hoặc sở thích nghề nghiệp của bạn.",
+      "bandTip": "Cấu trúc 'My job involves + V-ing' là một cách mô tả trách nhiệm công việc một cách tự nhiên và trôi chảy trong bài thi Nói IELTS.",
+      "commonMistake": "Đừng chỉ nói 'I like my job' mà không giải thích bạn làm gì hoặc tại sao - hãy phát triển câu trả lời của bạn một cách chi tiết."
+    },
+    "reusablePattern": "I currently work as a part-time English tutor and I really enjoy it. My job involves preparing lesson materials..."
+  },
+  {
+    "id": "sp-speak-work-02",
+    "type": "SPEAK",
+    "level": "build_up",
+    "difficultyOrder": 2,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "speaking",
+      "part": "Part 3",
+      "context": "Discussing whether remote work benefits employees"
+    },
+    "prompt": {
+      "instruction": "Speak for 15 seconds using Simple Present.",
+      "cue": "Do you think remote work is better for employees than working in an office? Why?"
+    },
+    "speakingConfig": {
+      "durationSeconds": 15,
+      "allowSkip": true,
+      "allowTypeInstead": true
+    },
+    "answer": {
+      "sampleAnswer": "I think remote work offers some clear advantages — it eliminates commuting time, reduces stress, and gives employees more flexibility to manage their personal lives. However, it also removes the social interaction that an office environment provides, which some people genuinely need to stay motivated.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "a benefit of remote work",
+        "a limitation or counterpoint"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "requiredStructure": "subject + V-s/V-es (general claims)"
+    },
+    "scaffolding": {
+      "hintLevel1": "Bắt đầu với: 'I think remote work offers … , but it also …'",
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "feedback": {
+      "correct": "Làm tốt lắm - bạn đã đưa ra quan điểm công bằng về công việc từ xa với cả ưu điểm và hạn chế.",
+      "ieltsUsage": "Hữu ích trong Speaking Part 3 khi giám khảo yêu cầu bạn đánh giá một xu hướng hoặc chính sách tại nơi làm việc.",
+      "bandTip": "Đối với Band 6.5+, hãy bao gồm so sánh: 'Remote work suits some people better than others, depending on their role and personality.'",
+      "commonMistake": "Đừng chỉ đưa ra những lợi thế mà không có bất kỳ phản biện nào; IELTS Part 3 thưởng cho những câu trả lời cân bằng, có sắc thái."
+    },
+    "reusablePattern": "I think remote work offers some clear advantages — it eliminates commuting time, reduces stress..."
+  },
+  {
+    "id": "sp-master-env-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "environment",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about the environmental impact of fossil fuels"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express the main environmental problem caused by burning fossil fuels.",
+      "constraints": [
+        "Use Simple Present",
+        "Include a cause and its environmental effect",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Burning fossil fuels releases large quantities of greenhouse gases, which accelerates global warming and threatens ecosystems worldwide.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "burning fossil fuels",
+        "environmental damage or greenhouse gases"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "V-ing phrase / S + V + O, which + V + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã tạo ra một câu ngắn gọn, trang trọng thể hiện nguyên nhân và kết quả trong Simple Present.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong các đoạn nội dung Writing Task 2 về ô nhiễm hoặc biến đổi khí hậu.",
+      "bandTip": "Mẫu 'S + V + O, which + V + O' là cấu trúc Band 6–7 tần số cao; sử dụng nó một cách nhất quán trong các bài luận Task 2 của bạn.",
+      "commonMistake": "Không viết 'fossil fuels is releasing' - đối với những sự thật chung chung và những sự việc đang diễn ra, hãy sử dụng Simple Present không có dạng tiếp diễn."
+    },
+    "reusablePattern": "Burning fossil fuels releases large quantities of greenhouse gases..."
+  },
+  {
+    "id": "sp-master-tech-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "technology",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about the impact of AI on employment"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how artificial intelligence affects the job market.",
+      "constraints": [
+        "Use Simple Present",
+        "Include both a positive and a negative effect",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Artificial intelligence creates new high-skilled jobs in the technology sector while simultaneously displacing low-skilled workers in manufacturing and service industries.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "AI's effect on jobs",
+        "positive and negative employment impact"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "S + V + O + while + S + V + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Tuyệt vời - bạn đã nắm bắt được cả hai khía cạnh tác động của AI trong một câu trang trọng, cân bằng.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi trình bày quan điểm cân bằng về công nghệ và việc làm.",
+      "bandTip": "Sử dụng 'while simultaneously' để cân bằng hai tác dụng trong một câu là đặc điểm nổi bật của văn bản học thuật Band 7.",
+      "commonMistake": "Không viết hai câu ngắn riêng biệt; việc kết hợp các ý tưởng tương phản trong một câu sẽ thể hiện phạm vi ngữ pháp cao hơn."
+    },
+    "reusablePattern": "Artificial intelligence creates new high-skilled jobs in the technology sector while simultaneously displacing..."
+  },
+  {
+    "id": "sp-master-edu-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "education",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about the role of technology in education"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express how online learning affects the quality and accessibility of education.",
+      "constraints": [
+        "Use Simple Present",
+        "Mention both access and quality",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Online learning significantly expands access to education for students in remote areas, although it does not always guarantee the same quality of instruction as traditional classroom teaching.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "online learning expanding access",
+        "quality concerns or limitations"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "S + V + O + , although + S + does not + V + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã viết một câu chủ đề có sắc thái bao gồm cả lợi ích và hạn chế của việc học trực tuyến.",
+      "ieltsUsage": "Hữu ích như một câu luận điểm hoặc câu chủ đề trong các bài tiểu luận Writing Task 2 về giáo dục kỹ thuật số.",
+      "bandTip": "Việc thêm 'although' để giới thiệu một hạn chế sẽ làm cho câu chủ đề của bạn cân bằng hơn và thể hiện tư duy học thuật Band 7.",
+      "commonMistake": "Đừng chỉ viết về quyền truy cập mà không thừa nhận mối quan tâm về chất lượng - sự cân bằng là chìa khóa trong IELTS Task 2."
+    },
+    "reusablePattern": "Online learning significantly expands access to education for students in remote areas..."
+  },
+  {
+    "id": "sp-master-health-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "health",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about lifestyle diseases and their causes"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express the main cause of the rise in lifestyle diseases in modern society.",
+      "constraints": [
+        "Use Simple Present",
+        "Include a cause and its health consequence",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "The widespread adoption of sedentary lifestyles and poor dietary habits contributes significantly to the growing prevalence of chronic diseases such as obesity and diabetes.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "sedentary lifestyle or poor diet",
+        "rise in chronic or lifestyle diseases"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "S (noun phrase) + V-s/V-es + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã viết một câu trang trọng, chính xác liên kết nguyên nhân lối sống với hậu quả sức khỏe.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi thảo luận về lý do khiến tỷ lệ bệnh mãn tính gia tăng.",
+      "bandTip": "Lưu ý: 'the widespread adoption of … habits' là một chủ ngữ danh động từ — nó có số ít về mặt ngữ pháp và sử dụng 'contributes', không phải 'contribute'.",
+      "commonMistake": "Không viết 'contribute' với chủ ngữ cụm danh từ số ít; luôn kiểm tra sự hòa hợp giữa chủ ngữ và động từ với các cụm danh từ phức tạp."
+    },
+    "reusablePattern": "The widespread adoption of sedentary lifestyles and poor dietary habits contributes significantly to the growing..."
+  },
+  {
+    "id": "sp-master-work-01",
+    "type": "MASTER",
+    "level": "master",
+    "difficultyOrder": 4,
+    "topic": "work",
+    "ieltsUse": {
+      "skill": "writing",
+      "part": "Task 2",
+      "context": "Writing a topic sentence about the challenges of work-life balance"
+    },
+    "prompt": {
+      "instruction": "Write one sentence in 20 seconds.",
+      "cue": "Express why maintaining a healthy work-life balance is difficult for many workers today.",
+      "constraints": [
+        "Use Simple Present",
+        "Include a reason for the difficulty",
+        "Use formal register — no contractions"
+      ]
+    },
+    "answer": {
+      "sampleAnswer": "Many employees struggle to maintain a healthy work-life balance because the increasing demands of modern workplaces often extend well beyond standard working hours.",
+      "requiredTokens": [],
+      "tokenMatchMode": "any",
+      "requiredIdeas": [
+        "work-life balance difficulty",
+        "increasing workplace demands or long hours"
+      ]
+    },
+    "grammarCheck": {
+      "fixedGrammar": "simple present",
+      "pattern": "S + V + O + because + S + V + O"
+    },
+    "scaffolding": {
+      "hintLevel1": null,
+      "hintLevel2": null,
+      "hintLevel3": null
+    },
+    "fuzzyCheck": {
+      "checkGrammar": true,
+      "checkMeaning": true,
+      "checkFormality": true,
+      "checkConciseness": true
+    },
+    "feedback": {
+      "correct": "Xuất sắc - bạn đã thể hiện mối quan hệ nhân quả rõ ràng về sự cân bằng giữa công việc và cuộc sống chỉ bằng một câu trang trọng.",
+      "ieltsUsage": "Hữu ích như một câu chủ đề trong Writing Task 2 khi tranh luận về những áp lực mà nhân viên phải đối mặt ở nơi làm việc hiện đại.",
+      "bandTip": "Sử dụng 'struggle to + infinitive' là cách sắp xếp tự nhiên; ghép nó với mệnh đề 'because' để hiển thị một lập luận nhân quả hoàn chỉnh.",
+      "commonMistake": "Không viết 'many employees struggles' - 'many employees' là số nhiều và yêu cầu dạng cơ bản 'struggle', không phải 'struggles'."
+    },
+    "reusablePattern": "Many employees struggle to maintain a healthy work-life balance because the increasing demands of modern workplaces..."
+  }
+]
